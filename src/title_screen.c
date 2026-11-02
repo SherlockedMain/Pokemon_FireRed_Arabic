@@ -1319,7 +1319,7 @@ static void SpriteCallback_Slash(struct Sprite *sprite)
 #undef sTimer
 #undef sDeactivate
 
-// Arabic title: the «الأحمر الناري» plate is drawn with logo palette colours
+// Arabic title: the «اللهيب الأحمر» plate is drawn with logo palette colours
 // 80-84 (light to dark, top to bottom). The ramp pulses brighter and dimmer
 // in an uneven rhythm, so the letters and their flame tongues flicker like
 // fire while the gradient stays light on top. Paused during palette fades.

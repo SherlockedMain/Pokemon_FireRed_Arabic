@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Arabic title screen: «بوكيمون» logo, «الأحمر الناري» plate, «اضغط زر البدء»
+"""Arabic title screen: «بوكيمون» logo, «اللهيب الأحمر» plate, «اضغط زر البدء»
 and the translator credit, written into the title screen tile sheets/tilemaps.
 
     python3 tools/arabic/title_screen.py [--from-vanilla DIR]
@@ -41,7 +41,7 @@ def load_font(name, size):
         pass
     return font
 
-TITLE, PLATE = 'بوكيمون', 'الأحمر الناري'
+TITLE, PLATE = 'بوكيمون', 'اللهيب الأحمر'
 PRESS, CREDIT = 'اضغط زر البدء', 'تعريب أيوب شكري'
 
 # Logo palette (8bpp): existing yellows/blues, plus fire colours in unused slots 80-87.
@@ -295,6 +295,8 @@ def build_press_start(vanilla):
 
 if __name__ == '__main__':
     vanilla = sys.argv[sys.argv.index('--from-vanilla') + 1] if '--from-vanilla' in sys.argv else None
+    if '--plate' in sys.argv:                      # --plate "اللهيب الأحمر"
+        PLATE = sys.argv[sys.argv.index('--plate') + 1]
     if '--font' in sys.argv:                       # --font NAME  or  --font LOGO,PLATE
         f = sys.argv[sys.argv.index('--font') + 1].split(',')
         LOGO_FONT, PLATE_FONT = f[0], f[-1]
