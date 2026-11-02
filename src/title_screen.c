@@ -50,6 +50,8 @@ static void SetTitleScreenScene_Restart(s16 *data);
 static void SetTitleScreenScene_Cry(s16 *data);
 static void Task_TitleScreen_SlideWin0(u8 taskId);
 static void Task_TitleScreen_BlinkPressStart(u8 taskId);
+static void Task_TitleScreen_FlameTitle(u8 taskId);
+static void DestroyFlameTitleTask(void);
 static void SignalEndTitleScreenPaletteSomethingTask(void);
 static void UpdateScanlineEffectRegBuffer(s16 y);
 static void ScheduleStopScanlineEffect(void);
@@ -617,6 +619,7 @@ static void SetTitleScreenScene_Run(s16 *data)
     case 0:
         SetHelpContext(HELPCONTEXT_TITLE_SCREEN);
         CreateTask(Task_TitleScreen_BlinkPressStart, 0);
+        CreateTask(Task_TitleScreen_FlameTitle, 0);
 #if defined(FIRERED)
         CreateTask(Task_FlameSpawner, 5);
 #elif defined(LEAFGREEN)
@@ -685,6 +688,7 @@ static void SetTitleScreenScene_Restart(s16 *data)
         if (IsNotWaitingForBGMStop() && !gPaletteFade.active)
         {
             DestroyTask(FindTaskIdByFunc(Task_TitleScreen_BlinkPressStart));
+            DestroyFlameTitleTask();
             data[2] = 0;
             tState++;
         }
@@ -694,6 +698,7 @@ static void SetTitleScreenScene_Restart(s16 *data)
         if (data[2] >= 20)
         {
             DestroyTask(FindTaskIdByFunc(Task_TitleScreen_BlinkPressStart));
+            DestroyFlameTitleTask();
             tState++;
         }
         break;
@@ -1313,3 +1318,45 @@ static void SpriteCallback_Slash(struct Sprite *sprite)
 #undef sState
 #undef sTimer
 #undef sDeactivate
+
+// Arabic title: the «الأحمر الناري» plate is drawn with logo palette colours
+// 80-84 (light to dark, top to bottom). The ramp pulses brighter and dimmer
+// in an uneven rhythm, so the letters and their flame tongues flicker like
+// fire while the gradient stays light on top. Paused during palette fades.
+static const u16 sFlameTitleRamps[][5] = {
+    { RGB(31, 31, 18), RGB(31, 27, 5),  RGB(31, 20, 0), RGB(30, 13, 0), RGB(26, 5, 0) },  // base
+    { RGB(31, 31, 24), RGB(31, 31, 12), RGB(31, 25, 3), RGB(31, 18, 0), RGB(29, 9, 0) },  // brighter
+    { RGB(31, 29, 12), RGB(31, 23, 2),  RGB(30, 16, 0), RGB(28, 9, 0),  RGB(22, 3, 0) },  // dimmer
+};
+static const u8 sFlameTitleSequence[] = { 0, 1, 0, 2, 1, 1, 0, 2, 0, 1, 2, 0 };
+
+#define FLAME_TITLE_FIRST_COLOR 80
+#define FLAME_TITLE_FRAMES 5
+
+static void Task_TitleScreen_FlameTitle(u8 taskId)
+{
+    s16 *data = gTasks[taskId].data;
+    const u16 *ramp;
+    s32 i;
+
+    if (gPaletteFade.active)
+        return;
+    if (++data[0] < FLAME_TITLE_FRAMES)
+        return;
+    data[0] = 0;
+    data[1] = (data[1] + 1) % NELEMS(sFlameTitleSequence);
+    ramp = sFlameTitleRamps[sFlameTitleSequence[data[1]]];
+    for (i = 0; i < 5; i++)
+    {
+        gPlttBufferUnfaded[BG_PLTT_ID(0) + FLAME_TITLE_FIRST_COLOR + i] = ramp[i];
+        gPlttBufferFaded[BG_PLTT_ID(0) + FLAME_TITLE_FIRST_COLOR + i] = ramp[i];
+    }
+}
+
+static void DestroyFlameTitleTask(void)
+{
+    u8 taskId = FindTaskIdByFunc(Task_TitleScreen_FlameTitle);
+
+    if (taskId != TASK_NONE)
+        DestroyTask(taskId);
+}

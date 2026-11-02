@@ -25,8 +25,9 @@ FONTS = {'kufam': 'Kufam[wght].ttf', 'lalezar': 'Lalezar-Regular.ttf', 'jomhuria
 LOGO_FONT = 'jomhuria'     # «بوكيمون»
 PLATE_FONT = 'jomhuria'    # «الأحمر الناري»
 SMALL_FONT = 'kufam'       # «اضغط زر البدء» (the credit uses the game font)
-PLATE_RIGHT = 132          # plate's right edge: Charizard's head starts at x≈140
-PLATE_MAX_W = 112
+PLATE_RIGHT = 124          # plate's right edge: Charizard's head starts at x≈140
+PLATE_MAX_W = 96
+FLAME_TONGUES = True       # small flames rising from the plate (they flicker with the palette cycle)
 
 def load_font(name, size):
     font = ImageFont.truetype(os.path.join(HERE, 'fonts', FONTS[name]), size, layout_engine=ImageFont.Layout.RAQM)
@@ -141,6 +142,38 @@ def paint(scr, mask, ox, oy, fill_ramp, outline, outline_r, extrude, extrude_n, 
             elif ep[x, y]:
                 px[X, Y] = extrude
 
+def flame_tongues(scr, mask, ox, oy, seed=7):
+    """Small teardrop flames rising from the top edges of the plate's letters,
+    in the fire ramp (tip light, base dark) so the palette cycle animates them."""
+    import random
+    rnd = random.Random(seed)
+    px, mp = scr.load(), mask.load()
+    w, h = mask.size
+    tops = {}
+    for x in range(w):
+        for y in range(h):
+            if mp[x, y]:
+                tops[x] = y
+                break
+    x = 1
+    while x < w - 1:
+        if x in tops and (x - 1) in tops and (x + 1) in tops:
+            height = rnd.randint(3, 7)
+            lean = rnd.choice((-1, 0, 0, 1))
+            base_y = oy + tops[x] - 2                  # just above the letter's outline
+            for k in range(height):                    # k = 0 at the base
+                t = k / max(1, height - 1)
+                half = 1 if k < height * 0.6 else 0     # 3px wide at the base, 1px at the tip
+                cx = ox + x + int(round(lean * t))
+                color = FIRE_RAMP[max(0, 3 - int(t * 4))]   # base deep orange -> tip pale yellow
+                for dx in range(-half, half + 1):
+                    X, Y = cx + dx, base_y - k
+                    if 0 <= X < scr.size[0] and 0 <= Y < scr.size[1] and px[X, Y] == 0:
+                        px[X, Y] = color
+            x += rnd.randint(5, 9)
+        else:
+            x += 1
+
 def game_text(text):
     """Pixels of `text` in the game font: list of rows of 1 (ink) / 2 (shadow) / 0, right-to-left laid out."""
     sheet = Image.open(os.path.join(ROOT, 'graphics', 'fonts', 'latin_normal.png')).load()
@@ -227,7 +260,9 @@ def build_logo(vanilla):
     if plate.size[1] > 28:
         plate = plate.resize((plate.size[0], 28), Image.NEAREST)
     px_ = PLATE_RIGHT - plate.size[0]
-    paint(scr, plate, px_, 68, FIRE_RAMP, 86, 2, 85, 2, inner=87)
+    if FLAME_TONGUES:
+        flame_tongues(scr, plate, px_, 70)
+    paint(scr, plate, px_, 70, FIRE_RAMP, 86, 2, 85, 2, inner=87)
     n = encode(scr.crop((0, 0, 256, 160)), 32, 0, 256, LOGO_PNG, LOGO_BIN, pal)
 
     lines = open(LOGO_PAL).read().replace('\r\n', '\n').split('\n')
