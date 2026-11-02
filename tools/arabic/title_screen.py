@@ -24,7 +24,7 @@ FONTS = {'kufam': 'Kufam[wght].ttf', 'lalezar': 'Lalezar-Regular.ttf', 'jomhuria
          'marhey': 'Marhey[wght].ttf', 'mada': 'Mada[wght].ttf'}
 LOGO_FONT = 'jomhuria'     # «بوكيمون»
 PLATE_FONT = 'jomhuria'    # «الأحمر الناري»
-SMALL_FONT = 'kufam'       # «اضغط زر البدء» and the credit
+SMALL_FONT = 'kufam'       # «اضغط زر البدء» (the credit uses the game font)
 PLATE_RIGHT = 132          # plate's right edge: Charizard's head starts at x≈140
 PLATE_MAX_W = 112
 
@@ -254,8 +254,8 @@ def build_press_start(vanilla):
     for y in range(144, 160):                     # bottom strip: black line + dark red, 16px tall
         for x in range(256):
             px[x, y] = 6 if y < 146 else 12
-    credit = small_text(CREDIT, 13)
-    stamp(scr, credit, (240 - len(credit[0])) // 2, 146 + (14 - len(credit)) // 2, 10, 7)
+    credit = game_text(CREDIT)                     # the credit stays in the game's own Arabic font
+    stamp(scr, credit, (240 - len(credit[0])) // 2, 146, 10, 7)
     return encode(scr, 16, 15, 512, PS_PNG, PS_BIN, scr.getpalette())
 
 if __name__ == '__main__':
