@@ -20,10 +20,11 @@ from shape import shape
 GFX = os.path.join(ROOT, 'graphics', 'title_screen')
 LOGO_PNG, LOGO_BIN, LOGO_PAL = [os.path.join(GFX, 'firered', 'game_title_logo' + e) for e in ('.png', '.bin', '.pal')]
 PS_PNG, PS_BIN = [os.path.join(GFX, 'copyright_press_start' + e) for e in ('.png', '.bin')]
-FONTS = {'lalezar': 'Lalezar-Regular.ttf', 'jomhuria': 'Jomhuria-Regular.ttf',
+FONTS = {'kufam': 'Kufam[wght].ttf', 'lalezar': 'Lalezar-Regular.ttf', 'jomhuria': 'Jomhuria-Regular.ttf',
          'marhey': 'Marhey[wght].ttf', 'mada': 'Mada[wght].ttf'}
 LOGO_FONT = 'jomhuria'     # «بوكيمون»
 PLATE_FONT = 'jomhuria'    # «الأحمر الناري»
+SMALL_FONT = 'kufam'       # «اضغط زر البدء» and the credit
 PLATE_RIGHT = 132          # plate's right edge: Charizard's head starts at x≈140
 PLATE_MAX_W = 112
 
@@ -31,7 +32,7 @@ def load_font(name, size):
     font = ImageFont.truetype(os.path.join(HERE, 'fonts', FONTS[name]), size, layout_engine=ImageFont.Layout.RAQM)
     try:                                           # variable fonts: use the heaviest weight
         names = [n.decode() if isinstance(n, bytes) else n for n in font.get_variation_names()]
-        for want in ('Black', 'ExtraBold', 'Bold'):
+        for want in (('Bold', 'SemiBold') if name == SMALL_FONT else ('Black', 'ExtraBold', 'Bold')):
             if want in names:
                 font.set_variation_by_name(want)
                 break
@@ -161,6 +162,27 @@ def game_text(text):
                 rows[y][x + k] = v if v in (1, 2) else 0
     return rows
 
+def small_text(text, max_h):
+    """Largest rendering of `text` in SMALL_FONT that is at most max_h px tall,
+    as rows of 1 (ink) / 2 (shadow, 1px down-right) / 0."""
+    best = None
+    for size in range(8, 40):
+        m = text_mask(text, size, font_name=SMALL_FONT)
+        if m.size[1] > max_h - 1:                  # keep a row for the shadow
+            break
+        best = m
+    mp, (w, h) = best.load(), best.size
+    rows = [[0] * (w + 1) for _ in range(h + 1)]
+    for y in range(h):
+        for x in range(w):
+            if mp[x, y]:
+                rows[y + 1][x + 1] = rows[y + 1][x + 1] or 2
+    for y in range(h):
+        for x in range(w):
+            if mp[x, y]:
+                rows[y][x] = 1
+    return rows
+
 def stamp(scr, rows, ox, oy, ink, shadow):
     px = scr.load()
     for y, row in enumerate(rows):
@@ -196,7 +218,7 @@ def build_logo(vanilla):
     pal_rgb = lambda v: tuple(pal[3 * v:3 * v + 3])
     tmask.putdata([1 if v and (sum(pal_rgb(v)) < 60 or sum(pal_rgb(v)) > 700) else 0
                    for v in tm.get_flattened_data()])   # only the ™'s own black/white pixels
-    scr.paste(tm, (max(0, wx - 14), 7 + word.size[1] - 6), tmask)   # ™ after the word = its left end
+    # (no ™ on the Arabic logo)
 
     ps = 14
     while text_mask(PLATE, ps + 2, font_name=PLATE_FONT).size[0] <= PLATE_MAX_W and ps < 80:
@@ -222,18 +244,18 @@ def build_press_start(vanilla):
     for y in range(128, 160):                     # clear PRESS START row and the copyright rows
         for x in range(256):
             px[x, y] = 0
-    press = game_text(PRESS)
+    press = small_text(PRESS, 14)
     w = len(press[0])
     bx0, bx1 = 40, 40 + w + 12                    # black box, now 16px tall (rows 16-17)
     for y in range(128, 144):
         for x in range(bx0, bx1):
             px[x, y] = 6
-    stamp(scr, press, bx0 + 6, 129, 5, 3)         # colours 1-5 blink, 6 stays
+    stamp(scr, press, bx0 + 6, 128 + (16 - len(press)) // 2, 5, 2)   # colours 1-5 blink, 6 stays
     for y in range(144, 160):                     # bottom strip: black line + dark red, 16px tall
         for x in range(256):
             px[x, y] = 6 if y < 146 else 12
-    credit = game_text(CREDIT)
-    stamp(scr, credit, (240 - len(credit[0])) // 2, 146, 10, 7)
+    credit = small_text(CREDIT, 13)
+    stamp(scr, credit, (240 - len(credit[0])) // 2, 146 + (14 - len(credit)) // 2, 10, 7)
     return encode(scr, 16, 15, 512, PS_PNG, PS_BIN, scr.getpalette())
 
 if __name__ == '__main__':
