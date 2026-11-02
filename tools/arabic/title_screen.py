@@ -20,7 +20,24 @@ from shape import shape
 GFX = os.path.join(ROOT, 'graphics', 'title_screen')
 LOGO_PNG, LOGO_BIN, LOGO_PAL = [os.path.join(GFX, 'firered', 'game_title_logo' + e) for e in ('.png', '.bin', '.pal')]
 PS_PNG, PS_BIN = [os.path.join(GFX, 'copyright_press_start' + e) for e in ('.png', '.bin')]
-LALEZAR = os.path.join(HERE, 'fonts', 'Lalezar-Regular.ttf')
+FONTS = {'lalezar': 'Lalezar-Regular.ttf', 'jomhuria': 'Jomhuria-Regular.ttf',
+         'marhey': 'Marhey[wght].ttf', 'mada': 'Mada[wght].ttf'}
+LOGO_FONT = 'jomhuria'     # «بوكيمون»
+PLATE_FONT = 'jomhuria'    # «الأحمر الناري»
+PLATE_RIGHT = 132          # plate's right edge: Charizard's head starts at x≈140
+PLATE_MAX_W = 112
+
+def load_font(name, size):
+    font = ImageFont.truetype(os.path.join(HERE, 'fonts', FONTS[name]), size, layout_engine=ImageFont.Layout.RAQM)
+    try:                                           # variable fonts: use the heaviest weight
+        names = [n.decode() if isinstance(n, bytes) else n for n in font.get_variation_names()]
+        for want in ('Black', 'ExtraBold', 'Bold'):
+            if want in names:
+                font.set_variation_by_name(want)
+                break
+    except Exception:
+        pass
+    return font
 
 TITLE, PLATE = 'بوكيمون', 'الأحمر الناري'
 PRESS, CREDIT = 'اضغط زر البدء', 'تعريب أيوب شكري'
@@ -72,9 +89,9 @@ def encode(scr, sheet_cols, palbits, max_tiles, sheet_path, bin_path, palette):
     open(bin_path, 'wb').write(b''.join(struct.pack('<H', e) for e in entries))
     return len(tiles)
 
-def text_mask(text, size, scale=4):
-    """Anti-aliasing-free mask of `text` in Lalezar, rendered big and reduced."""
-    font = ImageFont.truetype(LALEZAR, size * scale, layout_engine=ImageFont.Layout.RAQM)
+def text_mask(text, size, scale=4, font_name='lalezar'):
+    """Anti-aliasing-free mask of `text`, rendered big and reduced."""
+    font = load_font(font_name, size * scale)
     l, t, r, b = font.getbbox(text, direction='rtl', language='ar')
     big = Image.new('L', (r - l + 8 * scale, b - t + 8 * scale), 0)
     ImageDraw.Draw(big).text((4 * scale - l, 4 * scale - t), text, font=font, fill=255, direction='rtl', language='ar')
@@ -167,10 +184,12 @@ def build_logo(vanilla):
     tm = area.crop((min(xs) - 1, min(ys) - 1, max(xs) + 2, max(ys) + 2))   # keep the ™ mark, tightly
     scr = Image.new('P', orig.size, 0); scr.putpalette(pal)
 
-    size = 40
-    while text_mask(TITLE, size + 2).size[0] <= 158:   # grow to the original logo's width
+    size = 20
+    while text_mask(TITLE, size + 2, font_name=LOGO_FONT).size[0] <= 158 and size < 120:   # original logo width
         size += 2
-    word = arc(text_mask(TITLE, size), 6)
+    word = arc(text_mask(TITLE, size, font_name=LOGO_FONT), 6)
+    if word.size[1] > 56:
+        word = word.resize((word.size[0], 56), Image.NEAREST)
     wx = (176 - word.size[0]) // 2 + 2
     paint(scr, word, wx, 7, YELLOW, BLUE, 2, NAVY, 3, inner=37)
     tmask = Image.new('1', tm.size, 0)
@@ -179,8 +198,13 @@ def build_logo(vanilla):
                    for v in tm.get_flattened_data()])   # only the ™'s own black/white pixels
     scr.paste(tm, (max(0, wx - 14), 7 + word.size[1] - 6), tmask)   # ™ after the word = its left end
 
-    plate = text_mask(PLATE, 26)
-    px_ = (176 - plate.size[0]) // 2 + 4
+    ps = 14
+    while text_mask(PLATE, ps + 2, font_name=PLATE_FONT).size[0] <= PLATE_MAX_W and ps < 80:
+        ps += 2
+    plate = text_mask(PLATE, ps, font_name=PLATE_FONT)
+    if plate.size[1] > 28:
+        plate = plate.resize((plate.size[0], 28), Image.NEAREST)
+    px_ = PLATE_RIGHT - plate.size[0]
     paint(scr, plate, px_, 68, FIRE_RAMP, 86, 2, 85, 2, inner=87)
     n = encode(scr.crop((0, 0, 256, 160)), 32, 0, 256, LOGO_PNG, LOGO_BIN, pal)
 
@@ -214,5 +238,8 @@ def build_press_start(vanilla):
 
 if __name__ == '__main__':
     vanilla = sys.argv[sys.argv.index('--from-vanilla') + 1] if '--from-vanilla' in sys.argv else None
+    if '--font' in sys.argv:                       # --font NAME  or  --font LOGO,PLATE
+        f = sys.argv[sys.argv.index('--font') + 1].split(',')
+        LOGO_FONT, PLATE_FONT = f[0], f[-1]
     print('logo tiles:', build_logo(vanilla), '/ 256')
     print('press start / credit tiles:', build_press_start(vanilla), '/ 512')
