@@ -1,67 +1,68 @@
 PalletTown_Text_OakDontGoOut::
-    .string "OAK: Hey! Wait!\n"
-    .string "Don't go out!$"
+    .string "ﺃﻭﻙ: ﻣﻬﻼ! ﺍﻧﺘﻈﺮ!\n"
+    .string "ﻻ ﺗﺨﺮﺝ!$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
-    .string "OAK: It's unsafe!\n"
-    .string "Wild POKéMON live in tall grass!\p"
-    .string "You need your own POKéMON for\n"
-    .string "your protection.\p"
-    .string "I know!\n"
-    .string "Here, come with me!$"
+    .string "ﺃﻭﻙ: ﻫﺬ ﺧﻄﺮ!\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﺒﺮﻳﺔ ﺗﻌﻴﺶ ﻓﻲ\p"
+    .string "ﺍﻷﻋﺸﺎﺏ ﻄﻮﻳﻠﺔ!\p"
+    .string "ﺗﺤﺘﺎﺝ ﺇﻟﻰ ﺑﻮﻛﻴﻤﻮﻥ ﺧﺎﺹ ﺑﻚ\n"
+    .string "ﻟﻴﺤﻤﻴﻚ.\p"
+    .string "ﻭﺟﺪﺗﻬﺎ!\n"
+    .string "ﺗﻌﺎﻝ ﻣﻌﻲ!$"
 
 PalletTown_Text_RaisingMonsToo::
-    .string "I'm raising POKéMON, too.\p"
-    .string "When they get strong, they can\n"
-    .string "protect me.$"
+    .string "ﺃﻧﺎ ﺃﻳﻀﺎ ﺃﺭﺑﻲ ﺒﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﺣﻴﻦ ﺗﺸﺘﺪ ﻗﻮﺗﻬﺎ،\n"
+    .string "ﺗﺴﺘﻄﻴﻊ ﺃﻥ ﺗﺤﻤﻴﻨﻲ.$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
-    .string "Technology is incredible!\p"
-    .string "You can now store and recall items\n"
-    .string "and POKéMON as data via PC.$"
+    .string "ﺘﻘﻨﻴﺔ ﻣﺪﻫﺸﺔ ﺣﻘﺎ!\p"
+    .string "ﺻﺎﺭ ﺑﺈﻣﻜﺎﻧﻚ ﺣﻔﻆ ﺍﻷﺩﻭﺕ\n"
+    .string "ﻭﻟﺒﻮﻛﻴﻤﻮﻥ\p"
+    .string "ﻭﺳﺘﻌﺎﺩﺗﻬﺎ ﻛﺒﻴﺎﻧﺎﺕ ﻋﺒﺮ\n"
+    .string "ﺤﺎﺳﻮﺏ.$"
 
 PalletTown_Text_OakPokemonResearchLab::
-    .string "OAK POKéMON RESEARCH LAB$"
+    .string "ﻣﺨﺘﺒﺮ ﺃﻭﻙ ﻷﺑﺤﺎﺙ ﺒﻮﻛﻴﻤﻮﻥ$"
 
 PalletTown_Text_PlayersHouse::
-    .string "{PLAYER}'s house$"
+    .string "ﺑﻴﺖ {PLAYER}$"
 
 PalletTown_Text_RivalsHouse::
-    .string "{RIVAL}'s house$"
+    .string "ﺑﻴﺖ {RIVAL}$"
 
 PalletTown_Text_TownSign::
-    .string "PALLET TOWN\n"
-    .string "Shades of your journey await!$"
+    .string "ﺑﻠﺪﺓ ﺑﺎﻟﻴﺖ\n"
+    .string "ﺃﻟﻮﻥ ﺭﺣﻠﺘﻚ ﺗﻨﺘﻈﺮﻙ!$"
 
 PalletTown_Text_OakLetMeSeePokedex::
-    .string "OAK: Ah, {PLAYER}!\n"
-    .string "You're back, are you?\p"
-    .string "How much have you filled in your\n"
-    .string "POKéDEX?\p"
-    .string "May I see it?\p"
-    .string "Let's see…$"
+    .string "ﺃﻭﻙ: ﺁﻩ، {PLAYER}!\n"
+    .string "ﻟﻘﺪ ﻋﺪﺕ ﺇﺫﻥ؟\p"
+    .string "ﻛﻢ ﻣﻸﺕ ﻣﻦ ﺒﻮﻛﻴﺪﻳﻜﺲ؟\p"
+    .string "ﻫﻞ ﺗﺴﻤﺢ ﻟﻲ ﺑﺈﻟﻘﺎﺀ ﻧﻈﺮﺓ؟\p"
+    .string "ﻟﻨﺮ…$"
 
 PalletTown_Text_CaughtXPuttingInHonestEffort::
-    .string "You've caught {STR_VAR_2}…\p"
-    .string "Hm, it looks as if you're putting\n"
-    .string "in an honest effort.\p"
-    .string "When you manage to fill it some\n"
-    .string "more, come show me, please.$"
+    .string "ﻟﻘﺪ ﺃﻣﺴﻜﺖ {STR_VAR_2}…\p"
+    .string "ﻫﻤﻤﻢ، ﻳﺒﺪﻭ ﺃﻧﻚ ﺗﺒﺬﻝ ﺟﻬﺪ ﺻﺎﺩﻗﺎ.\p"
+    .string "ﺣﻴﻦ ﺗﻤﻸ ﻤﺰﻳﺪ ﻣﻨﻪ،\n"
+    .string "ﺗﻌﺎﻝ ﻭﺭﻧﻲ ﺇﻳﺎﻩ ﻣﻦ ﻓﻀﻠﻚ.$"
 
 PalletTown_Text_CaughtXImpressiveFollowMe::
-    .string "You've caught… {STR_VAR_2}!?\n"
-    .string "Now, this is impressive!\p"
-    .string "There's something I wanted to ask\n"
-    .string "of you, {PLAYER}.\p"
-    .string "Come.\n"
-    .string "Follow me.$"
+    .string "ﻟﻘﺪ ﺃﻣﺴﻜﺖ… {STR_VAR_2}؟!\n"
+    .string "ﻫﺬ ﻣﺬﻫﻞ ﺣﻘﺎ!\p"
+    .string "ﻫﻨﺎﻙ ﺃﻣﺮ ﻛﻨﺖ ﺃﻭﺩ ﺃﻥ ﺃﻃﻠﺒﻪ ﻣﻨﻚ\n"
+    .string "ﻳﺎ {PLAYER}.\p"
+    .string "ﺗﻌﺎﻝ.\n"
+    .string "ﺍﺗﺒﻌﻨﻲ.$"
 
 PalletTown_Text_OakYouEnjoyingTraveling::
-    .string "OAK: Ah, {PLAYER}!\n"
-    .string "You seem to be enjoying traveling.\p"
-    .string "Knowing you, {PLAYER}, I can easily\n"
-    .string "imagine you going out to even more\l"
-    .string "exotic locales.\p"
-    .string "Good for you, good for you.\n"
-    .string "Hohoho.$"
+    .string "ﺃﻭﻙ: ﺁﻩ، {PLAYER}!\n"
+    .string "ﻳﺒﺪﻭ ﺃﻧﻚ ﺗﺴﺘﻤﺘﻊ ﺑﺎﻟﺴﻔﺮ.\p"
+    .string "ﺃﻋﺮﻓﻚ ﺟﻴﺪ ﻳﺎ {PLAYER}، ﻭﻟﻦ\n"
+    .string "ﺃﺳﺘﻐﺮﺏ\p"
+    .string "ﺃﻥ ﺗﺬﻫﺐ ﺇﻟﻰ ﺃﻣﺎﻛﻦ ﺃﺑﻌﺪ ﻭﻏﺮﺏ.\p"
+    .string "ﺃﺣﺴﻨﺖ، ﺃﺣﺴﻨﺖ.\n"
+    .string "ﻫﻮﻫﻮﻫﻮ.$"
 

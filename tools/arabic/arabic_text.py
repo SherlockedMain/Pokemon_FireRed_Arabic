@@ -9,6 +9,7 @@ from shape import shape
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 KEYPAD_WIDTHS = {0x0: 8, 0x1: 8, 0x2: 16, 0x3: 16, 0x4: 24, 0x5: 24}   # A B L R START SELECT; d-pad icons are 8
 NAME_WIDTH = 42          # {PLAYER} / {RIVAL}: up to 7 Latin letters
+VAR_WIDTH = 60           # {STR_VAR_n}: a Pokémon or item name, up to 10 Latin letters
 
 _charmap = None
 _widths = {}
@@ -46,6 +47,8 @@ def token_width(tok, font):
         name = tok[1:-1].split()[0]
         if name in ('PLAYER', 'RIVAL'):
             return NAME_WIDTH
+        if name.startswith('STR_VAR'):
+            return VAR_WIDTH
         b = cm['names'].get(name)
         if not b:
             return 0

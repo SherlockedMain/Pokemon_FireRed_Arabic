@@ -1,357 +1,363 @@
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
-    .string "{RIVAL}: What, it's only {PLAYER}?\n"
-    .string "Gramps isn't around.$"
+    .string "{RIVAL}: ﻣﺎﺫ؟ ﺇﻧﻪ ﺃﻧﺖ ﻓﻘﻂ ﻳﺎ\n"
+    .string "{PLAYER}؟\p"
+    .string "ﺟﺪﻱ ﻟﻴﺲ ﻫﻨﺎ.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
-    .string "{RIVAL}: Gramps!\n"
-    .string "I'm fed up with waiting!$"
+    .string "{RIVAL}: ﺟﺪﻱ!\n"
+    .string "ﻟﻘﺪ ﺳﺌﻤﺖ ﺍﻻﻧﺘﻈﺎﺭ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
-    .string "{RIVAL}: Hey! Gramps! No fair!\n"
-    .string "What about me?$"
+    .string "{RIVAL}: ﻣﻬﻼ! ﺟﺪﻱ! ﻫﺬ ﻟﻴﺲ ﻋﺪﻻ!\n"
+    .string "ﻭﻣﺎﺫ ﻋﻨﻲ؟$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
-    .string "{RIVAL}: Heh, I don't need to be\n"
-    .string "greedy like you. I'm mature!\p"
-    .string "Go ahead and choose, {PLAYER}!$"
+    .string "{RIVAL}: ﻫﻪ، ﻟﺴﺖ ﻃﻤﺎﻋﺎ ﻣﺜﻠﻚ.\n"
+    .string "ﺃﻧﺎ ﻧﺎﺿﺞ!\p"
+    .string "ﻫﻴﺎ، ﺍﺧﺘﺮ ﻳﺎ {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen::
-    .string "{RIVAL}: I'll take this one, then!$"
+    .string "{RIVAL}: ﺳﺂﺧﺬ ﻫﺬ ﺇﺫﻥ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak::
-    .string "{RIVAL} received the {STR_VAR_1}\n"
-    .string "from PROF. OAK!$"
+    .string "ﺣﺼﻞ {RIVAL} ﻋﻠﻰ {STR_VAR_1}\n"
+    .string "ﻣﻦ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher::
-    .string "{RIVAL}: My POKéMON looks a lot\n"
-    .string "tougher than yours.$"
+    .string "{RIVAL}: ﺑﻮﻛﻴﻤﻮﻧﻲ ﻳﺒﺪﻭ ﺃﻗﻮﻯ\n"
+    .string "ﻣﻦ ﺑﻮﻛﻴﻤﻮﻧﻚ ﺑﻜﺜﻴﺮ.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
-    .string "{RIVAL}: Wait, {PLAYER}!\n"
-    .string "Let's check out our POKéMON!\p"
-    .string "Come on, I'll take you on!$"
+    .string "{RIVAL}: ﺍﻧﺘﻈﺮ ﻳﺎ {PLAYER}!\n"
+    .string "ﻟﻨﺨﺘﺒﺮ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻨﺎ!\p"
+    .string "ﻫﻴﺎ، ﺳﺄﻧﺎﺯﻟﻚ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeat::
-    .string "WHAT?\n"
-    .string "Unbelievable!\l"
-    .string "I picked the wrong POKéMON!$"
+    .string "ﻣﺎﺫ؟!\n"
+    .string "ﻻ ﺃﺻﺪﻕ!\p"
+    .string "ﻟﻘﺪ ﺍﺧﺘﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﺨﻄﺄ!$"
 
 @ Also used for early Route 22 battle
 Text_RivalVictory::
-    .string "{RIVAL}: Yeah!\n"
-    .string "Am I great or what?$"
+    .string "{RIVAL}: ﺃﺟﻞ!\n"
+    .string "ﺃﻟﺴﺖ ﺭﺋﻌﺎ؟$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
-    .string "{RIVAL}: Okay! I'll make my\n"
-    .string "POKéMON battle to toughen it up!\p"
-    .string "{PLAYER}! Gramps!\n"
-    .string "Smell you later!$"
+    .string "{RIVAL}: ﺣﺴﻨﺎ! ﺳﺄﺟﻌﻞ ﺑﻮﻛﻴﻤﻮﻧﻲ\n"
+    .string "ﻳﺨﻮﺽ ﻨﺰﻻﺕ ﻟﻴﻘﻮﻯ!\p"
+    .string "{PLAYER}! ﺟﺪﻱ!\n"
+    .string "ﺃﺭﻛﻤﺎ ﻻﺣﻘﺎ… ﺇﻥ ﻟﺤﻘﺘﻤﺎ ﺑﻲ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
-    .string "{RIVAL}: Gramps!$"
+    .string "{RIVAL}: ﺟﺪﻱ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
-    .string "{RIVAL}: I almost forgot!\n"
-    .string "What did you call me for?$"
+    .string "{RIVAL}: ﻛﺪﺕ ﺃﻧﺴﻰ!\n"
+    .string "ﻟﻤﺎﺫ ﺍﺳﺘﺪﻋﻴﺘﻨﻲ؟$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps::
-    .string "{RIVAL}: All right, Gramps!\n"
-    .string "Leave it all to me!$"
+    .string "{RIVAL}: ﺣﺴﻨﺎ ﻳﺎ ﺟﺪﻱ!\n"
+    .string "ﺍﺗﺮﻙ ﺍﻷﻣﺮ ﻛﻠﻪ ﻟﻲ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
-    .string "{PLAYER}, I hate to say it, but you\n"
-    .string "won't be necessary for this.\p"
-    .string "I know! I'll borrow a TOWN MAP\n"
-    .string "from my sis!\p"
-    .string "I'll tell her not to lend you one,\n"
-    .string "{PLAYER}! Hahaha!\p"
-    .string "Don't bother coming around to\n"
-    .string "my place after this!$"
+    .string "{PLAYER}، ﻳﺆﺳﻔﻨﻲ ﺃﻥ ﺃﻗﻮﻟﻬﺎ، ﻟﻜﻦ\n"
+    .string "ﻻ ﺣﺎﺟﺔ ﺇﻟﻴﻚ ﻓﻲ ﻫﺬﻩ ﻤﻬﻤﺔ.\p"
+    .string "ﻭﺟﺪﺗﻬﺎ! ﺳﺄﺳﺘﻌﻴﺮ ﺧﺮﻳﻄﺔ ﺒﻠﺪﺕ\n"
+    .string "ﻣﻦ ﺃﺧﺘﻲ!\p"
+    .string "ﻭﺳﺄﻃﻠﺐ ﻣﻨﻬﺎ ﺃﻻ ﺗﻌﻴﺮﻙ ﻭﺣﺪﺓ\n"
+    .string "ﻳﺎ {PLAYER}! ﻫﺎﻫﺎﻫﺎ!\p"
+    .string "ﻓﻼ ﺗﺘﻌﺐ ﻧﻔﺴﻚ ﻭﺗﺄﺕ ﺇﻟﻰ ﺑﻴﺘﻲ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
-    .string "OAK: {RIVAL}?\n"
-    .string "Let me think…\p"
-    .string "Oh, that's right, I told you to\n"
-    .string "come! Just wait!\p"
-    .string "Here, {PLAYER}.\p"
-    .string "There are three POKéMON here.\p"
-    .string "Haha!\p"
-    .string "The POKéMON are held inside\n"
-    .string "these POKé BALLS.\p"
-    .string "When I was young, I was a serious\n"
-    .string "POKéMON TRAINER.\p"
-    .string "But now, in my old age, I have\n"
-    .string "only these three left.\p"
-    .string "You can have one.\n"
-    .string "Go on, choose!$"
+    .string "ﺃﻭﻙ: {RIVAL}؟\n"
+    .string "ﺩﻋﻨﻲ ﺃﻓﻜﺮ…\p"
+    .string "ﺁﻩ، ﺻﺤﻴﺢ! ﺃﻧﺎ ﻣﻦ ﻃﻠﺐ ﻣﻨﻚ\n"
+    .string "ﻤﺠﻲﺀ!\p"
+    .string "ﺍﻧﺘﻈﺮ ﻗﻠﻴﻼ!\p"
+    .string "ﺗﻌﺎﻝ ﻳﺎ {PLAYER}.\p"
+    .string "ﻫﻨﺎ ﺛﻼﺛﺔ ﺑﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﻫﺎﻫﺎ!\p"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻣﻮﺟﻮﺩﺓ ﺩﺧﻞ\n"
+    .string "ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﻫﺬﻩ.\p"
+    .string "ﺣﻴﻦ ﻛﻨﺖ ﺷﺎﺑﺎ، ﻛﻨﺖ ﻣﺪﺭﺏ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ ﻣﺤﺘﺮﻓﺎ.\p"
+    .string "ﺃﻣﺎ ﺍﻵﻥ، ﻭﻗﺪ ﻛﺒﺮﺕ ﻓﻲ ﺴﻦ،\n"
+    .string "ﻓﻠﻢ ﻳﺒﻖ ﻟﺪﻱ ﺳﻮﻯ ﻫﺬﻩ ﺜﻼﺛﺔ.\p"
+    .string "ﻳﻤﻜﻨﻚ ﺃﻥ ﺗﺄﺧﺬ ﻭﺣﺪ.\n"
+    .string "ﻫﻴﺎ، ﺍﺧﺘﺮ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakBePatientRival::
-    .string "OAK: Be patient, {RIVAL}.\n"
-    .string "You can have one, too!$"
+    .string "ﺃﻭﻙ: ﺻﺒﺮ ﻳﺎ {RIVAL}.\n"
+    .string "ﺳﺘﺄﺧﺬ ﻭﺣﺪ ﺃﻧﺖ ﺃﻳﻀﺎ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
-    .string "OAK: Now, {PLAYER}.\p"
-    .string "Inside those three POKé BALLS are\n"
-    .string "POKéMON.\p"
-    .string "Which one will you choose for\n"
-    .string "yourself?$"
+    .string "ﺃﻭﻙ: ﻭﻵﻥ ﻳﺎ {PLAYER}.\p"
+    .string "ﻓﻲ ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﺜﻼﺙ ﻫﺬﻩ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﺃﻳﻬﺎ ﺳﺘﺨﺘﺎﺭ ﻟﻨﻔﺴﻚ؟$"
 
 PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
-    .string "OAK: Hey!\n"
-    .string "Don't go away yet!$"
+    .string "ﺃﻭﻙ: ﻣﻬﻼ!\n"
+    .string "ﻻ ﺗﺬﻫﺐ ﺑﻌﺪ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander::
-    .string "Ah! CHARMANDER is your choice.\n"
-    .string "You should raise it patiently.\p"
-    .string "So, {PLAYER}, you're claiming the\n"
-    .string "FIRE POKéMON CHARMANDER?$"
+    .string "ﺁﻩ! ﺍﺧﺘﺮﺕ ﺗﺸﺎﺭﻣﺎﻧﺪﺭ.\n"
+    .string "ﻋﻠﻴﻚ ﺃﻥ ﺗﺮﺑﻴﻪ ﺑﺼﺒﺮ.\p"
+    .string "ﺃﺗﺨﺘﺎﺭ ﺗﺸﺎﺭﻣﺎﻧﺪﺭ ﻳﺎ {PLAYER}،\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ ﻨﺎﺭ؟$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
-    .string "Hm! SQUIRTLE is your choice.\n"
-    .string "It's one worth raising.\p"
-    .string "So, {PLAYER}, you've decided on the\n"
-    .string "WATER POKéMON SQUIRTLE?$"
+    .string "ﻫﻤﻢ! ﺍﺧﺘﺮﺕ ﺳﻜﻮﻳﺮﺗﻞ.\n"
+    .string "ﺇﻧﻪ ﻳﺴﺘﺤﻖ ﺘﺮﺑﻴﺔ.\p"
+    .string "ﺃﻗﺮﺭﺕ ﺃﺧﺬ ﺳﻜﻮﻳﺮﺗﻞ ﻳﺎ {PLAYER}،\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ ﻤﺎﺀ؟$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
-    .string "I see! BULBASAUR is your choice.\n"
-    .string "It's very easy to raise.\p"
-    .string "So, {PLAYER}, you want to go with\n"
-    .string "the GRASS POKéMON BULBASAUR?$"
+    .string "ﻓﻬﻤﺖ! ﺍﺧﺘﺮﺕ ﺑﻮﻟﺒﺎﺳﻮﺭ.\n"
+    .string "ﺗﺮﺑﻴﺘﻪ ﺳﻬﻠﺔ ﺟﺪ.\p"
+    .string "ﺃﺗﻨﻄﻠﻖ ﻣﻊ ﺑﻮﻟﺒﺎﺳﻮﺭ ﻳﺎ {PLAYER}،\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ ﻌﺸﺐ؟$"
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
-    .string "This POKéMON is really quite\n"
-    .string "energetic!$"
+    .string "ﻫﺬ ﺒﻮﻛﻴﻤﻮﻥ ﻣﻔﻌﻢ ﺑﺎﻟﺤﻴﻮﻳﺔ\n"
+    .string "ﺣﻘﺎ!$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak::
-    .string "{PLAYER} received the {STR_VAR_1}\n"
-    .string "from PROF. OAK!$"
+    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ {STR_VAR_1}\n"
+    .string "ﻣﻦ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon::
-    .string "OAK: If a wild POKéMON appears,\n"
-    .string "your POKéMON can battle it.\p"
-    .string "With it at your side, you should be\n"
-    .string "able to reach the next town.$"
+    .string "ﺃﻭﻙ: ﺇﻥ ﻇﻬﺮ ﺑﻮﻛﻴﻤﻮﻥ ﺑﺮﻱ،\n"
+    .string "ﻳﺴﺘﻄﻴﻊ ﺑﻮﻛﻴﻤﻮﻧﻚ ﺃﻥ ﻳﻨﺎﺯﻟﻪ.\p"
+    .string "ﻭﻣﻌﻪ ﺇﻟﻰ ﺟﺎﻧﺒﻚ، ﺳﺘﺘﻤﻜﻦ ﻣﻦ\n"
+    .string "ﻮﺻﻮﻝ ﺇﻟﻰ ﺒﻠﺪﺓ ﺘﺎﻟﻴﺔ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow::
-    .string "OAK: {PLAYER}, raise your young\n"
-    .string "POKéMON by making it battle.\p"
-    .string "It has to battle for it to grow.$"
+    .string "ﺃﻭﻙ: {PLAYER}، ﺭﺏ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
+    .string "ﺼﻐﻴﺮ\p"
+    .string "ﺑﺄﻥ ﺗﺠﻌﻠﻪ ﻳﺨﻮﺽ ﻨﺰﻻﺕ.\p"
+    .string "ﻋﻠﻴﻪ ﺃﻥ ﻳﻨﺎﺯﻝ ﻟﻜﻲ ﻳﻨﻤﻮ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
-    .string "OAK: Oh, {PLAYER}!\n"
-    .string "How is my old POKéMON?\p"
-    .string "Well, it seems to be growing more\n"
-    .string "attached to you.\p"
-    .string "You must be talented as a POKéMON\n"
-    .string "TRAINER.\p"
-    .string "What's that?\n"
-    .string "You have something for me?$"
+    .string "ﺃﻭﻙ: ﺁﻩ، {PLAYER}!\n"
+    .string "ﻛﻴﻒ ﺣﺎﻝ ﺑﻮﻛﻴﻤﻮﻧﻲ ﻘﺪﻳﻢ؟\p"
+    .string "ﻳﺒﺪﻭ ﺃﻧﻪ ﺑﺪ ﻳﺘﻌﻠﻖ ﺑﻚ ﺃﻛﺜﺮ.\p"
+    .string "ﻻ ﺑﺪ ﺃﻧﻚ ﻣﻮﻫﻮﺏ\n"
+    .string "ﻛﻤﺪﺭﺏ ﺑﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﻣﺎ ﻫﺬ؟\n"
+    .string "ﺃﺣﻀﺮﺕ ﻟﻲ ﺷﻴﺌﺎ؟$"
 
 PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
-    .string "{PLAYER} delivered OAK'S PARCEL.$"
+    .string "ﺳﻠﻢ {PLAYER} ﻃﺮﺩ ﺃﻭﻙ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
-    .string "Ah! \n"
-    .string "It's the custom POKé BALL!\p"
-    .string "I had it on order.\n"
-    .string "Thank you!$"
+    .string "ﺁﻩ!\n"
+    .string "ﺇﻧﻬﺎ ﻛﺮﺓ ﺒﻮﻛﻴﻤﻮﻥ ﺨﺎﺻﺔ!\p"
+    .string "ﻛﻨﺖ ﻗﺪ ﻃﻠﺒﺘﻬﺎ.\n"
+    .string "ﺷﻜﺮ ﻟﻚ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo::
-    .string "OAK: Oh, right!\n"
-    .string "I have a request for you two.$"
+    .string "ﺃﻭﻙ: ﺁﻩ، ﺻﺤﻴﺢ!\n"
+    .string "ﻟﺪﻱ ﻃﻠﺐ ﻣﻨﻜﻤﺎ ﺃﻧﺘﻤﺎ ﺍﻻﺛﻨﻴﻦ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk::
-    .string "On the desk there is my invention,\n"
-    .string "the POKéDEX!\p"
-    .string "It automatically records data on\n"
-    .string "POKéMON you've seen or caught.\p"
-    .string "It's a high-tech encyclopedia!$"
+    .string "ﻋﻠﻰ ﻤﻜﺘﺐ ﻳﻮﺟﺪ ﺍﺧﺘﺮﻋﻲ:\n"
+    .string "ﺒﻮﻛﻴﺪﻳﻜﺲ!\p"
+    .string "ﺇﻧﻪ ﻳﺴﺠﻞ ﺗﻠﻘﺎﺋﻴﺎ ﺑﻴﺎﻧﺎﺕ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ\p"
+    .string "ﺘﻲ ﺭﻳﺘﻬﺎ ﺃﻭ ﺃﻣﺴﻜﺘﻬﺎ.\p"
+    .string "ﺇﻧﻪ ﻣﻮﺳﻮﻋﺔ ﻣﺘﻄﻮﺭﺓ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou::
-    .string "OAK: {PLAYER} and {RIVAL}.\n"
-    .string "Take these with you.$"
+    .string "ﺃﻭﻙ: {PLAYER} ﻭ{RIVAL}.\n"
+    .string "ﺧﺬ ﻫﺬﻳﻦ ﻣﻌﻜﻤﺎ.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak::
-    .string "{PLAYER} received the POKéDEX\n"
-    .string "from PROF. OAK.$"
+    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﺒﻮﻛﻴﺪﻳﻜﺲ\n"
+    .string "ﻣﻦ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
-    .string "OAK: You can't get detailed data\n"
-    .string "on POKéMON by just seeing them.\p"
-    .string "You must catch them to obtain\n"
-    .string "complete data.\p"
-    .string "So, here are some tools for\n"
-    .string "catching wild POKéMON.$"
+    .string "ﺃﻭﻙ: ﻻ ﻳﻤﻜﻨﻚ ﺤﺼﻮﻝ ﻋﻠﻰ\n"
+    .string "ﺑﻴﺎﻧﺎﺕ ﻣﻔﺼﻠﺔ\p"
+    .string "ﻋﻦ ﺒﻮﻛﻴﻤﻮﻥ ﺑﻤﺠﺮﺩ ﺭﺅﻳﺘﻬﺎ.\p"
+    .string "ﻋﻠﻴﻚ ﺃﻥ ﺗﻤﺴﻜﻬﺎ ﻟﺘﺤﺼﻞ ﻋﻠﻰ\n"
+    .string "ﺑﻴﺎﻧﺎﺕ ﻛﺎﻣﻠﺔ.\p"
+    .string "ﺇﺫﻥ، ﺇﻟﻴﻚ ﺑﻌﺾ ﺍﻷﺩﻭﺕ\n"
+    .string "ﻹﻣﺴﺎﻙ ﺒﻮﻛﻴﻤﻮﻥ ﺒﺮﻳﺔ.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
-    .string "{PLAYER} received five POKé BALLS.$"
+    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﺧﻤﺲ ﻛﺮﺕ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
-    .string "When a wild POKéMON appears,\n"
-    .string "it's fair game.\p"
-    .string "Just throw a POKé BALL at it and\n"
-    .string "try to catch it!\p"
-    .string "This won't always work, however.\p"
-    .string "A healthy POKéMON can escape.\n"
-    .string "You have to be lucky!$"
+    .string "ﺣﻴﻦ ﻳﻈﻬﺮ ﺑﻮﻛﻴﻤﻮﻥ ﺑﺮﻱ،\n"
+    .string "ﻳﻤﻜﻨﻚ ﺃﻥ ﺗﺤﺎﻭﻝ ﺇﻣﺴﺎﻛﻪ.\p"
+    .string "ﺍﺭﻡ ﻋﻠﻴﻪ ﻛﺮﺓ ﺑﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻭﺣﺎﻭﻝ ﺃﻥ ﺗﻤﺴﻜﻪ!\p"
+    .string "ﻟﻜﻦ ﻫﺬ ﻟﻦ ﻳﻨﺠﺢ ﺩﺋﻤﺎ.\p"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﺬﻱ ﻓﻲ ﻛﺎﻣﻞ ﻗﻮﺗﻪ ﻗﺪ\n"
+    .string "ﻳﻔﻠﺖ.\p"
+    .string "ﻓﻼ ﺗﻴﺄﺱ، ﻭﺣﺎﻭﻝ ﻣﺮﺓ ﺑﻌﺪ ﻣﺮﺓ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
-    .string "To make a complete guide on all\n"
-    .string "the POKéMON in the world…\p"
-    .string "That was my dream!\p"
-    .string "But, I'm too old.\n"
-    .string "I can't get the job done.\p"
-    .string "So, I want you two to fulfill my\n"
-    .string "dream for me.\p"
-    .string "Get moving, you two.\p"
-    .string "This is a great undertaking in\n"
-    .string "POKéMON history!$"
+    .string "ﺃﻥ ﺃﺻﻨﻊ ﺩﻟﻴﻼ ﻛﺎﻣﻼ ﻟﺠﻤﻴﻊ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻌﺎﻟﻢ…\p"
+    .string "ﻛﺎﻥ ﺫﻟﻚ ﺣﻠﻤﻲ!\p"
+    .string "ﻟﻜﻨﻨﻲ ﻛﺒﺮﺕ ﻓﻲ ﺴﻦ،\n"
+    .string "ﻭﻟﻢ ﺃﻋﺪ ﻗﺎﺩﺭ ﻋﻠﻰ ﺇﻧﺠﺎﺯﻩ.\p"
+    .string "ﻟﺬﻟﻚ ﺃﺭﻳﺪﻛﻤﺎ ﺃﻥ ﺗﺤﻘﻘﺎ\n"
+    .string "ﺣﻠﻤﻲ ﻫﺬ.\p"
+    .string "ﻫﻴﺎ، ﺍﻧﻄﻠﻘﺎ ﺃﻧﺘﻤﺎ ﺍﻻﺛﻨﻴﻦ.\p"
+    .string "ﺇﻧﻬﺎ ﻣﻬﻤﺔ ﻋﻈﻴﻤﺔ ﻓﻲ ﺗﺎﺭﻳﺦ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait::
-    .string "POKéMON around the world wait for\n"
-    .string "you, {PLAYER}!$"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻛﻞ ﺃﻧﺤﺎﺀ ﻌﺎﻟﻢ\n"
+    .string "ﺗﻨﺘﻈﺮﻙ ﻳﺎ {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
-    .string "Ah, {PLAYER}!\n"
-    .string "How is your POKéDEX shaping up?\p"
-    .string "{RIVAL} has already caught some\n"
-    .string "POKéMON and added to the data.\p"
-    .string "So, {PLAYER}, let's have a look at\n"
-    .string "your POKéDEX.\p"
-    .string "…What's the matter?\n"
-    .string "You've added no new data at all.\p"
-    .string "I'll give you these, so do try a\n"
-    .string "little harder.$"
+    .string "ﺁﻩ، {PLAYER}!\n"
+    .string "ﻛﻴﻒ ﺣﺎﻝ ﺒﻮﻛﻴﺪﻳﻜﺲ ﻣﻌﻚ؟\p"
+    .string "ﻟﻘﺪ ﺃﻣﺴﻚ {RIVAL} ﺑﻌﺾ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ\p"
+    .string "ﻭﺿﺎﻑ ﺑﻴﺎﻧﺎﺗﻬﺎ.\p"
+    .string "ﺇﺫﻥ ﻳﺎ {PLAYER}، ﻟﻨﻠﻖ ﻧﻈﺮﺓ\n"
+    .string "ﻋﻠﻰ ﺒﻮﻛﻴﺪﻳﻜﺲ ﺨﺎﺹ ﺑﻚ.\p"
+    .string "…ﻣﺎ ﺨﻄﺐ؟\n"
+    .string "ﻟﻢ ﺗﻀﻒ ﺃﻱ ﺑﻴﺎﻧﺎﺕ ﺟﺪﻳﺪﺓ!\p"
+    .string "ﺳﺄﻋﻄﻴﻚ ﻫﺬﻩ، ﻓﺎﺟﺘﻬﺪ ﺃﻛﺜﺮ\n"
+    .string "ﻗﻠﻴﻼ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime::
-    .string "OAK: Come see me sometime.\p"
-    .string "After all, I want to know how your\n"
-    .string "POKéDEX is coming along.$"
+    .string "ﺃﻭﻙ: ﺗﻌﺎﻝ ﻟﺰﻳﺎﺭﺗﻲ ﻣﻦ ﺣﻴﻦ ﻵﺧﺮ.\p"
+    .string "ﻓﺄﻧﺎ ﺃﺭﻳﺪ ﺃﻥ ﺃﻋﺮﻑ ﻛﻴﻒ\n"
+    .string "ﻳﺘﻘﺪﻡ ﺒﻮﻛﻴﺪﻳﻜﺲ ﻣﻌﻚ.$"
 
 PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia::
-    .string "It's like an encyclopedia, but the\n"
-    .string "pages are blank.$"
+    .string "ﺇﻧﻪ ﻳﺸﺒﻪ ﻤﻮﺳﻮﻋﺔ، ﻟﻜﻦ ﺻﻔﺤﺎﺗﻪ\n"
+    .string "ﻓﺎﺭﻏﺔ.$"
 
 PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls::
-    .string "Those are POKé BALLS.\n"
-    .string "They contain POKéMON!$"
+    .string "ﺗﻠﻚ ﻛﺮﺕ ﺑﻮﻛﻴﻤﻮﻥ.\n"
+    .string "ﻓﻲ ﺩﺧﻠﻬﺎ ﺑﻮﻛﻴﻤﻮﻥ!$"
 
 PalletTown_ProfessorOaksLab_Text_OaksLastMon::
-    .string "That's PROF. OAK's last POKéMON.$"
+    .string "ﻫﺬ ﺁﺧﺮ ﺑﻮﻛﻴﻤﻮﻥ ﻟﺪﻯ ﺒﺮﻭﻓﻴﺴﻮﺭ\n"
+    .string "ﺃﻭﻙ.$"
 
 PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu::
-    .string "Press START to open the MENU!$"
+    .string "ﺍﺿﻐﻂ START ﻟﻔﺘﺢ ﻘﺎﺋﻤﺔ!$"
 
 PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu::
-    .string "The SAVE option is on the MENU.\n"
-    .string "Use it regularly.$"
+    .string "ﺧﻴﺎﺭ ﺤﻔﻆ ﻣﻮﺟﻮﺩ ﻓﻲ ﻘﺎﺋﻤﺔ.\n"
+    .string "ﺍﺳﺘﺨﺪﻣﻪ ﺑﺎﺳﺘﻤﺮﺭ.$"
 
 PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints::
-    .string "All POKéMON types have strong and\n"
-    .string "weak points against others.$"
+    .string "ﻟﻜﻞ ﻧﻮﻉ ﻣﻦ ﺒﻮﻛﻴﻤﻮﻥ ﻧﻘﺎﻁ ﻗﻮﺓ\n"
+    .string "ﻭﻧﻘﺎﻁ ﺿﻌﻒ ﺃﻣﺎﻡ ﺍﻷﻧﻮﻉ ﺍﻷﺧﺮﻯ.$"
 
 PalletTown_ProfessorOaksLab_Text_EmailMessage::
-    .string "There's an e-mail message here.\p"
+    .string "ﻫﻨﺎﻙ ﺭﺳﺎﻟﺔ ﺑﺮﻳﺪ ﺇﻟﻜﺘﺮﻭﻧﻲ ﻫﻨﺎ.\p"
     .string "…\p"
-    .string "Finally!\n"
-    .string "The ultimate TRAINERS of the\l"
-    .string "POKéMON LEAGUE are ready to\l"
-    .string "take on all comers!\p"
-    .string "Bring your best POKéMON and see\n"
-    .string "how you rate as a TRAINER!\p"
-    .string "POKéMON LEAGUE HQ\n"
-    .string "INDIGO PLATEAU\p"
-    .string "PROF. OAK, please visit us!\n"
+    .string "ﺃﺧﻴﺮ!\n"
+    .string "ﺃﻗﻮﻯ ﻣﺪﺭﺑﻲ ﺩﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ\p"
+    .string "ﻣﺴﺘﻌﺪﻭﻥ ﻟﻤﻮﺟﻬﺔ ﻛﻞ ﻤﺘﺤﺪﻳﻦ!\p"
+    .string "ﺃﺣﻀﺮ ﺃﻓﻀﻞ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ، ﻭﻛﺘﺸﻒ\n"
+    .string "ﻣﺴﺘﻮﻙ ﻛﻤﺪﺭﺏ!\p"
+    .string "ﻣﻘﺮ ﺩﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻫﻀﺒﺔ ﺇﻧﺪﻳﻐﻮ\p"
+    .string "ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ، ﻧﺮﺟﻮ ﺯﻳﺎﺭﺗﻚ!\n"
     .string "…$"
 
 PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
-    .string "I study POKéMON as PROF. OAK's\n"
-    .string "AIDE.$"
+    .string "ﺃﺩﺭﺱ ﺒﻮﻛﻴﻤﻮﻥ ﻣﺴﺎﻋﺪ\n"
+    .string "ﻟﻠﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ.$"
 
 PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
-    .string "Hi, {PLAYER}. I bet you've become\n"
-    .string "good friends with your POKéMON.\p"
-    .string "By the way, did you know about\n"
-    .string "DAISY?\p"
-    .string "If you show DAISY your POKéMON,\n"
-    .string "she can tell how much it likes you.\p"
-    .string "Occasionally, she will even groom\n"
-    .string "a POKéMON for you.\p"
-    .string "This is a secret, so please don't\n"
-    .string "tell anyone.$"
+    .string "ﺃﻫﻼ، {PLAYER}. ﺃﺭﻫﻦ ﺃﻧﻚ ﺻﺮﺕ\n"
+    .string "ﺻﺪﻳﻘﺎ\p"
+    .string "ﻣﻘﺮﺑﺎ ﻟﺒﻮﻛﻴﻤﻮﻧﻚ.\p"
+    .string "ﺑﺎﻟﻤﻨﺎﺳﺒﺔ، ﻫﻞ ﺗﻌﺮﻑ ﺩﻳﺰﻱ؟\p"
+    .string "ﺇﻥ ﺃﺭﻳﺖ ﺩﻳﺰﻱ ﺑﻮﻛﻴﻤﻮﻧﻚ،\n"
+    .string "ﺗﺴﺘﻄﻴﻊ\p"
+    .string "ﺃﻥ ﺗﻌﺮﻑ ﻛﻢ ﻳﺤﺒﻚ.\p"
+    .string "ﻭﺣﻴﺎﻧﺎ ﻗﺪ ﺗﻨﻈﻒ ﻟﻚ\n"
+    .string "ﺃﺣﺪ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ.\p"
+    .string "ﻫﺬ ﺳﺮ، ﻓﺄﺭﺟﻮﻙ\n"
+    .string "ﻻ ﺗﺨﺒﺮ ﺃﺣﺪ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow::
-    .string "PROF. OAK is going to have his own\n"
-    .string "radio show soon.\p"
-    .string "The program will be called PROF.\n"
-    .string "OAK's POKéMON SEMINAR.$"
+    .string "ﺳﻴﻘﺪﻡ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ ﻗﺮﻳﺒﺎ\n"
+    .string "ﺑﺮﻧﺎﻣﺠﻪ ﺍﻹﺫﻋﻲ ﺨﺎﺹ.\p"
+    .string "ﻭﺳﻤﻪ: “ﻧﺪﻭﺓ ﺃﻭﻙ ﻟﻠﺒﻮﻛﻴﻤﻮﻥ”.$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons::
-    .string "PROF. OAK may not look like much,\n"
-    .string "but he's the authority on POKéMON.\p"
-    .string "Many POKéMON TRAINERS hold him in\n"
-    .string "high regard.$"
+    .string "ﻗﺪ ﻻ ﻳﺒﺪﻭ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ ﻣﻬﻤﺎ،\n"
+    .string "ﻟﻜﻨﻪ ﻤﺮﺟﻊ ﺍﻷﻭﻝ ﻓﻲ ﺒﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﻛﺜﻴﺮ ﻣﻦ ﻣﺪﺭﺑﻲ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻳﻜﻨﻮﻥ ﻟﻪ ﺍﺣﺘﺮﻣﺎ ﻛﺒﻴﺮ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer::
-    .string "Ah, now this is excellent!\p"
-    .string "{PLAYER}, I have another important\n"
-    .string "favor to ask of you.\p"
-    .string "I need you to listen closely.$"
+    .string "ﺁﻩ، ﻫﺬ ﺭﺋﻊ ﺣﻘﺎ!\p"
+    .string "{PLAYER}، ﻟﺪﻱ ﻃﻠﺐ ﻣﻬﻢ ﺁﺧﺮ\n"
+    .string "ﺃﺭﻳﺪﻩ ﻣﻨﻚ.\p"
+    .string "ﺃﺭﻳﺪﻙ ﺃﻥ ﺗﺼﻐﻲ ﺟﻴﺪ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
-    .string "Recently, there have been sightings\n"
-    .string "of many rare POKéMON species.\p"
-    .string "I'm talking about POKéMON that\n"
-    .string "have never been seen in KANTO.\p"
-    .string "I would love to go see things for\n"
-    .string "myself, but I'm much too old.\p"
-    .string "Since I can't do it, {PLAYER}, I'd\n"
-    .string "like you to go in my place.$"
+    .string "ﻣﺆﺧﺮ، ﺷﻮﻫﺪﺕ ﺃﻧﻮﻉ ﻛﺜﻴﺮﺓ\n"
+    .string "ﻣﻦ ﺒﻮﻛﻴﻤﻮﻥ ﻨﺎﺩﺭﺓ.\p"
+    .string "ﺃﻗﺼﺪ ﺑﻮﻛﻴﻤﻮﻥ ﻟﻢ ﻳﺮﻫﺎ ﺃﺣﺪ\n"
+    .string "ﻓﻲ ﻛﺎﻧﺘﻮ ﻣﻦ ﻗﺒﻞ.\p"
+    .string "ﻛﻢ ﺃﻭﺩ ﺃﻥ ﺃﺫﻫﺐ ﻭﺭﻫﺎ ﺑﻨﻔﺴﻲ،\n"
+    .string "ﻟﻜﻨﻨﻲ ﻛﺒﺮﺕ ﻛﺜﻴﺮ.\p"
+    .string "ﻭﺑﻤﺎ ﺃﻧﻨﻲ ﻻ ﺃﺳﺘﻄﻴﻊ، ﻳﺎ\n"
+    .string "{PLAYER}،\p"
+    .string "ﺃﻭﺩ ﺃﻥ ﺗﺬﻫﺐ ﺃﻧﺖ ﻣﻜﺎﻧﻲ.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything::
-    .string "{RIVAL}: Hey, I heard that!\p"
-    .string "Gramps, what's with favoring\n"
-    .string "{PLAYER} over me all the time?\p"
-    .string "I went and collected more POKéMON,\n"
-    .string "and faster, too.\p"
-    .string "You should just let me handle\n"
-    .string "everything.$"
+    .string "{RIVAL}: ﻣﻬﻼ، ﻟﻘﺪ ﺳﻤﻌﺖ ﺫﻟﻚ!\p"
+    .string "ﺟﺪﻱ، ﻟﻤﺎﺫ ﺗﻔﻀﻞ {PLAYER} ﻋﻠﻲ\n"
+    .string "ﻓﻲ ﻛﻞ ﻣﺮﺓ؟\p"
+    .string "ﻟﻘﺪ ﺟﻤﻌﺖ ﺑﻮﻛﻴﻤﻮﻥ ﺃﻛﺜﺮ،\n"
+    .string "ﻭﺑﺴﺮﻋﺔ ﺃﻛﺒﺮ ﺃﻳﻀﺎ.\p"
+    .string "ﻋﻠﻴﻚ ﺃﻥ ﺗﺘﺮﻙ ﻟﻲ ﻛﻞ ﺷﻲﺀ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes::
-    .string "OAK: I know, I know.\n"
-    .string "Of course I need your help, too.\p"
-    .string "Now, I need to see both your\n"
-    .string "POKéDEXES.$"
+    .string "ﺃﻭﻙ: ﺃﻋﺮﻑ، ﺃﻋﺮﻑ.\n"
+    .string "ﺑﺎﻟﻄﺒﻊ ﺃﺣﺘﺎﺝ ﺇﻟﻰ ﻋﻮﻧﻚ ﺃﻳﻀﺎ.\p"
+    .string "ﻭﻵﻥ، ﺃﺭﻳﺪ ﺃﻥ ﺃﺭﻯ\n"
+    .string "ﺒﻮﻛﻴﺪﻳﻜﺲ ﺨﺎﺹ ﺑﻜﻞ ﻣﻨﻜﻤﺎ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakTookBothPokedexUnits::
-    .string "PROF. OAK took both POKéDEX\n"
-    .string "units.$"
+    .string "ﺃﺧﺬ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ ﺟﻬﺎﺯﻱ\n"
+    .string "ﺒﻮﻛﻴﺪﻳﻜﺲ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData::
     .string "… … …  … … …\p"
     .string "… … …  … … …\p"
-    .string "…And that's done!\p"
-    .string "Now these units can record data on\n"
-    .string "a lot more POKéMON.$"
+    .string "…ﻭﻧﺘﻬﻴﻨﺎ!\p"
+    .string "ﺍﻵﻥ ﻳﺴﺠﻞ ﻫﺬﻥ ﺠﻬﺎﺯﻥ ﺑﻴﺎﻧﺎﺕ\n"
+    .string "ﻋﺪﺩ ﺃﻛﺒﺮ ﺑﻜﺜﻴﺮ ﻣﻦ ﺒﻮﻛﻴﻤﻮﻥ.$"
 
 PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded::
-    .string "{PLAYER}'s POKéDEX was upgraded!$"
+    .string "ﺗﻤﺖ ﺗﺮﻗﻴﺔ ﺒﻮﻛﻴﺪﻳﻜﺲ ﺨﺎﺹ\n"
+    .string "ﺏ{PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_OakMustReallyWorkToFillPokedex::
-    .string "Now, {PLAYER} and {RIVAL}!\p"
-    .string "This time, you really must work\n"
-    .string "towards filling your POKéDEXES.\p"
-    .string "I urge you to make them the best\n"
-    .string "and the most complete of all time!\p"
-    .string "Truly, this is a monumentally great\n"
-    .string "undertaking in POKéMON history!$"
+    .string "ﻭﻵﻥ، ﻳﺎ {PLAYER} ﻭﻳﺎ {RIVAL}!\p"
+    .string "ﻫﺬﻩ ﻤﺮﺓ، ﻋﻠﻴﻜﻤﺎ ﺃﻥ ﺗﺠﺘﻬﺪ ﺣﻘﺎ\n"
+    .string "ﻓﻲ ﻣﻞﺀ ﺒﻮﻛﻴﺪﻳﻜﺲ.\p"
+    .string "ﺃﺣﺜﻜﻤﺎ ﻋﻠﻰ ﺃﻥ ﺗﺠﻌﻼﻩ ﺍﻷﻓﻀﻞ\n"
+    .string "ﻭﻷﻛﻤﻞ ﻋﻠﻰ ﻣﺮ ﺰﻣﺎﻥ!\p"
+    .string "ﺇﻧﻬﺎ ﺣﻘﺎ ﻣﻬﻤﺔ ﻋﻈﻴﻤﺔ\n"
+    .string "ﻓﻲ ﺗﺎﺭﻳﺦ ﺒﻮﻛﻴﻤﻮﻥ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllCompleteThePokedex::
-    .string "{RIVAL}: Gramps, calm down.\n"
-    .string "Don't get so excited.\p"
-    .string "I'll get the POKéDEX completed,\n"
-    .string "don't you worry about a thing.\p"
-    .string "I think I'll try looking around\n"
-    .string "ONE ISLAND first…\p"
-    .string "Anyways, I'm outta here!$"
+    .string "{RIVAL}: ﺍﻫﺪ ﻳﺎ ﺟﺪﻱ.\n"
+    .string "ﻻ ﺗﺘﺤﻤﺲ ﻫﻜﺬ.\p"
+    .string "ﺳﺄﻛﻤﻞ ﺒﻮﻛﻴﺪﻳﻜﺲ،\n"
+    .string "ﻓﻼ ﺗﻘﻠﻖ ﺑﺸﺄﻥ ﺃﻱ ﺷﻲﺀ.\p"
+    .string "ﺃﻇﻨﻨﻲ ﺳﺄﺑﺪ ﺒﺤﺚ\n"
+    .string "ﻓﻲ ﺠﺰﻳﺮﺓ ﺍﻷﻭﻟﻰ…\p"
+    .string "ﻋﻠﻰ ﺃﻱ ﺣﺎﻝ، ﺃﻧﺎ ﺭﺣﻞ!$"
 

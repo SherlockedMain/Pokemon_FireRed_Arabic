@@ -74,7 +74,21 @@ def write_entry(entry, pieces):
     path = os.path.join(ROOT, entry['file'])
     src = open(path, encoding='utf-8').read()
     label = entry['id']
-    if path.endswith('.inc'):
+    if entry.get('ifdef'):
+        # A string with #ifdef branches: the whole text is written into every
+        # branch, with {X1}, {X2}... replaced by that branch's control codes.
+        m = re.search(r'^%s::\n((?:(?:[ \t]*\.string .*|#if.*|#else.*|#endif.*)\n)+)' % re.escape(label), src, re.M)
+        if not m:
+            raise SystemExit('label %s not found in %s' % (label, entry['file']))
+        heads = [l for l in m.group(1).split('\n') if l.startswith('#')]
+        out = []
+        for head, codes in zip(heads, entry['ifdef']):
+            out.append(head)
+            branch = [(re.sub(r'\{X(\d)\}', lambda k: codes[int(k.group(1)) - 1], s_), sep) for s_, sep in pieces]
+            out.append(to_inc(branch, '    ').rstrip('\n'))
+        out.append('#endif')
+        src = src[:m.start(1)] + '\n'.join(out) + '\n' + src[m.end(1):]
+    elif path.endswith('.inc'):
         m = re.search(r'^%s::\n((?:[ \t]*\.string .*\n)+)' % re.escape(label), src, re.M)
         if not m:
             raise SystemExit('label %s not found in %s' % (label, entry['file']))
