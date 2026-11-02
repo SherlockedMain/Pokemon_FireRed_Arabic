@@ -370,6 +370,55 @@ void HS_ShowOrHideScrollArrows(u8 which, u8 mode)
     }
 }
 
+#if TEXT_RTL
+// RTL for the help system's own text renderer: same mirroring and digit/Latin
+// run handling as the window text printer (whole-buffer mirroring).
+static EWRAM_DATA struct TextPrinter sHelpRtlPrinter = {0};
+
+static void HelpRtl_Blit(struct Bitmap *srcBlit, struct Bitmap *destBlit, u8 *dest, s32 drawX, u8 y, u8 width, u8 height)
+{
+    if (drawX < 0)
+        drawX = 0;
+    srcBlit->pixels = gGlyphInfo.pixels;
+    srcBlit->width = 16;
+    srcBlit->height = 16;
+    destBlit->pixels = dest;
+    destBlit->width = width * 8;
+    destBlit->height = height * 8;
+    BlitBitmapRect4Bit(srcBlit, destBlit, 0, 0, drawX, y, gGlyphInfo.width, gGlyphInfo.height, 0);
+}
+
+static void HelpRtl_Decompress(u8 fontId, u16 glyph)
+{
+    if (fontId == FONT_SMALL)
+        DecompressGlyph_Small(glyph, FALSE);
+    else if (fontId == FONT_FEMALE)
+        DecompressGlyph_Female(glyph, FALSE);
+    else
+        DecompressGlyph_Normal(glyph, FALSE);
+}
+
+// A glyph from the string itself.
+static void HelpRtl_RenderGlyph(u8 fontId, u16 glyph, const u8 *charStart, struct Bitmap *srcBlit, struct Bitmap *destBlit, u8 *dest, u8 x, u8 y, u8 width, u8 height)
+{
+    sHelpRtlPrinter.printerTemplate.currentX = x;
+    sHelpRtlPrinter.printerTemplate.currentY = y;
+    TextRtl_PrepareGlyph(&sHelpRtlPrinter, charStart);
+    HelpRtl_Decompress(fontId, glyph);
+    HelpRtl_Blit(srcBlit, destBlit, dest, TextRtl_MirrorX(&sHelpRtlPrinter, x, gGlyphInfo.width, 0, width * 8), y, width, height);
+}
+
+// A glyph of an inserted name (player, BILL): the name is kept left-to-right.
+static void HelpRtl_RenderNameGlyph(u8 fontId, u16 glyph, u8 nameStartX, s32 nameWidth, struct Bitmap *srcBlit, struct Bitmap *destBlit, u8 *dest, u8 x, u8 y, u8 width, u8 height)
+{
+    HelpRtl_Decompress(fontId, glyph);
+    HelpRtl_Blit(srcBlit, destBlit, dest, width * 8 - nameStartX - nameWidth + (x - nameStartX), y, width, height);
+}
+#define HELP_RENDER_NAME_GLYPH(str, glyph) HelpRtl_RenderNameGlyph(fontId, glyph, nameStartX, GetStringWidth(fontId, str, 0), &srcBlit, &destBlit, dest, x, y, width, height)
+#else
+#define HELP_RENDER_NAME_GLYPH(str, glyph) DecompressAndRenderGlyph(fontId, glyph, &srcBlit, &destBlit, dest, x, y, width, height)
+#endif
+
 void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 width, u8 height)
 {
     // fontId -> sp+24
@@ -384,6 +433,16 @@ void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 w
     u8 orig_x = x;
     u8 i = 0;
     s32 clearPixels = 0;
+#if TEXT_RTL
+    u8 nameStartX = 0;
+    bool8 savedRtlLocal = gTextRtlLocal;
+
+    gTextRtlLocal = FALSE; // the help panels are plain boxes: mirror the whole buffer
+    sHelpRtlPrinter.printerTemplate.fontId = fontId;
+    sHelpRtlPrinter.printerTemplate.letterSpacing = 0;
+    sHelpRtlPrinter.printerTemplate.x = x;
+    sHelpRtlPrinter.rtlRunWidth = 0;
+#endif
 
     while (1)
     {
@@ -392,6 +451,9 @@ void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 w
         switch (curChar)
         {
         case EOS:
+#if TEXT_RTL
+            gTextRtlLocal = savedRtlLocal;
+#endif
             return;
         case CHAR_NEWLINE:
             x = orig_x;
@@ -402,13 +464,16 @@ void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 w
             src++;
             if (curChar == PLACEHOLDER_ID_PLAYER)
             {
+#if TEXT_RTL
+                nameStartX = x;
+#endif
                 for (i = 0; i < 10; i++)
                 {
                     if (gSaveBlock2Ptr->playerName[i] == EOS)
                     {
                         break;
                     }
-                    DecompressAndRenderGlyph(fontId, gSaveBlock2Ptr->playerName[i], &srcBlit, &destBlit, dest, x, y, width, height);
+                    HELP_RENDER_NAME_GLYPH(gSaveBlock2Ptr->playerName, gSaveBlock2Ptr->playerName[i]);
                     // This is required to match a dummy [sp+#0x24] read here
                     if (fontId == FONT_SMALL)
                     {
@@ -422,6 +487,9 @@ void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 w
             }
             else if (curChar == PLACEHOLDER_ID_STRING_VAR_1)
             {
+#if TEXT_RTL
+                nameStartX = x;
+#endif
                 for (i = 0; ; i++)
                 {
                     if (FlagGet(FLAG_SYS_NOT_SOMEONES_PC) == TRUE)
@@ -430,7 +498,7 @@ void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 w
                         {
                             break;
                         }
-                        DecompressAndRenderGlyph(fontId, gString_Bill[i], &srcBlit, &destBlit, dest, x, y, width, height);
+                        HELP_RENDER_NAME_GLYPH(gString_Bill, gString_Bill[i]);
                     }
                     else
                     {
@@ -438,7 +506,7 @@ void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 w
                         {
                             break;
                         }
-                        DecompressAndRenderGlyph(fontId, gString_Someone[i], &srcBlit, &destBlit, dest, x, y, width, height);
+                        HELP_RENDER_NAME_GLYPH(gString_Someone, gString_Someone[i]);
                     }
                     if (fontId == FONT_SMALL)
                     {
@@ -496,7 +564,11 @@ void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 w
                     destBlit.pixels = dest;
                     destBlit.width = width * 8;
                     destBlit.height = height * 8;
+#if TEXT_RTL
+                    FillBitmapRect4Bit(&destBlit, width * 8 - x - clearPixels, y, clearPixels, GetFontAttribute(fontId, FONTATTR_MAX_LETTER_HEIGHT), 0);
+#else
                     FillBitmapRect4Bit(&destBlit, x, y, clearPixels, GetFontAttribute(fontId, FONTATTR_MAX_LETTER_HEIGHT), 0);
+#endif
                     x += clearPixels;
                 }
                 src++;
@@ -519,7 +591,11 @@ void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 w
             destBlit.pixels = dest;
             destBlit.width = width * 8;
             destBlit.height = height * 8;
+#if TEXT_RTL
+            BlitBitmapRect4Bit(&srcBlit, &destBlit, 0, 0, width * 8 - x - GetKeypadIconWidth(curChar), y, GetKeypadIconWidth(curChar), GetKeypadIconHeight(curChar), 0);
+#else
             BlitBitmapRect4Bit(&srcBlit, &destBlit, 0, 0, x, y, GetKeypadIconWidth(curChar), GetKeypadIconHeight(curChar), 0);
+#endif
             x += GetKeypadIconWidth(curChar);
             break;
         case CHAR_EXTRA_SYMBOL:
@@ -540,7 +616,11 @@ void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 w
             }
             else
             {
+#if TEXT_RTL
+                HelpRtl_RenderGlyph(fontId, curChar, src - (curChar >= 0x100 ? 2 : 1), &srcBlit, &destBlit, dest, x, y, width, height);
+#else
                 DecompressAndRenderGlyph(fontId, curChar, &srcBlit, &destBlit, dest, x, y, width, height);
+#endif
                 if (fontId == FONT_SMALL)
                 {
                     x += gGlyphInfo.width;

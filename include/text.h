@@ -1,6 +1,9 @@
 #ifndef GUARD_TEXT_H
 #define GUARD_TEXT_H
 
+// Right-to-left text rendering for the Arabic translation (0 = vanilla behaviour)
+#define TEXT_RTL 1
+
 #include "global.h"
 #include "characters.h"
 
@@ -106,6 +109,15 @@ struct TextPrinter
     u8 scrollDistance;
     u8 minLetterSpacing;  // 0x20
     u8 japanese;
+#if TEXT_RTL
+    s16 rtlLineStart;   // local mode: logical x where the current line starts
+    s16 rtlLineWidth;   // local mode: width of the current line
+    s16 rtlRunStart;    // current left-to-right run (digits/Latin): logical start x
+    s16 rtlRunWidth;    //   ...and its width (0 = not in a run)
+    s16 rtlRunY;        //   ...and the line (y) it belongs to
+    s16 rtlLineY;       // local mode: the line (y) last measured
+    bool8 rtlLineHasArabic; // local mode: FALSE = line drawn exactly as in the original game
+#endif
 };
 
 struct FontInfo
@@ -158,6 +170,14 @@ void RestoreTextColors(u8 *fgColor, u8 *bgColor, u8 *shadowColor);
 void DecompressGlyphTile(const u16 *src, u16 *dest);
 u8 GetLastTextColor(u8 colorType);
 void CopyGlyphToWindow(struct TextPrinter *x);
+#if TEXT_RTL
+// FALSE (default): whole window is mirrored - dialogue, menus, standard boxes.
+// TRUE: layout is kept as designed and each line is reversed in place - use on
+// screens whose windows sit over fixed artwork (trainer card, summary, ...).
+extern bool8 gTextRtlLocal;
+void TextRtl_PrepareGlyph(struct TextPrinter *textPrinter, const u8 *charStart);
+s32 TextRtl_MirrorX(struct TextPrinter *p, s32 x, s32 glyphWidth, s32 frameStart, s32 frameWidth);
+#endif
 void ClearTextSpan(struct TextPrinter *textPrinter, u32 width);
 
 u16 FontFunc_Small(struct TextPrinter *textPrinter);

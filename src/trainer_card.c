@@ -473,6 +473,9 @@ static void CB2_TrainerCard(void)
 
 static void CloseTrainerCard(u8 taskId)
 {
+#if TEXT_RTL
+    gTextRtlLocal = FALSE;
+#endif
     SetMainCallback2(sTrainerCardDataPtr->callback2);
     FreeAllWindowBuffers();
     FREE_AND_SET_NULL(sTrainerCardDataPtr);
@@ -1859,6 +1862,9 @@ void ShowPlayerTrainerCard(void (*callback)(void))
 
     sTrainerCardDataPtr->language = GAME_LANGUAGE;
     TrainerCard_GenerateCardForLinkPlayer(&sTrainerCardDataPtr->trainerCard);
+#if TEXT_RTL
+    gTextRtlLocal = TRUE; // card text sits over fixed artwork: keep its layout
+#endif
     SetMainCallback2(CB2_InitTrainerCard);
 }
 
@@ -1869,6 +1875,9 @@ void ShowTrainerCardInLink(u8 cardId, void (*callback)(void))
     sTrainerCardDataPtr->isLink = TRUE;
     sTrainerCardDataPtr->trainerCard = gTrainerCards[cardId];
     sTrainerCardDataPtr->language = gLinkPlayers[cardId].language;
+#if TEXT_RTL
+    gTextRtlLocal = TRUE; // card text sits over fixed artwork: keep its layout
+#endif
     SetMainCallback2(CB2_InitTrainerCard);
 }
 

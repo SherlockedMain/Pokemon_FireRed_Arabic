@@ -12,6 +12,10 @@ static u16 sLastTextShadowColor;
 
 COMMON_DATA const struct FontInfo *gFonts = NULL;
 COMMON_DATA struct GlyphInfo gGlyphInfo = {0};
+#if TEXT_RTL
+COMMON_DATA bool8 gTextRtlLocal = 0;
+static EWRAM_DATA u8 sRtlScanBuffer[256] = {0};
+#endif
 
 static const u8 sFontHalfRowOffsets[] =
 {
@@ -86,6 +90,15 @@ bool16 AddTextPrinter(struct TextPrinterTemplate *textSubPrinter, u8 speed, void
     sTempTextPrinter.callback = callback;
     sTempTextPrinter.minLetterSpacing = 0;
     sTempTextPrinter.japanese = 0;
+#if TEXT_RTL
+    sTempTextPrinter.rtlLineStart = textSubPrinter->currentX;
+    sTempTextPrinter.rtlLineWidth = 0;
+    sTempTextPrinter.rtlRunStart = 0;
+    sTempTextPrinter.rtlRunWidth = 0;
+    sTempTextPrinter.rtlRunY = -1;
+    sTempTextPrinter.rtlLineHasArabic = TRUE;
+    sTempTextPrinter.rtlLineY = -1;
+#endif
 
     GenerateFontHalfRowLookupTable(textSubPrinter->fgColor, textSubPrinter->bgColor, textSubPrinter->shadowColor);
     if (speed != TEXT_SKIP_DRAW && speed != 0)
@@ -234,13 +247,133 @@ u8 GetLastTextColor(u8 colorType)
     }                                                                                                                                        \
 }
 
+#if TEXT_RTL
+// Characters that read left-to-right: digits, Latin letters (incl. accented),
+// and the LV/PP/ID/No. symbols. Arabic glyphs live at F9 18..F9 9D.
+static bool8 RtlIsLtrStrong(const u8 *s)
+{
+    u8 c = s[0];
+    if (c == CHAR_EXTRA_SYMBOL)
+        return s[1] >= 0x05 && s[1] <= 0x08;
+    return (c >= 0x01 && c <= 0x2C) || c == 0x34 || (c >= 0x53 && c <= 0x5A)
+        || c == 0x68 || c == 0x6F || c == 0x84
+        || (c >= 0xA1 && c <= 0xAA) || (c >= 0xBB && c <= 0xEE);
+}
+
+static bool8 RtlIsArabic(const u8 *s)
+{
+    return s[0] == CHAR_EXTRA_SYMBOL && s[1] >= 0x18 && s[1] <= 0x9D;
+}
+
+static u8 RtlCharLen(const u8 *s)
+{
+    return (s[0] == CHAR_EXTRA_SYMBOL || s[0] == CHAR_KEYPAD_ICON) ? 2 : 1;
+}
+
+static s32 RtlSpanWidth(struct TextPrinter *p, const u8 *start, const u8 *end)
+{
+    u32 n = end - start;
+    if (n > sizeof(sRtlScanBuffer) - 1)
+        n = sizeof(sRtlScanBuffer) - 1;
+    memcpy(sRtlScanBuffer, start, n);
+    sRtlScanBuffer[n] = EOS;
+    return GetStringWidth(p->printerTemplate.fontId, sRtlScanBuffer, p->printerTemplate.letterSpacing);
+}
+
+// Mirrored draw position of a glyph (or icon) at logical x inside the frame
+// [frameStart, frameStart + frameWidth). Inside a digits/Latin run the run is
+// placed mirrored but drawn left-to-right.
+s32 TextRtl_MirrorX(struct TextPrinter *p, s32 x, s32 glyphWidth, s32 frameStart, s32 frameWidth)
+{
+    s32 mirrorSum = 2 * frameStart + frameWidth;
+
+    if (p->rtlRunWidth != 0 && p->printerTemplate.currentY == p->rtlRunY
+     && x >= p->rtlRunStart && x < p->rtlRunStart + p->rtlRunWidth)
+        return (mirrorSum - p->rtlRunStart - p->rtlRunWidth) + (x - p->rtlRunStart);
+    return mirrorSum - x - glyphWidth;
+}
+
+// Called by RenderText right before a glyph is drawn.
+void TextRtl_PrepareGlyph(struct TextPrinter *p, const u8 *charStart)
+{
+    s16 x = p->printerTemplate.currentX;
+    s16 y = p->printerTemplate.currentY;
+
+    // Local mode: measure the line when its first glyph is drawn.
+    // (first glyph of a line: a new y, or back at/before the measured start)
+    if (gTextRtlLocal && (y != p->rtlLineY || x <= p->rtlLineStart))
+    {
+        const u8 *e = charStart;
+        while (*e != EOS && *e != CHAR_NEWLINE && *e != CHAR_PROMPT_SCROLL && *e != CHAR_PROMPT_CLEAR)
+            e++;
+        p->rtlLineStart = x;
+        p->rtlLineY = y;
+        p->rtlLineWidth = RtlSpanWidth(p, charStart, e);
+        p->rtlLineHasArabic = FALSE;
+        for (e = charStart; *e != EOS && *e != CHAR_NEWLINE && *e != CHAR_PROMPT_SCROLL && *e != CHAR_PROMPT_CLEAR; e++)
+        {
+            if (RtlIsArabic(e))
+            {
+                p->rtlLineHasArabic = TRUE;
+                break;
+            }
+        }
+    }
+
+    // Already inside a left-to-right run on this line?
+    if (p->rtlRunWidth != 0 && y == p->rtlRunY && x >= p->rtlRunStart && x < p->rtlRunStart + p->rtlRunWidth)
+        return;
+    p->rtlRunWidth = 0;
+
+    // Start a new run: strong LTR chars, plus neutrals (spaces, punctuation)
+    // only when more LTR text follows before any Arabic or line end.
+    if (RtlIsLtrStrong(charStart))
+    {
+        const u8 *s = charStart, *runEnd = charStart;
+        while (*s < CHAR_PROMPT_SCROLL && *s != CHAR_KEYPAD_ICON && !RtlIsArabic(s))
+        {
+            u8 len = RtlCharLen(s);
+            bool8 strong = RtlIsLtrStrong(s);
+            s += len;
+            if (strong)
+                runEnd = s;
+        }
+        p->rtlRunStart = x;
+        p->rtlRunWidth = RtlSpanWidth(p, charStart, runEnd);
+        p->rtlRunY = y;
+    }
+}
+#endif
+
 void CopyGlyphToWindow(struct TextPrinter *textPrinter)
 {
     int glyphWidth, glyphHeight;
     u8 sizeType;
-    
-    if (gWindows[textPrinter->printerTemplate.windowId].window.width * 8 - textPrinter->printerTemplate.currentX < gGlyphInfo.width)
-        glyphWidth = gWindows[textPrinter->printerTemplate.windowId].window.width * 8 - textPrinter->printerTemplate.currentX;
+    s32 drawX = textPrinter->printerTemplate.currentX;
+
+#if TEXT_RTL
+    // Arabic: layout stays left-to-right internally (wrapping, centering and
+    // string widths are unchanged); only the draw position is mirrored, so the
+    // first character in the string lands at the right edge of the window.
+    {
+        // Mirror frame: whole window, or (local mode) the current line's span.
+        s32 frameStart = 0;
+        s32 frameWidth = gWindows[textPrinter->printerTemplate.windowId].window.width * 8;
+
+        if (gTextRtlLocal)
+        {
+            frameStart = textPrinter->rtlLineStart;
+            frameWidth = textPrinter->rtlLineWidth;
+        }
+        if (!gTextRtlLocal || textPrinter->rtlLineHasArabic)
+            drawX = TextRtl_MirrorX(textPrinter, drawX, gGlyphInfo.width, frameStart, frameWidth);
+    }
+    if (drawX < 0)
+        drawX = 0;
+#endif
+
+    if (gWindows[textPrinter->printerTemplate.windowId].window.width * 8 - drawX < gGlyphInfo.width)
+        glyphWidth = gWindows[textPrinter->printerTemplate.windowId].window.width * 8 - drawX;
     else
         glyphWidth = gGlyphInfo.width;
     if (gWindows[textPrinter->printerTemplate.windowId].window.height * 8 - textPrinter->printerTemplate.currentY < gGlyphInfo.height)
@@ -257,21 +390,21 @@ void CopyGlyphToWindow(struct TextPrinter *textPrinter)
     switch (sizeType)
     {
         case 0: // ≤ 8x8
-            GLYPH_COPY(0, 0, glyphWidth, glyphHeight, gWindows[textPrinter->printerTemplate.windowId].tileData, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
+            GLYPH_COPY(0, 0, glyphWidth, glyphHeight, gWindows[textPrinter->printerTemplate.windowId].tileData, drawX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
             return;
         case 1: // ≤ 16x8
-            GLYPH_COPY(0, 0, 8, glyphHeight, gWindows[textPrinter->printerTemplate.windowId].tileData, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
-            GLYPH_COPY(8, 0, glyphWidth - 8, glyphHeight, gWindows[textPrinter->printerTemplate.windowId].tileData, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
+            GLYPH_COPY(0, 0, 8, glyphHeight, gWindows[textPrinter->printerTemplate.windowId].tileData, drawX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
+            GLYPH_COPY(8, 0, glyphWidth - 8, glyphHeight, gWindows[textPrinter->printerTemplate.windowId].tileData, drawX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
             return;
         case 2: // ≤ 8x16
-            GLYPH_COPY(0, 0, glyphWidth, 8, gWindows[textPrinter->printerTemplate.windowId].tileData, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
-            GLYPH_COPY(0, 8, glyphWidth, glyphHeight - 8, gWindows[textPrinter->printerTemplate.windowId].tileData, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
+            GLYPH_COPY(0, 0, glyphWidth, 8, gWindows[textPrinter->printerTemplate.windowId].tileData, drawX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
+            GLYPH_COPY(0, 8, glyphWidth, glyphHeight - 8, gWindows[textPrinter->printerTemplate.windowId].tileData, drawX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
             return;
         case 3: // ≤ 16x16
-            GLYPH_COPY(0, 0, 8, 8, gWindows[textPrinter->printerTemplate.windowId].tileData, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
-            GLYPH_COPY(8, 0, glyphWidth - 8, 8, gWindows[textPrinter->printerTemplate.windowId].tileData, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
-            GLYPH_COPY(0, 8, 8, glyphHeight - 8, gWindows[textPrinter->printerTemplate.windowId].tileData, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
-            GLYPH_COPY(8, 8, glyphWidth - 8, glyphHeight - 8, gWindows[textPrinter->printerTemplate.windowId].tileData, textPrinter->printerTemplate.currentX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
+            GLYPH_COPY(0, 0, 8, 8, gWindows[textPrinter->printerTemplate.windowId].tileData, drawX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
+            GLYPH_COPY(8, 0, glyphWidth - 8, 8, gWindows[textPrinter->printerTemplate.windowId].tileData, drawX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
+            GLYPH_COPY(0, 8, 8, glyphHeight - 8, gWindows[textPrinter->printerTemplate.windowId].tileData, drawX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
+            GLYPH_COPY(8, 8, glyphWidth - 8, glyphHeight - 8, gWindows[textPrinter->printerTemplate.windowId].tileData, drawX, textPrinter->printerTemplate.currentY, ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8 + ((gWindows[textPrinter->printerTemplate.windowId].window.width * 8) & 7)) >> 3));
             return;
     }
 }

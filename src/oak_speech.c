@@ -116,6 +116,8 @@ extern const struct OamData gOamData_AffineOff_ObjNormal_32x32;
 extern const struct OamData gOamData_AffineOff_ObjNormal_32x16;
 extern const struct OamData gOamData_AffineOff_ObjNormal_16x8;
 
+static void PikachuIntro_PrintTopBar(const u8 *str);
+
 static const u16 sOakSpeech_Background_Pals[] = INCBIN_U16("graphics/oak_speech/bg_tiles.gbapal"); // Shared by the Controls Guide, Pikachu Intro and Oak Speech scenes
 static const u32 sControlsGuide_PikachuIntro_Background_Tiles[] = INCBIN_U32("graphics/oak_speech/bg_tiles.4bpp.lz");
 static const u32 sPikachuIntro_Background_Tilemap[] = INCBIN_U32("graphics/oak_speech/pikachu_intro/tilemap.bin.lz");
@@ -951,7 +953,7 @@ static void Task_PikachuIntro_LoadPage1(u8 taskId)
     {
         PlayBGM(MUS_NEW_GAME_INTRO);
         ClearTopBarWindow();
-        TopBarWindowPrintString(gText_ABUTTONNext, 0, 1);
+        PikachuIntro_PrintTopBar(gText_ABUTTONNext);
         sOakSpeechResources->pikachuIntroTilemap = MallocAndDecompress(sPikachuIntro_Background_Tilemap, &size);
         CopyToBgTilemapBufferRect(1, sOakSpeechResources->pikachuIntroTilemap, 0, 2, 30, 19);
         CopyBgTilemapBufferToVram(1);
@@ -1027,12 +1029,12 @@ static void Task_PikachuIntro_HandleInput(u8 taskId)
             if (sOakSpeechResources->currentPage == PIKACHU_INTRO_PAGE_1)
             {
                 ClearTopBarWindow();
-                TopBarWindowPrintString(gText_ABUTTONNext, 0, 1);
+                PikachuIntro_PrintTopBar(gText_ABUTTONNext);
             }
             else
             {
                 ClearTopBarWindow();
-                TopBarWindowPrintString(gText_ABUTTONNext_BBUTTONBack, 0, 1);
+                PikachuIntro_PrintTopBar(gText_ABUTTONNext_BBUTTONBack);
             }
             gMain.state++;
         }
@@ -2184,3 +2186,16 @@ static void GetDefaultName(u8 hasPlayerBeenNamed, u8 rivalNameChoice)
 #undef tBlendTarget2
 #undef tUnusedState
 #undef tFadeTimer
+
+// RTL: the Pikachu sprite covers the top-left corner, so on these pages the
+// top bar keeps its original right-hand position (local mode).
+static void PikachuIntro_PrintTopBar(const u8 *str)
+{
+#if TEXT_RTL
+    gTextRtlLocal = TRUE;
+    TopBarWindowPrintString(str, 0, 1);
+    gTextRtlLocal = FALSE;
+#else
+    TopBarWindowPrintString(str, 0, 1);
+#endif
+}

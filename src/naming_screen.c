@@ -418,6 +418,9 @@ void DoNamingScreen(u8 templateNum, u8 *destBuffer, u16 monSpecies, u16 monGende
     else
     {
         sNamingScreen->templateNum = templateNum;
+#if TEXT_RTL
+        gTextRtlLocal = TRUE; // keyboard and name field sit on fixed artwork: keep their layout
+#endif
         sNamingScreen->monSpecies = monSpecies;
         sNamingScreen->monGender = monGender;
         sNamingScreen->monPersonality = monPersonality;
@@ -720,6 +723,9 @@ static bool8 MainState_Exit(void)
     {
         if (sNamingScreen->templateNum == NAMING_SCREEN_PLAYER)
             SeedRngAndSetTrainerId();
+#if TEXT_RTL
+        gTextRtlLocal = FALSE;
+#endif
         SetMainCallback2(sNamingScreen->returnCallback);
         DestroyTask(FindTaskIdByFunc(Task_NamingScreen));
         FreeAllWindowBuffers();

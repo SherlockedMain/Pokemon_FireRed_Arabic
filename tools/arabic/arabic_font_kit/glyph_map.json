@@ -1,0 +1,2280 @@
+{
+ "U+FE80": {
+  "char": "ﺀ",
+  "name": "ARABIC LETTER HAMZA ISOLATED FORM",
+  "bn1_slot": "0x0D",
+  "regular": "glyphs/regular/U+FE80_0D.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE80_0D.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 0,
+  "advance_regular": 6
+ },
+ "U+FE81": {
+  "char": "ﺁ",
+  "name": "ARABIC LETTER ALEF WITH MADDA ABOVE ISOLATED FORM",
+  "bn1_slot": "0x0E",
+  "regular": "glyphs/regular/U+FE81_0E.png",
+  "ink_columns_regular": [
+   1,
+   4
+  ],
+  "bold": "glyphs/bold/U+FE81_0E.png",
+  "ink_columns_bold": [
+   0,
+   5
+  ],
+  "atlas_index": 1,
+  "advance_regular": 5
+ },
+ "U+FE82": {
+  "char": "ﺂ",
+  "name": "ARABIC LETTER ALEF WITH MADDA ABOVE FINAL FORM",
+  "bn1_slot": "0x0F",
+  "regular": "glyphs/regular/U+FE82_0F.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE82_0F.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 2,
+  "advance_regular": 5
+ },
+ "U+FE83": {
+  "char": "ﺃ",
+  "name": "ARABIC LETTER ALEF WITH HAMZA ABOVE ISOLATED FORM",
+  "bn1_slot": "0x10",
+  "regular": "glyphs/regular/U+FE83_10.png",
+  "ink_columns_regular": [
+   1,
+   4
+  ],
+  "bold": "glyphs/bold/U+FE83_10.png",
+  "ink_columns_bold": [
+   0,
+   5
+  ],
+  "atlas_index": 3,
+  "advance_regular": 5
+ },
+ "U+FE84": {
+  "char": "ﺄ",
+  "name": "ARABIC LETTER ALEF WITH HAMZA ABOVE FINAL FORM",
+  "bn1_slot": "0x11",
+  "regular": "glyphs/regular/U+FE84_11.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE84_11.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 4,
+  "advance_regular": 6
+ },
+ "U+FE85": {
+  "char": "ﺅ",
+  "name": "ARABIC LETTER WAW WITH HAMZA ABOVE ISOLATED FORM",
+  "bn1_slot": "0x12",
+  "regular": "glyphs/regular/U+FE85_12.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE85_12.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 5,
+  "advance_regular": 7
+ },
+ "U+FE86": {
+  "char": "ﺆ",
+  "name": "ARABIC LETTER WAW WITH HAMZA ABOVE FINAL FORM",
+  "bn1_slot": "0x12",
+  "regular": "glyphs/regular/U+FE86_12.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE86_12.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 6,
+  "advance_regular": 7
+ },
+ "U+FE87": {
+  "char": "ﺇ",
+  "name": "ARABIC LETTER ALEF WITH HAMZA BELOW ISOLATED FORM",
+  "bn1_slot": "0x13",
+  "regular": "glyphs/regular/U+FE87_13.png",
+  "ink_columns_regular": [
+   1,
+   4
+  ],
+  "bold": "glyphs/bold/U+FE87_13.png",
+  "ink_columns_bold": [
+   0,
+   5
+  ],
+  "atlas_index": 7,
+  "advance_regular": 5
+ },
+ "U+FE88": {
+  "char": "ﺈ",
+  "name": "ARABIC LETTER ALEF WITH HAMZA BELOW FINAL FORM",
+  "bn1_slot": "0x14",
+  "regular": "glyphs/regular/U+FE88_14.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE88_14.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 8,
+  "advance_regular": 5
+ },
+ "U+FE89": {
+  "char": "ﺉ",
+  "name": "ARABIC LETTER YEH WITH HAMZA ABOVE ISOLATED FORM",
+  "bn1_slot": "0x15",
+  "regular": "glyphs/regular/U+FE89_15.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE89_15.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 9,
+  "advance_regular": 9
+ },
+ "U+FE8A": {
+  "char": "ﺊ",
+  "name": "ARABIC LETTER YEH WITH HAMZA ABOVE FINAL FORM",
+  "bn1_slot": "0x16",
+  "regular": "glyphs/regular/U+FE8A_16.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE8A_16.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 10,
+  "advance_regular": 9
+ },
+ "U+FE8B": {
+  "char": "ﺋ",
+  "name": "ARABIC LETTER YEH WITH HAMZA ABOVE INITIAL FORM",
+  "bn1_slot": "0x17",
+  "regular": "glyphs/regular/U+FE8B_17.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE8B_17.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 11,
+  "advance_regular": 9
+ },
+ "U+FE8C": {
+  "char": "ﺌ",
+  "name": "ARABIC LETTER YEH WITH HAMZA ABOVE MEDIAL FORM",
+  "bn1_slot": "0x18",
+  "regular": "glyphs/regular/U+FE8C_18.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE8C_18.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 12,
+  "advance_regular": 9
+ },
+ "U+FE8D": {
+  "char": "ﺍ",
+  "name": "ARABIC LETTER ALEF ISOLATED FORM",
+  "bn1_slot": "0x19",
+  "regular": "glyphs/regular/U+FE8D_19.png",
+  "ink_columns_regular": [
+   1,
+   2
+  ],
+  "bold": "glyphs/bold/U+FE8D_19.png",
+  "ink_columns_bold": [
+   0,
+   3
+  ],
+  "atlas_index": 13,
+  "advance_regular": 3
+ },
+ "U+FE8E": {
+  "char": "ﺎ",
+  "name": "ARABIC LETTER ALEF FINAL FORM",
+  "bn1_slot": "0x1A",
+  "regular": "glyphs/regular/U+FE8E_1A.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE8E_1A.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 14,
+  "advance_regular": 5
+ },
+ "U+FE8F": {
+  "char": "ﺏ",
+  "name": "ARABIC LETTER BEH ISOLATED FORM",
+  "bn1_slot": "0x1B",
+  "regular": "glyphs/regular/U+FE8F_1B.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE8F_1B.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 15,
+  "advance_regular": 8
+ },
+ "U+FE90": {
+  "char": "ﺐ",
+  "name": "ARABIC LETTER BEH FINAL FORM",
+  "bn1_slot": "0x1B",
+  "regular": "glyphs/regular/U+FE90_1B.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE90_1B.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 16,
+  "advance_regular": 8
+ },
+ "U+FE91": {
+  "char": "ﺑ",
+  "name": "ARABIC LETTER BEH INITIAL FORM",
+  "bn1_slot": "0x1C",
+  "regular": "glyphs/regular/U+FE91_1C.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE91_1C.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 17,
+  "advance_regular": 9
+ },
+ "U+FE92": {
+  "char": "ﺒ",
+  "name": "ARABIC LETTER BEH MEDIAL FORM",
+  "bn1_slot": "0x1D",
+  "regular": "glyphs/regular/U+FE92_1D.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE92_1D.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 18,
+  "advance_regular": 9
+ },
+ "U+FE93": {
+  "char": "ﺓ",
+  "name": "ARABIC LETTER TEH MARBUTA ISOLATED FORM",
+  "bn1_slot": "0x1E",
+  "regular": "glyphs/regular/U+FE93_1E.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE93_1E.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 19,
+  "advance_regular": 5
+ },
+ "U+FE94": {
+  "char": "ﺔ",
+  "name": "ARABIC LETTER TEH MARBUTA FINAL FORM",
+  "bn1_slot": "0x1F",
+  "regular": "glyphs/regular/U+FE94_1F.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE94_1F.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 20,
+  "advance_regular": 6
+ },
+ "U+FE95": {
+  "char": "ﺕ",
+  "name": "ARABIC LETTER TEH ISOLATED FORM",
+  "bn1_slot": "0x20",
+  "regular": "glyphs/regular/U+FE95_20.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE95_20.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 21,
+  "advance_regular": 8
+ },
+ "U+FE96": {
+  "char": "ﺖ",
+  "name": "ARABIC LETTER TEH FINAL FORM",
+  "bn1_slot": "0x20",
+  "regular": "glyphs/regular/U+FE96_20.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE96_20.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 22,
+  "advance_regular": 8
+ },
+ "U+FE97": {
+  "char": "ﺗ",
+  "name": "ARABIC LETTER TEH INITIAL FORM",
+  "bn1_slot": "0x21",
+  "regular": "glyphs/regular/U+FE97_21.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE97_21.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 23,
+  "advance_regular": 9
+ },
+ "U+FE98": {
+  "char": "ﺘ",
+  "name": "ARABIC LETTER TEH MEDIAL FORM",
+  "bn1_slot": "0x22",
+  "regular": "glyphs/regular/U+FE98_22.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE98_22.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 24,
+  "advance_regular": 9
+ },
+ "U+FE99": {
+  "char": "ﺙ",
+  "name": "ARABIC LETTER THEH ISOLATED FORM",
+  "bn1_slot": "0x23",
+  "regular": "glyphs/regular/U+FE99_23.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE99_23.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 25,
+  "advance_regular": 8
+ },
+ "U+FE9A": {
+  "char": "ﺚ",
+  "name": "ARABIC LETTER THEH FINAL FORM",
+  "bn1_slot": "0x23",
+  "regular": "glyphs/regular/U+FE9A_23.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE9A_23.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 26,
+  "advance_regular": 8
+ },
+ "U+FE9B": {
+  "char": "ﺛ",
+  "name": "ARABIC LETTER THEH INITIAL FORM",
+  "bn1_slot": "0x24",
+  "regular": "glyphs/regular/U+FE9B_24.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE9B_24.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 27,
+  "advance_regular": 9
+ },
+ "U+FE9C": {
+  "char": "ﺜ",
+  "name": "ARABIC LETTER THEH MEDIAL FORM",
+  "bn1_slot": "0x25",
+  "regular": "glyphs/regular/U+FE9C_25.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE9C_25.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 28,
+  "advance_regular": 9
+ },
+ "U+FE9D": {
+  "char": "ﺝ",
+  "name": "ARABIC LETTER JEEM ISOLATED FORM",
+  "bn1_slot": "0x26",
+  "regular": "glyphs/regular/U+FE9D_26.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE9D_26.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 29,
+  "advance_regular": 7
+ },
+ "U+FE9E": {
+  "char": "ﺞ",
+  "name": "ARABIC LETTER JEEM FINAL FORM",
+  "bn1_slot": "0xB2",
+  "regular": "glyphs/regular/U+FE9E_B2.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE9E_B2.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 30,
+  "advance_regular": 7
+ },
+ "U+FE9F": {
+  "char": "ﺟ",
+  "name": "ARABIC LETTER JEEM INITIAL FORM",
+  "bn1_slot": "0x27",
+  "regular": "glyphs/regular/U+FE9F_27.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FE9F_27.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 31,
+  "advance_regular": 9
+ },
+ "U+FEA0": {
+  "char": "ﺠ",
+  "name": "ARABIC LETTER JEEM MEDIAL FORM",
+  "bn1_slot": "0x28",
+  "regular": "glyphs/regular/U+FEA0_28.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEA0_28.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 32,
+  "advance_regular": 9
+ },
+ "U+FEA1": {
+  "char": "ﺡ",
+  "name": "ARABIC LETTER HAH ISOLATED FORM",
+  "bn1_slot": "0x29",
+  "regular": "glyphs/regular/U+FEA1_29.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEA1_29.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 33,
+  "advance_regular": 7
+ },
+ "U+FEA2": {
+  "char": "ﺢ",
+  "name": "ARABIC LETTER HAH FINAL FORM",
+  "bn1_slot": "0xB3",
+  "regular": "glyphs/regular/U+FEA2_B3.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEA2_B3.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 34,
+  "advance_regular": 7
+ },
+ "U+FEA3": {
+  "char": "ﺣ",
+  "name": "ARABIC LETTER HAH INITIAL FORM",
+  "bn1_slot": "0x2A",
+  "regular": "glyphs/regular/U+FEA3_2A.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEA3_2A.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 35,
+  "advance_regular": 9
+ },
+ "U+FEA4": {
+  "char": "ﺤ",
+  "name": "ARABIC LETTER HAH MEDIAL FORM",
+  "bn1_slot": "0x2B",
+  "regular": "glyphs/regular/U+FEA4_2B.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEA4_2B.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 36,
+  "advance_regular": 9
+ },
+ "U+FEA5": {
+  "char": "ﺥ",
+  "name": "ARABIC LETTER KHAH ISOLATED FORM",
+  "bn1_slot": "0x2C",
+  "regular": "glyphs/regular/U+FEA5_2C.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEA5_2C.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 37,
+  "advance_regular": 7
+ },
+ "U+FEA6": {
+  "char": "ﺦ",
+  "name": "ARABIC LETTER KHAH FINAL FORM",
+  "bn1_slot": "0xB4",
+  "regular": "glyphs/regular/U+FEA6_B4.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEA6_B4.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 38,
+  "advance_regular": 7
+ },
+ "U+FEA7": {
+  "char": "ﺧ",
+  "name": "ARABIC LETTER KHAH INITIAL FORM",
+  "bn1_slot": "0x2D",
+  "regular": "glyphs/regular/U+FEA7_2D.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEA7_2D.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 39,
+  "advance_regular": 9
+ },
+ "U+FEA8": {
+  "char": "ﺨ",
+  "name": "ARABIC LETTER KHAH MEDIAL FORM",
+  "bn1_slot": "0x2E",
+  "regular": "glyphs/regular/U+FEA8_2E.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEA8_2E.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 40,
+  "advance_regular": 9
+ },
+ "U+FEA9": {
+  "char": "ﺩ",
+  "name": "ARABIC LETTER DAL ISOLATED FORM",
+  "bn1_slot": "0x2F",
+  "regular": "glyphs/regular/U+FEA9_2F.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEA9_2F.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 41,
+  "advance_regular": 5
+ },
+ "U+FEAA": {
+  "char": "ﺪ",
+  "name": "ARABIC LETTER DAL FINAL FORM",
+  "bn1_slot": "0x30",
+  "regular": "glyphs/regular/U+FEAA_30.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEAA_30.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 42,
+  "advance_regular": 5
+ },
+ "U+FEAB": {
+  "char": "ﺫ",
+  "name": "ARABIC LETTER THAL ISOLATED FORM",
+  "bn1_slot": "0x31",
+  "regular": "glyphs/regular/U+FEAB_31.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEAB_31.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 43,
+  "advance_regular": 5
+ },
+ "U+FEAC": {
+  "char": "ﺬ",
+  "name": "ARABIC LETTER THAL FINAL FORM",
+  "bn1_slot": "0x32",
+  "regular": "glyphs/regular/U+FEAC_32.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEAC_32.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 44,
+  "advance_regular": 5
+ },
+ "U+FEAD": {
+  "char": "ﺭ",
+  "name": "ARABIC LETTER REH ISOLATED FORM",
+  "bn1_slot": "0x33",
+  "regular": "glyphs/regular/U+FEAD_33.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEAD_33.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 45,
+  "advance_regular": 6
+ },
+ "U+FEAE": {
+  "char": "ﺮ",
+  "name": "ARABIC LETTER REH FINAL FORM",
+  "bn1_slot": "0x34",
+  "regular": "glyphs/regular/U+FEAE_34.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEAE_34.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 46,
+  "advance_regular": 6
+ },
+ "U+FEAF": {
+  "char": "ﺯ",
+  "name": "ARABIC LETTER ZAIN ISOLATED FORM",
+  "bn1_slot": "0x35",
+  "regular": "glyphs/regular/U+FEAF_35.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEAF_35.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 47,
+  "advance_regular": 6
+ },
+ "U+FEB0": {
+  "char": "ﺰ",
+  "name": "ARABIC LETTER ZAIN FINAL FORM",
+  "bn1_slot": "0x36",
+  "regular": "glyphs/regular/U+FEB0_36.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEB0_36.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 48,
+  "advance_regular": 6
+ },
+ "U+FEB1": {
+  "char": "ﺱ",
+  "name": "ARABIC LETTER SEEN ISOLATED FORM",
+  "bn1_slot": "0x37",
+  "regular": "glyphs/regular/U+FEB1_37.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEB1_37.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 49,
+  "advance_regular": 9
+ },
+ "U+FEB2": {
+  "char": "ﺲ",
+  "name": "ARABIC LETTER SEEN FINAL FORM",
+  "bn1_slot": "0x37",
+  "regular": "glyphs/regular/U+FEB2_37.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEB2_37.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 50,
+  "advance_regular": 9
+ },
+ "U+FEB3": {
+  "char": "ﺳ",
+  "name": "ARABIC LETTER SEEN INITIAL FORM",
+  "bn1_slot": "0x39",
+  "regular": "glyphs/regular/U+FEB3_39.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEB3_39.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 51,
+  "advance_regular": 9
+ },
+ "U+FEB4": {
+  "char": "ﺴ",
+  "name": "ARABIC LETTER SEEN MEDIAL FORM",
+  "bn1_slot": "0x3A",
+  "regular": "glyphs/regular/U+FEB4_3A.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEB4_3A.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 52,
+  "advance_regular": 9
+ },
+ "U+FEB5": {
+  "char": "ﺵ",
+  "name": "ARABIC LETTER SHEEN ISOLATED FORM",
+  "bn1_slot": "0x3B",
+  "regular": "glyphs/regular/U+FEB5_3B.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEB5_3B.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 53,
+  "advance_regular": 9
+ },
+ "U+FEB6": {
+  "char": "ﺶ",
+  "name": "ARABIC LETTER SHEEN FINAL FORM",
+  "bn1_slot": "0x3B",
+  "regular": "glyphs/regular/U+FEB6_3B.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEB6_3B.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 54,
+  "advance_regular": 9
+ },
+ "U+FEB7": {
+  "char": "ﺷ",
+  "name": "ARABIC LETTER SHEEN INITIAL FORM",
+  "bn1_slot": "0x3C",
+  "regular": "glyphs/regular/U+FEB7_3C.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEB7_3C.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 55,
+  "advance_regular": 9
+ },
+ "U+FEB8": {
+  "char": "ﺸ",
+  "name": "ARABIC LETTER SHEEN MEDIAL FORM",
+  "bn1_slot": "0x3D",
+  "regular": "glyphs/regular/U+FEB8_3D.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEB8_3D.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 56,
+  "advance_regular": 9
+ },
+ "U+FEB9": {
+  "char": "ﺹ",
+  "name": "ARABIC LETTER SAD ISOLATED FORM",
+  "bn1_slot": "0x3E",
+  "regular": "glyphs/regular/U+FEB9_3E.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEB9_3E.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 57,
+  "advance_regular": 9
+ },
+ "U+FEBA": {
+  "char": "ﺺ",
+  "name": "ARABIC LETTER SAD FINAL FORM",
+  "bn1_slot": "0x3E",
+  "regular": "glyphs/regular/U+FEBA_3E.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEBA_3E.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 58,
+  "advance_regular": 9
+ },
+ "U+FEBB": {
+  "char": "ﺻ",
+  "name": "ARABIC LETTER SAD INITIAL FORM",
+  "bn1_slot": "0x3F",
+  "regular": "glyphs/regular/U+FEBB_3F.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEBB_3F.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 59,
+  "advance_regular": 9
+ },
+ "U+FEBC": {
+  "char": "ﺼ",
+  "name": "ARABIC LETTER SAD MEDIAL FORM",
+  "bn1_slot": "0x40",
+  "regular": "glyphs/regular/U+FEBC_40.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEBC_40.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 60,
+  "advance_regular": 9
+ },
+ "U+FEBD": {
+  "char": "ﺽ",
+  "name": "ARABIC LETTER DAD ISOLATED FORM",
+  "bn1_slot": "0x41",
+  "regular": "glyphs/regular/U+FEBD_41.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEBD_41.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 61,
+  "advance_regular": 9
+ },
+ "U+FEBE": {
+  "char": "ﺾ",
+  "name": "ARABIC LETTER DAD FINAL FORM",
+  "bn1_slot": "0x41",
+  "regular": "glyphs/regular/U+FEBE_41.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEBE_41.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 62,
+  "advance_regular": 9
+ },
+ "U+FEBF": {
+  "char": "ﺿ",
+  "name": "ARABIC LETTER DAD INITIAL FORM",
+  "bn1_slot": "0x42",
+  "regular": "glyphs/regular/U+FEBF_42.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEBF_42.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 63,
+  "advance_regular": 9
+ },
+ "U+FEC0": {
+  "char": "ﻀ",
+  "name": "ARABIC LETTER DAD MEDIAL FORM",
+  "bn1_slot": "0x43",
+  "regular": "glyphs/regular/U+FEC0_43.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEC0_43.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 64,
+  "advance_regular": 9
+ },
+ "U+FEC1": {
+  "char": "ﻁ",
+  "name": "ARABIC LETTER TAH ISOLATED FORM",
+  "bn1_slot": "0x44",
+  "regular": "glyphs/regular/U+FEC1_44.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEC1_44.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 65,
+  "advance_regular": 9
+ },
+ "U+FEC2": {
+  "char": "ﻂ",
+  "name": "ARABIC LETTER TAH FINAL FORM",
+  "bn1_slot": "0x44",
+  "regular": "glyphs/regular/U+FEC2_44.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEC2_44.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 66,
+  "advance_regular": 9
+ },
+ "U+FEC3": {
+  "char": "ﻃ",
+  "name": "ARABIC LETTER TAH INITIAL FORM",
+  "bn1_slot": "0x44",
+  "regular": "glyphs/regular/U+FEC3_44.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEC3_44.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 67,
+  "advance_regular": 9
+ },
+ "U+FEC4": {
+  "char": "ﻄ",
+  "name": "ARABIC LETTER TAH MEDIAL FORM",
+  "bn1_slot": "0x45",
+  "regular": "glyphs/regular/U+FEC4_45.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEC4_45.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 68,
+  "advance_regular": 9
+ },
+ "U+FEC5": {
+  "char": "ﻅ",
+  "name": "ARABIC LETTER ZAH ISOLATED FORM",
+  "bn1_slot": "0x46",
+  "regular": "glyphs/regular/U+FEC5_46.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEC5_46.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 69,
+  "advance_regular": 9
+ },
+ "U+FEC6": {
+  "char": "ﻆ",
+  "name": "ARABIC LETTER ZAH FINAL FORM",
+  "bn1_slot": "0x46",
+  "regular": "glyphs/regular/U+FEC6_46.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEC6_46.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 70,
+  "advance_regular": 9
+ },
+ "U+FEC7": {
+  "char": "ﻇ",
+  "name": "ARABIC LETTER ZAH INITIAL FORM",
+  "bn1_slot": "0x46",
+  "regular": "glyphs/regular/U+FEC7_46.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEC7_46.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 71,
+  "advance_regular": 9
+ },
+ "U+FEC8": {
+  "char": "ﻈ",
+  "name": "ARABIC LETTER ZAH MEDIAL FORM",
+  "bn1_slot": "0x47",
+  "regular": "glyphs/regular/U+FEC8_47.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEC8_47.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 72,
+  "advance_regular": 9
+ },
+ "U+FEC9": {
+  "char": "ﻉ",
+  "name": "ARABIC LETTER AIN ISOLATED FORM",
+  "bn1_slot": "0x48",
+  "regular": "glyphs/regular/U+FEC9_48.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEC9_48.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 73,
+  "advance_regular": 7
+ },
+ "U+FECA": {
+  "char": "ﻊ",
+  "name": "ARABIC LETTER AIN FINAL FORM",
+  "bn1_slot": "0x49",
+  "regular": "glyphs/regular/U+FECA_49.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FECA_49.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 74,
+  "advance_regular": 7
+ },
+ "U+FECB": {
+  "char": "ﻋ",
+  "name": "ARABIC LETTER AIN INITIAL FORM",
+  "bn1_slot": "0x4A",
+  "regular": "glyphs/regular/U+FECB_4A.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FECB_4A.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 75,
+  "advance_regular": 9
+ },
+ "U+FECC": {
+  "char": "ﻌ",
+  "name": "ARABIC LETTER AIN MEDIAL FORM",
+  "bn1_slot": "0x4B",
+  "regular": "glyphs/regular/U+FECC_4B.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FECC_4B.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 76,
+  "advance_regular": 9
+ },
+ "U+FECD": {
+  "char": "ﻍ",
+  "name": "ARABIC LETTER GHAIN ISOLATED FORM",
+  "bn1_slot": "0x4C",
+  "regular": "glyphs/regular/U+FECD_4C.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FECD_4C.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 77,
+  "advance_regular": 7
+ },
+ "U+FECE": {
+  "char": "ﻎ",
+  "name": "ARABIC LETTER GHAIN FINAL FORM",
+  "bn1_slot": "0x4D",
+  "regular": "glyphs/regular/U+FECE_4D.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FECE_4D.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 78,
+  "advance_regular": 7
+ },
+ "U+FECF": {
+  "char": "ﻏ",
+  "name": "ARABIC LETTER GHAIN INITIAL FORM",
+  "bn1_slot": "0x4E",
+  "regular": "glyphs/regular/U+FECF_4E.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FECF_4E.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 79,
+  "advance_regular": 9
+ },
+ "U+FED0": {
+  "char": "ﻐ",
+  "name": "ARABIC LETTER GHAIN MEDIAL FORM",
+  "bn1_slot": "0x4F",
+  "regular": "glyphs/regular/U+FED0_4F.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FED0_4F.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 80,
+  "advance_regular": 9
+ },
+ "U+FED1": {
+  "char": "ﻑ",
+  "name": "ARABIC LETTER FEH ISOLATED FORM",
+  "bn1_slot": "0x50",
+  "regular": "glyphs/regular/U+FED1_50.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FED1_50.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 81,
+  "advance_regular": 9
+ },
+ "U+FED2": {
+  "char": "ﻒ",
+  "name": "ARABIC LETTER FEH FINAL FORM",
+  "bn1_slot": "0x50",
+  "regular": "glyphs/regular/U+FED2_50.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FED2_50.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 82,
+  "advance_regular": 9
+ },
+ "U+FED3": {
+  "char": "ﻓ",
+  "name": "ARABIC LETTER FEH INITIAL FORM",
+  "bn1_slot": "0x51",
+  "regular": "glyphs/regular/U+FED3_51.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FED3_51.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 83,
+  "advance_regular": 9
+ },
+ "U+FED4": {
+  "char": "ﻔ",
+  "name": "ARABIC LETTER FEH MEDIAL FORM",
+  "bn1_slot": "0x52",
+  "regular": "glyphs/regular/U+FED4_52.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FED4_52.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 84,
+  "advance_regular": 9
+ },
+ "U+FED5": {
+  "char": "ﻕ",
+  "name": "ARABIC LETTER QAF ISOLATED FORM",
+  "bn1_slot": "0x53",
+  "regular": "glyphs/regular/U+FED5_53.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FED5_53.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 85,
+  "advance_regular": 8
+ },
+ "U+FED6": {
+  "char": "ﻖ",
+  "name": "ARABIC LETTER QAF FINAL FORM",
+  "bn1_slot": "0x53",
+  "regular": "glyphs/regular/U+FED6_53.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FED6_53.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 86,
+  "advance_regular": 8
+ },
+ "U+FED7": {
+  "char": "ﻗ",
+  "name": "ARABIC LETTER QAF INITIAL FORM",
+  "bn1_slot": "0x54",
+  "regular": "glyphs/regular/U+FED7_54.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FED7_54.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 87,
+  "advance_regular": 9
+ },
+ "U+FED8": {
+  "char": "ﻘ",
+  "name": "ARABIC LETTER QAF MEDIAL FORM",
+  "bn1_slot": "0x55",
+  "regular": "glyphs/regular/U+FED8_55.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FED8_55.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 88,
+  "advance_regular": 9
+ },
+ "U+FED9": {
+  "char": "ﻙ",
+  "name": "ARABIC LETTER KAF ISOLATED FORM",
+  "bn1_slot": "0x56",
+  "regular": "glyphs/regular/U+FED9_56.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FED9_56.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 89,
+  "advance_regular": 8
+ },
+ "U+FEDA": {
+  "char": "ﻚ",
+  "name": "ARABIC LETTER KAF FINAL FORM",
+  "bn1_slot": "0x56",
+  "regular": "glyphs/regular/U+FEDA_56.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEDA_56.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 90,
+  "advance_regular": 8
+ },
+ "U+FEDB": {
+  "char": "ﻛ",
+  "name": "ARABIC LETTER KAF INITIAL FORM",
+  "bn1_slot": "0x57",
+  "regular": "glyphs/regular/U+FEDB_57.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEDB_57.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 91,
+  "advance_regular": 9
+ },
+ "U+FEDC": {
+  "char": "ﻜ",
+  "name": "ARABIC LETTER KAF MEDIAL FORM",
+  "bn1_slot": "0x58",
+  "regular": "glyphs/regular/U+FEDC_58.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEDC_58.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 92,
+  "advance_regular": 9
+ },
+ "U+FEDD": {
+  "char": "ﻝ",
+  "name": "ARABIC LETTER LAM ISOLATED FORM",
+  "bn1_slot": "0x59",
+  "regular": "glyphs/regular/U+FEDD_59.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEDD_59.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 93,
+  "advance_regular": 7
+ },
+ "U+FEDE": {
+  "char": "ﻞ",
+  "name": "ARABIC LETTER LAM FINAL FORM",
+  "bn1_slot": "0x59",
+  "regular": "glyphs/regular/U+FEDE_59.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEDE_59.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 94,
+  "advance_regular": 7
+ },
+ "U+FEDF": {
+  "char": "ﻟ",
+  "name": "ARABIC LETTER LAM INITIAL FORM",
+  "bn1_slot": "0x5A",
+  "regular": "glyphs/regular/U+FEDF_5A.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEDF_5A.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 95,
+  "advance_regular": 9
+ },
+ "U+FEE0": {
+  "char": "ﻠ",
+  "name": "ARABIC LETTER LAM MEDIAL FORM",
+  "bn1_slot": "0x5B",
+  "regular": "glyphs/regular/U+FEE0_5B.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEE0_5B.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 96,
+  "advance_regular": 9
+ },
+ "U+FEE1": {
+  "char": "ﻡ",
+  "name": "ARABIC LETTER MEEM ISOLATED FORM",
+  "bn1_slot": "0x5C",
+  "regular": "glyphs/regular/U+FEE1_5C.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEE1_5C.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 97,
+  "advance_regular": 5
+ },
+ "U+FEE2": {
+  "char": "ﻢ",
+  "name": "ARABIC LETTER MEEM FINAL FORM",
+  "bn1_slot": "0x5C",
+  "regular": "glyphs/regular/U+FEE2_5C.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEE2_5C.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 98,
+  "advance_regular": 5
+ },
+ "U+FEE3": {
+  "char": "ﻣ",
+  "name": "ARABIC LETTER MEEM INITIAL FORM",
+  "bn1_slot": "0x5D",
+  "regular": "glyphs/regular/U+FEE3_5D.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEE3_5D.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 99,
+  "advance_regular": 9
+ },
+ "U+FEE4": {
+  "char": "ﻤ",
+  "name": "ARABIC LETTER MEEM MEDIAL FORM",
+  "bn1_slot": "0xA9",
+  "regular": "glyphs/regular/U+FEE4_A9.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEE4_A9.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 100,
+  "advance_regular": 9
+ },
+ "U+FEE5": {
+  "char": "ﻥ",
+  "name": "ARABIC LETTER NOON ISOLATED FORM",
+  "bn1_slot": "0xAA",
+  "regular": "glyphs/regular/U+FEE5_AA.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEE5_AA.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 101,
+  "advance_regular": 7
+ },
+ "U+FEE6": {
+  "char": "ﻦ",
+  "name": "ARABIC LETTER NOON FINAL FORM",
+  "bn1_slot": "0xAA",
+  "regular": "glyphs/regular/U+FEE6_AA.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEE6_AA.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 102,
+  "advance_regular": 7
+ },
+ "U+FEE7": {
+  "char": "ﻧ",
+  "name": "ARABIC LETTER NOON INITIAL FORM",
+  "bn1_slot": "0xAB",
+  "regular": "glyphs/regular/U+FEE7_AB.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEE7_AB.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 103,
+  "advance_regular": 9
+ },
+ "U+FEE8": {
+  "char": "ﻨ",
+  "name": "ARABIC LETTER NOON MEDIAL FORM",
+  "bn1_slot": "0xAC",
+  "regular": "glyphs/regular/U+FEE8_AC.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEE8_AC.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 104,
+  "advance_regular": 9
+ },
+ "U+FEE9": {
+  "char": "ﻩ",
+  "name": "ARABIC LETTER HEH ISOLATED FORM",
+  "bn1_slot": "0x97",
+  "regular": "glyphs/regular/U+FEE9_97.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEE9_97.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 105,
+  "advance_regular": 5
+ },
+ "U+FEEA": {
+  "char": "ﻪ",
+  "name": "ARABIC LETTER HEH FINAL FORM",
+  "bn1_slot": "0x98",
+  "regular": "glyphs/regular/U+FEEA_98.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEEA_98.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 106,
+  "advance_regular": 6
+ },
+ "U+FEEB": {
+  "char": "ﻫ",
+  "name": "ARABIC LETTER HEH INITIAL FORM",
+  "bn1_slot": "0x99",
+  "regular": "glyphs/regular/U+FEEB_99.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEEB_99.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 107,
+  "advance_regular": 9
+ },
+ "U+FEEC": {
+  "char": "ﻬ",
+  "name": "ARABIC LETTER HEH MEDIAL FORM",
+  "bn1_slot": "0x9A",
+  "regular": "glyphs/regular/U+FEEC_9A.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEEC_9A.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 108,
+  "advance_regular": 9
+ },
+ "U+FEED": {
+  "char": "ﻭ",
+  "name": "ARABIC LETTER WAW ISOLATED FORM",
+  "bn1_slot": "0x9B",
+  "regular": "glyphs/regular/U+FEED_9B.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEED_9B.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 109,
+  "advance_regular": 7
+ },
+ "U+FEEE": {
+  "char": "ﻮ",
+  "name": "ARABIC LETTER WAW FINAL FORM",
+  "bn1_slot": "0x9B",
+  "regular": "glyphs/regular/U+FEEE_9B.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEEE_9B.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 110,
+  "advance_regular": 7
+ },
+ "U+FEEF": {
+  "char": "ﻯ",
+  "name": "ARABIC LETTER ALEF MAKSURA ISOLATED FORM",
+  "bn1_slot": "0x9C",
+  "regular": "glyphs/regular/U+FEEF_9C.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEEF_9C.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 111,
+  "advance_regular": 9
+ },
+ "U+FEF0": {
+  "char": "ﻰ",
+  "name": "ARABIC LETTER ALEF MAKSURA FINAL FORM",
+  "bn1_slot": "0x9D",
+  "regular": "glyphs/regular/U+FEF0_9D.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEF0_9D.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 112,
+  "advance_regular": 9
+ },
+ "U+FEF1": {
+  "char": "ﻱ",
+  "name": "ARABIC LETTER YEH ISOLATED FORM",
+  "bn1_slot": "0x9E",
+  "regular": "glyphs/regular/U+FEF1_9E.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEF1_9E.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 113,
+  "advance_regular": 9
+ },
+ "U+FEF2": {
+  "char": "ﻲ",
+  "name": "ARABIC LETTER YEH FINAL FORM",
+  "bn1_slot": "0x9F",
+  "regular": "glyphs/regular/U+FEF2_9F.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEF2_9F.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 114,
+  "advance_regular": 9
+ },
+ "U+FEF3": {
+  "char": "ﻳ",
+  "name": "ARABIC LETTER YEH INITIAL FORM",
+  "bn1_slot": "0xA0",
+  "regular": "glyphs/regular/U+FEF3_A0.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEF3_A0.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 115,
+  "advance_regular": 9
+ },
+ "U+FEF4": {
+  "char": "ﻴ",
+  "name": "ARABIC LETTER YEH MEDIAL FORM",
+  "bn1_slot": "0xA1",
+  "regular": "glyphs/regular/U+FEF4_A1.png",
+  "ink_columns_regular": [
+   0,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEF4_A1.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 116,
+  "advance_regular": 9
+ },
+ "U+FEF5": {
+  "char": "ﻵ",
+  "name": "ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE ISOLATED FORM",
+  "bn1_slot": "0xA2",
+  "regular": "glyphs/regular/U+FEF5_A2.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEF5_A2.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 117,
+  "advance_regular": 8
+ },
+ "U+FEF6": {
+  "char": "ﻶ",
+  "name": "ARABIC LIGATURE LAM WITH ALEF WITH MADDA ABOVE FINAL FORM",
+  "bn1_slot": "0xA2",
+  "regular": "glyphs/regular/U+FEF6_A2.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEF6_A2.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 118,
+  "advance_regular": 8
+ },
+ "U+FEF7": {
+  "char": "ﻷ",
+  "name": "ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE ISOLATED FORM",
+  "bn1_slot": "0xA3",
+  "regular": "glyphs/regular/U+FEF7_A3.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEF7_A3.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 119,
+  "advance_regular": 8
+ },
+ "U+FEF8": {
+  "char": "ﻸ",
+  "name": "ARABIC LIGATURE LAM WITH ALEF WITH HAMZA ABOVE FINAL FORM",
+  "bn1_slot": "0xA3",
+  "regular": "glyphs/regular/U+FEF8_A3.png",
+  "ink_columns_regular": [
+   1,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEF8_A3.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 120,
+  "advance_regular": 8
+ },
+ "U+FEF9": {
+  "char": "ﻹ",
+  "name": "ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW ISOLATED FORM",
+  "bn1_slot": "0xA4",
+  "regular": "glyphs/regular/U+FEF9_A4.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEF9_A4.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 121,
+  "advance_regular": 6
+ },
+ "U+FEFA": {
+  "char": "ﻺ",
+  "name": "ARABIC LIGATURE LAM WITH ALEF WITH HAMZA BELOW FINAL FORM",
+  "bn1_slot": "0xA4",
+  "regular": "glyphs/regular/U+FEFA_A4.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEFA_A4.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 122,
+  "advance_regular": 6
+ },
+ "U+E081": {
+  "char": "",
+  "name": "midword ALEF WITH MADDA",
+  "bn1_slot": "0xAD",
+  "regular": "glyphs/regular/U+E081_AD.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+E081_AD.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 123,
+  "advance_regular": 5
+ },
+ "U+E083": {
+  "char": "",
+  "name": "midword ALEF WITH HAMZA ABOVE",
+  "bn1_slot": "0xAE",
+  "regular": "glyphs/regular/U+E083_AE.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+E083_AE.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 124,
+  "advance_regular": 5
+ },
+ "U+E087": {
+  "char": "",
+  "name": "midword ALEF WITH HAMZA BELOW",
+  "bn1_slot": "0xAF",
+  "regular": "glyphs/regular/U+E087_AF.png",
+  "ink_columns_regular": [
+   4,
+   7
+  ],
+  "bold": "glyphs/bold/U+E087_AF.png",
+  "ink_columns_bold": [
+   2,
+   7
+  ],
+  "atlas_index": 125,
+  "advance_regular": 5
+ },
+ "U+E08D": {
+  "char": "",
+  "name": "midword ALEF",
+  "bn1_slot": "0xB0",
+  "regular": "glyphs/regular/U+E08D_B0.png",
+  "ink_columns_regular": [
+   6,
+   7
+  ],
+  "bold": "glyphs/bold/U+E08D_B0.png",
+  "ink_columns_bold": [
+   4,
+   7
+  ],
+  "atlas_index": 126,
+  "advance_regular": 3
+ },
+ "U+E090": {
+  "char": "",
+  "name": "two midword ALEFs in one cell",
+  "bn1_slot": "0xB1",
+  "regular": "glyphs/regular/U+E090_B1.png",
+  "ink_columns_regular": [
+   2,
+   7
+  ],
+  "bold": "glyphs/bold/U+E090_B1.png",
+  "ink_columns_bold": [
+   0,
+   7
+  ],
+  "atlas_index": 127,
+  "advance_regular": 7
+ },
+ "U+E0A0": {
+  "char": "",
+  "name": "article AL (alef+lam initial) in one cell",
+  "bn1_slot": "0xB5",
+  "regular": "glyphs/regular/U+E0A0_B5.png",
+  "ink_columns_regular": [
+   0,
+   6
+  ],
+  "bold": "glyphs/bold/U+E0A0_B5.png",
+  "ink_columns_bold": [
+   0,
+   6
+  ],
+  "atlas_index": 128,
+  "advance_regular": 8
+ },
+ "U+FEFB": {
+  "char": "ﻻ",
+  "name": "ARABIC LIGATURE LAM WITH ALEF ISOLATED FORM",
+  "bn1_slot": "0xA5",
+  "regular": "glyphs/regular/U+FEFB_A5.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEFB_A5.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 129,
+  "advance_regular": 6
+ },
+ "U+FEFC": {
+  "char": "ﻼ",
+  "name": "ARABIC LIGATURE LAM WITH ALEF FINAL FORM",
+  "bn1_slot": "0xA5",
+  "regular": "glyphs/regular/U+FEFC_A5.png",
+  "ink_columns_regular": [
+   3,
+   7
+  ],
+  "bold": "glyphs/bold/U+FEFC_A5.png",
+  "ink_columns_bold": [
+   1,
+   7
+  ],
+  "atlas_index": 130,
+  "advance_regular": 6
+ },
+ "U+060C": {
+  "char": "،",
+  "name": "ARABIC COMMA",
+  "bn1_slot": "0xA6",
+  "regular": "glyphs/regular/U+060C_A6.png",
+  "ink_columns_regular": [
+   4,
+   6
+  ],
+  "bold": "glyphs/bold/U+060C_A6.png",
+  "ink_columns_bold": [
+   2,
+   6
+  ],
+  "atlas_index": 131,
+  "advance_regular": 4
+ },
+ "U+061B": {
+  "char": "؛",
+  "name": "ARABIC SEMICOLON",
+  "bn1_slot": "0xA7",
+  "regular": "glyphs/regular/U+061B_A7.png",
+  "ink_columns_regular": [
+   3,
+   5
+  ],
+  "bold": "glyphs/bold/U+061B_A7.png",
+  "ink_columns_bold": [
+   1,
+   5
+  ],
+  "atlas_index": 132,
+  "advance_regular": 4
+ },
+ "U+061F": {
+  "char": "؟",
+  "name": "ARABIC QUESTION MARK",
+  "bn1_slot": "0xA8",
+  "regular": "glyphs/regular/U+061F_A8.png",
+  "ink_columns_regular": [
+   0,
+   6
+  ],
+  "bold": "glyphs/bold/U+061F_A8.png",
+  "ink_columns_bold": [
+   0,
+   6
+  ],
+  "atlas_index": 133,
+  "advance_regular": 8
+ }
+}

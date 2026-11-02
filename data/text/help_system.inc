@@ -1,56 +1,55 @@
 Help_Text_WhatShouldIDo::
-	.string "What should I do in this situation?$"
+	.string "ﻣﺎﺫ ﺃﻓﻌﻞ ﻓﻲ ﻫﺬ ﻤﻮﻗﻒ؟$"
 
 Help_Text_HowDoIDoThis::
-	.string "How do I do this?$"
+	.string "ﻛﻴﻒ ﺃﻗﻮﻡ ﺑﻬﺬ؟$"
 
 Help_Text_WhatDoesThisTermMean::
-	.string "What does this term mean?$"
+	.string "ﻣﺎ ﻣﻌﻨﻰ ﻫﺬ ﻤﺼﻄﻠﺢ؟$"
 
 Help_Text_AboutThisGame::
-	.string "About this game$"
+	.string "ﻋﻦ ﻫﺬﻩ ﻠﻌﺒﺔ$"
 
 Help_Text_TypeMatchupList::
-	.string "Type Matchup List$"
+	.string "ﺟﺪﻭﻝ ﺗﻔﻮﻕ ﺍﻷﻧﻮﻉ$"
 
 Help_Text_Exit::
-	.string "EXIT$"
+	.string "ﺧﺮﻭﺝ$"
 
 Help_Text_Cancel::
-	.string "CANCEL$"
+	.string "ﺇﻟﻐﺎﺀ$"
 
 Help_Text_TryDoingItOnYourOwn::
 	.string "じぶんの ちからで やってみよう！$"
 
 Help_Text_DescWhatShouldIDo::
-	.string "Select to obtain hints for getting\n"
-	.string "over challenging situations.$"
+	.string "ﺍﺧﺘﺮﻩ ﻟﺘﺤﺼﻞ ﻋﻠﻰ ﺗﻠﻤﻴﺤﺎﺕ\n"
+	.string "ﺗﻌﻴﻨﻚ ﻓﻲ ﻤﻮﻗﻒ ﺼﻌﺒﺔ.$"
 
 Help_Text_DescHowDoIDoThis::
-	.string "Detailed instructions are given for\n"
-	.string "various operations.$"
+	.string "ﺷﺮﺡ ﻣﻔﺼﻞ ﻟﻄﺮﻳﻘﺔ ﻘﻴﺎﻡ ﺑﻤﺨﺘﻠﻒ\n"
+	.string "ﺍﻷﻣﻮﺭ.$"
 
 Help_Text_DescWhatDoesThisTermMean::
-	.string "Detailed descriptions are given for\n"
-	.string "terms that appear in the game.$"
+	.string "ﺷﺮﺡ ﻣﻔﺼﻞ ﻟﻠﻤﺼﻄﻠﺤﺎﺕ ﺘﻲ ﺗﻈﻬﺮ\n"
+	.string "ﻓﻲ ﻠﻌﺒﺔ.$"
 
 Help_Text_DescAboutThisGame::
-	.string "Detailed descriptions are given\n"
-	.string "about this game.$"
+	.string "ﻣﻌﻠﻮﻣﺎﺕ ﻣﻔﺼﻠﺔ ﻋﻦ ﻫﺬﻩ ﻠﻌﺒﺔ.$"
 
 Help_Text_DescTypeMatchupList::
-	.string "The matchups of  POKéMON types\n"
-	.string "and moves are listed.$"
+	.string "ﺟﺪﻭﻝ ﻳﺒﻴﻦ ﺃﻱ ﺃﻧﻮﻉ ﺒﻮﻛﻴﻤﻮﻥ\n"
+	.string "ﻭﺣﺮﻛﺎﺗﻬﺎ ﻳﺘﻔﻮﻕ ﻋﻠﻰ ﻏﻴﺮﻩ.$"
 
 Help_Text_DescExit::
-	.string "Select to exit the HELP System.$"
+	.string "ﺍﺧﺘﺮﻩ ﻟﻠﺨﺮﻭﺝ ﻣﻦ ﻧﻈﺎﻡ ﻤﺴﺎﻋﺪﺓ.$"
 
 Help_Text_Greetings::
-	.string "Greetings! This is the HELP System.\n"
-	.string "Call me up whenever and wherever you\l"
-	.string "need by pressing the L or R Button.\l"
-	.string "The help messages change to suit the\l"
-	.string "situation, so check them often, please.$"
+	.string "ﺃﻫﻼ ﺑﻚ! ﻣﻌﻚ ﻧﻈﺎﻡ ﻤﺴﺎﻋﺪﺓ.\n"
+	.string "ﺍﺳﺘﺪﻋﻨﻲ ﻣﺘﻰ ﻭﻳﻨﻤﺎ ﺍﺣﺘﺠﺖ ﺇﻟﻲ،\n"
+	.string "ﺑﺎﻟﻀﻐﻂ ﻋﻠﻰ ﺯﺭ L ﺃﻭ R. ﺗﺘﻐﻴﺮ\n"
+	.string "ﺭﺳﺎﺋﻞ ﻤﺴﺎﻋﺪﺓ ﻟﺘﻨﺎﺳﺐ ﻛﻞ ﻣﻮﻗﻒ،\n"
+	.string "ﻓﻼ ﺗﻨﺲ ﺃﻥ ﺗﺘﻔﻘﺪﻫﺎ ﻛﺜﻴﺮ!$"
 
 Help_Text_PlayingForFirstTime::
 	.string "I'm playing for the first time. Help!$"
@@ -583,7 +582,7 @@ Help_Text_RidingBicycle::
 	.string "    Riding the BICYCLE$"
 
 Help_Text_EnteringName::
-	.string "Entering a name$"
+	.string "ﺇﺩﺧﺎﻝ ﺍﻻﺳﻢ$"
 
 Help_Text_UsingPC::
 	.string "Using a PC$"
@@ -826,13 +825,12 @@ Help_Text_HowToRideBicycle::
 	.string "   pressing SELECT.$"
 
 Help_Text_HowToEnterName::
-	.string "{CIRCLE_1} Move the cursor to the letter you\n"
-	.string "   want with the {PLUS} Control Pad, then\n"
-	.string "   press the A Button to enter it.\n"
-	.string "{CIRCLE_2} Press the B Button to back up.\n"
-	.string "{CIRCLE_3} Press SELECT to switch between\n"
-	.string "   uppercase and lowercase letters.\n"
-	.string "{CIRCLE_4} Press the A Button on “OK.”$"
+	.string "{CIRCLE_1} ﺍﺧﺘﺮ ﺤﺮﻑ ﺑﻠﻮﺣﺔ ﺍﻻﺗﺠﺎﻫﺎﺕ {PLUS}،\n"
+	.string "   ﺛﻢ ﺍﺿﻐﻂ ﺯﺭ A ﻹﺩﺧﺎﻟﻪ.\n"
+	.string "{CIRCLE_2} ﺍﺿﻐﻂ ﺯﺭ B ﻟﺤﺬﻑ ﺁﺧﺮ ﺣﺮﻑ.\n"
+	.string "{CIRCLE_3} ﺍﺿﻐﻂ SELECT ﻟﻠﺘﺒﺪﻳﻞ ﺑﻴﻦ\n"
+	.string "   ﺤﺮﻭﻑ ﻜﺒﻴﺮﺓ ﻭﻟﺼﻐﻴﺮﺓ.\n"
+	.string "{CIRCLE_4} ﺍﺿﻐﻂ ﺯﺭ A ﻋﻠﻰ “OK”.$"
 
 Help_Text_HowToUsePC::
 	.string "{CIRCLE_1} Go to any POKéMON CENTER, go up\n"
@@ -1506,13 +1504,13 @@ Help_Text_DefineBadges2::
 	.string "in various cities and towns.$"
 
 Help_Text_TheHelpSystem::
-	.string "The HELP System$"
+	.string "ﻧﻈﺎﻡ ﻤﺴﺎﻋﺪﺓ$"
 
 Help_Text_TheGame::
-	.string "The game$"
+	.string "ﻠﻌﺒﺔ$"
 
 Help_Text_WirelessAdapter::
-	.string "Wireless Adapter$"
+	.string "ﻤﺤﻮﻝ ﻼﺳﻠﻜﻲ$"
 
 Help_Text_GameFundamentals1::
 	.string "Game fundamentals 1$"
@@ -1527,28 +1525,26 @@ Help_Text_WhatArePokemon::
 	.string "What are POKéMON?$"
 
 Help_Text_DescTheHelpSystem::
-	.string "The help messages change depending on\n"
-	.string "how much you have progressed in the\l"
-	.string "game. They are designed to support you\l"
-	.string "when you need them. If there is\l"
-	.string "anything that you don't understand,\l"
-	.string "please look up the HELP System!$"
+	.string "ﺗﺘﻐﻴﺮ ﺭﺳﺎﺋﻞ ﻤﺴﺎﻋﺪﺓ ﺑﺤﺴﺐ\n"
+	.string "ﺗﻘﺪﻣﻚ ﻓﻲ ﻠﻌﺒﺔ، ﻓﻬﻲ ﻣﺼﻤﻤﺔ\n"
+	.string "ﻟﺘﺴﺎﻧﺪﻙ ﺣﻴﻦ ﺗﺤﺘﺎﺝ ﺇﻟﻴﻬﺎ. ﻭﻥ\n"
+	.string "ﺻﻌﺐ ﻋﻠﻴﻚ ﻓﻬﻢ ﺃﻱ ﺷﻲﺀ، ﻓﻼ ﺗﺘﺮﺩﺩ\n"
+	.string "ﻓﻲ ﺮﺟﻮﻉ ﺇﻟﻰ ﻧﻈﺎﻡ ﻤﺴﺎﻋﺪﺓ!$"
 
 Help_Text_DescTheGame::
-	.string "You become the main character to\n"
-	.string "explore the world of POKéMON!\l"
-	.string "By talking to people and solving\l"
-	.string "mysteries, new paths will open to you.\l"
-	.string "Strive for the goal together with your\l"
-	.string "wonderful POKéMON!$"
+	.string "ﺳﺘﺼﺒﺢ ﺑﻄﻞ ﻘﺼﺔ، ﻭﺗﺴﺘﻜﺸﻒ ﻋﺎﻟﻢ\n"
+	.string "ﺒﻮﻛﻴﻤﻮﻥ! ﻭﻛﻠﻤﺎ ﺗﺤﺪﺛﺖ ﺇﻟﻰ\n"
+	.string "ﻨﺎﺱ ﻭﻛﺸﻔﺖ ﺍﻷﻟﻐﺎﺯ، ﺍﻧﻔﺘﺤﺖ\n"
+	.string "ﺃﻣﺎﻣﻚ ﺩﺭﻭﺏ ﺟﺪﻳﺪﺓ. ﻓﺎﻧﻄﻠﻖ ﻧﺤﻮ\n"
+	.string "ﻫﺪﻓﻚ ﺑﺮﻓﻘﺔ ﺑﻮﻛﻴﻤﻮﻧﻚ ﺮﺋﻌﻴﻦ!$"
 
 Help_Text_DescWirelessAdapter::
-	.string "This game communicates over a wireless\n"
-	.string "link using the Wireless Adapter.\p"
-	.string "Go wireless anywhere, anytime, and\n"
-	.string "with anybody!\p"
-	.string "Try playing with the Wireless Adapter\n"
-	.string "always attached!$"
+	.string "ﺗﺘﻮﺻﻞ ﻫﺬﻩ ﻠﻌﺒﺔ ﻻﺳﻠﻜﻴﺎ\n"
+	.string "ﺑﺎﺳﺘﺨﺪﻡ ﻤﺤﻮﻝ ﻼﺳﻠﻜﻲ.\n"
+	.string "ﻌﺐ ﻻﺳﻠﻜﻴﺎ ﻓﻲ ﺃﻱ ﻣﻜﺎﻥ، ﻭﻓﻲ ﺃﻱ\n"
+	.string "ﻭﻗﺖ، ﻭﻣﻊ ﺃﻱ ﺃﺣﺪ!\n"
+	.string "ﺟﺮﺏ ﺃﻥ ﺗﺒﻘﻲ ﻤﺤﻮﻝ ﻼﺳﻠﻜﻲ\n"
+	.string "ﻣﻮﺻﻮﻻ ﺩﺋﻤﺎ ﺃﺛﻨﺎﺀ ﻠﻌﺐ!$"
 
 Help_Text_DescGameFundamentals1::
 	.string "Visit every city and town, travel every\n"

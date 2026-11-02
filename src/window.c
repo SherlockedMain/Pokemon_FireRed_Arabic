@@ -313,6 +313,23 @@ void PutWindowRectTilemap(u8 windowId, u8 x, u8 y, u8 width, u8 height)
     }
 }
 
+#if TEXT_RTL
+// RTL: mirror pixel-level window drawing horizontally, matching the mirrored
+// glyph positions in CopyGlyphToWindow (cursors, erase rects, the dialogue
+// down arrow, icons). Bitmaps themselves are not flipped, only placed.
+static u16 MirrorWindowX(u8 windowId, u16 x, u16 width)
+{
+    s32 mirrored;
+
+    if (gTextRtlLocal)
+        return x;
+    mirrored = 8 * gWindows[windowId].window.width - x - width;
+    return mirrored < 0 ? 0 : mirrored;
+}
+#else
+#define MirrorWindowX(windowId, x, width) (x)
+#endif
+
 void BlitBitmapToWindow(u8 windowId, const u8 *pixels, u16 x, u16 y, u16 width, u16 height)
 {
     BlitBitmapRectToWindow(windowId, pixels, 0, 0, width, height, x, y, width, height);
@@ -331,7 +348,7 @@ void BlitBitmapRectToWindow(u8 windowId, const u8 *pixels, u16 srcX, u16 srcY, u
     destRect.width = 8 * gWindows[windowId].window.width;
     destRect.height = 8 * gWindows[windowId].window.height;
 
-    BlitBitmapRect4Bit(&sourceRect, &destRect, srcX, srcY, destX, destY, rectWidth, rectHeight, 0);
+    BlitBitmapRect4Bit(&sourceRect, &destRect, srcX, srcY, MirrorWindowX(windowId, destX, rectWidth), destY, rectWidth, rectHeight, 0);
 }
 
 void BlitBitmapRectToWindowWithColorKey(u8 windowId, const u8 *pixels, u16 srcX, u16 srcY, u16 srcWidth, int srcHeight, u16 destX, u16 destY, u16 rectWidth, u16 rectHeight, u8 colorKey)
@@ -347,7 +364,7 @@ void BlitBitmapRectToWindowWithColorKey(u8 windowId, const u8 *pixels, u16 srcX,
     destRect.width = 8 * gWindows[windowId].window.width;
     destRect.height = 8 * gWindows[windowId].window.height;
 
-    BlitBitmapRect4Bit(&sourceRect, &destRect, srcX, srcY, destX, destY, rectWidth, rectHeight, colorKey);
+    BlitBitmapRect4Bit(&sourceRect, &destRect, srcX, srcY, MirrorWindowX(windowId, destX, rectWidth), destY, rectWidth, rectHeight, colorKey);
 }
 
 void FillWindowPixelRect(u8 windowId, u8 fillValue, u16 x, u16 y, u16 width, u16 height)
@@ -358,7 +375,7 @@ void FillWindowPixelRect(u8 windowId, u8 fillValue, u16 x, u16 y, u16 width, u16
     pixelRect.width = 8 * gWindows[windowId].window.width;
     pixelRect.height = 8 * gWindows[windowId].window.height;
 
-    FillBitmapRect4Bit(&pixelRect, x, y, width, height, fillValue);
+    FillBitmapRect4Bit(&pixelRect, MirrorWindowX(windowId, x, width), y, width, height, fillValue);
 }
 
 void CopyToWindowPixelBuffer(u8 windowId, const void *src, u16 size, u16 tileOffset)
