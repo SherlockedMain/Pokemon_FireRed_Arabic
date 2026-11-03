@@ -1,54 +1,56 @@
 Text_SeismicTossTeach::
-    .string "The secrets of space…\n"
-    .string "The mysteries of earth…\p"
-    .string "There are so many things about\n"
-    .string "which we know so little.\p"
-    .string "But that should spur us to study\n"
-    .string "harder, not toss in the towel.\p"
-    .string "The only thing you should toss…\p"
-    .string "Well, how about SEISMIC TOSS?\n"
-    .string "Should I teach that to a POKéMON?$"
+    .string "ﺃﺳﺮﺭ ﻔﻀﺎﺀ…\n"
+    .string "ﺃﻟﻐﺎﺯ ﺍﻷﺭﺽ…\p"
+    .string "ﻣﺎ ﺃﻛﺜﺮ ﺍﻷﺷﻴﺎﺀ ﺘﻲ ﻻ ﻧﻌﺮﻑ\n"
+    .string "ﻋﻨﻬﺎ ﺇﻻ ﻘﻠﻴﻞ.\p"
+    .string "ﻟﻜﻦ ﻫﺬ ﻳﺠﺐ ﺃﻥ ﻳﺪﻓﻌﻨﺎ ﺇﻟﻰ\n"
+    .string "ﻤﺰﻳﺪ\p"
+    .string "ﻣﻦ ﺪﺭﺳﺔ، ﻻ ﺇﻟﻰ ﺭﻣﻲ ﻤﻨﺸﻔﺔ.\p"
+    .string "ﻭﻟﺸﻲﺀ ﻮﺣﻴﺪ ﺬﻱ ﻳﺠﺪﺭ ﺑﻚ\n"
+    .string "ﺭﻣﻴﻪ…\p"
+    .string "ﻣﺎ ﺭﻳﻚ ﺑﺎﻟﺮﻣﻴﺔ ﺰﻟﺰﻟﻴﺔ؟\n"
+    .string "ﻫﻞ ﺃﻋﻠﻤﻬﺎ ﻟﺒﻮﻛﻴﻤﻮﻥ؟$"
 
 Text_SeismicTossDeclined::
-    .string "Is that so?\n"
-    .string "I'm sure you'll be back for it.$"
+    .string "ﺃﻫﻜﺬ؟\n"
+    .string "ﺃﻧﺎ ﻭﺛﻖ ﺃﻧﻚ ﺳﺘﻌﻮﺩ ﻣﻦ ﺃﺟﻠﻬﺎ.$"
 
 Text_SeismicTossWhichMon::
-    .string "Which POKéMON wants to learn\n"
-    .string "SEISMIC TOSS?$"
+    .string "ﺃﻱ ﺑﻮﻛﻴﻤﻮﻥ ﻳﺮﻳﺪ ﺃﻥ ﻳﺘﻌﻠﻢ\n"
+    .string "ﺮﻣﻴﺔ ﺰﻟﺰﻟﻴﺔ؟$"
 
 Text_SeismicTossTaught::
-    .string "I hope you won't toss in the towel.\n"
-    .string "Keep it up.$"
+    .string "ﺃﺗﻤﻨﻰ ﺃﻻ ﺗﺮﻣﻲ ﻤﻨﺸﻔﺔ ﺃﺑﺪ.\n"
+    .string "ﻭﺻﻞ!$"
 
 PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone::
-    .string "MOON STONE, huh?\p"
-    .string "What's so special about it?\n"
-    .string "Looks like an ordinary rock to me.$"
+    .string "ﺣﺠﺮ ﻘﻤﺮ، ﻫﺎ؟\p"
+    .string "ﻣﺎ ﻤﻤﻴﺰ ﻓﻴﻪ؟\n"
+    .string "ﻳﺒﺪﻭ ﻟﻲ ﺣﺠﺮ ﻋﺎﺩﻳﺎ.$"
 
 PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding::
-    .string "July 20, 1969!\p"
-    .string "Humankind first set foot on the\n"
-    .string "moon that day.\p"
-    .string "I bought a color TV just so I\n"
-    .string "could watch that news.$"
+    .string "20 ﻳﻮﻟﻴﻮ 1969!\p"
+    .string "ﻓﻲ ﺫﻟﻚ ﻴﻮﻡ، ﻭﻃﺌﺖ ﻗﺪﻡ ﺍﻹﻧﺴﺎﻥ\n"
+    .string "ﻘﻤﺮ ﻷﻭﻝ ﻣﺮﺓ.\p"
+    .string "ﺍﺷﺘﺮﻳﺖ ﺗﻠﻔﺎﺯ ﻣﻠﻮﻧﺎ ﻓﻘﻂ\n"
+    .string "ﻷﺷﺎﻫﺪ ﺫﻟﻚ ﺨﺒﺮ.$"
 
 PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth::
-    .string "This month, we're running a space\n"
-    .string "exhibit.$"
+    .string "ﻫﺬ ﺸﻬﺮ، ﻧﻘﻴﻢ ﻣﻌﺮﺿﺎ\n"
+    .string "ﻋﻦ ﻔﻀﺎﺀ.$"
 
 PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu::
-    .string "I want a PIKACHU!\n"
-    .string "It's so cute!\p"
-    .string "I asked my daddy to catch me one!$"
+    .string "ﺃﺭﻳﺪ ﺑﻴﻜﺎﺗﺸﻮ!\n"
+    .string "ﺇﻧﻪ ﻟﻄﻴﻒ ﺟﺪ!\p"
+    .string "ﻃﻠﺒﺖ ﻣﻦ ﺃﺑﻲ ﺃﻥ ﻳﻤﺴﻚ ﻟﻲ ﻭﺣﺪ!$"
 
 PewterCity_Museum_1F_Text_PikachuSoonIPromise::
-    .string "Yeah, a PIKACHU soon, I promise!$"
+    .string "ﻧﻌﻢ، ﺑﻴﻜﺎﺗﺸﻮ ﻗﺮﻳﺒﺎ، ﺃﻋﺪﻙ!$"
 
 PewterCity_Museum_1F_Text_SpaceShuttle::
-    .string "Space Shuttle$"
+    .string "ﻣﻜﻮﻙ ﻔﻀﺎﺀ$"
 
 PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon::
-    .string "A meteorite that fell on MT. MOON.\n"
-    .string "It is thought to be a MOON STONE.$"
+    .string "ﻧﻴﺰﻙ ﺳﻘﻂ ﻋﻠﻰ ﺟﺒﻞ ﻘﻤﺮ.\n"
+    .string "ﻳﻌﺘﻘﺪ ﺃﻧﻪ ﺣﺠﺮ ﻘﻤﺮ.$"
 

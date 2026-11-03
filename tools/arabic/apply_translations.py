@@ -71,6 +71,8 @@ def to_c(pieces):
     return ''.join(s + ('\\n' if sep == '\n' else sep) for s, sep in pieces)
 
 def write_entry(entry, pieces):
+    if entry.get('codes'):   # {X1}, {X2}... stand for control codes written in the source
+        pieces = [(re.sub(r'\{(X\d)\}', lambda k: entry['codes'][k.group(1)], s_), sep) for s_, sep in pieces]
     path = os.path.join(ROOT, entry['file'])
     src = open(path, encoding='utf-8').read()
     label = entry['id']

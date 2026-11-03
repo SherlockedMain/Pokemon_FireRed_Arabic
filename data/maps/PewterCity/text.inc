@@ -1,99 +1,103 @@
 Text_DreamEaterTeach::
-    .string "Yawn!\n"
-    .string "I must have dozed off in the sun.\p"
-    .string "I had this weird dream about\n"
-    .string "a DROWZEE eating my dream.\p"
-    .string "And…\n"
-    .string "I learned how to eat dreams…\p"
-    .string "Oogh, this is too spooky!\p"
-    .string "Let me teach it to a POKéMON so\n"
-    .string "I can forget about it!$"
+    .string "ﻫﺎ! (ﺗﺜﺎﺅﺏ)\n"
+    .string "ﻻ ﺑﺪ ﺃﻧﻨﻲ ﻏﻔﻮﺕ ﺗﺤﺖ ﺸﻤﺲ.\p"
+    .string "ﺣﻠﻤﺖ ﺣﻠﻤﺎ ﻏﺮﻳﺒﺎ… ﺩﺭﻭﺯﻱ\n"
+    .string "ﻳﺄﻛﻞ ﺣﻠﻤﻲ.\p"
+    .string "ﻭ… ﺗﻌﻠﻤﺖ ﻛﻴﻒ ﺁﻛﻞ\n"
+    .string "ﺍﻷﺣﻼﻡ…\p"
+    .string "ﺁﻩ، ﻫﺬ ﻣﺨﻴﻒ ﺟﺪ!\p"
+    .string "ﺩﻋﻨﻲ ﺃﻋﻠﻤﻪ ﻟﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﺣﺘﻰ ﺃﻧﺴﺎﻩ!$"
 
 Text_DreamEaterDeclined::
-    .string "…Snore…$"
+    .string "…ﺷﺨﻴﺮ…$"
 
 Text_DreamEaterWhichMon::
-    .string "Which POKéMON wants to learn\n"
-    .string "DREAM EATER?$"
+    .string "ﺃﻱ ﺑﻮﻛﻴﻤﻮﻥ ﻳﺮﻳﺪ ﺃﻥ ﻳﺘﻌﻠﻢ\n"
+    .string "ﺁﻛﻞ ﺍﻷﺣﻼﻡ؟$"
 
 Text_DreamEaterTaught::
-    .string "…ZZZ…\n"
-    .string "I…can't eat…anymore…$"
+    .string "…ﺧﺨﺦ…\n"
+    .string "ﻻ… ﺃﺳﺘﻄﻴﻊ… ﺃﻛﻞ ﻤﺰﻳﺪ…$"
 
 PewterCity_Text_ClefairyCameFromMoon::
-    .string "CLEFAIRY came from the moon.\n"
-    .string "That's what the rumor is.\p"
-    .string "They appeared after MOON STONES\n"
-    .string "fell on MT. MOON.$"
+    .string "ﺗﻘﻮﻝ ﺍﻹﺷﺎﻋﺔ ﺇﻥ ﻛﻠﻴﻔﻴﺮﻱ\n"
+    .string "ﺟﺎﺀﺕ ﻣﻦ ﻘﻤﺮ.\p"
+    .string "ﻓﻘﺪ ﻇﻬﺮﺕ ﺑﻌﺪ ﺃﻥ ﺳﻘﻄﺖ ﺃﺣﺠﺎﺭ\n"
+    .string "ﻘﻤﺮ\p"
+    .string "ﻋﻠﻰ ﺟﺒﻞ ﻘﻤﺮ.$"
 
 PewterCity_Text_BrockOnlySeriousTrainerHere::
-    .string "There aren't many serious POKéMON\n"
-    .string "TRAINERS here.\p"
-    .string "They're all like BUG CATCHERS,\n"
-    .string "you know, just hobbyists.\p"
-    .string "But PEWTER GYM's BROCK isn't like\n"
-    .string "that, not one bit.$"
+    .string "ﻻ ﻳﻮﺟﺪ ﻫﻨﺎ ﻛﺜﻴﺮ ﻣﻦ ﻣﺪﺭﺑﻲ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﺠﺎﺩﻳﻦ.\p"
+    .string "ﻛﻠﻬﻢ ﻣﺜﻞ ﺻﺎﺋﺪﻱ ﺤﺸﺮﺕ،\n"
+    .string "ﻣﺠﺮﺩ ﻫﻮﺓ.\p"
+    .string "ﺃﻣﺎ ﺑﺮﻭﻙ، ﻗﺎﺋﺪ ﺻﺎﻟﺔ ﺑﻴﻮﺗﺮ،\n"
+    .string "ﻓﻠﻴﺲ ﻛﺬﻟﻚ ﺃﺑﺪ.$"
 
 PewterCity_Text_DidYouCheckOutMuseum::
-    .string "Did you check out the MUSEUM?$"
+    .string "ﻫﻞ ﺯﺭﺕ ﻤﺘﺤﻒ؟$"
 
 PewterCity_Text_WerentThoseFossilsAmazing::
-    .string "Weren't those fossils from MT. MOON\n"
-    .string "amazing?$"
+    .string "ﺃﻟﻴﺴﺖ ﺃﺣﺎﻓﻴﺮ ﺟﺒﻞ ﻘﻤﺮ\n"
+    .string "ﻣﺬﻫﻠﺔ؟$"
 
 PewterCity_Text_ReallyYouHaveToGo::
-    .string "Really?\n"
-    .string "You absolutely have to go!$"
+    .string "ﺣﻘﺎ؟\n"
+    .string "ﻳﺠﺐ ﺃﻥ ﺗﺬﻫﺐ ﺣﺘﻤﺎ!$"
 
 PewterCity_Text_ThisIsTheMuseum::
-    .string "This is it, the MUSEUM.\p"
-    .string "You have to pay to get in, but it's\n"
-    .string "worth it. See you around!$"
+    .string "ﻫﺎ ﻫﻮ ﻤﺘﺤﻒ.\p"
+    .string "ﺪﺧﻮﻝ ﺑﻤﻘﺎﺑﻞ، ﻟﻜﻨﻪ ﻳﺴﺘﺤﻖ.\n"
+    .string "ﺃﺭﻙ ﻻﺣﻘﺎ!$"
 
 PewterCity_Text_DoYouKnowWhatImDoing::
-    .string "Psssst!\n"
-    .string "Do you know what I'm doing?$"
+    .string "ﺑﺴﺴﺲ!\n"
+    .string "ﻫﻞ ﺗﻌﺮﻑ ﻣﺎﺫ ﺃﻓﻌﻞ؟$"
 
 PewterCity_Text_ThatsRightItsHardWork::
-    .string "That's right!\n"
-    .string "It's hard work!$"
+    .string "ﺑﺎﻟﻀﺒﻂ!\n"
+    .string "ﺇﻧﻪ ﻋﻤﻞ ﺷﺎﻕ!$"
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut::
-    .string "I'm spraying REPEL to keep wild\n"
-    .string "POKéMON out of my garden!$"
+    .string "ﺃﺭﺵ ﻃﺎﺭﺩ ﺒﻮﻛﻴﻤﻮﻥ ﻷﺑﻘﻲ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ\p"
+    .string "ﺒﺮﻳﺔ ﺑﻌﻴﺪ ﻋﻦ ﺣﺪﻳﻘﺘﻲ!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
-    .string "You're a TRAINER, right?\p"
-    .string "BROCK's looking for new\n"
-    .string "challengers. Follow me!$"
+    .string "ﺃﻧﺖ ﻣﺪﺭﺏ، ﺻﺤﻴﺢ؟\p"
+    .string "ﺑﺮﻭﻙ ﻳﺒﺤﺚ ﻋﻦ ﻣﺘﺤﺪﻳﻦ ﺟﺪﺩ.\n"
+    .string "ﺍﺗﺒﻌﻨﻲ!$"
 
 PewterCity_Text_GoTakeOnBrock::
-    .string "If you have the right stuff,\n"
-    .string "go take on BROCK!$"
+    .string "ﺇﻥ ﻛﻨﺖ ﺗﻤﻠﻚ ﺠﺮﺓ،\n"
+    .string "ﻓﺎﺫﻫﺐ ﻭﺗﺤﺪ ﺑﺮﻭﻙ!$"
 
 PewterCity_Text_TrainerTipsEarningEXP::
-    .string "TRAINER TIPS\p"
-    .string "All POKéMON that appear in battle,\n"
-    .string "however briefly, earn EXP Points.$"
+    .string "ﻧﺼﺎﺋﺢ ﻟﻠﻤﺪﺭﺑﻴﻦ\p"
+    .string "ﻛﻞ ﺑﻮﻛﻴﻤﻮﻥ ﻳﻈﻬﺮ ﻓﻲ ﻨﺰﻝ،\n"
+    .string "ﻭﻟﻮ ﻟﺤﻈﺔ،\p"
+    .string "ﻳﻜﺴﺐ ﻧﻘﺎﻁ ﺨﺒﺮﺓ EXP.$"
 
 PewterCity_Text_CallPoliceIfInfoOnThieves::
-    .string "NOTICE!\p"
-    .string "Thieves have been stealing POKéMON\n"
-    .string "fossils from MT. MOON.\p"
-    .string "Please call the PEWTER POLICE if\n"
-    .string "you have any information.$"
+    .string "ﺗﻨﺒﻴﻪ!\p"
+    .string "ﻟﺼﻮﺹ ﻳﺴﺮﻗﻮﻥ ﺃﺣﺎﻓﻴﺮ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻣﻦ ﺟﺒﻞ ﻘﻤﺮ.\p"
+    .string "ﺇﻥ ﻛﺎﻧﺖ ﻟﺪﻳﻚ ﺃﻱ ﻣﻌﻠﻮﻣﺎﺕ،\n"
+    .string "ﻓﺎﺗﺼﻞ\p"
+    .string "ﺑﺸﺮﻃﺔ ﺑﻴﻮﺗﺮ.$"
 
 PewterCity_Text_MuseumOfScience::
-    .string "PEWTER MUSEUM OF SCIENCE$"
+    .string "ﻣﺘﺤﻒ ﺑﻴﻮﺗﺮ ﻟﻠﻌﻠﻮﻡ$"
 
 PewterCity_Text_GymSign::
-    .string "PEWTER CITY POKéMON GYM\n"
-    .string "LEADER: BROCK\l"
-    .string "The Rock-Solid POKéMON TRAINER!$"
+    .string "ﺻﺎﻟﺔ ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻣﺪﻳﻨﺔ ﺑﻴﻮﺗﺮ\n"
+    .string "ﻘﺎﺋﺪ: ﺑﺮﻭﻙ\p"
+    .string "ﻤﺪﺭﺏ ﺼﻠﺐ ﻛﺎﻟﺼﺨﺮ!$"
 
 PewterCity_Text_CitySign::
-    .string "PEWTER CITY\n"
-    .string "A Stone Gray City$"
+    .string "ﻣﺪﻳﻨﺔ ﺑﻴﻮﺗﺮ\n"
+    .string "ﻣﺪﻳﻨﺔ ﺭﻣﺎﺩﻳﺔ ﻣﻦ ﺣﺠﺮ$"
 
 @ The below 3 JP texts are unused. Possibly a cut NPC meant to give the player the Berry Pouch
 PewterCity_Text_DefeatedBrockYouCanHaveTreasure::
@@ -118,37 +122,36 @@ PewterCity_Text_MonsWillUseHeldBerriesOnTheirOwn::
     .string "てがるで　べんり　だろ？$"
 
 PewterCity_Text_OhPlayer::
-    .string "Oh, {PLAYER}{KUN}!$"
+    .string "ﺁﻩ، {PLAYER}!$"
 
 PewterCity_Text_AskedToDeliverThis::
-    .string "I'm glad I caught up to you.\n"
-    .string "I'm PROF. OAK's AIDE.\p"
-    .string "I've been asked to deliver this,\n"
-    .string "so here you go.$"
+    .string "ﺳﻌﻴﺪ ﺃﻧﻨﻲ ﻟﺤﻘﺖ ﺑﻚ.\n"
+    .string "ﺃﻧﺎ ﻣﺴﺎﻋﺪ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ.\p"
+    .string "ﻃﻠﺐ ﻣﻨﻲ ﺃﻥ ﺃﻭﺻﻞ ﺇﻟﻴﻚ ﻫﺬ،\n"
+    .string "ﻓﺘﻔﻀﻞ.$"
 
 PewterCity_Text_ReceivedRunningShoesFromAide::
-    .string "{PLAYER} received the\n"
-    .string "RUNNING SHOES from the AIDE.$"
+    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﺣﺬﺀ ﺠﺮﻱ\n"
+    .string "ﻣﻦ ﻤﺴﺎﻋﺪ.$"
 
 PewterCity_Text_SwitchedShoesWithRunningShoes::
-    .string "{PLAYER} switched shoes with the\n"
-    .string "RUNNING SHOES.$"
+    .string "ﻟﺒﺲ {PLAYER} ﺣﺬﺀ ﺠﺮﻱ.$"
 
 PewterCity_Text_ExplainRunningShoes::
-    .string "Press the B Button to run.\n"
-    .string "But only where there's room to run!$"
+    .string "ﺍﺿﻐﻂ ﺯﺭ B ﻟﺘﺮﻛﺾ…\n"
+    .string "ﺣﻴﺚ ﻳﺘﺴﻊ ﻤﻜﺎﻥ ﻟﺬﻟﻚ!$"
 
 PewterCity_Text_MustBeGoingBackToLab::
-    .string "Well, I must be going back to\n"
-    .string "the LAB.\p"
-    .string "Bye-bye!$"
+    .string "ﺣﺴﻨﺎ، ﻋﻠﻲ ﺃﻥ ﺃﻋﻮﺩ ﺇﻟﻰ\n"
+    .string "ﻤﺨﺘﺒﺮ.\p"
+    .string "ﻣﻊ ﺴﻼﻣﺔ!$"
 
 PewterCity_Text_RunningShoesLetterFromMom::
-    .string "There's a letter attached…\p"
-    .string "Dear {PLAYER},\p"
-    .string "Here is a pair of RUNNING SHOES\n"
-    .string "for my beloved challenger.\p"
-    .string "Remember, I'll always cheer for\n"
-    .string "you! Don't ever give up!\p"
-    .string "From Mom$"
+    .string "ﻫﻨﺎﻙ ﺭﺳﺎﻟﺔ ﻣﺮﻓﻘﺔ…\p"
+    .string "ﻋﺰﻳﺰﻱ {PLAYER}،\p"
+    .string "ﺇﻟﻴﻚ ﺣﺬﺀ ﺠﺮﻱ\n"
+    .string "ﻟﺒﻄﻠﻲ ﺤﺒﻴﺐ.\p"
+    .string "ﺗﺬﻛﺮ ﺃﻧﻨﻲ ﺳﺄﺷﺠﻌﻚ ﺩﺋﻤﺎ!\n"
+    .string "ﻻ ﺗﺴﺘﺴﻠﻢ ﺃﺑﺪ!\p"
+    .string "ﻣﻊ ﺣﺒﻲ، ﺃﻣﻚ$"
 

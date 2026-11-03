@@ -1,105 +1,106 @@
 ViridianForest_Text_FriendsItchingToBattle::
-    .string "I came here with some friends to\n"
-    .string "catch us some BUG POKéMON!\p"
-    .string "They're all itching to get into\n"
-    .string "some POKéMON battles!$"
+    .string "ﺟﺌﺖ ﺇﻟﻰ ﻫﻨﺎ ﻣﻊ ﺃﺻﺪﻗﺎﺋﻲ ﻟﻨﻤﺴﻚ\n"
+    .string "ﺑﻌﺾ ﺑﻮﻛﻴﻤﻮﻥ ﺤﺸﺮﺕ!\p"
+    .string "ﻭﻛﻠﻬﻢ ﻣﺘﺸﻮﻗﻮﻥ ﻟﺨﻮﺽ\n"
+    .string "ﻧﺰﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ!$"
 
 ViridianForest_Text_RickIntro::
-    .string "Hey! You have POKéMON!\n"
-    .string "Come on!\l"
-    .string "Let's battle 'em!$"
+    .string "ﻫﻴﻪ! ﻟﺪﻳﻚ ﺑﻮﻛﻴﻤﻮﻥ!\n"
+    .string "ﻫﻴﺎ! ﻟﻨﻨﺎﺯﻝ!$"
 
 ViridianForest_Text_RickDefeat::
-    .string "No!\nCATERPIE can't hack it!$"
+    .string "ﻻ!\n"
+    .string "ﻛﺎﺗﺮﺑﻲ ﻟﻢ ﻳﺼﻤﺪ!$"
 
 ViridianForest_Text_RickPostBattle::
-    .string "Ssh! You'll scare the bugs away.\n"
-    .string "Another time, okay?$"
+    .string "ﺻﻪ! ﺳﺘﺨﻴﻒ ﺤﺸﺮﺕ.\n"
+    .string "ﻣﺮﺓ ﺃﺧﺮﻯ، ﺍﺗﻔﻘﻨﺎ؟$"
 
 ViridianForest_Text_DougIntro::
-    .string "Yo!\n"
-    .string "You can't jam out if you're a\l"
-    .string "POKéMON TRAINER!$"
+    .string "ﻳﻮ!\n"
+    .string "ﻤﺪﺭﺏ ﺤﻖ ﻻ ﻳﻬﺮﺏ ﺃﺑﺪ!$"
 
 ViridianForest_Text_DougDefeat::
-    .string "Huh?\n"
-    .string "I ran out of POKéMON!$"
+    .string "ﻣﺎﺫ؟\n"
+    .string "ﻧﻔﺪﺕ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ!$"
 
 ViridianForest_Text_DougPostBattle::
-    .string "That totally stinks! I'm going to\n"
-    .string "catch some stronger ones!$"
+    .string "ﻫﺬ ﻣﻘﺮﻑ! ﺳﺄﻣﺴﻚ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﺃﻗﻮﻯ ﻣﻦ ﻫﺬﻩ!$"
 
 ViridianForest_Text_SammyIntro::
-    .string "Hey, wait up!\n"
-    .string "What's the hurry? Why the rush?$"
+    .string "ﻣﻬﻼ، ﺍﻧﺘﻈﺮ!\n"
+    .string "ﻟﻤﺎﺫ ﻌﺠﻠﺔ؟$"
 
 ViridianForest_Text_SammyDefeat::
-    .string "I give!\n"
-    .string "You're good at this!$"
+    .string "ﺍﺳﺘﺴﻠﻤﺖ!\n"
+    .string "ﺃﻧﺖ ﺑﺎﺭﻉ ﻓﻲ ﻫﺬ!$"
 
 ViridianForest_Text_SammyPostBattle::
-    .string "Sometimes, you can find stuff on\n"
-    .string "the ground.\p"
-    .string "I'm looking for the stuff I\n"
-    .string "dropped. Can you help me?$"
+    .string "ﺃﺣﻴﺎﻧﺎ ﺗﺠﺪ ﺃﺷﻴﺎﺀ ﻣﺮﻣﻴﺔ\n"
+    .string "ﻋﻠﻰ ﺍﻷﺭﺽ.\p"
+    .string "ﺃﺑﺤﺚ ﻋﻦ ﺃﺷﻴﺎﺀ ﺃﺳﻘﻄﺘﻬﺎ.\n"
+    .string "ﻫﻞ ﺗﺴﺎﻋﺪﻧﻲ؟$"
 
 ViridianForest_Text_AnthonyIntro::
-    .string "I might be little, but I won't like\n"
-    .string "it if you go easy on me!$"
+    .string "ﻗﺪ ﺃﻛﻮﻥ ﺻﻐﻴﺮ، ﻟﻜﻨﻨﻲ ﻟﻦ ﺃﺭﺿﻰ\n"
+    .string "ﺃﻥ ﺗﺘﺴﺎﻫﻞ ﻣﻌﻲ!$"
 
 ViridianForest_Text_AnthonyDefeat::
-    .string "Oh, boo.\n"
-    .string "Nothing went right.$"
+    .string "ﺃﻭﻑ.\n"
+    .string "ﻟﻢ ﻳﻨﺠﺢ ﺷﻲﺀ.$"
 
 ViridianForest_Text_AnthonyPostBattle::
-    .string "I lost some of my allowance…$"
+    .string "ﺃﺿﻌﺖ ﺑﻌﺾ ﻣﺼﺮﻭﻓﻲ…$"
 
 ViridianForest_Text_CharlieIntro::
-    .string "Did you know that POKéMON evolve?$"
+    .string "ﻫﻞ ﺗﻌﻠﻢ ﺃﻥ ﺒﻮﻛﻴﻤﻮﻥ ﺗﺘﻄﻮﺭ؟$"
 
 ViridianForest_Text_CharlieDefeat::
-    .string "Oh!\n"
-    .string "I lost!$"
+    .string "ﺃﻭﻩ!\n"
+    .string "ﺧﺴﺮﺕ!$"
 
 ViridianForest_Text_CharliePostBattle::
-    .string "BUG POKéMON evolve quickly.\n"
-    .string "They're a lot of fun!$"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ ﺤﺸﺮﺕ ﺗﺘﻄﻮﺭ ﺑﺴﺮﻋﺔ.\n"
+    .string "ﺇﻧﻬﺎ ﻣﻤﺘﻌﺔ ﺟﺪ!$"
 
 ViridianForest_Text_RanOutOfPokeBalls::
-    .string "I was throwing POKé BALLS to\n"
-    .string "catch POKéMON, and I ran out.\p"
-    .string "That's why you can never have too\n"
-    .string "many POKé BALLS.$"
+    .string "ﻇﻠﻠﺖ ﺃﺭﻣﻲ ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻷﻣﺴﻚ\p"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ، ﺣﺘﻰ ﻧﻔﺪﺕ.\p"
+    .string "ﻟﻬﺬ ﻻ ﺗﻜﻔﻴﻚ ﺃﺑﺪ\n"
+    .string "ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﻣﻬﻤﺎ ﻛﺜﺮﺕ!$"
 
 ViridianForest_Text_AvoidGrassyAreasWhenWeak::
-    .string "TRAINER TIPS\p"
-    .string "If your POKéMON are weak and you\n"
-    .string "want to avoid battles, stay away\l"
-    .string "from grassy areas!$"
+    .string "ﻧﺼﺎﺋﺢ ﻟﻠﻤﺪﺭﺑﻴﻦ\p"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﻚ ﺿﻌﻴﻒ؟ ﺇﺫﻥ ﺍﺑﺘﻌﺪ\n"
+    .string "ﻋﻦ ﺍﻷﻋﺸﺎﺏ ﻟﺘﺘﺠﻨﺐ ﻨﺰﻻﺕ!$"
 
 ViridianForest_Text_UseAntidoteForPoison::
-    .string "For poison, use ANTIDOTE!\n"
-    .string "Get it at POKéMON MARTS!$"
+    .string "ﻟﻠﺘﺴﻤﻢ، ﺍﺳﺘﺨﺪﻡ ﺘﺮﻳﺎﻕ!\n"
+    .string "ﺗﺠﺪﻩ ﻓﻲ ﻣﺘﺎﺟﺮ ﺒﻮﻛﻴﻤﻮﻥ!$"
 
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
-    .string "TRAINER TIPS\p"
-    .string "Contact PROF. OAK via a PC to\n"
-    .string "get your POKéDEX evaluated!$"
+    .string "ﻧﺼﺎﺋﺢ ﻟﻠﻤﺪﺭﺑﻴﻦ\p"
+    .string "ﺍﺗﺼﻞ ﺑﺎﻟﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ ﻋﺒﺮ\n"
+    .string "ﺤﺎﺳﻮﺏ\p"
+    .string "ﻟﻴﻘﻴﻢ ﺒﻮﻛﻴﺪﻳﻜﺲ ﺨﺎﺹ ﺑﻚ!$"
 
 ViridianForest_Text_CantCatchOwnedMons::
-    .string "TRAINER TIPS\p"
-    .string "You can't catch a POKéMON that\n"
-    .string "belongs to someone else.\p"
-    .string "Throw POKé BALLS only at wild\n"
-    .string "POKéMON to catch them!$"
+    .string "ﻧﺼﺎﺋﺢ ﻟﻠﻤﺪﺭﺑﻴﻦ\p"
+    .string "ﻻ ﻳﻤﻜﻨﻚ ﺇﻣﺴﺎﻙ ﺑﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻳﻤﻠﻜﻪ ﺷﺨﺺ ﺁﺧﺮ.\p"
+    .string "ﺍﺭﻡ ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﻋﻠﻰ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ\p"
+    .string "ﺒﺮﻳﺔ ﻓﻘﻂ ﻟﺘﻤﺴﻜﻬﺎ!$"
 
 ViridianForest_Text_WeakenMonsBeforeCapture::
-    .string "TRAINER TIPS\p"
-    .string "Weaken POKéMON before attempting\n"
-    .string "capture!\p"
-    .string "When healthy, they may escape!$"
+    .string "ﻧﺼﺎﺋﺢ ﻟﻠﻤﺪﺭﺑﻴﻦ\p"
+    .string "ﺃﺿﻌﻒ ﺒﻮﻛﻴﻤﻮﻥ ﻗﺒﻞ\n"
+    .string "ﺃﻥ ﺗﺤﺎﻭﻝ ﺇﻣﺴﺎﻛﻪ!\p"
+    .string "ﻓﻮﻫﻮ ﻓﻲ ﻛﺎﻣﻞ ﺻﺤﺘﻪ ﻗﺪ ﻳﻔﻠﺖ!$"
 
 ViridianForest_Text_LeavingViridianForest::
-    .string "LEAVING VIRIDIAN FOREST\n"
-    .string "PEWTER CITY AHEAD$"
+    .string "ﻧﻬﺎﻳﺔ ﻏﺎﺑﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ\n"
+    .string "ﻣﺪﻳﻨﺔ ﺑﻴﻮﺗﺮ ﺃﻣﺎﻣﻚ$"
 

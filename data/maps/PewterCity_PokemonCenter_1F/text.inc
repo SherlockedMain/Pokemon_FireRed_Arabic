@@ -1,27 +1,27 @@
 PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
-    .string "What!?\p"
-    .string "TEAM ROCKET is at MT. MOON?\n"
-    .string "Huh?\p"
-    .string "I'm on the phone!\n"
-    .string "Scram!$"
+    .string "ﻣﺎﺫ؟!\p"
+    .string "ﻓﺮﻳﻖ ﺼﺎﺭﻭﺥ ﻓﻲ ﺟﺒﻞ ﻘﻤﺮ؟\n"
+    .string "ﻫﺎﻩ؟\p"
+    .string "ﺃﻧﺎ ﻋﻠﻰ ﻬﺎﺗﻒ!\n"
+    .string "ﺍﻏﺮﺏ ﻋﻦ ﻭﺟﻬﻲ!$"
 
 PewterCity_PokemonCenter_1F_Text_Jigglypuff::
-    .string "JIGGLYPUFF: Puu pupuu!$"
+    .string "ﺟﻴﻐﻠﻴﺒﺎﻑ: ﺑﻮﻭ ﺑﻮﺑﻮﻭ!$"
 
 PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
-    .string "Yawn!\p"
-    .string "When JIGGLYPUFF sings, POKéMON get\n"
-    .string "drowsy…\p"
-    .string "…Me, too…\n"
-    .string "Snore…$"
+    .string "ﻫﺎ! (ﺗﺜﺎﺅﺏ)\p"
+    .string "ﺣﻴﻦ ﻳﻐﻨﻲ ﺟﻴﻐﻠﻴﺒﺎﻑ، ﻳﻐﻠﺐ\n"
+    .string "ﻨﻌﺎﺱ ﻋﻠﻰ ﺒﻮﻛﻴﻤﻮﻥ…\p"
+    .string "…ﻭﻋﻠﻲ ﺃﻧﺎ ﺃﻳﻀﺎ…\n"
+    .string "ﺧﺨﺦ…$"
 
 PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu::
-    .string "I really want a PIKACHU, so I'm\n"
-    .string "trading my CLEFAIRY for one.$"
+    .string "ﺃﺭﻳﺪ ﺑﻴﻜﺎﺗﺸﻮ ﺑﺸﺪﺓ، ﻟﺬ ﺳﺄﺑﺎﺩﻝ\n"
+    .string "ﻛﻠﻴﻔﻴﺮﻱ ﺧﺎﺻﺘﻲ ﺑﻮﺣﺪ.$"
 
 PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid::
-    .string "I'm trading POKéMON with that kid\n"
-    .string "there.\p"
-    .string "I had two PIKACHU, so I figured\n"
-    .string "I might as well trade one.$"
+    .string "ﺳﺄﺑﺎﺩﻝ ﺑﻮﻛﻴﻤﻮﻥ ﻣﻊ ﺫﻟﻚ ﻄﻔﻞ\n"
+    .string "ﻫﻨﺎﻙ.\p"
+    .string "ﻛﺎﻥ ﻟﺪﻱ ﺑﻴﻜﺎﺗﺸﻮ ﺍﺛﻨﺎﻥ، ﻓﻘﻠﺖ\n"
+    .string "ﻷﺑﺎﺩﻝ ﻭﺣﺪ.$"
 

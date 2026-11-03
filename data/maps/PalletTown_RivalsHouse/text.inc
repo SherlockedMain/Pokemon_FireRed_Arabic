@@ -32,13 +32,12 @@ PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
     .string "ﻗﺴﻄﺎ ﻣﻦ ﺮﺣﺔ.$"
 
 PalletTown_RivalsHouse_Text_ItsBigMapOfKanto::
-    .string "ﺇﻧﻬﺎ ﺧﺮﻳﻄﺔ ﻛﺒﻴﺮﺓ ﻟﻤﻨﻄﻘﺔ\n"
-    .string "ﻛﺎﻧﺘﻮ.\p"
-    .string "ﺳﺘﻜﻮﻥ ﻣﻔﻴﺪﺓ ﺣﻘﺎ!$"
+    .string "ﺧﺮﻳﻄﺔ ﻛﺒﻴﺮﺓ ﻟﻤﻨﻄﻘﺔ ﻛﺎﻧﺘﻮ…\n"
+    .string "ﻛﻞ ﻣﻐﺎﻣﺮﺓ ﺗﺒﺪ ﺑﻨﻈﺮﺓ ﻛﻬﺬﻩ!$"
 
 PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks::
-    .string "ﺮﻓﻮﻑ ﻣﻤﺘﻠﺌﺔ ﺑﺎﻟﻜﺘﺐ\n"
-    .string "ﻋﻦ ﺒﻮﻛﻴﻤﻮﻥ.$"
+    .string "ﺭﻓﻮﻑ ﺗﻔﻴﺾ ﺑﻜﺘﺐ ﺒﻮﻛﻴﻤﻮﻥ…\n"
+    .string "ﺗﻜﻔﻲ ﻟﺴﻨﻮﺕ ﻣﻦ ﻘﺮﺀﺓ!$"
 
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
     .string "ﺩﻳﺰﻱ: ﺃﻫﻼ، {PLAYER}!\n"

@@ -1,32 +1,33 @@
 Route2_EastBuilding_Text_GiveHM05IfSeen10Mons::
-    .string "Hi! Remember me?\n"
-    .string "I'm one of PROF. OAK's AIDES.\p"
-    .string "If your POKéDEX has complete data\n"
-    .string "on ten species, I'm supposed to\l"
-    .string "give you a reward.\p"
-    .string "PROF. OAK entrusted me with\n"
-    .string "HM05 for you.\p"
-    .string "So, {PLAYER}, let me ask you.\p"
-    .string "Have you gathered data on at least\n"
-    .string "ten kinds of POKéMON?$"
+    .string "ﻣﺮﺣﺒﺎ! ﺃﺗﺬﻛﺮﻧﻲ؟\n"
+    .string "ﺃﻧﺎ ﻣﻦ ﻣﺴﺎﻋﺪﻱ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ.\p"
+    .string "ﺇﻥ ﻛﺎﻥ ﻓﻲ ﺒﻮﻛﻴﺪﻳﻜﺲ ﺑﻴﺎﻧﺎﺕ\n"
+    .string "ﻛﺎﻣﻠﺔ\p"
+    .string "ﻋﻦ ﻋﺸﺮﺓ ﺃﻧﻮﻉ، ﻓﻠﻚ ﻋﻨﺪﻱ\n"
+    .string "ﻣﻜﺎﻓﺄﺓ.\p"
+    .string "ﻟﻘﺪ ﺍﺋﺘﻤﻨﻨﻲ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ\n"
+    .string "ﻋﻠﻰ ﻘﺮﺹ HM05 ﻣﻦ ﺃﺟﻠﻚ.\p"
+    .string "ﺇﺫﻥ ﻳﺎ {PLAYER}، ﺩﻋﻨﻲ ﺃﺳﺄﻟﻚ:\p"
+    .string "ﻫﻞ ﺟﻤﻌﺖ ﺑﻴﺎﻧﺎﺕ ﻋﺸﺮﺓ ﺃﻧﻮﻉ\n"
+    .string "ﻣﻦ ﺒﻮﻛﻴﻤﻮﻥ ﻋﻠﻰ ﺍﻷﻗﻞ؟$"
 
 Route2_EastBuilding_Text_GreatHereYouGo::
-    .string "Great! You have caught or owned\n"
-    .string "{STR_VAR_3} kinds of POKéMON!\p"
-    .string "Congratulations!\n"
-    .string "Here you go!$"
+    .string "ﺭﺋﻊ! ﻟﻘﺪ ﺃﻣﺴﻜﺖ ﺃﻭ ﺍﻣﺘﻠﻜﺖ\n"
+    .string "{STR_VAR_3} ﻧﻮﻋﺎ ﻣﻦ ﺒﻮﻛﻴﻤﻮﻥ!\p"
+    .string "ﻣﺒﺎﺭﻙ!\n"
+    .string "ﺗﻔﻀﻞ!$"
 
 Route2_EastBuilding_Text_ReceivedHM05FromAide::
-    .string "{PLAYER} received HM05\n"
-    .string "from the AIDE.$"
+    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻘﺮﺹ HM05\n"
+    .string "ﻣﻦ ﻤﺴﺎﻋﺪ.$"
 
 Route2_EastBuilding_Text_ExplainHM05::
-    .string "HM05 contains the hidden move\n"
-    .string "FLASH.\p"
-    .string "FLASH lights up even the darkest\n"
-    .string "of caves and dungeons.$"
+    .string "ﻳﺤﻮﻱ ﻘﺮﺹ HM05 ﺣﺮﻛﺔ\n"
+    .string "ﻮﻣﻴﺾ ﺨﺎﺻﺔ.\p"
+    .string "ﻮﻣﻴﺾ ﻳﻀﻲﺀ ﺃﺣﻠﻚ\n"
+    .string "ﻜﻬﻮﻑ ﻭﻟﺴﺮﺩﻳﺐ.$"
 
 Route2_EastBuilding_Text_CanGetThroughRockTunnel::
-    .string "Once a POKéMON learns FLASH, you\n"
-    .string "can get through ROCK TUNNEL.$"
+    .string "ﺣﻴﻦ ﻳﺘﻌﻠﻢ ﺑﻮﻛﻴﻤﻮﻧﻚ ﻮﻣﻴﺾ،\n"
+    .string "ﺗﺴﺘﻄﻴﻊ ﻋﺒﻮﺭ ﻧﻔﻖ ﺼﺨﻮﺭ.$"
 

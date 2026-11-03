@@ -1,20 +1,21 @@
 Route2_ViridianForest_NorthEntrance_Text_ManyMonsOnlyInForests::
-    .string "Many POKéMON live only in forests \n"
-    .string "and caves.\p"
-    .string "You need to be persistent and look\n"
-    .string "everywhere to get different kinds.$"
+    .string "ﻛﺜﻴﺮ ﻣﻦ ﺒﻮﻛﻴﻤﻮﻥ ﻻ ﺗﻌﻴﺶ ﺇﻻ\n"
+    .string "ﻓﻲ\p"
+    .string "ﻐﺎﺑﺎﺕ ﻭﻟﻜﻬﻮﻑ.\p"
+    .string "ﻋﻠﻴﻚ ﺃﻥ ﺗﺜﺎﺑﺮ ﻭﺗﺒﺤﺚ ﻓﻲ ﻛﻞ\n"
+    .string "ﻣﻜﺎﻥ\p"
+    .string "ﻟﺘﺠﺪ ﺃﻧﻮﻋﺎ ﻣﺨﺘﻠﻔﺔ.$"
 
 Route2_ViridianForest_NorthEntrance_Text_CanCutSkinnyTrees::
-    .string "Have you noticed the skinny trees\n"
-    .string "on the roadside?\p"
-    .string "They can be cut down by a special\n"
-    .string "POKéMON move, I hear.$"
+    .string "ﻫﻞ ﻻﺣﻈﺖ ﺍﻷﺷﺠﺎﺭ ﻨﺤﻴﻠﺔ\n"
+    .string "ﻋﻠﻰ ﺟﺎﻧﺐ ﻄﺮﻳﻖ؟\p"
+    .string "ﺳﻤﻌﺖ ﺃﻥ ﺣﺮﻛﺔ ﺑﻮﻛﻴﻤﻮﻥ ﺧﺎﺻﺔ\n"
+    .string "ﺗﺴﺘﻄﻴﻊ ﻗﻄﻌﻬﺎ.$"
 
 Route2_ViridianForest_NorthEntrance_Text_CanCancelEvolution::
-    .string "Do you know the evolution-cancel\n"
-    .string "technique?\p"
-    .string "When a POKéMON is evolving, you\n"
-    .string "can stop the process.\p"
-    .string "It's a technique for raising\n"
-    .string "POKéMON the way they are.$"
+    .string "ﻫﻞ ﺗﻌﺮﻑ ﻃﺮﻳﻘﺔ ﺇﻟﻐﺎﺀ ﺘﻄﻮﺭ؟\p"
+    .string "ﺣﻴﻦ ﻳﺘﻄﻮﺭ ﺒﻮﻛﻴﻤﻮﻥ، ﺗﺴﺘﻄﻴﻊ\n"
+    .string "ﺇﻳﻘﺎﻑ ﻌﻤﻠﻴﺔ.\p"
+    .string "ﺇﻧﻬﺎ ﻃﺮﻳﻘﺔ ﻟﺘﺮﺑﻴﺔ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻛﻤﺎ ﻫﻲ.$"
 

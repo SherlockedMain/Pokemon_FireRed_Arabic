@@ -1,87 +1,88 @@
 PewterCity_Museum_1F_Text_Its50YForChildsTicket::
-    .string "Yes, yes.\n"
-    .string "It's ¥50 for a child's ticket.\p"
-    .string "Would you like to come in?$"
+    .string "ﻧﻌﻢ، ﻧﻌﻢ.\n"
+    .string "ﺗﺬﻛﺮﺓ ﻄﻔﻞ ﺏ¥50.\p"
+    .string "ﻫﻞ ﺗﺮﻳﺪ ﺪﺧﻮﻝ؟$"
 
 PewterCity_Museum_1F_Text_ComeAgain::
-    .string "Come again!$"
+    .string "ﻋﺪ ﻣﺠﺪﺩ!$"
 
 PewterCity_Museum_1F_Text_Right50YThankYou::
-    .string "Right, ¥50!\n"
-    .string "Thank you!$"
+    .string "ﺗﻤﺎﻣﺎ، ¥50!\n"
+    .string "ﺷﻜﺮ ﻟﻚ!$"
 
 PewterCity_Museum_1F_Text_DontHaveEnoughMoney::
-    .string "You don't have enough money.$"
+    .string "ﻟﻴﺲ ﻟﺪﻳﻚ ﻣﺎ ﻳﻜﻔﻲ ﻣﻦ ﻤﺎﻝ.$"
 
 PewterCity_Museum_1F_Text_PleaseEnjoyYourself::
-    .string "Please enjoy yourself.$"
+    .string "ﺍﺳﺘﻤﺘﻊ ﺑﻮﻗﺘﻚ.$"
 
 PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
-    .string "You can't sneak in the back way!\n"
-    .string "Nice try, kid, but no.\p"
-    .string "Oh, whatever!\n"
-    .string "Do you know what AMBER is?$"
+    .string "ﻻ ﻳﻤﻜﻨﻚ ﺘﺴﻠﻞ ﻣﻦ ﺒﺎﺏ\n"
+    .string "ﺨﻠﻔﻲ!\p"
+    .string "ﻣﺤﺎﻭﻟﺔ ﻟﻄﻴﻔﺔ ﻳﺎ ﺻﻐﻴﺮ، ﻟﻜﻦ ﻻ.\p"
+    .string "ﺁﻩ، ﻻ ﻳﻬﻢ!\n"
+    .string "ﻫﻞ ﺗﻌﺮﻑ ﻣﺎ ﻫﻮ ﻜﻬﺮﻣﺎﻥ؟$"
 
 PewterCity_Museum_1F_Text_AmberContainsGeneticMatter::
-    .string "AMBER contains the genetic matter\n"
-    .string "of ancient POKéMON.\p"
-    .string "There's a LAB somewhere trying to\n"
-    .string "resurrect POKéMON from AMBER.$"
+    .string "ﻜﻬﺮﻣﺎﻥ ﻳﺤﻮﻱ ﻤﺎﺩﺓ ﻮﺭﺛﻴﺔ\n"
+    .string "ﻟﺒﻮﻛﻴﻤﻮﻥ ﻗﺪﻳﻤﺔ.\p"
+    .string "ﻭﻫﻨﺎﻙ ﻣﺨﺘﺒﺮ ﻓﻲ ﻣﻜﺎﻥ ﻣﺎ ﻳﺤﺎﻭﻝ\n"
+    .string "ﺇﺣﻴﺎﺀ ﺒﻮﻛﻴﻤﻮﻥ ﻣﻦ ﻜﻬﺮﻣﺎﻥ.$"
 
 PewterCity_Museum_1F_Text_AmberIsFossilizedSap::
-    .string "AMBER is actually sap, that gooey\n"
-    .string "stuff that oozes from trees.\p"
-    .string "The ancient sap fossilized over\n"
-    .string "time to become rock-hard AMBER.$"
+    .string "ﻜﻬﺮﻣﺎﻥ ﻓﻲ ﺤﻘﻴﻘﺔ ﺻﻤﻎ، ﺗﻠﻚ\n"
+    .string "ﻤﺎﺩﺓ\p"
+    .string "ﻠﺰﺟﺔ ﺘﻲ ﺗﺴﻴﻞ ﻣﻦ ﺍﻷﺷﺠﺎﺭ.\p"
+    .string "ﺗﺤﺠﺮ ﺫﻟﻚ ﺼﻤﻎ ﻘﺪﻳﻢ ﻣﻊ ﺰﻣﻦ\n"
+    .string "ﻓﺼﺎﺭ ﻛﻬﺮﻣﺎﻧﺎ ﺻﻠﺒﺎ ﻛﺎﻟﺼﺨﺮ.$"
 
 @ Unused
 PewterCity_Museum_1F_Text_PleaseGoAround::
     .string "あちらへ　おまわりください$"
 
 PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife::
-    .string "I should be grateful for my long\n"
-    .string "life.\p"
-    .string "Never did I think I would get to\n"
-    .string "see the bones of a dragon!$"
+    .string "ﻋﻠﻲ ﺃﻥ ﺃﺣﻤﺪ ﻠﻪ ﻋﻠﻰ ﻋﻤﺮﻱ\n"
+    .string "ﻄﻮﻳﻞ.\p"
+    .string "ﻣﺎ ﻇﻨﻨﺖ ﻳﻮﻣﺎ ﺃﻧﻨﻲ ﺳﺄﺭﻯ\n"
+    .string "ﻋﻈﺎﻡ ﺗﻨﻴﻦ!$"
 
 PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
-    .string "Ssh! Listen, I need to share a\n"
-    .string "secret with someone.\p"
-    .string "I think that this chunk of AMBER\n"
-    .string "contains POKéMON DNA!\p"
-    .string "It would be a shattering scientific\n"
-    .string "breakthrough if POKéMON could be\l"
-    .string "resurrected from it.\p"
-    .string "But, my colleagues just ignore\n"
-    .string "what I have to say.\p"
-    .string "So, I have a favor to ask!\p"
-    .string "I want you to get this examined at\n"
-    .string "a POKéMON LAB somewhere.$"
+    .string "ﺻﻪ! ﺍﺳﻤﻊ، ﻋﻠﻲ ﺃﻥ ﺃﺷﺎﺭﻙ ﺳﺮ\n"
+    .string "ﻣﻊ ﺃﺣﺪ.\p"
+    .string "ﺃﻇﻦ ﺃﻥ ﻗﻄﻌﺔ ﻜﻬﺮﻣﺎﻥ ﻫﺬﻩ\n"
+    .string "ﺗﺤﻮﻱ ﺣﻤﺾ ﺒﻮﻛﻴﻤﻮﻥ ﻨﻮﻭﻱ!\p"
+    .string "ﺳﻴﻜﻮﻥ ﺍﻛﺘﺸﺎﻓﺎ ﻋﻠﻤﻴﺎ ﻣﺬﻫﻼ\n"
+    .string "ﻟﻮ ﺃﻣﻜﻦ ﺇﺣﻴﺎﺀ ﺑﻮﻛﻴﻤﻮﻥ ﻣﻨﻬﺎ.\p"
+    .string "ﻟﻜﻦ ﺯﻣﻼﺋﻲ ﻳﺘﺠﺎﻫﻠﻮﻥ\n"
+    .string "ﻛﻞ ﻣﺎ ﺃﻗﻮﻝ.\p"
+    .string "ﻟﺬ ﻟﺪﻱ ﻃﻠﺐ!\p"
+    .string "ﺃﺭﻳﺪﻙ ﺃﻥ ﺗﻔﺤﺼﻬﺎ ﻓﻲ\n"
+    .string "ﻣﺨﺘﺒﺮ ﺑﻮﻛﻴﻤﻮﻥ ﻣﺎ.$"
 
 PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan::
-    .string "{PLAYER} received the OLD AMBER\n"
-    .string "from the man.$"
+    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻜﻬﺮﻣﺎﻥ ﻘﺪﻳﻢ\n"
+    .string "ﻣﻦ ﺮﺟﻞ.$"
 
 PewterCity_Museum_1F_Text_GetOldAmberChecked::
-    .string "Ssh!\n"
-    .string "Get the OLD AMBER checked!$"
+    .string "ﺻﻪ!\n"
+    .string "ﺍﻓﺤﺺ ﻜﻬﺮﻣﺎﻥ ﻘﺪﻳﻢ!$"
 
 PewterCity_Museum_1F_Text_DontHaveSpaceForThis::
-    .string "You don't have space for this.$"
+    .string "ﻟﻴﺲ ﻟﺪﻳﻚ ﻣﻜﺎﻥ ﻟﻬﺬ.$"
 
 PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit::
-    .string "We have two fossils of rare,\n"
-    .string "prehistoric POKéMON on exhibit.$"
+    .string "ﻧﻌﺮﺽ ﺃﺣﻔﻮﺭﺗﻴﻦ ﻟﺒﻮﻛﻴﻤﻮﻧﻴﻦ\n"
+    .string "ﻧﺎﺩﺭﻳﻦ ﻣﻦ ﻋﺼﻮﺭ ﻣﺎ ﻗﺒﻞ ﺘﺎﺭﻳﺦ.$"
 
 PewterCity_Museum_1F_Text_BeautifulPieceOfAmber::
-    .string "There is a beautiful piece of\n"
-    .string "AMBER in a clear gold color.$"
+    .string "ﻗﻄﻌﺔ ﻛﻬﺮﻣﺎﻥ ﺭﺋﻌﺔ\n"
+    .string "ﺑﻠﻮﻥ ﺫﻫﺒﻲ ﺻﺎﻑ.$"
 
 PewterCity_Museum_1F_Text_AerodactylFossil::
-    .string "AERODACTYL Fossil\n"
-    .string "A primitive and rare POKéMON.$"
+    .string "ﺃﺣﻔﻮﺭﺓ ﺇﻳﺮﻭﺩﻛﺘﻴﻞ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ ﺑﺪﺋﻲ ﻧﺎﺩﺭ.$"
 
 PewterCity_Museum_1F_Text_KabutopsFossil::
-    .string "KABUTOPS Fossil\n"
-    .string "A primitive and rare POKéMON.$"
+    .string "ﺃﺣﻔﻮﺭﺓ ﻛﺎﺑﻮﺗﻮﺑﺲ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ ﺑﺪﺋﻲ ﻧﺎﺩﺭ.$"
 

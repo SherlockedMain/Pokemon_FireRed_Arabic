@@ -1,7 +1,7 @@
 Route2_Text_RouteSign::
-    .string "ROUTE 2\n"
-    .string "VIRIDIAN CITY - PEWTER CITY$"
+    .string "ﻄﺮﻳﻖ 2\n"
+    .string "ﻣﺪﻳﻨﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ - ﻣﺪﻳﻨﺔ ﺑﻴﻮﺗﺮ$"
 
 Route2_Text_DiglettsCave::
-    .string "DIGLETT'S CAVE$"
+    .string "ﻛﻬﻒ ﺩﻳﻐﻠﻴﺖ$"
 
