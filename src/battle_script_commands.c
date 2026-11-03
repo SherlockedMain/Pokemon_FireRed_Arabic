@@ -6758,6 +6758,20 @@ static u8 ChangeStatBuffs(s8 statValue, u8 statId, u8 flags, const u8 *BS_ptr)
         {
             statValue = -GET_STAT_BUFF_VALUE(statValue);
             gBattleTextBuff2[0] = B_BUFF_PLACEHOLDER_BEGIN;
+#if TEXT_RTL
+            // Arabic: the verb comes first, then the adverb («ارتفع بشدة»)
+            gBattleTextBuff2[1] = B_BUFF_STRING;
+            gBattleTextBuff2[2] = STRINGID_STATFELL;
+            gBattleTextBuff2[3] = STRINGID_STATFELL >> 8;
+            index = 4;
+            if (statValue == -2)
+            {
+                gBattleTextBuff2[index++] = B_BUFF_STRING;
+                gBattleTextBuff2[index++] = STRINGID_STATHARSHLY;
+                gBattleTextBuff2[index++] = STRINGID_STATHARSHLY >> 8;
+            }
+            gBattleTextBuff2[index] = B_BUFF_EOS;
+#else
             index = 1;
             if (statValue == -2)
             {
@@ -6770,6 +6784,7 @@ static u8 ChangeStatBuffs(s8 statValue, u8 statId, u8 flags, const u8 *BS_ptr)
             gBattleTextBuff2[index++] = STRINGID_STATFELL;
             gBattleTextBuff2[index++] = STRINGID_STATFELL >> 8;
             gBattleTextBuff2[index] = B_BUFF_EOS;
+#endif
 
             if (gBattleMons[gActiveBattler].statStages[statId] == MIN_STAT_STAGE)
                 gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_STAT_WONT_DECREASE;
@@ -6781,6 +6796,20 @@ static u8 ChangeStatBuffs(s8 statValue, u8 statId, u8 flags, const u8 *BS_ptr)
     {
         statValue = GET_STAT_BUFF_VALUE(statValue);
         gBattleTextBuff2[0] = B_BUFF_PLACEHOLDER_BEGIN;
+#if TEXT_RTL
+        // Arabic: the verb comes first, then the adverb («ارتفع بشدة»)
+        gBattleTextBuff2[1] = B_BUFF_STRING;
+        gBattleTextBuff2[2] = STRINGID_STATROSE;
+        gBattleTextBuff2[3] = STRINGID_STATROSE >> 8;
+        index = 4;
+        if (statValue == 2)
+        {
+            gBattleTextBuff2[index++] = B_BUFF_STRING;
+            gBattleTextBuff2[index++] = STRINGID_STATSHARPLY;
+            gBattleTextBuff2[index++] = STRINGID_STATSHARPLY >> 8;
+        }
+        gBattleTextBuff2[index] = B_BUFF_EOS;
+#else
         index = 1;
         if (statValue == 2)
         {
@@ -6793,6 +6822,7 @@ static u8 ChangeStatBuffs(s8 statValue, u8 statId, u8 flags, const u8 *BS_ptr)
         gBattleTextBuff2[index++] = STRINGID_STATROSE;
         gBattleTextBuff2[index++] = STRINGID_STATROSE >> 8;
         gBattleTextBuff2[index] = B_BUFF_EOS;
+#endif
 
         if (gBattleMons[gActiveBattler].statStages[statId] == MAX_STAT_STAGE)
             gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_STAT_WONT_INCREASE;

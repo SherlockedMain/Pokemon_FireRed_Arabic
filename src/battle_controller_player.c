@@ -1416,7 +1416,13 @@ static void MoveSelectionDisplayMoveType(void)
     *txtPtr++ = 1;
     txtPtr = StringCopy(txtPtr, gText_MoveInterfaceDynamicColors);
     StringCopy(txtPtr, gTypeNames[gBattleMoves[moveInfo->moves[gMoveSelectionCursor[gActiveBattler]]].type]);
+#if TEXT_RTL
+    gTextRtlLocal = TRUE; // "TYPE/NORMAL" has no Arabic yet: draw it as the original
+#endif
     BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MOVE_TYPE);
+#if TEXT_RTL
+    gTextRtlLocal = FALSE;
+#endif
 }
 
 void MoveSelectionCreateCursorAt(u8 cursorPosition, u8 arg1)
@@ -1425,7 +1431,13 @@ void MoveSelectionCreateCursorAt(u8 cursorPosition, u8 arg1)
 
     src[0] = arg1 + 1;
     src[1] = arg1 + 2;
+#if TEXT_RTL
+    src[0] |= 0x400; // RTL: cursor right of the item, arrow flipped to point left
+    src[1] |= 0x400;
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 10, 55 + (cursorPosition & 2), 1, 2, 0x11);
+#else
     CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
+#endif
     CopyBgTilemapBufferToVram(0);
 }
 
@@ -1435,7 +1447,11 @@ void MoveSelectionDestroyCursorAt(u8 cursorPosition)
 
     src[0] = 32;
     src[1] = 32;
+#if TEXT_RTL
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 10, 55 + (cursorPosition & 2), 1, 2, 0x11);
+#else
     CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
+#endif
     CopyBgTilemapBufferToVram(0);
 }
 
@@ -1445,7 +1461,13 @@ void ActionSelectionCreateCursorAt(u8 cursorPosition, u8 arg1)
 
     src[0] = 1;
     src[1] = 2;
+#if TEXT_RTL
+    src[0] |= 0x400; // RTL: cursor right of the item, arrow flipped to point left
+    src[1] |= 0x400;
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 29 - 7 * (cursorPosition & 1), 35 + (cursorPosition & 2), 1, 2, 0x11);
+#else
     CopyToBgTilemapBufferRect_ChangePalette(0, src, 7 * (cursorPosition & 1) + 16, 35 + (cursorPosition & 2), 1, 2, 0x11);
+#endif
     CopyBgTilemapBufferToVram(0);
 }
 
@@ -1455,7 +1477,11 @@ void ActionSelectionDestroyCursorAt(u8 cursorPosition)
 
     src[0] = 32;
     src[1] = 32;
+#if TEXT_RTL
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 29 - 7 * (cursorPosition & 1), 35 + (cursorPosition & 2), 1, 2, 0x11);
+#else
     CopyToBgTilemapBufferRect_ChangePalette(0, src, 7 * (cursorPosition & 1) + 16, 35 + (cursorPosition & 2), 1, 2, 0x11);
+#endif
     CopyBgTilemapBufferToVram(0);
 }
 

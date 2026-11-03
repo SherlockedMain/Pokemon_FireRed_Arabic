@@ -57,6 +57,7 @@ def layout(entry, ar):
         if len(lines) > max_lines:
             problems.append('%d lines, max %d' % (len(lines), max_lines))
     # last separator: page prompt if the English had one, else nothing
+    pieces[0] = (entry.get('prefix', '') + pieces[0][0], pieces[0][1])
     pieces[-1] = (pieces[-1][0] + entry.get('suffix', ''), '\\p' if entry.get('end') == 'p' else '')
     return pieces, preview, problems
 

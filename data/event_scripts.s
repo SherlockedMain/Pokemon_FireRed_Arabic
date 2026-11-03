@@ -878,8 +878,8 @@ Text_LinkWasCanceled::
 
 @ Unused
 Text_GiveNicknameToReceivedMon::
-	.string "Want to give a nickname to the\n"
-	.string "{STR_VAR_2} you received?$"
+	.string "ﺃﺗﺮﻳﺪ ﺃﻥ ﺗﻤﻨﺢ {STR_VAR_2}\n"
+	.string "ﺬﻱ ﺣﺼﻠﺖ ﻋﻠﻴﻪ ﻟﻘﺒﺎ؟$"
 
 gText_PkmnFainted3::
 	.string "{STR_VAR_1} fainted…\p"
@@ -927,8 +927,8 @@ Text_HandedOverItem::
 	.string "{STR_VAR_1}.$"
 
 Text_GiveNicknameToThisMon::
-	.string "Do you want to give a nickname to\n"
-	.string "this {STR_VAR_1}?$"
+	.string "ﺃﺗﺮﻳﺪ ﺃﻥ ﺗﻤﻨﺢ {STR_VAR_1}\n"
+	.string "ﻫﺬ ﻟﻘﺒﺎ؟$"
 
 	.include "data/text/itemfinder.inc"
 	.include "data/text/route23.inc"
