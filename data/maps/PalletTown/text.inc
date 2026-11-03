@@ -1,27 +1,24 @@
 PalletTown_Text_OakDontGoOut::
-    .string "ﺃﻭﻙ: ﻣﻬﻼ! ﺍﻧﺘﻈﺮ!\n"
+    .string "ﺃﻭﻙ: ﺍﻧﺘﻈﺮ! ﻗﻒ ﻣﻜﺎﻧﻚ!\n"
     .string "ﻻ ﺗﺨﺮﺝ!$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
-    .string "ﺃﻭﻙ: ﻫﺬ ﺧﻄﺮ!\n"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ ﺒﺮﻳﺔ ﺗﻌﻴﺶ ﻓﻲ\p"
-    .string "ﺍﻷﻋﺸﺎﺏ ﻄﻮﻳﻠﺔ!\p"
-    .string "ﺗﺤﺘﺎﺝ ﺇﻟﻰ ﺑﻮﻛﻴﻤﻮﻥ ﺧﺎﺹ ﺑﻚ\n"
-    .string "ﻟﻴﺤﻤﻴﻚ.\p"
-    .string "ﻭﺟﺪﺗﻬﺎ!\n"
+    .string "ﺃﻭﻙ: ﻳﺎ ﻟﻚ ﻣﻦ ﻣﺘﻬﻮﺭ!\n"
+    .string "ﻓﻲ ﻌﺸﺐ ﺑﻮﻛﻴﻤﻮﻥ ﺑﺮﻳﺔ!\p"
+    .string "ﻻ ﺗﺨﺮﺝ ﺇﻟﻴﻬﺎ ﺩﻭﻥ ﺑﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻳﺤﻤﻴﻚ.\p"
+    .string "ﺁﻩ، ﻭﺟﺪﺗﻬﺎ!\n"
     .string "ﺗﻌﺎﻝ ﻣﻌﻲ!$"
 
 PalletTown_Text_RaisingMonsToo::
     .string "ﺃﻧﺎ ﺃﻳﻀﺎ ﺃﺭﺑﻲ ﺒﻮﻛﻴﻤﻮﻥ.\p"
-    .string "ﺣﻴﻦ ﺗﺸﺘﺪ ﻗﻮﺗﻬﺎ،\n"
-    .string "ﺗﺴﺘﻄﻴﻊ ﺃﻥ ﺗﺤﻤﻴﻨﻲ.$"
+    .string "ﻭﺣﻴﻦ ﺗﻜﺒﺮ ﻭﺗﻘﻮﻯ،\n"
+    .string "ﺳﺘﺤﻤﻴﻨﻲ ﻣﻦ ﺃﻱ ﺧﻄﺮ!$"
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
-    .string "ﺘﻘﻨﻴﺔ ﻣﺪﻫﺸﺔ ﺣﻘﺎ!\p"
-    .string "ﺻﺎﺭ ﺑﺈﻣﻜﺎﻧﻚ ﺣﻔﻆ ﺍﻷﺩﻭﺕ\n"
-    .string "ﻭﻟﺒﻮﻛﻴﻤﻮﻥ\p"
-    .string "ﻭﺳﺘﻌﺎﺩﺗﻬﺎ ﻛﺒﻴﺎﻧﺎﺕ ﻋﺒﺮ\n"
-    .string "ﺤﺎﺳﻮﺏ.$"
+    .string "ﺘﻘﻨﻴﺔ ﻣﺬﻫﻠﺔ ﺣﻘﺎ!\p"
+    .string "ﺃﺩﻭﺗﻚ ﻭﺑﻮﻛﻴﻤﻮﻧﻚ، ﻛﻠﻬﺎ ﺗﺤﻔﻆ\n"
+    .string "ﻓﻲ ﺤﺎﺳﻮﺏ ﻛﺒﻴﺎﻧﺎﺕ!$"
 
 PalletTown_Text_OakPokemonResearchLab::
     .string "ﻣﺨﺘﺒﺮ ﺃﻭﻙ ﻷﺑﺤﺎﺙ ﺒﻮﻛﻴﻤﻮﻥ$"
@@ -38,9 +35,10 @@ PalletTown_Text_TownSign::
 
 PalletTown_Text_OakLetMeSeePokedex::
     .string "ﺃﻭﻙ: ﺁﻩ، {PLAYER}!\n"
-    .string "ﻟﻘﺪ ﻋﺪﺕ ﺇﺫﻥ؟\p"
-    .string "ﻛﻢ ﻣﻸﺕ ﻣﻦ ﺒﻮﻛﻴﺪﻳﻜﺲ؟\p"
-    .string "ﻫﻞ ﺗﺴﻤﺢ ﻟﻲ ﺑﺈﻟﻘﺎﺀ ﻧﻈﺮﺓ؟\p"
+    .string "ﻫﺎ ﻗﺪ ﻋﺪﺕ!\p"
+    .string "ﺇﻟﻰ ﺃﻳﻦ ﻭﺻﻠﺖ ﻓﻲ ﻣﻞﺀ\n"
+    .string "ﺒﻮﻛﻴﺪﻳﻜﺲ؟\p"
+    .string "ﻫﻼ ﺳﻤﺤﺖ ﻟﻲ ﺑﺈﻟﻘﺎﺀ ﻧﻈﺮﺓ؟\p"
     .string "ﻟﻨﺮ…$"
 
 PalletTown_Text_CaughtXPuttingInHonestEffort::
@@ -50,19 +48,18 @@ PalletTown_Text_CaughtXPuttingInHonestEffort::
     .string "ﺗﻌﺎﻝ ﻭﺭﻧﻲ ﺇﻳﺎﻩ ﻣﻦ ﻓﻀﻠﻚ.$"
 
 PalletTown_Text_CaughtXImpressiveFollowMe::
-    .string "ﻟﻘﺪ ﺃﻣﺴﻜﺖ… {STR_VAR_2}؟!\n"
+    .string "ﺃﻣﺴﻜﺖ… {STR_VAR_2}؟!\n"
     .string "ﻫﺬ ﻣﺬﻫﻞ ﺣﻘﺎ!\p"
-    .string "ﻫﻨﺎﻙ ﺃﻣﺮ ﻛﻨﺖ ﺃﻭﺩ ﺃﻥ ﺃﻃﻠﺒﻪ ﻣﻨﻚ\n"
-    .string "ﻳﺎ {PLAYER}.\p"
+    .string "ﻫﻨﺎﻙ ﺃﻣﺮ ﻃﺎﻟﻤﺎ ﺃﺭﺩﺕ ﺃﻥ ﺃﻃﻠﺒﻪ\n"
+    .string "ﻣﻨﻚ ﻳﺎ {PLAYER}.\p"
     .string "ﺗﻌﺎﻝ.\n"
     .string "ﺍﺗﺒﻌﻨﻲ.$"
 
 PalletTown_Text_OakYouEnjoyingTraveling::
     .string "ﺃﻭﻙ: ﺁﻩ، {PLAYER}!\n"
-    .string "ﻳﺒﺪﻭ ﺃﻧﻚ ﺗﺴﺘﻤﺘﻊ ﺑﺎﻟﺴﻔﺮ.\p"
-    .string "ﺃﻋﺮﻓﻚ ﺟﻴﺪ ﻳﺎ {PLAYER}، ﻭﻟﻦ\n"
-    .string "ﺃﺳﺘﻐﺮﺏ\p"
-    .string "ﺃﻥ ﺗﺬﻫﺐ ﺇﻟﻰ ﺃﻣﺎﻛﻦ ﺃﺑﻌﺪ ﻭﻏﺮﺏ.\p"
+    .string "ﻳﺒﺪﻭ ﺃﻥ ﺴﻔﺮ ﻳﺮﻭﻕ ﻟﻚ.\p"
+    .string "ﺃﻋﺮﻓﻚ ﺟﻴﺪ، ﻭﻟﻦ ﺃﺳﺘﻐﺮﺏ ﺃﺑﺪ\n"
+    .string "ﺃﻥ ﺗﺒﻠﻎ ﺃﻣﺎﻛﻦ ﺃﺑﻌﺪ ﻭﻏﺮﺏ.\p"
     .string "ﺃﺣﺴﻨﺖ، ﺃﺣﺴﻨﺖ.\n"
     .string "ﻫﻮﻫﻮﻫﻮ.$"
 

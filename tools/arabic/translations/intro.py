@@ -225,3 +225,58 @@ GLOSSARY = [
     ('A, B, L, R, START, SELECT', '(unchanged)', 'Kept in Latin, as printed on the console.'),
     ('Player / rival names', '(Latin for now)', 'See "Open decision" in Read me: 7-byte name limit.'),
 ]
+
+# ---- Revision 2: livelier, dub-style wording (instructions stay clear) ------------
+REVISED = {
+    'gControlsGuide_Text_Intro': ('لنتعرف على الأزرار واحدا تلو الآخر،\nمن الأهم فالأهم.', ''),
+    'gControlsGuide_Text_DPad': ('به تقود بطلك في كل اتجاه، وتتنقل بين القوائم والخيارات.', ''),
+    'gControlsGuide_Text_AButton': ('زر الفعل: أكّد، تفحّص، تحدّث، وتابع القراءة!', ''),
+    'gControlsGuide_Text_BButton': ('زر التراجع: للخروج، والإلغاء، والعودة خطوة إلى الوراء.', ''),
+    'gControlsGuide_Text_StartButton': ('افتح به القائمة… ففيها كل ما تحتاجه!', ''),
+    'gControlsGuide_Text_SelectButton': ('رتّب به أدواتك، أو استخدم الأداة المسجّلة في لمح البصر.',
+        '"Registered item" = the item you assign to SELECT.'),
+    'gControlsGuide_Text_LRButtons': ('تهت؟ احترت؟ اضغط زر L أو R، وستأتيك المساعدة في الحال!', ''),
+    'gPikachuIntro_Text_Page1': ('العالم الذي توشك أن تدخله ينتظر بطله… وبطله أنت!\n\n'
+        'تحدّث إلى كل من تلقاه، وفتّش كل زاوية في المدن والدروب والكهوف. فكل كلمة قد تكون مفتاحا!',
+        '7 lines max: the ▼ arrow sits at the bottom-left.'),
+    'gPikachuIntro_Text_Page2': ('كلما مددت يد العون لمحتاج، وتجاوزت تحديا، وحللت لغزا، انفتح أمامك درب جديد.\n\n'
+        'سيتحداك المدربون، وتباغتك المخلوقات البرية… فتشجّع، ولا تتوقف!', ''),
+    'gPikachuIntro_Text_Page3': ('نتمنى أن تلتقي في رحلتك أناسا من كل حدب وصوب، وأن تعود منها أقوى وأحكم. فذلك أجمل ما في المغامرة.\n\n'
+        'اضغط زر A… ولتبدأ الحكاية!', '"personal growth" -> "أن تعود منها أقوى وأحكم".'),
+    'gOakSpeech_Text_WelcomeToTheWorld': ('أهلا وسهلا!\nكم يسعدني لقاؤك!\n\nمرحبا بك في عالم البوكيمون!\n\nأنا أوك.\n\nوالناس هنا يحبون أن ينادوني:\nبروفيسور البوكيمون!',
+        '"POKéMON PROFESSOR" -> "بروفيسور البوكيمون", as the dub calls him البروفيسور أوك.'),
+    'gOakSpeech_Text_IsInhabitedFarAndWide': ('…تعيش في كل شبر منه\nمخلوقات مدهشة تدعى البوكيمون!', ''),
+    'gOakSpeech_Text_IStudyPokemon': ('للبعض، البوكيمون رفاق أوفياء،\nوللبعض الآخر، شركاء في النزالات.\n\nأما أنا…\n\nفقد وهبت عمري كله لدراستها.',
+        '"pets" -> "رفاق أوفياء"; "battling" -> "شركاء في النزالات".'),
+    'gOakSpeech_Text_TellMeALittleAboutYourself': ('لكن دعنا مني الآن…\nحدّثني عن نفسك قليلا.', ''),
+    'gOakSpeech_Text_AskPlayerGender': ('قل لي، هل أنت فتى؟\nأم أنت فتاة؟', ''),
+    'gOakSpeech_Text_YourNameWhatIsIt': ('لنبدأ بالأهم:\nما اسمك؟', ''),
+    'gOakSpeech_Text_SoYourNameIsPlayer': ('حسنا…\nإذن، اسمك {PLAYER}!', ''),
+    'gOakSpeech_Text_WhatWasHisName': ('هذا حفيدي.\n\nتتنافسان منذ نعومة أظفاركما.\n\n…ممم، ما كان اسمه يا ترى؟',
+        '"since you were babies" -> "منذ نعومة أظفاركما".'),
+    'gOakSpeech_Text_YourRivalsNameWhatWasIt': ('اسمه… اسمه…\nإنه على طرف لساني!', 'Oak\'s forgetfulness played for a smile.'),
+    'gOakSpeech_Text_RememberRivalsName': ('صحيح! تذكرته الآن!\nاسمه {RIVAL}!', ''),
+    'gOakSpeech_Text_LetsGo': ('{PLAYER}!\n\nأسطورتك مع البوكيمون\nعلى وشك أن تُكتب!\n\nعالم من الأحلام والمغامرات\nينتظرك! هيا، انطلق!',
+        '"is about to unfold" -> "على وشك أن تُكتب".'),
+    'Help_Text_Greetings': ('أهلا! أنا نظام المساعدة، رفيقك في كل خطوة. ناديني متى شئت وأينما كنت بزر L أو R. رسائلي تتبدل بحسب الموقف، فلا تتردد في زيارتي!', ''),
+    'Help_Text_DescWhatShouldIDo': ('عالق في موقف صعب؟\nهنا تجد التلميح المناسب!', ''),
+    'Help_Text_DescHowDoIDoThis': ('شرح خطوة بخطوة لكل ما تريد فعله.', ''),
+    'Help_Text_DescWhatDoesThisTermMean': ('كلمة غريبة؟ هنا تجد معناها بالتفصيل.', ''),
+    'Help_Text_DescAboutThisGame': ('كل ما تود معرفته عن هذه اللعبة.', ''),
+    'Help_Text_DescTypeMatchupList': ('من يغلب من؟\nجدول قوة الأنواع وضعفها.', ''),
+    'Help_Text_DescExit': ('للخروج من نظام المساعدة.', ''),
+    'Help_Text_DescTheHelpSystem': ('رسائلي تتغير مع تقدمك في القصة، لأقدم لك العون في اللحظة المناسبة. وإن استعصى عليك شيء، فأنا هنا دائما!', ''),
+    'Help_Text_DescTheGame': ('أنت بطل هذه الحكاية! جُب عالم البوكيمون، وحدّث أهله، واكشف أسراره، فتنفتح لك الدروب. وانطلق نحو حلمك مع بوكيمونك الرائعين!', ''),
+    'Help_Text_DescWirelessAdapter': ('تتواصل هذه اللعبة لاسلكيا عبر المحوّل اللاسلكي.\n\nالعب مع من تشاء، أينما كنت، ومتى شئت!\n\nأبقِ المحوّل موصولا… فالمغامرة أجمل مع الأصدقاء!', ''),
+}
+for _e in ENTRIES:
+    if _e['id'] in REVISED:
+        _e['ar'], _note = REVISED[_e['id']]
+        if _note:
+            _e['note'] = _note
+
+# ---- Revision 2: line-fit fixes
+_FIX = {'gOakSpeech_Text_IsInhabitedFarAndWide': '…تعيش في كل شبر منه\nمخلوقات تدعى البوكيمون!'}
+for _e in ENTRIES:
+    if _e['id'] in _FIX:
+        _e['ar'] = _FIX[_e['id']]

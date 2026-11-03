@@ -242,3 +242,59 @@ GLOSSARY = [
     ('"Time is money"', 'الوقت من ذهب', 'Arabic proverb.'),
     ('"Your fate rests with me!"', 'نهايتك ستكون على يدي!', 'Boast kept, no claim over fate.'),
 ]
+
+# ---- Revision 2: livelier, dub-style wording -------------------------------------------
+REVISED = {
+    'Route1_Text_WorkAtPokeMartTakeSample': ('أهلا!\nأنا أعمل في متجر البوكيمون.\n\nفروعنا تبيع كل ما يحتاجه\nالمدرب، وأكثر!\n\nزرنا في مدينة فيريديان!\n\nوجدتها! خذ هذه عينة مجانية.\nتفضل!', ''),
+    'Route1_Text_ComeSeeUsIfYouNeedPokeBalls': ('نفدت كرات البوكيمون؟\nتعال إلينا، فعندنا الكثير!', ''),
+    'Route1_Text_CanJumpFromLedges': ('أترى تلك الحواف على الطريق؟\n\nالقفز منها يخيف قليلا،\nلكنه ممكن!\n\nوهو أقصر طريق للعودة\nإلى بلدة باليت.', ''),
+    'ViridianCity_Text_CanCarryMonsAnywhere': ('كرات البوكيمون على خصرك!\nلديك بوكيمون إذن!\n\nما أروع أن يرافقك بوكيمونك\nفي كل وقت وكل مكان!', ''),
+    'ViridianCity_Text_GymClosedWonderWhoLeaderIs': ('صالة البوكيمون هذه مغلقة دائما.\n\nترى من يكون قائدها الغامض؟',
+        'GYM -> "صالة البوكيمون", GYM LEADER -> "قائد الصالة".'),
+    'ViridianCity_Text_WantToKnowAboutCaterpillarMons': ('أتريد أن أحدثك عن البوكيمون\nاليرقات؟ عندي نوعان!', ''),
+    'ViridianCity_Text_OhOkayThen': ('آه… كما تشاء!', ''),
+    'ViridianCity_Text_ExplainCaterpieWeedle': ('كاتربي مسالم لا سم فيه،\nأما ويدل فحذار منه!\n\nإياك أن يلسع بوكيمونك\nبحركة اللسعة السامة!', ''),
+    'ViridianCity_Text_GrandpaHasntHadCoffeeYet': ('جدي!\nلا تكن فظا هكذا!\n\nأعتذر منك كثيرا…\nلم يشرب قهوته بعد.', ''),
+    'ViridianCity_Text_GoShoppingInPewterOccasionally': ('أذهب أحيانا للتسوق في\nمدينة بيوتر.\n\nوعلي أن أعبر دروب غابة\nفيريديان الملتوية كل مرة.', ''),
+    'ViridianCity_Text_ThisIsPrivateProperty': ('ممنوع المرور!\nلن تخطو خطوة واحدة من هنا!\n\nهذه أرض خاصة!', ''),
+    'ViridianCity_Text_ShowYouHowToCatchMons': ('آه… فنجان القهوة يصنع المعجزات!\nأنا الآن مستعد لأي شيء!\n\nهم؟\nما هذا الصندوق الأحمر معك؟\n\nآه، أنت تملأ البوكيديكس إذن.\n\nاسمع نصيحة رجل مجرب…\n\nكلما أمسكت بوكيمون، يحدّث\nالبوكيديكس بياناته تلقائيا.\n\n…ماذا؟ لا تعرف كيف تمسك\nبوكيمون؟\n\nإذن انظر، وتعلّم مني!', ''),
+    'ViridianCity_Text_ThatWasEducationalTakeThis': ('هاك! والآن قل لي:\nأليس هذا درسا لا ينسى؟\n\nوخذ هذا أيضا.', ''),
+    'ViridianCity_Text_WatchThatToLearnBasics': ('إن استعصى عليك شيء،\nفشاهد هذا.\n\nسيعلمك أصول تدريب\nالبوكيمون من البداية.', ''),
+    'ViridianCity_Text_WeakenMonsFirstToCatch': ('آه… فنجان القهوة يصنع المعجزات!\nأنا الآن مستعد لأي شيء!\n\nلكنني بالغت في تركيزها.\nرأسي يدور…\n\nبالمناسبة، كيف حال\nالبوكيديكس؟\n\nنصيحتي: أضعف البوكيمون أولا،\nثم حاول إمساكه.', ''),
+    'ViridianCity_Text_HowsTeachyTVHelping': ('آه… فنجان القهوة يصنع المعجزات!\nأنا الآن مستعد لأي شيء!\n\nلكنني بالغت في تركيزها.\nرأسي يدور…\n\nبالمناسبة، هل ينفعك تلفاز\nالتعليم القديم؟', 'TEACHY TV -> "تلفاز التعليم".'),
+    'ViridianCity_Text_MyGrandsonOnTheShow': ('واهاها!\nذاك حفيدي في البرنامج!\n\nوما دام هو المعلم،\nفستتعلم حتما!', ''),
+    'ViridianCity_Text_TooBusyForTeachyTV': ('همم… أأنت مشغول إلى حد أنه\nلا وقت لديك لتلفاز التعليم؟\n\nالوقت من ذهب يا بني،\nفلا تهدره…', '"Time is money" -> the Arabic proverb "الوقت من ذهب".'),
+    'ViridianCity_Text_CatchMonsForEasierBattles': ('نصائح للمدربين\n\nأمسك البوكيمون، ووسّع\nمجموعتك!\n\nفكلما كثر رفاقك،\nسهلت عليك النزالات.', ''),
+    'ViridianCity_Text_GymDoorsAreLocked': ('أبواب صالة فيريديان موصدة…', ''),
+    'ViridianCity_House_Text_NicknamingIsFun': ('اختيار لقب لبوكيمونك ممتع،\nلكنه ليس بالأمر السهل.\n\nالأسماء الذكية جميلة، لكن\nالبسيطة لا تنسى.', ''),
+    'ViridianCity_House_Text_MyDaddyLovesMonsToo': ('بابا يحب البوكيمون أيضا!', ''),
+    'ViridianCity_Mart_Text_YouCameFromPallet': ('مهلا!\nأنت من بلدة باليت، صحيح؟', ''),
+    'ViridianCity_Mart_Text_TakeThisToProfOak': ('أنت تعرف البروفيسور أوك، أليس كذلك؟\n\nطلبيته وصلت للتو.\nهلا أوصلتها إليه؟', ''),
+    'ViridianCity_Mart_Text_SayHiToOakForMe': ('شكرا جزيلا! وبلّغ البروفيسور\nأوك سلامي أيضا.', ''),
+    'ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes': ('سمعت أن الترياق هنا\nيُباع كالخبز الساخن!', '"good business" -> "يُباع كالخبز الساخن" (sells like hot bread).'),
+    'ViridianCity_Mart_Text_GotToBuySomePotions': ('علي أن أشتري بعض الجرعات.\n\nفلا أحد يعرف متى سيحتاج بوكيمونه\nإلى علاج سريع.', ''),
+    'ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC': ('استخدم ذلك الحاسوب في الزاوية\nكما تشاء.\n\nهذا ما قالته موظفة الاستقبال.\nما ألطفها!', ''),
+    'ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown': ('في كل بلدة على طريقك\nمركز للبوكيمون.\n\nوالعلاج فيه مجاني، فلا تتردد\nفي زيارته!', ''),
+    'ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons': ('مراكز البوكيمون تعالج بوكيمونك\nالمتعب والمصاب والمغمى عليه.\n\nوتعيد إليه صحته كاملة\nكأن شيئا لم يكن!', ''),
+    'ViridianCity_School_Text_TryingToMemorizeNotes': ('أوف! علي أن أحفظ كل\nهذه الملاحظات!', ''),
+    'ViridianCity_School_Text_HeyDontLookAtMyNotes': ('الفتاة: مهلا!\nلا تتلصص على ملاحظاتي!', ''),
+    'ViridianCity_School_Text_NotebookThirdPage': ('الصفحة الثالثة…\n\nيبحث مدربو البوكيمون دائما\nعمن يخوضون معه النزال.\n\nوما أحلى طعم الفوز\nعند المدربين!\n\nوفي صالات البوكيمون، لا تهدأ\nالنزالات أبدا.', ''),
+    'ViridianCity_Gym_Text_GiovanniIntro': ('فواهاهاها!\nمرحبا بك في مخبئي!\n\nهنا سأبقى حتى أعيد\nلفريق الصاروخ مجده الغابر.\n\nلكنك وجدتني مرة أخرى.\nفليكن.\n\nهذه المرة، لن أرحمك!\n\nستواجه مجددا جيوفاني،\nأعظم المدربين على الإطلاق!',
+        'TEAM ROCKET -> "فريق الصاروخ", GIOVANNI -> "جيوفاني". The battle music cue stays at the end.'),
+    'ViridianCity_Gym_Text_GiovanniPostBattle': ('بعد هزيمة كهذه، لا أستطيع\nأن أنظر في وجوه أتباعي.\nلقد خذلتهم.\n\nمن اليوم، انتهى فريق الصاروخ\nإلى الأبد!\n\nأما أنا، فسأكرس حياتي\nللتدريب من جديد.\n\nإلى أن نلتقي يوما ما…\nوداعا!', ''),
+    'ViridianCity_Gym_Text_GymGuyAdvice': ('مرحبا!\nيا بطل المستقبل!\n\nحتى أنا لا أعرف هوية\nقائد فيريديان.\n\nلكن شيئا واحدا مؤكد:\nإنه أصعب قادة الصالات قاطبة.\n\nوسمعت أن مدربي هذه الصالة\nيعشقون بوكيمون نوع الأرض.', ''),
+    'ViridianCity_Gym_Text_GymGuyPostVictory': ('لا أصدق! جيوفاني كان\nقائد صالة فيريديان؟!', ''),
+    'Text_WelcomeWantToHealPkmn': ('مرحبا بك في مركز البوكيمون!\n\nهل أعيد لبوكيمونك\nكامل صحته؟', ''),
+    'Text_RestoredPkmnToFullHealth': ('شكرا لانتظارك!\nبوكيمونك الآن في أتم صحة.', ''),
+}
+for _e in ENTRIES:
+    if _e['id'] in REVISED:
+        _e['ar'], _note = REVISED[_e['id']]
+        if _note:
+            _e['note'] = _note
+
+# ---- Revision 2: line-fit fixes
+_FIX = {'ViridianCity_Gym_Text_YujiIntro': 'هه!\nلا بد أن طاقتك نفدت الآن!', 'Text_BagItemCanBeRegistered': 'سجّل أداة من الحقيبة على زر\nSELECT لتستخدمها بسرعة.'}
+for _e in ENTRIES:
+    if _e['id'] in _FIX:
+        _e['ar'] = _FIX[_e['id']]

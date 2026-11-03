@@ -1,11 +1,11 @@
 ViridianCity_House_Text_NicknamingIsFun::
-    .string "ﺍﺑﺘﻜﺎﺭ ﺍﻷﻟﻘﺎﺏ ﺃﻣﺮ ﻣﻤﺘﻊ،\n"
-    .string "ﻟﻜﻨﻪ ﻟﻴﺲ ﺳﻬﻼ.\p"
+    .string "ﺍﺧﺘﻴﺎﺭ ﻟﻘﺐ ﻟﺒﻮﻛﻴﻤﻮﻧﻚ ﻣﻤﺘﻊ،\n"
+    .string "ﻟﻜﻨﻪ ﻟﻴﺲ ﺑﺎﻷﻣﺮ ﺴﻬﻞ.\p"
     .string "ﺍﻷﺳﻤﺎﺀ ﺬﻛﻴﺔ ﺟﻤﻴﻠﺔ، ﻟﻜﻦ\n"
-    .string "ﺒﺴﻴﻄﺔ ﺃﺳﻬﻞ ﻓﻲ ﺘﺬﻛﺮ.$"
+    .string "ﺒﺴﻴﻄﺔ ﻻ ﺗﻨﺴﻰ.$"
 
 ViridianCity_House_Text_MyDaddyLovesMonsToo::
-    .string "ﺃﺑﻲ ﻳﺤﺐ ﺒﻮﻛﻴﻤﻮﻥ ﺃﻳﻀﺎ.$"
+    .string "ﺑﺎﺑﺎ ﻳﺤﺐ ﺒﻮﻛﻴﻤﻮﻥ ﺃﻳﻀﺎ!$"
 
 ViridianCity_House_Text_Speary::
     .string "ﺳﺒﻴﺮﻱ: ﺗﻮﻳﺖ ﺗﻮﻳﺖ!$"

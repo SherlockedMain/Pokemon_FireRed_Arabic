@@ -125,115 +125,115 @@ gNameChoice_Suzi::
     .string "SUZI$"
 
 gControlsGuide_Text_Intro::
-    .string "ﺳﻨﻌﺮﻓﻚ ﻋﻠﻰ ﺍﻷﺯﺭﺭ ﻭﺣﺪ ﺗﻠﻮ ﺍﻵﺧﺮ،\n"
-    .string "ﺑﺤﺴﺐ ﺃﻫﻤﻴﺘﻬﺎ.$"
+    .string "ﻟﻨﺘﻌﺮﻑ ﻋﻠﻰ ﺍﻷﺯﺭﺭ ﻭﺣﺪ ﺗﻠﻮ ﺍﻵﺧﺮ،\n"
+    .string "ﻣﻦ ﺍﻷﻫﻢ ﻓﺎﻷﻫﻢ.$"
 
 gControlsGuide_Text_DPad::
-    .string "ﻳﺤﺮﻙ ﺑﻄﻞ ﻘﺼﺔ، ﻭﻳﺴﺘﺨﺪﻡ\n"
-    .string "ﺃﻳﻀﺎ ﻟﻠﺘﻨﻘﻞ ﺑﻴﻦ ﺨﻴﺎﺭﺕ\n"
-    .string "ﻭﻟﻘﻮﺋﻢ.$"
+    .string "ﺑﻪ ﺗﻘﻮﺩ ﺑﻄﻠﻚ ﻓﻲ ﻛﻞ ﺍﺗﺠﺎﻩ،\n"
+    .string "ﻭﺗﺘﻨﻘﻞ ﺑﻴﻦ ﻘﻮﺋﻢ\n"
+    .string "ﻭﻟﺨﻴﺎﺭﺕ.$"
 
 gControlsGuide_Text_AButton::
-    .string "ﻟﻠﺘﺄﻛﻴﺪ، ﻭﻟﺘﻔﺤﺺ، ﻭﻟﺘﺤﺪﺙ\n"
-    .string "ﺇﻟﻰ ﻨﺎﺱ، ﻭﻣﺘﺎﺑﻌﺔ ﻨﺺ.$"
+    .string "ﺯﺭ ﻔﻌﻞ: ﺃﻛﺪ، ﺗﻔﺤﺺ، ﺗﺤﺪﺙ،\n"
+    .string "ﻭﺗﺎﺑﻊ ﻘﺮﺀﺓ!$"
 
 gControlsGuide_Text_BButton::
-    .string "ﻟﻠﺨﺮﻭﺝ، ﻭﻟﺘﺮﺟﻊ ﻋﻦ ﺍﺧﺘﻴﺎﺭﻙ،\n"
-    .string "ﻭﻟﻐﺎﺀ ﻮﺿﻊ ﺤﺎﻟﻲ.$"
+    .string "ﺯﺭ ﺘﺮﺟﻊ: ﻟﻠﺨﺮﻭﺝ، ﻭﻹﻟﻐﺎﺀ،\n"
+    .string "ﻭﻟﻌﻮﺩﺓ ﺧﻄﻮﺓ ﺇﻟﻰ ﻮﺭﺀ.$"
 
 gControlsGuide_Text_StartButton::
-    .string "ﺍﺿﻐﻂ ﻫﺬ ﺰﺭ ﻟﻔﺘﺢ ﻘﺎﺋﻤﺔ.$"
+    .string "ﺍﻓﺘﺢ ﺑﻪ ﻘﺎﺋﻤﺔ… ﻓﻔﻴﻬﺎ ﻛﻞ ﻣﺎ\n"
+    .string "ﺗﺤﺘﺎﺟﻪ!$"
 
 gControlsGuide_Text_SelectButton::
-    .string "ﻟﺘﺮﺗﻴﺐ ﺍﻷﺩﻭﺕ، ﻭﻻﺳﺘﺨﺪﻡ ﺍﻷﺩﺓ\n"
-    .string "ﻤﺴﺠﻠﺔ ﺑﺴﺮﻋﺔ.$"
+    .string "ﺭﺗﺐ ﺑﻪ ﺃﺩﻭﺗﻚ، ﺃﻭ ﺍﺳﺘﺨﺪﻡ ﺍﻷﺩﺓ\n"
+    .string "ﻤﺴﺠﻠﺔ ﻓﻲ ﻟﻤﺢ ﺒﺼﺮ.$"
 
 gControlsGuide_Text_LRButtons::
-    .string "ﺇﻥ ﺍﺣﺘﺠﺖ ﺇﻟﻰ ﻣﺴﺎﻋﺪﺓ ﻓﻲ\n"
-    .string "ﻠﻌﺐ، ﺃﻭ ﻟﻢ ﺗﻌﺮﻑ ﻛﻴﻒ ﺗﻘﻮﻡ\n"
-    .string "ﺑﺄﻣﺮ ﻣﺎ، ﻓﺎﺿﻐﻂ ﺯﺭ L ﺃﻭ R.$"
+    .string "ﺗﻬﺖ؟ ﺍﺣﺘﺮﺕ؟ ﺍﺿﻐﻂ ﺯﺭ L ﺃﻭ R،\n"
+    .string "ﻭﺳﺘﺄﺗﻴﻚ ﻤﺴﺎﻋﺪﺓ ﻓﻲ ﺤﺎﻝ!$"
 
 gOakSpeech_Text_AskPlayerGender::
-    .string "ﻭﻵﻥ ﺃﺧﺒﺮﻧﻲ، ﻫﻞ ﺃﻧﺖ ﻓﺘﻰ؟\n"
+    .string "ﻗﻞ ﻟﻲ، ﻫﻞ ﺃﻧﺖ ﻓﺘﻰ؟\n"
     .string "ﺃﻡ ﺃﻧﺖ ﻓﺘﺎﺓ؟$"
 
 gPikachuIntro_Text_Page1::
-    .string "ﻓﻲ ﻌﺎﻟﻢ ﺬﻱ ﺗﻮﺷﻚ ﺃﻥ ﺗﺪﺧﻠﻪ،\n"
-    .string "ﺗﻨﺘﻈﺮﻙ ﻣﻐﺎﻣﺮﺓ ﻛﺒﺮﻯ… ﺑﻄﻠﻬﺎ ﺃﻧﺖ!\n"
+    .string "ﻌﺎﻟﻢ ﺬﻱ ﺗﻮﺷﻚ ﺃﻥ ﺗﺪﺧﻠﻪ ﻳﻨﺘﻈﺮ\n"
+    .string "ﺑﻄﻠﻪ… ﻭﺑﻄﻠﻪ ﺃﻧﺖ!\n"
     .string "\n"
-    .string "ﺗﺤﺪﺙ ﺇﻟﻰ ﻨﺎﺱ ﻭﺗﻔﺤﺺ ﻣﺎ ﺣﻮﻟﻚ\n"
-    .string "ﻓﻲ ﻤﺪﻥ ﻭﻟﻄﺮﻗﺎﺕ ﻭﻟﻜﻬﻮﻑ، ﻭﺟﻤﻊ\n"
-    .string "ﻤﻌﻠﻮﻣﺎﺕ ﻣﻦ ﻛﻞ ﻣﺼﺪﺭ.$"
+    .string "ﺗﺤﺪﺙ ﺇﻟﻰ ﻛﻞ ﻣﻦ ﺗﻠﻘﺎﻩ، ﻭﻓﺘﺶ ﻛﻞ\n"
+    .string "ﺯﻭﻳﺔ ﻓﻲ ﻤﺪﻥ ﻭﻟﺪﺭﻭﺏ ﻭﻟﻜﻬﻮﻑ.\n"
+    .string "ﻓﻜﻞ ﻛﻠﻤﺔ ﻗﺪ ﺗﻜﻮﻥ ﻣﻔﺘﺎﺣﺎ!$"
 
 gPikachuIntro_Text_Page2::
-    .string "ﺳﺘﻨﻔﺘﺢ ﺃﻣﺎﻣﻚ ﺩﺭﻭﺏ ﺟﺪﻳﺪﺓ ﻛﻠﻤﺎ\n"
-    .string "ﺳﺎﻋﺪﺕ ﻤﺤﺘﺎﺟﻴﻦ، ﻭﺗﻐﻠﺒﺖ ﻋﻠﻰ\n"
-    .string "ﺘﺤﺪﻳﺎﺕ، ﻭﻛﺸﻔﺖ ﺍﻷﻟﻐﺎﺯ.\n"
+    .string "ﻛﻠﻤﺎ ﻣﺪﺩﺕ ﻳﺪ ﻌﻮﻥ ﻟﻤﺤﺘﺎﺝ،\n"
+    .string "ﻭﺗﺠﺎﻭﺯﺕ ﺗﺤﺪﻳﺎ، ﻭﺣﻠﻠﺖ ﻟﻐﺰ، ﺍﻧﻔﺘﺢ\n"
+    .string "ﺃﻣﺎﻣﻚ ﺩﺭﺏ ﺟﺪﻳﺪ.\n"
     .string "\n"
-    .string "ﻭﺣﻴﺎﻧﺎ ﺳﻴﺘﺤﺪﻙ ﺍﻵﺧﺮﻭﻥ، ﻭﺳﺘﻬﺎﺟﻤﻚ\n"
-    .string "ﻤﺨﻠﻮﻗﺎﺕ ﺒﺮﻳﺔ. ﻓﻜﻦ ﺷﺠﺎﻋﺎ، ﻭﻭﺻﻞ\n"
-    .string "ﻃﺮﻳﻘﻚ!$"
+    .string "ﺳﻴﺘﺤﺪﻙ ﻤﺪﺭﺑﻮﻥ، ﻭﺗﺒﺎﻏﺘﻚ\n"
+    .string "ﻤﺨﻠﻮﻗﺎﺕ ﺒﺮﻳﺔ… ﻓﺘﺸﺠﻊ، ﻭﻻ\n"
+    .string "ﺗﺘﻮﻗﻒ!$"
 
 gPikachuIntro_Text_Page3::
-    .string "ﻧﺄﻣﻞ ﺃﻥ ﺗﻠﺘﻘﻲ ﻓﻲ ﻣﻐﺎﻣﺮﺗﻚ ﺑﺄﻧﺎﺱ\n"
-    .string "ﻣﻦ ﺷﺘﻰ ﻤﺸﺎﺭﺏ، ﻭﻥ ﺗﻜﺒﺮ ﻭﺗﻨﻀﺞ\n"
-    .string "ﻣﻊ ﻛﻞ ﺧﻄﻮﺓ. ﻓﺬﻟﻚ ﻫﻮ ﻫﺪﻓﻨﺎ ﺍﻷﻛﺒﺮ.\n"
+    .string "ﻧﺘﻤﻨﻰ ﺃﻥ ﺗﻠﺘﻘﻲ ﻓﻲ ﺭﺣﻠﺘﻚ ﺃﻧﺎﺳﺎ\n"
+    .string "ﻣﻦ ﻛﻞ ﺣﺪﺏ ﻭﺻﻮﺏ، ﻭﻥ ﺗﻌﻮﺩ ﻣﻨﻬﺎ\n"
+    .string "ﺃﻗﻮﻯ ﻭﺣﻜﻢ. ﻓﺬﻟﻚ ﺃﺟﻤﻞ ﻣﺎ ﻓﻲ\n"
+    .string "ﻤﻐﺎﻣﺮﺓ.\n"
     .string "\n"
-    .string "ﺍﺿﻐﻂ ﺯﺭ A… ﻭﻟﺘﺒﺪ ﻣﻐﺎﻣﺮﺗﻚ!$"
+    .string "ﺍﺿﻐﻂ ﺯﺭ A… ﻭﻟﺘﺒﺪ ﺤﻜﺎﻳﺔ!$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
     .string "ﺃﻫﻼ ﻭﺳﻬﻼ!\n"
-    .string "ﻳﺴﻌﺪﻧﻲ ﻟﻘﺎﺅﻙ!\p"
+    .string "ﻛﻢ ﻳﺴﻌﺪﻧﻲ ﻟﻘﺎﺅﻙ!\p"
     .string "ﻣﺮﺣﺒﺎ ﺑﻚ ﻓﻲ ﻋﺎﻟﻢ ﺒﻮﻛﻴﻤﻮﻥ!\p"
-    .string "ﺍﺳﻤﻲ ﺃﻭﻙ.\p"
-    .string "ﻭﻟﻨﺎﺱ ﻳﻠﻘﺒﻮﻧﻨﻲ ﺑﻤﺤﺒﺔ:\n"
+    .string "ﺃﻧﺎ ﺃﻭﻙ.\p"
+    .string "ﻭﻟﻨﺎﺱ ﻫﻨﺎ ﻳﺤﺒﻮﻥ ﺃﻥ ﻳﻨﺎﺩﻭﻧﻲ:\n"
     .string "ﺑﺮﻭﻓﻴﺴﻮﺭ ﺒﻮﻛﻴﻤﻮﻥ!\p$"
 
 gOakSpeech_Text_ThisWorld::
     .string "ﻫﺬ ﻌﺎﻟﻢ…$"
 
 gOakSpeech_Text_IsInhabitedFarAndWide::
-    .string "…ﺗﺴﻜﻨﻪ ﻓﻲ ﻛﻞ ﺃﺭﺟﺎﺋﻪ\n"
+    .string "…ﺗﻌﻴﺶ ﻓﻲ ﻛﻞ ﺷﺒﺮ ﻣﻨﻪ\n"
     .string "ﻣﺨﻠﻮﻗﺎﺕ ﺗﺪﻋﻰ ﺒﻮﻛﻴﻤﻮﻥ!\p$"
 
 gOakSpeech_Text_IStudyPokemon::
     .string "ﻟﻠﺒﻌﺾ، ﺒﻮﻛﻴﻤﻮﻥ ﺭﻓﺎﻕ ﺃﻭﻓﻴﺎﺀ،\n"
     .string "ﻭﻟﻠﺒﻌﺾ ﺍﻵﺧﺮ، ﺷﺮﻛﺎﺀ ﻓﻲ ﻨﺰﻻﺕ.\p"
     .string "ﺃﻣﺎ ﺃﻧﺎ…\p"
-    .string "ﻓﻘﺪ ﻛﺮﺳﺖ ﺣﻴﺎﺗﻲ ﻟﺪﺭﺳﺔ\n"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ.\p$"
+    .string "ﻓﻘﺪ ﻭﻫﺒﺖ ﻋﻤﺮﻱ ﻛﻠﻪ ﻟﺪﺭﺳﺘﻬﺎ.\p$"
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
-    .string "ﻟﻜﻦ ﻗﺒﻞ ﻛﻞ ﺷﻲﺀ،\n"
-    .string "ﺣﺪﺛﻨﻲ ﻗﻠﻴﻼ ﻋﻦ ﻧﻔﺴﻚ.\p$"
+    .string "ﻟﻜﻦ ﺩﻋﻨﺎ ﻣﻨﻲ ﺍﻵﻥ…\n"
+    .string "ﺣﺪﺛﻨﻲ ﻋﻦ ﻧﻔﺴﻚ ﻗﻠﻴﻼ.\p$"
 
 gOakSpeech_Text_YourNameWhatIsIt::
-    .string "ﻟﻨﺒﺪ ﺑﺎﺳﻤﻚ.\n"
+    .string "ﻟﻨﺒﺪ ﺑﺎﻷﻫﻢ:\n"
     .string "ﻣﺎ ﺍﺳﻤﻚ؟\p$"
 
 gOakSpeech_Text_SoYourNameIsPlayer::
     .string "ﺣﺴﻨﺎ…\n"
-    .string "ﺇﺫﻥ، ﺍﺳﻤﻚ {PLAYER}.$"
+    .string "ﺇﺫﻥ، ﺍﺳﻤﻚ {PLAYER}!$"
 
 gOakSpeech_Text_WhatWasHisName::
     .string "ﻫﺬ ﺣﻔﻴﺪﻱ.\p"
-    .string "ﺇﻧﻪ ﻣﻨﺎﻓﺴﻚ ﻣﻨﺬ ﻧﻌﻮﻣﺔ\n"
-    .string "ﺃﻇﻔﺎﺭﻛﻤﺎ.\p"
+    .string "ﺗﺘﻨﺎﻓﺴﺎﻥ ﻣﻨﺬ ﻧﻌﻮﻣﺔ ﺃﻇﻔﺎﺭﻛﻤﺎ.\p"
     .string "…ﻣﻤﻢ، ﻣﺎ ﻛﺎﻥ ﺍﺳﻤﻪ ﻳﺎ ﺗﺮﻯ؟$"
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::
-    .string "ﺍﺳﻢ ﻣﻨﺎﻓﺴﻚ… ﻣﺎ ﻛﺎﻥ ﻳﺎ ﺗﺮﻯ؟$"
+    .string "ﺍﺳﻤﻪ… ﺍﺳﻤﻪ…\n"
+    .string "ﺇﻧﻪ ﻋﻠﻰ ﻃﺮﻑ ﻟﺴﺎﻧﻲ!$"
 
 gOakSpeech_Text_ConfirmRivalName::
     .string "…ﺃﻛﺎﻥ ﺍﺳﻤﻪ {RIVAL}؟$"
 
 gOakSpeech_Text_RememberRivalsName::
-    .string "ﺻﺤﻴﺢ! ﺗﺬﻛﺮﺕ ﺍﻵﻥ!\n"
+    .string "ﺻﺤﻴﺢ! ﺗﺬﻛﺮﺗﻪ ﺍﻵﻥ!\n"
     .string "ﺍﺳﻤﻪ {RIVAL}!\p$"
 
 gOakSpeech_Text_LetsGo::
     .string "{PLAYER}!\p"
     .string "ﺃﺳﻄﻮﺭﺗﻚ ﻣﻊ ﺒﻮﻛﻴﻤﻮﻥ\n"
-    .string "ﻋﻠﻰ ﻭﺷﻚ ﺃﻥ ﺗﺒﺪ!\p"
+    .string "ﻋﻠﻰ ﻭﺷﻚ ﺃﻥ ﺗﻜﺘﺐ!\p"
     .string "ﻋﺎﻟﻢ ﻣﻦ ﺍﻷﺣﻼﻡ ﻭﻟﻤﻐﺎﻣﺮﺕ\n"
-    .string "ﻳﻨﺘﻈﺮﻙ ﻣﻊ ﺒﻮﻛﻴﻤﻮﻥ! ﻫﻴﺎ ﺑﻨﺎ!$"
+    .string "ﻳﻨﺘﻈﺮﻙ! ﻫﻴﺎ، ﺍﻧﻄﻠﻖ!$"

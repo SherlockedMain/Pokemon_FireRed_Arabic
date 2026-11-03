@@ -855,9 +855,8 @@ Text_WantWhichFloor::
 	.string "Which floor do you want?$"
 
 Text_BagItemCanBeRegistered::
-	.string "ﻳﻤﻜﻦ ﺗﺴﺠﻴﻞ ﺃﺩﺓ ﻣﻦ ﺤﻘﻴﺒﺔ\n"
-	.string "ﻋﻠﻰ ﺯﺭ SELECT ﻻﺳﺘﺨﺪﻣﻬﺎ\p"
-	.string "ﺑﺴﻬﻮﻟﺔ.$"
+	.string "ﺳﺠﻞ ﺃﺩﺓ ﻣﻦ ﺤﻘﻴﺒﺔ ﻋﻠﻰ ﺯﺭ\n"
+	.string "SELECT ﻟﺘﺴﺘﺨﺪﻣﻬﺎ ﺑﺴﺮﻋﺔ.$"
 
 @ Unused (email from R/S Rivals computer)
 Text_TrainerSchoolEmail::
@@ -888,8 +887,8 @@ gText_PkmnFainted3::
 
 Text_WelcomeWantToHealPkmn::
 	.string "ﻣﺮﺣﺒﺎ ﺑﻚ ﻓﻲ ﻣﺮﻛﺰ ﺒﻮﻛﻴﻤﻮﻥ!\p"
-	.string "ﻫﻞ ﺗﺮﻳﺪ ﺃﻥ ﺃﻋﻴﺪ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
-	.string "ﺇﻟﻰ ﻛﺎﻣﻞ ﺻﺤﺘﻪ؟$"
+	.string "ﻫﻞ ﺃﻋﻴﺪ ﻟﺒﻮﻛﻴﻤﻮﻧﻚ\n"
+	.string "ﻛﺎﻣﻞ ﺻﺤﺘﻪ؟$"
 
 Text_TakeYourPkmnForFewSeconds::
 	.string "ﺣﺴﻨﺎ، ﺳﺂﺧﺬ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
@@ -900,8 +899,7 @@ Text_WeHopeToSeeYouAgain::
 
 Text_RestoredPkmnToFullHealth::
 	.string "ﺷﻜﺮ ﻻﻧﺘﻈﺎﺭﻙ!\n"
-	.string "ﻟﻘﺪ ﺍﺳﺘﻌﺎﺩﺕ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ ﻛﺎﻣﻞ\p"
-	.string "ﺻﺤﺘﻬﺎ.$"
+	.string "ﺑﻮﻛﻴﻤﻮﻧﻚ ﺍﻵﻥ ﻓﻲ ﺃﺗﻢ ﺻﺤﺔ.$"
 
 	.include "data/text/surf.inc"
 

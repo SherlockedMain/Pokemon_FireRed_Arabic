@@ -252,3 +252,79 @@ GLOSSARY = [
     ('"Smell you later!"', 'أراكما لاحقا… إن لحقتما بي!', 'Rival catchphrase, adapted: "أراكما لاحقا… إن لحقتما بي!"'),
     ('"You have to be lucky!"', 'فلا تيأس، وحاول مرة بعد مرة!', 'Perseverance instead of luck.'),
 ]
+
+# ---- Revision 2: livelier, dub-style wording -------------------------------------------
+REVISED = {
+    'PalletTown_PlayersHouse_2F_Text_PlayedWithNES': ('{PLAYER} يلعب بجهاز NES.\n\n…كفى لعبا!\nالمغامرة الحقيقية تنتظر!', ''),
+    'PalletTown_PlayersHouse_2F_Text_PressLRForHelp': ('ورقة ملصقة على الحائط…\n\n“إن احترت في أمر، فاطلب المساعدة!\nاضغط زر L أو R!”', ''),
+    'PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou': ('الأم: …نعم، أعرف يا بني.\nكل الأولاد يغادرون البيت يوما ما.\nهكذا قالوا في التلفاز.\n\nآه، صحيح! جارنا البروفيسور أوك\nكان يسأل عنك.',
+        'Speaker label MOM -> "الأم:". "يا بني" adds a mother\'s warmth.'),
+    'PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou': ('الأم: …نعم، أعرف يا ابنتي.\nكل البنات يحلمن بالسفر يوما ما.\nهكذا قالوا في التلفاز.\n\nآه، صحيح! جارنا البروفيسور أوك\nكان يسأل عنك.', ''),
+    'PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest': ('الأم: {PLAYER}!\nتبدو متعبا… خذ قسطا من الراحة.', ''),
+    'PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare': ('الأم: ها أنت ذا! أنت وبوكيمونك\nفي أحسن حال.\nاعتنِ بنفسك جيدا!', ''),
+    'PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad': ('يعرض التلفاز فيلما…\nأربعة فتيان على سكة قطار.\n\n…يبدو أن وقت رحلتي قد حان أيضا.',
+        'A nod to "Stand by Me".'),
+    'PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad': ('يعرض التلفاز فيلما…\nفتاة بضفيرتين تمشي على طريق\nمرصوف بالطوب الأصفر.\n\n…يبدو أن وقت رحلتي قد حان أيضا.',
+        'A nod to "The Wizard of Oz".'),
+    'PalletTown_PlayersHouse_1F_Text_OopsWrongSide': ('عفوا… هذا ظهر التلفاز!', ''),
+    'PalletTown_Text_OakDontGoOut': ('أوك: انتظر! قف مكانك!\nلا تخرج!', ''),
+    'PalletTown_Text_OakGrassUnsafeNeedMon': ('أوك: يا لك من متهور!\nالبوكيمون البرية تختبئ في الأعشاب!\n\nلا تخرج إليها دون بوكيمون\nيحميك.\n\nآه، وجدتها!\nتعال معي!', ''),
+    'PalletTown_Text_RaisingMonsToo': ('أنا أيضا أربي البوكيمون.\n\nوحين تكبر وتقوى،\nستحميني من أي خطر!', ''),
+    'PalletTown_Text_CanStoreItemsAndMonsInPC': ('التقنية مذهلة حقا!\n\nصار بإمكانك أن تحفظ أدواتك\nوبوكيمونك في الحاسوب كأنها بيانات!', ''),
+    'PalletTown_Text_OakLetMeSeePokedex': ('أوك: آه، {PLAYER}!\nها قد عدت!\n\nإلى أين وصلت في ملء البوكيديكس؟\n\nهلا سمحت لي بإلقاء نظرة؟\n\nلنرَ…', ''),
+    'PalletTown_Text_CaughtXImpressiveFollowMe': ('أمسكت… {STR_VAR_2}؟!\nهذا مذهل حقا!\n\nهناك أمر طالما أردت أن أطلبه\nمنك يا {PLAYER}.\n\nتعال.\nاتبعني.', ''),
+    'PalletTown_Text_OakYouEnjoyingTraveling': ('أوك: آه، {PLAYER}!\nيبدو أن السفر يروق لك.\n\nأعرفك جيدا، ولن أستغرب أبدا\nأن تبلغ أماكن أبعد وأغرب.\n\nأحسنت، أحسنت.\nهوهوهو.', ''),
+    'PalletTown_RivalsHouse_Text_HiBrothersAtLab': ('ديزي: أهلا {PLAYER}!\n\nأخي {RIVAL}؟ إنه في مختبر جدي.', ''),
+    'PalletTown_RivalsHouse_Text_HeardYouBattledRival': ('ديزي: سمعت أنك نازلت أخي {RIVAL}.\n\nيا ليتني كنت هناك!', ''),
+    'PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp': ('جدي كلفك بمهمة؟\n\nيا له من كسول!\nخذ هذه، ستنفعك في طريقك.', ''),
+    'PalletTown_RivalsHouse_Text_ExplainTownMap': ('بخريطة البلدات تعرف أين أنت،\nوتتعرف على أسماء الأماكن.', ''),
+    'PalletTown_RivalsHouse_Text_PleaseGiveMonsRest': ('ديزي: البوكيمون كائنات حية،\nتتعب مثلنا تماما.\n\nفامنحها قسطا من الراحة\nحين تحتاج إليه.', ''),
+    'PalletTown_RivalsHouse_Text_LikeMeToGroomMon': ('ديزي: أهلا {PLAYER}!\nجئت في الوقت المناسب.\n\nكنت على وشك أن أعد الشاي.\nهل تشاركني؟\n\nلكن انظر!\nبوكيمونك يحتاج إلى قليل من العناية.\n\nهل أنظف لك واحدا منها؟', ''),
+    'PalletTown_RivalsHouse_Text_LookingNiceInNoTime': ('ديزي: سأجعله يتألق\nفي لمح البصر.', ''),
+    'PalletTown_RivalsHouse_Text_CouldntLoveYouMore': ('إنه يحبك حبا لا مزيد عليه.\n\nبوكيمونك سعيد سعادة\nلا توصف.', ''),
+    'PalletTown_RivalsHouse_Text_ItLooksVeryHappy': ('يبدو سعيدا جدا معك.\n\nليت {RIVAL} يرى هذا\nويتعلم منه شيئا!', ''),
+    'PalletTown_RivalsHouse_Text_ItsWarmingUpToYou': ('بدأ يألفك ويرتاح إليك.\nالثقة بينكما تكبر يوما بعد يوم.', ''),
+    'PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround': ('{RIVAL}: ماذا؟ هذا أنت يا {PLAYER}؟\nجدي ليس هنا.', ''),
+    'PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting': ('{RIVAL}: جدي!\nلقد مللت الانتظار!', ''),
+    'PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe': ('{RIVAL}: مهلا يا جدي! هذا ظلم!\nوأنا؟ ماذا عني؟', ''),
+    'PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer': ('{RIVAL}: هه، أنا لست طماعا مثلك.\nأنا ناضج!\n\nاختر أنت أولا يا {PLAYER}!', ''),
+    'PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen': ('{RIVAL}: وأنا آخذ هذا!', ''),
+    'PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher': ('{RIVAL}: بوكيموني يبدو أقوى\nمن بوكيمونك بكثير!', ''),
+    'PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons': ('{RIVAL}: مهلا يا {PLAYER}!\nلنجرب بوكيموناتنا!\n\nهيا، إلى النزال!',
+        'The rival speaks with a cocky edge; "بوكيموناتنا" is his colloquial touch only.'),
+    'PalletTown_ProfessorOaksLab_Text_RivalDefeat': ('ماذا؟!\nمستحيل!\nلقد اخترت البوكيمون الخطأ!', ''),
+    'Text_RivalVictory': ('{RIVAL}: نعم!\nأنا عبقري، أليس كذلك؟', ''),
+    'PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon': ('{RIVAL}: حسنا! سأدرب بوكيموني\nفي النزالات حتى يصير وحشا!\n\n{PLAYER}! جدي!\nأراكما لاحقا… إن لحقتما بي!',
+        '"Smell you later!" -> a cocky Arabic jab.'),
+    'PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor': ('{RIVAL}: كدت أنسى!\nلماذا استدعيتني يا جدي؟', ''),
+    'PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps': ('{RIVAL}: حسنا يا جدي!\nاترك كل شيء لي!', ''),
+    'PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne': ('أوك: {RIVAL}؟\nدعني أتذكر…\n\nآه، نعم! أنا من استدعاك!\nانتظر قليلا!\n\nتعال يا {PLAYER}.\n\nهنا ثلاثة بوكيمون!\n\nهاها!\n\nإنها تنتظر داخل\nكرات البوكيمون هذه.\n\nفي شبابي، كنت مدرب بوكيمون\nلا يشق له غبار!\n\nأما الآن، وقد شاب شعري،\nفلم يبق لدي سوى هذه الثلاثة.\n\nاختر واحدا منها،\nهيا!',
+        '"a serious POKéMON TRAINER" -> "لا يشق له غبار" (unrivalled), a classic Arabic idiom.'),
+    'PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose': ('أوك: والآن يا {PLAYER}…\n\nفي كل كرة من هذه الكرات الثلاث\nبوكيمون ينتظر صاحبه.\n\nأيها ستختار؟', ''),
+    'PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic': ('هذا البوكيمون يتقد حيوية!', ''),
+    'PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon': ('أوك: إن باغتك بوكيمون بري،\nفبوكيمونك سيتصدى له.\n\nومعه إلى جانبك، ستبلغ\nالبلدة التالية بأمان.', ''),
+    'PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow': ('أوك: {PLAYER}، النزالات هي ما\nيجعل بوكيمونك ينمو.\n\nفلا تبخل عليه بها!', ''),
+    'PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe': ('أوك: آه، {PLAYER}!\nكيف حال بوكيموني القديم؟\n\nأرى أنه صار يتعلق بك أكثر.\n\nفيك موهبة حقيقية\nكمدرب بوكيمون.\n\nما هذا؟\nأحضرت لي شيئا؟', ''),
+    'PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered': ('آه!\nإنها كرة البوكيمون الخاصة!\n\nكنت أنتظرها بفارغ الصبر.\nشكرا لك!', ''),
+    'PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk': ('على المكتب، أحدث اختراعاتي:\nالبوكيديكس!\n\nيسجل تلقائيا بيانات كل بوكيمون\nتراه أو تمسكه.\n\nإنه موسوعة تمشي معك أينما ذهبت!', ''),
+    'PalletTown_ProfessorOaksLab_Text_OakExplainCatching': ('حين يظهر بوكيمون بري،\nيمكنك أن تحاول إمساكه.\n\nارمِ عليه كرة بوكيمون\nوجرب حظك… أقصد مهارتك!\n\nلكنها لن تنجح دائما.\n\nفالبوكيمون في كامل قوته قد يفلت.\nفلا تيأس، وحاول مرة بعد مرة!',
+        'Oak catches himself: "حظك… أقصد مهارتك!", then the lesson is perseverance.'),
+    'PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream': ('موسوعة كاملة لكل بوكيمون\nفي هذا العالم…\n\nذلك كان حلم حياتي!\n\nلكن العمر لم يعد يسعفني\nلأحققه.\n\nلذلك أضعه أمانة بين أيديكما.\n\nهيا، انطلقا!\n\nإنها مهمة عظيمة ستُكتب في\nتاريخ البوكيمون!', ''),
+    'PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait': ('البوكيمون في كل أرجاء العالم\nتنتظرك يا {PLAYER}!', ''),
+    'PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime': ('أوك: زرني من حين لآخر.\n\nأريد أن أرى كيف يكبر\nالبوكيديكس بين يديك.', ''),
+    'PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia': ('يبدو كموسوعة، لكن صفحاته\nبيضاء… تنتظر من يملؤها!', ''),
+    'PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls': ('كرات بوكيمون…\nوفي داخلها بوكيمون ينتظر!', ''),
+    'PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu': ('خيار الحفظ موجود في القائمة.\nاحفظ تقدمك دائما!', ''),
+    'PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons': ('قد لا يبدو عليه ذلك، لكن البروفيسور\nأوك هو المرجع الأول في البوكيمون.\n\nوكثير من المدربين يكنّون له\nكل الاحترام.', ''),
+}
+for _e in ENTRIES:
+    if _e['id'] in REVISED:
+        _e['ar'], _note = REVISED[_e['id']]
+        if _note:
+            _e['note'] = _note
+
+# ---- Revision 2: line-fit fixes
+_FIX = {'PalletTown_Text_OakGrassUnsafeNeedMon': 'أوك: يا لك من متهور!\nفي العشب بوكيمون برية!\n\nلا تخرج إليها دون بوكيمون\nيحميك.\n\nآه، وجدتها!\nتعال معي!', 'PalletTown_Text_CanStoreItemsAndMonsInPC': 'التقنية مذهلة حقا!\n\nأدواتك وبوكيمونك، كلها تُحفظ\nفي الحاسوب كبيانات!', 'PalletTown_RivalsHouse_Text_LikeMeToGroomMon': 'ديزي: أهلا {PLAYER}!\nجئت في الوقت المناسب.\n\nكنت على وشك أن أعد الشاي.\nهل تشاركني؟\n\nلكن انظر!\nبوكيمونك متسخ قليلا!\n\nهل أنظف لك واحدا منها؟', 'PalletTown_RivalsHouse_Text_ItsWarmingUpToYou': 'بدأ يألفك ويرتاح إليك.\nالثقة بينكما تكبر كل يوم.', 'PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer': '{RIVAL}: هه، لست طماعا مثلك.\nأنا ناضج!\n\nاختر أنت أولا يا {PLAYER}!'}
+for _e in ENTRIES:
+    if _e['id'] in _FIX:
+        _e['ar'] = _FIX[_e['id']]

@@ -23,33 +23,33 @@ Help_Text_TryDoingItOnYourOwn::
 	.string "じぶんの ちからで やってみよう！$"
 
 Help_Text_DescWhatShouldIDo::
-	.string "ﺍﺧﺘﺮﻩ ﻟﺘﺤﺼﻞ ﻋﻠﻰ ﺗﻠﻤﻴﺤﺎﺕ\n"
-	.string "ﺗﻌﻴﻨﻚ ﻓﻲ ﻤﻮﻗﻒ ﺼﻌﺒﺔ.$"
+	.string "ﻋﺎﻟﻖ ﻓﻲ ﻣﻮﻗﻒ ﺻﻌﺐ؟\n"
+	.string "ﻫﻨﺎ ﺗﺠﺪ ﺘﻠﻤﻴﺢ ﻤﻨﺎﺳﺐ!$"
 
 Help_Text_DescHowDoIDoThis::
-	.string "ﺷﺮﺡ ﻣﻔﺼﻞ ﻟﻄﺮﻳﻘﺔ ﻘﻴﺎﻡ ﺑﻤﺨﺘﻠﻒ\n"
-	.string "ﺍﻷﻣﻮﺭ.$"
+	.string "ﺷﺮﺡ ﺧﻄﻮﺓ ﺑﺨﻄﻮﺓ ﻟﻜﻞ ﻣﺎ ﺗﺮﻳﺪ\n"
+	.string "ﻓﻌﻠﻪ.$"
 
 Help_Text_DescWhatDoesThisTermMean::
-	.string "ﺷﺮﺡ ﻣﻔﺼﻞ ﻟﻠﻤﺼﻄﻠﺤﺎﺕ ﺘﻲ ﺗﻈﻬﺮ\n"
-	.string "ﻓﻲ ﻠﻌﺒﺔ.$"
+	.string "ﻛﻠﻤﺔ ﻏﺮﻳﺒﺔ؟ ﻫﻨﺎ ﺗﺠﺪ ﻣﻌﻨﺎﻫﺎ\n"
+	.string "ﺑﺎﻟﺘﻔﺼﻴﻞ.$"
 
 Help_Text_DescAboutThisGame::
-	.string "ﻣﻌﻠﻮﻣﺎﺕ ﻣﻔﺼﻠﺔ ﻋﻦ ﻫﺬﻩ ﻠﻌﺒﺔ.$"
+	.string "ﻛﻞ ﻣﺎ ﺗﻮﺩ ﻣﻌﺮﻓﺘﻪ ﻋﻦ ﻫﺬﻩ ﻠﻌﺒﺔ.$"
 
 Help_Text_DescTypeMatchupList::
-	.string "ﺟﺪﻭﻝ ﻳﺒﻴﻦ ﺃﻱ ﺃﻧﻮﻉ ﺒﻮﻛﻴﻤﻮﻥ\n"
-	.string "ﻭﺣﺮﻛﺎﺗﻬﺎ ﻳﺘﻔﻮﻕ ﻋﻠﻰ ﻏﻴﺮﻩ.$"
+	.string "ﻣﻦ ﻳﻐﻠﺐ ﻣﻦ؟\n"
+	.string "ﺟﺪﻭﻝ ﻗﻮﺓ ﺍﻷﻧﻮﻉ ﻭﺿﻌﻔﻬﺎ.$"
 
 Help_Text_DescExit::
-	.string "ﺍﺧﺘﺮﻩ ﻟﻠﺨﺮﻭﺝ ﻣﻦ ﻧﻈﺎﻡ ﻤﺴﺎﻋﺪﺓ.$"
+	.string "ﻟﻠﺨﺮﻭﺝ ﻣﻦ ﻧﻈﺎﻡ ﻤﺴﺎﻋﺪﺓ.$"
 
 Help_Text_Greetings::
-	.string "ﺃﻫﻼ ﺑﻚ! ﻣﻌﻚ ﻧﻈﺎﻡ ﻤﺴﺎﻋﺪﺓ.\n"
-	.string "ﺍﺳﺘﺪﻋﻨﻲ ﻣﺘﻰ ﻭﻳﻨﻤﺎ ﺍﺣﺘﺠﺖ ﺇﻟﻲ،\n"
-	.string "ﺑﺎﻟﻀﻐﻂ ﻋﻠﻰ ﺯﺭ L ﺃﻭ R. ﺗﺘﻐﻴﺮ\n"
-	.string "ﺭﺳﺎﺋﻞ ﻤﺴﺎﻋﺪﺓ ﻟﺘﻨﺎﺳﺐ ﻛﻞ ﻣﻮﻗﻒ،\n"
-	.string "ﻓﻼ ﺗﻨﺲ ﺃﻥ ﺗﺘﻔﻘﺪﻫﺎ ﻛﺜﻴﺮ!$"
+	.string "ﺃﻫﻼ! ﺃﻧﺎ ﻧﻈﺎﻡ ﻤﺴﺎﻋﺪﺓ، ﺭﻓﻴﻘﻚ ﻓﻲ\n"
+	.string "ﻛﻞ ﺧﻄﻮﺓ. ﻧﺎﺩﻳﻨﻲ ﻣﺘﻰ ﺷﺌﺖ\n"
+	.string "ﻭﻳﻨﻤﺎ ﻛﻨﺖ ﺑﺰﺭ L ﺃﻭ R. ﺭﺳﺎﺋﻠﻲ\n"
+	.string "ﺗﺘﺒﺪﻝ ﺑﺤﺴﺐ ﻤﻮﻗﻒ، ﻓﻼ ﺗﺘﺮﺩﺩ ﻓﻲ\n"
+	.string "ﺯﻳﺎﺭﺗﻲ!$"
 
 Help_Text_PlayingForFirstTime::
 	.string "I'm playing for the first time. Help!$"
@@ -1525,26 +1525,25 @@ Help_Text_WhatArePokemon::
 	.string "What are POKéMON?$"
 
 Help_Text_DescTheHelpSystem::
-	.string "ﺗﺘﻐﻴﺮ ﺭﺳﺎﺋﻞ ﻤﺴﺎﻋﺪﺓ ﺑﺤﺴﺐ\n"
-	.string "ﺗﻘﺪﻣﻚ ﻓﻲ ﻠﻌﺒﺔ، ﻓﻬﻲ ﻣﺼﻤﻤﺔ\n"
-	.string "ﻟﺘﺴﺎﻧﺪﻙ ﺣﻴﻦ ﺗﺤﺘﺎﺝ ﺇﻟﻴﻬﺎ. ﻭﻥ\n"
-	.string "ﺻﻌﺐ ﻋﻠﻴﻚ ﻓﻬﻢ ﺃﻱ ﺷﻲﺀ، ﻓﻼ ﺗﺘﺮﺩﺩ\n"
-	.string "ﻓﻲ ﺮﺟﻮﻉ ﺇﻟﻰ ﻧﻈﺎﻡ ﻤﺴﺎﻋﺪﺓ!$"
+	.string "ﺭﺳﺎﺋﻠﻲ ﺗﺘﻐﻴﺮ ﻣﻊ ﺗﻘﺪﻣﻚ ﻓﻲ\n"
+	.string "ﻘﺼﺔ، ﻷﻗﺪﻡ ﻟﻚ ﻌﻮﻥ ﻓﻲ ﻠﺤﻈﺔ\n"
+	.string "ﻤﻨﺎﺳﺒﺔ. ﻭﻥ ﺍﺳﺘﻌﺼﻰ ﻋﻠﻴﻚ ﺷﻲﺀ،\n"
+	.string "ﻓﺄﻧﺎ ﻫﻨﺎ ﺩﺋﻤﺎ!$"
 
 Help_Text_DescTheGame::
-	.string "ﺳﺘﺼﺒﺢ ﺑﻄﻞ ﻘﺼﺔ، ﻭﺗﺴﺘﻜﺸﻒ ﻋﺎﻟﻢ\n"
-	.string "ﺒﻮﻛﻴﻤﻮﻥ! ﻭﻛﻠﻤﺎ ﺗﺤﺪﺛﺖ ﺇﻟﻰ\n"
-	.string "ﻨﺎﺱ ﻭﻛﺸﻔﺖ ﺍﻷﻟﻐﺎﺯ، ﺍﻧﻔﺘﺤﺖ\n"
-	.string "ﺃﻣﺎﻣﻚ ﺩﺭﻭﺏ ﺟﺪﻳﺪﺓ. ﻓﺎﻧﻄﻠﻖ ﻧﺤﻮ\n"
-	.string "ﻫﺪﻓﻚ ﺑﺮﻓﻘﺔ ﺑﻮﻛﻴﻤﻮﻧﻚ ﺮﺋﻌﻴﻦ!$"
+	.string "ﺃﻧﺖ ﺑﻄﻞ ﻫﺬﻩ ﺤﻜﺎﻳﺔ! ﺟﺐ ﻋﺎﻟﻢ\n"
+	.string "ﺒﻮﻛﻴﻤﻮﻥ، ﻭﺣﺪﺙ ﺃﻫﻠﻪ، ﻭﻛﺸﻒ\n"
+	.string "ﺃﺳﺮﺭﻩ، ﻓﺘﻨﻔﺘﺢ ﻟﻚ ﺪﺭﻭﺏ. ﻭﻧﻄﻠﻖ\n"
+	.string "ﻧﺤﻮ ﺣﻠﻤﻚ ﻣﻊ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
+	.string "ﺮﺋﻌﻴﻦ!$"
 
 Help_Text_DescWirelessAdapter::
-	.string "ﺗﺘﻮﺻﻞ ﻫﺬﻩ ﻠﻌﺒﺔ ﻻﺳﻠﻜﻴﺎ\n"
-	.string "ﺑﺎﺳﺘﺨﺪﻡ ﻤﺤﻮﻝ ﻼﺳﻠﻜﻲ.\n"
-	.string "ﻌﺐ ﻻﺳﻠﻜﻴﺎ ﻓﻲ ﺃﻱ ﻣﻜﺎﻥ، ﻭﻓﻲ ﺃﻱ\n"
-	.string "ﻭﻗﺖ، ﻭﻣﻊ ﺃﻱ ﺃﺣﺪ!\n"
-	.string "ﺟﺮﺏ ﺃﻥ ﺗﺒﻘﻲ ﻤﺤﻮﻝ ﻼﺳﻠﻜﻲ\n"
-	.string "ﻣﻮﺻﻮﻻ ﺩﺋﻤﺎ ﺃﺛﻨﺎﺀ ﻠﻌﺐ!$"
+	.string "ﺗﺘﻮﺻﻞ ﻫﺬﻩ ﻠﻌﺒﺔ ﻻﺳﻠﻜﻴﺎ ﻋﺒﺮ\n"
+	.string "ﻤﺤﻮﻝ ﻼﺳﻠﻜﻲ.\n"
+	.string "ﻌﺐ ﻣﻊ ﻣﻦ ﺗﺸﺎﺀ، ﺃﻳﻨﻤﺎ ﻛﻨﺖ،\n"
+	.string "ﻭﻣﺘﻰ ﺷﺌﺖ!\n"
+	.string "ﺃﺑﻖ ﻤﺤﻮﻝ ﻣﻮﺻﻮﻻ… ﻓﺎﻟﻤﻐﺎﻣﺮﺓ\n"
+	.string "ﺃﺟﻤﻞ ﻣﻊ ﺍﻷﺻﺪﻗﺎﺀ!$"
 
 Help_Text_DescGameFundamentals1::
 	.string "Visit every city and town, travel every\n"

@@ -1,6 +1,6 @@
 ViridianCity_School_Text_TryingToMemorizeNotes::
-    .string "ﺃﻭﻑ! ﺃﺣﺎﻭﻝ ﺃﻥ ﺃﺣﻔﻆ ﻛﻞ\n"
-    .string "ﻣﻼﺣﻈﺎﺗﻲ.$"
+    .string "ﺃﻭﻑ! ﻋﻠﻲ ﺃﻥ ﺃﺣﻔﻆ ﻛﻞ\n"
+    .string "ﻫﺬﻩ ﻤﻼﺣﻈﺎﺕ!$"
 
 ViridianCity_School_Text_ReadBlackboardCarefully::
     .string "ﺣﺴﻨﺎ!\p"
@@ -27,12 +27,12 @@ ViridianCity_School_Text_NotebookSecondPage::
 
 ViridianCity_School_Text_NotebookThirdPage::
     .string "ﺼﻔﺤﺔ ﺜﺎﻟﺜﺔ…\p"
-    .string "ﻳﺒﺤﺚ ﻣﺪﺭﺑﻮ ﺒﻮﻛﻴﻤﻮﻥ ﻋﻦ ﻏﻴﺮﻫﻢ\n"
-    .string "ﻟﻴﺨﻮﺿﻮ ﻣﻌﻬﻢ ﻧﺰﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ.\p"
-    .string "ﻭﻃﻌﻢ ﻔﻮﺯ ﻋﻨﺪ ﻤﺪﺭﺑﻴﻦ\n"
-    .string "ﺣﻠﻮ ﺣﻘﺎ.\p"
-    .string "ﻭﻟﻨﺰﻻﺕ ﻻ ﺗﺘﻮﻗﻒ ﺃﺑﺪ\n"
-    .string "ﻓﻲ ﺻﺎﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻛﻞ ﻣﻜﺎﻥ.$"
+    .string "ﻳﺒﺤﺚ ﻣﺪﺭﺑﻮ ﺒﻮﻛﻴﻤﻮﻥ ﺩﺋﻤﺎ\n"
+    .string "ﻋﻤﻦ ﻳﺨﻮﺿﻮﻥ ﻣﻌﻪ ﻨﺰﻝ.\p"
+    .string "ﻭﻣﺎ ﺃﺣﻠﻰ ﻃﻌﻢ ﻔﻮﺯ\n"
+    .string "ﻋﻨﺪ ﻤﺪﺭﺑﻴﻦ!\p"
+    .string "ﻭﻓﻲ ﺻﺎﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ، ﻻ ﺗﻬﺪ\n"
+    .string "ﻨﺰﻻﺕ ﺃﺑﺪ.$"
 
 ViridianCity_School_Text_NotebookFourthPage::
     .string "ﺼﻔﺤﺔ ﺮﺑﻌﺔ…\p"
@@ -49,7 +49,7 @@ ViridianCity_School_Text_TurnThePage::
 
 ViridianCity_School_Text_HeyDontLookAtMyNotes::
     .string "ﻔﺘﺎﺓ: ﻣﻬﻼ!\n"
-    .string "ﻻ ﺗﻨﻈﺮ ﺇﻟﻰ ﻣﻼﺣﻈﺎﺗﻲ!$"
+    .string "ﻻ ﺗﺘﻠﺼﺺ ﻋﻠﻰ ﻣﻼﺣﻈﺎﺗﻲ!$"
 
 ViridianCity_School_Text_BlackboardListsStatusProblems::
     .string "ﺗﻌﺮﺽ ﺴﺒﻮﺭﺓ ﺣﺎﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ\n"

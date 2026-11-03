@@ -1,23 +1,23 @@
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
-    .string "{RIVAL}: ﻣﺎﺫ؟ ﺇﻧﻪ ﺃﻧﺖ ﻓﻘﻂ ﻳﺎ\n"
+    .string "{RIVAL}: ﻣﺎﺫ؟ ﻫﺬ ﺃﻧﺖ ﻳﺎ\n"
     .string "{PLAYER}؟\p"
     .string "ﺟﺪﻱ ﻟﻴﺲ ﻫﻨﺎ.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting::
     .string "{RIVAL}: ﺟﺪﻱ!\n"
-    .string "ﻟﻘﺪ ﺳﺌﻤﺖ ﺍﻻﻧﺘﻈﺎﺭ!$"
+    .string "ﻟﻘﺪ ﻣﻠﻠﺖ ﺍﻻﻧﺘﻈﺎﺭ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
-    .string "{RIVAL}: ﻣﻬﻼ! ﺟﺪﻱ! ﻫﺬ ﻟﻴﺲ ﻋﺪﻻ!\n"
-    .string "ﻭﻣﺎﺫ ﻋﻨﻲ؟$"
+    .string "{RIVAL}: ﻣﻬﻼ ﻳﺎ ﺟﺪﻱ! ﻫﺬ ﻇﻠﻢ!\n"
+    .string "ﻭﻧﺎ؟ ﻣﺎﺫ ﻋﻨﻲ؟$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
     .string "{RIVAL}: ﻫﻪ، ﻟﺴﺖ ﻃﻤﺎﻋﺎ ﻣﺜﻠﻚ.\n"
     .string "ﺃﻧﺎ ﻧﺎﺿﺞ!\p"
-    .string "ﻫﻴﺎ، ﺍﺧﺘﺮ ﻳﺎ {PLAYER}!$"
+    .string "ﺍﺧﺘﺮ ﺃﻧﺖ ﺃﻭﻻ ﻳﺎ {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen::
-    .string "{RIVAL}: ﺳﺂﺧﺬ ﻫﺬ ﺇﺫﻥ!$"
+    .string "{RIVAL}: ﻭﻧﺎ ﺁﺧﺬ ﻫﺬ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak::
     .string "ﺣﺼﻞ {RIVAL} ﻋﻠﻰ {STR_VAR_1}\n"
@@ -25,26 +25,26 @@ PalletTown_ProfessorOaksLab_Text_RivalReceivedMonFromOak::
 
 PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher::
     .string "{RIVAL}: ﺑﻮﻛﻴﻤﻮﻧﻲ ﻳﺒﺪﻭ ﺃﻗﻮﻯ\n"
-    .string "ﻣﻦ ﺑﻮﻛﻴﻤﻮﻧﻚ ﺑﻜﺜﻴﺮ.$"
+    .string "ﻣﻦ ﺑﻮﻛﻴﻤﻮﻧﻚ ﺑﻜﺜﻴﺮ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
-    .string "{RIVAL}: ﺍﻧﺘﻈﺮ ﻳﺎ {PLAYER}!\n"
-    .string "ﻟﻨﺨﺘﺒﺮ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻨﺎ!\p"
-    .string "ﻫﻴﺎ، ﺳﺄﻧﺎﺯﻟﻚ!$"
+    .string "{RIVAL}: ﻣﻬﻼ ﻳﺎ {PLAYER}!\n"
+    .string "ﻟﻨﺠﺮﺏ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻨﺎ!\p"
+    .string "ﻫﻴﺎ، ﺇﻟﻰ ﻨﺰﻝ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeat::
     .string "ﻣﺎﺫ؟!\n"
-    .string "ﻻ ﺃﺻﺪﻕ!\p"
+    .string "ﻣﺴﺘﺤﻴﻞ!\p"
     .string "ﻟﻘﺪ ﺍﺧﺘﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﺨﻄﺄ!$"
 
 @ Also used for early Route 22 battle
 Text_RivalVictory::
-    .string "{RIVAL}: ﺃﺟﻞ!\n"
-    .string "ﺃﻟﺴﺖ ﺭﺋﻌﺎ؟$"
+    .string "{RIVAL}: ﻧﻌﻢ!\n"
+    .string "ﺃﻧﺎ ﻋﺒﻘﺮﻱ، ﺃﻟﻴﺲ ﻛﺬﻟﻚ؟$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
-    .string "{RIVAL}: ﺣﺴﻨﺎ! ﺳﺄﺟﻌﻞ ﺑﻮﻛﻴﻤﻮﻧﻲ\n"
-    .string "ﻳﺨﻮﺽ ﻨﺰﻻﺕ ﻟﻴﻘﻮﻯ!\p"
+    .string "{RIVAL}: ﺣﺴﻨﺎ! ﺳﺄﺩﺭﺏ ﺑﻮﻛﻴﻤﻮﻧﻲ\n"
+    .string "ﻓﻲ ﻨﺰﻻﺕ ﺣﺘﻰ ﻳﺼﻴﺮ ﻭﺣﺸﺎ!\p"
     .string "{PLAYER}! ﺟﺪﻱ!\n"
     .string "ﺃﺭﻛﻤﺎ ﻻﺣﻘﺎ… ﺇﻥ ﻟﺤﻘﺘﻤﺎ ﺑﻲ!$"
 
@@ -53,11 +53,11 @@ PalletTown_ProfessorOaksLab_Text_RivalGramps::
 
 PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
     .string "{RIVAL}: ﻛﺪﺕ ﺃﻧﺴﻰ!\n"
-    .string "ﻟﻤﺎﺫ ﺍﺳﺘﺪﻋﻴﺘﻨﻲ؟$"
+    .string "ﻟﻤﺎﺫ ﺍﺳﺘﺪﻋﻴﺘﻨﻲ ﻳﺎ ﺟﺪﻱ؟$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps::
     .string "{RIVAL}: ﺣﺴﻨﺎ ﻳﺎ ﺟﺪﻱ!\n"
-    .string "ﺍﺗﺮﻙ ﺍﻷﻣﺮ ﻛﻠﻪ ﻟﻲ!$"
+    .string "ﺍﺗﺮﻙ ﻛﻞ ﺷﻲﺀ ﻟﻲ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
     .string "{PLAYER}، ﻳﺆﺳﻔﻨﻲ ﺃﻥ ﺃﻗﻮﻟﻬﺎ، ﻟﻜﻦ\n"
@@ -70,31 +70,30 @@ PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
     .string "ﺃﻭﻙ: {RIVAL}؟\n"
-    .string "ﺩﻋﻨﻲ ﺃﻓﻜﺮ…\p"
-    .string "ﺁﻩ، ﺻﺤﻴﺢ! ﺃﻧﺎ ﻣﻦ ﻃﻠﺐ ﻣﻨﻚ\n"
-    .string "ﻤﺠﻲﺀ!\p"
+    .string "ﺩﻋﻨﻲ ﺃﺗﺬﻛﺮ…\p"
+    .string "ﺁﻩ، ﻧﻌﻢ! ﺃﻧﺎ ﻣﻦ ﺍﺳﺘﺪﻋﺎﻙ!\n"
     .string "ﺍﻧﺘﻈﺮ ﻗﻠﻴﻼ!\p"
     .string "ﺗﻌﺎﻝ ﻳﺎ {PLAYER}.\p"
-    .string "ﻫﻨﺎ ﺛﻼﺛﺔ ﺑﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﻫﻨﺎ ﺛﻼﺛﺔ ﺑﻮﻛﻴﻤﻮﻥ!\p"
     .string "ﻫﺎﻫﺎ!\p"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻣﻮﺟﻮﺩﺓ ﺩﺧﻞ\n"
+    .string "ﺇﻧﻬﺎ ﺗﻨﺘﻈﺮ ﺩﺧﻞ\n"
     .string "ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﻫﺬﻩ.\p"
-    .string "ﺣﻴﻦ ﻛﻨﺖ ﺷﺎﺑﺎ، ﻛﻨﺖ ﻣﺪﺭﺏ\n"
-    .string "ﺑﻮﻛﻴﻤﻮﻥ ﻣﺤﺘﺮﻓﺎ.\p"
-    .string "ﺃﻣﺎ ﺍﻵﻥ، ﻭﻗﺪ ﻛﺒﺮﺕ ﻓﻲ ﺴﻦ،\n"
+    .string "ﻓﻲ ﺷﺒﺎﺑﻲ، ﻛﻨﺖ ﻣﺪﺭﺏ ﺑﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻻ ﻳﺸﻖ ﻟﻪ ﻏﺒﺎﺭ!\p"
+    .string "ﺃﻣﺎ ﺍﻵﻥ، ﻭﻗﺪ ﺷﺎﺏ ﺷﻌﺮﻱ،\n"
     .string "ﻓﻠﻢ ﻳﺒﻖ ﻟﺪﻱ ﺳﻮﻯ ﻫﺬﻩ ﺜﻼﺛﺔ.\p"
-    .string "ﻳﻤﻜﻨﻚ ﺃﻥ ﺗﺄﺧﺬ ﻭﺣﺪ.\n"
-    .string "ﻫﻴﺎ، ﺍﺧﺘﺮ!$"
+    .string "ﺍﺧﺘﺮ ﻭﺣﺪ ﻣﻨﻬﺎ،\n"
+    .string "ﻫﻴﺎ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakBePatientRival::
     .string "ﺃﻭﻙ: ﺻﺒﺮ ﻳﺎ {RIVAL}.\n"
     .string "ﺳﺘﺄﺧﺬ ﻭﺣﺪ ﺃﻧﺖ ﺃﻳﻀﺎ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
-    .string "ﺃﻭﻙ: ﻭﻵﻥ ﻳﺎ {PLAYER}.\p"
-    .string "ﻓﻲ ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﺜﻼﺙ ﻫﺬﻩ\n"
-    .string "ﺑﻮﻛﻴﻤﻮﻥ.\p"
-    .string "ﺃﻳﻬﺎ ﺳﺘﺨﺘﺎﺭ ﻟﻨﻔﺴﻚ؟$"
+    .string "ﺃﻭﻙ: ﻭﻵﻥ ﻳﺎ {PLAYER}…\p"
+    .string "ﻓﻲ ﻛﻞ ﻛﺮﺓ ﻣﻦ ﻫﺬﻩ ﻜﺮﺕ ﺜﻼﺙ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ ﻳﻨﺘﻈﺮ ﺻﺎﺣﺒﻪ.\p"
+    .string "ﺃﻳﻬﺎ ﺳﺘﺨﺘﺎﺭ؟$"
 
 PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
     .string "ﺃﻭﻙ: ﻣﻬﻼ!\n"
@@ -119,30 +118,28 @@ PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
     .string "ﺑﻮﻛﻴﻤﻮﻥ ﻌﺸﺐ؟$"
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
-    .string "ﻫﺬ ﺒﻮﻛﻴﻤﻮﻥ ﻣﻔﻌﻢ ﺑﺎﻟﺤﻴﻮﻳﺔ\n"
-    .string "ﺣﻘﺎ!$"
+    .string "ﻫﺬ ﺒﻮﻛﻴﻤﻮﻥ ﻳﺘﻘﺪ ﺣﻴﻮﻳﺔ!$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak::
     .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ {STR_VAR_1}\n"
     .string "ﻣﻦ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon::
-    .string "ﺃﻭﻙ: ﺇﻥ ﻇﻬﺮ ﺑﻮﻛﻴﻤﻮﻥ ﺑﺮﻱ،\n"
-    .string "ﻳﺴﺘﻄﻴﻊ ﺑﻮﻛﻴﻤﻮﻧﻚ ﺃﻥ ﻳﻨﺎﺯﻟﻪ.\p"
-    .string "ﻭﻣﻌﻪ ﺇﻟﻰ ﺟﺎﻧﺒﻚ، ﺳﺘﺘﻤﻜﻦ ﻣﻦ\n"
-    .string "ﻮﺻﻮﻝ ﺇﻟﻰ ﺒﻠﺪﺓ ﺘﺎﻟﻴﺔ.$"
+    .string "ﺃﻭﻙ: ﺇﻥ ﺑﺎﻏﺘﻚ ﺑﻮﻛﻴﻤﻮﻥ ﺑﺮﻱ،\n"
+    .string "ﻓﺒﻮﻛﻴﻤﻮﻧﻚ ﺳﻴﺘﺼﺪﻯ ﻟﻪ.\p"
+    .string "ﻭﻣﻌﻪ ﺇﻟﻰ ﺟﺎﻧﺒﻚ، ﺳﺘﺒﻠﻎ\n"
+    .string "ﺒﻠﺪﺓ ﺘﺎﻟﻴﺔ ﺑﺄﻣﺎﻥ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow::
-    .string "ﺃﻭﻙ: {PLAYER}، ﺭﺏ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
-    .string "ﺼﻐﻴﺮ\p"
-    .string "ﺑﺄﻥ ﺗﺠﻌﻠﻪ ﻳﺨﻮﺽ ﻨﺰﻻﺕ.\p"
-    .string "ﻋﻠﻴﻪ ﺃﻥ ﻳﻨﺎﺯﻝ ﻟﻜﻲ ﻳﻨﻤﻮ.$"
+    .string "ﺃﻭﻙ: {PLAYER}، ﻨﺰﻻﺕ ﻫﻲ ﻣﺎ\n"
+    .string "ﻳﺠﻌﻞ ﺑﻮﻛﻴﻤﻮﻧﻚ ﻳﻨﻤﻮ.\p"
+    .string "ﻓﻼ ﺗﺒﺨﻞ ﻋﻠﻴﻪ ﺑﻬﺎ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
     .string "ﺃﻭﻙ: ﺁﻩ، {PLAYER}!\n"
     .string "ﻛﻴﻒ ﺣﺎﻝ ﺑﻮﻛﻴﻤﻮﻧﻲ ﻘﺪﻳﻢ؟\p"
-    .string "ﻳﺒﺪﻭ ﺃﻧﻪ ﺑﺪ ﻳﺘﻌﻠﻖ ﺑﻚ ﺃﻛﺜﺮ.\p"
-    .string "ﻻ ﺑﺪ ﺃﻧﻚ ﻣﻮﻫﻮﺏ\n"
+    .string "ﺃﺭﻯ ﺃﻧﻪ ﺻﺎﺭ ﻳﺘﻌﻠﻖ ﺑﻚ ﺃﻛﺜﺮ.\p"
+    .string "ﻓﻴﻚ ﻣﻮﻫﺒﺔ ﺣﻘﻴﻘﻴﺔ\n"
     .string "ﻛﻤﺪﺭﺏ ﺑﻮﻛﻴﻤﻮﻥ.\p"
     .string "ﻣﺎ ﻫﺬ؟\n"
     .string "ﺃﺣﻀﺮﺕ ﻟﻲ ﺷﻴﺌﺎ؟$"
@@ -153,7 +150,7 @@ PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
     .string "ﺁﻩ!\n"
     .string "ﺇﻧﻬﺎ ﻛﺮﺓ ﺒﻮﻛﻴﻤﻮﻥ ﺨﺎﺻﺔ!\p"
-    .string "ﻛﻨﺖ ﻗﺪ ﻃﻠﺒﺘﻬﺎ.\n"
+    .string "ﻛﻨﺖ ﺃﻧﺘﻈﺮﻫﺎ ﺑﻔﺎﺭﻍ ﺼﺒﺮ.\n"
     .string "ﺷﻜﺮ ﻟﻚ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo::
@@ -161,12 +158,13 @@ PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo::
     .string "ﻟﺪﻱ ﻃﻠﺐ ﻣﻨﻜﻤﺎ ﺃﻧﺘﻤﺎ ﺍﻻﺛﻨﻴﻦ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk::
-    .string "ﻋﻠﻰ ﻤﻜﺘﺐ ﻳﻮﺟﺪ ﺍﺧﺘﺮﻋﻲ:\n"
+    .string "ﻋﻠﻰ ﻤﻜﺘﺐ، ﺃﺣﺪﺙ ﺍﺧﺘﺮﻋﺎﺗﻲ:\n"
     .string "ﺒﻮﻛﻴﺪﻳﻜﺲ!\p"
-    .string "ﺇﻧﻪ ﻳﺴﺠﻞ ﺗﻠﻘﺎﺋﻴﺎ ﺑﻴﺎﻧﺎﺕ\n"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ\p"
-    .string "ﺘﻲ ﺭﻳﺘﻬﺎ ﺃﻭ ﺃﻣﺴﻜﺘﻬﺎ.\p"
-    .string "ﺇﻧﻪ ﻣﻮﺳﻮﻋﺔ ﻣﺘﻄﻮﺭﺓ!$"
+    .string "ﻳﺴﺠﻞ ﺗﻠﻘﺎﺋﻴﺎ ﺑﻴﺎﻧﺎﺕ ﻛﻞ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ\p"
+    .string "ﺗﺮﻩ ﺃﻭ ﺗﻤﺴﻜﻪ.\p"
+    .string "ﺇﻧﻪ ﻣﻮﺳﻮﻋﺔ ﺗﻤﺸﻲ ﻣﻌﻚ ﺃﻳﻨﻤﺎ\n"
+    .string "ﺫﻫﺒﺖ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou::
     .string "ﺃﻭﻙ: {PLAYER} ﻭ{RIVAL}.\n"
@@ -193,26 +191,25 @@ PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
     .string "ﺣﻴﻦ ﻳﻈﻬﺮ ﺑﻮﻛﻴﻤﻮﻥ ﺑﺮﻱ،\n"
     .string "ﻳﻤﻜﻨﻚ ﺃﻥ ﺗﺤﺎﻭﻝ ﺇﻣﺴﺎﻛﻪ.\p"
     .string "ﺍﺭﻡ ﻋﻠﻴﻪ ﻛﺮﺓ ﺑﻮﻛﻴﻤﻮﻥ\n"
-    .string "ﻭﺣﺎﻭﻝ ﺃﻥ ﺗﻤﺴﻜﻪ!\p"
-    .string "ﻟﻜﻦ ﻫﺬ ﻟﻦ ﻳﻨﺠﺢ ﺩﺋﻤﺎ.\p"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ ﺬﻱ ﻓﻲ ﻛﺎﻣﻞ ﻗﻮﺗﻪ ﻗﺪ\n"
+    .string "ﻭﺟﺮﺏ ﺣﻈﻚ… ﺃﻗﺼﺪ ﻣﻬﺎﺭﺗﻚ!\p"
+    .string "ﻟﻜﻨﻬﺎ ﻟﻦ ﺗﻨﺠﺢ ﺩﺋﻤﺎ.\p"
+    .string "ﻓﺎﻟﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻛﺎﻣﻞ ﻗﻮﺗﻪ ﻗﺪ\n"
     .string "ﻳﻔﻠﺖ.\p"
     .string "ﻓﻼ ﺗﻴﺄﺱ، ﻭﺣﺎﻭﻝ ﻣﺮﺓ ﺑﻌﺪ ﻣﺮﺓ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
-    .string "ﺃﻥ ﺃﺻﻨﻊ ﺩﻟﻴﻼ ﻛﺎﻣﻼ ﻟﺠﻤﻴﻊ\n"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻌﺎﻟﻢ…\p"
-    .string "ﻛﺎﻥ ﺫﻟﻚ ﺣﻠﻤﻲ!\p"
-    .string "ﻟﻜﻨﻨﻲ ﻛﺒﺮﺕ ﻓﻲ ﺴﻦ،\n"
-    .string "ﻭﻟﻢ ﺃﻋﺪ ﻗﺎﺩﺭ ﻋﻠﻰ ﺇﻧﺠﺎﺯﻩ.\p"
-    .string "ﻟﺬﻟﻚ ﺃﺭﻳﺪﻛﻤﺎ ﺃﻥ ﺗﺤﻘﻘﺎ\n"
-    .string "ﺣﻠﻤﻲ ﻫﺬ.\p"
-    .string "ﻫﻴﺎ، ﺍﻧﻄﻠﻘﺎ ﺃﻧﺘﻤﺎ ﺍﻻﺛﻨﻴﻦ.\p"
-    .string "ﺇﻧﻬﺎ ﻣﻬﻤﺔ ﻋﻈﻴﻤﺔ ﻓﻲ ﺗﺎﺭﻳﺦ\n"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ!$"
+    .string "ﻣﻮﺳﻮﻋﺔ ﻛﺎﻣﻠﺔ ﻟﻜﻞ ﺑﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻓﻲ ﻫﺬ ﻌﺎﻟﻢ…\p"
+    .string "ﺫﻟﻚ ﻛﺎﻥ ﺣﻠﻢ ﺣﻴﺎﺗﻲ!\p"
+    .string "ﻟﻜﻦ ﻌﻤﺮ ﻟﻢ ﻳﻌﺪ ﻳﺴﻌﻔﻨﻲ\n"
+    .string "ﻷﺣﻘﻘﻪ.\p"
+    .string "ﻟﺬﻟﻚ ﺃﺿﻌﻪ ﺃﻣﺎﻧﺔ ﺑﻴﻦ ﺃﻳﺪﻳﻜﻤﺎ.\p"
+    .string "ﻫﻴﺎ، ﺍﻧﻄﻠﻘﺎ!\p"
+    .string "ﺇﻧﻬﺎ ﻣﻬﻤﺔ ﻋﻈﻴﻤﺔ ﺳﺘﻜﺘﺐ ﻓﻲ\n"
+    .string "ﺗﺎﺭﻳﺦ ﺒﻮﻛﻴﻤﻮﻥ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait::
-    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻛﻞ ﺃﻧﺤﺎﺀ ﻌﺎﻟﻢ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻛﻞ ﺃﺭﺟﺎﺀ ﻌﺎﻟﻢ\n"
     .string "ﺗﻨﺘﻈﺮﻙ ﻳﺎ {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
@@ -229,17 +226,17 @@ PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
     .string "ﻗﻠﻴﻼ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime::
-    .string "ﺃﻭﻙ: ﺗﻌﺎﻝ ﻟﺰﻳﺎﺭﺗﻲ ﻣﻦ ﺣﻴﻦ ﻵﺧﺮ.\p"
-    .string "ﻓﺄﻧﺎ ﺃﺭﻳﺪ ﺃﻥ ﺃﻋﺮﻑ ﻛﻴﻒ\n"
-    .string "ﻳﺘﻘﺪﻡ ﺒﻮﻛﻴﺪﻳﻜﺲ ﻣﻌﻚ.$"
+    .string "ﺃﻭﻙ: ﺯﺭﻧﻲ ﻣﻦ ﺣﻴﻦ ﻵﺧﺮ.\p"
+    .string "ﺃﺭﻳﺪ ﺃﻥ ﺃﺭﻯ ﻛﻴﻒ ﻳﻜﺒﺮ\n"
+    .string "ﺒﻮﻛﻴﺪﻳﻜﺲ ﺑﻴﻦ ﻳﺪﻳﻚ.$"
 
 PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia::
-    .string "ﺇﻧﻪ ﻳﺸﺒﻪ ﻤﻮﺳﻮﻋﺔ، ﻟﻜﻦ ﺻﻔﺤﺎﺗﻪ\n"
-    .string "ﻓﺎﺭﻏﺔ.$"
+    .string "ﻳﺒﺪﻭ ﻛﻤﻮﺳﻮﻋﺔ، ﻟﻜﻦ ﺻﻔﺤﺎﺗﻪ\n"
+    .string "ﺑﻴﻀﺎﺀ… ﺗﻨﺘﻈﺮ ﻣﻦ ﻳﻤﻠﺆﻫﺎ!$"
 
 PalletTown_ProfessorOaksLab_Text_ThoseArePokeBalls::
-    .string "ﺗﻠﻚ ﻛﺮﺕ ﺑﻮﻛﻴﻤﻮﻥ.\n"
-    .string "ﻓﻲ ﺩﺧﻠﻬﺎ ﺑﻮﻛﻴﻤﻮﻥ!$"
+    .string "ﻛﺮﺕ ﺑﻮﻛﻴﻤﻮﻥ…\n"
+    .string "ﻭﻓﻲ ﺩﺧﻠﻬﺎ ﺑﻮﻛﻴﻤﻮﻥ ﻳﻨﺘﻈﺮ!$"
 
 PalletTown_ProfessorOaksLab_Text_OaksLastMon::
     .string "ﻫﺬ ﺁﺧﺮ ﺑﻮﻛﻴﻤﻮﻥ ﻟﺪﻯ ﺒﺮﻭﻓﻴﺴﻮﺭ\n"
@@ -250,7 +247,7 @@ PalletTown_ProfessorOaksLab_Text_PressStartToOpenMenu::
 
 PalletTown_ProfessorOaksLab_Text_SaveOptionInMenu::
     .string "ﺧﻴﺎﺭ ﺤﻔﻆ ﻣﻮﺟﻮﺩ ﻓﻲ ﻘﺎﺋﻤﺔ.\n"
-    .string "ﺍﺳﺘﺨﺪﻣﻪ ﺑﺎﺳﺘﻤﺮﺭ.$"
+    .string "ﺍﺣﻔﻆ ﺗﻘﺪﻣﻚ ﺩﺋﻤﺎ!$"
 
 PalletTown_ProfessorOaksLab_Text_AllMonTypesHaveStrongAndWeakPoints::
     .string "ﻟﻜﻞ ﻧﻮﻉ ﻣﻦ ﺒﻮﻛﻴﻤﻮﻥ ﻧﻘﺎﻁ ﻗﻮﺓ\n"
@@ -292,10 +289,12 @@ PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow::
     .string "ﻭﺳﻤﻪ: “ﻧﺪﻭﺓ ﺃﻭﻙ ﻟﻠﺒﻮﻛﻴﻤﻮﻥ”.$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsAuthorityOnMons::
-    .string "ﻗﺪ ﻻ ﻳﺒﺪﻭ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ ﻣﻬﻤﺎ،\n"
-    .string "ﻟﻜﻨﻪ ﻤﺮﺟﻊ ﺍﻷﻭﻝ ﻓﻲ ﺒﻮﻛﻴﻤﻮﻥ.\p"
-    .string "ﻛﺜﻴﺮ ﻣﻦ ﻣﺪﺭﺑﻲ ﺒﻮﻛﻴﻤﻮﻥ\n"
-    .string "ﻳﻜﻨﻮﻥ ﻟﻪ ﺍﺣﺘﺮﻣﺎ ﻛﺒﻴﺮ.$"
+    .string "ﻗﺪ ﻻ ﻳﺒﺪﻭ ﻋﻠﻴﻪ ﺫﻟﻚ، ﻟﻜﻦ\n"
+    .string "ﺒﺮﻭﻓﻴﺴﻮﺭ\p"
+    .string "ﺃﻭﻙ ﻫﻮ ﻤﺮﺟﻊ ﺍﻷﻭﻝ ﻓﻲ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﻭﻛﺜﻴﺮ ﻣﻦ ﻤﺪﺭﺑﻴﻦ ﻳﻜﻨﻮﻥ ﻟﻪ\n"
+    .string "ﻛﻞ ﺍﻻﺣﺘﺮﻡ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer::
     .string "ﺁﻩ، ﻫﺬ ﺭﺋﻊ ﺣﻘﺎ!\p"

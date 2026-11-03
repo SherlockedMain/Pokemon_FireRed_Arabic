@@ -1,29 +1,26 @@
 Route1_Text_WorkAtPokeMartTakeSample::
-    .string "ﻣﺮﺣﺒﺎ!\n"
+    .string "ﺃﻫﻼ!\n"
     .string "ﺃﻧﺎ ﺃﻋﻤﻞ ﻓﻲ ﻣﺘﺠﺮ ﺒﻮﻛﻴﻤﻮﻥ.\p"
-    .string "ﺇﻧﻪ ﺟﺰﺀ ﻣﻦ ﺳﻠﺴﻠﺔ ﻣﺘﺎﺟﺮ ﻣﺮﻳﺤﺔ\n"
-    .string "ﺗﺒﻴﻊ ﻛﻞ ﺃﻧﻮﻉ ﺍﻷﺩﻭﺕ.\p"
-    .string "ﺗﻔﻀﻞ ﺑﺰﻳﺎﺭﺗﻨﺎ ﻓﻲ ﻣﺪﻳﻨﺔ\n"
-    .string "ﻓﻴﺮﻳﺪﻳﺎﻥ.\p"
-    .string "ﻭﺟﺪﺗﻬﺎ! ﺳﺄﻋﻄﻴﻚ ﻋﻴﻨﺔ ﻣﺠﺎﻧﻴﺔ.\n"
+    .string "ﻓﺮﻭﻋﻨﺎ ﺗﺒﻴﻊ ﻛﻞ ﻣﺎ ﻳﺤﺘﺎﺟﻪ\n"
+    .string "ﻤﺪﺭﺏ، ﻭﻛﺜﺮ!\p"
+    .string "ﺯﺭﻧﺎ ﻓﻲ ﻣﺪﻳﻨﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ!\p"
+    .string "ﻭﺟﺪﺗﻬﺎ! ﺧﺬ ﻫﺬﻩ ﻋﻴﻨﺔ ﻣﺠﺎﻧﻴﺔ.\n"
     .string "ﺗﻔﻀﻞ!$"
 
 Route1_Text_ComeSeeUsIfYouNeedPokeBalls::
-    .string "ﺯﺭﻧﺎ ﺇﻥ ﺍﺣﺘﺠﺖ ﺇﻟﻰ ﻛﺮﺕ\n"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ\p"
-    .string "ﻹﻣﺴﺎﻙ ﺒﻮﻛﻴﻤﻮﻥ.$"
+    .string "ﻧﻔﺪﺕ ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ؟\n"
+    .string "ﺗﻌﺎﻝ ﺇﻟﻴﻨﺎ، ﻓﻌﻨﺪﻧﺎ ﻜﺜﻴﺮ!$"
 
 Route1_Text_PutPotionAway::
     .string "ﻭﺿﻊ {PLAYER} ﺠﺮﻋﺔ ﻓﻲ ﺟﻴﺐ\n"
     .string "ﺍﻷﺩﻭﺕ ﺩﺧﻞ ﺤﻘﻴﺒﺔ.$"
 
 Route1_Text_CanJumpFromLedges::
-    .string "ﺃﺗﺮﻯ ﺗﻠﻚ ﺤﻮﻑ ﻋﻠﻰ ﻃﻮﻝ\n"
-    .string "ﻄﺮﻳﻖ؟\p"
-    .string "ﺍﻷﻣﺮ ﻣﺨﻴﻒ ﻗﻠﻴﻼ، ﻟﻜﻦ ﻳﻤﻜﻨﻚ\n"
-    .string "ﻘﻔﺰ ﻣﻨﻬﺎ.\p"
-    .string "ﻫﻜﺬ ﺗﻌﻮﺩ ﺇﻟﻰ ﺑﻠﺪﺓ ﺑﺎﻟﻴﺖ\n"
-    .string "ﺃﺳﺮﻉ.$"
+    .string "ﺃﺗﺮﻯ ﺗﻠﻚ ﺤﻮﻑ ﻋﻠﻰ ﻄﺮﻳﻖ؟\p"
+    .string "ﻘﻔﺰ ﻣﻨﻬﺎ ﻳﺨﻴﻒ ﻗﻠﻴﻼ،\n"
+    .string "ﻟﻜﻨﻪ ﻣﻤﻜﻦ!\p"
+    .string "ﻭﻫﻮ ﺃﻗﺼﺮ ﻃﺮﻳﻖ ﻟﻠﻌﻮﺩﺓ\n"
+    .string "ﺇﻟﻰ ﺑﻠﺪﺓ ﺑﺎﻟﻴﺖ.$"
 
 Route1_Text_RouteSign::
     .string "ﻄﺮﻳﻖ 1\n"

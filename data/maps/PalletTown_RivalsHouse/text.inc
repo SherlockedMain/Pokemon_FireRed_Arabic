@@ -1,16 +1,17 @@
 PalletTown_RivalsHouse_Text_HiBrothersAtLab::
-    .string "ﺩﻳﺰﻱ: ﺃﻫﻼ، {PLAYER}!\p"
-    .string "ﺃﺧﻲ {RIVAL} ﻓﻲ ﻣﺨﺘﺒﺮ ﺟﺪﻱ.$"
+    .string "ﺩﻳﺰﻱ: ﺃﻫﻼ {PLAYER}!\p"
+    .string "ﺃﺧﻲ {RIVAL}؟ ﺇﻧﻪ ﻓﻲ ﻣﺨﺘﺒﺮ\n"
+    .string "ﺟﺪﻱ.$"
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival::
-    .string "ﺩﻳﺰﻱ: {PLAYER}، ﺳﻤﻌﺖ ﺃﻧﻚ ﺧﻀﺖ\n"
-    .string "ﻧﺰﻻ ﺿﺪ {RIVAL}.\p"
-    .string "ﻟﻴﺘﻨﻲ ﺷﺎﻫﺪﺗﻪ!$"
+    .string "ﺩﻳﺰﻱ: ﺳﻤﻌﺖ ﺃﻧﻚ ﻧﺎﺯﻟﺖ ﺃﺧﻲ\n"
+    .string "{RIVAL}.\p"
+    .string "ﻳﺎ ﻟﻴﺘﻨﻲ ﻛﻨﺖ ﻫﻨﺎﻙ!$"
 
 PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
-    .string "ﻃﻠﺐ ﻣﻨﻚ ﺟﺪﻱ ﺃﻥ ﺗﻘﻀﻲ ﻟﻪ ﺣﺎﺟﺔ؟\p"
+    .string "ﺟﺪﻱ ﻛﻠﻔﻚ ﺑﻤﻬﻤﺔ؟\p"
     .string "ﻳﺎ ﻟﻪ ﻣﻦ ﻛﺴﻮﻝ!\n"
-    .string "ﺧﺬ، ﻫﺬﻩ ﺳﺘﺴﺎﻋﺪﻙ.$"
+    .string "ﺧﺬ ﻫﺬﻩ، ﺳﺘﻨﻔﻌﻚ ﻓﻲ ﻃﺮﻳﻘﻚ.$"
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
     .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﺧﺮﻳﻄﺔ ﺒﻠﺪﺕ\n"
@@ -20,16 +21,14 @@ PalletTown_RivalsHouse_Text_DontHaveSpaceForThis::
     .string "ﻻ ﻳﻮﺟﺪ ﻣﻜﺎﻥ ﻟﻬﺬﻩ ﻓﻲ ﺣﻘﻴﺒﺘﻚ.$"
 
 PalletTown_RivalsHouse_Text_ExplainTownMap::
-    .string "ﻳﻤﻜﻨﻚ ﺍﺳﺘﺨﺪﻡ ﺧﺮﻳﻄﺔ ﺒﻠﺪﺕ\n"
-    .string "ﻟﺘﻌﺮﻑ\p"
-    .string "ﺃﻳﻦ ﺃﻧﺖ، ﺃﻭ ﻟﺘﺘﻌﺮﻑ ﻋﻠﻰ ﺃﺳﻤﺎﺀ\n"
-    .string "ﺍﻷﻣﺎﻛﻦ.$"
+    .string "ﺑﺨﺮﻳﻄﺔ ﺒﻠﺪﺕ ﺗﻌﺮﻑ ﺃﻳﻦ ﺃﻧﺖ،\n"
+    .string "ﻭﺗﺘﻌﺮﻑ ﻋﻠﻰ ﺃﺳﻤﺎﺀ ﺍﻷﻣﺎﻛﻦ.$"
 
 PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
-    .string "ﺩﻳﺰﻱ: ﺒﻮﻛﻴﻤﻮﻥ ﻛﺎﺋﻨﺎﺕ ﺣﻴﺔ\n"
-    .string "ﻣﺜﻠﻨﺎ ﺗﻤﺎﻣﺎ.\p"
-    .string "ﺣﻴﻦ ﺗﺘﻌﺐ، ﺃﺭﺟﻮﻙ ﺍﻣﻨﺤﻬﺎ\n"
-    .string "ﻗﺴﻄﺎ ﻣﻦ ﺮﺣﺔ.$"
+    .string "ﺩﻳﺰﻱ: ﺒﻮﻛﻴﻤﻮﻥ ﻛﺎﺋﻨﺎﺕ ﺣﻴﺔ،\n"
+    .string "ﺗﺘﻌﺐ ﻣﺜﻠﻨﺎ ﺗﻤﺎﻣﺎ.\p"
+    .string "ﻓﺎﻣﻨﺤﻬﺎ ﻗﺴﻄﺎ ﻣﻦ ﺮﺣﺔ\n"
+    .string "ﺣﻴﻦ ﺗﺤﺘﺎﺝ ﺇﻟﻴﻪ.$"
 
 PalletTown_RivalsHouse_Text_ItsBigMapOfKanto::
     .string "ﺧﺮﻳﻄﺔ ﻛﺒﻴﺮﺓ ﻟﻤﻨﻄﻘﺔ ﻛﺎﻧﺘﻮ…\n"
@@ -40,13 +39,13 @@ PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks::
     .string "ﺗﻜﻔﻲ ﻟﺴﻨﻮﺕ ﻣﻦ ﻘﺮﺀﺓ!$"
 
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
-    .string "ﺩﻳﺰﻱ: ﺃﻫﻼ، {PLAYER}!\n"
+    .string "ﺩﻳﺰﻱ: ﺃﻫﻼ {PLAYER}!\n"
     .string "ﺟﺌﺖ ﻓﻲ ﻮﻗﺖ ﻤﻨﺎﺳﺐ.\p"
-    .string "ﻛﻨﺖ ﻋﻠﻰ ﻭﺷﻚ ﺃﻥ ﺃﺷﺮﺏ ﺸﺎﻱ.\n"
+    .string "ﻛﻨﺖ ﻋﻠﻰ ﻭﺷﻚ ﺃﻥ ﺃﻋﺪ ﺸﺎﻱ.\n"
     .string "ﻫﻞ ﺗﺸﺎﺭﻛﻨﻲ؟\p"
     .string "ﻟﻜﻦ ﺍﻧﻈﺮ!\n"
-    .string "ﺑﻮﻛﻴﻤﻮﻧﻚ ﻣﺘﺴﺨﺔ ﻗﻠﻴﻼ.\p"
-    .string "ﻫﻞ ﺗﺮﻳﺪ ﺃﻥ ﺃﻧﻈﻒ ﻭﺣﺪ ﻣﻨﻬﺎ؟$"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﻚ ﻣﺘﺴﺦ ﻗﻠﻴﻼ!\p"
+    .string "ﻫﻞ ﺃﻧﻈﻒ ﻟﻚ ﻭﺣﺪ ﻣﻨﻬﺎ؟$"
 
 PalletTown_RivalsHouse_Text_DontNeedAnyGrooming::
     .string "ﻻ ﺗﺤﺘﺎﺝ ﺇﻟﻰ ﺗﻨﻈﻴﻒ؟\n"
@@ -56,7 +55,7 @@ PalletTown_RivalsHouse_Text_GroomWhichOne::
     .string "ﺃﻳﻬﺎ ﺗﺮﻳﺪ ﺃﻥ ﺃﻧﻈﻒ؟$"
 
 PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
-    .string "ﺩﻳﺰﻱ: ﺣﺴﻨﺎ، ﺳﺄﺟﻌﻠﻪ ﻳﺒﺪﻭ ﺟﻤﻴﻼ\n"
+    .string "ﺩﻳﺰﻱ: ﺳﺄﺟﻌﻠﻪ ﻳﺘﺄﻟﻖ\n"
     .string "ﻓﻲ ﻟﻤﺢ ﺒﺼﺮ.$"
 
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
@@ -85,23 +84,22 @@ PalletTown_RivalsHouse_Text_MayISeeFirstMon::
     .string "ﺃﻥ ﺃﺭﻯ ﺃﻭﻝ ﺑﻮﻛﻴﻤﻮﻥ ﻟﺪﻳﻚ؟$"
 
 PalletTown_RivalsHouse_Text_CouldntLoveYouMore::
-    .string "ﻻ ﻳﻤﻜﻦ ﺃﻥ ﻳﺤﺒﻚ ﺃﻛﺜﺮ ﻣﻤﺎ ﻳﺤﺒﻚ\n"
-    .string "ﺍﻵﻥ.\p"
+    .string "ﺇﻧﻪ ﻳﺤﺒﻚ ﺣﺒﺎ ﻻ ﻣﺰﻳﺪ ﻋﻠﻴﻪ.\p"
     .string "ﺑﻮﻛﻴﻤﻮﻧﻚ ﺳﻌﻴﺪ ﺳﻌﺎﺩﺓ\n"
     .string "ﻻ ﺗﻮﺻﻒ.$"
 
 PalletTown_RivalsHouse_Text_ItLooksVeryHappy::
-    .string "ﻳﺒﺪﻭ ﺳﻌﻴﺪ ﺟﺪ.\p"
+    .string "ﻳﺒﺪﻭ ﺳﻌﻴﺪ ﺟﺪ ﻣﻌﻚ.\p"
     .string "ﻟﻴﺖ {RIVAL} ﻳﺮﻯ ﻫﺬ\n"
-    .string "ﻭﻳﺘﻌﻠﻢ ﻣﻨﻪ ﺷﻴﺌﺎ.$"
+    .string "ﻭﻳﺘﻌﻠﻢ ﻣﻨﻪ ﺷﻴﺌﺎ!$"
 
 PalletTown_RivalsHouse_Text_ItsQuiteFriendly::
     .string "ﺇﻧﻪ ﻭﺩﻭﺩ ﻣﻌﻚ ﺟﺪ.\n"
     .string "ﺍﺳﺘﻤﺮ ﻓﻲ ﻣﻌﺎﻣﻠﺘﻪ ﺑﻠﻄﻒ!$"
 
 PalletTown_RivalsHouse_Text_ItsWarmingUpToYou::
-    .string "ﺑﺪ ﻳﺄﻟﻔﻚ.\n"
-    .string "ﻻ ﺑﺪ ﺃﻥ ﺜﻘﺔ ﺑﻴﻨﻜﻤﺎ ﺗﻨﻤﻮ.$"
+    .string "ﺑﺪ ﻳﺄﻟﻔﻚ ﻭﻳﺮﺗﺎﺡ ﺇﻟﻴﻚ.\n"
+    .string "ﺜﻘﺔ ﺑﻴﻨﻜﻤﺎ ﺗﻜﺒﺮ ﻛﻞ ﻳﻮﻡ.$"
 
 PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet::
     .string "ﻟﻢ ﻳﻌﺘﺪ ﻋﻠﻴﻚ ﺗﻤﺎﻣﺎ ﺑﻌﺪ.\p"

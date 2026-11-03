@@ -1,13 +1,13 @@
 ViridianCity_Gym_Text_GiovanniIntro::
     .string "ﻓﻮﻫﺎﻫﺎﻫﺎ!\n"
     .string "ﻣﺮﺣﺒﺎ ﺑﻚ ﻓﻲ ﻣﺨﺒﺌﻲ!\p"
-    .string "ﻭﺳﻴﺒﻘﻰ ﻛﺬﻟﻚ ﺣﺘﻰ ﺃﻋﻴﺪ\n"
-    .string "ﻓﺮﻳﻖ ﺼﺎﺭﻭﺥ ﺇﻟﻰ ﺳﺎﺑﻖ ﻣﺠﺪﻩ.\p"
+    .string "ﻫﻨﺎ ﺳﺄﺑﻘﻰ ﺣﺘﻰ ﺃﻋﻴﺪ\n"
+    .string "ﻟﻔﺮﻳﻖ ﺼﺎﺭﻭﺥ ﻣﺠﺪﻩ ﻐﺎﺑﺮ.\p"
     .string "ﻟﻜﻨﻚ ﻭﺟﺪﺗﻨﻲ ﻣﺮﺓ ﺃﺧﺮﻯ.\n"
     .string "ﻓﻠﻴﻜﻦ.\p"
-    .string "ﻫﺬﻩ ﻤﺮﺓ ﻟﻦ ﺃﺗﺮﺟﻊ!\p"
-    .string "ﻣﺮﺓ ﺃﺧﺮﻯ، ﺳﺘﻮﺟﻪ ﺟﻴﻮﻓﺎﻧﻲ،\n"
-    .string "ﺃﻋﻈﻢ ﻤﺪﺭﺑﻴﻦ!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
+    .string "ﻫﺬﻩ ﻤﺮﺓ، ﻟﻦ ﺃﺭﺣﻤﻚ!\p"
+    .string "ﺳﺘﻮﺟﻪ ﻣﺠﺪﺩ ﺟﻴﻮﻓﺎﻧﻲ،\n"
+    .string "ﺃﻋﻈﻢ ﻤﺪﺭﺑﻴﻦ ﻋﻠﻰ ﺍﻹﻃﻼﻕ!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
 
 ViridianCity_Gym_Text_GiovanniDefeat::
     .string "ﻫﺎ!\n"
@@ -16,14 +16,14 @@ ViridianCity_Gym_Text_GiovanniDefeat::
     .string "ﻭﺛﺒﺎﺗﺎ ﻟﺬﻟﻚ، ﺇﻟﻴﻚ ﻭﺳﺎﻡ ﺍﻷﺭﺽ!\n{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
 
 ViridianCity_Gym_Text_GiovanniPostBattle::
-    .string "ﺑﻌﺪ ﺧﺴﺎﺭﺓ ﻛﻬﺬﻩ، ﻻ ﺃﺳﺘﻄﻴﻊ\n"
-    .string "ﻣﻮﺟﻬﺔ ﺃﺗﺒﺎﻋﻲ.\p"
-    .string "ﻟﻘﺪ ﺧﻨﺖ ﺛﻘﺘﻬﻢ.\p"
+    .string "ﺑﻌﺪ ﻫﺰﻳﻤﺔ ﻛﻬﺬﻩ، ﻻ ﺃﺳﺘﻄﻴﻊ\n"
+    .string "ﺃﻥ ﺃﻧﻈﺮ ﻓﻲ ﻭﺟﻮﻩ ﺃﺗﺒﺎﻋﻲ.\p"
+    .string "ﻟﻘﺪ ﺧﺬﻟﺘﻬﻢ.\p"
     .string "ﻣﻦ ﻴﻮﻡ، ﺍﻧﺘﻬﻰ ﻓﺮﻳﻖ ﺼﺎﺭﻭﺥ\n"
     .string "ﺇﻟﻰ ﺍﻷﺑﺪ!\p"
     .string "ﺃﻣﺎ ﺃﻧﺎ، ﻓﺴﺄﻛﺮﺱ ﺣﻴﺎﺗﻲ\n"
     .string "ﻟﻠﺘﺪﺭﻳﺐ ﻣﻦ ﺟﺪﻳﺪ.\p"
-    .string "ﻟﻨﻠﺘﻖ ﻳﻮﻣﺎ ﻣﺎ!\n"
+    .string "ﺇﻟﻰ ﺃﻥ ﻧﻠﺘﻘﻲ ﻳﻮﻣﺎ ﻣﺎ…\n"
     .string "ﻭﺩﻋﺎ!$"
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
@@ -54,8 +54,7 @@ ViridianCity_Gym_Text_YouDoNotHaveSpace::
 
 ViridianCity_Gym_Text_YujiIntro::
     .string "ﻫﻪ!\n"
-    .string "ﻻ ﺑﺪ ﺃﻥ ﻃﺎﻗﺘﻚ ﻗﺪ ﻧﻔﺪﺕ\p"
-    .string "ﺍﻵﻥ!$"
+    .string "ﻻ ﺑﺪ ﺃﻥ ﻃﺎﻗﺘﻚ ﻧﻔﺪﺕ ﺍﻵﻥ!$"
 
 ViridianCity_Gym_Text_YujiDefeat::
     .string "ﻧﻔﺪ ﻭﻗﻮﺩﻱ!$"
@@ -146,14 +145,14 @@ ViridianCity_Gym_Text_GymGuyAdvice::
     .string "ﻳﺎ ﺑﻄﻞ ﻤﺴﺘﻘﺒﻞ!\p"
     .string "ﺣﺘﻰ ﺃﻧﺎ ﻻ ﺃﻋﺮﻑ ﻫﻮﻳﺔ\n"
     .string "ﻗﺎﺋﺪ ﻓﻴﺮﻳﺪﻳﺎﻥ.\p"
-    .string "ﻟﻜﻦ ﻫﻨﺎﻙ ﺃﻣﺮ ﻣﺆﻛﺪ:\n"
-    .string "ﺳﻴﻜﻮﻥ ﺃﺻﻌﺐ ﻗﺎﺩﺓ ﺼﺎﻻﺕ.\p"
-    .string "ﻭﺳﻤﻌﺖ ﺃﻳﻀﺎ ﺃﻥ ﻣﺪﺭﺑﻲ ﻫﺬﻩ ﺼﺎﻟﺔ\n"
-    .string "ﻳﺤﺒﻮﻥ ﺑﻮﻛﻴﻤﻮﻥ ﻧﻮﻉ ﺍﻷﺭﺽ.$"
+    .string "ﻟﻜﻦ ﺷﻴﺌﺎ ﻭﺣﺪ ﻣﺆﻛﺪ:\n"
+    .string "ﺇﻧﻪ ﺃﺻﻌﺐ ﻗﺎﺩﺓ ﺼﺎﻻﺕ ﻗﺎﻃﺒﺔ.\p"
+    .string "ﻭﺳﻤﻌﺖ ﺃﻥ ﻣﺪﺭﺑﻲ ﻫﺬﻩ ﺼﺎﻟﺔ\n"
+    .string "ﻳﻌﺸﻘﻮﻥ ﺑﻮﻛﻴﻤﻮﻥ ﻧﻮﻉ ﺍﻷﺭﺽ.$"
 
 ViridianCity_Gym_Text_GymGuyPostVictory::
-    .string "ﻳﺎ ﻟﻠﻤﻔﺎﺟﺄﺓ! ﺟﻴﻮﻓﺎﻧﻲ ﻛﺎﻥ\n"
-    .string "ﻗﺎﺋﺪ ﺻﺎﻟﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ؟$"
+    .string "ﻻ ﺃﺻﺪﻕ! ﺟﻴﻮﻓﺎﻧﻲ ﻛﺎﻥ\n"
+    .string "ﻗﺎﺋﺪ ﺻﺎﻟﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ؟!$"
 
 ViridianCity_Gym_Text_GymStatue::
     .string "ﺻﺎﻟﺔ ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻓﻴﺮﻳﺪﻳﺎﻥ\n"

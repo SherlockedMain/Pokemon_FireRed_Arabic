@@ -1,19 +1,19 @@
 ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC::
-    .string "ﻻ ﺗﺘﺮﺩﺩ ﻓﻲ ﺍﺳﺘﺨﺪﻡ ﺫﻟﻚ ﺤﺎﺳﻮﺏ\n"
-    .string "ﻓﻲ ﺰﻭﻳﺔ.\p"
+    .string "ﺍﺳﺘﺨﺪﻡ ﺫﻟﻚ ﺤﺎﺳﻮﺏ ﻓﻲ ﺰﻭﻳﺔ\n"
+    .string "ﻛﻤﺎ ﺗﺸﺎﺀ.\p"
     .string "ﻫﺬ ﻣﺎ ﻗﺎﻟﺘﻪ ﻣﻮﻇﻔﺔ ﺍﻻﺳﺘﻘﺒﺎﻝ.\n"
-    .string "ﻳﺎ ﻟﻬﺎ ﻣﻦ ﻟﻄﻴﻔﺔ!$"
+    .string "ﻣﺎ ﺃﻟﻄﻔﻬﺎ!$"
 
 ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown::
-    .string "ﻳﻮﺟﺪ ﻣﺮﻛﺰ ﺑﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻛﻞ\n"
-    .string "ﺑﻠﺪﺓ ﻋﻠﻰ ﻃﺮﻳﻘﻚ.\p"
-    .string "ﻻ ﻳﺄﺧﺬﻭﻥ ﺃﻱ ﻣﺎﻝ، ﻓﻼ ﺗﺘﺮﺩﺩ\n"
-    .string "ﻓﻲ ﻋﻼﺝ ﺑﻮﻛﻴﻤﻮﻧﻚ.$"
+    .string "ﻓﻲ ﻛﻞ ﺑﻠﺪﺓ ﻋﻠﻰ ﻃﺮﻳﻘﻚ\n"
+    .string "ﻣﺮﻛﺰ ﻟﻠﺒﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﻭﻟﻌﻼﺝ ﻓﻴﻪ ﻣﺠﺎﻧﻲ، ﻓﻼ ﺗﺘﺮﺩﺩ\n"
+    .string "ﻓﻲ ﺯﻳﺎﺭﺗﻪ!$"
 
 ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons::
     .string "ﻣﺮﻛﺰ ﺒﻮﻛﻴﻤﻮﻥ ﺗﻌﺎﻟﺞ\n"
-    .string "ﺑﻮﻛﻴﻤﻮﻧﻚ ﻤﺘﻌﺐ\p"
-    .string "ﺃﻭ ﻤﺼﺎﺏ ﺃﻭ ﻤﻐﻤﻰ ﻋﻠﻴﻪ.\p"
-    .string "ﻓﺘﻌﻴﺪ ﺇﻟﻴﻬﺎ ﻛﻠﻬﺎ\n"
-    .string "ﺻﺤﺘﻬﺎ ﻜﺎﻣﻠﺔ.$"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﻚ\p"
+    .string "ﻤﺘﻌﺐ ﻭﻟﻤﺼﺎﺏ ﻭﻟﻤﻐﻤﻰ ﻋﻠﻴﻪ.\p"
+    .string "ﻭﺗﻌﻴﺪ ﺇﻟﻴﻪ ﺻﺤﺘﻪ ﻛﺎﻣﻠﺔ\n"
+    .string "ﻛﺄﻥ ﺷﻴﺌﺎ ﻟﻢ ﻳﻜﻦ!$"
 
