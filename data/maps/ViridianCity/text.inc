@@ -1,125 +1,130 @@
 ViridianCity_Text_CanCarryMonsAnywhere::
-    .string "Those POKé BALLS at your waist!\n"
-    .string "You have POKéMON, don't you?\p"
-    .string "It's great that you can carry and\n"
-    .string "use POKéMON anytime, anywhere.$"
+    .string "ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﺗﻠﻚ ﻋﻠﻰ ﺧﺼﺮﻙ!\n"
+    .string "ﻟﺪﻳﻚ ﺑﻮﻛﻴﻤﻮﻥ، ﺃﻟﻴﺲ ﻛﺬﻟﻚ؟\p"
+    .string "ﻣﻦ ﺮﺋﻊ ﺃﻧﻚ ﺗﺴﺘﻄﻴﻊ ﺣﻤﻞ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ\p"
+    .string "ﻭﺳﺘﺨﺪﻣﻬﺎ ﻓﻲ ﺃﻱ ﻭﻗﺖ ﻭﻱ\n"
+    .string "ﻣﻜﺎﻥ.$"
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
-    .string "This POKéMON GYM is always closed.\p"
-    .string "I wonder who the LEADER is?$"
+    .string "ﺻﺎﻟﺔ ﺒﻮﻛﻴﻤﻮﻥ ﻫﺬﻩ ﻣﻐﻠﻘﺔ\n"
+    .string "ﺩﺋﻤﺎ.\p"
+    .string "ﺗﺮﻯ ﻣﻦ ﻳﻜﻮﻥ ﻗﺎﺋﺪﻫﺎ؟$"
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
-    .string "VIRIDIAN GYM's LEADER returned!$"
+    .string "ﻟﻘﺪ ﻋﺎﺩ ﻗﺎﺋﺪ ﺻﺎﻟﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ!$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
-    .string "You want to know about the two\n"
-    .string "kinds of caterpillar POKéMON?$"
+    .string "ﺃﺗﺮﻳﺪ ﺃﻥ ﺗﻌﺮﻑ ﺷﻴﺌﺎ ﻋﻦ ﻧﻮﻋﻲ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻴﺮﻗﺎﺕ؟$"
 
 ViridianCity_Text_OhOkayThen::
-    .string "Oh, okay then!$"
+    .string "ﺁﻩ، ﺣﺴﻨﺎ ﺇﺫﻥ!$"
 
 ViridianCity_Text_ExplainCaterpieWeedle::
-    .string "CATERPIE has no poison,\n"
-    .string "but WEEDLE does.\p"
-    .string "Watch that your POKéMON aren't\n"
-    .string "stabbed by WEEDLE's POISON STING.$"
+    .string "ﻛﺎﺗﺮﺑﻲ ﻟﻴﺲ ﺳﺎﻣﺎ،\n"
+    .string "ﺃﻣﺎ ﻭﻳﺪﻝ ﻓﺴﺎﻡ.\p"
+    .string "ﺍﺣﺬﺭ ﺃﻥ ﻳﻠﺴﻊ ﻭﻳﺪﻝ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
+    .string "ﺑﺤﺮﻛﺔ ﻠﺴﻌﺔ ﺴﺎﻣﺔ.$"
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
-    .string "Oh, Grandpa!\n"
-    .string "Don't be so mean!\p"
-    .string "I'm so sorry.\n"
-    .string "He hasn't had his coffee yet.$"
+    .string "ﺟﺪﻱ!\n"
+    .string "ﻻ ﺗﻜﻦ ﻗﺎﺳﻴﺎ ﻫﻜﺬ!\p"
+    .string "ﺃﻧﺎ ﺁﺳﻔﺔ ﺟﺪ.\n"
+    .string "ﻟﻢ ﻳﺸﺮﺏ ﻗﻬﻮﺗﻪ ﺑﻌﺪ.$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
-    .string "I go shopping in PEWTER CITY\n"
-    .string "occasionally.\p"
-    .string "I have to take the winding trail in\n"
-    .string "VIRIDIAN FOREST when I go.$"
+    .string "ﺃﺫﻫﺐ ﻟﻠﺘﺴﻮﻕ ﻓﻲ ﻣﺪﻳﻨﺔ ﺑﻴﻮﺗﺮ\n"
+    .string "ﻣﻦ ﺣﻴﻦ ﻵﺧﺮ.\p"
+    .string "ﻭﻋﻠﻲ ﺃﻥ ﺃﺳﻠﻚ ﺪﺭﺏ ﻤﺘﻌﺮﺝ\n"
+    .string "ﻓﻲ ﻏﺎﺑﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ ﻛﻠﻤﺎ ﺫﻫﺒﺖ.$"
 
 ViridianCity_Text_ThisIsPrivateProperty::
-    .string "I absolutely forbid you from\n"
-    .string "going through here!\p"
-    .string "This is private property!$"
+    .string "ﺃﻣﻨﻌﻚ ﻣﻨﻌﺎ ﺑﺎﺗﺎ ﻣﻦ\n"
+    .string "ﻤﺮﻭﺭ ﻣﻦ ﻫﻨﺎ!\p"
+    .string "ﻫﺬﻩ ﻣﻠﻜﻴﺔ ﺧﺎﺻﺔ!$"
 
 ViridianCity_Text_ShowYouHowToCatchMons::
-    .string "Well, now, I've had my coffee, and\n"
-    .string "that's what I need to get going!\p"
-    .string "Hm?\n"
-    .string "What is that red box you have?\p"
-    .string "Ah, so you're working on your\n"
-    .string "POKéDEX.\p"
-    .string "Then let me give you a word of\n"
-    .string "advice.\p"
-    .string "Whenever you catch a POKéMON,\n"
-    .string "the POKéDEX automatically updates\l"
-    .string "its data.\p"
-    .string "…You don't know how to catch\n"
-    .string "a POKéMON?\p"
-    .string "I suppose I had better show you\n"
-    .string "then!$"
+    .string "ﺣﺴﻨﺎ، ﺍﻵﻥ ﺷﺮﺑﺖ ﻗﻬﻮﺗﻲ،\n"
+    .string "ﻭﻫﺬ ﻣﺎ ﺃﺣﺘﺎﺟﻪ ﻷﻧﻄﻠﻖ!\p"
+    .string "ﻫﻢ؟\n"
+    .string "ﻣﺎ ﻫﺬ ﺼﻨﺪﻭﻕ ﺍﻷﺣﻤﺮ ﺬﻱ ﻣﻌﻚ؟\p"
+    .string "ﺁﻩ، ﺇﺫﻥ ﺃﻧﺖ ﺗﻌﻤﻞ ﻋﻠﻰ\n"
+    .string "ﺒﻮﻛﻴﺪﻳﻜﺲ.\p"
+    .string "ﺇﺫﻥ ﺩﻋﻨﻲ ﺃﻗﺪﻡ ﻟﻚ\n"
+    .string "ﻧﺼﻴﺤﺔ.\p"
+    .string "ﻛﻠﻤﺎ ﺃﻣﺴﻜﺖ ﺑﻮﻛﻴﻤﻮﻥ، ﻳﺤﺪﺙ\n"
+    .string "ﺒﻮﻛﻴﺪﻳﻜﺲ ﺑﻴﺎﻧﺎﺗﻪ ﺗﻠﻘﺎﺋﻴﺎ.\p"
+    .string "…ﺃﻻ ﺗﻌﺮﻑ ﻛﻴﻒ ﺗﻤﺴﻚ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ؟\p"
+    .string "ﺃﻇﻦ ﺃﻥ ﻋﻠﻲ ﺃﻥ ﺃﺭﻳﻚ\n"
+    .string "ﺇﺫﻥ!$"
 
 ViridianCity_Text_ThatWasEducationalTakeThis::
-    .string "There! Now tell me, that was\n"
-    .string "educational, was it not?\p"
-    .string "And here, take this, too.$"
+    .string "ﻫﺎﻙ! ﻭﻵﻥ ﻗﻞ ﻟﻲ، ﺃﻟﻢ ﻳﻜﻦ\n"
+    .string "ﺫﻟﻚ ﺩﺭﺳﺎ ﻣﻔﻴﺪ؟\p"
+    .string "ﻭﺧﺬ ﻫﺬ ﺃﻳﻀﺎ.$"
 
 ViridianCity_Text_WatchThatToLearnBasics::
-    .string "If there's something you don't\n"
-    .string "understand, watch that.\p"
-    .string "It will teach you about the basics\n"
-    .string "of being a POKéMON TRAINER.$"
+    .string "ﺇﻥ ﻛﺎﻥ ﻫﻨﺎﻙ ﺷﻲﺀ ﻻ ﺗﻔﻬﻤﻪ،\n"
+    .string "ﻓﺸﺎﻫﺪ ﺫﻟﻚ.\p"
+    .string "ﺳﻴﻌﻠﻤﻚ ﺃﺳﺎﺳﻴﺎﺕ\n"
+    .string "ﺃﻥ ﺗﻜﻮﻥ ﻣﺪﺭﺏ ﺑﻮﻛﻴﻤﻮﻥ.$"
 
 ViridianCity_Text_WeakenMonsFirstToCatch::
-    .string "Well, now, I've had my coffee, and\n"
-    .string "that's what I need to get going!\p"
-    .string "But I made it too strong.\n"
-    .string "It gave me a headache…\p"
-    .string "Incidentally, are you filling your\n"
-    .string "POKéDEX?\p"
-    .string "At first, focus on weakening the\n"
-    .string "POKéMON before trying to catch it.$"
+    .string "ﺣﺴﻨﺎ، ﺍﻵﻥ ﺷﺮﺑﺖ ﻗﻬﻮﺗﻲ،\n"
+    .string "ﻭﻫﺬ ﻣﺎ ﺃﺣﺘﺎﺟﻪ ﻷﻧﻄﻠﻖ!\p"
+    .string "ﻟﻜﻨﻨﻲ ﺟﻌﻠﺘﻬﺎ ﻗﻮﻳﺔ ﺟﺪ.\n"
+    .string "ﺃﺻﺎﺑﻨﻲ ﺻﺪﻉ…\p"
+    .string "ﺑﺎﻟﻤﻨﺎﺳﺒﺔ، ﻫﻞ ﺗﻤﻸ\n"
+    .string "ﺒﻮﻛﻴﺪﻳﻜﺲ؟\p"
+    .string "ﻓﻲ ﺒﺪﻳﺔ، ﺭﻛﺰ ﻋﻠﻰ ﺇﺿﻌﺎﻑ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻗﺒﻞ ﺃﻥ ﺗﺤﺎﻭﻝ ﺇﻣﺴﺎﻛﻪ.$"
 
 ViridianCity_Text_HowsTeachyTVHelping::
-    .string "Well, now, I've had my coffee, and\n"
-    .string "that's what I need to get going!\p"
-    .string "But I made it too strong.\n"
-    .string "It gave me a headache…\p"
-    .string "Incidentally, is my old TEACHY TV\n"
-    .string "helping you?$"
+    .string "ﺣﺴﻨﺎ، ﺍﻵﻥ ﺷﺮﺑﺖ ﻗﻬﻮﺗﻲ،\n"
+    .string "ﻭﻫﺬ ﻣﺎ ﺃﺣﺘﺎﺟﻪ ﻷﻧﻄﻠﻖ!\p"
+    .string "ﻟﻜﻨﻨﻲ ﺟﻌﻠﺘﻬﺎ ﻗﻮﻳﺔ ﺟﺪ.\n"
+    .string "ﺃﺻﺎﺑﻨﻲ ﺻﺪﻉ…\p"
+    .string "ﺑﺎﻟﻤﻨﺎﺳﺒﺔ، ﻫﻞ ﻳﺴﺎﻋﺪﻙ\n"
+    .string "ﺗﻠﻔﺎﺯ ﺘﻌﻠﻴﻢ ﻘﺪﻳﻢ؟$"
 
 ViridianCity_Text_MyGrandsonOnTheShow::
-    .string "Wahaha!\n"
-    .string "It's my grandson on the show!\p"
-    .string "Since he's the one doing the\n"
-    .string "teaching, you're bound to learn.$"
+    .string "ﻭﻫﺎﻫﺎ!\n"
+    .string "ﺇﻧﻪ ﺣﻔﻴﺪﻱ ﻓﻲ ﺒﺮﻧﺎﻣﺞ!\p"
+    .string "ﻭﻣﺎ ﺩﻡ ﻫﻮ ﻤﻌﻠﻢ،\n"
+    .string "ﻓﺴﺘﺘﻌﻠﻢ ﺣﺘﻤﺎ.$"
 
 ViridianCity_Text_TooBusyForTeachyTV::
-    .string "Hm… You're too busy to not even\n"
-    .string "have the time for TEACHY TV…\p"
-    .string "Time is money, and neither should\n"
-    .string "be ill spent…$"
+    .string "ﻫﻤﻢ… ﺃﻧﺖ ﻣﺸﻐﻮﻝ ﺇﻟﻰ ﺣﺪ ﺃﻧﻪ\n"
+    .string "ﻻ ﻭﻗﺖ ﻟﺪﻳﻚ ﻟﺘﻠﻔﺎﺯ ﺘﻌﻠﻴﻢ…\p"
+    .string "ﻮﻗﺖ ﻣﻦ ﺫﻫﺐ، ﻭﻟﻤﺎﻝ ﻛﺬﻟﻚ،\n"
+    .string "ﻓﻼ ﺗﻬﺪﺭ ﺃﻳﺎ ﻣﻨﻬﻤﺎ…$"
 
 ViridianCity_Text_CitySign::
-    .string "VIRIDIAN CITY \n"
-    .string "The Eternally Green Paradise$"
+    .string "ﻣﺪﻳﻨﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ\n"
+    .string "ﺟﻨﺔ ﺨﻀﺮﺓ ﺪﺋﻤﺔ$"
 
 ViridianCity_Text_CatchMonsForEasierBattles::
-    .string "TRAINER TIPS\p"
-    .string "Catch POKéMON and expand your\n"
-    .string "collection.\p"
-    .string "The more you have, the easier it\n"
-    .string "is to battle.$"
+    .string "ﻧﺼﺎﺋﺢ ﻟﻠﻤﺪﺭﺑﻴﻦ\p"
+    .string "ﺃﻣﺴﻚ ﺒﻮﻛﻴﻤﻮﻥ ﻭﻭﺳﻊ\n"
+    .string "ﻣﺠﻤﻮﻋﺘﻚ.\p"
+    .string "ﻛﻠﻤﺎ ﺯﺩ ﻋﺪﺩﻫﺎ،\n"
+    .string "ﺳﻬﻠﺖ ﻋﻠﻴﻚ ﻨﺰﻻﺕ.$"
 
 ViridianCity_Text_MovesLimitedByPP::
-    .string "TRAINER TIPS\p"
-    .string "The battle moves of POKéMON are\n"
-    .string "limited by their POWER POINTS, PP.\p"
-    .string "To replenish PP, rest your tired\n"
-    .string "POKéMON at a POKéMON CENTER.$"
+    .string "ﻧﺼﺎﺋﺢ ﻟﻠﻤﺪﺭﺑﻴﻦ\p"
+    .string "ﺣﺮﻛﺎﺕ ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻨﺰﻝ\n"
+    .string "ﻣﺤﺪﻭﺩﺓ\p"
+    .string "ﺑﻨﻘﺎﻁ ﻘﻮﺓ، ﺃﻭ PP.\p"
+    .string "ﻻﺳﺘﻌﺎﺩﺓ PP، ﺃﺭﺡ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
+    .string "ﻤﺘﻌﺐ\p"
+    .string "ﻓﻲ ﻣﺮﻛﺰ ﺒﻮﻛﻴﻤﻮﻥ.$"
 
 ViridianCity_Text_GymSign::
-    .string "VIRIDIAN CITY POKéMON GYM$"
+    .string "ﺻﺎﻟﺔ ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻣﺪﻳﻨﺔ\n"
+    .string "ﻓﻴﺮﻳﺪﻳﺎﻥ$"
 
 ViridianCity_Text_GymDoorsAreLocked::
-    .string "VIRIDIAN GYM's doors are locked…$"
+    .string "ﺃﺑﻮﺏ ﺻﺎﻟﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ ﻣﻘﻔﻠﺔ…$"
 

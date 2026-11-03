@@ -24,14 +24,14 @@ BORDER = Border(left=THIN, right=THIN, top=THIN, bottom=THIN)
 
 def english(vanilla, entry):
     src = open(os.path.join(vanilla, entry['file']), encoding='utf-8').read()
-    if entry['file'].endswith('.inc'):
+    if entry['file'].endswith(('.inc', '.s')):
         m = re.search(r'^%s::\n((?:(?:[ \t]*\.string .*|#if.*|#else.*|#endif.*)\n)+)' % re.escape(entry['id']), src, re.M)
         body = m.group(1)
         if '#else' in body:   # show one branch (the retail one) plus the shared tail
             body = re.sub(r'#if.*?\n(.*?)#else.*?\n.*?#endif.*?\n', lambda k: '', body, flags=re.S) + body
             body = re.sub(r'#if.*?#else.*?\n', '', m.group(1), flags=re.S).replace('#endif\n', '')
         text = ''.join(re.findall(r'\.string "(.*)"', body))
-        text = re.sub(r'\{(COLOR|FONT)[^}]*\}', '', text)
+        text = re.sub(r'\{(COLOR|FONT|PLAY_BGM|MUS_|PAUSE|RESUME_MUSIC)[^}]*\}', '', text)
     else:
         text = re.search(r'\b%s\[\] = _\("(.*?)"\);' % re.escape(entry['id']), src).group(1)
     text = text.rstrip('$').replace('\\p', '\n\n').replace('\\n', '\n').replace('\\l', '\n')

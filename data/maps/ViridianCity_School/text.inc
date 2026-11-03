@@ -1,93 +1,94 @@
 ViridianCity_School_Text_TryingToMemorizeNotes::
-    .string "Whew! I'm trying to memorize all my\n"
-    .string "notes.$"
+    .string "ﺃﻭﻑ! ﺃﺣﺎﻭﻝ ﺃﻥ ﺃﺣﻔﻆ ﻛﻞ\n"
+    .string "ﻣﻼﺣﻈﺎﺗﻲ.$"
 
 ViridianCity_School_Text_ReadBlackboardCarefully::
-    .string "Okay!\p"
-    .string "Be sure to read what's on the\n"
-    .string "blackboard carefully!$"
+    .string "ﺣﺴﻨﺎ!\p"
+    .string "ﺍﺣﺮﺹ ﻋﻠﻰ ﻗﺮﺀﺓ ﻣﺎ ﻋﻠﻰ\n"
+    .string "ﺴﺒﻮﺭﺓ ﺟﻴﺪ!$"
 
 ViridianCity_School_Text_NotebookFirstPage::
-    .string "Let's check out the notebook.\p"
-    .string "First page…\p"
-    .string "POKé BALLS are used to catch\n"
-    .string "POKéMON.\p"
-    .string "Up to six POKéMON can be carried\n"
-    .string "in your party.\p"
-    .string "People who raise and battle\n"
-    .string "with POKéMON are called TRAINERS.$"
+    .string "ﻟﻨﻠﻖ ﻧﻈﺮﺓ ﻋﻠﻰ ﺪﻓﺘﺮ.\p"
+    .string "ﺼﻔﺤﺔ ﺍﻷﻭﻟﻰ…\p"
+    .string "ﺗﺴﺘﺨﺪﻡ ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻹﻣﺴﺎﻙ ﺒﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﻳﻤﻜﻨﻚ ﺣﻤﻞ ﺳﺘﺔ ﺑﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻛﺤﺪ ﺃﻗﺼﻰ ﻓﻲ ﻓﺮﻳﻘﻚ.\p"
+    .string "ﻣﻦ ﻳﺮﺑﻲ ﺒﻮﻛﻴﻤﻮﻥ ﻭﻳﺨﻮﺽ ﺑﻬﺎ\n"
+    .string "ﻨﺰﻻﺕ ﻳﺴﻤﻰ ﻣﺪﺭﺑﺎ.$"
 
 ViridianCity_School_Text_NotebookSecondPage::
-    .string "Second page…\p"
-    .string "A healthy POKéMON may be hard to\n"
-    .string "catch, so weaken it first.\p"
-    .string "Poison, burn, or cause another\n"
-    .string "status problem to weaken it.$"
+    .string "ﺼﻔﺤﺔ ﺜﺎﻧﻴﺔ…\p"
+    .string "ﻗﺪ ﻳﺼﻌﺐ ﺇﻣﺴﺎﻙ ﺑﻮﻛﻴﻤﻮﻥ ﻓﻲ\n"
+    .string "ﻛﺎﻣﻞ\p"
+    .string "ﺻﺤﺘﻪ، ﻓﺄﺿﻌﻔﻪ ﺃﻭﻻ.\p"
+    .string "ﺳﻤﻤﻪ ﺃﻭ ﺃﺣﺮﻗﻪ، ﺃﻭ ﺳﺒﺐ ﻟﻪ\n"
+    .string "ﺣﺎﻟﺔ ﺃﺧﺮﻯ ﻟﺘﻀﻌﻔﻪ.$"
 
 ViridianCity_School_Text_NotebookThirdPage::
-    .string "Third page…\p"
-    .string "POKéMON TRAINERS seek others to\n"
-    .string "engage in POKéMON battles.\p"
-    .string "To TRAINERS, the taste of victory\n"
-    .string "is sweet, indeed.\p"
-    .string "Battles are constantly waged at\n"
-    .string "POKéMON GYMS everywhere.$"
+    .string "ﺼﻔﺤﺔ ﺜﺎﻟﺜﺔ…\p"
+    .string "ﻳﺒﺤﺚ ﻣﺪﺭﺑﻮ ﺒﻮﻛﻴﻤﻮﻥ ﻋﻦ ﻏﻴﺮﻫﻢ\n"
+    .string "ﻟﻴﺨﻮﺿﻮ ﻣﻌﻬﻢ ﻧﺰﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﻭﻃﻌﻢ ﻔﻮﺯ ﻋﻨﺪ ﻤﺪﺭﺑﻴﻦ\n"
+    .string "ﺣﻠﻮ ﺣﻘﺎ.\p"
+    .string "ﻭﻟﻨﺰﻻﺕ ﻻ ﺗﺘﻮﻗﻒ ﺃﺑﺪ\n"
+    .string "ﻓﻲ ﺻﺎﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻛﻞ ﻣﻜﺎﻥ.$"
 
 ViridianCity_School_Text_NotebookFourthPage::
-    .string "Fourth page…\p"
-    .string "The ultimate goal for all POKéMON\n"
-    .string "TRAINERS is simple.\p"
-    .string "It is to defeat the top eight\n"
-    .string "POKéMON GYM LEADERS.\p"
-    .string "Do so to earn the right to face…\p"
-    .string "The ELITE FOUR of the POKéMON\n"
-    .string "LEAGUE!$"
+    .string "ﺼﻔﺤﺔ ﺮﺑﻌﺔ…\p"
+    .string "ﻫﺪﻑ ﻛﻞ ﻣﺪﺭﺑﻲ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﺑﺴﻴﻂ.\p"
+    .string "ﺃﻥ ﻳﻬﺰﻣﻮ ﻗﺎﺩﺓ ﺻﺎﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﺜﻤﺎﻧﻴﺔ ﺍﻷﻗﻮﻯ.\p"
+    .string "ﻓﺒﺬﻟﻚ ﻳﻨﺎﻟﻮﻥ ﺤﻖ ﻓﻲ ﻣﻮﺟﻬﺔ…\p"
+    .string "ﻨﺨﺒﺔ ﺍﻷﺭﺑﻌﺔ ﻓﻲ\n"
+    .string "ﺩﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ!$"
 
 ViridianCity_School_Text_TurnThePage::
-    .string "Turn the page?$"
+    .string "ﺃﺗﻘﻠﺐ ﺼﻔﺤﺔ؟$"
 
 ViridianCity_School_Text_HeyDontLookAtMyNotes::
-    .string "GIRL: Hey!\n"
-    .string "Don't look at my notes!$"
+    .string "ﻔﺘﺎﺓ: ﻣﻬﻼ!\n"
+    .string "ﻻ ﺗﻨﻈﺮ ﺇﻟﻰ ﻣﻼﺣﻈﺎﺗﻲ!$"
 
 ViridianCity_School_Text_BlackboardListsStatusProblems::
-    .string "The blackboard lists POKéMON\n"
-    .string "STATUS problems during battles.$"
+    .string "ﺗﻌﺮﺽ ﺴﺒﻮﺭﺓ ﺣﺎﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﺴﻴﺌﺔ ﺧﻼﻝ ﻨﺰﻻﺕ.$"
 
 ViridianCity_School_Text_ReadWhichTopic::
-    .string "Which topic do you want to read?$"
+    .string "ﺃﻱ ﻣﻮﺿﻮﻉ ﺗﺮﻳﺪ ﺃﻥ ﺗﻘﺮ؟$"
 
 ViridianCity_School_Text_ExplainSleep::
-    .string "A POKéMON can't attack if it's\n"
-    .string "asleep.\p"
-    .string "POKéMON will stay asleep even\n"
-    .string "after battles.\p"
-    .string "Use AWAKENING to awaken one\n"
-    .string "from sleep.$"
+    .string "ﻻ ﻳﺴﺘﻄﻴﻊ ﺒﻮﻛﻴﻤﻮﻥ ﻬﺠﻮﻡ\n"
+    .string "ﺇﻥ ﻛﺎﻥ ﻧﺎﺋﻤﺎ.\p"
+    .string "ﻭﻳﺒﻘﻰ ﺒﻮﻛﻴﻤﻮﻥ ﻧﺎﺋﻤﺎ ﺣﺘﻰ\n"
+    .string "ﺑﻌﺪ ﺍﻧﺘﻬﺎﺀ ﻨﺰﻝ.\p"
+    .string "ﺍﺳﺘﺨﺪﻡ ﻤﻨﺒﻪ ﻹﻳﻘﺎﻇﻪ\n"
+    .string "ﻣﻦ ﻨﻮﻡ.$"
 
 ViridianCity_School_Text_ExplainBurn::
-    .string "A burn reduces ATTACK power.\n"
-    .string "It also causes ongoing HP loss.\p"
-    .string "A burn remains after a battle.\n"
-    .string "Use BURN HEAL to cure a burn.$"
+    .string "ﺤﺮﻕ ﻳﻀﻌﻒ ﻗﻮﺓ ﻬﺠﻮﻡ،\n"
+    .string "ﻭﻳﺴﺒﺐ ﺧﺴﺎﺭﺓ ﻣﺴﺘﻤﺮﺓ ﻓﻲ HP.\p"
+    .string "ﻭﻳﺒﻘﻰ ﺤﺮﻕ ﺑﻌﺪ ﻨﺰﻝ.\n"
+    .string "ﺍﺳﺘﺨﺪﻡ ﻣﺮﻫﻢ ﺤﺮﻭﻕ ﻟﻌﻼﺟﻪ.$"
 
 ViridianCity_School_Text_ExplainPoison::
-    .string "When poisoned, a POKéMON's health\n"
-    .string "steadily drops.\p"
-    .string "Poison lingers after battles.\n"
-    .string "Use an ANTIDOTE to cure poison!$"
+    .string "ﺣﻴﻦ ﻳﺴﻤﻢ ﺒﻮﻛﻴﻤﻮﻥ،\n"
+    .string "ﺗﺘﻨﺎﻗﺺ ﺻﺤﺘﻪ ﺑﺎﺳﺘﻤﺮﺭ.\p"
+    .string "ﻭﻳﺒﻘﻰ ﺴﻢ ﺑﻌﺪ ﻨﺰﻻﺕ.\n"
+    .string "ﺍﺳﺘﺨﺪﻡ ﺘﺮﻳﺎﻕ ﻟﻌﻼﺟﻪ!$"
 
 ViridianCity_School_Text_ExplainFreeze::
-    .string "A frozen POKéMON becomes\n"
-    .string "helplessly immobile.\p"
-    .string "It stays frozen even after the\n"
-    .string "battle ends.\p"
-    .string "Use ICE HEAL to thaw out the\n"
-    .string "suffering POKéMON.$"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻤﺘﺠﻤﺪ ﻳﺼﺒﺢ\n"
+    .string "ﻋﺎﺟﺰ ﻋﻦ ﺤﺮﻛﺔ ﺗﻤﺎﻣﺎ.\p"
+    .string "ﻭﻳﺒﻘﻰ ﻣﺘﺠﻤﺪ ﺣﺘﻰ ﺑﻌﺪ\n"
+    .string "ﺍﻧﺘﻬﺎﺀ ﻨﺰﻝ.\p"
+    .string "ﺍﺳﺘﺨﺪﻡ ﻣﺬﻳﺐ ﺠﻠﻴﺪ ﻟﺘﺬﻳﺐ\n"
+    .string "ﺠﻠﻴﺪ ﻋﻦ ﺒﻮﻛﻴﻤﻮﻥ.$"
 
 ViridianCity_School_Text_ExplainParalysis::
-    .string "Paralysis reduces SPEED and may\n"
-    .string "prevent the POKéMON from moving.\p"
-    .string "Paralysis remains after battles.\n"
-    .string "Use PARLYZ HEAL for treatment.$"
+    .string "ﺸﻠﻞ ﻳﻀﻌﻒ ﺴﺮﻋﺔ، ﻭﻗﺪ\n"
+    .string "ﻳﻤﻨﻊ ﺒﻮﻛﻴﻤﻮﻥ ﻣﻦ ﺤﺮﻛﺔ.\p"
+    .string "ﻭﻳﺒﻘﻰ ﺸﻠﻞ ﺑﻌﺪ ﻨﺰﻻﺕ.\n"
+    .string "ﺍﺳﺘﺨﺪﻡ ﻋﻼﺝ ﺸﻠﻞ ﻟﻤﺪﻭﺗﻪ.$"
 

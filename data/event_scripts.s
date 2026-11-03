@@ -834,7 +834,7 @@ Text_WelcomeTimeCapsule::
 	.string "TIME CAPSULE.$"
 
 Text_PleaseComeAgain::
-	.string "Please come again!$"
+	.string "ﻧﺮﺟﻮ ﺃﻥ ﺗﻌﻮﺩ ﻣﺠﺪﺩ!$"
 
 @ Unused
 Text_HavingDiscountSaleToday::
@@ -855,8 +855,9 @@ Text_WantWhichFloor::
 	.string "Which floor do you want?$"
 
 Text_BagItemCanBeRegistered::
-	.string "An item in the BAG can be\n"
-	.string "registered to SELECT for easy use.$"
+	.string "ﻳﻤﻜﻦ ﺗﺴﺠﻴﻞ ﺃﺩﺓ ﻣﻦ ﺤﻘﻴﺒﺔ\n"
+	.string "ﻋﻠﻰ ﺯﺭ SELECT ﻻﺳﺘﺨﺪﻣﻬﺎ\p"
+	.string "ﺑﺴﻬﻮﻟﺔ.$"
 
 @ Unused (email from R/S Rivals computer)
 Text_TrainerSchoolEmail::
@@ -870,7 +871,7 @@ Text_TrainerSchoolEmail::
 	.string "‥‥　‥‥　‥‥$"
 
 Text_PlayerBootedUpPC::
-	.string "{PLAYER} booted up the PC.$"
+	.string "ﺷﻐﻞ {PLAYER} ﺤﺎﺳﻮﺏ.$"
 
 @ Unused
 Text_LinkWasCanceled::
@@ -886,21 +887,21 @@ gText_PkmnFainted3::
 	.string "$"
 
 Text_WelcomeWantToHealPkmn::
-	.string "Welcome to our POKéMON CENTER!\p"
-	.string "Would you like me to heal your\n"
-	.string "POKéMON back to perfect health?$"
+	.string "ﻣﺮﺣﺒﺎ ﺑﻚ ﻓﻲ ﻣﺮﻛﺰ ﺒﻮﻛﻴﻤﻮﻥ!\p"
+	.string "ﻫﻞ ﺗﺮﻳﺪ ﺃﻥ ﺃﻋﻴﺪ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
+	.string "ﺇﻟﻰ ﻛﺎﻣﻞ ﺻﺤﺘﻪ؟$"
 
 Text_TakeYourPkmnForFewSeconds::
-	.string "Okay, I'll take your POKéMON for a\n"
-	.string "few seconds.$"
+	.string "ﺣﺴﻨﺎ، ﺳﺂﺧﺬ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
+	.string "ﻟﺒﻀﻊ ﺛﻮﻥ.$"
 
 Text_WeHopeToSeeYouAgain::
-	.string "We hope to see you again!$"
+	.string "ﻧﺘﻤﻨﻰ ﺃﻥ ﻧﺮﻙ ﻣﺠﺪﺩ!$"
 
 Text_RestoredPkmnToFullHealth::
-	.string "Thank you for waiting.\n"
-	.string "We've restored your POKéMON to\l"
-	.string "full health.$"
+	.string "ﺷﻜﺮ ﻻﻧﺘﻈﺎﺭﻙ!\n"
+	.string "ﻟﻘﺪ ﺍﺳﺘﻌﺎﺩﺕ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ ﻛﺎﻣﻞ\p"
+	.string "ﺻﺤﺘﻬﺎ.$"
 
 	.include "data/text/surf.inc"
 

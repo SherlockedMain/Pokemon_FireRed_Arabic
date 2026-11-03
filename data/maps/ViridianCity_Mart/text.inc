@@ -1,26 +1,29 @@
 ViridianCity_Mart_Text_YouCameFromPallet::
-    .string "Hey!\n"
-    .string "You came from PALLET TOWN?$"
+    .string "ﻣﻬﻼ!\n"
+    .string "ﻫﻞ ﺟﺌﺖ ﻣﻦ ﺑﻠﺪﺓ ﺑﺎﻟﻴﺖ؟$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
-    .string "You know PROF. OAK, right?\p"
-    .string "His order came in.\n"
-    .string "Can I get you to take it to him?$"
+    .string "ﺃﻧﺖ ﺗﻌﺮﻑ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ،\n"
+    .string "ﺻﺤﻴﺢ؟\p"
+    .string "ﻟﻘﺪ ﻭﺻﻠﺖ ﻃﻠﺒﻴﺘﻪ.\n"
+    .string "ﻫﻼ ﺃﻭﺻﻠﺘﻬﺎ ﺇﻟﻴﻪ؟$"
 
 ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
-    .string "{PLAYER} received OAK'S PARCEL\n"
-    .string "from the POKéMON MART clerk.$"
+    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻃﺮﺩ ﺃﻭﻙ\n"
+    .string "ﻣﻦ ﺑﺎﺋﻊ ﻣﺘﺠﺮ ﺒﻮﻛﻴﻤﻮﻥ.$"
 
 ViridianCity_Mart_Text_SayHiToOakForMe::
-    .string "Okay, thanks! Please say hi to\n"
-    .string "PROF. OAK for me, too.$"
+    .string "ﺣﺴﻨﺎ، ﺷﻜﺮ! ﻭﺑﻠﻎ ﺒﺮﻭﻓﻴﺴﻮﺭ\n"
+    .string "ﺃﻭﻙ\p"
+    .string "ﺗﺤﻴﺎﺗﻲ ﺃﻳﻀﺎ.$"
 
 ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
-    .string "This shop does good business in\n"
-    .string "ANTIDOTES, I've heard.$"
+    .string "ﺳﻤﻌﺖ ﺃﻥ ﻫﺬ ﻤﺘﺠﺮ ﻳﺒﻴﻊ\n"
+    .string "ﻜﺜﻴﺮ ﻣﻦ ﺘﺮﻳﺎﻕ.$"
 
 ViridianCity_Mart_Text_GotToBuySomePotions::
-    .string "I've got to buy some POTIONS.\p"
-    .string "You never know when your POKéMON\n"
-    .string "will need quick healing.$"
+    .string "ﻋﻠﻲ ﺃﻥ ﺃﺷﺘﺮﻱ ﺑﻌﺾ ﺠﺮﻋﺎﺕ.\p"
+    .string "ﻓﻼ ﺃﺣﺪ ﻳﻌﺮﻑ ﻣﺘﻰ ﺳﻴﺤﺘﺎﺝ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﻪ\p"
+    .string "ﺇﻟﻰ ﻋﻼﺝ ﺳﺮﻳﻊ.$"
 

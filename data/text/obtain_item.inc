@@ -1,47 +1,47 @@
 Text_ObtainedTheX::
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "ﺣﺼﻠﺖ ﻋﻠﻰ {STR_VAR_2}!$"
 
 Text_BagIsFull::
-	.string "The BAG is full…$"
+	.string "ﺤﻘﻴﺒﺔ ﻣﻤﺘﻠﺌﺔ…$"
 
 Text_PutItemAway::
-	.string "{PLAYER} put the {STR_VAR_2}\n"
-	.string "in the {STR_VAR_3}.$"
+	.string "ﻭﺿﻊ {PLAYER} {STR_VAR_2}\n"
+	.string "ﻓﻲ {STR_VAR_3}.$"
 
 Text_FoundOneItem::
-	.string "{PLAYER} found one {STR_VAR_2}!$"
+	.string "ﻭﺟﺪ {PLAYER} {STR_VAR_2}!$"
 
 Text_TooBadBagFull::
-	.string "Too bad!\n"
-	.string "The BAG is full…$"
+	.string "ﻟﻸﺳﻒ!\n"
+	.string "ﺤﻘﻴﺒﺔ ﻣﻤﺘﻠﺌﺔ…$"
 
 Text_FoundXCoins::
-	.string "{PLAYER} found\n"
+	.string "ﻭﺟﺪ {PLAYER}\n"
 	.string "{STR_VAR_1} {STR_VAR_2}!$"
 
 Text_PutCoinsAwayInCoinCase::
-	.string "{PLAYER} put the COINS away in\n"
-	.string "the COIN CASE.$"
+	.string "ﻭﺿﻊ {PLAYER} ﻘﻄﻊ ﻨﻘﺪﻳﺔ\n"
+	.string "ﻓﻲ ﻋﻠﺒﺔ ﻘﻄﻊ.$"
 
 Text_CoinCaseIsFull::
-	.string "Too bad!\n"
-	.string "The COIN CASE is full…$"
+	.string "ﻟﻸﺳﻒ!\n"
+	.string "ﻋﻠﺒﺔ ﻘﻄﻊ ﻣﻤﺘﻠﺌﺔ…$"
 
 Text_NothingToPutThemIn::
-	.string "Too bad!\n"
-	.string "There's nothing to put them in…$"
+	.string "ﻟﻸﺳﻒ!\n"
+	.string "ﻻ ﻳﻮﺟﺪ ﻣﺎ ﺗﻀﻌﻬﺎ ﻓﻴﻪ…$"
 
 Text_FoundXItems::
-	.string "{PLAYER} found\n"
-	.string "{STR_VAR_1} {STR_VAR_2}(s)!$"
+	.string "ﻭﺟﺪ {PLAYER}\n"
+	.string "{STR_VAR_1} ﻣﻦ {STR_VAR_2}!$"
 
 Text_ObtainedTheDecor::
-	.string "Obtained the {STR_VAR_2}!$"
+	.string "ﺣﺼﻠﺖ ﻋﻠﻰ {STR_VAR_2}!$"
 
 Text_NoRoomForAnotherDecor::
-	.string "Too bad! There's no room left for\n"
-	.string "another {STR_VAR_2}…$"
+	.string "ﻟﻸﺳﻒ! ﻻ ﻳﻮﺟﺪ ﻣﻜﺎﻥ\n"
+	.string "ﻝ{STR_VAR_2} ﺁﺧﺮ…$"
 
 Text_DecorTransferredToPC::
-	.string "The {STR_VAR_2} was transferred\n"
-	.string "to the PC.$"
+	.string "ﺃﺭﺳﻠﺖ {STR_VAR_2}\n"
+	.string "ﺇﻟﻰ ﺤﺎﺳﻮﺏ.$"

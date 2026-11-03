@@ -57,7 +57,7 @@ def layout(entry, ar):
         if len(lines) > max_lines:
             problems.append('%d lines, max %d' % (len(lines), max_lines))
     # last separator: page prompt if the English had one, else nothing
-    pieces[-1] = (pieces[-1][0], '\\p' if entry.get('end') == 'p' else '')
+    pieces[-1] = (pieces[-1][0] + entry.get('suffix', ''), '\\p' if entry.get('end') == 'p' else '')
     return pieces, preview, problems
 
 def to_inc(pieces, indent):
@@ -88,7 +88,7 @@ def write_entry(entry, pieces):
             out.append(to_inc(branch, '    ').rstrip('\n'))
         out.append('#endif')
         src = src[:m.start(1)] + '\n'.join(out) + '\n' + src[m.end(1):]
-    elif path.endswith('.inc'):
+    elif path.endswith(('.inc', '.s')):
         m = re.search(r'^%s::\n((?:[ \t]*\.string .*\n)+)' % re.escape(label), src, re.M)
         if not m:
             raise SystemExit('label %s not found in %s' % (label, entry['file']))
