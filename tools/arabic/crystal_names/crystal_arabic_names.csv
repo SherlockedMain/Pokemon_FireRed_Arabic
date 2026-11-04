@@ -1,0 +1,492 @@
+﻿kind,crystal_id,english,arabic,tiles
+move,1,POUND,لطمة,4
+move,2,KARATE CHOP,ضربة كاراتيه,12
+move,3,DOUBLESLAP,وابل الصفعات,12
+move,4,COMET PUNCH,وابل اللكمات,12
+move,5,MEGA PUNCH,لكمة ساحقة,10
+move,6,PAY DAY,نثر النقود,10
+move,7,FIRE PUNCH,لكمة نارية,10
+move,8,ICE PUNCH,لكمة جليدية,11
+move,9,THUNDERPUNCH,لكمة برقية,10
+move,10,SCRATCH,الخدش,6
+move,11,VICEGRIP,الكماشة,7
+move,12,GUILLOTINE,المقصلة,7
+move,13,RAZOR WIND,ريح المناجل,11
+move,14,SWORDS DANCE,رقصة السيوف,11
+move,15,CUT,القطع,5
+move,16,GUST,عصفة ريح,8
+move,17,WING ATTACK,ضربة جناح,9
+move,18,WHIRLWIND,ريح طاردة,9
+move,19,FLY,التحليق,7
+move,20,BIND,التقييد,7
+move,21,SLAM,ضربة قاصمة,10
+move,22,VINE WHIP,سوط الكرمة,10
+move,23,STOMP,الدهس,6
+move,24,DOUBLE KICK,رفستان,6
+move,25,MEGA KICK,ركلة ساحقة,10
+move,26,JUMP KICK,ركلة طائرة,10
+move,27,ROLLING KICK,ركلة دوارة,10
+move,28,SAND-ATTACK,ذر الرمل,8
+move,29,HEADBUTT,النطح,5
+move,30,HORN ATTACK,طعنة قرن,8
+move,31,FURY ATTACK,وابل الطعنات,12
+move,32,HORN DRILL,قرن ثاقب,8
+move,33,TACKLE,الاندفاع,7
+move,34,BODY SLAM,صدم بدني,8
+move,35,WRAP,الالتفاف,7
+move,36,TAKE DOWN,هجمة طائشة,10
+move,37,THRASH,الهياج,6
+move,38,DOUBLE-EDGE,هجمة مستميتة,12
+move,39,TAIL WHIP,هز الذيل,8
+move,40,POISON STING,إبرة سامة,9
+move,41,TWINEEDLE,إبرتان,6
+move,42,PIN MISSILE,وابل الإبر,9
+move,43,LEER,نظرة شزراء,10
+move,44,BITE,العض,5
+move,45,GROWL,الهرير,6
+move,46,ROAR,الزئير,6
+move,47,SING,الغناء,6
+move,48,SUPERSONIC,صفير مربك,9
+move,49,SONICBOOM,دوي صوتي,8
+move,50,DISABLE,حجب الضربة,10
+move,51,ACID,الحمض,6
+move,52,EMBER,جمرة نارية,10
+move,53,FLAMETHROWER,نفث اللهب,9
+move,54,MIST,ضباب أبيض,10
+move,55,WATER GUN,مسدس الماء,11
+move,56,HYDRO PUMP,الدفق الجارف,12
+move,57,SURF,ركوب الأمواج,11
+move,58,ICE BEAM,شعاع جليدي,10
+move,59,BLIZZARD,عاصفة ثلجية,11
+move,60,PSYBEAM,شعاع الوهم,10
+move,61,BUBBLEBEAM,شعاع فقاقيع,11
+move,62,AURORA BEAM,شعاع الشفق,10
+move,63,HYPER BEAM,شعاع مدمر,9
+move,64,PECK,النقر,5
+move,65,DRILL PECK,منقار ثاقب,10
+move,66,SUBMISSION,رمية جهنمية,11
+move,67,LOW KICK,ركلة كاسحة,10
+move,68,COUNTER,رد الصاع,8
+move,69,SEISMIC TOSS,رمية مزلزلة,11
+move,70,STRENGTH,قوة جبارة,9
+move,71,ABSORB,الامتصاص,8
+move,72,MEGA DRAIN,امتصاص هائل,12
+move,73,LEECH SEED,بذرة ماصة,9
+move,74,GROWTH,النماء,6
+move,75,RAZOR LEAF,نصل الأوراق,10
+move,76,SOLARBEAM,شعاع شمسي,9
+move,77,POISONPOWDER,مسحوق سام,9
+move,78,STUN SPORE,مسحوق مشل,9
+move,79,SLEEP POWDER,مسحوق منوم,10
+move,80,PETAL DANCE,رقصة البتلات,11
+move,81,STRING SHOT,خيط الحرير,10
+move,82,DRAGON RAGE,غضب التنين,10
+move,83,FIRE SPIN,دوامة نارية,11
+move,84,THUNDERSHOCK,صدمة البرق,10
+move,85,THUNDERBOLT,الصاعقة,7
+move,86,THUNDER WAVE,موجة الشلل,10
+move,87,THUNDER,البرق,5
+move,88,ROCK THROW,رمي الصخور,10
+move,89,EARTHQUAKE,الزلزال,7
+move,90,FISSURE,شق الأرض,8
+move,91,DIG,الحفر,5
+move,92,TOXIC,السم الزعاف,11
+move,93,CONFUSION,قوة الذهن,9
+move,94,PSYCHIC,سطوة الذهن,10
+move,95,HYPNOSIS,التنويم,7
+move,96,MEDITATE,التأمل,6
+move,97,AGILITY,خفة الحركة,10
+move,98,QUICK ATTACK,هجوم خاطف,9
+move,99,RAGE,الغضب,5
+move,100,TELEPORT,انتقال آني,10
+move,101,NIGHT SHADE,ظل الليل,8
+move,102,MIMIC,التقليد,7
+move,103,SCREECH,صرخة حادة,9
+move,104,DOUBLE TEAM,التعدد,6
+move,105,RECOVER,التعافي,7
+move,106,HARDEN,التصلب,6
+move,107,MINIMIZE,التقلص,7
+move,108,SMOKESCREEN,ستار دخاني,10
+move,109,CONFUSE RAY,وهج مريب,8
+move,110,WITHDRAW,التقوقع,7
+move,111,DEFENSE CURL,تكور دفاعي,10
+move,112,BARRIER,الحاجز,6
+move,113,LIGHT SCREEN,جدار الضوء,10
+move,114,HAZE,ضباب أسود,9
+move,115,REFLECT,جدار عاكس,10
+move,116,FOCUS ENERGY,شحذ الهمة,9
+move,117,BIDE,الصبر,5
+move,118,METRONOME,هز الإصبع,8
+move,119,MIRROR MOVE,المحاكاة,8
+move,120,SELFDESTRUCT,تدمير ذاتي,10
+move,121,EGG BOMB,قنبلة البيض,12
+move,122,LICK,لعقة,4
+move,123,SMOG,ضباب سام,8
+move,124,SLUDGE,وحل سام,7
+move,125,BONE CLUB,هراوة عظمية,11
+move,126,FIRE BLAST,انفجار ناري,11
+move,127,WATERFALL,صعود الشلال,10
+move,128,CLAMP,إطباق,5
+move,129,SWIFT,نجوم صائبة,10
+move,130,SKULL BASH,نطحة صاروخية,12
+move,131,SPIKE CANNON,مدفع الأشواك,11
+move,132,CONSTRICT,العصر,5
+move,133,AMNESIA,النسيان,7
+move,134,KINESIS,ثني الملعقة,11
+move,135,SOFTBOILED,بيضة شافية,10
+move,136,HI JUMP KICK,ركبة طائرة,10
+move,137,GLARE,نظرة الأفعى,10
+move,138,DREAM EATER,آكل الأحلام,9
+move,139,POISON GAS,غاز سام,7
+move,140,BARRAGE,وابل الكرات,11
+move,141,LEECH LIFE,مص الطاقة,10
+move,142,LOVELY KISS,قبلة ساحرة,10
+move,143,SKY ATTACK,صولة سماوية,11
+move,144,TRANSFORM,التحول,6
+move,145,BUBBLE,الفقاعة,7
+move,146,DIZZY PUNCH,لكمة مدوخة,10
+move,147,SPORE,أبواغ الفطر,11
+move,148,FLASH,الوميض,7
+move,149,PSYWAVE,موجة نفسية,10
+move,150,SPLASH,ضربة البعبع,11
+move,151,ACID ARMOR,الذوبان,7
+move,152,CRABHAMMER,مطرقة السلطع,12
+move,153,EXPLOSION,الانفجار,7
+move,154,FURY SWIPES,وابل الخدوش,12
+move,155,BONEMERANG,بومرانغ عظمي,12
+move,156,REST,القيلولة,8
+move,157,ROCK SLIDE,انهيار صخري,11
+move,158,HYPER FANG,أنياب فاتكة,11
+move,159,SHARPEN,الشحذ,5
+move,160,CONVERSION,التحويل,7
+move,161,TRI ATTACK,هجوم ثلاثي,9
+move,162,SUPER FANG,أنياب خارقة,11
+move,163,SLASH,التمزيق,7
+move,164,SUBSTITUTE,البديل,6
+move,165,STRUGGLE,الاستماتة,8
+move,166,SKETCH,الخربشة,7
+move,167,TRIPLE KICK,رفسة ثلاثية,10
+move,168,THIEF,السرقة,6
+move,169,SPIDER WEB,شبكة عنكبوت,11
+move,170,MIND READER,عين البصيرة,11
+move,171,NIGHTMARE,الكوابيس,9
+move,172,FLAME WHEEL,عجلة اللهب,10
+move,173,SNORE,الشخير,6
+move,174,CURSE,اللعنة,6
+move,175,FLAIL,تخبط عشوائي,11
+move,176,CONVERSION2,التحويل 2,9
+move,177,AEROBLAST,العصف العظيم,12
+move,178,COTTON SPORE,أبواغ القطن,11
+move,179,REVERSAL,صحوة الموت,10
+move,180,SPITE,الحقد,5
+move,181,POWDER SNOW,رذاذ ثلجي,9
+move,182,PROTECT,الحماية,7
+move,183,MACH PUNCH,لكمة خاطفة,10
+move,184,SCARY FACE,وجه مرعب,8
+move,185,FAINT ATTACK,هجوم مباغت,10
+move,186,SWEET KISS,قبلة ملائكية,11
+move,187,BELLY DRUM,قرع البطن,9
+move,188,SLUDGE BOMB,قنبلة الوحل,11
+move,189,MUD-SLAP,رشق بالطين,10
+move,190,OCTAZOOKA,مدفع الحبار,11
+move,191,SPIKES,شوك منثور,9
+move,192,ZAP CANNON,مدفع الصواعق,12
+move,193,FORESIGHT,رؤية نافذة,10
+move,194,DESTINY BOND,ربط المصير,10
+move,195,PERISH SONG,لحن الفناء,10
+move,196,ICY WIND,ريح جليدية,10
+move,197,DETECT,التفادي,7
+move,198,BONE RUSH,وابل عظمي,9
+move,199,LOCK-ON,تثبيت الهدف,11
+move,200,OUTRAGE,ثورة التنين,11
+move,201,SANDSTORM,عاصفة رملية,11
+move,202,GIGA DRAIN,امتصاص جارف,12
+move,203,ENDURE,الصمود,6
+move,204,CHARM,التدلل,6
+move,205,ROLLOUT,التدحرج,7
+move,206,FALSE SWIPE,ضربة رحيمة,10
+move,207,SWAGGER,التبجح,6
+move,208,MILK DRINK,شرب الحليب,10
+move,209,SPARK,الشرارة,7
+move,210,FURY CUTTER,قطع متتابع,10
+move,211,STEEL WING,جناح فولاذي,10
+move,212,MEAN LOOK,نظرة آسرة,9
+move,213,ATTRACT,الإغواء,6
+move,214,SLEEP TALK,الهذيان,7
+move,215,HEAL BELL,جرس الشفاء,11
+move,216,RETURN,رد الجميل,9
+move,217,PRESENT,الهدية,6
+move,218,FRUSTRATION,رد الجفاء,9
+move,219,SAFEGUARD,حرز حام,7
+move,220,PAIN SPLIT,تقاسم الألم,10
+move,221,SACRED FIRE,نار مقدسة,9
+move,222,MAGNITUDE,هزة أرضية,9
+move,223,DYNAMICPUNCH,لكمة متفجرة,11
+move,224,MEGAHORN,قرن عملاق,8
+move,225,DRAGONBREATH,نفث التنين,10
+move,226,BATON PASS,تسليم الراية,12
+move,227,ENCORE,مرة ثانية,9
+move,228,PURSUIT,المطاردة,8
+move,229,RAPID SPIN,دوران سريع,10
+move,230,SWEET SCENT,العبير,6
+move,231,IRON TAIL,ذيل فولاذي,9
+move,232,METAL CLAW,مخلب معدني,10
+move,233,VITAL THROW,رمية محكمة,10
+move,234,MORNING SUN,شمس الصباح,11
+move,235,SYNTHESIS,تركيب ضوئي,10
+move,236,MOONLIGHT,ضوء القمر,9
+move,237,HIDDEN POWER,قوة كامنة,9
+move,238,CROSS CHOP,ضربة متقاطعة,12
+move,239,TWISTER,الإعصار,6
+move,240,RAIN DANCE,الاستسقاء,8
+move,241,SUNNY DAY,يوم مشمس,9
+move,242,CRUNCH,قضم ساحق,8
+move,243,MIRROR COAT,الرد العاكس,12
+move,244,PSYCH UP,المجاراة,8
+move,245,EXTREMESPEED,سرعة فائقة,10
+move,246,ANCIENTPOWER,القوة الأزلية,12
+move,247,SHADOW BALL,كرة الظلال,9
+move,248,FUTURE SIGHT,نبوءة مؤلمة,11
+move,249,ROCK SMASH,محطم الصخور,11
+move,250,WHIRLPOOL,الدوامة,7
+move,251,BEAT UP,هجوم جماعي,10
+type,0,NORMAL,عادي,4
+type,1,FIGHTING,مقاتل,5
+type,2,FLYING,طائر,4
+type,3,POISON,سام,3
+type,4,GROUND,أرضي,4
+type,5,ROCK,صخري,4
+type,7,BUG,حشري,4
+type,8,GHOST,شبحي,4
+type,9,STEEL,فولاذي,5
+type,19,???,غامض,5
+type,20,FIRE,ناري,4
+type,21,WATER,مائي,4
+type,22,GRASS,عشبي,4
+type,23,ELECTRIC,كهربي,5
+type,24,PSYCHIC,نفسي,4
+type,25,ICE,جليدي,5
+type,26,DRAGON,تنيني,5
+type,27,DARK,ظلامي,4
+item,1,MASTER BALL,الماستر بول,11
+item,2,ULTRA BALL,أولترا بول,10
+item,3,BRIGHTPOWDER,مسحوق البريق,12
+item,4,GREAT BALL,غريت بول,8
+item,5,POKé BALL,بوكي بول,8
+item,7,BICYCLE,دراجة هوائية,12
+item,8,MOON STONE,حجر القمر,9
+item,9,ANTIDOTE,الترياق,7
+item,10,BURN HEAL,علاج الحروق,10
+item,11,ICE HEAL,علاج التجمد,10
+item,12,AWAKENING,دواء الإيقاظ,11
+item,13,PARLYZ HEAL,علاج الشلل,9
+item,14,FULL RESTORE,تعافي كامل,10
+item,15,MAX POTION,جرعة قصوى,9
+item,16,HYPER POTION,جرعة خارقة,10
+item,17,SUPER POTION,جرعة ممتازة,11
+item,18,POTION,جرعة التعافي,12
+item,19,ESCAPE ROPE,حبل الهروب,10
+item,20,REPEL,الطارد,6
+item,21,MAX ELIXER,الإكسير الأقصى,12
+item,22,FIRE STONE,حجر النار,9
+item,23,THUNDERSTONE,حجر الرعد,9
+item,24,WATER STONE,حجر الماء,9
+item,26,HP UP,زيادة الصحة,11
+item,27,PROTEIN,بروتين,6
+item,28,IRON,حديد,4
+item,29,CARBOS,كاربوس,7
+item,30,LUCKY PUNCH,لكمة محظوظة,11
+item,31,CALCIUM,كالسيوم,7
+item,32,RARE CANDY,حلوى نادرة,10
+item,33,X ACCURACY,معزز الدقة,10
+item,34,LEAF STONE,حجر الشجر,9
+item,35,METAL POWDER,مسحوق المعدن,12
+item,36,NUGGET,سبيكة الذهب,11
+item,37,POKé DOLL,دمية البوكي,11
+item,38,FULL HEAL,شفاء كامل,9
+item,39,REVIVE,الإحياء,6
+item,40,MAX REVIVE,إحياء كامل,10
+item,41,GUARD SPEC.,درع الحماية,11
+item,42,SUPER REPEL,طارد ممتاز,10
+item,43,MAX REPEL,الطارد الأقصى,12
+item,44,DIRE HIT,معزز الحسم,10
+item,46,FRESH WATER,مياه معدنية,11
+item,47,SODA POP,مشروب غازي,10
+item,48,LEMONADE,عصير الليمون,12
+item,49,X ATTACK,معزز الهجوم,11
+item,51,X DEFEND,معزز الدفاع,11
+item,52,X SPEED,معزز السرعة,11
+item,53,X SPECIAL,معزز ق.خاصة,11
+item,54,COIN CASE,محفظة نقود,10
+item,55,ITEMFINDER,الكاشف,6
+item,57,EXP.SHARE,موزع الخبرة,11
+item,58,OLD ROD,صنارة قديمة,11
+item,59,GOOD ROD,صنارة جيدة,10
+item,60,SILVER LEAF,ورقة فضية,9
+item,61,SUPER ROD,صنارة ممتازة,12
+item,62,PP UP,زيادة القدرة,12
+item,63,ETHER,الإيثير,6
+item,64,MAX ETHER,الإيثير الأقصى,12
+item,65,ELIXER,الإكسير,6
+item,66,RED SCALE,قشرة حمراء,10
+item,67,SECRETPOTION,جرعة سرية,9
+item,68,S.S.TICKET,تذكرة باخرة,11
+item,69,MYSTERY EGG,بيضة غامضة,10
+item,70,CLEAR BELL,جرس الصفاء,11
+item,71,SILVER WING,ريشة فضية,9
+item,72,MOOMOO MILK,حليب موومو,10
+item,73,QUICK CLAW,مخلب سريع,9
+item,74,PSNCUREBERRY,توت مضاد سم,11
+item,75,GOLD LEAF,ورقة ذهبية,10
+item,76,SOFT SAND,رمل ناعم,8
+item,77,SHARP BEAK,منقار حاد,9
+item,78,PRZCUREBERRY,توت مضاد شلل,12
+item,79,BURNT BERRY,توت مضاد حرق,12
+item,80,ICE BERRY,توت مضاد برد,12
+item,81,POISON BARB,أشواك سامة,10
+item,82,KING'S ROCK,صخرة الملك,10
+item,83,BITTER BERRY,توت مر,6
+item,84,MINT BERRY,توت النعناع,11
+item,85,RED APRICORN,بلوط أحمر,9
+item,86,TINYMUSHROOM,فطر صغير,8
+item,87,BIG MUSHROOM,فطر كبير,8
+item,88,SILVERPOWDER,مسحوق فضي,9
+item,89,BLU APRICORN,بلوط أزرق,9
+item,91,AMULET COIN,تميمة حظ,8
+item,92,YLW APRICORN,بلوط أصفر,9
+item,93,GRN APRICORN,بلوط أخضر,9
+item,94,CLEANSE TAG,تعويذة تطهير,12
+item,95,MYSTIC WATER,ماء غامض,9
+item,96,TWISTEDSPOON,ملعقة ملتوية,12
+item,97,WHT APRICORN,بلوط أبيض,10
+item,98,BLACKBELT,الحزام الأسود,12
+item,99,BLK APRICORN,بلوط أسود,9
+item,101,PNK APRICORN,بلوط وردي,9
+item,102,BLACKGLASSES,نظارة سوداء,11
+item,103,SLOWPOKETAIL,ذيل سلوبوك,10
+item,104,PINK BOW,ربطة وردية,10
+item,105,STICK,عصا,3
+item,106,SMOKE BALL,كرة الدخان,10
+item,107,NEVERMELTICE,جليد سرمدي,10
+item,108,MAGNET,مغناطيس,8
+item,109,MIRACLEBERRY,توت المعجزات,12
+item,110,PEARL,لؤلؤة,5
+item,111,BIG PEARL,لؤلؤة كبيرة,11
+item,112,EVERSTONE,حجر الثبات,10
+item,113,SPELL TAG,تعويذة,6
+item,114,RAGECANDYBAR,حلوى الغضب,10
+item,115,GS BALL,كرة جي إس,10
+item,116,BLUE CARD,بطاقة زرقاء,11
+item,117,MIRACLE SEED,بذرة المعجزة,12
+item,118,THICK CLUB,عظمة سميكة,10
+item,119,FOCUS BAND,عصابة تركيز,11
+item,121,ENERGYPOWDER,مسحوق الطاقة,12
+item,122,ENERGY ROOT,جذر الطاقة,10
+item,123,HEAL POWDER,مسحوق الشفاء,12
+item,124,REVIVAL HERB,عشبة الإحياء,11
+item,125,HARD STONE,الحجر الصلب,11
+item,126,LUCKY EGG,بيضة الحظ,9
+item,127,CARD KEY,بطاقة دخول,10
+item,128,MACHINE PART,قطعة من آلة,11
+item,129,EGG TICKET,تذكرة البيضة,12
+item,130,LOST ITEM,غرض مفقود,10
+item,131,STARDUST,طلع النجوم,10
+item,132,STAR PIECE,قطعة نجمية,10
+item,133,BASEMENT KEY,مفتاح القبو,11
+item,134,PASS,تذكرة القطار,12
+item,138,CHARCOAL,الفحم,5
+item,139,BERRY JUICE,عصير التوت,10
+item,140,SCOPE LENS,عدسة التصويب,12
+item,143,METAL COAT,طلاء معدني,9
+item,144,DRAGON FANG,ناب التنين,10
+item,146,LEFTOVERS,بقايا الطعام,12
+item,150,MYSTERYBERRY,توت غامض,8
+item,151,DRAGON SCALE,حرشفة التنين,12
+item,152,BERSERK GENE,جين الهياج,10
+item,156,SACRED ASH,رماد مقدس,10
+item,157,HEAVY BALL,هيفي بول,8
+item,158,FLOWER MAIL,بريد الأزهار,11
+item,159,LEVEL BALL,ليفل بول,8
+item,160,LURE BALL,لور بول,7
+item,161,FAST BALL,فاست بول,8
+item,163,LIGHT BALL,لايت بول,7
+item,164,FRIEND BALL,فريند بول,9
+item,165,MOON BALL,مون بول,7
+item,166,LOVE BALL,لوف بول,7
+item,167,NORMAL BOX,صندوق عادي,10
+item,168,GORGEOUS BOX,صندوق فاخر,10
+item,169,SUN STONE,حجر الشمس,10
+item,170,POLKADOT BOW,ربطة منقطة,10
+item,172,UP-GRADE,ترقية,5
+item,173,BERRY,التوت,5
+item,174,GOLD BERRY,التوت الذهبي,12
+item,175,SQUIRTBOTTLE,إناء السقي,10
+item,177,PARK BALL,بارك بول,8
+item,178,RAINBOW WING,ريشة قوس قزح,12
+item,180,BRICK PIECE,قطعة طوب,8
+item,181,SURF MAIL,بريد الأمواج,11
+item,182,LITEBLUEMAIL,بريد أزرق,9
+item,183,PORTRAITMAIL,بريد الصورة,11
+item,184,LOVELY MAIL,بريد رومانسي,12
+item,185,EON MAIL,بريد الأبدية,11
+item,186,MORPH MAIL,بريد متحول,10
+item,187,BLUESKY MAIL,بريد السماء,11
+item,188,MUSIC MAIL,بريد موسيقي,11
+item,189,MIRAGE MAIL,بريد السراب,11
+item,191,TM01,ق.ت 01,6
+item,192,TM02,ق.ت 02,6
+item,193,TM03,ق.ت 03,6
+item,194,TM04,ق.ت 04,6
+item,196,TM05,ق.ت 05,6
+item,197,TM06,ق.ت 06,6
+item,198,TM07,ق.ت 07,6
+item,199,TM08,ق.ت 08,6
+item,200,TM09,ق.ت 09,6
+item,201,TM10,ق.ت 10,6
+item,202,TM11,ق.ت 11,6
+item,203,TM12,ق.ت 12,6
+item,204,TM13,ق.ت 13,6
+item,205,TM14,ق.ت 14,6
+item,206,TM15,ق.ت 15,6
+item,207,TM16,ق.ت 16,6
+item,208,TM17,ق.ت 17,6
+item,209,TM18,ق.ت 18,6
+item,210,TM19,ق.ت 19,6
+item,211,TM20,ق.ت 20,6
+item,212,TM21,ق.ت 21,6
+item,213,TM22,ق.ت 22,6
+item,214,TM23,ق.ت 23,6
+item,215,TM24,ق.ت 24,6
+item,216,TM25,ق.ت 25,6
+item,217,TM26,ق.ت 26,6
+item,218,TM27,ق.ت 27,6
+item,219,TM28,ق.ت 28,6
+item,221,TM29,ق.ت 29,6
+item,222,TM30,ق.ت 30,6
+item,223,TM31,ق.ت 31,6
+item,224,TM32,ق.ت 32,6
+item,225,TM33,ق.ت 33,6
+item,226,TM34,ق.ت 34,6
+item,227,TM35,ق.ت 35,6
+item,228,TM36,ق.ت 36,6
+item,229,TM37,ق.ت 37,6
+item,230,TM38,ق.ت 38,6
+item,231,TM39,ق.ت 39,6
+item,232,TM40,ق.ت 40,6
+item,233,TM41,ق.ت 41,6
+item,234,TM42,ق.ت 42,6
+item,235,TM43,ق.ت 43,6
+item,236,TM44,ق.ت 44,6
+item,237,TM45,ق.ت 45,6
+item,238,TM46,ق.ت 46,6
+item,239,TM47,ق.ت 47,6
+item,240,TM48,ق.ت 48,6
+item,241,TM49,ق.ت 49,6
+item,242,TM50,ق.ت 50,6
+item,243,HM01,ق.م 01,6
+item,244,HM02,ق.م 02,6
+item,245,HM03,ق.م 03,6
+item,246,HM04,ق.م 04,6
+item,247,HM05,ق.م 05,6
+item,248,HM06,ق.م 06,6
+item,249,HM07,ق.م 07,6

@@ -1,0 +1,3456 @@
+{
+ "moves": [
+  {
+   "id": 1,
+   "english": "POUND",
+   "arabic": "لطمة",
+   "tiles": 4,
+   "japanese": "はたく",
+   "japanese_literal": "to swat, to whack"
+  },
+  {
+   "id": 2,
+   "english": "KARATE CHOP",
+   "arabic": "ضربة كاراتيه",
+   "tiles": 12,
+   "japanese": "からてチョップ",
+   "japanese_literal": "karate chop"
+  },
+  {
+   "id": 3,
+   "english": "DOUBLESLAP",
+   "arabic": "وابل الصفعات",
+   "tiles": 12,
+   "japanese": "おうふくビンタ",
+   "japanese_literal": "back-and-forth slapping"
+  },
+  {
+   "id": 4,
+   "english": "COMET PUNCH",
+   "arabic": "وابل اللكمات",
+   "tiles": 12,
+   "japanese": "れんぞくパンチ",
+   "japanese_literal": "consecutive punches"
+  },
+  {
+   "id": 5,
+   "english": "MEGA PUNCH",
+   "arabic": "لكمة ساحقة",
+   "tiles": 10,
+   "japanese": "メガトンパンチ",
+   "japanese_literal": "megaton punch"
+  },
+  {
+   "id": 6,
+   "english": "PAY DAY",
+   "arabic": "نثر النقود",
+   "tiles": 10,
+   "japanese": "ネコにこばん",
+   "japanese_literal": "a gold coin for the cat"
+  },
+  {
+   "id": 7,
+   "english": "FIRE PUNCH",
+   "arabic": "لكمة نارية",
+   "tiles": 10,
+   "japanese": "ほのおのパンチ",
+   "japanese_literal": "fire punch"
+  },
+  {
+   "id": 8,
+   "english": "ICE PUNCH",
+   "arabic": "لكمة جليدية",
+   "tiles": 11,
+   "japanese": "れいとうパンチ",
+   "japanese_literal": "freezing punch"
+  },
+  {
+   "id": 9,
+   "english": "THUNDERPUNCH",
+   "arabic": "لكمة برقية",
+   "tiles": 10,
+   "japanese": "かみなりパンチ",
+   "japanese_literal": "thunder punch"
+  },
+  {
+   "id": 10,
+   "english": "SCRATCH",
+   "arabic": "الخدش",
+   "tiles": 6,
+   "japanese": "ひっかく",
+   "japanese_literal": "to scratch"
+  },
+  {
+   "id": 11,
+   "english": "VICEGRIP",
+   "arabic": "الكماشة",
+   "tiles": 7,
+   "japanese": "はさむ",
+   "japanese_literal": "to pinch, to clamp"
+  },
+  {
+   "id": 12,
+   "english": "GUILLOTINE",
+   "arabic": "المقصلة",
+   "tiles": 7,
+   "japanese": "ハサミギロチン",
+   "japanese_literal": "scissor guillotine"
+  },
+  {
+   "id": 13,
+   "english": "RAZOR WIND",
+   "arabic": "ريح المناجل",
+   "tiles": 11,
+   "japanese": "かまいたち",
+   "japanese_literal": "kamaitachi, the sickle-weasel"
+  },
+  {
+   "id": 14,
+   "english": "SWORDS DANCE",
+   "arabic": "رقصة السيوف",
+   "tiles": 11,
+   "japanese": "つるぎのまい",
+   "japanese_literal": "dance of swords"
+  },
+  {
+   "id": 15,
+   "english": "CUT",
+   "arabic": "القطع",
+   "tiles": 5,
+   "japanese": "いあいぎり",
+   "japanese_literal": "the iaido draw-cut"
+  },
+  {
+   "id": 16,
+   "english": "GUST",
+   "arabic": "عصفة ريح",
+   "tiles": 8,
+   "japanese": "かぜおこし",
+   "japanese_literal": "raising a wind"
+  },
+  {
+   "id": 17,
+   "english": "WING ATTACK",
+   "arabic": "ضربة جناح",
+   "tiles": 9,
+   "japanese": "つばさでうつ",
+   "japanese_literal": "to strike with the wings"
+  },
+  {
+   "id": 18,
+   "english": "WHIRLWIND",
+   "arabic": "ريح طاردة",
+   "tiles": 9,
+   "japanese": "ふきとばし",
+   "japanese_literal": "blowing away"
+  },
+  {
+   "id": 19,
+   "english": "FLY",
+   "arabic": "التحليق",
+   "tiles": 7,
+   "japanese": "そらをとぶ",
+   "japanese_literal": "to fly through the sky"
+  },
+  {
+   "id": 20,
+   "english": "BIND",
+   "arabic": "التقييد",
+   "tiles": 7,
+   "japanese": "しめつける",
+   "japanese_literal": "to tighten around"
+  },
+  {
+   "id": 21,
+   "english": "SLAM",
+   "arabic": "ضربة قاصمة",
+   "tiles": 10,
+   "japanese": "たたきつける",
+   "japanese_literal": "to slam down hard"
+  },
+  {
+   "id": 22,
+   "english": "VINE WHIP",
+   "arabic": "سوط الكرمة",
+   "tiles": 10,
+   "japanese": "つるのムチ",
+   "japanese_literal": "vine whip"
+  },
+  {
+   "id": 23,
+   "english": "STOMP",
+   "arabic": "الدهس",
+   "tiles": 6,
+   "japanese": "ふみつけ",
+   "japanese_literal": "to trample"
+  },
+  {
+   "id": 24,
+   "english": "DOUBLE KICK",
+   "arabic": "رفستان",
+   "tiles": 6,
+   "japanese": "にどげり",
+   "japanese_literal": "two kicks"
+  },
+  {
+   "id": 25,
+   "english": "MEGA KICK",
+   "arabic": "ركلة ساحقة",
+   "tiles": 10,
+   "japanese": "メガトンキック",
+   "japanese_literal": "megaton kick"
+  },
+  {
+   "id": 26,
+   "english": "JUMP KICK",
+   "arabic": "ركلة طائرة",
+   "tiles": 10,
+   "japanese": "とびげり",
+   "japanese_literal": "jumping kick"
+  },
+  {
+   "id": 27,
+   "english": "ROLLING KICK",
+   "arabic": "ركلة دوارة",
+   "tiles": 10,
+   "japanese": "まわしげり",
+   "japanese_literal": "roundhouse kick"
+  },
+  {
+   "id": 28,
+   "english": "SAND-ATTACK",
+   "arabic": "ذر الرمل",
+   "tiles": 8,
+   "japanese": "すなかけ",
+   "japanese_literal": "throwing sand"
+  },
+  {
+   "id": 29,
+   "english": "HEADBUTT",
+   "arabic": "النطح",
+   "tiles": 5,
+   "japanese": "ずつき",
+   "japanese_literal": "headbutt"
+  },
+  {
+   "id": 30,
+   "english": "HORN ATTACK",
+   "arabic": "طعنة قرن",
+   "tiles": 8,
+   "japanese": "つのでつく",
+   "japanese_literal": "to stab with the horn"
+  },
+  {
+   "id": 31,
+   "english": "FURY ATTACK",
+   "arabic": "وابل الطعنات",
+   "tiles": 12,
+   "japanese": "みだれづき",
+   "japanese_literal": "wild, disordered thrusts"
+  },
+  {
+   "id": 32,
+   "english": "HORN DRILL",
+   "arabic": "قرن ثاقب",
+   "tiles": 8,
+   "japanese": "つのドリル",
+   "japanese_literal": "horn drill"
+  },
+  {
+   "id": 33,
+   "english": "TACKLE",
+   "arabic": "الاندفاع",
+   "tiles": 7,
+   "japanese": "たいあたり",
+   "japanese_literal": "a body blow"
+  },
+  {
+   "id": 34,
+   "english": "BODY SLAM",
+   "arabic": "صدم بدني",
+   "tiles": 8,
+   "japanese": "のしかかり",
+   "japanese_literal": "to bear down with the body"
+  },
+  {
+   "id": 35,
+   "english": "WRAP",
+   "arabic": "الالتفاف",
+   "tiles": 7,
+   "japanese": "まきつく",
+   "japanese_literal": "to coil around"
+  },
+  {
+   "id": 36,
+   "english": "TAKE DOWN",
+   "arabic": "هجمة طائشة",
+   "tiles": 10,
+   "japanese": "とっしん",
+   "japanese_literal": "a headlong charge"
+  },
+  {
+   "id": 37,
+   "english": "THRASH",
+   "arabic": "الهياج",
+   "tiles": 6,
+   "japanese": "あばれる",
+   "japanese_literal": "to rampage"
+  },
+  {
+   "id": 38,
+   "english": "DOUBLE-EDGE",
+   "arabic": "هجمة مستميتة",
+   "tiles": 12,
+   "japanese": "すてみタックル",
+   "japanese_literal": "a throw-away-the-body tackle"
+  },
+  {
+   "id": 39,
+   "english": "TAIL WHIP",
+   "arabic": "هز الذيل",
+   "tiles": 8,
+   "japanese": "しっぽをふる",
+   "japanese_literal": "to wag the tail"
+  },
+  {
+   "id": 40,
+   "english": "POISON STING",
+   "arabic": "إبرة سامة",
+   "tiles": 9,
+   "japanese": "どくばり",
+   "japanese_literal": "poison needle"
+  },
+  {
+   "id": 41,
+   "english": "TWINEEDLE",
+   "arabic": "إبرتان",
+   "tiles": 6,
+   "japanese": "ダブルニードル",
+   "japanese_literal": "double needle"
+  },
+  {
+   "id": 42,
+   "english": "PIN MISSILE",
+   "arabic": "وابل الإبر",
+   "tiles": 9,
+   "japanese": "ミサイルばり",
+   "japanese_literal": "missile needles"
+  },
+  {
+   "id": 43,
+   "english": "LEER",
+   "arabic": "نظرة شزراء",
+   "tiles": 10,
+   "japanese": "にらみつける",
+   "japanese_literal": "to glare at"
+  },
+  {
+   "id": 44,
+   "english": "BITE",
+   "arabic": "العض",
+   "tiles": 5,
+   "japanese": "かみつく",
+   "japanese_literal": "to bite"
+  },
+  {
+   "id": 45,
+   "english": "GROWL",
+   "arabic": "الهرير",
+   "tiles": 6,
+   "japanese": "なきごえ",
+   "japanese_literal": "a cry, a call"
+  },
+  {
+   "id": 46,
+   "english": "ROAR",
+   "arabic": "الزئير",
+   "tiles": 6,
+   "japanese": "ほえる",
+   "japanese_literal": "to roar"
+  },
+  {
+   "id": 47,
+   "english": "SING",
+   "arabic": "الغناء",
+   "tiles": 6,
+   "japanese": "うたう",
+   "japanese_literal": "to sing"
+  },
+  {
+   "id": 48,
+   "english": "SUPERSONIC",
+   "arabic": "صفير مربك",
+   "tiles": 9,
+   "japanese": "ちょうおんぱ",
+   "japanese_literal": "ultrasonic waves"
+  },
+  {
+   "id": 49,
+   "english": "SONICBOOM",
+   "arabic": "دوي صوتي",
+   "tiles": 8,
+   "japanese": "ソニックブーム",
+   "japanese_literal": "sonic boom"
+  },
+  {
+   "id": 50,
+   "english": "DISABLE",
+   "arabic": "حجب الضربة",
+   "tiles": 10,
+   "japanese": "かなしばり",
+   "japanese_literal": "kanashibari, bound by a spell"
+  },
+  {
+   "id": 51,
+   "english": "ACID",
+   "arabic": "الحمض",
+   "tiles": 6,
+   "japanese": "ようかいえき",
+   "japanese_literal": "dissolving fluid"
+  },
+  {
+   "id": 52,
+   "english": "EMBER",
+   "arabic": "جمرة نارية",
+   "tiles": 10,
+   "japanese": "ひのこ",
+   "japanese_literal": "a spark of fire"
+  },
+  {
+   "id": 53,
+   "english": "FLAMETHROWER",
+   "arabic": "نفث اللهب",
+   "tiles": 9,
+   "japanese": "かえんほうしゃ",
+   "japanese_literal": "flame emission"
+  },
+  {
+   "id": 54,
+   "english": "MIST",
+   "arabic": "ضباب أبيض",
+   "tiles": 10,
+   "japanese": "しろいきり",
+   "japanese_literal": "white mist"
+  },
+  {
+   "id": 55,
+   "english": "WATER GUN",
+   "arabic": "مسدس الماء",
+   "tiles": 11,
+   "japanese": "みずでっぽう",
+   "japanese_literal": "water pistol"
+  },
+  {
+   "id": 56,
+   "english": "HYDRO PUMP",
+   "arabic": "الدفق الجارف",
+   "tiles": 12,
+   "japanese": "ハイドロポンプ",
+   "japanese_literal": "hydro pump"
+  },
+  {
+   "id": 57,
+   "english": "SURF",
+   "arabic": "ركوب الأمواج",
+   "tiles": 11,
+   "japanese": "なみのり",
+   "japanese_literal": "riding the waves"
+  },
+  {
+   "id": 58,
+   "english": "ICE BEAM",
+   "arabic": "شعاع جليدي",
+   "tiles": 10,
+   "japanese": "れいとうビーム",
+   "japanese_literal": "freezing beam"
+  },
+  {
+   "id": 59,
+   "english": "BLIZZARD",
+   "arabic": "عاصفة ثلجية",
+   "tiles": 11,
+   "japanese": "ふぶき",
+   "japanese_literal": "blizzard"
+  },
+  {
+   "id": 60,
+   "english": "PSYBEAM",
+   "arabic": "شعاع الوهم",
+   "tiles": 10,
+   "japanese": "サイケこうせん",
+   "japanese_literal": "psychedelic ray"
+  },
+  {
+   "id": 61,
+   "english": "BUBBLEBEAM",
+   "arabic": "شعاع فقاقيع",
+   "tiles": 11,
+   "japanese": "バブルこうせん",
+   "japanese_literal": "bubble beam"
+  },
+  {
+   "id": 62,
+   "english": "AURORA BEAM",
+   "arabic": "شعاع الشفق",
+   "tiles": 10,
+   "japanese": "オーロラビーム",
+   "japanese_literal": "aurora beam"
+  },
+  {
+   "id": 63,
+   "english": "HYPER BEAM",
+   "arabic": "شعاع مدمر",
+   "tiles": 9,
+   "japanese": "はかいこうせん",
+   "japanese_literal": "destruction ray"
+  },
+  {
+   "id": 64,
+   "english": "PECK",
+   "arabic": "النقر",
+   "tiles": 5,
+   "japanese": "つつく",
+   "japanese_literal": "to peck, to jab"
+  },
+  {
+   "id": 65,
+   "english": "DRILL PECK",
+   "arabic": "منقار ثاقب",
+   "tiles": 10,
+   "japanese": "ドリルくちばし",
+   "japanese_literal": "drill beak"
+  },
+  {
+   "id": 66,
+   "english": "SUBMISSION",
+   "arabic": "رمية جهنمية",
+   "tiles": 11,
+   "japanese": "じごくぐるま",
+   "japanese_literal": "hell wheel (a wrestling throw)"
+  },
+  {
+   "id": 67,
+   "english": "LOW KICK",
+   "arabic": "ركلة كاسحة",
+   "tiles": 10,
+   "japanese": "けたぐり",
+   "japanese_literal": "sumo leg sweep"
+  },
+  {
+   "id": 68,
+   "english": "COUNTER",
+   "arabic": "رد الصاع",
+   "tiles": 8,
+   "japanese": "カウンター",
+   "japanese_literal": "counter"
+  },
+  {
+   "id": 69,
+   "english": "SEISMIC TOSS",
+   "arabic": "رمية مزلزلة",
+   "tiles": 11,
+   "japanese": "ちきゅうなげ",
+   "japanese_literal": "earth throw"
+  },
+  {
+   "id": 70,
+   "english": "STRENGTH",
+   "arabic": "قوة جبارة",
+   "tiles": 9,
+   "japanese": "かいりき",
+   "japanese_literal": "monstrous strength"
+  },
+  {
+   "id": 71,
+   "english": "ABSORB",
+   "arabic": "الامتصاص",
+   "tiles": 8,
+   "japanese": "すいとる",
+   "japanese_literal": "to suck up"
+  },
+  {
+   "id": 72,
+   "english": "MEGA DRAIN",
+   "arabic": "امتصاص هائل",
+   "tiles": 12,
+   "japanese": "メガドレイン",
+   "japanese_literal": "mega drain"
+  },
+  {
+   "id": 73,
+   "english": "LEECH SEED",
+   "arabic": "بذرة ماصة",
+   "tiles": 9,
+   "japanese": "やどりぎのタネ",
+   "japanese_literal": "mistletoe seed"
+  },
+  {
+   "id": 74,
+   "english": "GROWTH",
+   "arabic": "النماء",
+   "tiles": 6,
+   "japanese": "せいちょう",
+   "japanese_literal": "growth"
+  },
+  {
+   "id": 75,
+   "english": "RAZOR LEAF",
+   "arabic": "نصل الأوراق",
+   "tiles": 10,
+   "japanese": "はっぱカッター",
+   "japanese_literal": "leaf cutter"
+  },
+  {
+   "id": 76,
+   "english": "SOLARBEAM",
+   "arabic": "شعاع شمسي",
+   "tiles": 9,
+   "japanese": "ソーラービーム",
+   "japanese_literal": "solar beam"
+  },
+  {
+   "id": 77,
+   "english": "POISONPOWDER",
+   "arabic": "مسحوق سام",
+   "tiles": 9,
+   "japanese": "どくのこな",
+   "japanese_literal": "poison powder"
+  },
+  {
+   "id": 78,
+   "english": "STUN SPORE",
+   "arabic": "مسحوق مشل",
+   "tiles": 9,
+   "japanese": "しびれごな",
+   "japanese_literal": "numbing powder"
+  },
+  {
+   "id": 79,
+   "english": "SLEEP POWDER",
+   "arabic": "مسحوق منوم",
+   "tiles": 10,
+   "japanese": "ねむりごな",
+   "japanese_literal": "sleep powder"
+  },
+  {
+   "id": 80,
+   "english": "PETAL DANCE",
+   "arabic": "رقصة البتلات",
+   "tiles": 11,
+   "japanese": "はなびらのまい",
+   "japanese_literal": "dance of petals"
+  },
+  {
+   "id": 81,
+   "english": "STRING SHOT",
+   "arabic": "خيط الحرير",
+   "tiles": 10,
+   "japanese": "いとをはく",
+   "japanese_literal": "to spit thread"
+  },
+  {
+   "id": 82,
+   "english": "DRAGON RAGE",
+   "arabic": "غضب التنين",
+   "tiles": 10,
+   "japanese": "りゅうのいかり",
+   "japanese_literal": "dragon's rage"
+  },
+  {
+   "id": 83,
+   "english": "FIRE SPIN",
+   "arabic": "دوامة نارية",
+   "tiles": 11,
+   "japanese": "ほのおのうず",
+   "japanese_literal": "flame vortex"
+  },
+  {
+   "id": 84,
+   "english": "THUNDERSHOCK",
+   "arabic": "صدمة البرق",
+   "tiles": 10,
+   "japanese": "でんきショック",
+   "japanese_literal": "electric shock"
+  },
+  {
+   "id": 85,
+   "english": "THUNDERBOLT",
+   "arabic": "الصاعقة",
+   "tiles": 7,
+   "japanese": "１０まんボルト",
+   "japanese_literal": "100,000 volts"
+  },
+  {
+   "id": 86,
+   "english": "THUNDER WAVE",
+   "arabic": "موجة الشلل",
+   "tiles": 10,
+   "japanese": "でんじは",
+   "japanese_literal": "electromagnetic wave"
+  },
+  {
+   "id": 87,
+   "english": "THUNDER",
+   "arabic": "البرق",
+   "tiles": 5,
+   "japanese": "かみなり",
+   "japanese_literal": "thunder, lightning"
+  },
+  {
+   "id": 88,
+   "english": "ROCK THROW",
+   "arabic": "رمي الصخور",
+   "tiles": 10,
+   "japanese": "いわおとし",
+   "japanese_literal": "dropping rocks"
+  },
+  {
+   "id": 89,
+   "english": "EARTHQUAKE",
+   "arabic": "الزلزال",
+   "tiles": 7,
+   "japanese": "じしん",
+   "japanese_literal": "earthquake"
+  },
+  {
+   "id": 90,
+   "english": "FISSURE",
+   "arabic": "شق الأرض",
+   "tiles": 8,
+   "japanese": "じわれ",
+   "japanese_literal": "ground split"
+  },
+  {
+   "id": 91,
+   "english": "DIG",
+   "arabic": "الحفر",
+   "tiles": 5,
+   "japanese": "あなをほる",
+   "japanese_literal": "to dig a hole"
+  },
+  {
+   "id": 92,
+   "english": "TOXIC",
+   "arabic": "السم الزعاف",
+   "tiles": 11,
+   "japanese": "どくどく",
+   "japanese_literal": "poison upon poison"
+  },
+  {
+   "id": 93,
+   "english": "CONFUSION",
+   "arabic": "قوة الذهن",
+   "tiles": 9,
+   "japanese": "ねんりき",
+   "japanese_literal": "force of will"
+  },
+  {
+   "id": 94,
+   "english": "PSYCHIC",
+   "arabic": "سطوة الذهن",
+   "tiles": 10,
+   "japanese": "サイコキネシス",
+   "japanese_literal": "psychokinesis"
+  },
+  {
+   "id": 95,
+   "english": "HYPNOSIS",
+   "arabic": "التنويم",
+   "tiles": 7,
+   "japanese": "さいみんじゅつ",
+   "japanese_literal": "the art of hypnosis"
+  },
+  {
+   "id": 96,
+   "english": "MEDITATE",
+   "arabic": "التأمل",
+   "tiles": 6,
+   "japanese": "ヨガのポーズ",
+   "japanese_literal": "a yoga pose"
+  },
+  {
+   "id": 97,
+   "english": "AGILITY",
+   "arabic": "خفة الحركة",
+   "tiles": 10,
+   "japanese": "こうそくいどう",
+   "japanese_literal": "high-speed movement"
+  },
+  {
+   "id": 98,
+   "english": "QUICK ATTACK",
+   "arabic": "هجوم خاطف",
+   "tiles": 9,
+   "japanese": "でんこうせっか",
+   "japanese_literal": "lightning flash, flint spark"
+  },
+  {
+   "id": 99,
+   "english": "RAGE",
+   "arabic": "الغضب",
+   "tiles": 5,
+   "japanese": "いかり",
+   "japanese_literal": "rage"
+  },
+  {
+   "id": 100,
+   "english": "TELEPORT",
+   "arabic": "انتقال آني",
+   "tiles": 10,
+   "japanese": "テレポート",
+   "japanese_literal": "teleport"
+  },
+  {
+   "id": 101,
+   "english": "NIGHT SHADE",
+   "arabic": "ظل الليل",
+   "tiles": 8,
+   "japanese": "ナイトヘッド",
+   "japanese_literal": "night head"
+  },
+  {
+   "id": 102,
+   "english": "MIMIC",
+   "arabic": "التقليد",
+   "tiles": 7,
+   "japanese": "ものまね",
+   "japanese_literal": "imitation"
+  },
+  {
+   "id": 103,
+   "english": "SCREECH",
+   "arabic": "صرخة حادة",
+   "tiles": 9,
+   "japanese": "いやなおと",
+   "japanese_literal": "an unpleasant noise"
+  },
+  {
+   "id": 104,
+   "english": "DOUBLE TEAM",
+   "arabic": "التعدد",
+   "tiles": 6,
+   "japanese": "かげぶんしん",
+   "japanese_literal": "shadow clones"
+  },
+  {
+   "id": 105,
+   "english": "RECOVER",
+   "arabic": "التعافي",
+   "tiles": 7,
+   "japanese": "じこさいせい",
+   "japanese_literal": "self-regeneration"
+  },
+  {
+   "id": 106,
+   "english": "HARDEN",
+   "arabic": "التصلب",
+   "tiles": 6,
+   "japanese": "かたくなる",
+   "japanese_literal": "to harden"
+  },
+  {
+   "id": 107,
+   "english": "MINIMIZE",
+   "arabic": "التقلص",
+   "tiles": 7,
+   "japanese": "ちいさくなる",
+   "japanese_literal": "to become small"
+  },
+  {
+   "id": 108,
+   "english": "SMOKESCREEN",
+   "arabic": "ستار دخاني",
+   "tiles": 10,
+   "japanese": "えんまく",
+   "japanese_literal": "smokescreen"
+  },
+  {
+   "id": 109,
+   "english": "CONFUSE RAY",
+   "arabic": "وهج مريب",
+   "tiles": 8,
+   "japanese": "あやしいひかり",
+   "japanese_literal": "an eerie light"
+  },
+  {
+   "id": 110,
+   "english": "WITHDRAW",
+   "arabic": "التقوقع",
+   "tiles": 7,
+   "japanese": "からにこもる",
+   "japanese_literal": "to shut oneself in the shell"
+  },
+  {
+   "id": 111,
+   "english": "DEFENSE CURL",
+   "arabic": "تكور دفاعي",
+   "tiles": 10,
+   "japanese": "まるくなる",
+   "japanese_literal": "to curl into a ball"
+  },
+  {
+   "id": 112,
+   "english": "BARRIER",
+   "arabic": "الحاجز",
+   "tiles": 6,
+   "japanese": "バリアー",
+   "japanese_literal": "barrier"
+  },
+  {
+   "id": 113,
+   "english": "LIGHT SCREEN",
+   "arabic": "جدار الضوء",
+   "tiles": 10,
+   "japanese": "ひかりのかべ",
+   "japanese_literal": "wall of light"
+  },
+  {
+   "id": 114,
+   "english": "HAZE",
+   "arabic": "ضباب أسود",
+   "tiles": 9,
+   "japanese": "くろいきり",
+   "japanese_literal": "black mist"
+  },
+  {
+   "id": 115,
+   "english": "REFLECT",
+   "arabic": "جدار عاكس",
+   "tiles": 10,
+   "japanese": "リフレクター",
+   "japanese_literal": "reflector"
+  },
+  {
+   "id": 116,
+   "english": "FOCUS ENERGY",
+   "arabic": "شحذ الهمة",
+   "tiles": 9,
+   "japanese": "きあいだめ",
+   "japanese_literal": "gathering fighting spirit"
+  },
+  {
+   "id": 117,
+   "english": "BIDE",
+   "arabic": "الصبر",
+   "tiles": 5,
+   "japanese": "がまん",
+   "japanese_literal": "endurance"
+  },
+  {
+   "id": 118,
+   "english": "METRONOME",
+   "arabic": "هز الإصبع",
+   "tiles": 8,
+   "japanese": "ゆびをふる",
+   "japanese_literal": "to waggle the finger"
+  },
+  {
+   "id": 119,
+   "english": "MIRROR MOVE",
+   "arabic": "المحاكاة",
+   "tiles": 8,
+   "japanese": "オウムがえし",
+   "japanese_literal": "parrot's echo"
+  },
+  {
+   "id": 120,
+   "english": "SELFDESTRUCT",
+   "arabic": "تدمير ذاتي",
+   "tiles": 10,
+   "japanese": "じばく",
+   "japanese_literal": "self-destruct"
+  },
+  {
+   "id": 121,
+   "english": "EGG BOMB",
+   "arabic": "قنبلة البيض",
+   "tiles": 12,
+   "japanese": "タマゴばくだん",
+   "japanese_literal": "egg bomb"
+  },
+  {
+   "id": 122,
+   "english": "LICK",
+   "arabic": "لعقة",
+   "tiles": 4,
+   "japanese": "したでなめる",
+   "japanese_literal": "to lick with the tongue"
+  },
+  {
+   "id": 123,
+   "english": "SMOG",
+   "arabic": "ضباب سام",
+   "tiles": 8,
+   "japanese": "スモッグ",
+   "japanese_literal": "smog"
+  },
+  {
+   "id": 124,
+   "english": "SLUDGE",
+   "arabic": "وحل سام",
+   "tiles": 7,
+   "japanese": "ヘドロこうげき",
+   "japanese_literal": "sludge attack"
+  },
+  {
+   "id": 125,
+   "english": "BONE CLUB",
+   "arabic": "هراوة عظمية",
+   "tiles": 11,
+   "japanese": "ホネこんぼう",
+   "japanese_literal": "bone club"
+  },
+  {
+   "id": 126,
+   "english": "FIRE BLAST",
+   "arabic": "انفجار ناري",
+   "tiles": 11,
+   "japanese": "だいもんじ",
+   "japanese_literal": "the great-character flame"
+  },
+  {
+   "id": 127,
+   "english": "WATERFALL",
+   "arabic": "صعود الشلال",
+   "tiles": 10,
+   "japanese": "たきのぼり",
+   "japanese_literal": "climbing the waterfall"
+  },
+  {
+   "id": 128,
+   "english": "CLAMP",
+   "arabic": "إطباق",
+   "tiles": 5,
+   "japanese": "からではさむ",
+   "japanese_literal": "to clamp with the shell"
+  },
+  {
+   "id": 129,
+   "english": "SWIFT",
+   "arabic": "نجوم صائبة",
+   "tiles": 10,
+   "japanese": "スピードスター",
+   "japanese_literal": "speed star"
+  },
+  {
+   "id": 130,
+   "english": "SKULL BASH",
+   "arabic": "نطحة صاروخية",
+   "tiles": 12,
+   "japanese": "ロケットずつき",
+   "japanese_literal": "rocket headbutt"
+  },
+  {
+   "id": 131,
+   "english": "SPIKE CANNON",
+   "arabic": "مدفع الأشواك",
+   "tiles": 11,
+   "japanese": "とげキャノン",
+   "japanese_literal": "spike cannon"
+  },
+  {
+   "id": 132,
+   "english": "CONSTRICT",
+   "arabic": "العصر",
+   "tiles": 5,
+   "japanese": "からみつく",
+   "japanese_literal": "to entangle and squeeze"
+  },
+  {
+   "id": 133,
+   "english": "AMNESIA",
+   "arabic": "النسيان",
+   "tiles": 7,
+   "japanese": "ドわすれ",
+   "japanese_literal": "total forgetting"
+  },
+  {
+   "id": 134,
+   "english": "KINESIS",
+   "arabic": "ثني الملعقة",
+   "tiles": 11,
+   "japanese": "スプーンまげ",
+   "japanese_literal": "spoon bending"
+  },
+  {
+   "id": 135,
+   "english": "SOFTBOILED",
+   "arabic": "بيضة شافية",
+   "tiles": 10,
+   "japanese": "タマゴうみ",
+   "japanese_literal": "egg laying"
+  },
+  {
+   "id": 136,
+   "english": "HI JUMP KICK",
+   "arabic": "ركبة طائرة",
+   "tiles": 10,
+   "japanese": "とびひざげり",
+   "japanese_literal": "flying knee kick"
+  },
+  {
+   "id": 137,
+   "english": "GLARE",
+   "arabic": "نظرة الأفعى",
+   "tiles": 10,
+   "japanese": "へびにらみ",
+   "japanese_literal": "snake's glare"
+  },
+  {
+   "id": 138,
+   "english": "DREAM EATER",
+   "arabic": "آكل الأحلام",
+   "tiles": 9,
+   "japanese": "ゆめくい",
+   "japanese_literal": "dream eating"
+  },
+  {
+   "id": 139,
+   "english": "POISON GAS",
+   "arabic": "غاز سام",
+   "tiles": 7,
+   "japanese": "どくガス",
+   "japanese_literal": "poison gas"
+  },
+  {
+   "id": 140,
+   "english": "BARRAGE",
+   "arabic": "وابل الكرات",
+   "tiles": 11,
+   "japanese": "たまなげ",
+   "japanese_literal": "ball throwing"
+  },
+  {
+   "id": 141,
+   "english": "LEECH LIFE",
+   "arabic": "مص الطاقة",
+   "tiles": 10,
+   "japanese": "きゅうけつ",
+   "japanese_literal": "blood sucking"
+  },
+  {
+   "id": 142,
+   "english": "LOVELY KISS",
+   "arabic": "قبلة ساحرة",
+   "tiles": 10,
+   "japanese": "あくまのキッス",
+   "japanese_literal": "the devil's kiss"
+  },
+  {
+   "id": 143,
+   "english": "SKY ATTACK",
+   "arabic": "صولة سماوية",
+   "tiles": 11,
+   "japanese": "ゴッドバード",
+   "japanese_literal": "god bird"
+  },
+  {
+   "id": 144,
+   "english": "TRANSFORM",
+   "arabic": "التحول",
+   "tiles": 6,
+   "japanese": "へんしん",
+   "japanese_literal": "transformation"
+  },
+  {
+   "id": 145,
+   "english": "BUBBLE",
+   "arabic": "الفقاعة",
+   "tiles": 7,
+   "japanese": "あわ",
+   "japanese_literal": "bubble"
+  },
+  {
+   "id": 146,
+   "english": "DIZZY PUNCH",
+   "arabic": "لكمة مدوخة",
+   "tiles": 10,
+   "japanese": "ピヨピヨパンチ",
+   "japanese_literal": "the tweeting-birds punch"
+  },
+  {
+   "id": 147,
+   "english": "SPORE",
+   "arabic": "أبواغ الفطر",
+   "tiles": 11,
+   "japanese": "キノコのほうし",
+   "japanese_literal": "mushroom spores"
+  },
+  {
+   "id": 148,
+   "english": "FLASH",
+   "arabic": "الوميض",
+   "tiles": 7,
+   "japanese": "フラッシュ",
+   "japanese_literal": "flash"
+  },
+  {
+   "id": 149,
+   "english": "PSYWAVE",
+   "arabic": "موجة نفسية",
+   "tiles": 10,
+   "japanese": "サイコウェーブ",
+   "japanese_literal": "psywave"
+  },
+  {
+   "id": 150,
+   "english": "SPLASH",
+   "arabic": "ضربة البعبع",
+   "tiles": 11,
+   "japanese": "はねる",
+   "japanese_literal": "to flop about"
+  },
+  {
+   "id": 151,
+   "english": "ACID ARMOR",
+   "arabic": "الذوبان",
+   "tiles": 7,
+   "japanese": "とける",
+   "japanese_literal": "to melt"
+  },
+  {
+   "id": 152,
+   "english": "CRABHAMMER",
+   "arabic": "مطرقة السلطع",
+   "tiles": 12,
+   "japanese": "クラブハンマー",
+   "japanese_literal": "crab hammer"
+  },
+  {
+   "id": 153,
+   "english": "EXPLOSION",
+   "arabic": "الانفجار",
+   "tiles": 7,
+   "japanese": "だいばくはつ",
+   "japanese_literal": "great explosion"
+  },
+  {
+   "id": 154,
+   "english": "FURY SWIPES",
+   "arabic": "وابل الخدوش",
+   "tiles": 12,
+   "japanese": "みだれひっかき",
+   "japanese_literal": "wild scratching"
+  },
+  {
+   "id": 155,
+   "english": "BONEMERANG",
+   "arabic": "بومرانغ عظمي",
+   "tiles": 12,
+   "japanese": "ホネブーメラン",
+   "japanese_literal": "bone boomerang"
+  },
+  {
+   "id": 156,
+   "english": "REST",
+   "arabic": "القيلولة",
+   "tiles": 8,
+   "japanese": "ねむる",
+   "japanese_literal": "to sleep"
+  },
+  {
+   "id": 157,
+   "english": "ROCK SLIDE",
+   "arabic": "انهيار صخري",
+   "tiles": 11,
+   "japanese": "いわなだれ",
+   "japanese_literal": "rock avalanche"
+  },
+  {
+   "id": 158,
+   "english": "HYPER FANG",
+   "arabic": "أنياب فاتكة",
+   "tiles": 11,
+   "japanese": "ひっさつまえば",
+   "japanese_literal": "certain-kill front teeth"
+  },
+  {
+   "id": 159,
+   "english": "SHARPEN",
+   "arabic": "الشحذ",
+   "tiles": 5,
+   "japanese": "かくばる",
+   "japanese_literal": "to become angular"
+  },
+  {
+   "id": 160,
+   "english": "CONVERSION",
+   "arabic": "التحويل",
+   "tiles": 7,
+   "japanese": "テクスチャー",
+   "japanese_literal": "texture"
+  },
+  {
+   "id": 161,
+   "english": "TRI ATTACK",
+   "arabic": "هجوم ثلاثي",
+   "tiles": 9,
+   "japanese": "トライアタック",
+   "japanese_literal": "tri attack"
+  },
+  {
+   "id": 162,
+   "english": "SUPER FANG",
+   "arabic": "أنياب خارقة",
+   "tiles": 11,
+   "japanese": "いかりのまえば",
+   "japanese_literal": "fangs of rage"
+  },
+  {
+   "id": 163,
+   "english": "SLASH",
+   "arabic": "التمزيق",
+   "tiles": 7,
+   "japanese": "きりさく",
+   "japanese_literal": "to cut and rip open"
+  },
+  {
+   "id": 164,
+   "english": "SUBSTITUTE",
+   "arabic": "البديل",
+   "tiles": 6,
+   "japanese": "みがわり",
+   "japanese_literal": "a stand-in"
+  },
+  {
+   "id": 165,
+   "english": "STRUGGLE",
+   "arabic": "الاستماتة",
+   "tiles": 8,
+   "japanese": "わるあがき",
+   "japanese_literal": "futile floundering"
+  },
+  {
+   "id": 166,
+   "english": "SKETCH",
+   "arabic": "الخربشة",
+   "tiles": 7,
+   "japanese": "スケッチ",
+   "japanese_literal": "sketch"
+  },
+  {
+   "id": 167,
+   "english": "TRIPLE KICK",
+   "arabic": "رفسة ثلاثية",
+   "tiles": 10,
+   "japanese": "トリプルキック",
+   "japanese_literal": "triple kick"
+  },
+  {
+   "id": 168,
+   "english": "THIEF",
+   "arabic": "السرقة",
+   "tiles": 6,
+   "japanese": "どろぼう",
+   "japanese_literal": "thief"
+  },
+  {
+   "id": 169,
+   "english": "SPIDER WEB",
+   "arabic": "شبكة عنكبوت",
+   "tiles": 11,
+   "japanese": "クモのす",
+   "japanese_literal": "spider's web"
+  },
+  {
+   "id": 170,
+   "english": "MIND READER",
+   "arabic": "عين البصيرة",
+   "tiles": 11,
+   "japanese": "こころのめ",
+   "japanese_literal": "the mind's eye"
+  },
+  {
+   "id": 171,
+   "english": "NIGHTMARE",
+   "arabic": "الكوابيس",
+   "tiles": 9,
+   "japanese": "あくむ",
+   "japanese_literal": "nightmare"
+  },
+  {
+   "id": 172,
+   "english": "FLAME WHEEL",
+   "arabic": "عجلة اللهب",
+   "tiles": 10,
+   "japanese": "かえんぐるま",
+   "japanese_literal": "flame wheel"
+  },
+  {
+   "id": 173,
+   "english": "SNORE",
+   "arabic": "الشخير",
+   "tiles": 6,
+   "japanese": "いびき",
+   "japanese_literal": "snoring"
+  },
+  {
+   "id": 174,
+   "english": "CURSE",
+   "arabic": "اللعنة",
+   "tiles": 6,
+   "japanese": "のろい",
+   "japanese_literal": "curse"
+  },
+  {
+   "id": 175,
+   "english": "FLAIL",
+   "arabic": "تخبط عشوائي",
+   "tiles": 11,
+   "japanese": "じたばた",
+   "japanese_literal": "to thrash about"
+  },
+  {
+   "id": 176,
+   "english": "CONVERSION2",
+   "arabic": "التحويل 2",
+   "tiles": 9,
+   "japanese": "テクスチャー２",
+   "japanese_literal": "texture 2"
+  },
+  {
+   "id": 177,
+   "english": "AEROBLAST",
+   "arabic": "العصف العظيم",
+   "tiles": 12,
+   "japanese": "エアロブラスト",
+   "japanese_literal": "aeroblast"
+  },
+  {
+   "id": 178,
+   "english": "COTTON SPORE",
+   "arabic": "أبواغ القطن",
+   "tiles": 11,
+   "japanese": "わたほうし",
+   "japanese_literal": "cotton spores"
+  },
+  {
+   "id": 179,
+   "english": "REVERSAL",
+   "arabic": "صحوة الموت",
+   "tiles": 10,
+   "japanese": "きしかいせい",
+   "japanese_literal": "revival from the brink"
+  },
+  {
+   "id": 180,
+   "english": "SPITE",
+   "arabic": "الحقد",
+   "tiles": 5,
+   "japanese": "うらみ",
+   "japanese_literal": "a grudge"
+  },
+  {
+   "id": 181,
+   "english": "POWDER SNOW",
+   "arabic": "رذاذ ثلجي",
+   "tiles": 9,
+   "japanese": "こなゆき",
+   "japanese_literal": "powder snow"
+  },
+  {
+   "id": 182,
+   "english": "PROTECT",
+   "arabic": "الحماية",
+   "tiles": 7,
+   "japanese": "まもる",
+   "japanese_literal": "to protect"
+  },
+  {
+   "id": 183,
+   "english": "MACH PUNCH",
+   "arabic": "لكمة خاطفة",
+   "tiles": 10,
+   "japanese": "マッハパンチ",
+   "japanese_literal": "mach punch"
+  },
+  {
+   "id": 184,
+   "english": "SCARY FACE",
+   "arabic": "وجه مرعب",
+   "tiles": 8,
+   "japanese": "こわいかお",
+   "japanese_literal": "a frightening face"
+  },
+  {
+   "id": 185,
+   "english": "FAINT ATTACK",
+   "arabic": "هجوم مباغت",
+   "tiles": 10,
+   "japanese": "だましうち",
+   "japanese_literal": "a deceiving strike"
+  },
+  {
+   "id": 186,
+   "english": "SWEET KISS",
+   "arabic": "قبلة ملائكية",
+   "tiles": 11,
+   "japanese": "てんしのキッス",
+   "japanese_literal": "the angel's kiss"
+  },
+  {
+   "id": 187,
+   "english": "BELLY DRUM",
+   "arabic": "قرع البطن",
+   "tiles": 9,
+   "japanese": "はらだいこ",
+   "japanese_literal": "belly drum"
+  },
+  {
+   "id": 188,
+   "english": "SLUDGE BOMB",
+   "arabic": "قنبلة الوحل",
+   "tiles": 11,
+   "japanese": "ヘドロばくだん",
+   "japanese_literal": "sludge bomb"
+  },
+  {
+   "id": 189,
+   "english": "MUD-SLAP",
+   "arabic": "رشق بالطين",
+   "tiles": 10,
+   "japanese": "どろかけ",
+   "japanese_literal": "throwing mud"
+  },
+  {
+   "id": 190,
+   "english": "OCTAZOOKA",
+   "arabic": "مدفع الحبار",
+   "tiles": 11,
+   "japanese": "オクタンほう",
+   "japanese_literal": "Octan cannon"
+  },
+  {
+   "id": 191,
+   "english": "SPIKES",
+   "arabic": "شوك منثور",
+   "tiles": 9,
+   "japanese": "まきびし",
+   "japanese_literal": "scattered caltrops"
+  },
+  {
+   "id": 192,
+   "english": "ZAP CANNON",
+   "arabic": "مدفع الصواعق",
+   "tiles": 12,
+   "japanese": "でんじほう",
+   "japanese_literal": "electromagnetic cannon"
+  },
+  {
+   "id": 193,
+   "english": "FORESIGHT",
+   "arabic": "رؤية نافذة",
+   "tiles": 10,
+   "japanese": "みやぶる",
+   "japanese_literal": "to see right through"
+  },
+  {
+   "id": 194,
+   "english": "DESTINY BOND",
+   "arabic": "ربط المصير",
+   "tiles": 10,
+   "japanese": "みちづれ",
+   "japanese_literal": "taking you with me"
+  },
+  {
+   "id": 195,
+   "english": "PERISH SONG",
+   "arabic": "لحن الفناء",
+   "tiles": 10,
+   "japanese": "ほろびのうた",
+   "japanese_literal": "song of ruin"
+  },
+  {
+   "id": 196,
+   "english": "ICY WIND",
+   "arabic": "ريح جليدية",
+   "tiles": 10,
+   "japanese": "こごえるかぜ",
+   "japanese_literal": "freezing wind"
+  },
+  {
+   "id": 197,
+   "english": "DETECT",
+   "arabic": "التفادي",
+   "tiles": 7,
+   "japanese": "みきり",
+   "japanese_literal": "to see it coming"
+  },
+  {
+   "id": 198,
+   "english": "BONE RUSH",
+   "arabic": "وابل عظمي",
+   "tiles": 9,
+   "japanese": "ボーンラッシュ",
+   "japanese_literal": "bone rush"
+  },
+  {
+   "id": 199,
+   "english": "LOCK-ON",
+   "arabic": "تثبيت الهدف",
+   "tiles": 11,
+   "japanese": "ロックオン",
+   "japanese_literal": "lock on"
+  },
+  {
+   "id": 200,
+   "english": "OUTRAGE",
+   "arabic": "ثورة التنين",
+   "tiles": 11,
+   "japanese": "げきりん",
+   "japanese_literal": "the dragon's reverse scale"
+  },
+  {
+   "id": 201,
+   "english": "SANDSTORM",
+   "arabic": "عاصفة رملية",
+   "tiles": 11,
+   "japanese": "すなあらし",
+   "japanese_literal": "sandstorm"
+  },
+  {
+   "id": 202,
+   "english": "GIGA DRAIN",
+   "arabic": "امتصاص جارف",
+   "tiles": 12,
+   "japanese": "ギガドレイン",
+   "japanese_literal": "giga drain"
+  },
+  {
+   "id": 203,
+   "english": "ENDURE",
+   "arabic": "الصمود",
+   "tiles": 6,
+   "japanese": "こらえる",
+   "japanese_literal": "to hold out"
+  },
+  {
+   "id": 204,
+   "english": "CHARM",
+   "arabic": "التدلل",
+   "tiles": 6,
+   "japanese": "あまえる",
+   "japanese_literal": "to act endearing"
+  },
+  {
+   "id": 205,
+   "english": "ROLLOUT",
+   "arabic": "التدحرج",
+   "tiles": 7,
+   "japanese": "ころがる",
+   "japanese_literal": "to roll"
+  },
+  {
+   "id": 206,
+   "english": "FALSE SWIPE",
+   "arabic": "ضربة رحيمة",
+   "tiles": 10,
+   "japanese": "みねうち",
+   "japanese_literal": "a strike with the blunt edge"
+  },
+  {
+   "id": 207,
+   "english": "SWAGGER",
+   "arabic": "التبجح",
+   "tiles": 6,
+   "japanese": "いばる",
+   "japanese_literal": "to swagger"
+  },
+  {
+   "id": 208,
+   "english": "MILK DRINK",
+   "arabic": "شرب الحليب",
+   "tiles": 10,
+   "japanese": "ミルクのみ",
+   "japanese_literal": "drinking milk"
+  },
+  {
+   "id": 209,
+   "english": "SPARK",
+   "arabic": "الشرارة",
+   "tiles": 7,
+   "japanese": "スパーク",
+   "japanese_literal": "spark"
+  },
+  {
+   "id": 210,
+   "english": "FURY CUTTER",
+   "arabic": "قطع متتابع",
+   "tiles": 10,
+   "japanese": "れんぞくぎり",
+   "japanese_literal": "consecutive cuts"
+  },
+  {
+   "id": 211,
+   "english": "STEEL WING",
+   "arabic": "جناح فولاذي",
+   "tiles": 10,
+   "japanese": "はがねのつばさ",
+   "japanese_literal": "steel wing"
+  },
+  {
+   "id": 212,
+   "english": "MEAN LOOK",
+   "arabic": "نظرة آسرة",
+   "tiles": 9,
+   "japanese": "くろいまなざし",
+   "japanese_literal": "a black gaze"
+  },
+  {
+   "id": 213,
+   "english": "ATTRACT",
+   "arabic": "الإغواء",
+   "tiles": 6,
+   "japanese": "メロメロ",
+   "japanese_literal": "head over heels"
+  },
+  {
+   "id": 214,
+   "english": "SLEEP TALK",
+   "arabic": "الهذيان",
+   "tiles": 7,
+   "japanese": "ねごと",
+   "japanese_literal": "talking in one's sleep"
+  },
+  {
+   "id": 215,
+   "english": "HEAL BELL",
+   "arabic": "جرس الشفاء",
+   "tiles": 11,
+   "japanese": "いやしのすず",
+   "japanese_literal": "the healing bell"
+  },
+  {
+   "id": 216,
+   "english": "RETURN",
+   "arabic": "رد الجميل",
+   "tiles": 9,
+   "japanese": "おんがえし",
+   "japanese_literal": "repaying a kindness"
+  },
+  {
+   "id": 217,
+   "english": "PRESENT",
+   "arabic": "الهدية",
+   "tiles": 6,
+   "japanese": "プレゼント",
+   "japanese_literal": "present"
+  },
+  {
+   "id": 218,
+   "english": "FRUSTRATION",
+   "arabic": "رد الجفاء",
+   "tiles": 9,
+   "japanese": "やつあたり",
+   "japanese_literal": "taking it out on you"
+  },
+  {
+   "id": 219,
+   "english": "SAFEGUARD",
+   "arabic": "حرز حام",
+   "tiles": 7,
+   "japanese": "しんぴのまもり",
+   "japanese_literal": "mystic protection"
+  },
+  {
+   "id": 220,
+   "english": "PAIN SPLIT",
+   "arabic": "تقاسم الألم",
+   "tiles": 10,
+   "japanese": "いたみわけ",
+   "japanese_literal": "sharing the pain"
+  },
+  {
+   "id": 221,
+   "english": "SACRED FIRE",
+   "arabic": "نار مقدسة",
+   "tiles": 9,
+   "japanese": "せいなるほのお",
+   "japanese_literal": "sacred flame"
+  },
+  {
+   "id": 222,
+   "english": "MAGNITUDE",
+   "arabic": "هزة أرضية",
+   "tiles": 9,
+   "japanese": "マグニチュード",
+   "japanese_literal": "magnitude"
+  },
+  {
+   "id": 223,
+   "english": "DYNAMICPUNCH",
+   "arabic": "لكمة متفجرة",
+   "tiles": 11,
+   "japanese": "ばくれつパンチ",
+   "japanese_literal": "bursting punch"
+  },
+  {
+   "id": 224,
+   "english": "MEGAHORN",
+   "arabic": "قرن عملاق",
+   "tiles": 8,
+   "japanese": "メガホーン",
+   "japanese_literal": "megahorn"
+  },
+  {
+   "id": 225,
+   "english": "DRAGONBREATH",
+   "arabic": "نفث التنين",
+   "tiles": 10,
+   "japanese": "りゅうのいぶき",
+   "japanese_literal": "the dragon's breath"
+  },
+  {
+   "id": 226,
+   "english": "BATON PASS",
+   "arabic": "تسليم الراية",
+   "tiles": 12,
+   "japanese": "バトンタッチ",
+   "japanese_literal": "baton touch"
+  },
+  {
+   "id": 227,
+   "english": "ENCORE",
+   "arabic": "مرة ثانية",
+   "tiles": 9,
+   "japanese": "アンコール",
+   "japanese_literal": "encore"
+  },
+  {
+   "id": 228,
+   "english": "PURSUIT",
+   "arabic": "المطاردة",
+   "tiles": 8,
+   "japanese": "おいうち",
+   "japanese_literal": "striking one who flees"
+  },
+  {
+   "id": 229,
+   "english": "RAPID SPIN",
+   "arabic": "دوران سريع",
+   "tiles": 10,
+   "japanese": "こうそくスピン",
+   "japanese_literal": "high-speed spin"
+  },
+  {
+   "id": 230,
+   "english": "SWEET SCENT",
+   "arabic": "العبير",
+   "tiles": 6,
+   "japanese": "あまいかおり",
+   "japanese_literal": "a sweet fragrance"
+  },
+  {
+   "id": 231,
+   "english": "IRON TAIL",
+   "arabic": "ذيل فولاذي",
+   "tiles": 9,
+   "japanese": "アイアンテール",
+   "japanese_literal": "iron tail"
+  },
+  {
+   "id": 232,
+   "english": "METAL CLAW",
+   "arabic": "مخلب معدني",
+   "tiles": 10,
+   "japanese": "メタルクロー",
+   "japanese_literal": "metal claw"
+  },
+  {
+   "id": 233,
+   "english": "VITAL THROW",
+   "arabic": "رمية محكمة",
+   "tiles": 10,
+   "japanese": "あてみなげ",
+   "japanese_literal": "a body-blow throw (judo)"
+  },
+  {
+   "id": 234,
+   "english": "MORNING SUN",
+   "arabic": "شمس الصباح",
+   "tiles": 11,
+   "japanese": "あさのひざし",
+   "japanese_literal": "the morning sun"
+  },
+  {
+   "id": 235,
+   "english": "SYNTHESIS",
+   "arabic": "تركيب ضوئي",
+   "tiles": 10,
+   "japanese": "こうごうせい",
+   "japanese_literal": "photosynthesis"
+  },
+  {
+   "id": 236,
+   "english": "MOONLIGHT",
+   "arabic": "ضوء القمر",
+   "tiles": 9,
+   "japanese": "つきのひかり",
+   "japanese_literal": "moonlight"
+  },
+  {
+   "id": 237,
+   "english": "HIDDEN POWER",
+   "arabic": "قوة كامنة",
+   "tiles": 9,
+   "japanese": "めざめるパワー",
+   "japanese_literal": "the power that awakens"
+  },
+  {
+   "id": 238,
+   "english": "CROSS CHOP",
+   "arabic": "ضربة متقاطعة",
+   "tiles": 12,
+   "japanese": "クロスチョップ",
+   "japanese_literal": "cross chop"
+  },
+  {
+   "id": 239,
+   "english": "TWISTER",
+   "arabic": "الإعصار",
+   "tiles": 6,
+   "japanese": "たつまき",
+   "japanese_literal": "tornado"
+  },
+  {
+   "id": 240,
+   "english": "RAIN DANCE",
+   "arabic": "الاستسقاء",
+   "tiles": 8,
+   "japanese": "あまごい",
+   "japanese_literal": "praying for rain"
+  },
+  {
+   "id": 241,
+   "english": "SUNNY DAY",
+   "arabic": "يوم مشمس",
+   "tiles": 9,
+   "japanese": "にほんばれ",
+   "japanese_literal": "fine Japanese weather"
+  },
+  {
+   "id": 242,
+   "english": "CRUNCH",
+   "arabic": "قضم ساحق",
+   "tiles": 8,
+   "japanese": "かみくだく",
+   "japanese_literal": "to bite and crush"
+  },
+  {
+   "id": 243,
+   "english": "MIRROR COAT",
+   "arabic": "الرد العاكس",
+   "tiles": 12,
+   "japanese": "ミラーコート",
+   "japanese_literal": "mirror coat"
+  },
+  {
+   "id": 244,
+   "english": "PSYCH UP",
+   "arabic": "المجاراة",
+   "tiles": 8,
+   "japanese": "じこあんじ",
+   "japanese_literal": "self-suggestion"
+  },
+  {
+   "id": 245,
+   "english": "EXTREMESPEED",
+   "arabic": "سرعة فائقة",
+   "tiles": 10,
+   "japanese": "しんそく",
+   "japanese_literal": "godspeed"
+  },
+  {
+   "id": 246,
+   "english": "ANCIENTPOWER",
+   "arabic": "القوة الأزلية",
+   "tiles": 12,
+   "japanese": "げんしのちから",
+   "japanese_literal": "primeval power"
+  },
+  {
+   "id": 247,
+   "english": "SHADOW BALL",
+   "arabic": "كرة الظلال",
+   "tiles": 9,
+   "japanese": "シャドーボール",
+   "japanese_literal": "shadow ball"
+  },
+  {
+   "id": 248,
+   "english": "FUTURE SIGHT",
+   "arabic": "نبوءة مؤلمة",
+   "tiles": 11,
+   "japanese": "みらいよち",
+   "japanese_literal": "foreseeing the future"
+  },
+  {
+   "id": 249,
+   "english": "ROCK SMASH",
+   "arabic": "محطم الصخور",
+   "tiles": 11,
+   "japanese": "いわくだき",
+   "japanese_literal": "rock smashing"
+  },
+  {
+   "id": 250,
+   "english": "WHIRLPOOL",
+   "arabic": "الدوامة",
+   "tiles": 7,
+   "japanese": "うずしお",
+   "japanese_literal": "whirlpool"
+  },
+  {
+   "id": 251,
+   "english": "BEAT UP",
+   "arabic": "هجوم جماعي",
+   "tiles": 10,
+   "japanese": "ふくろだたき",
+   "japanese_literal": "a beating by the whole sack"
+  }
+ ],
+ "types": [
+  {
+   "id": 0,
+   "english": "NORMAL",
+   "arabic": "عادي",
+   "tiles": 4
+  },
+  {
+   "id": 1,
+   "english": "FIGHTING",
+   "arabic": "مقاتل",
+   "tiles": 5
+  },
+  {
+   "id": 2,
+   "english": "FLYING",
+   "arabic": "طائر",
+   "tiles": 4
+  },
+  {
+   "id": 3,
+   "english": "POISON",
+   "arabic": "سام",
+   "tiles": 3
+  },
+  {
+   "id": 4,
+   "english": "GROUND",
+   "arabic": "أرضي",
+   "tiles": 4
+  },
+  {
+   "id": 5,
+   "english": "ROCK",
+   "arabic": "صخري",
+   "tiles": 4
+  },
+  {
+   "id": 7,
+   "english": "BUG",
+   "arabic": "حشري",
+   "tiles": 4
+  },
+  {
+   "id": 8,
+   "english": "GHOST",
+   "arabic": "شبحي",
+   "tiles": 4
+  },
+  {
+   "id": 9,
+   "english": "STEEL",
+   "arabic": "فولاذي",
+   "tiles": 5
+  },
+  {
+   "id": 19,
+   "english": "???",
+   "arabic": "غامض",
+   "tiles": 5
+  },
+  {
+   "id": 20,
+   "english": "FIRE",
+   "arabic": "ناري",
+   "tiles": 4
+  },
+  {
+   "id": 21,
+   "english": "WATER",
+   "arabic": "مائي",
+   "tiles": 4
+  },
+  {
+   "id": 22,
+   "english": "GRASS",
+   "arabic": "عشبي",
+   "tiles": 4
+  },
+  {
+   "id": 23,
+   "english": "ELECTRIC",
+   "arabic": "كهربي",
+   "tiles": 5
+  },
+  {
+   "id": 24,
+   "english": "PSYCHIC",
+   "arabic": "نفسي",
+   "tiles": 4
+  },
+  {
+   "id": 25,
+   "english": "ICE",
+   "arabic": "جليدي",
+   "tiles": 5
+  },
+  {
+   "id": 26,
+   "english": "DRAGON",
+   "arabic": "تنيني",
+   "tiles": 5
+  },
+  {
+   "id": 27,
+   "english": "DARK",
+   "arabic": "ظلامي",
+   "tiles": 4
+  }
+ ],
+ "items": [
+  {
+   "id": 1,
+   "english": "MASTER BALL",
+   "arabic": "الماستر بول",
+   "tiles": 11
+  },
+  {
+   "id": 2,
+   "english": "ULTRA BALL",
+   "arabic": "أولترا بول",
+   "tiles": 10
+  },
+  {
+   "id": 3,
+   "english": "BRIGHTPOWDER",
+   "arabic": "مسحوق البريق",
+   "tiles": 12
+  },
+  {
+   "id": 4,
+   "english": "GREAT BALL",
+   "arabic": "غريت بول",
+   "tiles": 8
+  },
+  {
+   "id": 5,
+   "english": "POKé BALL",
+   "arabic": "بوكي بول",
+   "tiles": 8
+  },
+  {
+   "id": 7,
+   "english": "BICYCLE",
+   "arabic": "دراجة هوائية",
+   "tiles": 12
+  },
+  {
+   "id": 8,
+   "english": "MOON STONE",
+   "arabic": "حجر القمر",
+   "tiles": 9
+  },
+  {
+   "id": 9,
+   "english": "ANTIDOTE",
+   "arabic": "الترياق",
+   "tiles": 7
+  },
+  {
+   "id": 10,
+   "english": "BURN HEAL",
+   "arabic": "علاج الحروق",
+   "tiles": 10
+  },
+  {
+   "id": 11,
+   "english": "ICE HEAL",
+   "arabic": "علاج التجمد",
+   "tiles": 10
+  },
+  {
+   "id": 12,
+   "english": "AWAKENING",
+   "arabic": "دواء الإيقاظ",
+   "tiles": 11
+  },
+  {
+   "id": 13,
+   "english": "PARLYZ HEAL",
+   "arabic": "علاج الشلل",
+   "tiles": 9
+  },
+  {
+   "id": 14,
+   "english": "FULL RESTORE",
+   "arabic": "تعافي كامل",
+   "tiles": 10
+  },
+  {
+   "id": 15,
+   "english": "MAX POTION",
+   "arabic": "جرعة قصوى",
+   "tiles": 9
+  },
+  {
+   "id": 16,
+   "english": "HYPER POTION",
+   "arabic": "جرعة خارقة",
+   "tiles": 10
+  },
+  {
+   "id": 17,
+   "english": "SUPER POTION",
+   "arabic": "جرعة ممتازة",
+   "tiles": 11
+  },
+  {
+   "id": 18,
+   "english": "POTION",
+   "arabic": "جرعة التعافي",
+   "tiles": 12
+  },
+  {
+   "id": 19,
+   "english": "ESCAPE ROPE",
+   "arabic": "حبل الهروب",
+   "tiles": 10
+  },
+  {
+   "id": 20,
+   "english": "REPEL",
+   "arabic": "الطارد",
+   "tiles": 6
+  },
+  {
+   "id": 21,
+   "english": "MAX ELIXER",
+   "arabic": "الإكسير الأقصى",
+   "tiles": 12
+  },
+  {
+   "id": 22,
+   "english": "FIRE STONE",
+   "arabic": "حجر النار",
+   "tiles": 9
+  },
+  {
+   "id": 23,
+   "english": "THUNDERSTONE",
+   "arabic": "حجر الرعد",
+   "tiles": 9
+  },
+  {
+   "id": 24,
+   "english": "WATER STONE",
+   "arabic": "حجر الماء",
+   "tiles": 9
+  },
+  {
+   "id": 26,
+   "english": "HP UP",
+   "arabic": "زيادة الصحة",
+   "tiles": 11
+  },
+  {
+   "id": 27,
+   "english": "PROTEIN",
+   "arabic": "بروتين",
+   "tiles": 6
+  },
+  {
+   "id": 28,
+   "english": "IRON",
+   "arabic": "حديد",
+   "tiles": 4
+  },
+  {
+   "id": 29,
+   "english": "CARBOS",
+   "arabic": "كاربوس",
+   "tiles": 7
+  },
+  {
+   "id": 30,
+   "english": "LUCKY PUNCH",
+   "arabic": "لكمة محظوظة",
+   "tiles": 11
+  },
+  {
+   "id": 31,
+   "english": "CALCIUM",
+   "arabic": "كالسيوم",
+   "tiles": 7
+  },
+  {
+   "id": 32,
+   "english": "RARE CANDY",
+   "arabic": "حلوى نادرة",
+   "tiles": 10
+  },
+  {
+   "id": 33,
+   "english": "X ACCURACY",
+   "arabic": "معزز الدقة",
+   "tiles": 10
+  },
+  {
+   "id": 34,
+   "english": "LEAF STONE",
+   "arabic": "حجر الشجر",
+   "tiles": 9
+  },
+  {
+   "id": 35,
+   "english": "METAL POWDER",
+   "arabic": "مسحوق المعدن",
+   "tiles": 12
+  },
+  {
+   "id": 36,
+   "english": "NUGGET",
+   "arabic": "سبيكة الذهب",
+   "tiles": 11
+  },
+  {
+   "id": 37,
+   "english": "POKé DOLL",
+   "arabic": "دمية البوكي",
+   "tiles": 11
+  },
+  {
+   "id": 38,
+   "english": "FULL HEAL",
+   "arabic": "شفاء كامل",
+   "tiles": 9
+  },
+  {
+   "id": 39,
+   "english": "REVIVE",
+   "arabic": "الإحياء",
+   "tiles": 6
+  },
+  {
+   "id": 40,
+   "english": "MAX REVIVE",
+   "arabic": "إحياء كامل",
+   "tiles": 10
+  },
+  {
+   "id": 41,
+   "english": "GUARD SPEC.",
+   "arabic": "درع الحماية",
+   "tiles": 11
+  },
+  {
+   "id": 42,
+   "english": "SUPER REPEL",
+   "arabic": "طارد ممتاز",
+   "tiles": 10
+  },
+  {
+   "id": 43,
+   "english": "MAX REPEL",
+   "arabic": "الطارد الأقصى",
+   "tiles": 12
+  },
+  {
+   "id": 44,
+   "english": "DIRE HIT",
+   "arabic": "معزز الحسم",
+   "tiles": 10
+  },
+  {
+   "id": 46,
+   "english": "FRESH WATER",
+   "arabic": "مياه معدنية",
+   "tiles": 11
+  },
+  {
+   "id": 47,
+   "english": "SODA POP",
+   "arabic": "مشروب غازي",
+   "tiles": 10
+  },
+  {
+   "id": 48,
+   "english": "LEMONADE",
+   "arabic": "عصير الليمون",
+   "tiles": 12
+  },
+  {
+   "id": 49,
+   "english": "X ATTACK",
+   "arabic": "معزز الهجوم",
+   "tiles": 11
+  },
+  {
+   "id": 51,
+   "english": "X DEFEND",
+   "arabic": "معزز الدفاع",
+   "tiles": 11
+  },
+  {
+   "id": 52,
+   "english": "X SPEED",
+   "arabic": "معزز السرعة",
+   "tiles": 11
+  },
+  {
+   "id": 53,
+   "english": "X SPECIAL",
+   "arabic": "معزز ق.خاصة",
+   "tiles": 11
+  },
+  {
+   "id": 54,
+   "english": "COIN CASE",
+   "arabic": "محفظة نقود",
+   "tiles": 10
+  },
+  {
+   "id": 55,
+   "english": "ITEMFINDER",
+   "arabic": "الكاشف",
+   "tiles": 6
+  },
+  {
+   "id": 57,
+   "english": "EXP.SHARE",
+   "arabic": "موزع الخبرة",
+   "tiles": 11
+  },
+  {
+   "id": 58,
+   "english": "OLD ROD",
+   "arabic": "صنارة قديمة",
+   "tiles": 11
+  },
+  {
+   "id": 59,
+   "english": "GOOD ROD",
+   "arabic": "صنارة جيدة",
+   "tiles": 10
+  },
+  {
+   "id": 60,
+   "english": "SILVER LEAF",
+   "arabic": "ورقة فضية",
+   "tiles": 9
+  },
+  {
+   "id": 61,
+   "english": "SUPER ROD",
+   "arabic": "صنارة ممتازة",
+   "tiles": 12
+  },
+  {
+   "id": 62,
+   "english": "PP UP",
+   "arabic": "زيادة القدرة",
+   "tiles": 12
+  },
+  {
+   "id": 63,
+   "english": "ETHER",
+   "arabic": "الإيثير",
+   "tiles": 6
+  },
+  {
+   "id": 64,
+   "english": "MAX ETHER",
+   "arabic": "الإيثير الأقصى",
+   "tiles": 12
+  },
+  {
+   "id": 65,
+   "english": "ELIXER",
+   "arabic": "الإكسير",
+   "tiles": 6
+  },
+  {
+   "id": 66,
+   "english": "RED SCALE",
+   "arabic": "قشرة حمراء",
+   "tiles": 10
+  },
+  {
+   "id": 67,
+   "english": "SECRETPOTION",
+   "arabic": "جرعة سرية",
+   "tiles": 9
+  },
+  {
+   "id": 68,
+   "english": "S.S.TICKET",
+   "arabic": "تذكرة باخرة",
+   "tiles": 11
+  },
+  {
+   "id": 69,
+   "english": "MYSTERY EGG",
+   "arabic": "بيضة غامضة",
+   "tiles": 10
+  },
+  {
+   "id": 70,
+   "english": "CLEAR BELL",
+   "arabic": "جرس الصفاء",
+   "tiles": 11
+  },
+  {
+   "id": 71,
+   "english": "SILVER WING",
+   "arabic": "ريشة فضية",
+   "tiles": 9
+  },
+  {
+   "id": 72,
+   "english": "MOOMOO MILK",
+   "arabic": "حليب موومو",
+   "tiles": 10
+  },
+  {
+   "id": 73,
+   "english": "QUICK CLAW",
+   "arabic": "مخلب سريع",
+   "tiles": 9
+  },
+  {
+   "id": 74,
+   "english": "PSNCUREBERRY",
+   "arabic": "توت مضاد سم",
+   "tiles": 11
+  },
+  {
+   "id": 75,
+   "english": "GOLD LEAF",
+   "arabic": "ورقة ذهبية",
+   "tiles": 10
+  },
+  {
+   "id": 76,
+   "english": "SOFT SAND",
+   "arabic": "رمل ناعم",
+   "tiles": 8
+  },
+  {
+   "id": 77,
+   "english": "SHARP BEAK",
+   "arabic": "منقار حاد",
+   "tiles": 9
+  },
+  {
+   "id": 78,
+   "english": "PRZCUREBERRY",
+   "arabic": "توت مضاد شلل",
+   "tiles": 12
+  },
+  {
+   "id": 79,
+   "english": "BURNT BERRY",
+   "arabic": "توت مضاد حرق",
+   "tiles": 12
+  },
+  {
+   "id": 80,
+   "english": "ICE BERRY",
+   "arabic": "توت مضاد برد",
+   "tiles": 12
+  },
+  {
+   "id": 81,
+   "english": "POISON BARB",
+   "arabic": "أشواك سامة",
+   "tiles": 10
+  },
+  {
+   "id": 82,
+   "english": "KING'S ROCK",
+   "arabic": "صخرة الملك",
+   "tiles": 10
+  },
+  {
+   "id": 83,
+   "english": "BITTER BERRY",
+   "arabic": "توت مر",
+   "tiles": 6
+  },
+  {
+   "id": 84,
+   "english": "MINT BERRY",
+   "arabic": "توت النعناع",
+   "tiles": 11
+  },
+  {
+   "id": 85,
+   "english": "RED APRICORN",
+   "arabic": "بلوط أحمر",
+   "tiles": 9
+  },
+  {
+   "id": 86,
+   "english": "TINYMUSHROOM",
+   "arabic": "فطر صغير",
+   "tiles": 8
+  },
+  {
+   "id": 87,
+   "english": "BIG MUSHROOM",
+   "arabic": "فطر كبير",
+   "tiles": 8
+  },
+  {
+   "id": 88,
+   "english": "SILVERPOWDER",
+   "arabic": "مسحوق فضي",
+   "tiles": 9
+  },
+  {
+   "id": 89,
+   "english": "BLU APRICORN",
+   "arabic": "بلوط أزرق",
+   "tiles": 9
+  },
+  {
+   "id": 91,
+   "english": "AMULET COIN",
+   "arabic": "تميمة حظ",
+   "tiles": 8
+  },
+  {
+   "id": 92,
+   "english": "YLW APRICORN",
+   "arabic": "بلوط أصفر",
+   "tiles": 9
+  },
+  {
+   "id": 93,
+   "english": "GRN APRICORN",
+   "arabic": "بلوط أخضر",
+   "tiles": 9
+  },
+  {
+   "id": 94,
+   "english": "CLEANSE TAG",
+   "arabic": "تعويذة تطهير",
+   "tiles": 12
+  },
+  {
+   "id": 95,
+   "english": "MYSTIC WATER",
+   "arabic": "ماء غامض",
+   "tiles": 9
+  },
+  {
+   "id": 96,
+   "english": "TWISTEDSPOON",
+   "arabic": "ملعقة ملتوية",
+   "tiles": 12
+  },
+  {
+   "id": 97,
+   "english": "WHT APRICORN",
+   "arabic": "بلوط أبيض",
+   "tiles": 10
+  },
+  {
+   "id": 98,
+   "english": "BLACKBELT",
+   "arabic": "الحزام الأسود",
+   "tiles": 12
+  },
+  {
+   "id": 99,
+   "english": "BLK APRICORN",
+   "arabic": "بلوط أسود",
+   "tiles": 9
+  },
+  {
+   "id": 101,
+   "english": "PNK APRICORN",
+   "arabic": "بلوط وردي",
+   "tiles": 9
+  },
+  {
+   "id": 102,
+   "english": "BLACKGLASSES",
+   "arabic": "نظارة سوداء",
+   "tiles": 11
+  },
+  {
+   "id": 103,
+   "english": "SLOWPOKETAIL",
+   "arabic": "ذيل سلوبوك",
+   "tiles": 10
+  },
+  {
+   "id": 104,
+   "english": "PINK BOW",
+   "arabic": "ربطة وردية",
+   "tiles": 10
+  },
+  {
+   "id": 105,
+   "english": "STICK",
+   "arabic": "عصا",
+   "tiles": 3
+  },
+  {
+   "id": 106,
+   "english": "SMOKE BALL",
+   "arabic": "كرة الدخان",
+   "tiles": 10
+  },
+  {
+   "id": 107,
+   "english": "NEVERMELTICE",
+   "arabic": "جليد سرمدي",
+   "tiles": 10
+  },
+  {
+   "id": 108,
+   "english": "MAGNET",
+   "arabic": "مغناطيس",
+   "tiles": 8
+  },
+  {
+   "id": 109,
+   "english": "MIRACLEBERRY",
+   "arabic": "توت المعجزات",
+   "tiles": 12
+  },
+  {
+   "id": 110,
+   "english": "PEARL",
+   "arabic": "لؤلؤة",
+   "tiles": 5
+  },
+  {
+   "id": 111,
+   "english": "BIG PEARL",
+   "arabic": "لؤلؤة كبيرة",
+   "tiles": 11
+  },
+  {
+   "id": 112,
+   "english": "EVERSTONE",
+   "arabic": "حجر الثبات",
+   "tiles": 10
+  },
+  {
+   "id": 113,
+   "english": "SPELL TAG",
+   "arabic": "تعويذة",
+   "tiles": 6
+  },
+  {
+   "id": 114,
+   "english": "RAGECANDYBAR",
+   "arabic": "حلوى الغضب",
+   "tiles": 10
+  },
+  {
+   "id": 115,
+   "english": "GS BALL",
+   "arabic": "كرة جي إس",
+   "tiles": 10
+  },
+  {
+   "id": 116,
+   "english": "BLUE CARD",
+   "arabic": "بطاقة زرقاء",
+   "tiles": 11
+  },
+  {
+   "id": 117,
+   "english": "MIRACLE SEED",
+   "arabic": "بذرة المعجزة",
+   "tiles": 12
+  },
+  {
+   "id": 118,
+   "english": "THICK CLUB",
+   "arabic": "عظمة سميكة",
+   "tiles": 10
+  },
+  {
+   "id": 119,
+   "english": "FOCUS BAND",
+   "arabic": "عصابة تركيز",
+   "tiles": 11
+  },
+  {
+   "id": 121,
+   "english": "ENERGYPOWDER",
+   "arabic": "مسحوق الطاقة",
+   "tiles": 12
+  },
+  {
+   "id": 122,
+   "english": "ENERGY ROOT",
+   "arabic": "جذر الطاقة",
+   "tiles": 10
+  },
+  {
+   "id": 123,
+   "english": "HEAL POWDER",
+   "arabic": "مسحوق الشفاء",
+   "tiles": 12
+  },
+  {
+   "id": 124,
+   "english": "REVIVAL HERB",
+   "arabic": "عشبة الإحياء",
+   "tiles": 11
+  },
+  {
+   "id": 125,
+   "english": "HARD STONE",
+   "arabic": "الحجر الصلب",
+   "tiles": 11
+  },
+  {
+   "id": 126,
+   "english": "LUCKY EGG",
+   "arabic": "بيضة الحظ",
+   "tiles": 9
+  },
+  {
+   "id": 127,
+   "english": "CARD KEY",
+   "arabic": "بطاقة دخول",
+   "tiles": 10
+  },
+  {
+   "id": 128,
+   "english": "MACHINE PART",
+   "arabic": "قطعة من آلة",
+   "tiles": 11
+  },
+  {
+   "id": 129,
+   "english": "EGG TICKET",
+   "arabic": "تذكرة البيضة",
+   "tiles": 12
+  },
+  {
+   "id": 130,
+   "english": "LOST ITEM",
+   "arabic": "غرض مفقود",
+   "tiles": 10
+  },
+  {
+   "id": 131,
+   "english": "STARDUST",
+   "arabic": "طلع النجوم",
+   "tiles": 10
+  },
+  {
+   "id": 132,
+   "english": "STAR PIECE",
+   "arabic": "قطعة نجمية",
+   "tiles": 10
+  },
+  {
+   "id": 133,
+   "english": "BASEMENT KEY",
+   "arabic": "مفتاح القبو",
+   "tiles": 11
+  },
+  {
+   "id": 134,
+   "english": "PASS",
+   "arabic": "تذكرة القطار",
+   "tiles": 12
+  },
+  {
+   "id": 138,
+   "english": "CHARCOAL",
+   "arabic": "الفحم",
+   "tiles": 5
+  },
+  {
+   "id": 139,
+   "english": "BERRY JUICE",
+   "arabic": "عصير التوت",
+   "tiles": 10
+  },
+  {
+   "id": 140,
+   "english": "SCOPE LENS",
+   "arabic": "عدسة التصويب",
+   "tiles": 12
+  },
+  {
+   "id": 143,
+   "english": "METAL COAT",
+   "arabic": "طلاء معدني",
+   "tiles": 9
+  },
+  {
+   "id": 144,
+   "english": "DRAGON FANG",
+   "arabic": "ناب التنين",
+   "tiles": 10
+  },
+  {
+   "id": 146,
+   "english": "LEFTOVERS",
+   "arabic": "بقايا الطعام",
+   "tiles": 12
+  },
+  {
+   "id": 150,
+   "english": "MYSTERYBERRY",
+   "arabic": "توت غامض",
+   "tiles": 8
+  },
+  {
+   "id": 151,
+   "english": "DRAGON SCALE",
+   "arabic": "حرشفة التنين",
+   "tiles": 12
+  },
+  {
+   "id": 152,
+   "english": "BERSERK GENE",
+   "arabic": "جين الهياج",
+   "tiles": 10
+  },
+  {
+   "id": 156,
+   "english": "SACRED ASH",
+   "arabic": "رماد مقدس",
+   "tiles": 10
+  },
+  {
+   "id": 157,
+   "english": "HEAVY BALL",
+   "arabic": "هيفي بول",
+   "tiles": 8
+  },
+  {
+   "id": 158,
+   "english": "FLOWER MAIL",
+   "arabic": "بريد الأزهار",
+   "tiles": 11
+  },
+  {
+   "id": 159,
+   "english": "LEVEL BALL",
+   "arabic": "ليفل بول",
+   "tiles": 8
+  },
+  {
+   "id": 160,
+   "english": "LURE BALL",
+   "arabic": "لور بول",
+   "tiles": 7
+  },
+  {
+   "id": 161,
+   "english": "FAST BALL",
+   "arabic": "فاست بول",
+   "tiles": 8
+  },
+  {
+   "id": 163,
+   "english": "LIGHT BALL",
+   "arabic": "لايت بول",
+   "tiles": 7
+  },
+  {
+   "id": 164,
+   "english": "FRIEND BALL",
+   "arabic": "فريند بول",
+   "tiles": 9
+  },
+  {
+   "id": 165,
+   "english": "MOON BALL",
+   "arabic": "مون بول",
+   "tiles": 7
+  },
+  {
+   "id": 166,
+   "english": "LOVE BALL",
+   "arabic": "لوف بول",
+   "tiles": 7
+  },
+  {
+   "id": 167,
+   "english": "NORMAL BOX",
+   "arabic": "صندوق عادي",
+   "tiles": 10
+  },
+  {
+   "id": 168,
+   "english": "GORGEOUS BOX",
+   "arabic": "صندوق فاخر",
+   "tiles": 10
+  },
+  {
+   "id": 169,
+   "english": "SUN STONE",
+   "arabic": "حجر الشمس",
+   "tiles": 10
+  },
+  {
+   "id": 170,
+   "english": "POLKADOT BOW",
+   "arabic": "ربطة منقطة",
+   "tiles": 10
+  },
+  {
+   "id": 172,
+   "english": "UP-GRADE",
+   "arabic": "ترقية",
+   "tiles": 5
+  },
+  {
+   "id": 173,
+   "english": "BERRY",
+   "arabic": "التوت",
+   "tiles": 5
+  },
+  {
+   "id": 174,
+   "english": "GOLD BERRY",
+   "arabic": "التوت الذهبي",
+   "tiles": 12
+  },
+  {
+   "id": 175,
+   "english": "SQUIRTBOTTLE",
+   "arabic": "إناء السقي",
+   "tiles": 10
+  },
+  {
+   "id": 177,
+   "english": "PARK BALL",
+   "arabic": "بارك بول",
+   "tiles": 8
+  },
+  {
+   "id": 178,
+   "english": "RAINBOW WING",
+   "arabic": "ريشة قوس قزح",
+   "tiles": 12
+  },
+  {
+   "id": 180,
+   "english": "BRICK PIECE",
+   "arabic": "قطعة طوب",
+   "tiles": 8
+  },
+  {
+   "id": 181,
+   "english": "SURF MAIL",
+   "arabic": "بريد الأمواج",
+   "tiles": 11
+  },
+  {
+   "id": 182,
+   "english": "LITEBLUEMAIL",
+   "arabic": "بريد أزرق",
+   "tiles": 9
+  },
+  {
+   "id": 183,
+   "english": "PORTRAITMAIL",
+   "arabic": "بريد الصورة",
+   "tiles": 11
+  },
+  {
+   "id": 184,
+   "english": "LOVELY MAIL",
+   "arabic": "بريد رومانسي",
+   "tiles": 12
+  },
+  {
+   "id": 185,
+   "english": "EON MAIL",
+   "arabic": "بريد الأبدية",
+   "tiles": 11
+  },
+  {
+   "id": 186,
+   "english": "MORPH MAIL",
+   "arabic": "بريد متحول",
+   "tiles": 10
+  },
+  {
+   "id": 187,
+   "english": "BLUESKY MAIL",
+   "arabic": "بريد السماء",
+   "tiles": 11
+  },
+  {
+   "id": 188,
+   "english": "MUSIC MAIL",
+   "arabic": "بريد موسيقي",
+   "tiles": 11
+  },
+  {
+   "id": 189,
+   "english": "MIRAGE MAIL",
+   "arabic": "بريد السراب",
+   "tiles": 11
+  },
+  {
+   "id": 191,
+   "english": "TM01",
+   "arabic": "ق.ت 01",
+   "tiles": 6
+  },
+  {
+   "id": 192,
+   "english": "TM02",
+   "arabic": "ق.ت 02",
+   "tiles": 6
+  },
+  {
+   "id": 193,
+   "english": "TM03",
+   "arabic": "ق.ت 03",
+   "tiles": 6
+  },
+  {
+   "id": 194,
+   "english": "TM04",
+   "arabic": "ق.ت 04",
+   "tiles": 6
+  },
+  {
+   "id": 196,
+   "english": "TM05",
+   "arabic": "ق.ت 05",
+   "tiles": 6
+  },
+  {
+   "id": 197,
+   "english": "TM06",
+   "arabic": "ق.ت 06",
+   "tiles": 6
+  },
+  {
+   "id": 198,
+   "english": "TM07",
+   "arabic": "ق.ت 07",
+   "tiles": 6
+  },
+  {
+   "id": 199,
+   "english": "TM08",
+   "arabic": "ق.ت 08",
+   "tiles": 6
+  },
+  {
+   "id": 200,
+   "english": "TM09",
+   "arabic": "ق.ت 09",
+   "tiles": 6
+  },
+  {
+   "id": 201,
+   "english": "TM10",
+   "arabic": "ق.ت 10",
+   "tiles": 6
+  },
+  {
+   "id": 202,
+   "english": "TM11",
+   "arabic": "ق.ت 11",
+   "tiles": 6
+  },
+  {
+   "id": 203,
+   "english": "TM12",
+   "arabic": "ق.ت 12",
+   "tiles": 6
+  },
+  {
+   "id": 204,
+   "english": "TM13",
+   "arabic": "ق.ت 13",
+   "tiles": 6
+  },
+  {
+   "id": 205,
+   "english": "TM14",
+   "arabic": "ق.ت 14",
+   "tiles": 6
+  },
+  {
+   "id": 206,
+   "english": "TM15",
+   "arabic": "ق.ت 15",
+   "tiles": 6
+  },
+  {
+   "id": 207,
+   "english": "TM16",
+   "arabic": "ق.ت 16",
+   "tiles": 6
+  },
+  {
+   "id": 208,
+   "english": "TM17",
+   "arabic": "ق.ت 17",
+   "tiles": 6
+  },
+  {
+   "id": 209,
+   "english": "TM18",
+   "arabic": "ق.ت 18",
+   "tiles": 6
+  },
+  {
+   "id": 210,
+   "english": "TM19",
+   "arabic": "ق.ت 19",
+   "tiles": 6
+  },
+  {
+   "id": 211,
+   "english": "TM20",
+   "arabic": "ق.ت 20",
+   "tiles": 6
+  },
+  {
+   "id": 212,
+   "english": "TM21",
+   "arabic": "ق.ت 21",
+   "tiles": 6
+  },
+  {
+   "id": 213,
+   "english": "TM22",
+   "arabic": "ق.ت 22",
+   "tiles": 6
+  },
+  {
+   "id": 214,
+   "english": "TM23",
+   "arabic": "ق.ت 23",
+   "tiles": 6
+  },
+  {
+   "id": 215,
+   "english": "TM24",
+   "arabic": "ق.ت 24",
+   "tiles": 6
+  },
+  {
+   "id": 216,
+   "english": "TM25",
+   "arabic": "ق.ت 25",
+   "tiles": 6
+  },
+  {
+   "id": 217,
+   "english": "TM26",
+   "arabic": "ق.ت 26",
+   "tiles": 6
+  },
+  {
+   "id": 218,
+   "english": "TM27",
+   "arabic": "ق.ت 27",
+   "tiles": 6
+  },
+  {
+   "id": 219,
+   "english": "TM28",
+   "arabic": "ق.ت 28",
+   "tiles": 6
+  },
+  {
+   "id": 221,
+   "english": "TM29",
+   "arabic": "ق.ت 29",
+   "tiles": 6
+  },
+  {
+   "id": 222,
+   "english": "TM30",
+   "arabic": "ق.ت 30",
+   "tiles": 6
+  },
+  {
+   "id": 223,
+   "english": "TM31",
+   "arabic": "ق.ت 31",
+   "tiles": 6
+  },
+  {
+   "id": 224,
+   "english": "TM32",
+   "arabic": "ق.ت 32",
+   "tiles": 6
+  },
+  {
+   "id": 225,
+   "english": "TM33",
+   "arabic": "ق.ت 33",
+   "tiles": 6
+  },
+  {
+   "id": 226,
+   "english": "TM34",
+   "arabic": "ق.ت 34",
+   "tiles": 6
+  },
+  {
+   "id": 227,
+   "english": "TM35",
+   "arabic": "ق.ت 35",
+   "tiles": 6
+  },
+  {
+   "id": 228,
+   "english": "TM36",
+   "arabic": "ق.ت 36",
+   "tiles": 6
+  },
+  {
+   "id": 229,
+   "english": "TM37",
+   "arabic": "ق.ت 37",
+   "tiles": 6
+  },
+  {
+   "id": 230,
+   "english": "TM38",
+   "arabic": "ق.ت 38",
+   "tiles": 6
+  },
+  {
+   "id": 231,
+   "english": "TM39",
+   "arabic": "ق.ت 39",
+   "tiles": 6
+  },
+  {
+   "id": 232,
+   "english": "TM40",
+   "arabic": "ق.ت 40",
+   "tiles": 6
+  },
+  {
+   "id": 233,
+   "english": "TM41",
+   "arabic": "ق.ت 41",
+   "tiles": 6
+  },
+  {
+   "id": 234,
+   "english": "TM42",
+   "arabic": "ق.ت 42",
+   "tiles": 6
+  },
+  {
+   "id": 235,
+   "english": "TM43",
+   "arabic": "ق.ت 43",
+   "tiles": 6
+  },
+  {
+   "id": 236,
+   "english": "TM44",
+   "arabic": "ق.ت 44",
+   "tiles": 6
+  },
+  {
+   "id": 237,
+   "english": "TM45",
+   "arabic": "ق.ت 45",
+   "tiles": 6
+  },
+  {
+   "id": 238,
+   "english": "TM46",
+   "arabic": "ق.ت 46",
+   "tiles": 6
+  },
+  {
+   "id": 239,
+   "english": "TM47",
+   "arabic": "ق.ت 47",
+   "tiles": 6
+  },
+  {
+   "id": 240,
+   "english": "TM48",
+   "arabic": "ق.ت 48",
+   "tiles": 6
+  },
+  {
+   "id": 241,
+   "english": "TM49",
+   "arabic": "ق.ت 49",
+   "tiles": 6
+  },
+  {
+   "id": 242,
+   "english": "TM50",
+   "arabic": "ق.ت 50",
+   "tiles": 6
+  },
+  {
+   "id": 243,
+   "english": "HM01",
+   "arabic": "ق.م 01",
+   "tiles": 6
+  },
+  {
+   "id": 244,
+   "english": "HM02",
+   "arabic": "ق.م 02",
+   "tiles": 6
+  },
+  {
+   "id": 245,
+   "english": "HM03",
+   "arabic": "ق.م 03",
+   "tiles": 6
+  },
+  {
+   "id": 246,
+   "english": "HM04",
+   "arabic": "ق.م 04",
+   "tiles": 6
+  },
+  {
+   "id": 247,
+   "english": "HM05",
+   "arabic": "ق.م 05",
+   "tiles": 6
+  },
+  {
+   "id": 248,
+   "english": "HM06",
+   "arabic": "ق.م 06",
+   "tiles": 6
+  },
+  {
+   "id": 249,
+   "english": "HM07",
+   "arabic": "ق.م 07",
+   "tiles": 6
+  }
+ ]
+}
