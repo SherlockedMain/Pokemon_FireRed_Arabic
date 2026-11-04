@@ -1,6 +1,7 @@
 #include "global.h"
 #include "window.h"
 #include "text.h"
+#include "arabic_codes.h"
 
 static EWRAM_DATA struct TextPrinter sTempTextPrinter = {0};
 static EWRAM_DATA struct TextPrinter sTextPrinters[NUM_TEXT_PRINTERS] = {0};
@@ -249,10 +250,12 @@ u8 GetLastTextColor(u8 colorType)
 
 #if TEXT_RTL
 // Characters that read left-to-right: digits, Latin letters (incl. accented),
-// and the LV/PP/ID/No. symbols. Arabic glyphs live at F9 18..F9 9D.
+// and the LV/PP/ID/No. symbols. Arabic glyphs use single-byte codes (arabic_codes.h).
 static bool8 RtlIsLtrStrong(const u8 *s)
 {
     u8 c = s[0];
+    if (c < CHAR_KEYPAD_ICON && IS_ARABIC_CODE(c))
+        return FALSE;
     if (c == CHAR_EXTRA_SYMBOL)
         return s[1] >= 0x05 && s[1] <= 0x08;
     return (c >= 0x01 && c <= 0x2C) || c == 0x34 || (c >= 0x53 && c <= 0x5A)
@@ -262,7 +265,7 @@ static bool8 RtlIsLtrStrong(const u8 *s)
 
 static bool8 RtlIsArabic(const u8 *s)
 {
-    return s[0] == CHAR_EXTRA_SYMBOL && s[1] >= 0x18 && s[1] <= 0x9D;
+    return s[0] < CHAR_KEYPAD_ICON && IS_ARABIC_CODE(s[0]);   // see include/arabic_codes.h
 }
 
 static u8 RtlCharLen(const u8 *s)

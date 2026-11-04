@@ -12,7 +12,7 @@ to the source for a row that does not fit; the script lists those rows.
 import importlib, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'translations'))
-from arabic_text import wrap_pairs, measure, paragraphs, shape, ROOT
+from arabic_text import wrap_pairs, measure, paragraphs, shape, tokens, ROOT
 
 def layout(entry, ar):
     """-> (pieces, preview_lines, problems). pieces = [(shaped_line, sep)], sep in '\\n', '\\p', ''."""
@@ -29,6 +29,10 @@ def layout(entry, ar):
         for raw in ar.split('\n'):
             s = shape(raw)
             check(s, raw)
+            if entry.get('max_bytes') and len(tokens(s)) > entry['max_bytes']:
+                problems.append('"%s" is %d letters, max %d' % (raw, len(tokens(s)), entry['max_bytes']))
+            if entry.get('small_px') and measure(s, 'small') > entry['small_px']:
+                problems.append('"%s" is %d px in the small font, max %d' % (raw, measure(s, 'small'), entry['small_px']))
             pieces.append((s, '\n')); preview.append(raw)
         if len(pieces) > max_lines:
             problems.append('%d lines, max %d' % (len(pieces), max_lines))
@@ -97,6 +101,11 @@ def write_entry(entry, pieces):
             raise SystemExit('label %s not found in %s' % (label, entry['file']))
         indent = re.match(r'[ \t]*', m.group(1)).group(0)
         src = src[:m.start(1)] + to_inc(pieces, indent) + src[m.end(1):]
+    elif entry.get('key'):     # array table: [SPECIES_X] = _("...")
+        m = re.search(r'\[%s\]\s*=\s*_\("(.*?)"\)' % re.escape(entry['key']), src)
+        if not m:
+            raise SystemExit('key %s not found in %s' % (entry['key'], entry['file']))
+        src = src[:m.start(1)] + to_c(pieces) + src[m.end(1):]
     else:
         m = re.search(r'\b%s\[\] = _\("(.*?)"\);' % re.escape(label), src)
         if not m:

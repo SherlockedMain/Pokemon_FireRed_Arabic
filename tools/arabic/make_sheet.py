@@ -32,6 +32,8 @@ def english(vanilla, entry):
             body = re.sub(r'#if.*?#else.*?\n', '', m.group(1), flags=re.S).replace('#endif\n', '')
         text = ''.join(re.findall(r'\.string "(.*)"', body))
         text = re.sub(r'\{(COLOR|FONT|PLAY_BGM|MUS_|PAUSE|RESUME_MUSIC)[^}]*\}', '', text)
+    elif entry.get('key'):
+        text = re.search(r'\[%s\]\s*=\s*_\("(.*?)"\)' % re.escape(entry['key']), src).group(1)
     else:
         text = re.search(r'\b%s\[\] = _\("(.*?)"\);' % re.escape(entry['id']), src).group(1)
     text = text.rstrip('$').replace('\\p', '\n\n').replace('\\n', '\n').replace('\\l', '\n')
