@@ -21,6 +21,15 @@
 #include "constants/moves.h"
 #include "constants/pokemon.h"
 
+#if TEXT_RTL
+// The battle menus are mirrored, so the left/right buttons swap too.
+#define RTL_DPAD_LEFT DPAD_RIGHT
+#define RTL_DPAD_RIGHT DPAD_LEFT
+#else
+#define RTL_DPAD_LEFT DPAD_LEFT
+#define RTL_DPAD_RIGHT DPAD_RIGHT
+#endif
+
 struct PokedudeTextScriptHeader
 {
     u8 btlcmd;

@@ -24,6 +24,16 @@
 #include "constants/songs.h"
 #include "constants/sound.h"
 
+
+#if TEXT_RTL
+// The battle menus are mirrored, so the left/right buttons swap too.
+#define RTL_DPAD_LEFT DPAD_RIGHT
+#define RTL_DPAD_RIGHT DPAD_LEFT
+#else
+#define RTL_DPAD_LEFT DPAD_LEFT
+#define RTL_DPAD_RIGHT DPAD_RIGHT
+#endif
+
 static void PlayerHandleGetMonData(void);
 static void PlayerHandleSetMonData(void);
 static void PlayerHandleSetRawMonData(void);
@@ -243,7 +253,7 @@ static void HandleInputChooseAction(void)
         }
         PlayerBufferExecCompleted();
     }
-    else if (JOY_NEW(DPAD_LEFT))
+    else if (JOY_NEW(RTL_DPAD_LEFT))
     {
         if (gActionSelectionCursor[gActiveBattler] & 1) // if is B_ACTION_USE_ITEM or B_ACTION_RUN
         {
@@ -253,7 +263,7 @@ static void HandleInputChooseAction(void)
             ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
         }
     }
-    else if (JOY_NEW(DPAD_RIGHT))
+    else if (JOY_NEW(RTL_DPAD_RIGHT))
     {
         if (!(gActionSelectionCursor[gActiveBattler] & 1)) // if is B_ACTION_USE_MOVE or B_ACTION_SWITCH
         {
@@ -595,14 +605,14 @@ static u32 HandleMoveInputUnused(void)
         gBattle_BG0_Y = 0x140;
         var = 0xFF;
     }
-    if (JOY_NEW(DPAD_LEFT) && gMoveSelectionCursor[gActiveBattler] & 1)
+    if (JOY_NEW(RTL_DPAD_LEFT) && gMoveSelectionCursor[gActiveBattler] & 1)
     {
         MoveSelectionDestroyCursorAt(gMoveSelectionCursor[gActiveBattler]);
         gMoveSelectionCursor[gActiveBattler] ^= 1;
         PlaySE(SE_SELECT);
         MoveSelectionCreateCursorAt(gMoveSelectionCursor[gActiveBattler], 0);
     }
-    if (JOY_NEW(DPAD_RIGHT) && !(gMoveSelectionCursor[gActiveBattler] & 1)
+    if (JOY_NEW(RTL_DPAD_RIGHT) && !(gMoveSelectionCursor[gActiveBattler] & 1)
         && (gMoveSelectionCursor[gActiveBattler] ^ 1) < gNumberOfMovesToChoose)
     {
         MoveSelectionDestroyCursorAt(gMoveSelectionCursor[gActiveBattler]);
@@ -728,7 +738,7 @@ static void HandleMoveSwitching(void)
         MoveSelectionDisplayPpNumber();
         MoveSelectionDisplayMoveType();
     }
-    if (JOY_NEW(DPAD_LEFT))
+    if (JOY_NEW(RTL_DPAD_LEFT))
     {
         if (gMultiUsePlayerCursor & 1)
         {
@@ -744,7 +754,7 @@ static void HandleMoveSwitching(void)
                 MoveSelectionCreateCursorAt(gMultiUsePlayerCursor, 27);
         }
     }
-    if (JOY_NEW(DPAD_RIGHT))
+    if (JOY_NEW(RTL_DPAD_RIGHT))
     {
         if (!(gMultiUsePlayerCursor & 1) && (gMultiUsePlayerCursor ^ 1) < gNumberOfMovesToChoose)
         {
@@ -1464,7 +1474,7 @@ void ActionSelectionCreateCursorAt(u8 cursorPosition, u8 arg1)
 #if TEXT_RTL
     src[0] |= 0x400; // RTL: cursor right of the item, arrow flipped to point left
     src[1] |= 0x400;
-    CopyToBgTilemapBufferRect_ChangePalette(0, src, 29 - 7 * (cursorPosition & 1), 35 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 28 - 6 * (cursorPosition & 1), 35 + (cursorPosition & 2), 1, 2, 0x11);
 #else
     CopyToBgTilemapBufferRect_ChangePalette(0, src, 7 * (cursorPosition & 1) + 16, 35 + (cursorPosition & 2), 1, 2, 0x11);
 #endif
@@ -1478,7 +1488,7 @@ void ActionSelectionDestroyCursorAt(u8 cursorPosition)
     src[0] = 32;
     src[1] = 32;
 #if TEXT_RTL
-    CopyToBgTilemapBufferRect_ChangePalette(0, src, 29 - 7 * (cursorPosition & 1), 35 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 28 - 6 * (cursorPosition & 1), 35 + (cursorPosition & 2), 1, 2, 0x11);
 #else
     CopyToBgTilemapBufferRect_ChangePalette(0, src, 7 * (cursorPosition & 1) + 16, 35 + (cursorPosition & 2), 1, 2, 0x11);
 #endif

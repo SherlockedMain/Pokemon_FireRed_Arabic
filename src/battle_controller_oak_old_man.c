@@ -18,6 +18,15 @@
 #include "constants/songs.h"
 #include "constants/items.h"
 
+#if TEXT_RTL
+// The battle menus are mirrored, so the left/right buttons swap too.
+#define RTL_DPAD_LEFT DPAD_RIGHT
+#define RTL_DPAD_RIGHT DPAD_LEFT
+#else
+#define RTL_DPAD_LEFT DPAD_LEFT
+#define RTL_DPAD_RIGHT DPAD_RIGHT
+#endif
+
 static void OakOldManHandleGetMonData(void);
 static void OakOldManHandleGetRawMonData(void);
 static void OakOldManHandleSetMonData(void);
@@ -209,7 +218,7 @@ static void HandleInputChooseAction(void)
         }
         OakOldManBufferExecCompleted();
     }
-    else if (JOY_NEW(DPAD_LEFT))
+    else if (JOY_NEW(RTL_DPAD_LEFT))
     {
         if (gActionSelectionCursor[gActiveBattler] & 1) // if is B_ACTION_USE_ITEM or B_ACTION_RUN
         {
@@ -219,7 +228,7 @@ static void HandleInputChooseAction(void)
             ActionSelectionCreateCursorAt(gActionSelectionCursor[gActiveBattler], 0);
         }
     }
-    else if (JOY_NEW(DPAD_RIGHT))
+    else if (JOY_NEW(RTL_DPAD_RIGHT))
     {
         if (!(gActionSelectionCursor[gActiveBattler] & 1)) // if is B_ACTION_USE_MOVE or B_ACTION_SWITCH
         {

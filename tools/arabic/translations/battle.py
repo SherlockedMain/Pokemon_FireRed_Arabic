@@ -80,9 +80,9 @@ _E = [
     # ---- Menus -------------------------------------------------------------------------------
     B('gText_WhatWillPkmnDo', 'Action prompt', 'ماذا سيفعل\n{B_ACTIVE_NAME_WITH_PREFIX}؟', box=PROMPT),
     B('gText_WhatWillPlayerThrow', 'Safari prompt', 'ماذا سيرمي\n{B_PLAYER_NAME}؟', box=PROMPT),
-    B('gText_BattleMenu', 'FIGHT / BAG / POKéMON / RUN', 'قتال{CLEAR_TO 56}حقيبة\nبوكيمون{CLEAR_TO 56}هروب', box=MENU,
-      note='Keep {CLEAR_TO 56}: it starts the second column.'),
-    B('gText_SafariZoneMenu', 'Safari: BALL / BAIT / ROCK / RUN', 'كرة{CLEAR_TO 56}طُعم\nحجر{CLEAR_TO 56}هروب', box=MENU),
+    B('gText_BattleMenu', 'FIGHT / BAG / POKéMON / RUN', '{CLEAR_TO 8}قتال{CLEAR_TO 56}حقيبة\n{CLEAR_TO 8}الفريق{CLEAR_TO 56}هروب', box=MENU,
+      note='Each column holds at most 40 px: «بوكيمون» (53 px) does not fit, so POKéMON -> «الفريق» (your team). Keep {CLEAR_TO 8} (cursor room on the right) and {CLEAR_TO 56} (second column).'),
+    B('gText_SafariZoneMenu', 'Safari: BALL / BAIT / ROCK / RUN', '{CLEAR_TO 8}كرة{CLEAR_TO 56}طُعم\n{CLEAR_TO 8}حجر{CLEAR_TO 56}هروب', box=MENU),
 
     # ---- Attacking -------------------------------------------------------------------------------
     B('sText_AttackerUsedX', 'X used MOVE!', 'استخدم {B_ATK_NAME_WITH_PREFIX}\n{B_BUFF2}',
@@ -224,7 +224,7 @@ README = [
 
 GLOSSARY = [
     ('Wild X / Foe X', 'X البري / X الخصم', 'Written after the name.'),
-    ('FIGHT / BAG / POKéMON / RUN', 'قتال / حقيبة / بوكيمون / هروب', ''),
+    ('FIGHT / BAG / POKéMON / RUN', 'قتال / حقيبة / الفريق / هروب', 'POKéMON -> «الفريق»: «بوكيمون» is too wide for the menu column.'),
     ('BALL / BAIT / ROCK (Safari)', 'كرة / طُعم / حجر', ''),
     ('It\'s super effective!', 'إنها ضربة فعالة جدا!', ''),
     ('It\'s not very effective…', 'ليست فعالة كثيرا…', ''),
