@@ -23,6 +23,10 @@ THIN = Side(style='thin', color='BFBFBF')
 BORDER = Border(left=THIN, right=THIN, top=THIN, bottom=THIN)
 
 def english(vanilla, entry):
+    if entry.get('json'):
+        data = json.load(open(os.path.join(vanilla, entry['file']), encoding='utf-8'))
+        v = next(i for i in data['items'] if i['itemId'] == entry['json'])[entry['json_field']]
+        return v.replace('\\\\n', '\n').replace('\\n', '\n')
     src = open(os.path.join(vanilla, entry['file']), encoding='utf-8').read()
     if entry['file'].endswith(('.inc', '.s')):
         m = re.search(r'^%s::\n((?:(?:[ \t]*\.string .*|#if.*|#else.*|#endif.*)\n)+)' % re.escape(entry['id']), src, re.M)
@@ -33,7 +37,7 @@ def english(vanilla, entry):
         text = ''.join(re.findall(r'\.string "(.*)"', body))
         text = re.sub(r'\{(COLOR|FONT|PLAY_BGM|MUS_|PAUSE|RESUME_MUSIC)[^}]*\}', '', text)
     elif entry.get('key'):
-        text = re.search(r'\[%s\]\s*=\s*_\("(.*?)"\)' % re.escape(entry['key']), src).group(1)
+        text = re.search(entry.get('pattern', r'\[%s\]\s*=\s*_\("(.*?)"\)') % re.escape(entry['key']), src).group(1)
     else:
         text = re.search(r'\b%s\[\] = _\("(.*?)"\);' % re.escape(entry['id']), src).group(1)
     text = text.rstrip('$').replace('\\p', '\n\n').replace('\\n', '\n').replace('\\l', '\n')

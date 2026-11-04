@@ -63,14 +63,14 @@ ViridianCity_School_Text_ExplainSleep::
     .string "ﺇﻥ ﻛﺎﻥ ﻧﺎﺋﻤﺎ.\p"
     .string "ﻭﻳﺒﻘﻰ ﺒﻮﻛﻴﻤﻮﻥ ﻧﺎﺋﻤﺎ ﺣﺘﻰ\n"
     .string "ﺑﻌﺪ ﺍﻧﺘﻬﺎﺀ ﻨﺰﻝ.\p"
-    .string "ﺍﺳﺘﺨﺪﻡ ﻤﻨﺒﻪ ﻹﻳﻘﺎﻇﻪ\n"
+    .string "ﺍﺳﺘﺨﺪﻡ ﺩﻭﺀ ﺍﻹﻳﻘﺎﻅ ﻹﻳﻘﺎﻇﻪ\n"
     .string "ﻣﻦ ﻨﻮﻡ.$"
 
 ViridianCity_School_Text_ExplainBurn::
     .string "ﺤﺮﻕ ﻳﻀﻌﻒ ﻗﻮﺓ ﻬﺠﻮﻡ،\n"
     .string "ﻭﻳﺴﺒﺐ ﺧﺴﺎﺭﺓ ﻣﺴﺘﻤﺮﺓ ﻓﻲ HP.\p"
     .string "ﻭﻳﺒﻘﻰ ﺤﺮﻕ ﺑﻌﺪ ﻨﺰﻝ.\n"
-    .string "ﺍﺳﺘﺨﺪﻡ ﻣﺮﻫﻢ ﺤﺮﻭﻕ ﻟﻌﻼﺟﻪ.$"
+    .string "ﺍﺳﺘﺨﺪﻡ ﻋﻼﺝ ﺤﺮﻭﻕ ﻟﻤﺪﻭﺗﻪ.$"
 
 ViridianCity_School_Text_ExplainPoison::
     .string "ﺣﻴﻦ ﻳﺴﻤﻢ ﺒﻮﻛﻴﻤﻮﻥ،\n"
@@ -83,7 +83,7 @@ ViridianCity_School_Text_ExplainFreeze::
     .string "ﻋﺎﺟﺰ ﻋﻦ ﺤﺮﻛﺔ ﺗﻤﺎﻣﺎ.\p"
     .string "ﻭﻳﺒﻘﻰ ﻣﺘﺠﻤﺪ ﺣﺘﻰ ﺑﻌﺪ\n"
     .string "ﺍﻧﺘﻬﺎﺀ ﻨﺰﻝ.\p"
-    .string "ﺍﺳﺘﺨﺪﻡ ﻣﺬﻳﺐ ﺠﻠﻴﺪ ﻟﺘﺬﻳﺐ\n"
+    .string "ﺍﺳﺘﺨﺪﻡ ﻋﻼﺝ ﺘﺠﻤﺪ ﻟﺘﺬﻳﺐ\n"
     .string "ﺠﻠﻴﺪ ﻋﻦ ﺒﻮﻛﻴﻤﻮﻥ.$"
 
 ViridianCity_School_Text_ExplainParalysis::

@@ -60,8 +60,7 @@ PewterCity_Text_ThatsRightItsHardWork::
     .string "ﺇﻧﻪ ﻋﻤﻞ ﺷﺎﻕ!$"
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut::
-    .string "ﺃﺭﺵ ﻃﺎﺭﺩ ﺒﻮﻛﻴﻤﻮﻥ ﻷﺑﻘﻲ\n"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ\p"
+    .string "ﺃﺭﺵ ﻄﺎﺭﺩ ﻷﺑﻘﻲ ﺒﻮﻛﻴﻤﻮﻥ\n"
     .string "ﺒﺮﻳﺔ ﺑﻌﻴﺪ ﻋﻦ ﺣﺪﻳﻘﺘﻲ!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::

@@ -75,7 +75,23 @@ def to_inc(pieces, indent):
 def to_c(pieces):
     return ''.join(s + ('\\n' if sep == '\n' else sep) for s, sep in pieces)
 
+def write_json_field(entry, pieces):
+    """items.json: {"items": [{"itemId": ..., "english": ..., "description_english": ...}]}"""
+    import json
+    path = os.path.join(ROOT, entry['file'])
+    data = json.load(open(path, encoding='utf-8'))
+    item = next(i for i in data['items'] if i['itemId'] == entry['json'])
+    orig = item[entry['json_field']]
+    value = to_c(pieces)
+    if '\\\\n' in orig:                       # keep the file's own newline escaping
+        value = value.replace('\\n', '\\\\n')
+    item[entry['json_field']] = value
+    json.dump(data, open(path, 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
+    open(path, 'a', encoding='utf-8').write('\n')
+
 def write_entry(entry, pieces):
+    if entry.get('json'):
+        return write_json_field(entry, pieces)
     if entry.get('codes'):   # {X1}, {X2}... stand for control codes written in the source
         pieces = [(re.sub(r'\{(X\d)\}', lambda k: entry['codes'][k.group(1)], s_), sep) for s_, sep in pieces]
     path = os.path.join(ROOT, entry['file'])
@@ -101,8 +117,8 @@ def write_entry(entry, pieces):
             raise SystemExit('label %s not found in %s' % (label, entry['file']))
         indent = re.match(r'[ \t]*', m.group(1)).group(0)
         src = src[:m.start(1)] + to_inc(pieces, indent) + src[m.end(1):]
-    elif entry.get('key'):     # array table: [SPECIES_X] = _("...")
-        m = re.search(r'\[%s\]\s*=\s*_\("(.*?)"\)' % re.escape(entry['key']), src)
+    elif entry.get('key'):     # array table: [SPECIES_X] = _("...")  or  [ITEM_X] = { .name = _("...")
+        m = re.search(entry.get('pattern', r'\[%s\]\s*=\s*_\("(.*?)"\)') % re.escape(entry['key']), src)
         if not m:
             raise SystemExit('key %s not found in %s' % (entry['key'], entry['file']))
         src = src[:m.start(1)] + to_c(pieces) + src[m.end(1):]
