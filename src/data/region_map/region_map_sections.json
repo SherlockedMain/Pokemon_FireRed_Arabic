@@ -266,879 +266,988 @@
     },
     {
       "id": "MAPSEC_PALLET_TOWN",
-      "name": "PALLET TOWN",
+      "name": "ﺑﻠﺪﺓ ﺑﺎﻟﻴﺖ",
       "x": 4,
       "y": 11,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "PALLET TOWN"
     },
     {
       "id": "MAPSEC_VIRIDIAN_CITY",
-      "name": "VIRIDIAN CITY",
+      "name": "ﻣﺪﻳﻨﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ",
       "x": 4,
       "y": 8,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "VIRIDIAN CITY"
     },
     {
       "id": "MAPSEC_PEWTER_CITY",
-      "name": "PEWTER CITY",
+      "name": "ﻣﺪﻳﻨﺔ ﺑﻴﻮﺗﺮ",
       "x": 4,
       "y": 4,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "PEWTER CITY"
     },
     {
       "id": "MAPSEC_CERULEAN_CITY",
-      "name": "CERULEAN CITY",
+      "name": "ﻣﺪﻳﻨﺔ ﺳﻴﺮﻭﻟﻴﻦ",
       "x": 14,
       "y": 3,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "CERULEAN CITY"
     },
     {
       "id": "MAPSEC_LAVENDER_TOWN",
-      "name": "LAVENDER TOWN",
+      "name": "ﺑﻠﺪﺓ ﻻﻓﻨﺪﺭ",
       "x": 18,
       "y": 6,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "LAVENDER TOWN"
     },
     {
       "id": "MAPSEC_VERMILION_CITY",
-      "name": "VERMILION CITY",
+      "name": "ﻣﺪﻳﻨﺔ ﻓﻴﺮﻣﻠﻴﻮﻥ",
       "x": 14,
       "y": 9,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "VERMILION CITY"
     },
     {
       "id": "MAPSEC_CELADON_CITY",
-      "name": "CELADON CITY",
+      "name": "ﻣﺪﻳﻨﺔ ﺳﻴﻼﺩﻭﻥ",
       "x": 11,
       "y": 6,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "CELADON CITY"
     },
     {
       "id": "MAPSEC_FUCHSIA_CITY",
-      "name": "FUCHSIA CITY",
+      "name": "ﻣﺪﻳﻨﺔ ﻓﻮﺷﻴﺎ",
       "x": 12,
       "y": 12,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "FUCHSIA CITY"
     },
     {
       "id": "MAPSEC_CINNABAR_ISLAND",
-      "name": "CINNABAR ISLAND",
+      "name": "ﺟﺰﻳﺮﺓ ﺳﻴﻨﺎﺑﺎﺭ",
       "x": 4,
       "y": 14,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "CINNABAR ISLAND"
     },
     {
       "id": "MAPSEC_INDIGO_PLATEAU",
-      "name": "INDIGO PLATEAU",
+      "name": "ﻫﻀﺒﺔ ﺇﻧﺪﻳﻐﻮ",
       "x": 2,
       "y": 3,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "INDIGO PLATEAU"
     },
     {
       "id": "MAPSEC_SAFFRON_CITY",
-      "name": "SAFFRON CITY",
+      "name": "ﻣﺪﻳﻨﺔ ﺳﺎﻓﺮﻭﻥ",
       "x": 14,
       "y": 6,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "SAFFRON CITY"
     },
     {
       "id": "MAPSEC_ROUTE_4_POKECENTER",
-      "name": "ROUTE 4",
+      "name": "ﻄﺮﻳﻖ 4",
       "name_clone": true,
       "x": 8,
       "y": 3,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 4"
     },
     {
       "id": "MAPSEC_ROUTE_10_POKECENTER",
-      "name": "ROUTE 10",
+      "name": "ﻄﺮﻳﻖ 10",
       "name_clone": true,
       "x": 18,
       "y": 3,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 10"
     },
     {
       "id": "MAPSEC_ROUTE_1",
-      "name": "ROUTE 1",
+      "name": "ﻄﺮﻳﻖ 1",
       "x": 4,
       "y": 9,
       "width": 1,
-      "height": 2
+      "height": 2,
+      "name_en": "ROUTE 1"
     },
     {
       "id": "MAPSEC_ROUTE_2",
-      "name": "ROUTE 2",
+      "name": "ﻄﺮﻳﻖ 2",
       "x": 4,
       "y": 5,
       "width": 1,
-      "height": 3
+      "height": 3,
+      "name_en": "ROUTE 2"
     },
     {
       "id": "MAPSEC_ROUTE_3",
-      "name": "ROUTE 3",
+      "name": "ﻄﺮﻳﻖ 3",
       "x": 5,
       "y": 4,
       "width": 4,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 3"
     },
     {
       "id": "MAPSEC_ROUTE_4",
-      "name": "ROUTE 4",
+      "name": "ﻄﺮﻳﻖ 4",
       "x": 8,
       "y": 3,
       "width": 6,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 4"
     },
     {
       "id": "MAPSEC_ROUTE_5",
-      "name": "ROUTE 5",
+      "name": "ﻄﺮﻳﻖ 5",
       "x": 14,
       "y": 4,
       "width": 1,
-      "height": 2
+      "height": 2,
+      "name_en": "ROUTE 5"
     },
     {
       "id": "MAPSEC_ROUTE_6",
-      "name": "ROUTE 6",
+      "name": "ﻄﺮﻳﻖ 6",
       "x": 14,
       "y": 7,
       "width": 1,
-      "height": 2
+      "height": 2,
+      "name_en": "ROUTE 6"
     },
     {
       "id": "MAPSEC_ROUTE_7",
-      "name": "ROUTE 7",
+      "name": "ﻄﺮﻳﻖ 7",
       "x": 12,
       "y": 6,
       "width": 2,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 7"
     },
     {
       "id": "MAPSEC_ROUTE_8",
-      "name": "ROUTE 8",
+      "name": "ﻄﺮﻳﻖ 8",
       "x": 15,
       "y": 6,
       "width": 3,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 8"
     },
     {
       "id": "MAPSEC_ROUTE_9",
-      "name": "ROUTE 9",
+      "name": "ﻄﺮﻳﻖ 9",
       "x": 15,
       "y": 3,
       "width": 3,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 9"
     },
     {
       "id": "MAPSEC_ROUTE_10",
-      "name": "ROUTE 10",
+      "name": "ﻄﺮﻳﻖ 10",
       "x": 18,
       "y": 3,
       "width": 1,
-      "height": 3
+      "height": 3,
+      "name_en": "ROUTE 10"
     },
     {
       "id": "MAPSEC_ROUTE_11",
-      "name": "ROUTE 11",
+      "name": "ﻄﺮﻳﻖ 11",
       "x": 15,
       "y": 9,
       "width": 3,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 11"
     },
     {
       "id": "MAPSEC_ROUTE_12",
-      "name": "ROUTE 12",
+      "name": "ﻄﺮﻳﻖ 12",
       "x": 18,
       "y": 7,
       "width": 1,
-      "height": 5
+      "height": 5,
+      "name_en": "ROUTE 12"
     },
     {
       "id": "MAPSEC_ROUTE_13",
-      "name": "ROUTE 13",
+      "name": "ﻄﺮﻳﻖ 13",
       "x": 16,
       "y": 11,
       "width": 2,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 13"
     },
     {
       "id": "MAPSEC_ROUTE_14",
-      "name": "ROUTE 14",
+      "name": "ﻄﺮﻳﻖ 14",
       "x": 15,
       "y": 11,
       "width": 1,
-      "height": 2
+      "height": 2,
+      "name_en": "ROUTE 14"
     },
     {
       "id": "MAPSEC_ROUTE_15",
-      "name": "ROUTE 15",
+      "name": "ﻄﺮﻳﻖ 15",
       "x": 13,
       "y": 12,
       "width": 2,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 15"
     },
     {
       "id": "MAPSEC_ROUTE_16",
-      "name": "ROUTE 16",
+      "name": "ﻄﺮﻳﻖ 16",
       "x": 7,
       "y": 6,
       "width": 4,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 16"
     },
     {
       "id": "MAPSEC_ROUTE_17",
-      "name": "ROUTE 17",
+      "name": "ﻄﺮﻳﻖ 17",
       "x": 7,
       "y": 7,
       "width": 1,
-      "height": 5
+      "height": 5,
+      "name_en": "ROUTE 17"
     },
     {
       "id": "MAPSEC_ROUTE_18",
-      "name": "ROUTE 18",
+      "name": "ﻄﺮﻳﻖ 18",
       "x": 7,
       "y": 12,
       "width": 5,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 18"
     },
     {
       "id": "MAPSEC_ROUTE_19",
-      "name": "ROUTE 19",
+      "name": "ﻄﺮﻳﻖ 19",
       "x": 12,
       "y": 13,
       "width": 1,
-      "height": 2
+      "height": 2,
+      "name_en": "ROUTE 19"
     },
     {
       "id": "MAPSEC_ROUTE_20",
-      "name": "ROUTE 20",
+      "name": "ﻄﺮﻳﻖ 20",
       "x": 5,
       "y": 14,
       "width": 7,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 20"
     },
     {
       "id": "MAPSEC_ROUTE_21",
-      "name": "ROUTE 21",
+      "name": "ﻄﺮﻳﻖ 21",
       "x": 4,
       "y": 12,
       "width": 1,
-      "height": 2
+      "height": 2,
+      "name_en": "ROUTE 21"
     },
     {
       "id": "MAPSEC_ROUTE_22",
-      "name": "ROUTE 22",
+      "name": "ﻄﺮﻳﻖ 22",
       "x": 2,
       "y": 8,
       "width": 2,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 22"
     },
     {
       "id": "MAPSEC_ROUTE_23",
-      "name": "ROUTE 23",
+      "name": "ﻄﺮﻳﻖ 23",
       "x": 2,
       "y": 4,
       "width": 1,
-      "height": 4
+      "height": 4,
+      "name_en": "ROUTE 23"
     },
     {
       "id": "MAPSEC_ROUTE_24",
-      "name": "ROUTE 24",
+      "name": "ﻄﺮﻳﻖ 24",
       "x": 14,
       "y": 1,
       "width": 1,
-      "height": 2
+      "height": 2,
+      "name_en": "ROUTE 24"
     },
     {
       "id": "MAPSEC_ROUTE_25",
-      "name": "ROUTE 25",
+      "name": "ﻄﺮﻳﻖ 25",
       "x": 15,
       "y": 1,
       "width": 2,
-      "height": 1
+      "height": 1,
+      "name_en": "ROUTE 25"
     },
     {
       "id": "MAPSEC_VIRIDIAN_FOREST",
-      "name": "VIRIDIAN FOREST",
+      "name": "ﻏﺎﺑﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "VIRIDIAN FOREST"
     },
     {
       "id": "MAPSEC_MT_MOON",
-      "name": "MT. MOON",
+      "name": "ﺟﺒﻞ ﻘﻤﺮ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "MT. MOON"
     },
     {
       "id": "MAPSEC_S_S_ANNE",
-      "name": "S.S. ANNE",
+      "name": "ﺑﺎﺧﺮﺓ ﺇﺱ ﺇﺱ ﺁﻥ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "S.S. ANNE"
     },
     {
       "id": "MAPSEC_UNDERGROUND_PATH",
-      "name": "UNDERGROUND PATH",
+      "name": "ﻤﻤﺮ ﺴﻔﻠﻲ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "UNDERGROUND PATH"
     },
     {
       "id": "MAPSEC_UNDERGROUND_PATH_2",
-      "name": "UNDERGROUND PATH",
+      "name": "ﻤﻤﺮ ﺴﻔﻠﻲ",
       "name_clone": true,
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "UNDERGROUND PATH"
     },
     {
       "id": "MAPSEC_DIGLETTS_CAVE",
-      "name": "DIGLETT'S CAVE",
+      "name": "ﻛﻬﻒ ﺩﻳﻐﻠﻴﺖ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "DIGLETT'S CAVE"
     },
     {
       "id": "MAPSEC_KANTO_VICTORY_ROAD",
-      "name": "VICTORY ROAD",
+      "name": "ﻃﺮﻳﻖ ﻨﺼﺮ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "VICTORY ROAD"
     },
     {
       "id": "MAPSEC_ROCKET_HIDEOUT",
-      "name": "ROCKET HIDEOUT",
+      "name": "ﻣﺨﺒﺄ ﺼﺎﺭﻭﺥ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "ROCKET HIDEOUT"
     },
     {
       "id": "MAPSEC_SILPH_CO",
-      "name": "SILPH CO.",
+      "name": "ﺷﺮﻛﺔ ﺳﻴﻠﻒ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "SILPH CO."
     },
     {
       "id": "MAPSEC_POKEMON_MANSION",
-      "name": "POKéMON MANSION",
+      "name": "ﻗﺼﺮ ﺒﻮﻛﻴﻤﻮﻥ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "POKéMON MANSION"
     },
     {
       "id": "MAPSEC_KANTO_SAFARI_ZONE",
-      "name": "SAFARI ZONE",
+      "name": "ﻣﻨﻄﻘﺔ ﺴﻔﺎﺭﻱ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "SAFARI ZONE"
     },
     {
       "id": "MAPSEC_POKEMON_LEAGUE",
-      "name": "POKéMON LEAGUE",
+      "name": "ﺩﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "POKéMON LEAGUE"
     },
     {
       "id": "MAPSEC_ROCK_TUNNEL",
-      "name": "ROCK TUNNEL",
+      "name": "ﻧﻔﻖ ﺼﺨﻮﺭ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "ROCK TUNNEL"
     },
     {
       "id": "MAPSEC_SEAFOAM_ISLANDS",
-      "name": "SEAFOAM ISLANDS",
+      "name": "ﺟﺰﺭ ﺰﺑﺪ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "SEAFOAM ISLANDS"
     },
     {
       "id": "MAPSEC_POKEMON_TOWER",
-      "name": "POKéMON TOWER",
+      "name": "ﺑﺮﺝ ﺒﻮﻛﻴﻤﻮﻥ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "POKéMON TOWER"
     },
     {
       "id": "MAPSEC_CERULEAN_CAVE",
-      "name": "CERULEAN CAVE",
+      "name": "ﻛﻬﻒ ﺳﻴﺮﻭﻟﻴﻦ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "CERULEAN CAVE"
     },
     {
       "id": "MAPSEC_POWER_PLANT",
-      "name": "POWER PLANT",
+      "name": "ﻣﺤﻄﺔ ﻜﻬﺮﺑﺎﺀ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "POWER PLANT"
     },
     {
       "id": "MAPSEC_ONE_ISLAND",
-      "name": "ONE ISLAND",
+      "name": "ﺠﺰﻳﺮﺓ ﺍﻷﻭﻟﻰ",
       "x": 1,
       "y": 8,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "ONE ISLAND"
     },
     {
       "id": "MAPSEC_TWO_ISLAND",
-      "name": "TWO ISLAND",
+      "name": "ﺠﺰﻳﺮﺓ ﺜﺎﻧﻴﺔ",
       "x": 9,
       "y": 9,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "TWO ISLAND"
     },
     {
       "id": "MAPSEC_THREE_ISLAND",
-      "name": "THREE ISLAND",
+      "name": "ﺠﺰﻳﺮﺓ ﺜﺎﻟﺜﺔ",
       "x": 18,
       "y": 12,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "THREE ISLAND"
     },
     {
       "id": "MAPSEC_FOUR_ISLAND",
-      "name": "FOUR ISLAND",
+      "name": "ﺠﺰﻳﺮﺓ ﺮﺑﻌﺔ",
       "x": 3,
       "y": 4,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "FOUR ISLAND"
     },
     {
       "id": "MAPSEC_FIVE_ISLAND",
-      "name": "FIVE ISLAND",
+      "name": "ﺠﺰﻳﺮﺓ ﺨﺎﻣﺴﺔ",
       "x": 16,
       "y": 11,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "FIVE ISLAND"
     },
     {
       "id": "MAPSEC_SEVEN_ISLAND",
-      "name": "SEVEN ISLAND",
+      "name": "ﺠﺰﻳﺮﺓ ﺴﺎﺑﻌﺔ",
       "x": 5,
       "y": 8,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "SEVEN ISLAND"
     },
     {
       "id": "MAPSEC_SIX_ISLAND",
-      "name": "SIX ISLAND",
+      "name": "ﺠﺰﻳﺮﺓ ﺴﺎﺩﺳﺔ",
       "x": 17,
       "y": 5,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "SIX ISLAND"
     },
     {
       "id": "MAPSEC_KINDLE_ROAD",
-      "name": "KINDLE ROAD",
+      "name": "ﻃﺮﻳﻖ ﺠﻤﺮ",
       "x": 2,
       "y": 3,
       "width": 1,
-      "height": 6
+      "height": 6,
+      "name_en": "KINDLE ROAD"
     },
     {
       "id": "MAPSEC_TREASURE_BEACH",
-      "name": "TREASURE BEACH",
+      "name": "ﺷﺎﻃﺊ ﻜﻨﺰ",
       "x": 1,
       "y": 9,
       "width": 1,
-      "height": 2
+      "height": 2,
+      "name_en": "TREASURE BEACH"
     },
     {
       "id": "MAPSEC_CAPE_BRINK",
-      "name": "CAPE BRINK",
+      "name": "ﺭﺱ ﺤﺎﻓﺔ",
       "x": 9,
       "y": 7,
       "width": 1,
-      "height": 2
+      "height": 2,
+      "name_en": "CAPE BRINK"
     },
     {
       "id": "MAPSEC_BOND_BRIDGE",
-      "name": "BOND BRIDGE",
+      "name": "ﺟﺴﺮ ﺮﺑﺎﻁ",
       "x": 13,
       "y": 12,
       "width": 4,
-      "height": 1
+      "height": 1,
+      "name_en": "BOND BRIDGE"
     },
     {
       "id": "MAPSEC_THREE_ISLE_PORT",
-      "name": "THREE ISLE PORT",
+      "name": "ﻣﻴﻨﺎﺀ ﺠﺰﻳﺮﺓ 3",
       "x": 18,
       "y": 13,
       "width": 2,
-      "height": 1
+      "height": 1,
+      "name_en": "THREE ISLE PORT"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_6",
-      "name": "SEVII ISLE 6",
+      "name": "ﺟﺰﻳﺮﺓ ﺳﻴﻔﻲ 6",
       "x": 4,
       "y": 3,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "SEVII ISLE 6"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_7",
-      "name": "SEVII ISLE 7",
+      "name": "ﺟﺰﻳﺮﺓ ﺳﻴﻔﻲ 7",
       "x": 5,
       "y": 4,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "SEVII ISLE 7"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_8",
-      "name": "SEVII ISLE 8",
+      "name": "ﺟﺰﻳﺮﺓ ﺳﻴﻔﻲ 8",
       "x": 1,
       "y": 4,
       "width": 3,
-      "height": 1
+      "height": 1,
+      "name_en": "SEVII ISLE 8"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_9",
-      "name": "SEVII ISLE 9",
+      "name": "ﺟﺰﻳﺮﺓ ﺳﻴﻔﻲ 9",
       "x": 4,
       "y": 5,
       "width": 1,
-      "height": 2
+      "height": 2,
+      "name_en": "SEVII ISLE 9"
     },
     {
       "id": "MAPSEC_RESORT_GORGEOUS",
-      "name": "RESORT GORGEOUS",
+      "name": "ﻤﻨﺘﺠﻊ ﻔﺎﺧﺮ",
       "x": 16,
       "y": 9,
       "width": 3,
-      "height": 1
+      "height": 1,
+      "name_en": "RESORT GORGEOUS"
     },
     {
       "id": "MAPSEC_WATER_LABYRINTH",
-      "name": "WATER LABYRINTH",
+      "name": "ﻣﺘﺎﻫﺔ ﻤﺎﺀ",
       "x": 14,
       "y": 10,
       "width": 3,
-      "height": 1
+      "height": 1,
+      "name_en": "WATER LABYRINTH"
     },
     {
       "id": "MAPSEC_FIVE_ISLE_MEADOW",
-      "name": "FIVE ISLE MEADOW",
+      "name": "ﻣﺮﺝ ﺠﺰﻳﺮﺓ 5",
       "x": 17,
       "y": 10,
       "width": 1,
-      "height": 3
+      "height": 3,
+      "name_en": "FIVE ISLE MEADOW"
     },
     {
       "id": "MAPSEC_MEMORIAL_PILLAR",
-      "name": "MEMORIAL PILLAR",
+      "name": "ﻋﻤﻮﺩ ﺬﻛﺮﻯ",
       "x": 18,
       "y": 12,
       "width": 1,
-      "height": 3
+      "height": 3,
+      "name_en": "MEMORIAL PILLAR"
     },
     {
       "id": "MAPSEC_OUTCAST_ISLAND",
-      "name": "OUTCAST ISLAND",
+      "name": "ﺠﺰﻳﺮﺓ ﻤﻨﺒﻮﺫﺓ",
       "x": 15,
       "y": 0,
       "width": 1,
-      "height": 3
+      "height": 3,
+      "name_en": "OUTCAST ISLAND"
     },
     {
       "id": "MAPSEC_GREEN_PATH",
-      "name": "GREEN PATH",
+      "name": "ﻤﻤﺮ ﺍﻷﺧﻀﺮ",
       "x": 15,
       "y": 3,
       "width": 3,
-      "height": 1
+      "height": 1,
+      "name_en": "GREEN PATH"
     },
     {
       "id": "MAPSEC_WATER_PATH",
-      "name": "WATER PATH",
+      "name": "ﻤﻤﺮ ﻤﺎﺋﻲ",
       "x": 18,
       "y": 3,
       "width": 1,
-      "height": 5
+      "height": 5,
+      "name_en": "WATER PATH"
     },
     {
       "id": "MAPSEC_RUIN_VALLEY",
-      "name": "RUIN VALLEY",
+      "name": "ﻭﺩﻱ ﺍﻷﻃﻼﻝ",
       "x": 16,
       "y": 7,
       "width": 2,
-      "height": 2
+      "height": 2,
+      "name_en": "RUIN VALLEY"
     },
     {
       "id": "MAPSEC_TRAINER_TOWER",
-      "name": "TRAINER TOWER",
+      "name": "ﺑﺮﺝ ﻤﺪﺭﺑﻴﻦ",
       "x": 5,
       "y": 6,
       "width": 1,
-      "height": 2
+      "height": 2,
+      "name_en": "TRAINER TOWER"
     },
     {
       "id": "MAPSEC_CANYON_ENTRANCE",
-      "name": "CANYON ENTRANCE",
+      "name": "ﻣﺪﺧﻞ ﻮﺩﻱ",
       "x": 5,
       "y": 9,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "CANYON ENTRANCE"
     },
     {
       "id": "MAPSEC_SEVAULT_CANYON",
-      "name": "SEVAULT CANYON",
+      "name": "ﻭﺩﻱ ﺳﻴﻔﻮﻟﺖ",
       "x": 6,
       "y": 9,
       "width": 1,
-      "height": 3
+      "height": 3,
+      "name_en": "SEVAULT CANYON"
     },
     {
       "id": "MAPSEC_TANOBY_RUINS",
-      "name": "TANOBY RUINS",
+      "name": "ﺃﻃﻼﻝ ﺗﺎﻧﻮﺑﻲ",
       "x": 3,
       "y": 12,
       "width": 7,
-      "height": 1
+      "height": 1,
+      "name_en": "TANOBY RUINS"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_22",
-      "name": "SEVII ISLE 22",
+      "name": "ﺟﺰﻳﺮﺓ ﺳﻴﻔﻲ 22",
       "x": 9,
       "y": 12,
       "width": 1,
-      "height": 3
+      "height": 3,
+      "name_en": "SEVII ISLE 22"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_23",
-      "name": "SEVII ISLE 23",
+      "name": "ﺟﺰﻳﺮﺓ ﺳﻴﻔﻲ 23",
       "x": 3,
       "y": 14,
       "width": 6,
-      "height": 1
+      "height": 1,
+      "name_en": "SEVII ISLE 23"
     },
     {
       "id": "MAPSEC_SEVII_ISLE_24",
-      "name": "SEVII ISLE 24",
+      "name": "ﺟﺰﻳﺮﺓ ﺳﻴﻔﻲ 24",
       "x": 2,
       "y": 12,
       "width": 1,
-      "height": 3
+      "height": 3,
+      "name_en": "SEVII ISLE 24"
     },
     {
       "id": "MAPSEC_NAVEL_ROCK",
-      "name": "NAVEL ROCK",
+      "name": "ﺻﺨﺮﺓ ﻧﺎﻓﻞ",
       "x": 10,
       "y": 8,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "NAVEL ROCK"
     },
     {
       "id": "MAPSEC_MT_EMBER",
-      "name": "MT. EMBER",
+      "name": "ﺟﺒﻞ ﺠﻤﺮ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "MT. EMBER"
     },
     {
       "id": "MAPSEC_BERRY_FOREST",
-      "name": "BERRY FOREST",
+      "name": "ﻏﺎﺑﺔ ﺘﻮﺕ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "BERRY FOREST"
     },
     {
       "id": "MAPSEC_ICEFALL_CAVE",
-      "name": "ICEFALL CAVE",
+      "name": "ﻛﻬﻒ ﺠﻠﻴﺪ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "ICEFALL CAVE"
     },
     {
       "id": "MAPSEC_ROCKET_WAREHOUSE",
-      "name": "ROCKET WAREHOUSE",
+      "name": "ﻣﺴﺘﻮﺩﻉ ﺼﺎﺭﻭﺥ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "ROCKET WAREHOUSE"
     },
     {
       "id": "MAPSEC_TRAINER_TOWER_2",
-      "name": "TRAINER TOWER",
+      "name": "ﺑﺮﺝ ﻤﺪﺭﺑﻴﻦ",
       "name_clone": true,
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "TRAINER TOWER"
     },
     {
       "id": "MAPSEC_DOTTED_HOLE",
-      "name": "DOTTED HOLE",
+      "name": "ﺤﻔﺮﺓ ﻤﻨﻘﻄﺔ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "DOTTED HOLE"
     },
     {
       "id": "MAPSEC_LOST_CAVE",
-      "name": "LOST CAVE",
+      "name": "ﻜﻬﻒ ﻤﻔﻘﻮﺩ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "LOST CAVE"
     },
     {
       "id": "MAPSEC_PATTERN_BUSH",
-      "name": "PATTERN BUSH",
+      "name": "ﺍﻷﻳﻜﺔ ﻤﻨﻘﻮﺷﺔ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "PATTERN BUSH"
     },
     {
       "id": "MAPSEC_ALTERING_CAVE",
-      "name": "ALTERING CAVE",
+      "name": "ﻛﻬﻒ ﺘﺤﻮﻝ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "ALTERING CAVE"
     },
     {
       "id": "MAPSEC_TANOBY_CHAMBERS",
-      "name": "TANOBY CHAMBERS",
+      "name": "ﺣﺠﺮﺕ ﺗﺎﻧﻮﺑﻲ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "TANOBY CHAMBERS"
     },
     {
       "id": "MAPSEC_THREE_ISLE_PATH",
-      "name": "THREE ISLE PATH",
+      "name": "ﻣﻤﺮ ﺠﺰﻳﺮﺓ 3",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "THREE ISLE PATH"
     },
     {
       "id": "MAPSEC_TANOBY_KEY",
-      "name": "TANOBY KEY",
+      "name": "ﻣﻔﺘﺎﺡ ﺗﺎﻧﻮﺑﻲ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "TANOBY KEY"
     },
     {
       "id": "MAPSEC_BIRTH_ISLAND",
-      "name": "BIRTH ISLAND",
+      "name": "ﺟﺰﻳﺮﺓ ﻤﻴﻼﺩ",
       "x": 18,
       "y": 13,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "BIRTH ISLAND"
     },
     {
       "id": "MAPSEC_MONEAN_CHAMBER",
-      "name": "MONEAN CHAMBER",
+      "name": "ﺣﺠﺮﺓ ﻣﻮﻧﻴﻦ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "MONEAN CHAMBER"
     },
     {
       "id": "MAPSEC_LIPTOO_CHAMBER",
-      "name": "LIPTOO CHAMBER",
+      "name": "ﺣﺠﺮﺓ ﻟﻴﺒﺘﻮ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "LIPTOO CHAMBER"
     },
     {
       "id": "MAPSEC_WEEPTH_CHAMBER",
-      "name": "WEEPTH CHAMBER",
+      "name": "ﺣﺠﺮﺓ ﻭﻳﺒﺚ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "WEEPTH CHAMBER"
     },
     {
       "id": "MAPSEC_DILFORD_CHAMBER",
-      "name": "DILFORD CHAMBER",
+      "name": "ﺣﺠﺮﺓ ﺩﻳﻠﻔﻮﺭﺩ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "DILFORD CHAMBER"
     },
     {
       "id": "MAPSEC_SCUFIB_CHAMBER",
-      "name": "SCUFIB CHAMBER",
+      "name": "ﺣﺠﺮﺓ ﺳﻜﻮﻓﻴﺐ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "SCUFIB CHAMBER"
     },
     {
       "id": "MAPSEC_RIXY_CHAMBER",
-      "name": "RIXY CHAMBER",
+      "name": "ﺣﺠﺮﺓ ﺭﻳﻜﺴﻲ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "RIXY CHAMBER"
     },
     {
       "id": "MAPSEC_VIAPOIS_CHAMBER",
-      "name": "VIAPOIS CHAMBER",
+      "name": "ﺣﺠﺮﺓ ﻓﻴﺎﺑﻮﻳﺲ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "VIAPOIS CHAMBER"
     },
     {
       "id": "MAPSEC_EMBER_SPA",
-      "name": "EMBER SPA",
+      "name": "ﻣﻨﺘﺠﻊ ﺠﻤﺮ",
       "x": 0,
       "y": 0,
       "width": 1,
-      "height": 1
+      "height": 1,
+      "name_en": "EMBER SPA"
     },
     {
       "id": "MAPSEC_SPECIAL_AREA",
-      "name": "CELADON DEPT.",
+      "name": "ﻣﺘﺠﺮ ﺳﻴﻼﺩﻭﻥ",
       "x": 0,
       "y": 0,
       "width": 0,
-      "height": 0
+      "height": 0,
+      "name_en": "CELADON DEPT."
     }
   ]
 }

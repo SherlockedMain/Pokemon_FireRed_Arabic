@@ -25,7 +25,9 @@ BORDER = Border(left=THIN, right=THIN, top=THIN, bottom=THIN)
 def english(vanilla, entry):
     if entry.get('json'):
         data = json.load(open(os.path.join(vanilla, entry['file']), encoding='utf-8'))
-        v = next(i for i in data['items'] if i['itemId'] == entry['json'])[entry['json_field']]
+        key = entry.get('json_key', 'itemId')
+        rows = data[entry.get('json_list', 'items')]
+        v = next(i for i in rows if i.get(key, i.get(entry['json_field'])) == entry['json'])[entry['json_field']]
         return v.replace('\\\\n', '\n').replace('\\n', '\n')
     src = open(os.path.join(vanilla, entry['file']), encoding='utf-8').read()
     if entry['file'].endswith(('.inc', '.s')):

@@ -80,12 +80,16 @@ def write_json_field(entry, pieces):
     import json
     path = os.path.join(ROOT, entry['file'])
     data = json.load(open(path, encoding='utf-8'))
-    item = next(i for i in data['items'] if i['itemId'] == entry['json'])
+    items = data[entry.get('json_list', 'items')]
+    key = entry.get('json_key', 'itemId')
+    matches = [i for i in items if i.get(key) == entry['json']]
+    item = matches[0]
     orig = item[entry['json_field']]
     value = to_c(pieces)
     if '\\\\n' in orig:                       # keep the file's own newline escaping
         value = value.replace('\\n', '\\\\n')
-    item[entry['json_field']] = value
+    for item in matches:
+        item[entry['json_field']] = value
     json.dump(data, open(path, 'w', encoding='utf-8'), indent=2, ensure_ascii=False)
     open(path, 'a', encoding='utf-8').write('\n')
 
