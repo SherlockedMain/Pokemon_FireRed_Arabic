@@ -449,6 +449,13 @@ void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 w
     {
         u16 curChar = *src;
         src++;
+#if TEXT_RTL
+        if (IS_GENDER_MARKER(curChar))
+        {
+            src = TextGender_Skip(src, curChar);
+            continue;
+        }
+#endif
         switch (curChar)
         {
         case EOS:

@@ -297,6 +297,27 @@ s32 TextRtl_MirrorX(struct TextPrinter *p, s32 x, s32 glyphWidth, s32 frameStart
     return mirrorSum - x - glyphWidth;
 }
 
+// Called right after a gender marker was read; returns where to continue.
+// Male: draw the masculine branch, then on {GENDER_F} jump past {GENDER_E}.
+// Female: on {GENDER_M} jump past {GENDER_F} and draw the feminine branch.
+const u8 *TextGender_Skip(const u8 *next, u8 marker)
+{
+    u8 stop = 0;
+
+    if (marker == CHAR_GENDER_M && gSaveBlock2Ptr->playerGender == FEMALE)
+        stop = CHAR_GENDER_F;
+    else if (marker == CHAR_GENDER_F)
+        stop = CHAR_GENDER_E;
+    if (stop)
+    {
+        while (*next != stop && *next != EOS)
+            next++;
+        if (*next == stop)
+            next++;
+    }
+    return next;
+}
+
 bool8 TextRtl_IsLocal(u8 windowId)
 {
     if (gTextRtlLocal)

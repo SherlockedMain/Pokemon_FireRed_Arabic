@@ -154,8 +154,8 @@ gControlsGuide_Text_LRButtons::
     .string "ﻭﺳﺘﺄﺗﻴﻚ ﻤﺴﺎﻋﺪﺓ ﻓﻲ ﺤﺎﻝ!$"
 
 gOakSpeech_Text_AskPlayerGender::
-    .string "ﻗﻞ ﻟﻲ، ﻫﻞ ﺃﻧﺖ ﻓﺘﻰ؟\n"
-    .string "ﺃﻡ ﺃﻧﺖ ﻓﺘﺎﺓ؟$"
+    .string "ﻭﻵﻥ…\n"
+    .string "ﻫﻞ ﺃﻧﺖ ﻓﺘﻰ؟ ﺃﻡ ﺃﻧﺖ ﻓﺘﺎﺓ؟$"
 
 gPikachuIntro_Text_Page1::
     .string "ﻌﺎﻟﻢ ﺬﻱ ﺗﻮﺷﻚ ﺃﻥ ﺗﺪﺧﻠﻪ ﻳﻨﺘﻈﺮ\n"
@@ -195,17 +195,18 @@ gOakSpeech_Text_ThisWorld::
 
 gOakSpeech_Text_IsInhabitedFarAndWide::
     .string "…ﺗﻌﻴﺶ ﻓﻲ ﻛﻞ ﺷﺒﺮ ﻣﻨﻪ\n"
-    .string "ﻣﺨﻠﻮﻗﺎﺕ ﺗﺪﻋﻰ ﺒﻮﻛﻴﻤﻮﻥ!\p$"
+    .string "ﻣﺨﻠﻮﻗﺎﺕ ﺗﺪﻋﻰ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ!\p$"
 
 gOakSpeech_Text_IStudyPokemon::
-    .string "ﻟﻠﺒﻌﺾ، ﺒﻮﻛﻴﻤﻮﻥ ﺭﻓﺎﻕ ﺃﻭﻓﻴﺎﺀ،\n"
+    .string "ﻟﻠﺒﻌﺾ، ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺭﻓﺎﻕ\n"
+    .string "ﺃﻭﻓﻴﺎﺀ،\p"
     .string "ﻭﻟﻠﺒﻌﺾ ﺍﻵﺧﺮ، ﺷﺮﻛﺎﺀ ﻓﻲ ﻨﺰﻻﺕ.\p"
     .string "ﺃﻣﺎ ﺃﻧﺎ…\p"
     .string "ﻓﻘﺪ ﻭﻫﺒﺖ ﻋﻤﺮﻱ ﻛﻠﻪ ﻟﺪﺭﺳﺘﻬﺎ.\p$"
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
     .string "ﻟﻜﻦ ﺩﻋﻨﺎ ﻣﻨﻲ ﺍﻵﻥ…\n"
-    .string "ﺣﺪﺛﻨﻲ ﻋﻦ ﻧﻔﺴﻚ ﻗﻠﻴﻼ.\p$"
+    .string "ﻟﻨﺘﺤﺪﺙ ﻋﻨﻚ ﻗﻠﻴﻼ.\p$"
 
 gOakSpeech_Text_YourNameWhatIsIt::
     .string "ﻟﻨﺒﺪ ﺑﺎﻷﻫﻢ:\n"
@@ -233,7 +234,7 @@ gOakSpeech_Text_RememberRivalsName::
 
 gOakSpeech_Text_LetsGo::
     .string "{PLAYER}!\p"
-    .string "ﺃﺳﻄﻮﺭﺗﻚ ﻣﻊ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﺃﺳﻄﻮﺭﺗﻚ ﻣﻊ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
     .string "ﻋﻠﻰ ﻭﺷﻚ ﺃﻥ ﺗﻜﺘﺐ!\p"
     .string "ﻋﺎﻟﻢ ﻣﻦ ﺍﻷﺣﻼﻡ ﻭﻟﻤﻐﺎﻣﺮﺕ\n"
-    .string "ﻳﻨﺘﻈﺮﻙ! ﻫﻴﺎ، ﺍﻧﻄﻠﻖ!$"
+    .string "ﻳﻨﺘﻈﺮﻙ! ﻫﻴﺎ، {GENDER_M}ﺍﻧﻄﻠﻖ{GENDER_F}ﺍﻧﻄﻠﻘﻲ{GENDER_E}!$"

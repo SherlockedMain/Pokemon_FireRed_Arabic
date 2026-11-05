@@ -633,6 +633,13 @@ u16 RenderText(struct TextPrinter *textPrinter)
         currChar = *textPrinter->printerTemplate.currentChar;
         textPrinter->printerTemplate.currentChar++;
 
+#if TEXT_RTL
+        if (IS_GENDER_MARKER(currChar))
+        {
+            textPrinter->printerTemplate.currentChar = TextGender_Skip(textPrinter->printerTemplate.currentChar, currChar);
+            return RENDER_REPEAT;
+        }
+#endif
         switch (currChar)
         {
         case CHAR_NEWLINE:
@@ -1036,6 +1043,14 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
 
     while (*str != EOS)
     {
+#if TEXT_RTL
+        if (IS_GENDER_MARKER(*str))
+        {
+            u8 marker = *str;
+            str = TextGender_Skip(str + 1, marker);
+            continue;
+        }
+#endif
         switch (*str)
         {
         case CHAR_NEWLINE:

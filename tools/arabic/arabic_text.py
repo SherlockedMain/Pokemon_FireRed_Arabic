@@ -45,6 +45,8 @@ def token_width(tok, font):
     cm, w = charmap(), width_table(font)
     if tok.startswith('{'):
         name = tok[1:-1].split()[0]
+        if name.startswith('GENDER_'):
+            return 0
         if name in ('PLAYER', 'RIVAL'):
             return NAME_WIDTH
         if name.startswith('STR_VAR'):
@@ -68,7 +70,12 @@ def token_width(tok, font):
         raise ValueError('no glyph for %r (U+%04X)' % (tok, ord(tok)))
     return w[0x100 + b[1]] if b[0] == 0xF9 else w[b[0]]
 
+_GBRANCH = re.compile(r'\{GENDER_M\}(.*?)\{GENDER_F\}(.*?)\{GENDER_E\}')
+
 def measure(shaped, font='normal'):
+    """Width in pixels; for player-gender text, the wider of the two branches."""
+    if '{GENDER_M}' in shaped:
+        shaped = _GBRANCH.sub(lambda m: max(m.group(1), m.group(2), key=lambda b: measure(b, font)), shaped)
     return sum(token_width(t, font) for t in tokens(shaped))
 
 def wrap_pairs(text, max_width, font='normal'):

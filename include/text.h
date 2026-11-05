@@ -180,6 +180,13 @@ extern bool8 gTextRtlLocal;
 extern u32 gTextRtlLocalWindows;
 bool8 TextRtl_IsLocal(u8 windowId);
 void TextRtl_PrepareGlyph(struct TextPrinter *textPrinter, const u8 *charStart);
+// Player-gender text: {GENDER_M}masculine{GENDER_F}feminine{GENDER_E}. Only the
+// branch matching the player is drawn or measured.
+#define CHAR_GENDER_M 0xF4
+#define CHAR_GENDER_F 0xF5
+#define CHAR_GENDER_E 0xF6
+#define IS_GENDER_MARKER(c) ((c) >= CHAR_GENDER_M && (c) <= CHAR_GENDER_E)
+const u8 *TextGender_Skip(const u8 *next, u8 marker);
 s32 TextRtl_MirrorX(struct TextPrinter *p, s32 x, s32 glyphWidth, s32 frameStart, s32 frameWidth);
 #endif
 void ClearTextSpan(struct TextPrinter *textPrinter, u32 width);

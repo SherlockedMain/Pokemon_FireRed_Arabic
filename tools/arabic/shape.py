@@ -13,7 +13,21 @@ import arabic_reshaper
 _MIDWORD_ALEF = re.compile("(?<=[\u0621-\u064A\uFE70-\uFEFC])[\uFE81\uFE83\uFE87\uFE8D]")
 _ARTICLE = re.compile("(?<![\u0621-\u064A\uFE70-\uFEFC\uE000-\uE0FF])\uFE8D\uFEDF")
 
+_GENDER = re.compile(r'\[\[([^|\]]*)\|([^\]]*)\]\]')
+
 def shape(text):
+    """[[masc|fem]] becomes {GENDER_M}masc{GENDER_F}fem{GENDER_E}, each part shaped on its own."""
+    if '[[' in text:
+        out, pos = [], 0
+        for m in _GENDER.finditer(text):
+            out.append(_shape(text[pos:m.start()]))
+            out.append('{GENDER_M}' + _shape(m.group(1)) + '{GENDER_F}' + _shape(m.group(2)) + '{GENDER_E}')
+            pos = m.end()
+        out.append(_shape(text[pos:]))
+        return ''.join(out)
+    return _shape(text)
+
+def _shape(text):
     text = re.sub("[\u0640\u064B-\u0652\u0670]", "", text)          # no tatweel / harakat glyphs
     s = arabic_reshaper.reshape(text)
     s = s.replace("\uFDF2", "\uFE8D\uFEDF\uFEE0\uFEEA")              # spell out the Allah ligature

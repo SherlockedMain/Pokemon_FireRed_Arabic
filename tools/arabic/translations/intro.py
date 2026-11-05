@@ -280,3 +280,17 @@ _FIX = {'gOakSpeech_Text_IsInhabitedFarAndWide': '…تعيش في كل شبر �
 for _e in ENTRIES:
     if _e['id'] in _FIX:
         _e['ar'] = _FIX[_e['id']]
+
+# ---- Revision 3: plural «البوكيمونات» and player gender ([[masc|fem]]) -----------------
+_R3 = {
+ 'gOakSpeech_Text_IsInhabitedFarAndWide': '…تعيش في كل شبر منه\nمخلوقات تدعى البوكيمونات!',
+ 'gOakSpeech_Text_IStudyPokemon': 'للبعض، البوكيمونات رفاق أوفياء،\nوللبعض الآخر، شركاء في النزالات.\n\nأما أنا…\n\nفقد وهبت عمري كله لدراستها.',
+ 'gOakSpeech_Text_TellMeALittleAboutYourself': 'لكن دعنا مني الآن…\nلنتحدث عنك قليلا.',
+ 'gOakSpeech_Text_AskPlayerGender': 'والآن…\nهل أنت فتى؟ أم أنت فتاة؟',
+ 'gOakSpeech_Text_LetsGo': '{PLAYER}!\n\nأسطورتك مع البوكيمونات\nعلى وشك أن تُكتب!\n\nعالم من الأحلام والمغامرات\nينتظرك! هيا، [[انطلق|انطلقي]]!',
+}
+for _e in ENTRIES:
+    if _e['id'] in _R3:
+        _e['ar'] = _R3[_e['id']]
+        if _e['id'] in ('gOakSpeech_Text_TellMeALittleAboutYourself', 'gOakSpeech_Text_AskPlayerGender'):
+            _e['note'] = 'Shown before the player picks boy/girl: worded without masculine/feminine forms.'
