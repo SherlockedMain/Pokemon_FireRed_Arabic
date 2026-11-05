@@ -343,3 +343,9 @@ _R3 = {
 for _e in ENTRIES:
     if _e['id'] in _R3:
         _e['ar'] = _R3[_e['id']]
+
+# ---- Revision 5: verbs whose subject is the player are gendered
+_R5 = {'Route1_Text_PutPotionAway': '[[وضع|وضعت]] {PLAYER} الجرعة في جيب\nالأدوات داخل الحقيبة.', 'ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk': '[[حصل|حصلت]] {PLAYER} على طرد أوك\nمن بائع متجر البوكيمون.', 'ViridianCity_Gym_Text_ReceivedTM26FromGiovanni': '[[حصل|حصلت]] {PLAYER} على القرص التقني 26\nمن جيوفاني.', 'Text_PlayerBootedUpPC': '[[شغّل|شغّلت]] {PLAYER} الحاسوب.', 'Text_PutItemAway': '[[وضع|وضعت]] {PLAYER} {STR_VAR_2}\nفي {STR_VAR_3}.', 'Text_FoundOneItem': '[[وجد|وجدت]] {PLAYER} {STR_VAR_2}!', 'Text_FoundXCoins': '[[وجد|وجدت]] {PLAYER}\n{STR_VAR_1} {STR_VAR_2}!', 'Text_PutCoinsAwayInCoinCase': '[[وضع|وضعت]] {PLAYER} القطع النقدية\nفي علبة القطع.', 'Text_FoundXItems': '[[وجد|وجدت]] {PLAYER}\n{STR_VAR_1} من {STR_VAR_2}!'}
+for _e in ENTRIES:
+    if _e['id'] in _R5:
+        _e['ar'] = _R5[_e['id']]

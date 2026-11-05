@@ -60,7 +60,8 @@ PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
     .string "ﻣﺨﺘﺒﺮ ﺑﻮﻛﻴﻤﻮﻥ ﻣﺎ.$"
 
 PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻜﻬﺮﻣﺎﻥ ﻘﺪﻳﻢ\n"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻜﻬﺮﻣﺎﻥ\n"
+    .string "ﻘﺪﻳﻢ\p"
     .string "ﻣﻦ ﺮﺟﻞ.$"
 
 PewterCity_Museum_1F_Text_GetOldAmberChecked::

@@ -5,22 +5,22 @@ Text_BagIsFull::
 	.string "ﺤﻘﻴﺒﺔ ﻣﻤﺘﻠﺌﺔ…$"
 
 Text_PutItemAway::
-	.string "ﻭﺿﻊ {PLAYER} {STR_VAR_2}\n"
+	.string "{GENDER_M}ﻭﺿﻊ{GENDER_F}ﻭﺿﻌﺖ{GENDER_E} {PLAYER} {STR_VAR_2}\n"
 	.string "ﻓﻲ {STR_VAR_3}.$"
 
 Text_FoundOneItem::
-	.string "ﻭﺟﺪ {PLAYER} {STR_VAR_2}!$"
+	.string "{GENDER_M}ﻭﺟﺪ{GENDER_F}ﻭﺟﺪﺕ{GENDER_E} {PLAYER} {STR_VAR_2}!$"
 
 Text_TooBadBagFull::
 	.string "ﻟﻸﺳﻒ!\n"
 	.string "ﺤﻘﻴﺒﺔ ﻣﻤﺘﻠﺌﺔ…$"
 
 Text_FoundXCoins::
-	.string "ﻭﺟﺪ {PLAYER}\n"
+	.string "{GENDER_M}ﻭﺟﺪ{GENDER_F}ﻭﺟﺪﺕ{GENDER_E} {PLAYER}\n"
 	.string "{STR_VAR_1} {STR_VAR_2}!$"
 
 Text_PutCoinsAwayInCoinCase::
-	.string "ﻭﺿﻊ {PLAYER} ﻘﻄﻊ ﻨﻘﺪﻳﺔ\n"
+	.string "{GENDER_M}ﻭﺿﻊ{GENDER_F}ﻭﺿﻌﺖ{GENDER_E} {PLAYER} ﻘﻄﻊ ﻨﻘﺪﻳﺔ\n"
 	.string "ﻓﻲ ﻋﻠﺒﺔ ﻘﻄﻊ.$"
 
 Text_CoinCaseIsFull::
@@ -32,7 +32,7 @@ Text_NothingToPutThemIn::
 	.string "ﻻ ﻳﻮﺟﺪ ﻣﺎ {GENDER_M}ﺗﻀﻌﻬﺎ{GENDER_F}ﺗﻀﻌﻴﻬﺎ{GENDER_E} ﻓﻴﻪ…$"
 
 Text_FoundXItems::
-	.string "ﻭﺟﺪ {PLAYER}\n"
+	.string "{GENDER_M}ﻭﺟﺪ{GENDER_F}ﻭﺟﺪﺕ{GENDER_E} {PLAYER}\n"
 	.string "{STR_VAR_1} ﻣﻦ {STR_VAR_2}!$"
 
 Text_ObtainedTheDecor::

@@ -22,7 +22,7 @@ PewterCity_Gym_Text_BrockDefeat::
     .string "ﺍﺳﺘﺨﻔﻔﺖ ﺑﻚ، ﻓﺨﺴﺮﺕ.\p"
     .string "ﻭﺛﺒﺎﺗﺎ ﻟﻔﻮﺯﻙ، ﺃﻣﻨﺤﻚ ﻫﺬ…\n"
     .string "ﻭﺳﺎﻡ ﺼﺨﺮﺓ ﺮﺳﻤﻲ ﻟﻠﺪﻭﺭﻱ.\p"
-    .string "{FONT_NORMAL}ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻭﺳﺎﻡ ﺼﺨﺮﺓ\n"
+    .string "{FONT_NORMAL}{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻭﺳﺎﻡ ﺼﺨﺮﺓ\n"
     .string "ﻣﻦ ﺑﺮﻭﻙ!{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}\p"
     .string "{FONT_MALE}ﻣﺠﺮﺩ ﺍﻣﺘﻼﻙ ﻭﺳﺎﻡ ﺼﺨﺮﺓ ﻳﺠﻌﻞ\n"
     .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ ﺃﻗﻮﻯ.\p"
@@ -36,7 +36,7 @@ PewterCity_Gym_Text_TakeThisWithYou::
     .string "{GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻫﺬ ﻣﻌﻚ.$"
 
 PewterCity_Gym_Text_ReceivedTM39FromBrock::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻘﺮﺹ ﺘﻘﻨﻲ\n"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻘﺮﺹ ﺘﻘﻨﻲ\n"
     .string "39\p"
     .string "ﻣﻦ ﺑﺮﻭﻙ.$"
 

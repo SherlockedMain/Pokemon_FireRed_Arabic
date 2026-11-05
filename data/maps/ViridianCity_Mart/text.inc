@@ -9,7 +9,7 @@ ViridianCity_Mart_Text_TakeThisToProfOak::
     .string "ﻫﻼ ﺃﻭﺻﻠﺘﻬﺎ ﺇﻟﻴﻪ؟$"
 
 ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻃﺮﺩ ﺃﻭﻙ\n"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻃﺮﺩ ﺃﻭﻙ\n"
     .string "ﻣﻦ ﺑﺎﺋﻊ ﻣﺘﺠﺮ ﺒﻮﻛﻴﻤﻮﻥ.$"
 
 ViridianCity_Mart_Text_SayHiToOakForMe::

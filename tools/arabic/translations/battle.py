@@ -57,7 +57,7 @@ _E = [
     B('sText_ABoosted', 'EXP: traded Pokémon bonus', ' بمكافأة', box=WORD, note='Keep the leading space.'),
 
     # ---- Encounters and sending out ------------------------------------------------------
-    B('sText_Trainer1WantsToBattle', 'Trainer battle starts', '{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nيتحداك إلى نزال!'),
+    B('sText_Trainer1WantsToBattle', 'Trainer battle starts', '{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nيتحداك في نزال!'),
     B('sText_WildPkmnAppeared', 'Wild encounter', 'انتبه! ظهر {B_OPPONENT_MON1_NAME} البري!'),
     B('sText_WildPkmnAppeared2', 'Wild encounter', 'انتبه! ظهر {B_OPPONENT_MON1_NAME} البري!'),
     B('sText_WildPkmnAppearedPause', 'Wild encounter (tutorial)', 'انتبه! ظهر {B_OPPONENT_MON1_NAME} البري!'),
@@ -143,7 +143,7 @@ _E = [
     B('sText_PlayerWhiteout', 'No Pokémon left', 'لم يبق لدى {B_PLAYER_NAME}\nأي بوكيمون قادر على القتال!'),
     B('sText_PlayerWhiteoutAgainstTrainer', 'No Pokémon left (trainer)', 'لم يبق لدى {B_PLAYER_NAME}\nأي بوكيمون قادر على القتال!\n\nلقد خسرت أمام\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!'),
     B('sText_PlayerWhiteout2', 'Blacked out', 'انهار {B_PLAYER_NAME} من التعب!'),
-    B('sText_GotAwaySafely', 'Ran away', 'نجوت بأمان!'),
+    B('sText_GotAwaySafely', 'Ran away', 'أطلقت ساقيك للريح!', note='Same spelling for a boy or a girl.'),
     B('sText_WildPkmnFled', 'Wild Pokémon fled', 'هرب {B_BUFF1} البري!'),
     B('sText_CantEscape', 'Can\'t run', 'لا مفر!'),
     B('sText_CantEscape2', 'Can\'t run', 'لا مفر!'),
@@ -233,7 +233,7 @@ GLOSSARY = [
     ('EXP. Points', 'نقطة خبرة', ''),
     ('grew to LV. X', 'ارتقى إلى المستوى X', ''),
     ('Gotcha!', 'رائع!', ''),
-    ('Got away safely!', 'نجوت بأمان!', ''),
+    ('Got away safely!', 'أطلقت ساقيك للريح!', 'Idiom: ran as fast as the wind.'),
     ('Can\'t escape!', 'لا مفر!', ''),
     ('whited out', 'انهار من التعب', ''),
     ('ATTACK / DEFENSE / SPEED', 'الهجوم / الدفاع / السرعة', ''),
@@ -280,3 +280,9 @@ _R3 = {'gText_ForPetesSake': 'أوك: آه، يا له من متسرع…\nكع�
 for _e in ENTRIES:
     if _e['id'] in _R3:
         _e['ar'] = _R3[_e['id']]
+
+# ---- Revision 5: verbs whose subject is the player are gendered
+_R5 = {'sText_PlayerUsedItem': '[[استخدم|استخدمت]] {B_PLAYER_NAME}\n{B_LAST_ITEM}!', 'sText_PlayerGotMoney': '[[حصل|حصلت]] {B_PLAYER_NAME} على ¥{B_BUFF1}\nمكافأة على الفوز!', 'sText_PlayerWhiteout2': '[[انهار|انهارت]] {B_PLAYER_NAME} من التعب!'}
+for _e in ENTRIES:
+    if _e['id'] in _R5:
+        _e['ar'] = _R5[_e['id']]

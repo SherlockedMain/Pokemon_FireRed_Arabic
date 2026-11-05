@@ -10,7 +10,7 @@ gText_SavingDontTurnOffThePower::
 	.string "ﻻ ﺗﻄﻔﺊ ﺠﻬﺎﺯ.$"
 
 gText_PlayerSavedTheGame::
-	.string "ﺣﻔﻆ {PLAYER} ﻠﻌﺒﺔ.$"
+	.string "{GENDER_M}ﺣﻔﻆ{GENDER_F}ﺣﻔﻈﺖ{GENDER_E} {PLAYER} ﻠﻌﺒﺔ.$"
 
 gText_SaveFailed2::
 	.string "セーブに　しっぱい　しました‥$"

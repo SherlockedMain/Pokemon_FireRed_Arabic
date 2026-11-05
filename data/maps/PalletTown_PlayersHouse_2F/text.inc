@@ -1,5 +1,5 @@
 PalletTown_PlayersHouse_2F_Text_PlayedWithNES::
-    .string "{PLAYER} ﻳﻠﻌﺐ ﺑﺠﻬﺎﺯ NES.\p"
+    .string "{PLAYER} {GENDER_M}ﻳﻠﻌﺐ{GENDER_F}ﺗﻠﻌﺐ{GENDER_E} ﺑﺠﻬﺎﺯ NES.\p"
     .string "…ﻛﻔﻰ ﻟﻌﺒﺎ!\n"
     .string "ﻤﻐﺎﻣﺮﺓ ﺤﻘﻴﻘﻴﺔ ﺗﻨﺘﻈﺮ!$"
 

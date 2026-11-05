@@ -375,3 +375,19 @@ _R3 = {
 for _e in ENTRIES:
     if _e['id'] in _R3:
         _e['ar'] = _R3[_e['id']]
+
+# ---- Revision 4: Mom's first line uses a proverb instead of a literal rendering
+_R4 = {
+ 'PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou': 'الأم: …أعرف يا بني، أعرف.\n\nلا بد للعصفور أن يغادر عشه\nيوما ما… هكذا قالوا في التلفاز!\n\nآه، صحيح! جارنا البروفيسور أوك\nكان يسأل عنك.',
+ 'PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou': 'الأم: …أعرف يا ابنتي، أعرف.\n\nلا بد للعصفور أن يغادر عشه\nيوما ما… هكذا قالوا في التلفاز!\n\nآه، صحيح! جارنا البروفيسور أوك\nكان يسأل عنك.',
+}
+for _e in ENTRIES:
+    if _e['id'] in _R4:
+        _e['ar'] = _R4[_e['id']]
+        _e['note'] = '"All boys/girls leave home someday" -> the proverb «لا بد للعصفور أن يغادر عشه يوما ما».'
+
+# ---- Revision 5: verbs whose subject is the player are gendered
+_R5 = {'PalletTown_PlayersHouse_2F_Text_PlayedWithNES': '{PLAYER} [[يلعب|تلعب]] بجهاز NES.\n\n…كفى لعبا!\nالمغامرة الحقيقية تنتظر!', 'PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy': '[[حصل|حصلت]] {PLAYER} على خريطة البلدات\nمن ديزي.', 'PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak': '[[حصل|حصلت]] {PLAYER} على {STR_VAR_1}\nمن البروفيسور أوك!', 'PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel': '[[سلّم|سلّمت]] {PLAYER} طرد أوك.', 'PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak': '[[حصل|حصلت]] {PLAYER} على البوكيديكس\nمن البروفيسور أوك.', 'PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls': '[[حصل|حصلت]] {PLAYER} على خمس كرات بوكيمون.'}
+for _e in ENTRIES:
+    if _e['id'] in _R5:
+        _e['ar'] = _R5[_e['id']]

@@ -283,3 +283,9 @@ _R3 = {'gStartMenuDesc_Pokemon': 'تفقّد بوكيمونات فريقك، ر�
 for _e in ENTRIES:
     if _e['id'] in _R3:
         _e['ar'] = _R3[_e['id']]
+
+# ---- Revision 5: verbs whose subject is the player are gendered
+_R5 = {'gText_PlayerSavedTheGame': '[[حفظ|حفظت]] {PLAYER} اللعبة.', 'gText_PlayerUsedVar2': '[[استخدم|استخدمت]] {PLAYER}\n{STR_VAR_2}.', 'gText_UsedVar2WildLured': '[[استخدم|استخدمت]] {PLAYER}\n{STR_VAR_2}.\n\nستنجذب البوكيمونات البرية.', 'gText_UsedVar2WildRepelled': '[[استخدم|استخدمت]] {PLAYER}\n{STR_VAR_2}.\n\nستبتعد البوكيمونات البرية.'}
+for _e in ENTRIES:
+    if _e['id'] in _R5:
+        _e['ar'] = _R5[_e['id']]

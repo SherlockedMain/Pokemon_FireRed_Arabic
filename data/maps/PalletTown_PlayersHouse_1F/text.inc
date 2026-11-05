@@ -1,15 +1,14 @@
 PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou::
-    .string "ﺍﻷﻡ: …ﻧﻌﻢ، ﺃﻋﺮﻑ ﻳﺎ ﺑﻨﻲ.\n"
-    .string "ﻛﻞ ﺍﻷﻭﻻﺩ ﻳﻐﺎﺩﺭﻭﻥ ﺒﻴﺖ ﻳﻮﻣﺎ ﻣﺎ.\p"
-    .string "ﻫﻜﺬ ﻗﺎﻟﻮ ﻓﻲ ﺘﻠﻔﺎﺯ.\p"
+    .string "ﺍﻷﻡ: …ﺃﻋﺮﻑ ﻳﺎ ﺑﻨﻲ، ﺃﻋﺮﻑ.\p"
+    .string "ﻻ ﺑﺪ ﻟﻠﻌﺼﻔﻮﺭ ﺃﻥ ﻳﻐﺎﺩﺭ ﻋﺸﻪ\n"
+    .string "ﻳﻮﻣﺎ ﻣﺎ… ﻫﻜﺬ ﻗﺎﻟﻮ ﻓﻲ ﺘﻠﻔﺎﺯ!\p"
     .string "ﺁﻩ، ﺻﺤﻴﺢ! ﺟﺎﺭﻧﺎ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ\n"
     .string "ﻛﺎﻥ ﻳﺴﺄﻝ ﻋﻨﻚ.$"
 
 PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
-    .string "ﺍﻷﻡ: …ﻧﻌﻢ، ﺃﻋﺮﻑ ﻳﺎ ﺍﺑﻨﺘﻲ.\n"
-    .string "ﻛﻞ ﺒﻨﺎﺕ ﻳﺤﻠﻤﻦ ﺑﺎﻟﺴﻔﺮ ﻳﻮﻣﺎ\p"
-    .string "ﻣﺎ.\n"
-    .string "ﻫﻜﺬ ﻗﺎﻟﻮ ﻓﻲ ﺘﻠﻔﺎﺯ.\p"
+    .string "ﺍﻷﻡ: …ﺃﻋﺮﻑ ﻳﺎ ﺍﺑﻨﺘﻲ، ﺃﻋﺮﻑ.\p"
+    .string "ﻻ ﺑﺪ ﻟﻠﻌﺼﻔﻮﺭ ﺃﻥ ﻳﻐﺎﺩﺭ ﻋﺸﻪ\n"
+    .string "ﻳﻮﻣﺎ ﻣﺎ… ﻫﻜﺬ ﻗﺎﻟﻮ ﻓﻲ ﺘﻠﻔﺎﺯ!\p"
     .string "ﺁﻩ، ﺻﺤﻴﺢ! ﺟﺎﺭﻧﺎ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ\n"
     .string "ﻛﺎﻥ ﻳﺴﺄﻝ ﻋﻨﻚ.$"
 

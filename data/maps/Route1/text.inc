@@ -12,7 +12,7 @@ Route1_Text_ComeSeeUsIfYouNeedPokeBalls::
     .string "{GENDER_M}ﺗﻌﺎﻝ{GENDER_F}ﺗﻌﺎﻟﻲ{GENDER_E} ﺇﻟﻴﻨﺎ، ﻓﻌﻨﺪﻧﺎ ﻜﺜﻴﺮ!$"
 
 Route1_Text_PutPotionAway::
-    .string "ﻭﺿﻊ {PLAYER} ﺠﺮﻋﺔ ﻓﻲ ﺟﻴﺐ\n"
+    .string "{GENDER_M}ﻭﺿﻊ{GENDER_F}ﻭﺿﻌﺖ{GENDER_E} {PLAYER} ﺠﺮﻋﺔ ﻓﻲ ﺟﻴﺐ\n"
     .string "ﺍﻷﺩﻭﺕ ﺩﺧﻞ ﺤﻘﻴﺒﺔ.$"
 
 Route1_Text_CanJumpFromLedges::

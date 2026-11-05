@@ -130,11 +130,11 @@ PewterCity_Text_AskedToDeliverThis::
     .string "{GENDER_M}ﻓﺘﻔﻀﻞ.{GENDER_F}ﻓﺘﻔﻀﻠﻲ.{GENDER_E}$"
 
 PewterCity_Text_ReceivedRunningShoesFromAide::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﺣﺬﺀ ﺠﺮﻱ\n"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﺣﺬﺀ ﺠﺮﻱ\n"
     .string "ﻣﻦ ﻤﺴﺎﻋﺪ.$"
 
 PewterCity_Text_SwitchedShoesWithRunningShoes::
-    .string "ﻟﺒﺲ {PLAYER} ﺣﺬﺀ ﺠﺮﻱ.$"
+    .string "{GENDER_M}ﻟﺒﺲ{GENDER_F}ﻟﺒﺴﺖ{GENDER_E} {PLAYER} ﺣﺬﺀ ﺠﺮﻱ.$"
 
 PewterCity_Text_ExplainRunningShoes::
     .string "ﺍﺿﻐﻂ ﺯﺭ B ﻟﺘﺮﻛﺾ…\n"

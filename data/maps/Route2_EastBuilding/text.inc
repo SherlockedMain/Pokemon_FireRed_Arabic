@@ -19,7 +19,7 @@ Route2_EastBuilding_Text_GreatHereYouGo::
     .string "{GENDER_M}ﺗﻔﻀﻞ!{GENDER_F}ﺗﻔﻀﻠﻲ!{GENDER_E}$"
 
 Route2_EastBuilding_Text_ReceivedHM05FromAide::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻘﺮﺹ HM05\n"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻘﺮﺹ HM05\n"
     .string "ﻣﻦ ﻤﺴﺎﻋﺪ.$"
 
 Route2_EastBuilding_Text_ExplainHM05::

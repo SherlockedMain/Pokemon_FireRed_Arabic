@@ -870,7 +870,7 @@ Text_TrainerSchoolEmail::
 	.string "‥‥　‥‥　‥‥$"
 
 Text_PlayerBootedUpPC::
-	.string "ﺷﻐﻞ {PLAYER} ﺤﺎﺳﻮﺏ.$"
+	.string "{GENDER_M}ﺷﻐﻞ{GENDER_F}ﺷﻐﻠﺖ{GENDER_E} {PLAYER} ﺤﺎﺳﻮﺏ.$"
 
 @ Unused
 Text_LinkWasCanceled::

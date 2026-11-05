@@ -38,7 +38,7 @@ ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
     .string "ﻓﻲ ﺩﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ.$"
 
 ViridianCity_Gym_Text_ReceivedTM26FromGiovanni::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻘﺮﺹ ﺘﻘﻨﻲ\n"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻘﺮﺹ ﺘﻘﻨﻲ\n"
     .string "26\p"
     .string "ﻣﻦ ﺟﻴﻮﻓﺎﻧﻲ.$"
 

@@ -315,3 +315,9 @@ _R3b = {'PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy': '�
 for _e in ENTRIES:
     if _e['id'] in _R3b:
         _e['ar'] = _R3b[_e['id']]
+
+# ---- Revision 5: verbs whose subject is the player are gendered
+_R5 = {'Route2_EastBuilding_Text_ReceivedHM05FromAide': '[[حصل|حصلت]] {PLAYER} على القرص HM05\nمن المساعد.', 'PewterCity_Text_ReceivedRunningShoesFromAide': '[[حصل|حصلت]] {PLAYER} على حذاء الجري\nمن المساعد.', 'PewterCity_Text_SwitchedShoesWithRunningShoes': '[[لبس|لبست]] {PLAYER} حذاء الجري.', 'PewterCity_Gym_Text_BrockDefeat': 'استخففت بك، فخسرت.\n\nوإثباتا لفوزك، أمنحك هذا…\nوسام الصخرة الرسمي للدوري.\n\n{X1}[[حصل|حصلت]] {PLAYER} على وسام الصخرة\nمن بروك!{X2}\n\n{X3}مجرد امتلاك وسام الصخرة يجعل\nبوكيموناتك أقوى.\n\nوهو يتيح أيضا استخدام حركة\nالوميض خارج النزال.\n\nطبعا، يجب أن يعرف البوكيمون\nحركة الوميض ليستخدمها.', 'PewterCity_Gym_Text_ReceivedTM39FromBrock': '[[حصل|حصلت]] {PLAYER} على القرص التقني 39\nمن بروك.', 'PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan': '[[حصل|حصلت]] {PLAYER} على الكهرمان القديم\nمن الرجل.'}
+for _e in ENTRIES:
+    if _e['id'] in _R5:
+        _e['ar'] = _R5[_e['id']]

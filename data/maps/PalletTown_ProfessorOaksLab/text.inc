@@ -123,7 +123,7 @@ PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
     .string "ﻫﺬ ﺒﻮﻛﻴﻤﻮﻥ ﻳﺘﻘﺪ ﺣﻴﻮﻳﺔ!$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ {STR_VAR_1}\n"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ {STR_VAR_1}\n"
     .string "ﻣﻦ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon::
@@ -147,7 +147,7 @@ PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
     .string "ﺃﺣﻀﺮﺕ ﻟﻲ ﺷﻴﺌﺎ؟$"
 
 PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
-    .string "ﺳﻠﻢ {PLAYER} ﻃﺮﺩ ﺃﻭﻙ.$"
+    .string "{GENDER_M}ﺳﻠﻢ{GENDER_F}ﺳﻠﻤﺖ{GENDER_E} {PLAYER} ﻃﺮﺩ ﺃﻭﻙ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
     .string "ﺁﻩ!\n"
@@ -173,7 +173,7 @@ PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou::
     .string "ﺧﺬ ﻫﺬﻳﻦ ﻣﻌﻜﻤﺎ.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﺒﻮﻛﻴﺪﻳﻜﺲ\n"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﺒﻮﻛﻴﺪﻳﻜﺲ\n"
     .string "ﻣﻦ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
@@ -186,7 +186,7 @@ PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
     .string "ﻹﻣﺴﺎﻙ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺒﺮﻳﺔ.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﺧﻤﺲ ﻛﺮﺕ\n"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﺧﻤﺲ ﻛﺮﺕ\n"
     .string "ﺑﻮﻛﻴﻤﻮﻥ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakExplainCatching::

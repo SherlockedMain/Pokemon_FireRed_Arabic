@@ -14,7 +14,7 @@ PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
     .string "{GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻫﺬﻩ، ﺳﺘﻨﻔﻌﻚ ﻓﻲ ﻃﺮﻳﻘﻚ.$"
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﺧﺮﻳﻄﺔ ﺒﻠﺪﺕ\n"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﺧﺮﻳﻄﺔ ﺒﻠﺪﺕ\n"
     .string "ﻣﻦ ﺩﻳﺰﻱ.$"
 
 PalletTown_RivalsHouse_Text_DontHaveSpaceForThis::

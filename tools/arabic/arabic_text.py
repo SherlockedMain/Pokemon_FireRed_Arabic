@@ -51,7 +51,7 @@ def token_width(tok, font):
             return NAME_WIDTH
         if name.startswith('STR_VAR'):
             return VAR_WIDTH
-        if name.startswith('B_'):                  # battle placeholders
+        if name.startswith('B_') and (cm['names'].get(name) or [0])[0] == 0xFD:   # battle placeholders (not {B_BUTTON})
             if name.endswith('WITH_PREFIX'):
                 return 95                          # name + « البري» / « الخصم»
             if 'ITEM' in name or 'MOVE' in name or 'CLASS' in name:
