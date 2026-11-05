@@ -41,7 +41,10 @@ def english(vanilla, entry):
     elif entry.get('key'):
         text = re.search(entry.get('pattern', r'\[%s\]\s*=\s*_\("(.*?)"\)') % re.escape(entry['key']), src).group(1)
     else:
-        text = re.search(r'\b%s\[\] = _\("(.*?)"\);' % re.escape(entry['id']), src).group(1)
+        m = re.search(r'\b%s\[\] = _\("(.*?)"\);' % re.escape(entry['id']), src)
+        if not m:                      # a string added by the translation (not in the original game)
+            return '(new in the Arabic version)'
+        text = m.group(1)
     text = text.rstrip('$').replace('\\p', '\n\n').replace('\\n', '\n').replace('\\l', '\n')
     return text.strip('\n')
 

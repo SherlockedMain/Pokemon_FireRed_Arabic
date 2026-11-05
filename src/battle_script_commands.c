@@ -6759,18 +6759,20 @@ static u8 ChangeStatBuffs(s8 statValue, u8 statId, u8 flags, const u8 *BS_ptr)
             statValue = -GET_STAT_BUFF_VALUE(statValue);
             gBattleTextBuff2[0] = B_BUFF_PLACEHOLDER_BEGIN;
 #if TEXT_RTL
-            // Arabic: the verb comes first, then the adverb («ارتفع بشدة»)
-            gBattleTextBuff2[1] = B_BUFF_STRING;
-            gBattleTextBuff2[2] = STRINGID_STATFELL;
-            gBattleTextBuff2[3] = STRINGID_STATFELL >> 8;
-            index = 4;
+            // Arabic: «انخفضت سرعته بشدة!» - buffer 2 is the verb (agreeing
+            // with the stat's gender), buffer 3 the adverb after the stat
+            gBattleTextBuff2[1] = B_BUFF_STAT;
+            gBattleTextBuff2[2] = STAT_IS_FEMININE(statId) ? STAT_VERB_FALL_F : STAT_VERB_FALL_M;
+            gBattleTextBuff2[3] = B_BUFF_EOS;
+            gBattleTextBuff3[0] = B_BUFF_PLACEHOLDER_BEGIN;
+            index = 1;
             if (statValue == -2)
             {
-                gBattleTextBuff2[index++] = B_BUFF_STRING;
-                gBattleTextBuff2[index++] = STRINGID_STATHARSHLY;
-                gBattleTextBuff2[index++] = STRINGID_STATHARSHLY >> 8;
+                gBattleTextBuff3[index++] = B_BUFF_STRING;
+                gBattleTextBuff3[index++] = STRINGID_STATHARSHLY;
+                gBattleTextBuff3[index++] = STRINGID_STATHARSHLY >> 8;
             }
-            gBattleTextBuff2[index] = B_BUFF_EOS;
+            gBattleTextBuff3[index] = B_BUFF_EOS;
 #else
             index = 1;
             if (statValue == -2)
@@ -6797,18 +6799,20 @@ static u8 ChangeStatBuffs(s8 statValue, u8 statId, u8 flags, const u8 *BS_ptr)
         statValue = GET_STAT_BUFF_VALUE(statValue);
         gBattleTextBuff2[0] = B_BUFF_PLACEHOLDER_BEGIN;
 #if TEXT_RTL
-        // Arabic: the verb comes first, then the adverb («ارتفع بشدة»)
-        gBattleTextBuff2[1] = B_BUFF_STRING;
-        gBattleTextBuff2[2] = STRINGID_STATROSE;
-        gBattleTextBuff2[3] = STRINGID_STATROSE >> 8;
-        index = 4;
+        // Arabic: «ازدادت سرعته بشدة!» - buffer 2 is the verb (agreeing
+        // with the stat's gender), buffer 3 the adverb after the stat
+        gBattleTextBuff2[1] = B_BUFF_STAT;
+        gBattleTextBuff2[2] = STAT_IS_FEMININE(statId) ? STAT_VERB_RISE_F : STAT_VERB_RISE_M;
+        gBattleTextBuff2[3] = B_BUFF_EOS;
+        gBattleTextBuff3[0] = B_BUFF_PLACEHOLDER_BEGIN;
+        index = 1;
         if (statValue == 2)
         {
-            gBattleTextBuff2[index++] = B_BUFF_STRING;
-            gBattleTextBuff2[index++] = STRINGID_STATSHARPLY;
-            gBattleTextBuff2[index++] = STRINGID_STATSHARPLY >> 8;
+            gBattleTextBuff3[index++] = B_BUFF_STRING;
+            gBattleTextBuff3[index++] = STRINGID_STATSHARPLY;
+            gBattleTextBuff3[index++] = STRINGID_STATSHARPLY >> 8;
         }
-        gBattleTextBuff2[index] = B_BUFF_EOS;
+        gBattleTextBuff3[index] = B_BUFF_EOS;
 #else
         index = 1;
         if (statValue == 2)

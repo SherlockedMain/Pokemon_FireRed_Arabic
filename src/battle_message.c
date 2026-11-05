@@ -107,8 +107,8 @@ static const u8 sText_PkmnIsParalyzed[] = _("{B_ATK_NAME_WITH_PREFIX} ﻣﺸﻠ�
 static const u8 sText_PkmnIsAlreadyParalyzed[] = _("{B_DEF_NAME_WITH_PREFIX} ﻣﺸﻠﻮﻝ\nﺑﺎﻟﻔﻌﻞ!");
 static const u8 sText_PkmnHealedParalysis[] = _("ﺷﻔﻲ {B_DEF_NAME_WITH_PREFIX}\nﻣﻦ ﺸﻠﻞ!");
 static const u8 sText_PkmnDreamEaten[] = _("ﺃﻛﻞ ﺣﻠﻢ\n{B_DEF_NAME_WITH_PREFIX}!");
-static const u8 sText_StatsWontIncrease[] = _("ﻟﻦ ﻳﺮﺗﻔﻊ {B_BUFF1} ﻟﺪﻯ\n{B_ATK_NAME_WITH_PREFIX} ﺃﻛﺜﺮ!");
-static const u8 sText_StatsWontDecrease[] = _("ﻟﻦ ﻳﻨﺨﻔﺾ {B_BUFF1} ﻟﺪﻯ\n{B_DEF_NAME_WITH_PREFIX} ﺃﻛﺜﺮ!");
+static const u8 sText_StatsWontIncrease[] = _("{B_ATK_NAME_WITH_PREFIX}\n{B_BUFF1} ﻓﻲ ﺃﻋﻠﻰ ﻣﺴﺘﻮﻯ!");
+static const u8 sText_StatsWontDecrease[] = _("{B_DEF_NAME_WITH_PREFIX}\n{B_BUFF1} ﻓﻲ ﺃﺩﻧﻰ ﻣﺴﺘﻮﻯ!");
 static const u8 sText_TeamStoppedWorking[] = _("ﺯﻝ ﺃﺛﺮ {B_BUFF1}\nﻋﻦ ﻓﺮﻳﻘﻚ!");
 static const u8 sText_FoeStoppedWorking[] = _("ﺯﻝ ﺃﺛﺮ {B_BUFF1}\nﻋﻦ ﺨﺼﻢ!");
 static const u8 sText_PkmnIsConfused[] = _("{B_ATK_NAME_WITH_PREFIX}\nﻓﻲ ﺣﻴﺮﺓ ﻣﻦ ﺃﻣﺮﻩ!");
@@ -300,14 +300,14 @@ static const u8 sText_PkmnsXHadNoEffectOnY[] = _("ﻟﻢ ﻳﻜﻦ ﻝ{B_SCR_ACT
 static const u8 sText_TooScaredToMove[] = _("{B_ATK_NAME_WITH_PREFIX} ﺧﺎﺋﻒ ﺟﺪ\nﻭﻻ ﻳﺴﺘﻄﻴﻊ ﺤﺮﻛﺔ!");
 static const u8 sText_GetOutGetOut[] = _("ﺸﺒﺢ: {GENDER_M}ﺍﺧﺮﺝ……{GENDER_F}ﺍﺧﺮﺟﻲ……{GENDER_E} {GENDER_M}ﺍﺧﺮﺝ……{GENDER_F}ﺍﺧﺮﺟﻲ……{GENDER_E}");
 static const u8 sText_StatSharply[] = _(" ﺑﺸﺪﺓ");
-const u8 gBattleText_Rose[] = _("ﺍﺭﺗﻔﻊ");
+const u8 gBattleText_Rose[] = _("ﺍﺯﺩﺩ");
 static const u8 sText_StatHarshly[] = _(" ﺑﺸﺪﺓ");
 static const u8 sText_StatFell[] = _("ﺍﻧﺨﻔﺾ");
-static const u8 sText_AttackersStatRose[] = _("{B_BUFF2} {B_BUFF1}\nﻟﺪﻯ {B_ATK_NAME_WITH_PREFIX}!");
-const u8 gText_DefendersStatRose[] = _("{B_BUFF2} {B_BUFF1}\nﻟﺪﻯ {B_DEF_NAME_WITH_PREFIX}!");
-static const u8 sText_UsingItemTheStatOfPkmnRose[] = _("ﺑﻔﻀﻞ {B_LAST_ITEM}، {B_BUFF2}\n{B_BUFF1} ﻟﺪﻯ {B_SCR_ACTIVE_NAME_WITH_PREFIX}");
-static const u8 sText_AttackersStatFell[] = _("{B_BUFF2} {B_BUFF1}\nﻟﺪﻯ {B_ATK_NAME_WITH_PREFIX}!");
-static const u8 sText_DefendersStatFell[] = _("{B_BUFF2} {B_BUFF1}\nﻟﺪﻯ {B_DEF_NAME_WITH_PREFIX}!");
+static const u8 sText_AttackersStatRose[] = _("{B_ATK_NAME_WITH_PREFIX}\n{B_BUFF2} {B_BUFF1}{B_BUFF3}!");
+const u8 gText_DefendersStatRose[] = _("{B_DEF_NAME_WITH_PREFIX}\n{B_BUFF2} {B_BUFF1}{B_BUFF3}!");
+static const u8 sText_UsingItemTheStatOfPkmnRose[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}\nﺍﺭﺗﻔﻊ ﻣﺴﺘﻮﻯ {B_BUFF1} ﺑﻔﻀﻞ\p{B_LAST_ITEM}!");
+static const u8 sText_AttackersStatFell[] = _("{B_ATK_NAME_WITH_PREFIX}\n{B_BUFF2} {B_BUFF1}{B_BUFF3}!");
+static const u8 sText_DefendersStatFell[] = _("{B_DEF_NAME_WITH_PREFIX}\n{B_BUFF2} {B_BUFF1}{B_BUFF3}!");
 static const u8 sText_StatsWontIncrease2[] = _("ﻟﻦ ﺗﺮﺗﻔﻊ ﻗﺪﺭﺕ\n{B_ATK_NAME_WITH_PREFIX} ﺃﻛﺜﺮ!");
 static const u8 sText_StatsWontDecrease2[] = _("ﻟﻦ ﺗﻨﺨﻔﺾ ﻗﺪﺭﺕ\n{B_DEF_NAME_WITH_PREFIX} ﺃﻛﺜﺮ!");
 static const u8 sText_CriticalHit[] = _("ﺿﺮﺑﺔ ﺣﺎﺳﻤﺔ!");
@@ -426,13 +426,20 @@ static const u8 sText_ExclamationMark4[] = _("!");
 static const u8 sText_ExclamationMark5[] = _("!");
 
 static const u8 sText_HP2[] = _("HP");
-static const u8 sText_Attack2[] = _("ﻬﺠﻮﻡ");
-static const u8 sText_Defense2[] = _("ﺪﻓﺎﻉ");
-static const u8 sText_Speed[] = _("ﺴﺮﻋﺔ");
-static const u8 sText_SpAtk2[] = _("ﻬﺠﻮﻡ ﺨﺎﺹ");
-static const u8 sText_SpDef2[] = _("ﺪﻓﺎﻉ ﺨﺎﺹ");
-static const u8 sText_Accuracy[] = _("ﺪﻗﺔ");
-static const u8 sText_Evasiveness[] = _("ﻤﺮﻭﻏﺔ");
+static const u8 sText_Attack2[] = _("ﻫﺠﻮﻣﻪ");
+static const u8 sText_Defense2[] = _("ﺩﻓﺎﻋﻪ");
+static const u8 sText_Speed[] = _("ﺳﺮﻋﺘﻪ");
+static const u8 sText_SpAtk2[] = _("ﻫﺠﻮﻣﻪ ﺨﺎﺹ");
+static const u8 sText_SpDef2[] = _("ﺩﻓﺎﻋﻪ ﺨﺎﺹ");
+static const u8 sText_Accuracy[] = _("ﺩﻗﺘﻪ");
+static const u8 sText_Evasiveness[] = _("ﻣﺮﻭﻏﺘﻪ");
+
+#if TEXT_RTL
+static const u8 sText_StatVerbRiseM[] = _("ﺍﺯﺩﺩ");
+static const u8 sText_StatVerbRiseF[] = _("ﺍﺯﺩﺩﺕ");
+static const u8 sText_StatVerbFallM[] = _("ﺍﻧﺨﻔﺾ");
+static const u8 sText_StatVerbFallF[] = _("ﺍﻧﺨﻔﻀﺖ");
+#endif
 
 const u8 *const gStatNamesTable[] = {
     sText_HP2,
@@ -442,7 +449,13 @@ const u8 *const gStatNamesTable[] = {
     sText_SpAtk2,
     sText_SpDef2,
     sText_Accuracy,
-    sText_Evasiveness
+    sText_Evasiveness,
+#if TEXT_RTL
+    sText_StatVerbRiseM,
+    sText_StatVerbRiseF,
+    sText_StatVerbFallM,
+    sText_StatVerbFallF,
+#endif
 };
 
 static const u8 sText_PokeblockWasTooSpicy[] = _("was too spicy!"); //

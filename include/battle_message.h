@@ -228,6 +228,16 @@ extern u8 gBattleTextBuff3[TEXT_BUFF_ARRAY_COUNT];
 
 extern const u8 *const gBattleStringsTable[];
 extern const u8 *const gStatNamesTable[];
+#if TEXT_RTL
+// Arabic stat messages: «ازدادت سرعته بشدة!» - the verb agrees with the stat.
+// Entries 8-11 of gStatNamesTable are the verbs; speed, accuracy and
+// evasion are feminine nouns (السرعة، الدقة، المراوغة).
+#define STAT_VERB_RISE_M 8
+#define STAT_VERB_RISE_F 9
+#define STAT_VERB_FALL_M 10
+#define STAT_VERB_FALL_F 11
+#define STAT_IS_FEMININE(s) ((s) == STAT_SPEED || (s) == STAT_ACC || (s) == STAT_EVASION)
+#endif
 extern const u8 *const gPokeblockWasTooXStringTable[];
 extern const u8 *const gRefereeStringsTable[];
 extern const u8 *const gStatNamesTable2[];

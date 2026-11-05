@@ -85,7 +85,7 @@ D2 = {
  'PkmnsXHadNoEffectOnY':'لم يكن لـ' + AB_S + ' لدى ' + S + '\nأي أثر على ' + E_ + '!',
  'TooScaredToMove':A + ' خائف جدا\nولا يستطيع الحركة!',
  'GetOutGetOut':'الشبح: ' + G('اخرج……', 'اخرجي……') + ' ' + G('اخرج……', 'اخرجي……'),
- 'UsingItemTheStatOfPkmnRose':'بفضل {B_LAST_ITEM}، {B_BUFF2}\n{B_BUFF1} لدى ' + S,
+ 'UsingItemTheStatOfPkmnRose':S + '\nارتفع مستوى {B_BUFF1} بفضل {B_LAST_ITEM}!',
  'AndEllipsis':'و…',
  'HMMovesCantBeForgotten':'لا يمكن نسيان حركات\nالأقراص الخاصة الآن.',
  'PkmnFledUsingIts':'هرب ' + A + '\nبفضل {B_LAST_ITEM}!',
