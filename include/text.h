@@ -175,6 +175,10 @@ void CopyGlyphToWindow(struct TextPrinter *x);
 // TRUE: layout is kept as designed and each line is reversed in place - use on
 // screens whose windows sit over fixed artwork (trainer card, summary, ...).
 extern bool8 gTextRtlLocal;
+// Per-window local mode: bit n set = window n keeps its original layout
+// (party menu slots...). Cleared by FreeAllWindowBuffers / RemoveWindow.
+extern u32 gTextRtlLocalWindows;
+bool8 TextRtl_IsLocal(u8 windowId);
 void TextRtl_PrepareGlyph(struct TextPrinter *textPrinter, const u8 *charStart);
 s32 TextRtl_MirrorX(struct TextPrinter *p, s32 x, s32 glyphWidth, s32 frameStart, s32 frameWidth);
 #endif

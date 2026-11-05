@@ -15,6 +15,7 @@ COMMON_DATA const struct FontInfo *gFonts = NULL;
 COMMON_DATA struct GlyphInfo gGlyphInfo = {0};
 #if TEXT_RTL
 COMMON_DATA bool8 gTextRtlLocal = 0;
+COMMON_DATA u32 gTextRtlLocalWindows = 0;
 static EWRAM_DATA u8 sRtlScanBuffer[256] = {0};
 #endif
 
@@ -296,6 +297,13 @@ s32 TextRtl_MirrorX(struct TextPrinter *p, s32 x, s32 glyphWidth, s32 frameStart
     return mirrorSum - x - glyphWidth;
 }
 
+bool8 TextRtl_IsLocal(u8 windowId)
+{
+    if (gTextRtlLocal)
+        return TRUE;
+    return windowId < 32 && ((gTextRtlLocalWindows >> windowId) & 1);
+}
+
 // Called by RenderText right before a glyph is drawn.
 void TextRtl_PrepareGlyph(struct TextPrinter *p, const u8 *charStart)
 {
@@ -304,7 +312,7 @@ void TextRtl_PrepareGlyph(struct TextPrinter *p, const u8 *charStart)
 
     // Local mode: measure the line when its first glyph is drawn.
     // (first glyph of a line: a new y, or back at/before the measured start)
-    if (gTextRtlLocal && (y != p->rtlLineY || x <= p->rtlLineStart))
+    if (TextRtl_IsLocal(p->printerTemplate.windowId) && (y != p->rtlLineY || x <= p->rtlLineStart))
     {
         const u8 *e = charStart;
         while (*e != EOS && *e != CHAR_NEWLINE && *e != CHAR_PROMPT_SCROLL && *e != CHAR_PROMPT_CLEAR)
@@ -363,12 +371,14 @@ void CopyGlyphToWindow(struct TextPrinter *textPrinter)
         s32 frameStart = 0;
         s32 frameWidth = gWindows[textPrinter->printerTemplate.windowId].window.width * 8;
 
-        if (gTextRtlLocal)
+        bool8 local = TextRtl_IsLocal(textPrinter->printerTemplate.windowId);
+
+        if (local)
         {
             frameStart = textPrinter->rtlLineStart;
             frameWidth = textPrinter->rtlLineWidth;
         }
-        if (!gTextRtlLocal || textPrinter->rtlLineHasArabic)
+        if (!local || textPrinter->rtlLineHasArabic)
             drawX = TextRtl_MirrorX(textPrinter, drawX, gGlyphInfo.width, frameStart, frameWidth);
     }
     if (drawX < 0)

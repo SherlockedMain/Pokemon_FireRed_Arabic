@@ -2114,6 +2114,9 @@ static void InitPartyMenuWindows(u8 layout)
         InitWindows(sShowcaseMultiPartyMenuWindowTemplate);
         break;
     }
+#if TEXT_RTL
+    gTextRtlLocalWindows = 0x3F; // the six Pokémon slots sit on fixed art: keep their layout
+#endif
     DeactivateAllTextPrinters();
     for (i = 0; i < PARTY_SIZE; ++i)
         FillWindowPixelBuffer(i, PIXEL_FILL(0));

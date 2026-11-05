@@ -786,7 +786,7 @@ u16 RenderText(struct TextPrinter *textPrinter)
             // Local mode: place the icon inside the mirrored line like a glyph
             // (window mode mirrors it in BlitBitmapRectToWindow instead).
             TextRtl_PrepareGlyph(textPrinter, textPrinter->printerTemplate.currentChar - 2);
-            if (gTextRtlLocal && textPrinter->rtlLineHasArabic)
+            if (TextRtl_IsLocal(textPrinter->printerTemplate.windowId) && textPrinter->rtlLineHasArabic)
             {
                 s32 iconX = TextRtl_MirrorX(textPrinter, textPrinter->printerTemplate.currentX, GetKeypadIconWidth(currChar),
                                             textPrinter->rtlLineStart, textPrinter->rtlLineWidth);

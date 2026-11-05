@@ -195,6 +195,10 @@ void RemoveWindow(u8 windowId)
         Free(gWindows[windowId].tileData);
         gWindows[windowId].tileData = NULL;
     }
+#if TEXT_RTL
+    if (windowId < 32)
+        gTextRtlLocalWindows &= ~(1u << windowId);
+#endif
 }
 
 void FreeAllWindowBuffers(void)
@@ -218,6 +222,9 @@ void FreeAllWindowBuffers(void)
             gWindows[i].tileData = NULL;
         }
     }
+#if TEXT_RTL
+    gTextRtlLocalWindows = 0;
+#endif
 }
 
 void CopyWindowToVram(u8 windowId, u8 mode)
@@ -321,7 +328,7 @@ static u16 MirrorWindowX(u8 windowId, u16 x, u16 width)
 {
     s32 mirrored;
 
-    if (gTextRtlLocal)
+    if (TextRtl_IsLocal(windowId))
         return x;
     mirrored = 8 * gWindows[windowId].window.width - x - width;
     return mirrored < 0 ? 0 : mirrored;

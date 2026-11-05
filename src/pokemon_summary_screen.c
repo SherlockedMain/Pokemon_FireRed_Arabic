@@ -976,6 +976,9 @@ static const u16 * const sHpBarPals[] =
 void ShowPokemonSummaryScreen(struct Pokemon * party, u8 cursorPos, u8 lastIdx, MainCallback savedCallback, u8 mode)
 {
     sMonSummaryScreen = AllocZeroed(sizeof(struct PokemonSummaryScreenData));
+#if TEXT_RTL
+    gTextRtlLocal = TRUE; // the summary pages are drawn over fixed artwork
+#endif
     sMonSkillsPrinterXpos = AllocZeroed(sizeof(struct Struct203B144));
 
     if (sMonSummaryScreen == NULL)
@@ -2983,6 +2986,9 @@ static void Task_DestroyResourcesOnExit(u8 taskId)
         StopCryAndClearCrySongs();
 
     PokeSum_RemoveWindows(sMonSummaryScreen->curPageIndex);
+#if TEXT_RTL
+    gTextRtlLocal = FALSE;
+#endif
     FreeAllWindowBuffers();
     DestroyTask(taskId);
     SetMainCallback2(sMonSummaryScreen->savedCallback);

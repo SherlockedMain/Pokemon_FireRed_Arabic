@@ -438,6 +438,7 @@ void HelpSystemRenderText(u8 fontId, u8 * dest, const u8 * src, u8 x, u8 y, u8 w
     bool8 savedRtlLocal = gTextRtlLocal;
 
     gTextRtlLocal = FALSE; // the help panels are plain boxes: mirror the whole buffer
+    sHelpRtlPrinter.printerTemplate.windowId = 0xFF; // not a real window: never local
     sHelpRtlPrinter.printerTemplate.fontId = fontId;
     sHelpRtlPrinter.printerTemplate.letterSpacing = 0;
     sHelpRtlPrinter.printerTemplate.x = x;
