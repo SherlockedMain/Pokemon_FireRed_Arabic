@@ -2,16 +2,16 @@ Text_BootedUpPC::
 	.string "{PLAYER} booted up the PC.$"
 
 Text_AccessWhichPC::
-	.string "Which PC should be accessed?$"
+	.string "ﺃﻱ ﺣﺎﺳﻮﺏ ﺗﺮﻳﺪ ﺃﻥ ﺗﺴﺘﺨﺪﻡ؟$"
 
 Text_AccessedSomeonesPC::
-	.string "Accessed Someone's PC.$"
+	.string "ﺗﻢ ﺪﺧﻮﻝ ﺇﻟﻰ ﺣﺎﺳﻮﺏ ﺃﺣﺪﻫﻢ.$"
 
 Text_OpenedPkmnStorage::
-	.string "POKéMON Storage System opened.$"
+	.string "ﻓﺘﺢ ﻧﻈﺎﻡ ﺗﺨﺰﻳﻦ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.$"
 
 Text_AccessedPlayersPC::
-	.string "Accessed {PLAYER}'s PC.$"
+	.string "ﺗﻢ ﺪﺧﻮﻝ ﺇﻟﻰ ﺣﺎﺳﻮﺏ {PLAYER}.$"
 
 Text_AccessedBillsPC::
-	.string "Accessed BILL's PC.$"
+	.string "ﺗﻢ ﺪﺧﻮﻝ ﺇﻟﻰ ﺣﺎﺳﻮﺏ ﺑﻴﻞ.$"

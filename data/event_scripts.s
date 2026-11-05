@@ -944,9 +944,10 @@ Text_ItNeedsCardKey::
 	.string "It needs a CARD KEY!$"
 
 Text_AccessedProfOaksPC::
-	.string "Accessed PROF. OAK's PC…\p"
-	.string "Accessed the POKéDEX Rating\n"
-	.string "System…$"
+	.string "ﺗﻢ ﺪﺧﻮﻝ ﺇﻟﻰ ﺣﺎﺳﻮﺏ ﺒﺮﻭﻓﻴﺴﻮﺭ\n"
+	.string "ﺃﻭﻙ…\p"
+	.string "ﺗﻢ ﺪﺧﻮﻝ ﺇﻟﻰ ﻧﻈﺎﻡ ﺗﻘﻴﻴﻢ\n"
+	.string "ﺒﻮﻛﻴﺪﻳﻜﺲ…$"
 
 Text_HavePokedexRated::
 	.string "Would you like to have your\n"

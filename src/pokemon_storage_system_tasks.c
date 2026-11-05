@@ -2135,6 +2135,9 @@ static bool8 InitPokeStorageWindows(void)
 {
     if (!InitWindows(sWindowTemplates))
         return FALSE;
+#if TEXT_RTL
+    gTextRtlLocalWindows = 0xFFFFFFFF; // the storage boxes are drawn over fixed artwork: keep their layout
+#endif
 
     DeactivateAllTextPrinters();
     return TRUE;

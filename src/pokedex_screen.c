@@ -898,6 +898,9 @@ void DexScreen_LoadResources(void)
     else
         DecompressAndLoadBgGfxUsingHeap(3, (void *)sKantoDexTiles, BG_SCREEN_SIZE, 0, 0);
     InitWindows(sWindowTemplates);
+#if TEXT_RTL
+    gTextRtlLocalWindows = 0xFFFFFFFF; // the Pokédex is drawn over fixed artwork: keep its layout
+#endif
     DeactivateAllTextPrinters();
     m4aSoundVSyncOn();
     SetVBlankCallback(VBlankCB);

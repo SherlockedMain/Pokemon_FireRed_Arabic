@@ -13,7 +13,7 @@ _src = {f: open(os.path.join(ROOT, f), encoding='utf-8').read() for f in FILES}
 
 def _find(label):
     for f, s in _src.items():
-        if f.endswith('.inc'):
+        if f.endswith(('.inc', '.s')):
             m = re.search(r'^%s::\n((?:[ \t]*\.string .*\n)+)' % re.escape(label), s, re.M)
             if m:
                 return f, ''.join(re.findall(r'\.string "(.*)"', m.group(1))).rstrip('$')
