@@ -829,7 +829,7 @@ Help_Text_HowToEnterName::
 	.string "   ﺛﻢ ﺍﺿﻐﻂ ﺯﺭ A ﻹﺩﺧﺎﻟﻪ.\n"
 	.string "{CIRCLE_2} ﺍﺿﻐﻂ ﺯﺭ B ﻟﺤﺬﻑ ﺁﺧﺮ ﺣﺮﻑ.\n"
 	.string "{CIRCLE_3} ﺍﺿﻐﻂ SELECT ﻟﻠﺘﺒﺪﻳﻞ ﺑﻴﻦ\n"
-	.string "   ﺤﺮﻭﻑ ﻜﺒﻴﺮﺓ ﻭﻟﺼﻐﻴﺮﺓ.\n"
+	.string "   ﻌﺮﺑﻴﺔ ﻭﻟﻼﺗﻴﻨﻴﺔ ﻭﻟﺮﻣﻮﺯ.\n"
 	.string "{CIRCLE_4} ﺍﺿﻐﻂ ﺯﺭ A ﻋﻠﻰ “OK”.$"
 
 Help_Text_HowToUsePC::

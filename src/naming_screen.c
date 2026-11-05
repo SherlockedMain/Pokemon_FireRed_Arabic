@@ -13,6 +13,10 @@
 #include "menu.h"
 #include "overworld.h"
 #include "naming_screen.h"
+#if TEXT_RTL
+#include "arabic_codes.h"
+#include "arabic_shaping.h"
+#endif
 #include "new_menu_helpers.h"
 #include "pokemon_icon.h"
 #include "pokemon_storage_system.h"
@@ -174,6 +178,10 @@ struct NamingScreenData
     /*0x1E36*/ u16 monGender;
     /*0x1E38*/ u32 monPersonality;
     /*0x1E3C*/ MainCallback returnCallback;
+#if TEXT_RTL
+    u8 rtlLogical[0x11];   // the name as typed (isolated letters), reshaped after every edit
+    u8 rtlLogicalLen;
+#endif
 };
 
 static EWRAM_DATA struct NamingScreenData * sNamingScreen = NULL;
@@ -253,6 +261,11 @@ static u8 GetTextEntryPosition(void);
 static bool8 AddTextCharacter(void);
 static void BufferCharacter(u8 character);
 static void SaveInputText(void);
+#if TEXT_RTL
+static bool8 NamingRtl_HasArabic(const u8 *str);
+static void NamingRtl_LoadLogical(void);
+static bool8 NamingRtl_Rebuild(void);
+#endif
 static void LoadGfx(void);
 static void CreateHelperTasks(void);
 static void LoadPalettes(void);
@@ -403,7 +416,11 @@ static const u8 sPageColumnCounts[] = {
 };
 
 static const u8 sPageColumnXPos[KBPAGE_COUNT][KBCOL_COUNT] = {
+#if TEXT_RTL
+    [KEYBOARD_LETTERS_LOWER] = {0, 18, 36, 54, 72, 90, 108, 126}, // Arabic letters: wider glyphs
+#else
     [KEYBOARD_LETTERS_LOWER] = {0, 12, 24, 56, 68, 80, 92, 123},
+#endif
     [KEYBOARD_LETTERS_UPPER] = {0, 12, 24, 56, 68, 80, 92, 123},
     [KEYBOARD_SYMBOLS]       = {0, 22, 44, 66, 88, 110}
 };
@@ -497,6 +514,9 @@ static void NamingScreen_Init(void)
     memset(sNamingScreen->textBuffer, EOS, sizeof(sNamingScreen->textBuffer));
     if (sNamingScreen->template->copyExistingString)
         StringCopy(sNamingScreen->textBuffer, sNamingScreen->destBuffer);
+#if TEXT_RTL
+    NamingRtl_LoadLogical();
+#endif
     gKeyRepeatStartDelay = 16;
 }
 
@@ -638,11 +658,20 @@ static u8 CurrentPageToKeyboardId(void)
 static bool8 MainState_FadeIn(void)
 {
     DecompressToBgTilemapBuffer(3, gNamingScreenBackground_Tilemap);
+#if TEXT_RTL
+    // Start on the Arabic letters page
+    sNamingScreen->currentPage = KBPAGE_LETTERS_LOWER;
+    DecompressToBgTilemapBuffer(2, gNamingScreenKeyboardUpper_Tilemap);
+    DecompressToBgTilemapBuffer(1, gNamingScreenKeyboardLower_Tilemap);
+    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_LETTERS_UPPER);
+    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_LOWER);
+#else
     sNamingScreen->currentPage = KBPAGE_LETTERS_UPPER;
     DecompressToBgTilemapBuffer(2, gNamingScreenKeyboardLower_Tilemap);
     DecompressToBgTilemapBuffer(1, gNamingScreenKeyboardUpper_Tilemap);
     PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_LETTERS_LOWER);
     PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_UPPER);
+#endif
     DrawTextEntry();
     DrawTextEntryBox();
     PrintControls();
@@ -1107,6 +1136,13 @@ static void SpriteCB_Underscore(struct Sprite *sprite)
 {
     const s16 y[] = {2, 3, 2, 1};
     u8 pos = GetTextEntryPosition();
+#if TEXT_RTL
+    if (NamingRtl_HasArabic(sNamingScreen->textBuffer))
+    {
+        u8 len = StringLength(sNamingScreen->textBuffer);
+        pos = (len < sNamingScreen->template->maxChars) ? sNamingScreen->template->maxChars - 1 - len : 0xFF;
+    }
+#endif
 
     if (pos != (u8)sprite->sId)
     {
@@ -1783,8 +1819,121 @@ static void DrawGenderIcon(void)
 
 static u8 GetCharAtKeyboardPos(s16 x, s16 y)
 {
+#if TEXT_RTL
+    if (CurrentPageToKeyboardId() == KEYBOARD_LETTERS_LOWER)
+        return sArabicKeyboard[y][x];
+    if (CurrentPageToKeyboardId() == KEYBOARD_SYMBOLS)
+        return sArabicKeyboardExtras[y][x];
+#endif
     return sKeyboardChars[CurrentPageToKeyboardId()][y][x];
 }
+
+#if TEXT_RTL
+// ---- Arabic input: letters are kept as typed (isolated forms) and the name
+// is reshaped after every edit, so letters connect automatically.
+static bool8 NamingRtl_HasArabic(const u8 *str)
+{
+    for (; *str != EOS; str++)
+    {
+        if (*str < CHAR_KEYPAD_ICON && IS_ARABIC_CODE(*str))
+            return TRUE;
+    }
+    return FALSE;
+}
+
+static u8 NamingRtl_Shape(const u8 *in, u8 count, u8 *out, u8 maxLen)
+{
+    u8 i, j, len = 0;
+
+    for (i = 0; i < count; i++)
+    {
+        u8 c = in[i];
+        u8 letter = sArabicLetterOf[c];
+        u8 glyph = c;
+
+        if (letter != 0xFF)
+        {
+            bool8 joinPrev = FALSE;
+            bool8 joinNext = FALSE;
+            u8 prev = (i > 0) ? sArabicLetterOf[in[i - 1]] : 0xFF;
+            u8 next = (i + 1 < count) ? sArabicLetterOf[in[i + 1]] : 0xFF;
+
+            if (prev != 0xFF && sArabicLetters[prev].dual && !sArabicLetters[letter].noJoin)
+                joinPrev = TRUE;
+            if (letter == ARABIC_LAM && next != 0xFF)
+            {
+                for (j = 0; j < ARRAY_COUNT(sArabicLamAlef); j++)
+                {
+                    if (sArabicLamAlef[j][0] == next)
+                        break;
+                }
+                if (j < ARRAY_COUNT(sArabicLamAlef))
+                {
+                    if (len >= maxLen)
+                        return 0xFF;
+                    out[len++] = joinPrev ? sArabicLamAlef[j][2] : sArabicLamAlef[j][1];
+                    i++;
+                    continue;
+                }
+            }
+            if (sArabicLetters[letter].dual && next != 0xFF && !sArabicLetters[next].noJoin)
+                joinNext = TRUE;
+            if (joinPrev && joinNext)
+                glyph = sArabicLetters[letter].med;
+            else if (joinPrev)
+                glyph = sArabicLetters[letter].fin;
+            else if (joinNext)
+                glyph = sArabicLetters[letter].ini;
+            else
+                glyph = sArabicLetters[letter].iso;
+        }
+        if (len >= maxLen)
+            return 0xFF;
+        out[len++] = glyph;
+    }
+    out[len] = EOS;
+    return len;
+}
+
+// textBuffer (shaped) -> rtlLogical (as typed)
+static void NamingRtl_LoadLogical(void)
+{
+    u8 i, j, c, n = 0;
+
+    for (i = 0; i < sizeof(sNamingScreen->textBuffer) && sNamingScreen->textBuffer[i] != EOS && n < 0x10; i++)
+    {
+        c = sNamingScreen->textBuffer[i];
+        for (j = 0; j < ARRAY_COUNT(sArabicLamAlef); j++)
+        {
+            if (c == sArabicLamAlef[j][1] || c == sArabicLamAlef[j][2])
+                break;
+        }
+        if (j < ARRAY_COUNT(sArabicLamAlef) && n < 0x0F)
+        {
+            sNamingScreen->rtlLogical[n++] = sArabicLetters[ARABIC_LAM].iso;
+            sNamingScreen->rtlLogical[n++] = sArabicLetters[sArabicLamAlef[j][0]].iso;
+            continue;
+        }
+        if (sArabicLetterOf[c] != 0xFF)
+            c = sArabicLetters[sArabicLetterOf[c]].iso;
+        sNamingScreen->rtlLogical[n++] = c;
+    }
+    sNamingScreen->rtlLogicalLen = n;
+}
+
+// rtlLogical -> textBuffer (shaped); FALSE if it would not fit
+static bool8 NamingRtl_Rebuild(void)
+{
+    u8 tmp[0x11];
+    u8 maxChars = sNamingScreen->template->maxChars;
+
+    if (NamingRtl_Shape(sNamingScreen->rtlLogical, sNamingScreen->rtlLogicalLen, tmp, maxChars) == 0xFF)
+        return FALSE;
+    memset(sNamingScreen->textBuffer, EOS, sizeof(sNamingScreen->textBuffer));
+    StringCopy(sNamingScreen->textBuffer, tmp);
+    return TRUE;
+}
+#endif
 
 static u8 GetTextEntryPosition(void)
 {
@@ -1815,12 +1964,21 @@ static void DeleteTextCharacter(void)
     u8 index;
     u8 keyRole;
 
+#if TEXT_RTL
+    (void)index;
+    if (sNamingScreen->rtlLogicalLen > 0)
+        sNamingScreen->rtlLogicalLen--;
+    NamingRtl_Rebuild();
+    DrawTextEntry();
+    CopyBgTilemapBufferToVram(3);
+#else
     index = GetPreviousTextCaretPosition();
     // Temporarily make this a space for redrawing purposes
     sNamingScreen->textBuffer[index] = CHAR_SPACE;
     DrawTextEntry();
     CopyBgTilemapBufferToVram(3);
     sNamingScreen->textBuffer[index] = EOS;
+#endif
     keyRole = GetKeyRoleAtCursorPos();
 
     // The below flashes the Back key once on delete
@@ -1837,7 +1995,19 @@ static bool8 AddTextCharacter(void)
     s16 y;
 
     GetCursorPos(&x, &y);
+#if TEXT_RTL
+    if (sNamingScreen->rtlLogicalLen < 0x10)
+    {
+        sNamingScreen->rtlLogical[sNamingScreen->rtlLogicalLen++] = GetCharAtKeyboardPos(x, y);
+        if (!NamingRtl_Rebuild())
+        {
+            sNamingScreen->rtlLogicalLen--;
+            NamingRtl_Rebuild();
+        }
+    }
+#else
     BufferCharacter(GetCharAtKeyboardPos(x, y));
+#endif
     DrawTextEntry();
     CopyBgTilemapBufferToVram(3);
     PlaySE(SE_SELECT);
@@ -1907,6 +2077,19 @@ static void DrawTextEntry(void)
 
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY], PIXEL_FILL(1));
 
+#if TEXT_RTL
+    if (NamingRtl_HasArabic(sNamingScreen->textBuffer))
+    {
+        // Arabic: one connected string, right-aligned in the entry cells
+        s32 width = GetStringWidth(FONT_NORMAL, sNamingScreen->textBuffer, 0);
+        s32 x = xpos + maxChars * 8 - width;
+
+        if (x < 0)
+            x = 0;
+        AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY], FONT_NORMAL, sNamingScreen->textBuffer, x, 1, TEXT_SKIP_DRAW, NULL);
+        maxChars = 0; // skip the per-cell loop
+    }
+#endif
     for (i = 0; i < maxChars; i++)
     {
         temp[0] = sNamingScreen->textBuffer[i];
@@ -1954,6 +2137,31 @@ static void PrintKeyboardKeys(u8 window, u8 page)
 
     FillWindowPixelBuffer(window, sFillValues[page]);
 
+#if TEXT_RTL
+    if (page == KEYBOARD_LETTERS_LOWER || page == KEYBOARD_SYMBOLS)
+    {
+        // Arabic pages: one label per key, centred on its column
+        u8 col;
+        u8 key[2];
+
+        for (i = 0; i < KBROW_COUNT; i++)
+        {
+            for (col = 0; col < sPageColumnCounts[page]; col++)
+            {
+                s32 x;
+
+                key[0] = (page == KEYBOARD_LETTERS_LOWER) ? sArabicKeyboard[i][col] : sArabicKeyboardExtras[i][col];
+                key[1] = EOS;
+                x = sPageColumnXPos[page][col] + 12 + (8 - GetStringWidth(FONT_NORMAL_COPY_1, key, 0)) / 2;
+                if (x < 0)
+                    x = 0;
+                AddTextPrinterParameterized3(window, FONT_NORMAL_COPY_1, x, i * 16 + 1, sKeyboardTextColors[page], 0, key);
+            }
+        }
+        PutWindowTilemap(window);
+        return;
+    }
+#endif
     for (i = 0; i < KBROW_COUNT; i++)
         AddTextPrinterParameterized3(window, FONT_NORMAL_COPY_1, 0, i * 16 + 1, sKeyboardTextColors[page], 0, sNamingScreenKeyboardText[page][i]);
 

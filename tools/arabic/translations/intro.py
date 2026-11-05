@@ -294,3 +294,9 @@ for _e in ENTRIES:
         _e['ar'] = _R3[_e['id']]
         if _e['id'] in ('gOakSpeech_Text_TellMeALittleAboutYourself', 'gOakSpeech_Text_AskPlayerGender'):
             _e['note'] = 'Shown before the player picks boy/girl: worded without masculine/feminine forms.'
+
+# ---- Revision 4: the naming keyboard now has Arabic pages
+_R4 = {'Help_Text_HowToEnterName': '{CIRCLE_1} اختر الحرف بلوحة الاتجاهات {PLUS}،\n   ثم اضغط زر A لإدخاله.\n{CIRCLE_2} اضغط زر B لحذف آخر حرف.\n{CIRCLE_3} اضغط SELECT للتبديل بين\n   العربية واللاتينية والرموز.\n{CIRCLE_4} اضغط زر A على “OK”.'}
+for _e in ENTRIES:
+    if _e['id'] in _R4:
+        _e['ar'] = _R4[_e['id']]
