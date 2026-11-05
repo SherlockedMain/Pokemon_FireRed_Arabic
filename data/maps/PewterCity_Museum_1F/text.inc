@@ -1,7 +1,7 @@
 PewterCity_Museum_1F_Text_Its50YForChildsTicket::
     .string "ﻧﻌﻢ، ﻧﻌﻢ.\n"
     .string "ﺗﺬﻛﺮﺓ ﻄﻔﻞ ﺏ¥50.\p"
-    .string "ﻫﻞ ﺗﺮﻳﺪ ﺪﺧﻮﻝ؟$"
+    .string "ﻫﻞ {GENDER_M}ﺗﺮﻳﺪ{GENDER_F}ﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺪﺧﻮﻝ؟$"
 
 PewterCity_Museum_1F_Text_ComeAgain::
     .string "ﻋﺪ ﻣﺠﺪﺩ!$"
@@ -14,20 +14,20 @@ PewterCity_Museum_1F_Text_DontHaveEnoughMoney::
     .string "ﻟﻴﺲ ﻟﺪﻳﻚ ﻣﺎ ﻳﻜﻔﻲ ﻣﻦ ﻤﺎﻝ.$"
 
 PewterCity_Museum_1F_Text_PleaseEnjoyYourself::
-    .string "ﺍﺳﺘﻤﺘﻊ ﺑﻮﻗﺘﻚ.$"
+    .string "{GENDER_M}ﺍﺳﺘﻤﺘﻊ{GENDER_F}ﺍﺳﺘﻤﺘﻌﻲ{GENDER_E} ﺑﻮﻗﺘﻚ.$"
 
 PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
     .string "ﻻ ﻳﻤﻜﻨﻚ ﺘﺴﻠﻞ ﻣﻦ ﺒﺎﺏ\n"
     .string "ﺨﻠﻔﻲ!\p"
-    .string "ﻣﺤﺎﻭﻟﺔ ﻟﻄﻴﻔﺔ ﻳﺎ ﺻﻐﻴﺮ، ﻟﻜﻦ ﻻ.\p"
+    .string "ﻣﺤﺎﻭﻟﺔ ﻟﻄﻴﻔﺔ ﻳﺎ {GENDER_M}ﺻﻐﻴﺮ،{GENDER_F}ﺻﻐﻴﺮﺓ،{GENDER_E} ﻟﻜﻦ ﻻ.\p"
     .string "ﺁﻩ، ﻻ ﻳﻬﻢ!\n"
-    .string "ﻫﻞ ﺗﻌﺮﻑ ﻣﺎ ﻫﻮ ﻜﻬﺮﻣﺎﻥ؟$"
+    .string "ﻫﻞ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﻣﺎ ﻫﻮ ﻜﻬﺮﻣﺎﻥ؟$"
 
 PewterCity_Museum_1F_Text_AmberContainsGeneticMatter::
     .string "ﻜﻬﺮﻣﺎﻥ ﻳﺤﻮﻱ ﻤﺎﺩﺓ ﻮﺭﺛﻴﺔ\n"
-    .string "ﻟﺒﻮﻛﻴﻤﻮﻥ ﻗﺪﻳﻤﺔ.\p"
+    .string "ﻟﺒﻮﻛﻴﻤﻮﻥ ﻗﺪﻳﻢ.\p"
     .string "ﻭﻫﻨﺎﻙ ﻣﺨﺘﺒﺮ ﻓﻲ ﻣﻜﺎﻥ ﻣﺎ ﻳﺤﺎﻭﻝ\n"
-    .string "ﺇﺣﻴﺎﺀ ﺒﻮﻛﻴﻤﻮﻥ ﻣﻦ ﻜﻬﺮﻣﺎﻥ.$"
+    .string "ﺇﺣﻴﺎﺀ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻣﻦ ﻜﻬﺮﻣﺎﻥ.$"
 
 PewterCity_Museum_1F_Text_AmberIsFossilizedSap::
     .string "ﻜﻬﺮﻣﺎﻥ ﻓﻲ ﺤﻘﻴﻘﺔ ﺻﻤﻎ، ﺗﻠﻚ\n"
@@ -47,7 +47,7 @@ PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife::
     .string "ﻋﻈﺎﻡ ﺗﻨﻴﻦ!$"
 
 PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
-    .string "ﺻﻪ! ﺍﺳﻤﻊ، ﻋﻠﻲ ﺃﻥ ﺃﺷﺎﺭﻙ ﺳﺮ\n"
+    .string "ﺻﻪ! {GENDER_M}ﺍﺳﻤﻊ،{GENDER_F}ﺍﺳﻤﻌﻲ،{GENDER_E} ﻋﻠﻲ ﺃﻥ ﺃﺷﺎﺭﻙ ﺳﺮ\n"
     .string "ﻣﻊ ﺃﺣﺪ.\p"
     .string "ﺃﻇﻦ ﺃﻥ ﻗﻄﻌﺔ ﻜﻬﺮﻣﺎﻥ ﻫﺬﻩ\n"
     .string "ﺗﺤﻮﻱ ﺣﻤﺾ ﺒﻮﻛﻴﻤﻮﻥ ﻨﻮﻭﻱ!\p"
@@ -56,7 +56,7 @@ PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
     .string "ﻟﻜﻦ ﺯﻣﻼﺋﻲ ﻳﺘﺠﺎﻫﻠﻮﻥ\n"
     .string "ﻛﻞ ﻣﺎ ﺃﻗﻮﻝ.\p"
     .string "ﻟﺬ ﻟﺪﻱ ﻃﻠﺐ!\p"
-    .string "ﺃﺭﻳﺪﻙ ﺃﻥ ﺗﻔﺤﺼﻬﺎ ﻓﻲ\n"
+    .string "ﺃﺭﻳﺪﻙ ﺃﻥ {GENDER_M}ﺗﻔﺤﺼﻬﺎ{GENDER_F}ﺗﻔﺤﺼﻴﻬﺎ{GENDER_E} ﻓﻲ\n"
     .string "ﻣﺨﺘﺒﺮ ﺑﻮﻛﻴﻤﻮﻥ ﻣﺎ.$"
 
 PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan::
@@ -65,7 +65,7 @@ PewterCity_Museum_1F_Text_ReceivedOldAmberFromMan::
 
 PewterCity_Museum_1F_Text_GetOldAmberChecked::
     .string "ﺻﻪ!\n"
-    .string "ﺍﻓﺤﺺ ﻜﻬﺮﻣﺎﻥ ﻘﺪﻳﻢ!$"
+    .string "{GENDER_M}ﺍﻓﺤﺺ{GENDER_F}ﺍﻓﺤﺼﻲ{GENDER_E} ﻜﻬﺮﻣﺎﻥ ﻘﺪﻳﻢ!$"
 
 PewterCity_Museum_1F_Text_DontHaveSpaceForThis::
     .string "ﻟﻴﺲ ﻟﺪﻳﻚ ﻣﻜﺎﻥ ﻟﻬﺬ.$"

@@ -29,7 +29,7 @@ Text_CoinCaseIsFull::
 
 Text_NothingToPutThemIn::
 	.string "ﻟﻸﺳﻒ!\n"
-	.string "ﻻ ﻳﻮﺟﺪ ﻣﺎ ﺗﻀﻌﻬﺎ ﻓﻴﻪ…$"
+	.string "ﻻ ﻳﻮﺟﺪ ﻣﺎ {GENDER_M}ﺗﻀﻌﻬﺎ{GENDER_F}ﺗﻀﻌﻴﻬﺎ{GENDER_E} ﻓﻴﻪ…$"
 
 Text_FoundXItems::
 	.string "ﻭﺟﺪ {PLAYER}\n"

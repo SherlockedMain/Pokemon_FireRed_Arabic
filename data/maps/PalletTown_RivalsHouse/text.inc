@@ -11,7 +11,7 @@ PalletTown_RivalsHouse_Text_HeardYouBattledRival::
 PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
     .string "ﺟﺪﻱ ﻛﻠﻔﻚ ﺑﻤﻬﻤﺔ؟\p"
     .string "ﻳﺎ ﻟﻪ ﻣﻦ ﻛﺴﻮﻝ!\n"
-    .string "ﺧﺬ ﻫﺬﻩ، ﺳﺘﻨﻔﻌﻚ ﻓﻲ ﻃﺮﻳﻘﻚ.$"
+    .string "{GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻫﺬﻩ، ﺳﺘﻨﻔﻌﻚ ﻓﻲ ﻃﺮﻳﻘﻚ.$"
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
     .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﺧﺮﻳﻄﺔ ﺒﻠﺪﺕ\n"
@@ -25,9 +25,9 @@ PalletTown_RivalsHouse_Text_ExplainTownMap::
     .string "ﻭﺗﺘﻌﺮﻑ ﻋﻠﻰ ﺃﺳﻤﺎﺀ ﺍﻷﻣﺎﻛﻦ.$"
 
 PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
-    .string "ﺩﻳﺰﻱ: ﺒﻮﻛﻴﻤﻮﻥ ﻛﺎﺋﻨﺎﺕ ﺣﻴﺔ،\n"
+    .string "ﺩﻳﺰﻱ: ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻛﺎﺋﻨﺎﺕ ﺣﻴﺔ،\n"
     .string "ﺗﺘﻌﺐ ﻣﺜﻠﻨﺎ ﺗﻤﺎﻣﺎ.\p"
-    .string "ﻓﺎﻣﻨﺤﻬﺎ ﻗﺴﻄﺎ ﻣﻦ ﺮﺣﺔ\n"
+    .string "{GENDER_M}ﻓﺎﻣﻨﺤﻬﺎ{GENDER_F}ﻓﺎﻣﻨﺤﻴﻬﺎ{GENDER_E} ﻗﺴﻄﺎ ﻣﻦ ﺮﺣﺔ\n"
     .string "ﺣﻴﻦ ﺗﺤﺘﺎﺝ ﺇﻟﻴﻪ.$"
 
 PalletTown_RivalsHouse_Text_ItsBigMapOfKanto::
@@ -42,17 +42,17 @@ PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
     .string "ﺩﻳﺰﻱ: ﺃﻫﻼ {PLAYER}!\n"
     .string "ﺟﺌﺖ ﻓﻲ ﻮﻗﺖ ﻤﻨﺎﺳﺐ.\p"
     .string "ﻛﻨﺖ ﻋﻠﻰ ﻭﺷﻚ ﺃﻥ ﺃﻋﺪ ﺸﺎﻱ.\n"
-    .string "ﻫﻞ ﺗﺸﺎﺭﻛﻨﻲ؟\p"
+    .string "ﻫﻞ {GENDER_M}ﺗﺸﺎﺭﻛﻨﻲ؟{GENDER_F}ﺗﺸﺎﺭﻛﻴﻨﻨﻲ؟{GENDER_E}\p"
     .string "ﻟﻜﻦ ﺍﻧﻈﺮ!\n"
-    .string "ﺑﻮﻛﻴﻤﻮﻧﻚ ﻣﺘﺴﺦ ﻗﻠﻴﻼ!\p"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ ﻣﺘﺴﺨﺔ ﻗﻠﻴﻼ!\p"
     .string "ﻫﻞ ﺃﻧﻈﻒ ﻟﻚ ﻭﺣﺪ ﻣﻨﻬﺎ؟$"
 
 PalletTown_RivalsHouse_Text_DontNeedAnyGrooming::
-    .string "ﻻ ﺗﺤﺘﺎﺝ ﺇﻟﻰ ﺗﻨﻈﻴﻒ؟\n"
+    .string "ﻻ {GENDER_M}ﺗﺤﺘﺎﺝ{GENDER_F}ﺗﺤﺘﺎﺟﻴﻦ{GENDER_E} ﺇﻟﻰ ﺗﻨﻈﻴﻒ؟\n"
     .string "ﺣﺴﻨﺎ، ﺳﻨﻜﺘﻔﻲ ﺑﺎﻟﺸﺎﻱ ﺇﺫﻥ.$"
 
 PalletTown_RivalsHouse_Text_GroomWhichOne::
-    .string "ﺃﻳﻬﺎ ﺗﺮﻳﺪ ﺃﻥ ﺃﻧﻈﻒ؟$"
+    .string "ﺃﻳﻬﺎ {GENDER_M}ﺗﺮﻳﺪ{GENDER_F}ﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺃﻥ ﺃﻧﻈﻒ؟$"
 
 PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
     .string "ﺩﻳﺰﻱ: ﺳﺄﺟﻌﻠﻪ ﻳﺘﺄﻟﻖ\n"
@@ -61,13 +61,13 @@ PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
 #ifdef BUGFIX @ The localizers missed what should be a textcolor change in the localizations.
     .string "{COLOR DARK_GRAY}{STR_VAR_1} ﻳﺒﺪﻭ ﻫﺎﻧﺌﺎ ﺣﺎﻟﻤﺎ…\p"
-    .string "{COLOR RED}ﺩﻳﺰﻱ: ﺗﻔﻀﻞ! ﺍﻧﺘﻬﻴﺖ.\n"
+    .string "{COLOR RED}ﺩﻳﺰﻱ: {GENDER_M}ﺗﻔﻀﻞ!{GENDER_F}ﺗﻔﻀﻠﻲ!{GENDER_E} ﺍﻧﺘﻬﻴﺖ.\n"
     .string "ﺃﺭﻳﺖ؟ ﺃﻟﻴﺲ ﺟﻤﻴﻼ؟\p"
     .string "ﻫﻴﻬﻲ…\n"
     .string "ﻳﺎ ﻟﻪ ﻣﻦ ﺑﻮﻛﻴﻤﻮﻥ ﻟﻄﻴﻒ.$"
 #else @ In the JP games, gender-based text used a different font instead of different colors.
     .string "{FONT_NORMAL}{STR_VAR_1} ﻳﺒﺪﻭ ﻫﺎﻧﺌﺎ ﺣﺎﻟﻤﺎ…\p"
-    .string "{FONT_FEMALE}ﺩﻳﺰﻱ: ﺗﻔﻀﻞ! ﺍﻧﺘﻬﻴﺖ.\n"
+    .string "{FONT_FEMALE}ﺩﻳﺰﻱ: {GENDER_M}ﺗﻔﻀﻞ!{GENDER_F}ﺗﻔﻀﻠﻲ!{GENDER_E} ﺍﻧﺘﻬﻴﺖ.\n"
     .string "ﺃﺭﻳﺖ؟ ﺃﻟﻴﺲ ﺟﻤﻴﻼ؟\p"
     .string "ﻫﻴﻬﻲ…\n"
     .string "ﻳﺎ ﻟﻪ ﻣﻦ ﺑﻮﻛﻴﻤﻮﻥ ﻟﻄﻴﻒ.$"
@@ -78,9 +78,9 @@ PalletTown_RivalsHouse_Text_CantGroomAnEgg::
     .string "ﺃﻥ ﺃﻧﻈﻒ ﺑﻴﻀﺔ.$"
 
 PalletTown_RivalsHouse_Text_MayISeeFirstMon::
-    .string "ﺩﻳﺰﻱ: ﺒﻮﻛﻴﻤﻮﻥ ﺗﺤﺒﻚ ﺇﻥ\n"
+    .string "ﺩﻳﺰﻱ: ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺗﺤﺒﻚ ﺇﻥ\n"
     .string "ﺭﺑﻴﺘﻬﺎ ﺑﺤﺐ.\p"
-    .string "ﻣﺜﻼ ﻳﺎ {PLAYER}، ﻫﻞ ﺗﺴﻤﺢ ﻟﻲ\n"
+    .string "ﻣﺜﻼ ﻳﺎ {PLAYER}، ﻫﻞ {GENDER_M}ﺗﺴﻤﺢ{GENDER_F}ﺗﺴﻤﺤﻴﻦ{GENDER_E} ﻟﻲ\n"
     .string "ﺃﻥ ﺃﺭﻯ ﺃﻭﻝ ﺑﻮﻛﻴﻤﻮﻥ ﻟﺪﻳﻚ؟$"
 
 PalletTown_RivalsHouse_Text_CouldntLoveYouMore::
@@ -95,7 +95,7 @@ PalletTown_RivalsHouse_Text_ItLooksVeryHappy::
 
 PalletTown_RivalsHouse_Text_ItsQuiteFriendly::
     .string "ﺇﻧﻪ ﻭﺩﻭﺩ ﻣﻌﻚ ﺟﺪ.\n"
-    .string "ﺍﺳﺘﻤﺮ ﻓﻲ ﻣﻌﺎﻣﻠﺘﻪ ﺑﻠﻄﻒ!$"
+    .string "{GENDER_M}ﺍﺳﺘﻤﺮ{GENDER_F}ﺍﺳﺘﻤﺮﻱ{GENDER_E} ﻓﻲ ﻣﻌﺎﻣﻠﺘﻪ ﺑﻠﻄﻒ!$"
 
 PalletTown_RivalsHouse_Text_ItsWarmingUpToYou::
     .string "ﺑﺪ ﻳﺄﻟﻔﻚ ﻭﻳﺮﺗﺎﺡ ﺇﻟﻴﻚ.\n"
@@ -103,13 +103,13 @@ PalletTown_RivalsHouse_Text_ItsWarmingUpToYou::
 
 PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet::
     .string "ﻟﻢ ﻳﻌﺘﺪ ﻋﻠﻴﻚ ﺗﻤﺎﻣﺎ ﺑﻌﺪ.\p"
-    .string "ﻛﻞ ﺒﻮﻛﻴﻤﻮﻥ ﺗﻜﻮﻥ ﺣﺬﺭﺓ\n"
-    .string "ﺣﻴﻦ ﺗﺤﺼﻞ ﻋﻠﻴﻬﺎ ﺃﻭﻝ ﻣﺮﺓ.$"
+    .string "ﻛﻞ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺗﻜﻮﻥ ﺣﺬﺭﺓ\n"
+    .string "ﺣﻴﻦ {GENDER_M}ﺗﺤﺼﻞ{GENDER_F}ﺗﺤﺼﻠﻴﻦ{GENDER_E} ﻋﻠﻴﻬﺎ ﺃﻭﻝ ﻣﺮﺓ.$"
 
 PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou::
     .string "{PLAYER}، ﻻ ﺗﻌﺠﺒﻨﻲ ﻃﺮﻳﻘﺔ\n"
     .string "ﺗﺤﺪﻳﻘﻪ ﺑﻚ.\p"
-    .string "ﻫﻼ ﺣﺎﻭﻟﺖ ﺃﻥ ﺗﻜﻮﻥ ﺃﻟﻄﻒ ﻣﻌﻪ\n"
+    .string "ﻫﻼ ﺣﺎﻭﻟﺖ ﺃﻥ {GENDER_M}ﺗﻜﻮﻥ{GENDER_F}ﺗﻜﻮﻧﻲ{GENDER_E} ﺃﻟﻄﻒ ﻣﻌﻪ\n"
     .string "ﻗﻠﻴﻼ؟$"
 
 PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch::

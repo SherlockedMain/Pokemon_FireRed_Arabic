@@ -3,7 +3,7 @@ PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
     .string "ﻓﺮﻳﻖ ﺼﺎﺭﻭﺥ ﻓﻲ ﺟﺒﻞ ﻘﻤﺮ؟\n"
     .string "ﻫﺎﻩ؟\p"
     .string "ﺃﻧﺎ ﻋﻠﻰ ﻬﺎﺗﻒ!\n"
-    .string "ﺍﻏﺮﺏ ﻋﻦ ﻭﺟﻬﻲ!$"
+    .string "{GENDER_M}ﺍﻏﺮﺏ{GENDER_F}ﺍﻏﺮﺑﻲ{GENDER_E} ﻋﻦ ﻭﺟﻬﻲ!$"
 
 PewterCity_PokemonCenter_1F_Text_Jigglypuff::
     .string "ﺟﻴﻐﻠﻴﺒﺎﻑ: ﺑﻮﻭ ﺑﻮﺑﻮﻭ!$"
@@ -11,7 +11,7 @@ PewterCity_PokemonCenter_1F_Text_Jigglypuff::
 PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
     .string "ﻫﺎ! (ﺗﺜﺎﺅﺏ)\p"
     .string "ﺣﻴﻦ ﻳﻐﻨﻲ ﺟﻴﻐﻠﻴﺒﺎﻑ، ﻳﻐﻠﺐ\n"
-    .string "ﻨﻌﺎﺱ ﻋﻠﻰ ﺒﻮﻛﻴﻤﻮﻥ…\p"
+    .string "ﻨﻌﺎﺱ ﻋﻠﻰ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ…\p"
     .string "…ﻭﻋﻠﻲ ﺃﻧﺎ ﺃﻳﻀﺎ…\n"
     .string "ﺧﺨﺦ…$"
 

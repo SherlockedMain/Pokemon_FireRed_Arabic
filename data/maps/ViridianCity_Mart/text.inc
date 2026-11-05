@@ -3,8 +3,8 @@ ViridianCity_Mart_Text_YouCameFromPallet::
     .string "ﺃﻧﺖ ﻣﻦ ﺑﻠﺪﺓ ﺑﺎﻟﻴﺖ، ﺻﺤﻴﺢ؟$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
-    .string "ﺃﻧﺖ ﺗﻌﺮﻑ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ، ﺃﻟﻴﺲ\n"
-    .string "ﻛﺬﻟﻚ؟\p"
+    .string "ﺃﻧﺖ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ،\n"
+    .string "ﺃﻟﻴﺲ ﻛﺬﻟﻚ؟\p"
     .string "ﻃﻠﺒﻴﺘﻪ ﻭﺻﻠﺖ ﻟﻠﺘﻮ.\n"
     .string "ﻫﻼ ﺃﻭﺻﻠﺘﻬﺎ ﺇﻟﻴﻪ؟$"
 
@@ -13,7 +13,7 @@ ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
     .string "ﻣﻦ ﺑﺎﺋﻊ ﻣﺘﺠﺮ ﺒﻮﻛﻴﻤﻮﻥ.$"
 
 ViridianCity_Mart_Text_SayHiToOakForMe::
-    .string "ﺷﻜﺮ ﺟﺰﻳﻼ! ﻭﺑﻠﻎ ﺒﺮﻭﻓﻴﺴﻮﺭ\n"
+    .string "ﺷﻜﺮ ﺟﺰﻳﻼ! {GENDER_M}ﻭﺑﻠﻎ{GENDER_F}ﻭﺑﻠﻐﻲ{GENDER_E} ﺒﺮﻭﻓﻴﺴﻮﺭ\n"
     .string "ﺃﻭﻙ ﺳﻼﻣﻲ ﺃﻳﻀﺎ.$"
 
 ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::

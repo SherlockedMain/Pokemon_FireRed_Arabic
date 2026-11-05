@@ -87,7 +87,7 @@ ENTRIES = [
     T(R + 'LookingNiceInNoTime', RH, 'Daisy grooming: start',
       'ديزي: حسنا، سأجعله يبدو جميلا\nفي لمح البصر.'),
     T(R + 'ThereYouGoAllDone', RH, 'Daisy grooming: done',
-      '{X1}{STR_VAR_1} يبدو هانئا حالما…\n\n{X2}ديزي: تفضل! انتهيت.\nأرأيت؟ أليس جميلا؟\n\nهيهي…\nيا له من بوكيمون لطيف.',
+      '{X1}{STR_VAR_1} يبدو هانئا حالما…\n\n{X2}ديزي: [[تفضل!|تفضلي!]] انتهيت.\nأرأيت؟ أليس جميلا؟\n\nهيهي…\nيا له من بوكيمون لطيف.',
       '{X1} and {X2} are colour/font switches (narrator, then Daisy): keep them at the start of each part.',
       ifdef=[('{COLOR DARK_GRAY}', '{COLOR RED}'), ('{FONT_NORMAL}', '{FONT_FEMALE}')]),
     T(R + 'CantGroomAnEgg', RH, 'Daisy grooming: egg', 'آسفة، لا أستطيع حقا\nأن أنظف بيضة.'),
@@ -328,3 +328,50 @@ _FIX = {'PalletTown_Text_OakGrassUnsafeNeedMon': 'أوك: يا لك من مته�
 for _e in ENTRIES:
     if _e['id'] in _FIX:
         _e['ar'] = _FIX[_e['id']]
+
+# ---- Revision 3: plural «البوكيمونات» and player gender ([[masc|fem]]) -----------------
+_P = 'PalletTown_'
+_R3 = {
+ _P+'PlayersHouse_1F_Text_YouShouldTakeQuickRest': 'الأم: {PLAYER}!\n[[تبدو|تبدين]] [[متعبا…|متعبة…]] [[خذ|خذي]] قسطا من الراحة.',
+ _P+'PlayersHouse_1F_Text_LookingGreatTakeCare': 'الأم: ها أنت ذا! أنت وبوكيموناتك\nفي أحسن حال.\n[[اعتنِ|اعتني]] بنفسك جيدا!',
+ _P+'Text_OakDontGoOut': 'أوك: [[انتظر|انتظري]]! [[قف|قفي]] مكانك!\nلا [[تخرج|تخرجي]]!',
+ _P+'Text_OakGrassUnsafeNeedMon': 'أوك: يا لك من [[متهور|متهورة]]!\nفي العشب بوكيمونات برية!\n\nلا [[تخرج|تخرجي]] إليها دون بوكيمون\nيحميك.\n\nآه، وجدتها!\n[[تعال|تعالي]] معي!',
+ _P+'Text_RaisingMonsToo': 'أنا أيضا أربي البوكيمونات.\n\nوحين تكبر وتقوى،\nستحميني من أي خطر!',
+ _P+'Text_CanStoreItemsAndMonsInPC': 'التقنية مذهلة حقا!\n\nأدواتك وبوكيموناتك، كلها تُحفظ\nفي الحاسوب كبيانات!',
+ _P+'Text_CaughtXPuttingInHonestEffort': 'لقد أمسكت {STR_VAR_2}…\n\nهممم، يبدو أنك [[تبذل|تبذلين]] جهدا صادقا.\n\nحين [[تملأ|تملئين]] المزيد منه،\n[[تعال|تعالي]] [[وأرني|وأريني]] إياه من فضلك.',
+ _P+'Text_CaughtXImpressiveFollowMe': 'أمسكت… {STR_VAR_2}؟!\nهذا مذهل حقا!\n\nهناك أمر طالما أردت أن أطلبه\nمنك يا {PLAYER}.\n\n[[تعال.|تعالي.]]\n[[اتبعني.|اتبعيني.]]',
+ _P+'Text_OakYouEnjoyingTraveling': 'أوك: آه، {PLAYER}!\nيبدو أن السفر يروق لك.\n\nأعرفك جيدا، ولن أستغرب أبدا\nأن [[تبلغ|تبلغي]] أماكن أبعد وأغرب.\n\nأحسنت، أحسنت.\nهوهوهو.',
+ _P+'RivalsHouse_Text_ErrandForGrandpaThisWillHelp': 'جدي كلفك بمهمة؟\n\nيا له من كسول!\n[[خذ|خذي]] هذه، ستنفعك في طريقك.',
+ _P+'RivalsHouse_Text_PleaseGiveMonsRest': 'ديزي: البوكيمونات كائنات حية،\nتتعب مثلنا تماما.\n\n[[فامنحها|فامنحيها]] قسطا من الراحة\nحين تحتاج إليه.',
+ _P+'RivalsHouse_Text_LikeMeToGroomMon': 'ديزي: أهلا {PLAYER}!\nجئت في الوقت المناسب.\n\nكنت على وشك أن أعد الشاي.\nهل [[تشاركني؟|تشاركينني؟]]\n\nلكن انظر!\nبوكيموناتك متسخة قليلا!\n\nهل أنظف لك واحدا منها؟',
+ _P+'RivalsHouse_Text_DontNeedAnyGrooming': 'لا [[تحتاج|تحتاجين]] إلى تنظيف؟\nحسنا، سنكتفي بالشاي إذن.',
+ _P+'RivalsHouse_Text_GroomWhichOne': 'أيها [[تريد|تريدين]] أن أنظف؟',
+ _P+'RivalsHouse_Text_MayISeeFirstMon': 'ديزي: البوكيمونات تحبك إن ربيتها بحب.\n\nمثلا يا {PLAYER}، هل [[تسمح|تسمحين]] لي\nأن أرى أول بوكيمون لديك؟',
+ _P+'RivalsHouse_Text_ItsQuiteFriendly': 'إنه ودود معك جدا.\n[[استمر|استمري]] في معاملته بلطف!',
+ _P+'RivalsHouse_Text_NotFamiliarWithYouYet': 'لم يعتد عليك تماما بعد.\n\nكل البوكيمونات تكون حذرة\nحين [[تحصل|تحصلين]] عليها أول مرة.',
+ _P+'RivalsHouse_Text_DontLikeWayItGlaresAtYou': '{PLAYER}، لا تعجبني طريقة\nتحديقه بك.\n\nهلا حاولت أن [[تكون|تكوني]] ألطف معه قليلا؟',
+ _P+'ProfessorOaksLab_Text_RivalGoChoosePlayer': '{RIVAL}: هه، لست طماعا مثلك.\nأنا ناضج!\n\n[[اختر|اختاري]] أنت أولا يا {PLAYER}!',
+ _P+'ProfessorOaksLab_Text_RivalLetsCheckOutMons': '{RIVAL}: مهلا يا {PLAYER}!\nلنجرب بوكيمونينا!\n\nهيا، إلى النزال!',
+ _P+'ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap': '{PLAYER}، يؤسفني أن أقولها، لكن\nلا حاجة إليك في هذه المهمة.\n\nوجدتها! سأستعير خريطة البلدات\nمن أختي!\n\nوسأطلب منها ألا تعيرك واحدة\nيا {PLAYER}! هاهاها!\n\nفلا [[تتعب|تتعبي]] نفسك [[وتأتِ|وتأتي]] إلى بيتي!',
+ _P+'ProfessorOaksLab_Text_OakThreeMonsChooseOne': 'أوك: {RIVAL}؟\nدعني أتذكر…\n\nآه، نعم! أنا من استدعاك!\nانتظر قليلا!\n\n[[تعال|تعالي]] يا {PLAYER}.\n\nهنا ثلاثة بوكيمونات!\n\nهاها!\n\nإنها تنتظر داخل\nكرات البوكيمون هذه.\n\nفي شبابي، كنت مدرب بوكيمون\nلا يشق له غبار!\n\nأما الآن، وقد شاب شعري،\nفلم يبق لدي سوى هذه الثلاثة.\n\n[[اختر|اختاري]] واحدا منها،\nهيا!',
+ _P+'ProfessorOaksLab_Text_OakWhichOneWillYouChoose': 'أوك: والآن يا {PLAYER}…\n\nفي كل كرة من هذه الكرات الثلاث\nبوكيمون ينتظر صاحبه.\n\nأيها [[ستختار؟|ستختارين؟]]',
+ _P+'ProfessorOaksLab_Text_OakHeyDontGoAwayYet': 'أوك: مهلا!\nلا [[تذهب|تذهبي]] بعد!',
+ _P+'ProfessorOaksLab_Text_OakChoosingCharmander': 'آه! اخترت تشارماندر.\nعليك أن تربيه بصبر.\n\n[[أتختار|أتختارين]] تشارماندر يا {PLAYER}،\nبوكيمون النار؟',
+ _P+'ProfessorOaksLab_Text_OakChoosingBulbasaur': 'فهمت! اخترت بولباسور.\nتربيته سهلة جدا.\n\n[[أتنطلق|أتنطلقين]] مع بولباسور يا {PLAYER}،\nبوكيمون العشب؟',
+ _P+'ProfessorOaksLab_Text_OakCanReachNextTownWithMon': 'أوك: إن باغتك بوكيمون بري،\nفبوكيمونك سيتصدى له.\n\nومعه إلى جانبك، [[ستبلغ|ستبلغين]]\nالبلدة التالية بأمان.',
+ _P+'ProfessorOaksLab_Text_OakBattleMonForItToGrow': 'أوك: {PLAYER}، النزالات هي ما\nيجعل بوكيمونك ينمو.\n\nفلا [[تبخل|تبخلي]] عليه بها!',
+ _P+'ProfessorOaksLab_Text_OakHaveSomethingForMe': 'أوك: آه، {PLAYER}!\nكيف حال بوكيموني القديم؟\n\nأرى أنه صار يتعلق بك أكثر.\n\nفيك موهبة حقيقية\n[[كمدرب|كمدربة]] بوكيمون.\n\nما هذا؟\nأحضرت لي شيئا؟',
+ _P+'ProfessorOaksLab_Text_OakPokedexOnDesk': 'على المكتب، أحدث اختراعاتي:\nالبوكيديكس!\n\nيسجل تلقائيا بيانات كل بوكيمون\n[[تراه|ترينه]] أو [[تمسكه.|تمسكينه.]]\n\nإنه موسوعة تمشي معك أينما ذهبت!',
+ _P+'ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese': 'أوك: لا يمكنك الحصول على بيانات مفصلة\nعن البوكيمونات بمجرد رؤيتها.\n\nعليك أن [[تمسكها|تمسكيها]] لتحصل على\nبيانات كاملة.\n\nإذن، إليك بعض الأدوات\nلإمساك البوكيمونات البرية.',
+ _P+'ProfessorOaksLab_Text_OakExplainCatching': 'حين يظهر بوكيمون بري،\nيمكنك أن [[تحاول|تحاولي]] إمساكه.\n\n[[ارمِ|ارمي]] عليه كرة بوكيمون\n[[وجرب|وجربي]] حظك… أقصد مهارتك!\n\nلكنها لن تنجح دائما.\n\nفالبوكيمون في كامل قوته قد يفلت.\nفلا [[تيأس،|تيأسي،]] [[وحاول|وحاولي]] مرة بعد مرة!',
+ _P+'ProfessorOaksLab_Text_OakMonsAroundWorldWait': 'البوكيمونات في كل أرجاء العالم\nتنتظرك يا {PLAYER}!',
+ _P+'ProfessorOaksLab_Text_OakAddedNothingToPokedex': 'آه، {PLAYER}!\nكيف حال البوكيديكس معك؟\n\nلقد أمسك {RIVAL} بعض البوكيمونات\nوأضاف بياناتها.\n\nإذن يا {PLAYER}، لنلق نظرة\nعلى البوكيديكس الخاص بك.\n\n…ما الخطب؟\nلم [[تضف|تضيفي]] أي بيانات جديدة!\n\nسأعطيك هذه، [[فاجتهد|فاجتهدي]] أكثر\nقليلا.',
+ _P+'ProfessorOaksLab_Text_OakComeSeeMeSometime': 'أوك: [[زرني|زوريني]] من حين لآخر.\n\nأريد أن أرى كيف يكبر\nالبوكيديكس بين يديك.',
+ _P+'ProfessorOaksLab_Text_DaisyWillGroomMons': 'أهلا، {PLAYER}. أراهن أنك صرت [[صديقا|صديقة]]\n[[مقربا|مقربة]] لبوكيموناتك.\n\nبالمناسبة، هل [[تعرف|تعرفين]] ديزي؟\n\nإن أريت ديزي بوكيموناتك، تستطيع\nأن تعرف كم تحبك.\n\nوأحيانا قد تنظف لك\nأحد بوكيموناتك.\n\nهذا سر، فأرجوك\nلا [[تخبر|تخبري]] أحدا.',
+ _P+'ProfessorOaksLab_Text_OakSightingsOfRareMons': 'مؤخرا، شوهدت أنواع كثيرة\nمن البوكيمونات النادرة.\n\nأقصد بوكيمونات لم يرها أحد\nفي كانتو من قبل.\n\nكم أود أن أذهب وأراها بنفسي،\nلكنني كبرت كثيرا.\n\nوبما أنني لا أستطيع، يا {PLAYER}،\nأود أن [[تذهب|تذهبي]] أنت مكاني.',
+ _P+'ProfessorOaksLab_Text_RivalJustLetMeHandleEverything': '{RIVAL}: مهلا، لقد سمعت ذلك!\n\nجدي، لماذا تفضّل {PLAYER} علي\nفي كل مرة؟\n\nلقد جمعت بوكيمونات أكثر،\nوبسرعة أكبر أيضا.\n\nعليك أن تترك لي كل شيء.',
+ _P+'ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData': '… … …  … … …\n\n… … …  … … …\n\n…وانتهينا!\n\nالآن يسجل هذان الجهازان بيانات\nعدد أكبر بكثير من البوكيمونات.',
+}
+for _e in ENTRIES:
+    if _e['id'] in _R3:
+        _e['ar'] = _R3[_e['id']]

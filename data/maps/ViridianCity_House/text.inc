@@ -5,7 +5,7 @@ ViridianCity_House_Text_NicknamingIsFun::
     .string "ﺒﺴﻴﻄﺔ ﻻ ﺗﻨﺴﻰ.$"
 
 ViridianCity_House_Text_MyDaddyLovesMonsToo::
-    .string "ﺑﺎﺑﺎ ﻳﺤﺐ ﺒﻮﻛﻴﻤﻮﻥ ﺃﻳﻀﺎ!$"
+    .string "ﺑﺎﺑﺎ ﻳﺤﺐ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺃﻳﻀﺎ!$"
 
 ViridianCity_House_Text_Speary::
     .string "ﺳﺒﻴﺮﻱ: ﺗﻮﻳﺖ ﺗﻮﻳﺖ!$"

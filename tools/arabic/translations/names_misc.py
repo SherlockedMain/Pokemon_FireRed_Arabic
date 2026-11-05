@@ -163,3 +163,9 @@ GLOSSARY = [
     ('CUTE CHARM', 'جاذبية لطيفة', 'Not «سحر».'),
     ('flinch', 'الإجفال', 'Used in INNER FOCUS.'),
 ]
+
+# ---- Revision 3: plural «البوكيمونات» and player gender ([[masc|fem]]) -----------------
+_R3 = {'sStenchDescription': 'تبعد البوكيمونات البرية.'}
+for _e in ENTRIES:
+    if _e['id'] in _R3:
+        _e['ar'] = _R3[_e['id']]

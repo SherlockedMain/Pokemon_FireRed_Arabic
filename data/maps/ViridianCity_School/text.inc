@@ -4,17 +4,18 @@ ViridianCity_School_Text_TryingToMemorizeNotes::
 
 ViridianCity_School_Text_ReadBlackboardCarefully::
     .string "ﺣﺴﻨﺎ!\p"
-    .string "ﺍﺣﺮﺹ ﻋﻠﻰ ﻗﺮﺀﺓ ﻣﺎ ﻋﻠﻰ\n"
+    .string "{GENDER_M}ﺍﺣﺮﺹ{GENDER_F}ﺍﺣﺮﺻﻲ{GENDER_E} ﻋﻠﻰ ﻗﺮﺀﺓ ﻣﺎ ﻋﻠﻰ\n"
     .string "ﺴﺒﻮﺭﺓ ﺟﻴﺪ!$"
 
 ViridianCity_School_Text_NotebookFirstPage::
     .string "ﻟﻨﻠﻖ ﻧﻈﺮﺓ ﻋﻠﻰ ﺪﻓﺘﺮ.\p"
     .string "ﺼﻔﺤﺔ ﺍﻷﻭﻟﻰ…\p"
     .string "ﺗﺴﺘﺨﺪﻡ ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ\n"
-    .string "ﻹﻣﺴﺎﻙ ﺒﻮﻛﻴﻤﻮﻥ.\p"
-    .string "ﻳﻤﻜﻨﻚ ﺣﻤﻞ ﺳﺘﺔ ﺑﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻹﻣﺴﺎﻙ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.\p"
+    .string "ﻳﻤﻜﻨﻚ ﺣﻤﻞ ﺳﺘﺔ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ\n"
     .string "ﻛﺤﺪ ﺃﻗﺼﻰ ﻓﻲ ﻓﺮﻳﻘﻚ.\p"
-    .string "ﻣﻦ ﻳﺮﺑﻲ ﺒﻮﻛﻴﻤﻮﻥ ﻭﻳﺨﻮﺽ ﺑﻬﺎ\n"
+    .string "ﻣﻦ ﻳﺮﺑﻲ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻭﻳﺨﻮﺽ\n"
+    .string "ﺑﻬﺎ\p"
     .string "ﻨﺰﻻﺕ ﻳﺴﻤﻰ ﻣﺪﺭﺑﺎ.$"
 
 ViridianCity_School_Text_NotebookSecondPage::
@@ -49,7 +50,7 @@ ViridianCity_School_Text_TurnThePage::
 
 ViridianCity_School_Text_HeyDontLookAtMyNotes::
     .string "ﻔﺘﺎﺓ: ﻣﻬﻼ!\n"
-    .string "ﻻ ﺗﺘﻠﺼﺺ ﻋﻠﻰ ﻣﻼﺣﻈﺎﺗﻲ!$"
+    .string "ﻻ {GENDER_M}ﺗﺘﻠﺼﺺ{GENDER_F}ﺗﺘﻠﺼﺼﻲ{GENDER_E} ﻋﻠﻰ ﻣﻼﺣﻈﺎﺗﻲ!$"
 
 ViridianCity_School_Text_BlackboardListsStatusProblems::
     .string "ﺗﻌﺮﺽ ﺴﺒﻮﺭﺓ ﺣﺎﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ\n"

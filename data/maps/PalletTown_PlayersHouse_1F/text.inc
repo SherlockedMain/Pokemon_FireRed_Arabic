@@ -15,12 +15,14 @@ PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
 
 PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest::
     .string "ﺍﻷﻡ: {PLAYER}!\n"
-    .string "ﺗﺒﺪﻭ ﻣﺘﻌﺒﺎ… ﺧﺬ ﻗﺴﻄﺎ ﻣﻦ ﺮﺣﺔ.$"
+    .string "{GENDER_M}ﺗﺒﺪﻭ{GENDER_F}ﺗﺒﺪﻳﻦ{GENDER_E} {GENDER_M}ﻣﺘﻌﺒﺎ…{GENDER_F}ﻣﺘﻌﺒﺔ…{GENDER_E} {GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻗﺴﻄﺎ ﻣﻦ\p"
+    .string "ﺮﺣﺔ.$"
 
 PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare::
-    .string "ﺍﻷﻡ: ﻫﺎ ﺃﻧﺖ ﺫ! ﺃﻧﺖ ﻭﺑﻮﻛﻴﻤﻮﻧﻚ\n"
-    .string "ﻓﻲ ﺃﺣﺴﻦ ﺣﺎﻝ.\p"
-    .string "ﺍﻋﺘﻦ ﺑﻨﻔﺴﻚ ﺟﻴﺪ!$"
+    .string "ﺍﻷﻡ: ﻫﺎ ﺃﻧﺖ ﺫ! ﺃﻧﺖ\n"
+    .string "ﻭﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ\p"
+    .string "ﻓﻲ ﺃﺣﺴﻦ ﺣﺎﻝ.\n"
+    .string "{GENDER_M}ﺍﻋﺘﻦ{GENDER_F}ﺍﻋﺘﻨﻲ{GENDER_E} ﺑﻨﻔﺴﻚ ﺟﻴﺪ!$"
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad::
     .string "ﻳﻌﺮﺽ ﺘﻠﻔﺎﺯ ﻓﻴﻠﻤﺎ…\n"

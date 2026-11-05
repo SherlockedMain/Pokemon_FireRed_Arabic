@@ -14,7 +14,7 @@ PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer::
     .string "{RIVAL}: ﻫﻪ، ﻟﺴﺖ ﻃﻤﺎﻋﺎ ﻣﺜﻠﻚ.\n"
     .string "ﺃﻧﺎ ﻧﺎﺿﺞ!\p"
-    .string "ﺍﺧﺘﺮ ﺃﻧﺖ ﺃﻭﻻ ﻳﺎ {PLAYER}!$"
+    .string "{GENDER_M}ﺍﺧﺘﺮ{GENDER_F}ﺍﺧﺘﺎﺭﻱ{GENDER_E} ﺃﻧﺖ ﺃﻭﻻ ﻳﺎ {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalIllTakeThisOneThen::
     .string "{RIVAL}: ﻭﻧﺎ ﺁﺧﺬ ﻫﺬ!$"
@@ -29,7 +29,7 @@ PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher::
 
 PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
     .string "{RIVAL}: ﻣﻬﻼ ﻳﺎ {PLAYER}!\n"
-    .string "ﻟﻨﺠﺮﺏ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻨﺎ!\p"
+    .string "ﻟﻨﺠﺮﺏ ﺑﻮﻛﻴﻤﻮﻧﻴﻨﺎ!\p"
     .string "ﻫﻴﺎ، ﺇﻟﻰ ﻨﺰﻝ!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeat::
@@ -66,15 +66,16 @@ PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouMap::
     .string "ﻣﻦ ﺃﺧﺘﻲ!\p"
     .string "ﻭﺳﺄﻃﻠﺐ ﻣﻨﻬﺎ ﺃﻻ ﺗﻌﻴﺮﻙ ﻭﺣﺪﺓ\n"
     .string "ﻳﺎ {PLAYER}! ﻫﺎﻫﺎﻫﺎ!\p"
-    .string "ﻓﻼ ﺗﺘﻌﺐ ﻧﻔﺴﻚ ﻭﺗﺄﺕ ﺇﻟﻰ ﺑﻴﺘﻲ!$"
+    .string "ﻓﻼ {GENDER_M}ﺗﺘﻌﺐ{GENDER_F}ﺗﺘﻌﺒﻲ{GENDER_E} ﻧﻔﺴﻚ {GENDER_M}ﻭﺗﺄﺕ{GENDER_F}ﻭﺗﺄﺗﻲ{GENDER_E} ﺇﻟﻰ\n"
+    .string "ﺑﻴﺘﻲ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
     .string "ﺃﻭﻙ: {RIVAL}؟\n"
     .string "ﺩﻋﻨﻲ ﺃﺗﺬﻛﺮ…\p"
     .string "ﺁﻩ، ﻧﻌﻢ! ﺃﻧﺎ ﻣﻦ ﺍﺳﺘﺪﻋﺎﻙ!\n"
     .string "ﺍﻧﺘﻈﺮ ﻗﻠﻴﻼ!\p"
-    .string "ﺗﻌﺎﻝ ﻳﺎ {PLAYER}.\p"
-    .string "ﻫﻨﺎ ﺛﻼﺛﺔ ﺑﻮﻛﻴﻤﻮﻥ!\p"
+    .string "{GENDER_M}ﺗﻌﺎﻝ{GENDER_F}ﺗﻌﺎﻟﻲ{GENDER_E} ﻳﺎ {PLAYER}.\p"
+    .string "ﻫﻨﺎ ﺛﻼﺛﺔ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ!\p"
     .string "ﻫﺎﻫﺎ!\p"
     .string "ﺇﻧﻬﺎ ﺗﻨﺘﻈﺮ ﺩﺧﻞ\n"
     .string "ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﻫﺬﻩ.\p"
@@ -82,7 +83,7 @@ PalletTown_ProfessorOaksLab_Text_OakThreeMonsChooseOne::
     .string "ﻻ ﻳﺸﻖ ﻟﻪ ﻏﺒﺎﺭ!\p"
     .string "ﺃﻣﺎ ﺍﻵﻥ، ﻭﻗﺪ ﺷﺎﺏ ﺷﻌﺮﻱ،\n"
     .string "ﻓﻠﻢ ﻳﺒﻖ ﻟﺪﻱ ﺳﻮﻯ ﻫﺬﻩ ﺜﻼﺛﺔ.\p"
-    .string "ﺍﺧﺘﺮ ﻭﺣﺪ ﻣﻨﻬﺎ،\n"
+    .string "{GENDER_M}ﺍﺧﺘﺮ{GENDER_F}ﺍﺧﺘﺎﺭﻱ{GENDER_E} ﻭﺣﺪ ﻣﻨﻬﺎ،\n"
     .string "ﻫﻴﺎ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakBePatientRival::
@@ -93,16 +94,16 @@ PalletTown_ProfessorOaksLab_Text_OakWhichOneWillYouChoose::
     .string "ﺃﻭﻙ: ﻭﻵﻥ ﻳﺎ {PLAYER}…\p"
     .string "ﻓﻲ ﻛﻞ ﻛﺮﺓ ﻣﻦ ﻫﺬﻩ ﻜﺮﺕ ﺜﻼﺙ\n"
     .string "ﺑﻮﻛﻴﻤﻮﻥ ﻳﻨﺘﻈﺮ ﺻﺎﺣﺒﻪ.\p"
-    .string "ﺃﻳﻬﺎ ﺳﺘﺨﺘﺎﺭ؟$"
+    .string "ﺃﻳﻬﺎ {GENDER_M}ﺳﺘﺨﺘﺎﺭ؟{GENDER_F}ﺳﺘﺨﺘﺎﺭﻳﻦ؟{GENDER_E}$"
 
 PalletTown_ProfessorOaksLab_Text_OakHeyDontGoAwayYet::
     .string "ﺃﻭﻙ: ﻣﻬﻼ!\n"
-    .string "ﻻ ﺗﺬﻫﺐ ﺑﻌﺪ!$"
+    .string "ﻻ {GENDER_M}ﺗﺬﻫﺐ{GENDER_F}ﺗﺬﻫﺒﻲ{GENDER_E} ﺑﻌﺪ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander::
     .string "ﺁﻩ! ﺍﺧﺘﺮﺕ ﺗﺸﺎﺭﻣﺎﻧﺪﺭ.\n"
     .string "ﻋﻠﻴﻚ ﺃﻥ ﺗﺮﺑﻴﻪ ﺑﺼﺒﺮ.\p"
-    .string "ﺃﺗﺨﺘﺎﺭ ﺗﺸﺎﺭﻣﺎﻧﺪﺭ ﻳﺎ {PLAYER}،\n"
+    .string "{GENDER_M}ﺃﺗﺨﺘﺎﺭ{GENDER_F}ﺃﺗﺨﺘﺎﺭﻳﻦ{GENDER_E} ﺗﺸﺎﺭﻣﺎﻧﺪﺭ ﻳﺎ {PLAYER}،\n"
     .string "ﺑﻮﻛﻴﻤﻮﻥ ﻨﺎﺭ؟$"
 
 PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
@@ -114,7 +115,8 @@ PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle::
 PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur::
     .string "ﻓﻬﻤﺖ! ﺍﺧﺘﺮﺕ ﺑﻮﻟﺒﺎﺳﻮﺭ.\n"
     .string "ﺗﺮﺑﻴﺘﻪ ﺳﻬﻠﺔ ﺟﺪ.\p"
-    .string "ﺃﺗﻨﻄﻠﻖ ﻣﻊ ﺑﻮﻟﺒﺎﺳﻮﺭ ﻳﺎ {PLAYER}،\n"
+    .string "{GENDER_M}ﺃﺗﻨﻄﻠﻖ{GENDER_F}ﺃﺗﻨﻄﻠﻘﻴﻦ{GENDER_E} ﻣﻊ ﺑﻮﻟﺒﺎﺳﻮﺭ ﻳﺎ\n"
+    .string "{PLAYER}،\p"
     .string "ﺑﻮﻛﻴﻤﻮﻥ ﻌﺸﺐ؟$"
 
 PalletTown_ProfessorOaksLab_Text_OakThisMonIsEnergetic::
@@ -127,20 +129,20 @@ PalletTown_ProfessorOaksLab_Text_ReceivedMonFromOak::
 PalletTown_ProfessorOaksLab_Text_OakCanReachNextTownWithMon::
     .string "ﺃﻭﻙ: ﺇﻥ ﺑﺎﻏﺘﻚ ﺑﻮﻛﻴﻤﻮﻥ ﺑﺮﻱ،\n"
     .string "ﻓﺒﻮﻛﻴﻤﻮﻧﻚ ﺳﻴﺘﺼﺪﻯ ﻟﻪ.\p"
-    .string "ﻭﻣﻌﻪ ﺇﻟﻰ ﺟﺎﻧﺒﻚ، ﺳﺘﺒﻠﻎ\n"
+    .string "ﻭﻣﻌﻪ ﺇﻟﻰ ﺟﺎﻧﺒﻚ، {GENDER_M}ﺳﺘﺒﻠﻎ{GENDER_F}ﺳﺘﺒﻠﻐﻴﻦ{GENDER_E}\n"
     .string "ﺒﻠﺪﺓ ﺘﺎﻟﻴﺔ ﺑﺄﻣﺎﻥ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakBattleMonForItToGrow::
     .string "ﺃﻭﻙ: {PLAYER}، ﻨﺰﻻﺕ ﻫﻲ ﻣﺎ\n"
     .string "ﻳﺠﻌﻞ ﺑﻮﻛﻴﻤﻮﻧﻚ ﻳﻨﻤﻮ.\p"
-    .string "ﻓﻼ ﺗﺒﺨﻞ ﻋﻠﻴﻪ ﺑﻬﺎ!$"
+    .string "ﻓﻼ {GENDER_M}ﺗﺒﺨﻞ{GENDER_F}ﺗﺒﺨﻠﻲ{GENDER_E} ﻋﻠﻴﻪ ﺑﻬﺎ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
     .string "ﺃﻭﻙ: ﺁﻩ، {PLAYER}!\n"
     .string "ﻛﻴﻒ ﺣﺎﻝ ﺑﻮﻛﻴﻤﻮﻧﻲ ﻘﺪﻳﻢ؟\p"
     .string "ﺃﺭﻯ ﺃﻧﻪ ﺻﺎﺭ ﻳﺘﻌﻠﻖ ﺑﻚ ﺃﻛﺜﺮ.\p"
     .string "ﻓﻴﻚ ﻣﻮﻫﺒﺔ ﺣﻘﻴﻘﻴﺔ\n"
-    .string "ﻛﻤﺪﺭﺏ ﺑﻮﻛﻴﻤﻮﻥ.\p"
+    .string "{GENDER_M}ﻛﻤﺪﺭﺏ{GENDER_F}ﻛﻤﺪﺭﺑﺔ{GENDER_E} ﺑﻮﻛﻴﻤﻮﻥ.\p"
     .string "ﻣﺎ ﻫﺬ؟\n"
     .string "ﺃﺣﻀﺮﺕ ﻟﻲ ﺷﻴﺌﺎ؟$"
 
@@ -162,7 +164,7 @@ PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk::
     .string "ﺒﻮﻛﻴﺪﻳﻜﺲ!\p"
     .string "ﻳﺴﺠﻞ ﺗﻠﻘﺎﺋﻴﺎ ﺑﻴﺎﻧﺎﺕ ﻛﻞ\n"
     .string "ﺑﻮﻛﻴﻤﻮﻥ\p"
-    .string "ﺗﺮﻩ ﺃﻭ ﺗﻤﺴﻜﻪ.\p"
+    .string "{GENDER_M}ﺗﺮﻩ{GENDER_F}ﺗﺮﻳﻨﻪ{GENDER_E} ﺃﻭ {GENDER_M}ﺗﻤﺴﻜﻪ.{GENDER_F}ﺗﻤﺴﻜﻴﻨﻪ.{GENDER_E}\p"
     .string "ﺇﻧﻪ ﻣﻮﺳﻮﻋﺔ ﺗﻤﺸﻲ ﻣﻌﻚ ﺃﻳﻨﻤﺎ\n"
     .string "ﺫﻫﺒﺖ!$"
 
@@ -177,11 +179,11 @@ PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak::
 PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
     .string "ﺃﻭﻙ: ﻻ ﻳﻤﻜﻨﻚ ﺤﺼﻮﻝ ﻋﻠﻰ\n"
     .string "ﺑﻴﺎﻧﺎﺕ ﻣﻔﺼﻠﺔ\p"
-    .string "ﻋﻦ ﺒﻮﻛﻴﻤﻮﻥ ﺑﻤﺠﺮﺩ ﺭﺅﻳﺘﻬﺎ.\p"
-    .string "ﻋﻠﻴﻚ ﺃﻥ ﺗﻤﺴﻜﻬﺎ ﻟﺘﺤﺼﻞ ﻋﻠﻰ\n"
+    .string "ﻋﻦ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺑﻤﺠﺮﺩ ﺭﺅﻳﺘﻬﺎ.\p"
+    .string "ﻋﻠﻴﻚ ﺃﻥ {GENDER_M}ﺗﻤﺴﻜﻬﺎ{GENDER_F}ﺗﻤﺴﻜﻴﻬﺎ{GENDER_E} ﻟﺘﺤﺼﻞ ﻋﻠﻰ\n"
     .string "ﺑﻴﺎﻧﺎﺕ ﻛﺎﻣﻠﺔ.\p"
     .string "ﺇﺫﻥ، ﺇﻟﻴﻚ ﺑﻌﺾ ﺍﻷﺩﻭﺕ\n"
-    .string "ﻹﻣﺴﺎﻙ ﺒﻮﻛﻴﻤﻮﻥ ﺒﺮﻳﺔ.$"
+    .string "ﻹﻣﺴﺎﻙ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺒﺮﻳﺔ.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
     .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﺧﻤﺲ ﻛﺮﺕ\n"
@@ -189,13 +191,13 @@ PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
 
 PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
     .string "ﺣﻴﻦ ﻳﻈﻬﺮ ﺑﻮﻛﻴﻤﻮﻥ ﺑﺮﻱ،\n"
-    .string "ﻳﻤﻜﻨﻚ ﺃﻥ ﺗﺤﺎﻭﻝ ﺇﻣﺴﺎﻛﻪ.\p"
-    .string "ﺍﺭﻡ ﻋﻠﻴﻪ ﻛﺮﺓ ﺑﻮﻛﻴﻤﻮﻥ\n"
-    .string "ﻭﺟﺮﺏ ﺣﻈﻚ… ﺃﻗﺼﺪ ﻣﻬﺎﺭﺗﻚ!\p"
+    .string "ﻳﻤﻜﻨﻚ ﺃﻥ {GENDER_M}ﺗﺤﺎﻭﻝ{GENDER_F}ﺗﺤﺎﻭﻟﻲ{GENDER_E} ﺇﻣﺴﺎﻛﻪ.\p"
+    .string "{GENDER_M}ﺍﺭﻡ{GENDER_F}ﺍﺭﻣﻲ{GENDER_E} ﻋﻠﻴﻪ ﻛﺮﺓ ﺑﻮﻛﻴﻤﻮﻥ\n"
+    .string "{GENDER_M}ﻭﺟﺮﺏ{GENDER_F}ﻭﺟﺮﺑﻲ{GENDER_E} ﺣﻈﻚ… ﺃﻗﺼﺪ ﻣﻬﺎﺭﺗﻚ!\p"
     .string "ﻟﻜﻨﻬﺎ ﻟﻦ ﺗﻨﺠﺢ ﺩﺋﻤﺎ.\p"
     .string "ﻓﺎﻟﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻛﺎﻣﻞ ﻗﻮﺗﻪ ﻗﺪ\n"
     .string "ﻳﻔﻠﺖ.\p"
-    .string "ﻓﻼ ﺗﻴﺄﺱ، ﻭﺣﺎﻭﻝ ﻣﺮﺓ ﺑﻌﺪ ﻣﺮﺓ!$"
+    .string "ﻓﻼ {GENDER_M}ﺗﻴﺄﺱ،{GENDER_F}ﺗﻴﺄﺳﻲ،{GENDER_E} {GENDER_M}ﻭﺣﺎﻭﻝ{GENDER_F}ﻭﺣﺎﻭﻟﻲ{GENDER_E} ﻣﺮﺓ ﺑﻌﺪ ﻣﺮﺓ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
     .string "ﻣﻮﺳﻮﻋﺔ ﻛﺎﻣﻠﺔ ﻟﻜﻞ ﺑﻮﻛﻴﻤﻮﻥ\n"
@@ -209,24 +211,24 @@ PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
     .string "ﺗﺎﺭﻳﺦ ﺒﻮﻛﻴﻤﻮﻥ!$"
 
 PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait::
-    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻛﻞ ﺃﺭﺟﺎﺀ ﻌﺎﻟﻢ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻓﻲ ﻛﻞ ﺃﺭﺟﺎﺀ ﻌﺎﻟﻢ\n"
     .string "ﺗﻨﺘﻈﺮﻙ ﻳﺎ {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_OakAddedNothingToPokedex::
     .string "ﺁﻩ، {PLAYER}!\n"
     .string "ﻛﻴﻒ ﺣﺎﻝ ﺒﻮﻛﻴﺪﻳﻜﺲ ﻣﻌﻚ؟\p"
     .string "ﻟﻘﺪ ﺃﻣﺴﻚ {RIVAL} ﺑﻌﺾ\n"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ\p"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\p"
     .string "ﻭﺿﺎﻑ ﺑﻴﺎﻧﺎﺗﻬﺎ.\p"
     .string "ﺇﺫﻥ ﻳﺎ {PLAYER}، ﻟﻨﻠﻖ ﻧﻈﺮﺓ\n"
     .string "ﻋﻠﻰ ﺒﻮﻛﻴﺪﻳﻜﺲ ﺨﺎﺹ ﺑﻚ.\p"
     .string "…ﻣﺎ ﺨﻄﺐ؟\n"
-    .string "ﻟﻢ ﺗﻀﻒ ﺃﻱ ﺑﻴﺎﻧﺎﺕ ﺟﺪﻳﺪﺓ!\p"
-    .string "ﺳﺄﻋﻄﻴﻚ ﻫﺬﻩ، ﻓﺎﺟﺘﻬﺪ ﺃﻛﺜﺮ\n"
+    .string "ﻟﻢ {GENDER_M}ﺗﻀﻒ{GENDER_F}ﺗﻀﻴﻔﻲ{GENDER_E} ﺃﻱ ﺑﻴﺎﻧﺎﺕ ﺟﺪﻳﺪﺓ!\p"
+    .string "ﺳﺄﻋﻄﻴﻚ ﻫﺬﻩ، {GENDER_M}ﻓﺎﺟﺘﻬﺪ{GENDER_F}ﻓﺎﺟﺘﻬﺪﻱ{GENDER_E} ﺃﻛﺜﺮ\n"
     .string "ﻗﻠﻴﻼ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakComeSeeMeSometime::
-    .string "ﺃﻭﻙ: ﺯﺭﻧﻲ ﻣﻦ ﺣﻴﻦ ﻵﺧﺮ.\p"
+    .string "ﺃﻭﻙ: {GENDER_M}ﺯﺭﻧﻲ{GENDER_F}ﺯﻭﺭﻳﻨﻲ{GENDER_E} ﻣﻦ ﺣﻴﻦ ﻵﺧﺮ.\p"
     .string "ﺃﺭﻳﺪ ﺃﻥ ﺃﺭﻯ ﻛﻴﻒ ﻳﻜﺒﺮ\n"
     .string "ﺒﻮﻛﻴﺪﻳﻜﺲ ﺑﻴﻦ ﻳﺪﻳﻚ.$"
 
@@ -272,16 +274,16 @@ PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
 
 PalletTown_ProfessorOaksLab_Text_DaisyWillGroomMons::
     .string "ﺃﻫﻼ، {PLAYER}. ﺃﺭﻫﻦ ﺃﻧﻚ ﺻﺮﺕ\n"
-    .string "ﺻﺪﻳﻘﺎ\p"
-    .string "ﻣﻘﺮﺑﺎ ﻟﺒﻮﻛﻴﻤﻮﻧﻚ.\p"
-    .string "ﺑﺎﻟﻤﻨﺎﺳﺒﺔ، ﻫﻞ ﺗﻌﺮﻑ ﺩﻳﺰﻱ؟\p"
-    .string "ﺇﻥ ﺃﺭﻳﺖ ﺩﻳﺰﻱ ﺑﻮﻛﻴﻤﻮﻧﻚ،\n"
+    .string "{GENDER_M}ﺻﺪﻳﻘﺎ{GENDER_F}ﺻﺪﻳﻘﺔ{GENDER_E}\p"
+    .string "{GENDER_M}ﻣﻘﺮﺑﺎ{GENDER_F}ﻣﻘﺮﺑﺔ{GENDER_E} ﻟﺒﻮﻛﻴﻤﻮﻧﺎﺗﻚ.\p"
+    .string "ﺑﺎﻟﻤﻨﺎﺳﺒﺔ، ﻫﻞ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﺩﻳﺰﻱ؟\p"
+    .string "ﺇﻥ ﺃﺭﻳﺖ ﺩﻳﺰﻱ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ،\n"
     .string "ﺗﺴﺘﻄﻴﻊ\p"
-    .string "ﺃﻥ ﺗﻌﺮﻑ ﻛﻢ ﻳﺤﺒﻚ.\p"
+    .string "ﺃﻥ ﺗﻌﺮﻑ ﻛﻢ ﺗﺤﺒﻚ.\p"
     .string "ﻭﺣﻴﺎﻧﺎ ﻗﺪ ﺗﻨﻈﻒ ﻟﻚ\n"
     .string "ﺃﺣﺪ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ.\p"
     .string "ﻫﺬ ﺳﺮ، ﻓﺄﺭﺟﻮﻙ\n"
-    .string "ﻻ ﺗﺨﺒﺮ ﺃﺣﺪ.$"
+    .string "ﻻ {GENDER_M}ﺗﺨﺒﺮ{GENDER_F}ﺗﺨﺒﺮﻱ{GENDER_E} ﺃﺣﺪ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakIsGoingToHaveRadioShow::
     .string "ﺳﻴﻘﺪﻡ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ ﻗﺮﻳﺒﺎ\n"
@@ -304,20 +306,20 @@ PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer::
 
 PalletTown_ProfessorOaksLab_Text_OakSightingsOfRareMons::
     .string "ﻣﺆﺧﺮ، ﺷﻮﻫﺪﺕ ﺃﻧﻮﻉ ﻛﺜﻴﺮﺓ\n"
-    .string "ﻣﻦ ﺒﻮﻛﻴﻤﻮﻥ ﻨﺎﺩﺭﺓ.\p"
-    .string "ﺃﻗﺼﺪ ﺑﻮﻛﻴﻤﻮﻥ ﻟﻢ ﻳﺮﻫﺎ ﺃﺣﺪ\n"
+    .string "ﻣﻦ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻨﺎﺩﺭﺓ.\p"
+    .string "ﺃﻗﺼﺪ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﻟﻢ ﻳﺮﻫﺎ ﺃﺣﺪ\n"
     .string "ﻓﻲ ﻛﺎﻧﺘﻮ ﻣﻦ ﻗﺒﻞ.\p"
     .string "ﻛﻢ ﺃﻭﺩ ﺃﻥ ﺃﺫﻫﺐ ﻭﺭﻫﺎ ﺑﻨﻔﺴﻲ،\n"
     .string "ﻟﻜﻨﻨﻲ ﻛﺒﺮﺕ ﻛﺜﻴﺮ.\p"
     .string "ﻭﺑﻤﺎ ﺃﻧﻨﻲ ﻻ ﺃﺳﺘﻄﻴﻊ، ﻳﺎ\n"
     .string "{PLAYER}،\p"
-    .string "ﺃﻭﺩ ﺃﻥ ﺗﺬﻫﺐ ﺃﻧﺖ ﻣﻜﺎﻧﻲ.$"
+    .string "ﺃﻭﺩ ﺃﻥ {GENDER_M}ﺗﺬﻫﺐ{GENDER_F}ﺗﺬﻫﺒﻲ{GENDER_E} ﺃﻧﺖ ﻣﻜﺎﻧﻲ.$"
 
 PalletTown_ProfessorOaksLab_Text_RivalJustLetMeHandleEverything::
     .string "{RIVAL}: ﻣﻬﻼ، ﻟﻘﺪ ﺳﻤﻌﺖ ﺫﻟﻚ!\p"
     .string "ﺟﺪﻱ، ﻟﻤﺎﺫ ﺗﻔﻀﻞ {PLAYER} ﻋﻠﻲ\n"
     .string "ﻓﻲ ﻛﻞ ﻣﺮﺓ؟\p"
-    .string "ﻟﻘﺪ ﺟﻤﻌﺖ ﺑﻮﻛﻴﻤﻮﻥ ﺃﻛﺜﺮ،\n"
+    .string "ﻟﻘﺪ ﺟﻤﻌﺖ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﺃﻛﺜﺮ،\n"
     .string "ﻭﺑﺴﺮﻋﺔ ﺃﻛﺒﺮ ﺃﻳﻀﺎ.\p"
     .string "ﻋﻠﻴﻚ ﺃﻥ ﺗﺘﺮﻙ ﻟﻲ ﻛﻞ ﺷﻲﺀ.$"
 
@@ -336,7 +338,8 @@ PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData::
     .string "… … …  … … …\p"
     .string "…ﻭﻧﺘﻬﻴﻨﺎ!\p"
     .string "ﺍﻵﻥ ﻳﺴﺠﻞ ﻫﺬﻥ ﺠﻬﺎﺯﻥ ﺑﻴﺎﻧﺎﺕ\n"
-    .string "ﻋﺪﺩ ﺃﻛﺒﺮ ﺑﻜﺜﻴﺮ ﻣﻦ ﺒﻮﻛﻴﻤﻮﻥ.$"
+    .string "ﻋﺪﺩ ﺃﻛﺒﺮ ﺑﻜﺜﻴﺮ ﻣﻦ\p"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.$"
 
 PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded::
     .string "ﺗﻤﺖ ﺗﺮﻗﻴﺔ ﺒﻮﻛﻴﺪﻳﻜﺲ ﺨﺎﺹ\n"

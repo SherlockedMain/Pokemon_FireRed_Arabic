@@ -7,5 +7,5 @@ PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently::
     .string "ﺨﻴﺮ ﻳﺄﺗﻲ ﻟﻤﻦ ﻳﺮﺑﻲ\n"
     .string "ﺑﻮﻛﻴﻤﻮﻧﻪ ﺑﺎﺟﺘﻬﺎﺩ.\p"
     .string "ﺣﺘﻰ ﻀﻌﻴﻒ ﻣﻨﻬﺎ ﻗﺪ ﻳﻔﺎﺟﺌﻚ\n"
-    .string "ﺇﻥ ﻟﻢ ﺗﺘﺨﻞ ﻋﻨﻪ.$"
+    .string "ﺇﻥ ﻟﻢ {GENDER_M}ﺗﺘﺨﻞ{GENDER_F}ﺗﺘﺨﻠﻲ{GENDER_E} ﻋﻨﻪ.$"
 

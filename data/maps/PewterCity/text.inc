@@ -44,7 +44,7 @@ PewterCity_Text_WerentThoseFossilsAmazing::
 
 PewterCity_Text_ReallyYouHaveToGo::
     .string "ﺣﻘﺎ؟\n"
-    .string "ﻳﺠﺐ ﺃﻥ ﺗﺬﻫﺐ ﺣﺘﻤﺎ!$"
+    .string "ﻳﺠﺐ ﺃﻥ {GENDER_M}ﺗﺬﻫﺐ{GENDER_F}ﺗﺬﻫﺒﻲ{GENDER_E} ﺣﺘﻤﺎ!$"
 
 PewterCity_Text_ThisIsTheMuseum::
     .string "ﻫﺎ ﻫﻮ ﻤﺘﺤﻒ.\p"
@@ -53,24 +53,24 @@ PewterCity_Text_ThisIsTheMuseum::
 
 PewterCity_Text_DoYouKnowWhatImDoing::
     .string "ﺑﺴﺴﺲ!\n"
-    .string "ﻫﻞ ﺗﻌﺮﻑ ﻣﺎﺫ ﺃﻓﻌﻞ؟$"
+    .string "ﻫﻞ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﻣﺎﺫ ﺃﻓﻌﻞ؟$"
 
 PewterCity_Text_ThatsRightItsHardWork::
     .string "ﺑﺎﻟﻀﺒﻂ!\n"
     .string "ﺇﻧﻪ ﻋﻤﻞ ﺷﺎﻕ!$"
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut::
-    .string "ﺃﺭﺵ ﻄﺎﺭﺩ ﻷﺑﻘﻲ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﺃﺭﺵ ﻄﺎﺭﺩ ﻷﺑﻘﻲ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
     .string "ﺒﺮﻳﺔ ﺑﻌﻴﺪ ﻋﻦ ﺣﺪﻳﻘﺘﻲ!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
-    .string "ﺃﻧﺖ ﻣﺪﺭﺏ، ﺻﺤﻴﺢ؟\p"
+    .string "ﺃﻧﺖ {GENDER_M}ﻣﺪﺭﺏ،{GENDER_F}ﻣﺪﺭﺑﺔ،{GENDER_E} ﺻﺤﻴﺢ؟\p"
     .string "ﺑﺮﻭﻙ ﻳﺒﺤﺚ ﻋﻦ ﻣﺘﺤﺪﻳﻦ ﺟﺪﺩ.\n"
-    .string "ﺍﺗﺒﻌﻨﻲ!$"
+    .string "{GENDER_M}ﺍﺗﺒﻌﻨﻲ!{GENDER_F}ﺍﺗﺒﻌﻴﻨﻲ!{GENDER_E}$"
 
 PewterCity_Text_GoTakeOnBrock::
-    .string "ﺇﻥ ﻛﻨﺖ ﺗﻤﻠﻚ ﺠﺮﺓ،\n"
-    .string "ﻓﺎﺫﻫﺐ ﻭﺗﺤﺪ ﺑﺮﻭﻙ!$"
+    .string "ﺇﻥ ﻛﻨﺖ {GENDER_M}ﺗﻤﻠﻚ{GENDER_F}ﺗﻤﻠﻜﻴﻦ{GENDER_E} ﺠﺮﺓ،\n"
+    .string "{GENDER_M}ﻓﺎﺫﻫﺐ{GENDER_F}ﻓﺎﺫﻫﺒﻲ{GENDER_E} {GENDER_M}ﻭﺗﺤﺪ{GENDER_F}ﻭﺗﺤﺪﻱ{GENDER_E} ﺑﺮﻭﻙ!$"
 
 PewterCity_Text_TrainerTipsEarningEXP::
     .string "ﻧﺼﺎﺋﺢ ﻟﻠﻤﺪﺭﺑﻴﻦ\p"
@@ -127,7 +127,7 @@ PewterCity_Text_AskedToDeliverThis::
     .string "ﺳﻌﻴﺪ ﺃﻧﻨﻲ ﻟﺤﻘﺖ ﺑﻚ.\n"
     .string "ﺃﻧﺎ ﻣﺴﺎﻋﺪ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ.\p"
     .string "ﻃﻠﺐ ﻣﻨﻲ ﺃﻥ ﺃﻭﺻﻞ ﺇﻟﻴﻚ ﻫﺬ،\n"
-    .string "ﻓﺘﻔﻀﻞ.$"
+    .string "{GENDER_M}ﻓﺘﻔﻀﻞ.{GENDER_F}ﻓﺘﻔﻀﻠﻲ.{GENDER_E}$"
 
 PewterCity_Text_ReceivedRunningShoesFromAide::
     .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﺣﺬﺀ ﺠﺮﻱ\n"
@@ -147,10 +147,10 @@ PewterCity_Text_MustBeGoingBackToLab::
 
 PewterCity_Text_RunningShoesLetterFromMom::
     .string "ﻫﻨﺎﻙ ﺭﺳﺎﻟﺔ ﻣﺮﻓﻘﺔ…\p"
-    .string "ﻋﺰﻳﺰﻱ {PLAYER}،\p"
+    .string "{GENDER_M}ﻋﺰﻳﺰﻱ{GENDER_F}ﻋﺰﻳﺰﺗﻲ{GENDER_E} {PLAYER}،\p"
     .string "ﺇﻟﻴﻚ ﺣﺬﺀ ﺠﺮﻱ\n"
-    .string "ﻟﺒﻄﻠﻲ ﺤﺒﻴﺐ.\p"
-    .string "ﺗﺬﻛﺮ ﺃﻧﻨﻲ ﺳﺄﺷﺠﻌﻚ ﺩﺋﻤﺎ!\n"
-    .string "ﻻ ﺗﺴﺘﺴﻠﻢ ﺃﺑﺪ!\p"
+    .string "{GENDER_M}ﻟﺒﻄﻠﻲ{GENDER_F}ﻟﺒﻄﻠﺘﻲ{GENDER_E} {GENDER_M}ﺤﺒﻴﺐ.{GENDER_F}ﺤﺒﻴﺒﺔ.{GENDER_E}.\p"
+    .string "{GENDER_M}ﺗﺬﻛﺮ{GENDER_F}ﺗﺬﻛﺮﻱ{GENDER_E} ﺃﻧﻨﻲ ﺳﺄﺷﺠﻌﻚ ﺩﺋﻤﺎ!\n"
+    .string "ﻻ {GENDER_M}ﺗﺴﺘﺴﻠﻢ{GENDER_F}ﺗﺴﺘﺴﻠﻤﻲ{GENDER_E} ﺃﺑﺪ!\p"
     .string "ﻣﻊ ﺣﺒﻲ، ﺃﻣﻚ$"
 

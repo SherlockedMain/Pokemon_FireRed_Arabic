@@ -1,5 +1,5 @@
 static const u8 sNoneDescription[] = _("ﻻ ﺗﻮﺟﺪ ﻗﺪﺭﺓ ﺧﺎﺻﺔ.");
-static const u8 sStenchDescription[] = _("ﺗﺒﻌﺪ ﺒﻮﻛﻴﻤﻮﻥ ﺒﺮﻳﺔ.");
+static const u8 sStenchDescription[] = _("ﺗﺒﻌﺪ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺒﺮﻳﺔ.");
 static const u8 sDrizzleDescription[] = _("ﺗﺴﺘﺪﻋﻲ ﻤﻄﺮ ﻓﻲ ﻨﺰﻝ.");
 static const u8 sSpeedBoostDescription[] = _("ﺗﺮﻓﻊ ﺴﺮﻋﺔ ﺗﺪﺭﻳﺠﻴﺎ.");
 static const u8 sBattleArmorDescription[] = _("ﺗﻤﻨﻊ ﻀﺮﺑﺎﺕ ﺤﺎﺳﻤﺔ.");

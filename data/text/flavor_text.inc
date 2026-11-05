@@ -37,7 +37,7 @@ Text_PokemartSign::
 	.string "ﻣﺘﺠﺮ ﺒﻮﻛﻴﻤﻮﻥ$"
 
 Text_PokecenterSign::
-	.string "ﻋﺎﻟﺞ ﺑﻮﻛﻴﻤﻮﻧﻚ!\n"
+	.string "ﻋﺎﻟﺞ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ!\n"
 	.string "ﻣﺮﻛﺰ ﺒﻮﻛﻴﻤﻮﻥ$"
 
 Text_Indigo_UltimateGoal::
@@ -64,7 +64,7 @@ Text_Painting::
 
 Text_PowerPlantMachine::
 	.string "ﻣﺎ ﻫﺬﻩ ﺍﻵﻟﺔ ﻳﺎ ﺗﺮﻯ؟\n"
-	.string "ﺍﻷﻓﻀﻞ ﺃﻻ ﺗﻌﺒﺚ ﺑﻬﺎ!$"
+	.string "ﺍﻷﻓﻀﻞ ﺃﻻ {GENDER_M}ﺗﻌﺒﺚ{GENDER_F}ﺗﻌﺒﺜﻲ{GENDER_E} ﺑﻬﺎ!$"
 
 Text_Telephone::
 	.string "ﺇﻧﻪ ﻫﺎﺗﻒ.\n"
@@ -72,7 +72,8 @@ Text_Telephone::
 
 Text_Computer::
 	.string "ﺃﺭﻗﺎﻡ ﻭﻛﻠﻤﺎﺕ ﻣﻌﻘﺪﺓ ﺗﺘﺮﻗﺺ\n"
-	.string "ﻋﻠﻰ ﺸﺎﺷﺔ… ﻻ ﺗﻔﻬﻢ ﻣﻨﻬﺎ ﺷﻴﺌﺎ!$"
+	.string "ﻋﻠﻰ ﺸﺎﺷﺔ… ﻻ {GENDER_M}ﺗﻔﻬﻢ{GENDER_F}ﺗﻔﻬﻤﻴﻦ{GENDER_E} ﻣﻨﻬﺎ\p"
+	.string "ﺷﻴﺌﺎ!$"
 
 Text_AdvertisingPoster::
 	.string "ﻣﻠﺼﻖ ﺇﻋﻼﻧﻲ ﻟﻤﻨﺘﺠﺎﺕ\n"
@@ -93,7 +94,7 @@ Text_Cup::
 
 Text_PolishedWindow::
 	.string "ﻨﺎﻓﺬﺓ ﺗﻠﻤﻊ ﻛﺎﻟﻤﺮﺓ…\n"
-	.string "ﺗﻜﺎﺩ ﺗﺮﻯ ﻭﺟﻬﻚ ﻓﻴﻬﺎ!$"
+	.string "{GENDER_M}ﺗﻜﺎﺩ{GENDER_F}ﺗﻜﺎﺩﻳﻦ{GENDER_E} {GENDER_M}ﺗﺮﻯ{GENDER_F}ﺗﺮﻳﻦ{GENDER_E} ﻭﺟﻬﻚ ﻓﻴﻬﺎ!$"
 
 Text_BeautifulSkyWindow::
 	.string "ﺧﺎﺭﺝ ﻨﺎﻓﺬﺓ…\p"

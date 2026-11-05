@@ -21,7 +21,7 @@ Text_SeismicTossWhichMon::
 
 Text_SeismicTossTaught::
     .string "ﺃﺗﻤﻨﻰ ﺃﻻ ﺗﺮﻣﻲ ﻤﻨﺸﻔﺔ ﺃﺑﺪ.\n"
-    .string "ﻭﺻﻞ!$"
+    .string "{GENDER_M}ﻭﺻﻞ!{GENDER_F}ﻭﺻﻠﻲ!{GENDER_E}$"
 
 PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone::
     .string "ﺣﺠﺮ ﻘﻤﺮ، ﻫﺎ؟\p"

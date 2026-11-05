@@ -13,11 +13,12 @@ ViridianCity_Text_ViridiansGymLeaderReturned::
     .string "ﻟﻘﺪ ﻋﺎﺩ ﻗﺎﺋﺪ ﺻﺎﻟﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ!$"
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
-    .string "ﺃﺗﺮﻳﺪ ﺃﻥ ﺃﺣﺪﺛﻚ ﻋﻦ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "{GENDER_M}ﺃﺗﺮﻳﺪ{GENDER_F}ﺃﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺃﻥ ﺃﺣﺪﺛﻚ ﻋﻦ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\p"
     .string "ﻴﺮﻗﺎﺕ؟ ﻋﻨﺪﻱ ﻧﻮﻋﺎﻥ!$"
 
 ViridianCity_Text_OhOkayThen::
-    .string "ﺁﻩ… ﻛﻤﺎ ﺗﺸﺎﺀ!$"
+    .string "ﺁﻩ… ﻛﻤﺎ {GENDER_M}ﺗﺸﺎﺀ!{GENDER_F}ﺗﺸﺎﺋﻴﻦ!{GENDER_E}$"
 
 ViridianCity_Text_ExplainCaterpieWeedle::
     .string "ﻛﺎﺗﺮﺑﻲ ﻣﺴﺎﻟﻢ ﻻ ﺳﻢ ﻓﻴﻪ،\n"
@@ -39,7 +40,7 @@ ViridianCity_Text_GoShoppingInPewterOccasionally::
 
 ViridianCity_Text_ThisIsPrivateProperty::
     .string "ﻣﻤﻨﻮﻉ ﻤﺮﻭﺭ!\n"
-    .string "ﻟﻦ ﺗﺨﻄﻮ ﺧﻄﻮﺓ ﻭﺣﺪﺓ ﻣﻦ ﻫﻨﺎ!\p"
+    .string "ﻟﻦ {GENDER_M}ﺗﺨﻄﻮ{GENDER_F}ﺗﺨﻄﻲ{GENDER_E} ﺧﻄﻮﺓ ﻭﺣﺪﺓ ﻣﻦ ﻫﻨﺎ!\p"
     .string "ﻫﺬﻩ ﺃﺭﺽ ﺧﺎﺻﺔ!$"
 
 ViridianCity_Text_ShowYouHowToCatchMons::
@@ -47,24 +48,24 @@ ViridianCity_Text_ShowYouHowToCatchMons::
     .string "ﺃﻧﺎ ﺍﻵﻥ ﻣﺴﺘﻌﺪ ﻷﻱ ﺷﻲﺀ!\p"
     .string "ﻫﻢ؟\n"
     .string "ﻣﺎ ﻫﺬ ﺼﻨﺪﻭﻕ ﺍﻷﺣﻤﺮ ﻣﻌﻚ؟\p"
-    .string "ﺁﻩ، ﺃﻧﺖ ﺗﻤﻸ ﺒﻮﻛﻴﺪﻳﻜﺲ ﺇﺫﻥ.\p"
-    .string "ﺍﺳﻤﻊ ﻧﺼﻴﺤﺔ ﺭﺟﻞ ﻣﺠﺮﺏ…\p"
-    .string "ﻛﻠﻤﺎ ﺃﻣﺴﻜﺖ ﺑﻮﻛﻴﻤﻮﻥ، ﻳﺤﺪﺙ\n"
+    .string "ﺁﻩ، ﺃﻧﺖ {GENDER_M}ﺗﻤﻸ{GENDER_F}ﺗﻤﻠﺌﻴﻦ{GENDER_E} ﺒﻮﻛﻴﺪﻳﻜﺲ ﺇﺫﻥ.\p"
+    .string "{GENDER_M}ﺍﺳﻤﻊ{GENDER_F}ﺍﺳﻤﻌﻲ{GENDER_E} ﻧﺼﻴﺤﺔ ﺭﺟﻞ ﻣﺠﺮﺏ…\p"
+    .string "ﻛﻠﻤﺎ ﺃﻣﺴﻜﺖ ﺑﻮﻛﻴﻤﻮﻧﺎ، ﻳﺤﺪﺙ\n"
     .string "ﺒﻮﻛﻴﺪﻳﻜﺲ ﺑﻴﺎﻧﺎﺗﻪ ﺗﻠﻘﺎﺋﻴﺎ.\p"
-    .string "…ﻣﺎﺫ؟ ﻻ ﺗﻌﺮﻑ ﻛﻴﻒ ﺗﻤﺴﻚ\n"
-    .string "ﺑﻮﻛﻴﻤﻮﻥ؟\p"
-    .string "ﺇﺫﻥ ﺍﻧﻈﺮ، ﻭﺗﻌﻠﻢ ﻣﻨﻲ!$"
+    .string "…ﻣﺎﺫ؟ ﻻ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﻛﻴﻒ {GENDER_M}ﺗﻤﺴﻚ{GENDER_F}ﺗﻤﺴﻜﻴﻦ{GENDER_E}\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎ؟\p"
+    .string "ﺇﺫﻥ {GENDER_M}ﺍﻧﻈﺮ،{GENDER_F}ﺍﻧﻈﺮﻱ،{GENDER_E} {GENDER_M}ﻭﺗﻌﻠﻢ{GENDER_F}ﻭﺗﻌﻠﻤﻲ{GENDER_E} ﻣﻨﻲ!$"
 
 ViridianCity_Text_ThatWasEducationalTakeThis::
-    .string "ﻫﺎﻙ! ﻭﻵﻥ ﻗﻞ ﻟﻲ:\n"
+    .string "ﻫﺎﻙ! ﻭﻵﻥ {GENDER_M}ﻗﻞ{GENDER_F}ﻗﻮﻟﻲ{GENDER_E} ﻟﻲ:\n"
     .string "ﺃﻟﻴﺲ ﻫﺬ ﺩﺭﺳﺎ ﻻ ﻳﻨﺴﻰ؟\p"
-    .string "ﻭﺧﺬ ﻫﺬ ﺃﻳﻀﺎ.$"
+    .string "{GENDER_M}ﻭﺧﺬ{GENDER_F}ﻭﺧﺬﻱ{GENDER_E} ﻫﺬ ﺃﻳﻀﺎ.$"
 
 ViridianCity_Text_WatchThatToLearnBasics::
     .string "ﺇﻥ ﺍﺳﺘﻌﺼﻰ ﻋﻠﻴﻚ ﺷﻲﺀ،\n"
-    .string "ﻓﺸﺎﻫﺪ ﻫﺬ.\p"
+    .string "{GENDER_M}ﻓﺸﺎﻫﺪ{GENDER_F}ﻓﺸﺎﻫﺪﻱ{GENDER_E} ﻫﺬ.\p"
     .string "ﺳﻴﻌﻠﻤﻚ ﺃﺻﻮﻝ ﺗﺪﺭﻳﺐ\n"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻣﻦ ﺒﺪﻳﺔ.$"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻣﻦ ﺒﺪﻳﺔ.$"
 
 ViridianCity_Text_WeakenMonsFirstToCatch::
     .string "ﺁﻩ… ﻓﻨﺠﺎﻥ ﻘﻬﻮﺓ ﻳﺼﻨﻊ ﻤﻌﺠﺰﺕ!\n"
@@ -73,8 +74,8 @@ ViridianCity_Text_WeakenMonsFirstToCatch::
     .string "ﺭﺳﻲ ﻳﺪﻭﺭ…\p"
     .string "ﺑﺎﻟﻤﻨﺎﺳﺒﺔ، ﻛﻴﻒ ﺣﺎﻝ\n"
     .string "ﺒﻮﻛﻴﺪﻳﻜﺲ؟\p"
-    .string "ﻧﺼﻴﺤﺘﻲ: ﺃﺿﻌﻒ ﺒﻮﻛﻴﻤﻮﻥ ﺃﻭﻻ،\n"
-    .string "ﺛﻢ ﺣﺎﻭﻝ ﺇﻣﺴﺎﻛﻪ.$"
+    .string "ﻧﺼﻴﺤﺘﻲ: {GENDER_M}ﺃﺿﻌﻒ{GENDER_F}ﺃﺿﻌﻔﻲ{GENDER_E} ﺒﻮﻛﻴﻤﻮﻥ ﺃﻭﻻ،\n"
+    .string "ﺛﻢ {GENDER_M}ﺣﺎﻭﻝ{GENDER_F}ﺣﺎﻭﻟﻲ{GENDER_E} ﺇﻣﺴﺎﻛﻪ.$"
 
 ViridianCity_Text_HowsTeachyTVHelping::
     .string "ﺁﻩ… ﻓﻨﺠﺎﻥ ﻘﻬﻮﺓ ﻳﺼﻨﻊ ﻤﻌﺠﺰﺕ!\n"
@@ -88,13 +89,13 @@ ViridianCity_Text_MyGrandsonOnTheShow::
     .string "ﻭﻫﺎﻫﺎ!\n"
     .string "ﺫﻙ ﺣﻔﻴﺪﻱ ﻓﻲ ﺒﺮﻧﺎﻣﺞ!\p"
     .string "ﻭﻣﺎ ﺩﻡ ﻫﻮ ﻤﻌﻠﻢ،\n"
-    .string "ﻓﺴﺘﺘﻌﻠﻢ ﺣﺘﻤﺎ!$"
+    .string "{GENDER_M}ﻓﺴﺘﺘﻌﻠﻢ{GENDER_F}ﻓﺴﺘﺘﻌﻠﻤﻴﻦ{GENDER_E} ﺣﺘﻤﺎ!$"
 
 ViridianCity_Text_TooBusyForTeachyTV::
-    .string "ﻫﻤﻢ… ﺃﻧﺖ ﻣﺸﻐﻮﻝ ﺇﻟﻰ ﺣﺪ ﺃﻧﻪ\n"
+    .string "ﻫﻤﻢ… ﺃﻧﺖ {GENDER_M}ﻣﺸﻐﻮﻝ{GENDER_F}ﻣﺸﻐﻮﻟﺔ{GENDER_E} ﺇﻟﻰ ﺣﺪ ﺃﻧﻪ\n"
     .string "ﻻ ﻭﻗﺖ ﻟﺪﻳﻚ ﻟﺘﻠﻔﺎﺯ ﺘﻌﻠﻴﻢ؟\p"
-    .string "ﻮﻗﺖ ﻣﻦ ﺫﻫﺐ ﻳﺎ ﺑﻨﻲ،\n"
-    .string "ﻓﻼ ﺗﻬﺪﺭﻩ…$"
+    .string "ﻮﻗﺖ ﻣﻦ ﺫﻫﺐ ﻳﺎ {GENDER_M}ﺑﻨﻲ،{GENDER_F}ﺍﺑﻨﺘﻲ،{GENDER_E}\n"
+    .string "ﻓﻼ {GENDER_M}ﺗﻬﺪﺭﻩ…{GENDER_F}ﺗﻬﺪﺭﻳﻪ…{GENDER_E}$"
 
 ViridianCity_Text_CitySign::
     .string "ﻣﺪﻳﻨﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ\n"
@@ -102,7 +103,7 @@ ViridianCity_Text_CitySign::
 
 ViridianCity_Text_CatchMonsForEasierBattles::
     .string "ﻧﺼﺎﺋﺢ ﻟﻠﻤﺪﺭﺑﻴﻦ\p"
-    .string "ﺃﻣﺴﻚ ﺒﻮﻛﻴﻤﻮﻥ، ﻭﻭﺳﻊ\n"
+    .string "ﺃﻣﺴﻚ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ، ﻭﻭﺳﻊ\n"
     .string "ﻣﺠﻤﻮﻋﺘﻚ!\p"
     .string "ﻓﻜﻠﻤﺎ ﻛﺜﺮ ﺭﻓﺎﻗﻚ،\n"
     .string "ﺳﻬﻠﺖ ﻋﻠﻴﻚ ﻨﺰﻻﺕ.$"
@@ -112,8 +113,8 @@ ViridianCity_Text_MovesLimitedByPP::
     .string "ﺣﺮﻛﺎﺕ ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻨﺰﻝ\n"
     .string "ﻣﺤﺪﻭﺩﺓ\p"
     .string "ﺑﻨﻘﺎﻁ ﻘﻮﺓ، ﺃﻭ PP.\p"
-    .string "ﻻﺳﺘﻌﺎﺩﺓ PP، ﺃﺭﺡ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
-    .string "ﻤﺘﻌﺐ\p"
+    .string "ﻻﺳﺘﻌﺎﺩﺓ PP، ﺃﺭﺡ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ\n"
+    .string "ﻤﺘﻌﺒﺔ\p"
     .string "ﻓﻲ ﻣﺮﻛﺰ ﺒﻮﻛﻴﻤﻮﻥ.$"
 
 ViridianCity_Text_GymSign::

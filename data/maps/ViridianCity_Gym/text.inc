@@ -6,7 +6,7 @@ ViridianCity_Gym_Text_GiovanniIntro::
     .string "ﻟﻜﻨﻚ ﻭﺟﺪﺗﻨﻲ ﻣﺮﺓ ﺃﺧﺮﻯ.\n"
     .string "ﻓﻠﻴﻜﻦ.\p"
     .string "ﻫﺬﻩ ﻤﺮﺓ، ﻟﻦ ﺃﺭﺣﻤﻚ!\p"
-    .string "ﺳﺘﻮﺟﻪ ﻣﺠﺪﺩ ﺟﻴﻮﻓﺎﻧﻲ،\n"
+    .string "{GENDER_M}ﺳﺘﻮﺟﻪ{GENDER_F}ﺳﺘﻮﺟﻬﻴﻦ{GENDER_E} ﻣﺠﺪﺩ ﺟﻴﻮﻓﺎﻧﻲ،\n"
     .string "ﺃﻋﻈﻢ ﻤﺪﺭﺑﻴﻦ ﻋﻠﻰ ﺍﻹﻃﻼﻕ!{PLAY_BGM}{MUS_ENCOUNTER_ROCKET}$"
 
 ViridianCity_Gym_Text_GiovanniDefeat::
@@ -27,13 +27,13 @@ ViridianCity_Gym_Text_GiovanniPostBattle::
     .string "ﻭﺩﻋﺎ!$"
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
-    .string "ﻭﺳﺎﻡ ﺍﻷﺭﺽ ﻳﺠﻌﻞ ﺒﻮﻛﻴﻤﻮﻥ ﻣﻦ\n"
-    .string "ﺃﻱ ﻣﺴﺘﻮﻯ ﻳﻄﻴﻌﻚ ﺩﻭﻥ ﺗﺮﺩﺩ.\p"
+    .string "ﻭﺳﺎﻡ ﺍﻷﺭﺽ ﻳﺠﻌﻞ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻣﻦ\n"
+    .string "ﺃﻱ ﻣﺴﺘﻮﻯ ﺗﻄﻴﻌﻚ ﺩﻭﻥ ﺗﺮﺩﺩ.\p"
     .string "ﺇﻧﻪ ﺩﻟﻴﻞ ﻋﻠﻰ ﺑﺮﻋﺘﻚ\n"
-    .string "ﻛﻤﺪﺭﺏ ﺑﻮﻛﻴﻤﻮﻥ.\p"
-    .string "ﻭﺑﻪ، ﺗﺴﺘﻄﻴﻊ ﺗﺤﺪﻱ\n"
+    .string "{GENDER_M}ﻛﻤﺪﺭﺏ{GENDER_F}ﻛﻤﺪﺭﺑﺔ{GENDER_E} ﺑﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﻭﺑﻪ، {GENDER_M}ﺗﺴﺘﻄﻴﻊ{GENDER_F}ﺗﺴﺘﻄﻴﻌﻴﻦ{GENDER_E} ﺗﺤﺪﻱ\n"
     .string "ﺩﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ.\p"
-    .string "ﻭﺧﺬ ﻫﺬ ﻘﺮﺹ ﺃﻳﻀﺎ.\p"
+    .string "{GENDER_M}ﻭﺧﺬ{GENDER_F}ﻭﺧﺬﻱ{GENDER_E} ﻫﺬ ﻘﺮﺹ ﺃﻳﻀﺎ.\p"
     .string "ﺍﻋﺘﺒﺮﻩ ﻫﺪﻳﺔ ﻟﺘﺤﺪﻳﻚ\n"
     .string "ﻓﻲ ﺩﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ.$"
 
@@ -61,7 +61,8 @@ ViridianCity_Gym_Text_YujiDefeat::
     .string "ﻧﻔﺪ ﻭﻗﻮﺩﻱ!$"
 
 ViridianCity_Gym_Text_YujiPostBattle::
-    .string "ﺳﺘﺤﺘﺎﺝ ﺇﻟﻰ ﻗﻮﺓ ﻛﺒﻴﺮﺓ ﻟﺘﺠﺎﺭﻱ\n"
+    .string "{GENDER_M}ﺳﺘﺤﺘﺎﺝ{GENDER_F}ﺳﺘﺤﺘﺎﺟﻴﻦ{GENDER_E} ﺇﻟﻰ ﻗﻮﺓ ﻛﺒﻴﺮﺓ\n"
+    .string "ﻟﺘﺠﺎﺭﻱ\p"
     .string "ﻗﺎﺋﺪ ﺻﺎﻟﺘﻨﺎ.$"
 
 ViridianCity_Gym_Text_AtsushiIntro::
@@ -75,14 +76,14 @@ ViridianCity_Gym_Text_AtsushiPostBattle::
     .string "ﻣﺎ ﺯﻟﺖ ﻏﻴﺮ ﺟﺪﻳﺮ!$"
 
 ViridianCity_Gym_Text_JasonIntro::
-    .string "ﺃﻧﺎ ﻭﻟﺒﻮﻛﻴﻤﻮﻥ، ﻧﻌﺰﻑ ﻣﻌﺎ\n"
+    .string "ﺃﻧﺎ ﻭﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ، ﻧﻌﺰﻑ ﻣﻌﺎ\n"
     .string "ﺃﺭﻭﻉ ﺍﻷﻟﺤﺎﻥ!$"
 
 ViridianCity_Gym_Text_JasonDefeat::
     .string "ﺃﻧﺖ ﻓﻲ ﺗﻨﺎﻏﻢ ﺗﺎﻡ!$"
 
 ViridianCity_Gym_Text_JasonPostBattle::
-    .string "ﻫﻞ ﺗﻌﺮﻑ ﻣﻦ ﻳﻜﻮﻥ\n"
+    .string "ﻫﻞ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﻣﻦ ﻳﻜﻮﻥ\n"
     .string "ﻗﺎﺋﺪ ﺻﺎﻟﺘﻨﺎ؟$"
 
 ViridianCity_Gym_Text_KiyoIntro::
@@ -115,10 +116,10 @@ ViridianCity_Gym_Text_TakashiDefeat::
 
 ViridianCity_Gym_Text_TakashiPostBattle::
     .string "ﺩﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ؟\n"
-    .string "ﺃﻧﺖ؟ ﻻ ﺗﻐﺘﺮ ﺑﻨﻔﺴﻚ!$"
+    .string "ﺃﻧﺖ؟ ﻻ {GENDER_M}ﺗﻐﺘﺮ{GENDER_F}ﺗﻐﺘﺮﻱ{GENDER_E} ﺑﻨﻔﺴﻚ!$"
 
 ViridianCity_Gym_Text_ColeIntro::
-    .string "ﺑﻮﻛﻴﻤﻮﻧﻚ ﺳﻴﺮﺗﺠﻒ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ ﺳﺘﺮﺗﺠﻒ\n"
     .string "ﻣﻊ ﻓﺮﻗﻌﺔ ﺳﻮﻃﻲ!$"
 
 ViridianCity_Gym_Text_ColeDefeat::
@@ -126,7 +127,7 @@ ViridianCity_Gym_Text_ColeDefeat::
     .string "ﺍﺭﺗﺪ ﻋﻠﻲ ﺳﻮﻃﻲ!$"
 
 ViridianCity_Gym_Text_ColePostBattle::
-    .string "ﺍﻧﺘﻈﺮ!\n"
+    .string "{GENDER_M}ﺍﻧﺘﻈﺮ!{GENDER_F}ﺍﻧﺘﻈﺮﻱ!{GENDER_E}\n"
     .string "ﻟﻘﺪ ﻛﻨﺖ ﻣﻬﻤﻼ ﻓﻘﻂ!$"
 
 ViridianCity_Gym_Text_SamuelIntro::
@@ -138,18 +139,18 @@ ViridianCity_Gym_Text_SamuelDefeat::
     .string "ﻫﻞ ﻫﺰﻣﺖ؟$"
 
 ViridianCity_Gym_Text_SamuelPostBattle::
-    .string "ﻟﻦ ﺗﺒﻠﻎ ﺩﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ ﺇﻻ\n"
+    .string "ﻟﻦ {GENDER_M}ﺗﺒﻠﻎ{GENDER_F}ﺗﺒﻠﻐﻲ{GENDER_E} ﺩﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ ﺇﻻ\n"
     .string "ﺇﺫ ﻫﺰﻣﺖ ﻗﺎﺋﺪ ﺻﺎﻟﺘﻨﺎ!$"
 
 ViridianCity_Gym_Text_GymGuyAdvice::
     .string "ﻣﺮﺣﺒﺎ!\n"
-    .string "ﻳﺎ ﺑﻄﻞ ﻤﺴﺘﻘﺒﻞ!\p"
+    .string "ﻳﺎ {GENDER_M}ﺑﻄﻞ{GENDER_F}ﺑﻄﻠﺔ{GENDER_E} ﻤﺴﺘﻘﺒﻞ!\p"
     .string "ﺣﺘﻰ ﺃﻧﺎ ﻻ ﺃﻋﺮﻑ ﻫﻮﻳﺔ\n"
     .string "ﻗﺎﺋﺪ ﻓﻴﺮﻳﺪﻳﺎﻥ.\p"
     .string "ﻟﻜﻦ ﺷﻴﺌﺎ ﻭﺣﺪ ﻣﺆﻛﺪ:\n"
     .string "ﺇﻧﻪ ﺃﺻﻌﺐ ﻗﺎﺩﺓ ﺼﺎﻻﺕ ﻗﺎﻃﺒﺔ.\p"
     .string "ﻭﺳﻤﻌﺖ ﺃﻥ ﻣﺪﺭﺑﻲ ﻫﺬﻩ ﺼﺎﻟﺔ\n"
-    .string "ﻳﻌﺸﻘﻮﻥ ﺑﻮﻛﻴﻤﻮﻥ ﻧﻮﻉ ﺍﻷﺭﺽ.$"
+    .string "ﻳﻌﺸﻘﻮﻥ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﻧﻮﻉ ﺍﻷﺭﺽ.$"
 
 ViridianCity_Gym_Text_GymGuyPostVictory::
     .string "ﻻ ﺃﺻﺪﻕ! ﺟﻴﻮﻓﺎﻧﻲ ﻛﺎﻥ\n"

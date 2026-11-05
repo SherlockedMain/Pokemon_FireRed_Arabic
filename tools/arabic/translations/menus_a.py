@@ -277,3 +277,9 @@ GLOSSARY = [
     ('DAY-CARE', 'دار الرعاية', ''), ('SPA', 'المنتجع', ''),
     ('Natures', 'صلب، وحيد، شجاع، عنيد، مشاغب، جريء، مطيع، مسترخ، شقي، متراخ، خجول، متعجل، جاد، مرح، ساذج، متواضع، لطيف، هادئ، حيي، متهور، رزين، رقيق، سليط، حذر، غريب الأطوار', ''),
 ]
+
+# ---- Revision 3: plural «البوكيمونات» and player gender ([[masc|fem]]) -----------------
+_R3 = {'gStartMenuDesc_Pokemon': 'تفقّد بوكيمونات فريقك، رفاقك\nفي الرحلة، ونظّم صفوفها.', 'gText_NoMoreThanThreeMayEnter': 'لا يدخل أكثر من ثلاثة\nبوكيمونات.', 'gText_ThreePkmnAreNeeded': 'يلزم ثلاثة بوكيمونات.', 'gText_PokeFluteAwakenedMon': 'أيقظ ناي البوكيمون\nالبوكيمونات النائمة.', 'gText_OakImportantToGetToKnowPokemonThroughly': 'أوك: من المهم أن [[تعرف|تعرفي]]\nبوكيموناتك حق المعرفة.', 'gText_OakThisIsListOfPokemon': 'هذه قائمة بوكيموناتك\nيا {PLAYER}.\n\nافتحها [[لتتفقد|لتتفقدي]] قدرات بوكيموناتك\nوحركاتها.\n\nومنها [[تختار|تختارين]] البوكيمون أيضا\nإن أردت استخدام أداة عليه.', 'gText_UsedVar2WildLured': 'استخدم {PLAYER}\n{STR_VAR_2}.\n\nستنجذب البوكيمونات البرية.', 'gText_UsedVar2WildRepelled': 'استخدم {PLAYER}\n{STR_VAR_2}.\n\nستبتعد البوكيمونات البرية.', 'gText_LureWildPokemon': 'اجذب البوكيمونات.'}
+for _e in ENTRIES:
+    if _e['id'] in _R3:
+        _e['ar'] = _R3[_e['id']]

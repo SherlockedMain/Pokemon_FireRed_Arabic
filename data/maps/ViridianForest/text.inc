@@ -1,6 +1,6 @@
 ViridianForest_Text_FriendsItchingToBattle::
     .string "ﺟﺌﺖ ﺇﻟﻰ ﻫﻨﺎ ﻣﻊ ﺃﺻﺪﻗﺎﺋﻲ ﻟﻨﻤﺴﻚ\n"
-    .string "ﺑﻌﺾ ﺑﻮﻛﻴﻤﻮﻥ ﺤﺸﺮﺕ!\p"
+    .string "ﺑﻌﺾ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﺤﺸﺮﺕ!\p"
     .string "ﻭﻛﻠﻬﻢ ﻣﺘﺸﻮﻗﻮﻥ ﻟﺨﻮﺽ\n"
     .string "ﻧﺰﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ!$"
 
@@ -13,7 +13,7 @@ ViridianForest_Text_RickDefeat::
     .string "ﻛﺎﺗﺮﺑﻲ ﻟﻢ ﻳﺼﻤﺪ!$"
 
 ViridianForest_Text_RickPostBattle::
-    .string "ﺻﻪ! ﺳﺘﺨﻴﻒ ﺤﺸﺮﺕ.\n"
+    .string "ﺻﻪ! {GENDER_M}ﺳﺘﺨﻴﻒ{GENDER_F}ﺳﺘﺨﻴﻔﻴﻦ{GENDER_E} ﺤﺸﺮﺕ.\n"
     .string "ﻣﺮﺓ ﺃﺧﺮﻯ، ﺍﺗﻔﻘﻨﺎ؟$"
 
 ViridianForest_Text_DougIntro::
@@ -29,22 +29,22 @@ ViridianForest_Text_DougPostBattle::
     .string "ﺃﻗﻮﻯ ﻣﻦ ﻫﺬﻩ!$"
 
 ViridianForest_Text_SammyIntro::
-    .string "ﻣﻬﻼ، ﺍﻧﺘﻈﺮ!\n"
+    .string "ﻣﻬﻼ، {GENDER_M}ﺍﻧﺘﻈﺮ!{GENDER_F}ﺍﻧﺘﻈﺮﻱ!{GENDER_E}\n"
     .string "ﻟﻤﺎﺫ ﻌﺠﻠﺔ؟$"
 
 ViridianForest_Text_SammyDefeat::
     .string "ﺍﺳﺘﺴﻠﻤﺖ!\n"
-    .string "ﺃﻧﺖ ﺑﺎﺭﻉ ﻓﻲ ﻫﺬ!$"
+    .string "ﺃﻧﺖ {GENDER_M}ﺑﺎﺭﻉ{GENDER_F}ﺑﺎﺭﻋﺔ{GENDER_E} ﻓﻲ ﻫﺬ!$"
 
 ViridianForest_Text_SammyPostBattle::
     .string "ﺃﺣﻴﺎﻧﺎ ﺗﺠﺪ ﺃﺷﻴﺎﺀ ﻣﺮﻣﻴﺔ\n"
     .string "ﻋﻠﻰ ﺍﻷﺭﺽ.\p"
     .string "ﺃﺑﺤﺚ ﻋﻦ ﺃﺷﻴﺎﺀ ﺃﺳﻘﻄﺘﻬﺎ.\n"
-    .string "ﻫﻞ ﺗﺴﺎﻋﺪﻧﻲ؟$"
+    .string "ﻫﻞ {GENDER_M}ﺗﺴﺎﻋﺪﻧﻲ؟{GENDER_F}ﺗﺴﺎﻋﺪﻳﻨﻨﻲ؟{GENDER_E}$"
 
 ViridianForest_Text_AnthonyIntro::
     .string "ﻗﺪ ﺃﻛﻮﻥ ﺻﻐﻴﺮ، ﻟﻜﻨﻨﻲ ﻟﻦ ﺃﺭﺿﻰ\n"
-    .string "ﺃﻥ ﺗﺘﺴﺎﻫﻞ ﻣﻌﻲ!$"
+    .string "ﺃﻥ {GENDER_M}ﺗﺘﺴﺎﻫﻞ{GENDER_F}ﺗﺘﺴﺎﻫﻠﻲ{GENDER_E} ﻣﻌﻲ!$"
 
 ViridianForest_Text_AnthonyDefeat::
     .string "ﺃﻭﻑ.\n"
@@ -54,20 +54,22 @@ ViridianForest_Text_AnthonyPostBattle::
     .string "ﺃﺿﻌﺖ ﺑﻌﺾ ﻣﺼﺮﻭﻓﻲ…$"
 
 ViridianForest_Text_CharlieIntro::
-    .string "ﻫﻞ ﺗﻌﻠﻢ ﺃﻥ ﺒﻮﻛﻴﻤﻮﻥ ﺗﺘﻄﻮﺭ؟$"
+    .string "ﻫﻞ {GENDER_M}ﺗﻌﻠﻢ{GENDER_F}ﺗﻌﻠﻤﻴﻦ{GENDER_E} ﺃﻥ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﺗﺘﻄﻮﺭ؟$"
 
 ViridianForest_Text_CharlieDefeat::
     .string "ﺃﻭﻩ!\n"
     .string "ﺧﺴﺮﺕ!$"
 
 ViridianForest_Text_CharliePostBattle::
-    .string "ﺑﻮﻛﻴﻤﻮﻥ ﺤﺸﺮﺕ ﺗﺘﻄﻮﺭ ﺑﺴﺮﻋﺔ.\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﺤﺸﺮﺕ ﺗﺘﻄﻮﺭ\n"
+    .string "ﺑﺴﺮﻋﺔ.\p"
     .string "ﺇﻧﻬﺎ ﻣﻤﺘﻌﺔ ﺟﺪ!$"
 
 ViridianForest_Text_RanOutOfPokeBalls::
     .string "ﻇﻠﻠﺖ ﺃﺭﻣﻲ ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ\n"
     .string "ﻷﻣﺴﻚ\p"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ، ﺣﺘﻰ ﻧﻔﺪﺕ.\p"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ، ﺣﺘﻰ ﻧﻔﺪﺕ.\p"
     .string "ﻟﻬﺬ ﻻ ﺗﻜﻔﻴﻚ ﺃﺑﺪ\n"
     .string "ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﻣﻬﻤﺎ ﻛﺜﺮﺕ!$"
 
@@ -91,7 +93,7 @@ ViridianForest_Text_CantCatchOwnedMons::
     .string "ﻻ ﻳﻤﻜﻨﻚ ﺇﻣﺴﺎﻙ ﺑﻮﻛﻴﻤﻮﻥ\n"
     .string "ﻳﻤﻠﻜﻪ ﺷﺨﺺ ﺁﺧﺮ.\p"
     .string "ﺍﺭﻡ ﻛﺮﺕ ﺒﻮﻛﻴﻤﻮﻥ ﻋﻠﻰ\n"
-    .string "ﺒﻮﻛﻴﻤﻮﻥ\p"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\p"
     .string "ﺒﺮﻳﺔ ﻓﻘﻂ ﻟﺘﻤﺴﻜﻬﺎ!$"
 
 ViridianForest_Text_WeakenMonsBeforeCapture::

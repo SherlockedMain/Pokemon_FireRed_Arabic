@@ -834,7 +834,7 @@ Text_WelcomeTimeCapsule::
 	.string "TIME CAPSULE.$"
 
 Text_PleaseComeAgain::
-	.string "ﻧﺮﺟﻮ ﺃﻥ ﺗﻌﻮﺩ ﻣﺠﺪﺩ!$"
+	.string "ﻧﺮﺟﻮ ﺃﻥ {GENDER_M}ﺗﻌﻮﺩ{GENDER_F}ﺗﻌﻮﺩﻱ{GENDER_E} ﻣﺠﺪﺩ!$"
 
 @ Unused
 Text_HavingDiscountSaleToday::
@@ -878,7 +878,7 @@ Text_LinkWasCanceled::
 
 @ Unused
 Text_GiveNicknameToReceivedMon::
-	.string "ﺃﺗﺮﻳﺪ ﺃﻥ ﺗﻤﻨﺢ {STR_VAR_2}\n"
+	.string "{GENDER_M}ﺃﺗﺮﻳﺪ{GENDER_F}ﺃﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺃﻥ ﺗﻤﻨﺢ {STR_VAR_2}\n"
 	.string "ﺬﻱ ﺣﺼﻠﺖ ﻋﻠﻴﻪ ﻟﻘﺒﺎ؟$"
 
 gText_PkmnFainted3::
@@ -887,11 +887,11 @@ gText_PkmnFainted3::
 
 Text_WelcomeWantToHealPkmn::
 	.string "ﻣﺮﺣﺒﺎ ﺑﻚ ﻓﻲ ﻣﺮﻛﺰ ﺒﻮﻛﻴﻤﻮﻥ!\p"
-	.string "ﻫﻞ ﺃﻋﻴﺪ ﻟﺒﻮﻛﻴﻤﻮﻧﻚ\n"
-	.string "ﻛﺎﻣﻞ ﺻﺤﺘﻪ؟$"
+	.string "ﻫﻞ ﺃﻋﻴﺪ ﻟﺒﻮﻛﻴﻤﻮﻧﺎﺗﻚ\n"
+	.string "ﻛﺎﻣﻞ ﺻﺤﺘﻬﺎ؟$"
 
 Text_TakeYourPkmnForFewSeconds::
-	.string "ﺣﺴﻨﺎ، ﺳﺂﺧﺬ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
+	.string "ﺣﺴﻨﺎ، ﺳﺂﺧﺬ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ\n"
 	.string "ﻟﺒﻀﻊ ﺛﻮﻥ.$"
 
 Text_WeHopeToSeeYouAgain::
@@ -899,7 +899,7 @@ Text_WeHopeToSeeYouAgain::
 
 Text_RestoredPkmnToFullHealth::
 	.string "ﺷﻜﺮ ﻻﻧﺘﻈﺎﺭﻙ!\n"
-	.string "ﺑﻮﻛﻴﻤﻮﻧﻚ ﺍﻵﻥ ﻓﻲ ﺃﺗﻢ ﺻﺤﺔ.$"
+	.string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ ﺍﻵﻥ ﻓﻲ ﺃﺗﻢ ﺻﺤﺔ.$"
 
 	.include "data/text/surf.inc"
 
@@ -927,7 +927,7 @@ Text_HandedOverItem::
 	.string "{STR_VAR_1}.$"
 
 Text_GiveNicknameToThisMon::
-	.string "ﺃﺗﺮﻳﺪ ﺃﻥ ﺗﻤﻨﺢ {STR_VAR_1}\n"
+	.string "{GENDER_M}ﺃﺗﺮﻳﺪ{GENDER_F}ﺃﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺃﻥ ﺗﻤﻨﺢ {STR_VAR_1}\n"
 	.string "ﻫﺬ ﻟﻘﺒﺎ؟$"
 
 	.include "data/text/itemfinder.inc"
