@@ -35,12 +35,13 @@ PewterCity_Gym_Text_TakeThisWithYou::
     .string "ﺧﺬ ﻫﺬ ﻣﻌﻚ.$"
 
 PewterCity_Gym_Text_ReceivedTM39FromBrock::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻘﺮﺹ TM39\n"
+    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻘﺮﺹ ﺘﻘﻨﻲ\n"
+    .string "39\p"
     .string "ﻣﻦ ﺑﺮﻭﻙ.$"
 
 PewterCity_Gym_Text_ExplainTM39::
-    .string "ﻘﺮﺹ TM، ﺃﻭ ﺍﻵﻟﺔ ﺘﻘﻨﻴﺔ، ﻳﺤﻮﻱ\n"
-    .string "ﺣﺮﻛﺔ ﻳﺘﻌﻠﻤﻬﺎ ﺒﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﻘﺮﺹ ﺘﻘﻨﻲ ﻳﺤﻮﻱ ﺣﺮﻛﺔ\n"
+    .string "ﻳﺘﻌﻠﻤﻬﺎ ﺒﻮﻛﻴﻤﻮﻥ.\p"
     .string "ﺍﺳﺘﺨﺪﻡ ﻘﺮﺹ ﻳﻌﻠﻢ ﺒﻮﻛﻴﻤﻮﻥ\n"
     .string "ﺤﺮﻛﺔ ﺘﻲ ﻓﻴﻪ.\p"
     .string "ﻟﻜﻦ ﻘﺮﺹ ﻳﺴﺘﺨﺪﻡ ﻣﺮﺓ ﻭﺣﺪﺓ\n"
@@ -48,7 +49,7 @@ PewterCity_Gym_Text_ExplainTM39::
     .string "ﻟﺬ ﺍﺧﺘﺮ ﺒﻮﻛﻴﻤﻮﻥ ﺑﻌﻨﺎﻳﺔ\n"
     .string "ﺣﻴﻦ ﺗﺴﺘﺨﺪﻣﻪ.\p"
     .string "ﻋﻠﻰ ﺃﻱ ﺣﺎﻝ…\n"
-    .string "ﻓﻲ ﻘﺮﺹ TM39 ﻗﺒﺮ ﺼﺨﻮﺭ.\p"
+    .string "ﻓﻲ ﻘﺮﺹ ﺘﻘﻨﻲ 39 ﻗﺒﺮ ﺼﺨﻮﺭ.\p"
     .string "ﺗﺮﻣﻲ ﺼﺨﻮﺭ ﻋﻠﻰ ﺨﺼﻢ\n"
     .string "ﻭﺗﺨﻔﺾ ﺳﺮﻋﺘﻪ.$"
 

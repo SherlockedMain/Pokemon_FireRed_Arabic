@@ -38,11 +38,12 @@ ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
     .string "ﻓﻲ ﺩﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ.$"
 
 ViridianCity_Gym_Text_ReceivedTM26FromGiovanni::
-    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻘﺮﺹ TM26\n"
+    .string "ﺣﺼﻞ {PLAYER} ﻋﻠﻰ ﻘﺮﺹ ﺘﻘﻨﻲ\n"
+    .string "26\p"
     .string "ﻣﻦ ﺟﻴﻮﻓﺎﻧﻲ.$"
 
 ViridianCity_Gym_Text_ExplainTM26::
-    .string "ﻘﺮﺹ TM26 ﻳﺤﺘﻮﻱ ﻋﻠﻰ ﺣﺮﻛﺔ\n"
+    .string "ﻘﺮﺹ ﺘﻘﻨﻲ 26 ﻳﺤﻮﻱ ﺣﺮﻛﺔ\n"
     .string "ﺰﻟﺰﻝ.\p"
     .string "ﺇﻧﻬﺎ ﻫﺠﻤﺔ ﻗﻮﻳﺔ ﺗﺴﺒﺐ\n"
     .string "ﻫﺰﺓ ﻫﺎﺋﻠﺔ.\p"
