@@ -25,6 +25,8 @@ def layout(entry, ar):
             problems.append('"%s" is %d px, max %d' % (readable.strip(), w, max_px))
 
     ar = ar.replace('\r', '').strip('\n')
+    if entry.get('no_mid_stop') and '.' in ar.rstrip().rstrip('.!؟?'):
+        problems.append('full stop in the middle: use a comma (one flowing paragraph)')
     if mode in ('line', 'manual'):
         for raw in ar.split('\n'):
             s = shape(raw)
@@ -128,6 +130,12 @@ def write_entry(entry, pieces):
         src = src[:m.start(1)] + to_c(pieces) + src[m.end(1):]
     else:
         m = re.search(r'\b%s\[\] = _\("(.*?)"\);' % re.escape(label), src)
+        if not m:   # several literals: const u8 gX[] = _(\n "..."\n "...");
+            m = re.search(r'\b%s\[\] = _\((\s*(?:"(?:[^"\\]|\\.)*"|#[^\n]*\n|\s)+)\);' % re.escape(label), src, re.S)
+            if m:
+                src = src[:m.start(1)] + '"' + to_c(pieces) + '"' + src[m.end(1):]
+                open(path, 'w', encoding='utf-8').write(src)
+                return
         if not m:
             raise SystemExit('label %s not found in %s' % (label, entry['file']))
         src = src[:m.start(1)] + to_c(pieces) + src[m.end(1):]

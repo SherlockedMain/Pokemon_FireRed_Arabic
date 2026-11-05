@@ -2680,9 +2680,9 @@ void DexScreen_PrintMonCategory(u8 windowId, u16 species, u8 x, u8 y)
     index = 0;
     if (DexScreen_GetSetPokedexFlag(species, FLAG_GET_CAUGHT, FALSE))
     {
-#if REVISION == 0
+#if REVISION == 0 && !TEXT_RTL
         while ((categoryName[index] != CHAR_SPACE) && (index < 11))
-#else
+#else   // Arabic categories may contain a space («السلحفاة الصغيرة»)
         while ((categoryName[index] != EOS) && (index < 11))
 #endif
         {
