@@ -78,12 +78,12 @@ def memo(label, ar): return M(label, ar, MEMO, codes=C, note=_MEMO_NOTE)
 _E += [
  M('gText_PokeSum_PageName_PokemonInfo', 'المعلومات', one(100)), M('gText_PokeSum_PageName_PokemonSkills', 'قدرات البوكيمون', one(100)),
  M('gText_PokeSum_PageName_KnownMoves', 'الحركات', one(100)),
- M('gText_PokeSum_Controls_Cancel', '{A_BUTTON}إلغاء', SMALL), M('gText_PokeSum_Controls_Page', '{DPAD_LEFTRIGHT}الصفحة', SMALL),
- M('gText_PokeSum_Controls_PageCancel', '{DPAD_RIGHT}الصفحة {A_BUTTON}إلغاء', SMALL),
- M('gText_PokeSum_Controls_PageDetail', '{DPAD_LEFT}صفحة {A_BUTTON}تفاصيل', SMALL),
- M('gText_PokeSum_Controls_Pick', '{DPAD_UPDOWN}اختيار', SMALL),
- M('gText_PokeSum_Controls_PickDelete', '{DPAD_UPDOWN}اختيار {A_BUTTON}حذف', SMALL),
- M('gText_PokeSum_Controls_PickSwitch', '{DPAD_UPDOWN}اختيار {A_BUTTON}تبديل', SMALL),
+ M('gText_PokeSum_Controls_Cancel', '{A_BUTTON} إلغاء', SMALL), M('gText_PokeSum_Controls_Page', '{DPAD_LEFTRIGHT} الصفحة', SMALL),
+ M('gText_PokeSum_Controls_PageCancel', '{DPAD_RIGHT} صفحة {A_BUTTON} إلغاء', SMALL),
+ M('gText_PokeSum_Controls_PageDetail', '{DPAD_LEFT} صفحة {A_BUTTON} عرض', SMALL),
+ M('gText_PokeSum_Controls_Pick', '{DPAD_UPDOWN} اختيار', SMALL),
+ M('gText_PokeSum_Controls_PickDelete', '{DPAD_UPDOWN} اختيار {A_BUTTON} حذف', SMALL),
+ M('gText_PokeSum_Controls_PickSwitch', '{DPAD_UPDOWN} اختر {A_BUTTON} تبديل', SMALL),
  M('gText_PokeSum_ExpPoints', 'النقاط', LABEL, note='The «الخبرة» label pill sits right next to it, so this row says «النقاط».'), M('gText_PokeSum_NextLv', 'للترقية', one(72), note='"NEXT LV." -> «للترقية» (to the next level): the label has 72 px.'),
  M('gText_PokeSum_Item_None', 'لا شيء', LABEL), M('gText_PokeSum_NoData', 'لا بيانات', LABEL),
  M('gText_PokeSum_ATrade', 'مبادلة', LABEL), M('gText_Somewhere', 'مكان ما', LABEL), M('gFameCheckerText_Cancel', 'إلغاء', LABEL),
@@ -127,7 +127,7 @@ _E += [
  M('gText_SoundMono', 'أحادي', LABEL), M('gText_SoundStereo', 'مجسم', LABEL), M('gText_ButtonMode', 'وضع الأزرار', one(100)),
  M('gText_ButtonTypeHelp', 'مساعدة', LABEL), M('gText_Frame', 'الإطار', one(100)), M('gText_FrameType', 'نوع', LABEL),
  M('gText_OptionMenuCancel', 'إلغاء', one(100)),
- M('gText_PickSwitchCancel', '{DPAD_UPDOWN}اختيار {DPAD_LEFTRIGHT}تغيير {A_BUTTON}{B_BUTTON}إلغاء', ('line', 230, 'small', 1)),
+ M('gText_PickSwitchCancel', '{DPAD_UPDOWN} اختيار {DPAD_LEFTRIGHT} تغيير {A_BUTTON}{B_BUTTON} إلغاء', ('line', 230, 'small', 1)),
 ]
 SCREEN = 'Bag'
 _E += [

@@ -26,10 +26,10 @@ ENTRIES = [
          box=('line', 100, 'small', 1), ar='التحكم',
          note='Short title; the bar is small.'),
     dict(id='gText_ABUTTONNext', file=STRINGS, screen='Top bar', where='Top bar button hint (A)',
-         box=('line', 90, 'small', 1), ar='{A_BUTTON}التالي',
+         box=('line', 90, 'small', 1), ar='{A_BUTTON} التالي',
          note='Shared with other menus in the game.'),
     dict(id='gText_ABUTTONNext_BBUTTONBack', file=STRINGS, screen='Top bar', where='Top bar button hints (A / B)',
-         box=('line', 120, 'small', 1), ar='{A_BUTTON}التالي {B_BUTTON}رجوع',
+         box=('line', 120, 'small', 1), ar='{A_BUTTON} التالي {B_BUTTON} رجوع',
          note='Shared with other menus in the game.'),
 
     # ---- Controls guide ------------------------------------------------------
@@ -99,7 +99,7 @@ ENTRIES = [
     dict(id='gText_RivalsName', file=STRINGS, screen='Naming screen', where='Title when typing the rival name',
          box=('line', 120, 'normal', 1), ar='ما اسم منافسك؟'),
     dict(id='gText_MoveOkBack', file=STRINGS, screen='Naming screen', where='Top bar button hints (shared by every naming screen)',
-         box=('line', 150, 'small', 1), ar='{DPAD_ANY}تحريك {A_BUTTON}تم {B_BUTTON}رجوع'),
+         box=('line', 150, 'small', 1), ar='{DPAD_ANY} تحريك {A_BUTTON} تم {B_BUTTON} رجوع'),
     dict(id='gOakSpeech_Text_SoYourNameIsPlayer', file=INC_INTRO, screen="Prof. Oak's speech", where='Confirms the player name (YES/NO after)',
          box=DIALOG, ar='حسنا…\nإذن، اسمك {PLAYER}.'),
     dict(id='gText_YesNo', file=STRINGS, screen='Yes/No menu', where='YES/NO menu (whole game)',
@@ -160,13 +160,13 @@ ENTRIES = [
          ar='{CIRCLE_1} اختر الحرف بلوحة الاتجاهات {PLUS}،\n   ثم اضغط زر A لإدخاله.\n{CIRCLE_2} اضغط زر B لحذف آخر حرف.\n'
             '{CIRCLE_3} اضغط SELECT للتبديل بين\n   الحروف الكبيرة والصغيرة.\n{CIRCLE_4} اضغط زر A على “OK”.',
          note='Kept line by line like the original (numbered steps). The keyboard and its OK button stay in Latin for now.'),
-    dict(id='gText_HelpSystemControls_A_Next', file=STRINGS, screen='Help (L/R)', where='Button hint, bottom bar', box=('line', 120, 'small', 1), ar='{A_BUTTON}التالي'),
+    dict(id='gText_HelpSystemControls_A_Next', file=STRINGS, screen='Help (L/R)', where='Button hint, bottom bar', box=('line', 120, 'small', 1), ar='{A_BUTTON} التالي'),
     dict(id='gText_HelpSystemControls_PickOkEnd', file=STRINGS, screen='Help (L/R)', where='Button hint, bottom bar', box=('line', 124, 'small', 1),
-         ar='{DPAD_UPDOWN}اختيار {A_BUTTON}تم {B_BUTTON}إنهاء'),
+         ar='{DPAD_UPDOWN} اختيار {A_BUTTON} تم {B_BUTTON} إنهاء'),
     dict(id='gText_HelpSystemControls_AorBtoCancel', file=STRINGS, screen='Help (L/R)', where='Button hint, bottom bar', box=('line', 120, 'small', 1),
-         ar='{A_BUTTON}{B_BUTTON}إلغاء'),
+         ar='{A_BUTTON}{B_BUTTON} إلغاء'),
     dict(id='gText_HelpSystemControls_PickOkCancel', file=STRINGS, screen='Help (L/R)', where='Button hint, bottom bar', box=('line', 124, 'small', 1),
-         ar='{DPAD_UPDOWN}اختيار {A_BUTTON}تم {B_BUTTON}إلغاء'),
+         ar='{DPAD_UPDOWN} اختيار {A_BUTTON} تم {B_BUTTON} إلغاء'),
 ]
 
 README = [
@@ -180,7 +180,7 @@ README = [
     ('Line breaks: Alt+Enter starts a new line. An empty line starts a new page in dialogue boxes '
      '(or leaves an empty line on fixed screens). You do not need to break lines yourself: long lines are '
      'wrapped automatically to the real width of each box.', 'text'),
-    ('Keep tokens exactly as they are: {PLAYER}, {RIVAL}, {A_BUTTON}, {B_BUTTON}, {DPAD_UPDOWN}, {DPAD_ANY}, '
+    ('Keep tokens exactly as they are: {PLAYER}, {RIVAL}, {A_BUTTON} , {B_BUTTON} , {DPAD_UPDOWN} , {DPAD_ANY} , '
      '{PLUS}, {CIRCLE_1}…', 'text'),
     ('Harakat (fatha, damma, shadda, tanween…) are removed automatically: the font has no glyphs for them. '
      'Write normally; they do no harm.', 'text'),

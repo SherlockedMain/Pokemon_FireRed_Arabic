@@ -661,9 +661,10 @@ static bool8 MainState_FadeIn(void)
 #if TEXT_RTL
     // Start on the Arabic letters page
     sNamingScreen->currentPage = KBPAGE_LETTERS_LOWER;
-    DecompressToBgTilemapBuffer(2, gNamingScreenKeyboardUpper_Tilemap);
+    // the back layer must hold the NEXT page (extras), as the page swap expects
+    DecompressToBgTilemapBuffer(2, gNamingScreenKeyboardSymbols_Tilemap);
     DecompressToBgTilemapBuffer(1, gNamingScreenKeyboardLower_Tilemap);
-    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_LETTERS_UPPER);
+    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_SYMBOLS);
     PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_LOWER);
 #else
     sNamingScreen->currentPage = KBPAGE_LETTERS_UPPER;
@@ -1122,7 +1123,20 @@ static void SpriteCB_InputArrow(struct Sprite *sprite)
         sprite->sDelay = 8;
         sprite->sXPosId = (sprite->sXPosId + 1) & (ARRAY_COUNT(x) - 1);
     }
+#if TEXT_RTL
+    {
+        // Arabic (or empty): arrow at the right end, pointing left at the text.
+        // Latin name: back on the left, as in the original.
+        bool8 latin = sNamingScreen->textBuffer[0] != EOS && !NamingRtl_HasArabic(sNamingScreen->textBuffer);
+        s16 shift = latin ? -(sNamingScreen->template->maxChars * 8 + 10) : 0;
+
+        sprite->hFlip = !latin;
+        sprite->oam.matrixNum = (sprite->oam.matrixNum & ~ST_OAM_HFLIP) | (latin ? 0 : ST_OAM_HFLIP);
+        sprite->x2 = shift + (latin ? x[sprite->sXPosId] : -x[sprite->sXPosId]);
+    }
+#else
     sprite->x2 = x[sprite->sXPosId];
+#endif
 }
 
 #undef sDelay
@@ -1137,10 +1151,20 @@ static void SpriteCB_Underscore(struct Sprite *sprite)
     const s16 y[] = {2, 3, 2, 1};
     u8 pos = GetTextEntryPosition();
 #if TEXT_RTL
+    sprite->x2 = 0;
     if (NamingRtl_HasArabic(sNamingScreen->textBuffer))
     {
-        u8 len = StringLength(sNamingScreen->textBuffer);
-        pos = (len < sNamingScreen->template->maxChars) ? sNamingScreen->template->maxChars - 1 - len : 0xFF;
+        // Arabic is drawn right-aligned as one string: hide the dashes under it and
+        // make the dash just left of the text the caret.
+        u8 maxChars = sNamingScreen->template->maxChars;
+        s32 width = GetStringWidth(FONT_NORMAL, sNamingScreen->textBuffer, 0);
+        s32 freeCells = (maxChars * 8 - width) / 8;
+
+        if (freeCells < 0)
+            freeCells = 0;
+        if (sprite->sId >= freeCells)
+            sprite->x2 = 240;      // off screen
+        pos = (StringLength(sNamingScreen->textBuffer) < maxChars && freeCells > 0) ? freeCells - 1 : 0xFF;
     }
 #endif
 
@@ -1401,8 +1425,14 @@ static void CreateTextEntrySprites(void)
     s16 xPos;
     u8 i;
 
+#if TEXT_RTL
+    // Arabic names grow from the right: the arrow sits at the right end, pointing left
+    xPos = sNamingScreen->inputCharBaseXPos + sNamingScreen->template->maxChars * 8 + 5;
+    spriteId = CreateSprite(&sSpriteTemplate_InputArrow, xPos, 56, 0);
+#else
     xPos = sNamingScreen->inputCharBaseXPos - 5;
     spriteId = CreateSprite(&sSpriteTemplate_InputArrow, xPos, 56, 0);
+#endif
     gSprites[spriteId].oam.priority = 3;
     gSprites[spriteId].invisible = TRUE;
     xPos = sNamingScreen->inputCharBaseXPos;
@@ -2152,10 +2182,11 @@ static void PrintKeyboardKeys(u8 window, u8 page)
 
                 key[0] = (page == KEYBOARD_LETTERS_LOWER) ? sArabicKeyboard[i][col] : sArabicKeyboardExtras[i][col];
                 key[1] = EOS;
-                x = sPageColumnXPos[page][col] + 12 + (8 - GetStringWidth(FONT_NORMAL_COPY_1, key, 0)) / 2;
+                // centred under the cursor box (measured in the emulator)
+                x = sPageColumnXPos[page][col] + 10 + (8 - GetStringWidth(FONT_NORMAL_COPY_1, key, 0)) / 2;
                 if (x < 0)
                     x = 0;
-                AddTextPrinterParameterized3(window, FONT_NORMAL_COPY_1, x, i * 16 + 1, sKeyboardTextColors[page], 0, key);
+                AddTextPrinterParameterized3(window, FONT_NORMAL_COPY_1, x, i * 16, sKeyboardTextColors[page], 0, key);
             }
         }
         PutWindowTilemap(window);

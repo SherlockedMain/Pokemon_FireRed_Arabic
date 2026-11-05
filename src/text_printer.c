@@ -1,6 +1,7 @@
 #include "global.h"
 #include "window.h"
 #include "text.h"
+#include "string_util.h"
 #include "arabic_codes.h"
 
 static EWRAM_DATA struct TextPrinter sTempTextPrinter = {0};
@@ -269,9 +270,21 @@ static bool8 RtlIsArabic(const u8 *s)
     return s[0] < CHAR_KEYPAD_ICON && IS_ARABIC_CODE(s[0]);   // see include/arabic_codes.h
 }
 
+// Length of the token at s, so control-code arguments are never read as
+// characters (a {CLEAR 0x0B} argument can equal an Arabic glyph code).
 static u8 RtlCharLen(const u8 *s)
 {
-    return (s[0] == CHAR_EXTRA_SYMBOL || s[0] == CHAR_KEYPAD_ICON) ? 2 : 1;
+    switch (s[0])
+    {
+    case CHAR_EXTRA_SYMBOL:
+    case CHAR_KEYPAD_ICON:
+    case PLACEHOLDER_BEGIN:
+        return 2;
+    case EXT_CTRL_CODE_BEGIN:
+        return 1 + GetExtCtrlCodeLength(s[1]);
+    default:
+        return 1;
+    }
 }
 
 static s32 RtlSpanWidth(struct TextPrinter *p, const u8 *start, const u8 *end)
@@ -337,12 +350,12 @@ void TextRtl_PrepareGlyph(struct TextPrinter *p, const u8 *charStart)
     {
         const u8 *e = charStart;
         while (*e != EOS && *e != CHAR_NEWLINE && *e != CHAR_PROMPT_SCROLL && *e != CHAR_PROMPT_CLEAR)
-            e++;
+            e += RtlCharLen(e);
         p->rtlLineStart = x;
         p->rtlLineY = y;
         p->rtlLineWidth = RtlSpanWidth(p, charStart, e);
         p->rtlLineHasArabic = FALSE;
-        for (e = charStart; *e != EOS && *e != CHAR_NEWLINE && *e != CHAR_PROMPT_SCROLL && *e != CHAR_PROMPT_CLEAR; e++)
+        for (e = charStart; *e != EOS && *e != CHAR_NEWLINE && *e != CHAR_PROMPT_SCROLL && *e != CHAR_PROMPT_CLEAR; e += RtlCharLen(e))
         {
             if (RtlIsArabic(e))
             {

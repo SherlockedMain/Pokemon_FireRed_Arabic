@@ -134,12 +134,12 @@ _E += [
  M('gText_Area', 'المنطقة', LABEL, screen=S), M('gText_AreaUnknown', 'منطقة مجهولة', one(100), screen=S),
  M('gText_Size', 'الحجم', LABEL, screen=S), M('gText_Page', 'الصفحة', LABEL, screen=S),
  M('gText_HT', 'الطول', one(40), screen=S), M('gText_WT', 'الوزن', one(40), screen=S), M('gText_Lbs', 'رطل', one(32), screen=S),
- M('gText_Cry', '{START_BUTTON}الصوت', SMALL, screen=S), M('gText_Next', '{A_BUTTON}التالي', SMALL, screen=S),
- M('gText_PickOK', '{DPAD_UPDOWN}اختيار {A_BUTTON}تم', ('line', 140, 'small', 1), screen=S),
- M('gText_PickOKExit', '{DPAD_UPDOWN}اختيار {A_BUTTON}تم {B_BUTTON}إلغاء', ('line', 200, 'small', 1), screen=S),
- M('gText_PickFlipPageCheckCancel', '{DPAD_LEFTRIGHT}اختيار{PLUS}الصفحة {A_BUTTON}تفقّد {B_BUTTON}إلغاء', ('line', 230, 'small', 1), screen=S),
- M('gText_NextDataCancel', '{A_BUTTON}البيانات التالية {B_BUTTON}إلغاء', ('line', 200, 'small', 1), screen=S),
- M('gText_CancelPreviousData', '{A_BUTTON}إلغاء {B_BUTTON}البيانات السابقة', ('line', 200, 'small', 1), screen=S),
+ M('gText_Cry', '{START_BUTTON} الصوت', SMALL, screen=S), M('gText_Next', '{A_BUTTON} التالي', SMALL, screen=S),
+ M('gText_PickOK', '{DPAD_UPDOWN} اختيار {A_BUTTON} تم', ('line', 140, 'small', 1), screen=S),
+ M('gText_PickOKExit', '{DPAD_UPDOWN} اختيار {A_BUTTON} تم {B_BUTTON} إلغاء', ('line', 200, 'small', 1), screen=S),
+ M('gText_PickFlipPageCheckCancel', '{DPAD_LEFTRIGHT} اختيار{PLUS}الصفحة {A_BUTTON} تفقّد {B_BUTTON} إلغاء', ('line', 230, 'small', 1), screen=S),
+ M('gText_NextDataCancel', '{A_BUTTON} البيانات التالية {B_BUTTON} إلغاء', ('line', 200, 'small', 1), screen=S),
+ M('gText_CancelPreviousData', '{A_BUTTON} إلغاء {B_BUTTON} البيانات السابقة', ('line', 200, 'small', 1), screen=S),
 ]
 S = 'Trainer card'
 _E += [
