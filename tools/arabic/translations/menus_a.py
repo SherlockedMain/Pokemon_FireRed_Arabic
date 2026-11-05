@@ -84,7 +84,7 @@ _E += [
  M('gText_PokeSum_Controls_Pick', '{DPAD_UPDOWN}اختيار', SMALL),
  M('gText_PokeSum_Controls_PickDelete', '{DPAD_UPDOWN}اختيار {A_BUTTON}حذف', SMALL),
  M('gText_PokeSum_Controls_PickSwitch', '{DPAD_UPDOWN}اختيار {A_BUTTON}تبديل', SMALL),
- M('gText_PokeSum_ExpPoints', 'الخبرة', LABEL), M('gText_PokeSum_NextLv', 'للترقية', one(72), note='"NEXT LV." -> «للترقية» (to the next level): the label has 72 px.'),
+ M('gText_PokeSum_ExpPoints', 'النقاط', LABEL, note='The «الخبرة» label pill sits right next to it, so this row says «النقاط».'), M('gText_PokeSum_NextLv', 'للترقية', one(72), note='"NEXT LV." -> «للترقية» (to the next level): the label has 72 px.'),
  M('gText_PokeSum_Item_None', 'لا شيء', LABEL), M('gText_PokeSum_NoData', 'لا بيانات', LABEL),
  M('gText_PokeSum_ATrade', 'مبادلة', LABEL), M('gText_Somewhere', 'مكان ما', LABEL), M('gFameCheckerText_Cancel', 'إلغاء', LABEL),
  M('gText_PokeSum_HmMovesCantBeForgotten', 'لا يمكن نسيان حركات\nالأقراص الخاصة الآن.', ('static', 112, 'normal', 3)),
