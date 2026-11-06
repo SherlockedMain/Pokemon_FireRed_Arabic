@@ -1118,6 +1118,11 @@ static void SpriteCB_InputArrow(struct Sprite *sprite)
 {
     const s16 x[] = {0, -4, -2, -1};
 
+    // The screen's data is freed on OK while sprites still animate for one
+    // frame: never read it then (other emulators/hardware hang on the garbage).
+    if (sNamingScreen == NULL)
+        return;
+
     if (sprite->sDelay == 0 || --sprite->sDelay == 0)
     {
         sprite->sDelay = 8;
@@ -1149,7 +1154,11 @@ static void SpriteCB_InputArrow(struct Sprite *sprite)
 static void SpriteCB_Underscore(struct Sprite *sprite)
 {
     const s16 y[] = {2, 3, 2, 1};
-    u8 pos = GetTextEntryPosition();
+    u8 pos;
+
+    if (sNamingScreen == NULL)   // freed on OK; sprites still animate for one frame
+        return;
+    pos = GetTextEntryPosition();
 #if TEXT_RTL
     sprite->x2 = 0;
     if (NamingRtl_HasArabic(sNamingScreen->textBuffer))
@@ -1337,6 +1346,8 @@ static bool8 (*const sPageSwapSpriteFuncs[])(struct Sprite *sprite) =
 
 static void SpriteCB_PageSwap(struct Sprite *sprite)
 {
+    if (sNamingScreen == NULL)   // freed on OK; sprites still animate for one frame
+        return;
     while (sPageSwapSpriteFuncs[sprite->sState](sprite))
         ;
 }
