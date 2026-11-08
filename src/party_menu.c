@@ -36,6 +36,9 @@
 #include "metatile_behavior.h"
 #include "overworld.h"
 #include "party_menu.h"
+#if TEXT_RTL
+#include "arabic_codes.h"
+#endif
 #include "player_pc.h"
 #include "pokedex.h"
 #include "pokemon.h"
@@ -2312,6 +2315,27 @@ static void DisplayPartyPokemonNickname(struct Pokemon *mon, struct PartyMenuBox
         if (drawMenuBoxOrText == DRAW_MENU_BOX_AND_TEXT)
             menuBox->infoRects->blitFunc(menuBox->windowId, menuBox->infoRects->dimensions[0] / 8, menuBox->infoRects->dimensions[1] / 8, menuBox->infoRects->dimensions[2] / 8, menuBox->infoRects->dimensions[3] / 8, FALSE);
         GetMonNickname(mon, nickname);
+#if TEXT_RTL
+        {
+            // Arabic is much clearer in the normal font: use it when the name fits the
+            // slot, else keep the (condensed) small font
+            const u8 *dims = menuBox->infoRects->dimensions;
+            s32 room = GetWindowAttribute(menuBox->windowId, WINDOW_WIDTH) * 8 - dims[0];
+            bool8 arabic = FALSE;
+            u8 i;
+
+            for (i = 0; nickname[i] != EOS; i++)
+            {
+                if (nickname[i] < CHAR_KEYPAD_ICON && IS_ARABIC_CODE(nickname[i]))
+                    arabic = TRUE;
+            }
+            if (arabic && GetStringWidth(FONT_NORMAL, nickname, 0) <= room)
+            {
+                AddTextPrinterParameterized3(menuBox->windowId, FONT_NORMAL, dims[0], dims[1] - 2, sFontColorTable[0], 0, nickname);
+                return;
+            }
+        }
+#endif
         DisplayPartyPokemonBarDetail(menuBox->windowId, nickname, 0, menuBox->infoRects->dimensions);
     }
 }

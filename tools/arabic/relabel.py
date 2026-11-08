@@ -119,7 +119,9 @@ def do_summary(report):
         found = pills(im, body)
         report.append('summary body %d: %d pills for %d labels' % (body, len(found), len(names)))
         for (x0, y0, x1, y1), name in zip(found, names):
-            relabel(im, (x0 + 2, y0 + 1, x1 - 2, y1 - 1), small_rows(name), ink=body + 1, erase=(body + 1,), bg=body)
+            # white ink with the bank's darkest colour as a shadow, so thin strokes stay crisp
+            shadow = (body // 16) * 16 + 15 if body != 61 else 58
+            relabel(im, (x0 + 2, y0 + 1, x1 - 2, y1 - 1), small_rows(name), ink=body + 1, shadow=shadow, erase=(body + 1, shadow), bg=body)
     im.save(path)
 
 def do_types(report):

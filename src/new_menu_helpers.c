@@ -667,7 +667,12 @@ u8 CreateStartMenuWindow(u8 height)
 {
     if (sStartMenuWindowId == 0xFF)
     {
+#if TEXT_RTL
+        // one more tile: Arabic letters reach lower (the last item, «خروج», was cut by the frame)
+        struct WindowTemplate template = SetWindowTemplateFields(0, 0x16, 1, 7, height * 2, DLG_WINDOW_PALETTE_NUM, 0x13D);
+#else
         struct WindowTemplate template = SetWindowTemplateFields(0, 0x16, 1, 7, height * 2 - 1, DLG_WINDOW_PALETTE_NUM, 0x13D);
+#endif
         sStartMenuWindowId = AddWindow(&template);
         PutWindowTilemap(sStartMenuWindowId);
     }
