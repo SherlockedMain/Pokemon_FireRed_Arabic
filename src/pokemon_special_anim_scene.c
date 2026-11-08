@@ -1516,12 +1516,23 @@ void DrawLevelUpWindowPg1(u16 windowId, u16 *beforeStats, u16 *afterStats, u8 bg
     for (i = 0; i < 6; i++)
     {
         AddTextPrinterParameterized3(windowId, FONT_NORMAL, 0, i * 15, textColor, TEXT_SKIP_DRAW, sLevelUpWindowStatNames[i]);
+#if TEXT_RTL
+        // Mirrored window: the number first (next to the label), then the sign, so it
+        // reads «+2» instead of «2 +»
+        ConvertIntToDecimalStringN(textbuf, abs(diffStats[i]), STR_CONV_MODE_LEFT_ALIGN, 2);
+        // (from 60: «HP القصوى» is a few pixels wider than the 56 px label area)
+        AddTextPrinterParameterized3(windowId, FONT_NORMAL, 60, i * 15, textColor, TEXT_SKIP_DRAW, textbuf);
+        x = GetStringWidth(FONT_NORMAL, textbuf, 0) + 1;
+        StringCopy(textbuf, diffStats[i] >= 0 ? gText_LevelUp_Plus : gText_LevelUp_Minus);
+        AddTextPrinterParameterized3(windowId, FONT_NORMAL, 60 + x, i * 15, textColor, TEXT_SKIP_DRAW, textbuf);
+#else
         StringCopy(textbuf, diffStats[i] >= 0 ? gText_LevelUp_Plus : gText_LevelUp_Minus);
         AddTextPrinterParameterized3(windowId, FONT_NORMAL, 56, i * 15, textColor, TEXT_SKIP_DRAW, textbuf);
         textbuf[0] = CHAR_SPACE;
         x = abs(diffStats[i]) < 10 ? 12 : 6;
         ConvertIntToDecimalStringN(textbuf + 1, abs(diffStats[i]), STR_CONV_MODE_LEFT_ALIGN, 2);
         AddTextPrinterParameterized3(windowId, FONT_NORMAL, x + 56, i * 15, textColor, TEXT_SKIP_DRAW, textbuf);
+#endif
     }
 }
 

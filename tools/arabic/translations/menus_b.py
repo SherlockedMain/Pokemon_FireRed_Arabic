@@ -153,6 +153,13 @@ _E += [
  M('gText_UnionRoomTradesBattles', 'مبادلات ونزالات الاتحاد', one(140), screen=S),
  M('gText_WaitingTrainerFinishReading', 'في انتظار أن ينهي المدرب الآخر\nقراءة بطاقتك.', screen=S),
 ]
+S = 'Level-up stat box'
+_E += [
+ M('gText_LevelUp_MaxHP', 'HP {FONT_SMALL}القصوى{FONT_NORMAL}', one(60), screen=S, note='«القصوى» in the small font, like the original «MAX.»; fits the 56 px label area.'),
+ M('gText_LevelUp_Attack', 'الهجوم', one(56), screen=S), M('gText_LevelUp_Defense', 'الدفاع', one(56), screen=S),
+ M('gText_LevelUp_SpAtk', 'ه. خاص', one(56), screen=S), M('gText_LevelUp_SpDef', 'د. خاص', one(56), screen=S),
+ M('gText_LevelUp_Speed', 'السرعة', one(56), screen=S),
+]
 S = 'Badges'
 _B = dict(Boulderbadge='وسام الصخرة', Cascadebadge='وسام الشلال', Thunderbadge='وسام الرعد', Rainbowbadge='وسام قوس قزح',
           Soulbadge='وسام الروح', Marshbadge='وسام المستنقع', Volcanobadge='وسام البركان', Earthbadge='وسام الأرض')
