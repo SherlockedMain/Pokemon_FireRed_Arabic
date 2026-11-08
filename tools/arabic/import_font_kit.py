@@ -49,6 +49,19 @@ def condense(cell, keep_min=4, max_cut=2):
             j += 1
     return [list(r) for r in zip(*cols)]
 
+def add_tail_shadow(cell):
+    """Normal fonts: glyphs are taken one row higher (every Arabic glyph has a free top
+    row), which frees the bottom row; tails that now end on the row above it (ل، ر، و،
+    ي، ع…) get the shadow they had no room for, so they no longer look cut off."""
+    rows = [list(r) for r in cell]
+    h = len(rows)
+    for x, v in enumerate(rows[h - 2]):
+        if v == 1:
+            for dx in (0, 1):
+                if x + dx < len(rows[h - 1]) and rows[h - 1][x + dx] == 3:
+                    rows[h - 1][x + dx] = 2
+    return rows
+
 def build_cell(src, cp, row_offset, rows, max_width):
     ink_cols = [x for x in range(8) if any(src[x, y] == 3 for y in range(16))]
     l, r = min(ink_cols), max(ink_cols)
@@ -74,7 +87,7 @@ def main():
     for i, (key, info) in enumerate(entries):
         cp = int(key[2:], 16)
         src = Image.open(os.path.join(KIT, info['regular'])).load()
-        cells[CODES[i]] = (cp, build_cell(src, cp, ROW_OFFSET, GLYPH_ROWS, 16))
+        cells[CODES[i]] = (cp, add_tail_shadow(build_cell(src, cp, ROW_OFFSET + 1, GLYPH_ROWS, 16)))
         small_cells[CODES[i]] = (cp, condense(build_cell(src, cp, SMALL_ROW_OFFSET, SMALL_ROWS, 8)))
 
     for name in SHEETS:

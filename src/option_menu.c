@@ -478,7 +478,13 @@ static void BufferOptionMenuString(u8 selection)
     memcpy(dst, sOptionMenuTextColor, 3);
     x = 0x82;
     y = ((GetFontAttribute(FONT_NORMAL, FONTATTR_MAX_LETTER_HEIGHT) - 1) * selection) + 2;
+#if TEXT_RTL
+    // Rows are (height - 1) apart: clearing a full height erased the bottom pixel
+    // row of the value above (the tails of ل، ي، و، ع), so clear exactly one row.
+    FillWindowPixelRect(1, 1, x, y, 0x46, GetFontAttribute(FONT_NORMAL, FONTATTR_MAX_LETTER_HEIGHT) - 1);
+#else
     FillWindowPixelRect(1, 1, x, y, 0x46, GetFontAttribute(FONT_NORMAL, FONTATTR_MAX_LETTER_HEIGHT));
+#endif
 
     switch (selection)
     {
