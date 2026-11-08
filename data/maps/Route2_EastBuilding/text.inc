@@ -1,6 +1,7 @@
 Route2_EastBuilding_Text_GiveHM05IfSeen10Mons::
     .string "ﻣﺮﺣﺒﺎ! {GENDER_M}ﺃﺗﺬﻛﺮﻧﻲ؟{GENDER_F}ﺃﺗﺬﻛﺮﻳﻨﻨﻲ؟{GENDER_E}\n"
-    .string "ﺃﻧﺎ ﻣﻦ ﻣﺴﺎﻋﺪﻱ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ.\p"
+    .string "ﺃﻧﺎ ﻣﻦ ﻣﺴﺎﻋﺪﻱ ﺒﺮﻭﻓﻴﺴﻮﺭ\p"
+    .string "ﺃﻭﻙ.\p"
     .string "ﺇﻥ ﻛﺎﻥ ﻓﻲ ﺒﻮﻛﻴﺪﻳﻜﺲ ﺑﻴﺎﻧﺎﺕ\n"
     .string "ﻛﺎﻣﻠﺔ\p"
     .string "ﻋﻦ ﻋﺸﺮﺓ ﺃﻧﻮﻉ، ﻓﻠﻚ ﻋﻨﺪﻱ\n"

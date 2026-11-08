@@ -5,19 +5,19 @@ const u8 gDummyPokedexText[] = _(
 
 const u8 gDummyPokedexTextUnused[] = _("");
 
-const u8 gBulbasaurPokedexText[] = _("ﻣﻨﺬ ﻳﻮﻡ ﻣﻮﻟﺪﻩ، ﺗﺴﺘﻘﺮ ﻋﻠﻰ ﻇﻬﺮﻩ ﺑﺬﺭﺓ\nﻏﺎﻣﻀﺔ، ﻭﻣﻊ ﻛﻞ ﻳﻮﻡ ﻳﻤﺮ ﺗﻜﺒﺮ ﺒﺬﺭﺓ\nﻣﻌﻪ… ﻛﺄﻧﻬﺎ ﺗﻌﺪﻩ ﻟﻤﺼﻴﺮ ﻋﻈﻴﻢ.");
+const u8 gBulbasaurPokedexText[] = _("ﻣﻨﺬ ﻳﻮﻡ ﻣﻮﻟﺪﻩ، ﺗﺴﺘﻘﺮ ﻋﻠﻰ ﻇﻬﺮﻩ\nﺑﺬﺭﺓ ﻏﺎﻣﻀﺔ، ﻭﻣﻊ ﻛﻞ ﻳﻮﻡ ﻳﻤﺮ ﺗﻜﺒﺮ\nﺒﺬﺭﺓ ﻣﻌﻪ… ﻛﺄﻧﻬﺎ ﺗﻌﺪﻩ ﻟﻤﺼﻴﺮ ﻋﻈﻴﻢ.");
 
 const u8 gBulbasaurPokedexTextUnused[] = _("");
 
-const u8 gIvysaurPokedexText[] = _("ﻋﻠﻰ ﻇﻬﺮﻩ ﺑﺮﻋﻢ ﻳﻤﺘﺺ ﻐﺬﺀ ﻣﻦ ﺣﻮﻟﻪ،\nﻭﻳﻘﺎﻝ ﺇﻧﻪ ﺣﻴﻦ ﻳﻤﺘﻠﺊ ﺑﺎﻟﻘﻮﺓ ﻳﺘﻔﺘﺢ\nﺯﻫﺮﺓ ﻋﻤﻼﻗﺔ ﻣﻬﻴﺒﺔ.");
+const u8 gIvysaurPokedexText[] = _("ﻋﻠﻰ ﻇﻬﺮﻩ ﺑﺮﻋﻢ ﻳﻤﺘﺺ ﻐﺬﺀ ﻣﻦ\nﺣﻮﻟﻪ، ﻭﻳﻘﺎﻝ ﺇﻧﻪ ﺣﻴﻦ ﻳﻤﺘﻠﺊ\nﺑﺎﻟﻘﻮﺓ ﻳﺘﻔﺘﺢ ﺯﻫﺮﺓ ﻋﻤﻼﻗﺔ ﻣﻬﻴﺒﺔ.");
 
 const u8 gIvysaurPokedexTextUnused[] = _("");
 
-const u8 gVenusaurPokedexText[] = _("ﻣﻦ ﺯﻫﺮﺗﻪ ﻳﻔﻮﺡ ﻋﺒﻴﺮ ﺁﺳﺮ، ﻳﻬﺪﺉ ﻗﻠﻮﺏ\nﻤﺘﻘﺎﺗﻠﻴﻦ ﺣﺘﻰ ﻓﻲ ﺃﺷﺮﺱ ﻨﺰﻻﺕ.");
+const u8 gVenusaurPokedexText[] = _("ﻣﻦ ﺯﻫﺮﺗﻪ ﻳﻔﻮﺡ ﻋﺒﻴﺮ ﺁﺳﺮ، ﻳﻬﺪﺉ\nﻗﻠﻮﺏ ﻤﺘﻘﺎﺗﻠﻴﻦ ﺣﺘﻰ ﻓﻲ ﺃﺷﺮﺱ\nﻨﺰﻻﺕ.");
 
 const u8 gVenusaurPokedexTextUnused[] = _("");
 
-const u8 gCharmanderPokedexText[] = _("ﻳﻮﻟﺪ ﻭﺷﻌﻠﺔ ﻣﺘﻘﺪﺓ ﻓﻲ ﺫﻳﻠﻪ، ﻫﻲ ﻧﺒﺾ\nﺣﻴﺎﺗﻪ، ﻓﺈﻥ ﺍﻧﻄﻔﺄﺕ ﻳﻮﻣﺎ ﺍﻧﻄﻔﺄ ﻣﻌﻬﺎ…\nﻟﺬ ﻳﺤﺮﺳﻬﺎ ﺑﻜﻞ ﻗﻮﺗﻪ.");
+const u8 gCharmanderPokedexText[] = _("ﻳﻮﻟﺪ ﻭﺷﻌﻠﺔ ﻣﺘﻘﺪﺓ ﻓﻲ ﺫﻳﻠﻪ، ﻫﻲ\nﻧﺒﺾ ﺣﻴﺎﺗﻪ، ﻓﺈﻥ ﺍﻧﻄﻔﺄﺕ ﻳﻮﻣﺎ ﺍﻧﻄﻔﺄ\nﻣﻌﻬﺎ… ﻟﺬ ﻳﺤﺮﺳﻬﺎ ﺑﻜﻞ ﻗﻮﺗﻪ.");
 
 const u8 gCharmanderPokedexTextUnused[] = _("");
 
@@ -29,7 +29,7 @@ const u8 gCharizardPokedexText[] = _("ﻳﺤﻠﻖ ﺑﺠﻨﺎﺣﻴﻪ ﺠ�
 
 const u8 gCharizardPokedexTextUnused[] = _("");
 
-const u8 gSquirtlePokedexText[] = _("ﺇﺫ ﺳﺤﺐ ﻋﻨﻘﻪ ﻄﻮﻳﻞ ﺩﺧﻞ ﺻﺪﻓﺘﻪ،\nﺍﻧﺪﻓﻊ ﻤﺎﺀ ﻣﻦ ﻓﻤﻪ ﺑﻘﻮﺓ ﻫﺎﺋﻠﺔ ﺗﻄﻴﺢ\nﺑﺨﺼﻮﻣﻪ.");
+const u8 gSquirtlePokedexText[] = _("ﺇﺫ ﺳﺤﺐ ﻋﻨﻘﻪ ﻄﻮﻳﻞ ﺩﺧﻞ ﺻﺪﻓﺘﻪ،\nﺍﻧﺪﻓﻊ ﻤﺎﺀ ﻣﻦ ﻓﻤﻪ ﺑﻘﻮﺓ ﻫﺎﺋﻠﺔ\nﺗﻄﻴﺢ ﺑﺨﺼﻮﻣﻪ.");
 
 const u8 gSquirtlePokedexTextUnused[] = _("");
 
@@ -37,23 +37,23 @@ const u8 gWartortlePokedexText[] = _("ﻣﺤﺒﻮﺏ ﺟﺪ ﺑﻴﻦ ﻨ
 
 const u8 gWartortlePokedexTextUnused[] = _("");
 
-const u8 gBlastoisePokedexText[] = _("ﻳﺴﺤﻖ ﺧﺼﻤﻪ ﺗﺤﺖ ﺛﻘﻞ ﺟﺴﺪﻩ ﻬﺎﺋﻞ ﺣﺘﻰ\nﻳﻐﻤﻰ ﻋﻠﻴﻪ، ﻭﻥ ﺣﺎﺻﺮﻩ ﺨﻄﺮ ﺍﺣﺘﻤﻰ\nﺑﺼﺪﻓﺘﻪ ﺼﻠﺒﺔ.");
+const u8 gBlastoisePokedexText[] = _("ﻳﺴﺤﻖ ﺧﺼﻤﻪ ﺗﺤﺖ ﺛﻘﻞ ﺟﺴﺪﻩ ﻬﺎﺋﻞ\nﺣﺘﻰ ﻳﻐﻤﻰ ﻋﻠﻴﻪ، ﻭﻥ ﺣﺎﺻﺮﻩ ﺨﻄﺮ\nﺍﺣﺘﻤﻰ ﺑﺼﺪﻓﺘﻪ ﺼﻠﺒﺔ.");
 
 const u8 gBlastoisePokedexTextUnused[] = _("");
 
-const u8 gCaterpiePokedexText[] = _("ﻳﻜﺴﻮﻩ ﺟﻠﺪ ﺃﺧﻀﺮ ﻳﺨﻠﻌﻪ ﻛﻠﻤﺎ ﻛﺒﺮ، ﺛﻢ\nﻳﻠﻒ ﻧﻔﺴﻪ ﺑﺎﻟﺤﺮﻳﺮ ﻭﻳﺘﺤﻮﻝ ﺇﻟﻰ\nﺷﺮﻧﻘﺔ… ﺗﻨﺘﻈﺮ ﻟﺤﻈﺔ ﺘﺤﻮﻝ.");
+const u8 gCaterpiePokedexText[] = _("ﻳﻜﺴﻮﻩ ﺟﻠﺪ ﺃﺧﻀﺮ ﻳﺨﻠﻌﻪ ﻛﻠﻤﺎ ﻛﺒﺮ،\nﺛﻢ ﻳﻠﻒ ﻧﻔﺴﻪ ﺑﺎﻟﺤﺮﻳﺮ ﻭﻳﺘﺤﻮﻝ ﺇﻟﻰ\nﺷﺮﻧﻘﺔ… ﺗﻨﺘﻈﺮ ﻟﺤﻈﺔ ﺘﺤﻮﻝ.");
 
 const u8 gCaterpiePokedexTextUnused[] = _("");
 
-const u8 gMetapodPokedexText[] = _("ﺭﻏﻢ ﺻﺪﻓﺘﻪ ﺼﻠﺒﺔ، ﻓﺈﻥ ﺟﺴﺪﻩ ﻓﻲ ﺪﺧﻞ\nﻃﺮﻱ ﻫﺶ، ﻭﻻ ﻳﺤﺘﻤﻞ ﻫﺠﻮﻣﺎ ﻋﻨﻴﻔﺎ.");
+const u8 gMetapodPokedexText[] = _("ﺭﻏﻢ ﺻﺪﻓﺘﻪ ﺼﻠﺒﺔ، ﻓﺈﻥ ﺟﺴﺪﻩ ﻓﻲ\nﺪﺧﻞ ﻃﺮﻱ ﻫﺶ، ﻭﻻ ﻳﺤﺘﻤﻞ ﻫﺠﻮﻣﺎ\nﻋﻨﻴﻔﺎ.");
 
 const u8 gMetapodPokedexTextUnused[] = _("");
 
-const u8 gButterfreePokedexText[] = _("ﻳﻐﻄﻲ ﺟﻨﺎﺣﻴﻪ ﻏﺒﺎﺭ ﻳﻄﺮﺩ ﻗﻄﺮﺕ ﻤﻄﺮ،\nﻓﻴﻄﻴﺮ ﺣﺮ ﺣﺘﻰ ﻓﻲ ﺃﺷﺪ ﻌﻮﺻﻒ.");
+const u8 gButterfreePokedexText[] = _("ﻳﻐﻄﻲ ﺟﻨﺎﺣﻴﻪ ﻏﺒﺎﺭ ﻳﻄﺮﺩ ﻗﻄﺮﺕ\nﻤﻄﺮ، ﻓﻴﻄﻴﺮ ﺣﺮ ﺣﺘﻰ ﻓﻲ ﺃﺷﺪ\nﻌﻮﺻﻒ.");
 
 const u8 gButterfreePokedexTextUnused[] = _("");
 
-const u8 gWeedlePokedexText[] = _("ﻳﻜﺜﺮ ﻓﻲ ﻐﺎﺑﺎﺕ ﻭﻟﻤﺮﻋﻲ، ﻭﻋﻠﻰ ﺭﺳﻪ\nﺷﻮﻛﺔ ﺳﺎﻣﺔ ﺣﺎﺩﺓ ﻃﻮﻟﻬﺎ ﻧﺤﻮ 5\nﺳﻨﺘﻴﻤﺘﺮﺕ.");
+const u8 gWeedlePokedexText[] = _("ﻳﻜﺜﺮ ﻓﻲ ﻐﺎﺑﺎﺕ ﻭﻟﻤﺮﻋﻲ، ﻭﻋﻠﻰ\nﺭﺳﻪ ﺷﻮﻛﺔ ﺳﺎﻣﺔ ﺣﺎﺩﺓ ﻃﻮﻟﻬﺎ ﻧﺤﻮ 5\nﺳﻨﺘﻴﻤﺘﺮﺕ.");
 
 const u8 gWeedlePokedexTextUnused[] = _("");
 
@@ -65,7 +65,7 @@ const u8 gBeedrillPokedexText[] = _("ﻗﺪ ﻳﻈﻬﺮ ﻓﻲ ﺃﺳﺮﺏ�
 
 const u8 gBeedrillPokedexTextUnused[] = _("");
 
-const u8 gPidgeyPokedexText[] = _("ﻻ ﻳﺤﺐ ﻘﺘﺎﻝ، ﻳﺨﺘﺒﺊ ﺑﻴﻦ ﺍﻷﻋﺸﺎﺏ\nﻄﻮﻳﻠﺔ ﻭﻳﻠﺘﻘﻂ ﺤﺸﺮﺕ ﺼﻐﻴﺮﺓ ﻃﻌﺎﻣﺎ\nﻟﻪ.");
+const u8 gPidgeyPokedexText[] = _("ﻻ ﻳﺤﺐ ﻘﺘﺎﻝ، ﻳﺨﺘﺒﺊ ﺑﻴﻦ ﺍﻷﻋﺸﺎﺏ\nﻄﻮﻳﻠﺔ ﻭﻳﻠﺘﻘﻂ ﺤﺸﺮﺕ ﺼﻐﻴﺮﺓ\nﻃﻌﺎﻣﺎ ﻟﻪ.");
 
 const u8 gPidgeyPokedexTextUnused[] = _("");
 
@@ -77,35 +77,35 @@ const u8 gPidgeotPokedexText[] = _("ﻳﻔﺮﺩ ﺟﻨﺎﺣﻴﻪ ﺒﺪﻳ
 
 const u8 gPidgeotPokedexTextUnused[] = _("");
 
-const u8 gRattataPokedexText[] = _("ﺃﻧﻴﺎﺑﻪ ﻃﻮﻳﻠﺔ ﺣﺎﺩﺓ ﻻ ﺗﺘﻮﻗﻒ ﻋﻦ ﻨﻤﻮ،\nﻟﺬ ﻳﻘﻀﻢ ﺍﻷﺷﻴﺎﺀ ﺼﻠﺒﺔ ﻟﻴﺒﺮﻳﻬﺎ.");
+const u8 gRattataPokedexText[] = _("ﺃﻧﻴﺎﺑﻪ ﻃﻮﻳﻠﺔ ﺣﺎﺩﺓ ﻻ ﺗﺘﻮﻗﻒ ﻋﻦ\nﻨﻤﻮ، ﻟﺬ ﻳﻘﻀﻢ ﺍﻷﺷﻴﺎﺀ ﺼﻠﺒﺔ\nﻟﻴﺒﺮﻳﻬﺎ.");
 
 const u8 gRattataPokedexTextUnused[] = _("");
 
-const u8 gRaticatePokedexText[] = _("ﻓﻲ ﻛﻞ ﻗﺪﻡ ﺧﻠﻔﻴﺔ ﺛﻼﺛﺔ ﺃﺻﺎﺑﻊ ﺗﺮﺑﻄﻬﺎ\nﺃﻏﺸﻴﺔ، ﺗﻤﻜﻨﻪ ﻣﻦ ﻋﺒﻮﺭ ﺍﻷﻧﻬﺎﺭ ﺳﺒﺎﺣﺔ.");
+const u8 gRaticatePokedexText[] = _("ﻓﻲ ﻛﻞ ﻗﺪﻡ ﺧﻠﻔﻴﺔ ﺛﻼﺛﺔ ﺃﺻﺎﺑﻊ\nﺗﺮﺑﻄﻬﺎ ﺃﻏﺸﻴﺔ، ﺗﻤﻜﻨﻪ ﻣﻦ ﻋﺒﻮﺭ\nﺍﻷﻧﻬﺎﺭ ﺳﺒﺎﺣﺔ.");
 
 const u8 gRaticatePokedexTextUnused[] = _("");
 
-const u8 gSpearowPokedexText[] = _("ﻳﺘﻨﻘﻞ ﻫﻨﺎ ﻭﻫﻨﺎﻙ ﺑﻼ ﺗﻮﻗﻒ، ﻭﺭﻏﻢ\nﺿﻌﻔﻪ ﻗﺪ ﻳﺼﺒﺢ ﺧﺼﻤﺎ ﻋﻨﻴﺪ ﺣﻴﻦ ﻳﻌﻜﺲ\nﺣﺮﻛﺎﺕ ﺃﻋﺪﺋﻪ.");
+const u8 gSpearowPokedexText[] = _("ﻳﺘﻨﻘﻞ ﻫﻨﺎ ﻭﻫﻨﺎﻙ ﺑﻼ ﺗﻮﻗﻒ، ﻭﺭﻏﻢ\nﺿﻌﻔﻪ ﻗﺪ ﻳﺼﺒﺢ ﺧﺼﻤﺎ ﻋﻨﻴﺪ ﺣﻴﻦ\nﻳﻌﻜﺲ ﺣﺮﻛﺎﺕ ﺃﻋﺪﺋﻪ.");
 
 const u8 gSpearowPokedexTextUnused[] = _("");
 
-const u8 gFearowPokedexText[] = _("ﺟﻨﺎﺣﺎﻩ ﻌﻈﻴﻤﺎﻥ ﻳﺒﻘﻴﺎﻧﻪ ﻣﺤﻠﻘﺎ ﻓﻲ\nﺴﻤﺎﺀ، ﻓﻴﻄﻴﺮ ﻳﻮﻣﺎ ﻛﺎﻣﻼ ﺩﻭﻥ ﺃﻥ ﻳﺤﻂ\nﻣﺮﺓ ﻭﺣﺪﺓ.");
+const u8 gFearowPokedexText[] = _("ﺟﻨﺎﺣﺎﻩ ﻌﻈﻴﻤﺎﻥ ﻳﺒﻘﻴﺎﻧﻪ ﻣﺤﻠﻘﺎ ﻓﻲ\nﺴﻤﺎﺀ، ﻓﻴﻄﻴﺮ ﻳﻮﻣﺎ ﻛﺎﻣﻼ ﺩﻭﻥ ﺃﻥ\nﻳﺤﻂ ﻣﺮﺓ ﻭﺣﺪﺓ.");
 
 const u8 gFearowPokedexTextUnused[] = _("");
 
-const u8 gEkansPokedexText[] = _("ﻳﻜﺜﺮ ﻓﻲ ﻤﺮﻋﻲ، ﻳﺨﺮﺝ ﻟﺴﺎﻧﻪ ﻭﻳﺪﺧﻠﻪ\nﺑﺎﺳﺘﻤﺮﺭ ﻟﻴﺴﺘﺸﻌﺮ ﺨﻄﺮ ﻣﻦ ﺣﻮﻟﻪ.");
+const u8 gEkansPokedexText[] = _("ﻳﻜﺜﺮ ﻓﻲ ﻤﺮﻋﻲ، ﻳﺨﺮﺝ ﻟﺴﺎﻧﻪ\nﻭﻳﺪﺧﻠﻪ ﺑﺎﺳﺘﻤﺮﺭ ﻟﻴﺴﺘﺸﻌﺮ ﺨﻄﺮ ﻣﻦ\nﺣﻮﻟﻪ.");
 
 const u8 gEkansPokedexTextUnused[] = _("");
 
-const u8 gArbokPokedexText[] = _("ﻋﻠﻰ ﺑﻄﻨﻪ ﻧﻘﺶ ﻳﺸﺒﻪ ﻭﺟﻬﺎ ﻣﺮﻋﺒﺎ،\nﻳﻜﻔﻲ ﻣﻨﻈﺮﻩ ﻭﺣﺪﻩ ﻟﻴﻔﺮ ﺨﺼﻮﻡ ﻀﻌﺎﻑ.");
+const u8 gArbokPokedexText[] = _("ﻋﻠﻰ ﺑﻄﻨﻪ ﻧﻘﺶ ﻳﺸﺒﻪ ﻭﺟﻬﺎ ﻣﺮﻋﺒﺎ،\nﻳﻜﻔﻲ ﻣﻨﻈﺮﻩ ﻭﺣﺪﻩ ﻟﻴﻔﺮ ﺨﺼﻮﻡ\nﻀﻌﺎﻑ.");
 
 const u8 gArbokPokedexTextUnused[] = _("");
 
-const u8 gPikachuPokedexText[] = _("ﻓﻲ ﻭﺟﻨﺘﻴﻪ ﻛﻴﺴﺎﻥ ﺻﻐﻴﺮﻥ ﻳﺨﺘﺰﻧﺎﻥ\nﻜﻬﺮﺑﺎﺀ، ﻭﻥ ﺃﺣﺲ ﺑﺎﻟﺨﻄﺮ ﺃﻃﻠﻖ ﻣﻨﻬﻤﺎ\nﺷﺤﻨﺎﺕ ﺻﺎﻋﻘﺔ ﺗﻀﻲﺀ ﻤﻜﺎﻥ!");
+const u8 gPikachuPokedexText[] = _("ﻓﻲ ﻭﺟﻨﺘﻴﻪ ﻛﻴﺴﺎﻥ ﺻﻐﻴﺮﻥ ﻳﺨﺘﺰﻧﺎﻥ\nﻜﻬﺮﺑﺎﺀ، ﻭﻥ ﺃﺣﺲ ﺑﺎﻟﺨﻄﺮ ﺃﻃﻠﻖ\nﻣﻨﻬﻤﺎ ﺷﺤﻨﺎﺕ ﺻﺎﻋﻘﺔ ﺗﻀﻲﺀ ﻤﻜﺎﻥ!");
 
 const u8 gPikachuPokedexTextUnused[] = _("");
 
-const u8 gRaichuPokedexText[] = _("ﺗﺒﻠﻎ ﺷﺤﻨﺘﻪ 100000 ﻓﻮﻟﺖ، ﻭﻟﻤﺴﺔ\nﻏﺎﻓﻠﺔ ﻣﻨﻪ ﻗﺪ ﺗﺴﻘﻂ ﻓﻴﻼ ﺿﺨﻤﺎ ﻣﻐﺸﻴﺎ\nﻋﻠﻴﻪ!");
+const u8 gRaichuPokedexText[] = _("ﺗﺒﻠﻎ ﺷﺤﻨﺘﻪ 100000 ﻓﻮﻟﺖ، ﻭﻟﻤﺴﺔ\nﻏﺎﻓﻠﺔ ﻣﻨﻪ ﻗﺪ ﺗﺴﻘﻂ ﻓﻴﻼ ﺿﺨﻤﺎ\nﻣﻐﺸﻴﺎ ﻋﻠﻴﻪ!");
 
 const u8 gRaichuPokedexTextUnused[] = _("");
 
@@ -113,7 +113,7 @@ const u8 gSandshrewPokedexText[] = _("ﻳﺤﻔﺮ ﺍﻷﺭﺽ ﻭﻳﻌﻴﺶ 
 
 const u8 gSandshrewPokedexTextUnused[] = _("");
 
-const u8 gSandslashPokedexText[] = _("ﺑﺎﺭﻉ ﻓﻲ ﻬﺠﻮﻡ ﺑﺄﺷﻮﻙ ﻇﻬﺮﻩ ﻭﻣﺨﺎﻟﺒﻪ\nﺤﺎﺩﺓ، ﻭﻫﻮ ﻳﻨﺪﻓﻊ ﺑﺨﻔﺔ ﻻ ﺗﻜﺎﺩ ﺗﺮﻯ.");
+const u8 gSandslashPokedexText[] = _("ﺑﺎﺭﻉ ﻓﻲ ﻬﺠﻮﻡ ﺑﺄﺷﻮﻙ ﻇﻬﺮﻩ\nﻭﻣﺨﺎﻟﺒﻪ ﺤﺎﺩﺓ، ﻭﻫﻮ ﻳﻨﺪﻓﻊ ﺑﺨﻔﺔ ﻻ\nﺗﻜﺎﺩ ﺗﺮﻯ.");
 
 const u8 gSandslashPokedexTextUnused[] = _("");
 
@@ -133,7 +133,7 @@ const u8 gNidoranMPokedexText[] = _("ﻳﺤﺮﻙ ﺃﺫﻧﻴﻪ ﻜﺒﻴ�
 
 const u8 gNidoranMPokedexTextUnused[] = _("");
 
-const u8 gNidorinoPokedexText[] = _("ﺳﺮﻳﻊ ﻐﻀﺐ، ﻳﻠﻮﺡ ﺑﻘﺮﻧﻪ ﻘﻮﻱ ﺑﻌﻨﻒ،\nﻓﻴﺨﺘﺮﻕ ﺑﻪ ﺣﺘﻰ ﺍﻷﻟﻤﺎﺱ!");
+const u8 gNidorinoPokedexText[] = _("ﺳﺮﻳﻊ ﻐﻀﺐ، ﻳﻠﻮﺡ ﺑﻘﺮﻧﻪ ﻘﻮﻱ\nﺑﻌﻨﻒ، ﻓﻴﺨﺘﺮﻕ ﺑﻪ ﺣﺘﻰ ﺍﻷﻟﻤﺎﺱ!");
 
 const u8 gNidorinoPokedexTextUnused[] = _("");
 
@@ -149,7 +149,7 @@ const u8 gClefablePokedexText[] = _("ﺳﻤﻌﻪ ﺣﺎﺩ ﻟﻠﻐﺎﻳﺔ،
 
 const u8 gClefablePokedexTextUnused[] = _("");
 
-const u8 gVulpixPokedexText[] = _("ﻓﻲ ﺻﻐﺮﻩ ﺳﺘﺔ ﺫﻳﻮﻝ ﺑﺪﻳﻌﺔ، ﻭﻛﻠﻤﺎ ﻛﺒﺮ\nﻧﺒﺘﺖ ﻟﻪ ﺫﻳﻮﻝ ﺟﺪﻳﺪﺓ.");
+const u8 gVulpixPokedexText[] = _("ﻓﻲ ﺻﻐﺮﻩ ﺳﺘﺔ ﺫﻳﻮﻝ ﺑﺪﻳﻌﺔ، ﻭﻛﻠﻤﺎ\nﻛﺒﺮ ﻧﺒﺘﺖ ﻟﻪ ﺫﻳﻮﻝ ﺟﺪﻳﺪﺓ.");
 
 const u8 gVulpixPokedexTextUnused[] = _("");
 
@@ -161,7 +161,7 @@ const u8 gJigglypuffPokedexText[] = _("ﻳﺄﺳﺮ ﺧﺼﻮﻣﻪ ﺑﻌﻴﻨ
 
 const u8 gJigglypuffPokedexTextUnused[] = _("");
 
-const u8 gWigglytuffPokedexText[] = _("ﻓﺮﻭﻩ ﻧﺎﻋﻢ ﻛﺜﻴﻒ ﻟﻴﻦ ﻟﻠﻐﺎﻳﺔ، ﻭﻟﻤﺴﺘﻪ\nﺮﺋﻌﺔ ﺗﻮﺣﻲ ﺑﺎﻟﻔﺨﺎﻣﺔ ﻭﻟﺘﺮﻑ.");
+const u8 gWigglytuffPokedexText[] = _("ﻓﺮﻭﻩ ﻧﺎﻋﻢ ﻛﺜﻴﻒ ﻟﻴﻦ ﻟﻠﻐﺎﻳﺔ،\nﻭﻟﻤﺴﺘﻪ ﺮﺋﻌﺔ ﺗﻮﺣﻲ ﺑﺎﻟﻔﺨﺎﻣﺔ\nﻭﻟﺘﺮﻑ.");
 
 const u8 gWigglytuffPokedexTextUnused[] = _("");
 
@@ -209,15 +209,15 @@ const u8 gDugtrioPokedexText[] = _("ﻓﻲ ﻨﺰﻝ، ﻳﺸﻖ ﺍﻷﺭ
 
 const u8 gDugtrioPokedexTextUnused[] = _("");
 
-const u8 gMeowthPokedexText[] = _("ﻻ ﻳﻔﻌﻞ ﺷﻴﺌﺎ ﻓﻲ ﻨﻬﺎﺭ ﺳﻮﻯ ﻨﻮﻡ،\nﻭﻓﻲ ﻠﻴﻞ ﻳﺠﻮﺏ ﺃﺭﺿﻪ ﻭﻋﻴﻨﺎﻩ ﺗﻠﻤﻌﺎﻥ.");
+const u8 gMeowthPokedexText[] = _("ﻻ ﻳﻔﻌﻞ ﺷﻴﺌﺎ ﻓﻲ ﻨﻬﺎﺭ ﺳﻮﻯ ﻨﻮﻡ،\nﻭﻓﻲ ﻠﻴﻞ ﻳﺠﻮﺏ ﺃﺭﺿﻪ ﻭﻋﻴﻨﺎﻩ\nﺗﻠﻤﻌﺎﻥ.");
 
 const u8 gMeowthPokedexTextUnused[] = _("");
 
-const u8 gPersianPokedexText[] = _("ﻃﺒﻌﻪ ﺷﺮﺱ، ﻓﺈﻥ ﺭﻓﻊ ﺫﻳﻠﻪ ﻣﺴﺘﻘﻴﻤﺎ\nﻓﺎﺣﺬﺭ، ﻓﺘﻠﻚ ﺇﺷﺎﺭﺓ ﺇﻟﻰ ﺃﻧﻪ ﻋﻠﻰ ﻭﺷﻚ\nﺍﻻﻧﻘﻀﺎﺽ!");
+const u8 gPersianPokedexText[] = _("ﻃﺒﻌﻪ ﺷﺮﺱ، ﻓﺈﻥ ﺭﻓﻊ ﺫﻳﻠﻪ ﻣﺴﺘﻘﻴﻤﺎ\nﻓﺎﺣﺬﺭ، ﻓﺘﻠﻚ ﺇﺷﺎﺭﺓ ﺇﻟﻰ ﺃﻧﻪ ﻋﻠﻰ\nﻭﺷﻚ ﺍﻻﻧﻘﻀﺎﺽ!");
 
 const u8 gPersianPokedexTextUnused[] = _("");
 
-const u8 gPsyduckPokedexText[] = _("ﻳﻌﺎﻧﻲ ﺩﻭﻣﺎ ﻣﻦ ﺻﺪﻉ ﻣﺰﻣﻦ، ﻭﺣﻴﻦ ﻳﺸﺘﺪ\nﺼﺪﻉ ﺗﻨﻄﻠﻖ ﻣﻨﻪ ﻗﻮﻯ ﻏﺎﻣﻀﺔ ﻻ ﻳﻌﺮﻑ\nﻣﺼﺪﺭﻫﺎ.");
+const u8 gPsyduckPokedexText[] = _("ﻳﻌﺎﻧﻲ ﺩﻭﻣﺎ ﻣﻦ ﺻﺪﻉ ﻣﺰﻣﻦ، ﻭﺣﻴﻦ\nﻳﺸﺘﺪ ﺼﺪﻉ ﺗﻨﻄﻠﻖ ﻣﻨﻪ ﻗﻮﻯ ﻏﺎﻣﻀﺔ ﻻ\nﻳﻌﺮﻑ ﻣﺼﺪﺭﻫﺎ.");
 
 const u8 gPsyduckPokedexTextUnused[] = _("");
 
@@ -237,7 +237,7 @@ const u8 gGrowlithePokedexText[] = _("ﻭﺩﻭﺩ ﻭﻓﻲ ﺟﺪ ﻟﻠﺒ
 
 const u8 gGrowlithePokedexTextUnused[] = _("");
 
-const u8 gArcaninePokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﺗﺘﺤﺪﺙ ﻋﻨﻪ ﺍﻷﺳﺎﻃﻴﺮ ﻘﺪﻳﻤﺔ،\nﻭﻳﻘﺎﻝ ﺇﻧﻪ ﻳﻌﺪﻭ ﺑﺴﺮﻋﺔ ﻻ ﺗﺼﺪﻕ.");
+const u8 gArcaninePokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﺗﺘﺤﺪﺙ ﻋﻨﻪ ﺍﻷﺳﺎﻃﻴﺮ\nﻘﺪﻳﻤﺔ، ﻭﻳﻘﺎﻝ ﺇﻧﻪ ﻳﻌﺪﻭ ﺑﺴﺮﻋﺔ ﻻ\nﺗﺼﺪﻕ.");
 
 const u8 gArcaninePokedexTextUnused[] = _("");
 
@@ -245,11 +245,11 @@ const u8 gPoliwagPokedexText[] = _("ﺟﻠﺪﻩ ﺍﻷﺳﻮﺩ ﺍﻷﻣﻠﺲ
 
 const u8 gPoliwagPokedexTextUnused[] = _("");
 
-const u8 gPoliwhirlPokedexText[] = _("ﺳﺎﻗﺎﻩ ﻗﻮﻳﺘﺎﻥ ﻣﺘﻄﻮﺭﺗﺎﻥ، ﻭﺭﻏﻢ ﻗﺪﺭﺗﻪ\nﻋﻠﻰ ﻌﻴﺶ ﻓﻲ ﻴﺎﺑﺴﺔ، ﻓﺈﻧﻪ ﻳﻔﻀﻞ\nﻤﺎﺀ.");
+const u8 gPoliwhirlPokedexText[] = _("ﺳﺎﻗﺎﻩ ﻗﻮﻳﺘﺎﻥ ﻣﺘﻄﻮﺭﺗﺎﻥ، ﻭﺭﻏﻢ\nﻗﺪﺭﺗﻪ ﻋﻠﻰ ﻌﻴﺶ ﻓﻲ ﻴﺎﺑﺴﺔ، ﻓﺈﻧﻪ\nﻳﻔﻀﻞ ﻤﺎﺀ.");
 
 const u8 gPoliwhirlPokedexTextUnused[] = _("");
 
-const u8 gPoliwrathPokedexText[] = _("ﺳﺒﺎﺡ ﻣﺎﻫﺮ ﻳﺘﻘﻦ ﺴﺒﺎﺣﺔ ﺤﺮﺓ\nﻭﻟﻔﺮﺷﺔ ﻭﻏﻴﺮﻫﻤﺎ، ﻭﻫﻮ ﺃﺳﺮﻉ ﻣﻦ ﺃﻣﻬﺮ\nﺴﺒﺎﺣﻴﻦ!");
+const u8 gPoliwrathPokedexText[] = _("ﺳﺒﺎﺡ ﻣﺎﻫﺮ ﻳﺘﻘﻦ ﺴﺒﺎﺣﺔ ﺤﺮﺓ\nﻭﻟﻔﺮﺷﺔ ﻭﻏﻴﺮﻫﻤﺎ، ﻭﻫﻮ ﺃﺳﺮﻉ ﻣﻦ\nﺃﻣﻬﺮ ﺴﺒﺎﺣﻴﻦ!");
 
 const u8 gPoliwrathPokedexTextUnused[] = _("");
 
@@ -265,19 +265,19 @@ const u8 gAlakazamPokedexText[] = _("ﻻ ﻳﺤﺐ ﻬﺠﻤﺎﺕ ﺠﺴ�
 
 const u8 gAlakazamPokedexTextUnused[] = _("");
 
-const u8 gMachopPokedexText[] = _("ﺟﺴﺪﻩ ﻛﻠﻪ ﻋﻀﻼﺕ ﻣﻔﺘﻮﻟﺔ، ﻭﺭﻏﻢ ﺃﻧﻪ ﻓﻲ\nﺣﺠﻢ ﻃﻔﻞ ﺻﻐﻴﺮ، ﻓﺈﻧﻪ ﻗﺎﺩﺭ ﻋﻠﻰ ﺭﻣﻲ\nﻣﺌﺔ ﺭﺟﻞ ﺑﺎﻟﻎ!");
+const u8 gMachopPokedexText[] = _("ﺟﺴﺪﻩ ﻛﻠﻪ ﻋﻀﻼﺕ ﻣﻔﺘﻮﻟﺔ، ﻭﺭﻏﻢ ﺃﻧﻪ\nﻓﻲ ﺣﺠﻢ ﻃﻔﻞ ﺻﻐﻴﺮ، ﻓﺈﻧﻪ ﻗﺎﺩﺭ ﻋﻠﻰ\nﺭﻣﻲ ﻣﺌﺔ ﺭﺟﻞ ﺑﺎﻟﻎ!");
 
 const u8 gMachopPokedexTextUnused[] = _("");
 
-const u8 gMachokePokedexText[] = _("ﺟﺴﺪﻩ ﺠﺒﺎﺭ ﻻ ﻳﻌﺮﻑ ﺘﻌﺐ ﺃﺑﺪ، ﻭﻳﺴﺎﻋﺪ\nﻨﺎﺱ ﻓﻲ ﺍﻷﻋﻤﺎﻝ ﺸﺎﻗﺔ ﻛﻨﻘﻞ ﺍﻷﺣﻤﺎﻝ\nﺜﻘﻴﻠﺔ.");
+const u8 gMachokePokedexText[] = _("ﺟﺴﺪﻩ ﺠﺒﺎﺭ ﻻ ﻳﻌﺮﻑ ﺘﻌﺐ ﺃﺑﺪ،\nﻭﻳﺴﺎﻋﺪ ﻨﺎﺱ ﻓﻲ ﺍﻷﻋﻤﺎﻝ ﺸﺎﻗﺔ ﻛﻨﻘﻞ\nﺍﻷﺣﻤﺎﻝ ﺜﻘﻴﻠﺔ.");
 
 const u8 gMachokePokedexTextUnused[] = _("");
 
-const u8 gMachampPokedexText[] = _("ﺑﺄﺫﺭﻋﻪ ﺍﻷﺭﺑﻊ ﻤﻔﺘﻮﻟﺔ، ﻳﻄﻠﻖ ﻭﺑﻼ ﻣﻦ\nﺃﻟﻒ ﻟﻜﻤﺔ ﻓﻲ ﺛﺎﻧﻴﺘﻴﻦ ﻓﻘﻂ… ﻻ ﻣﻬﺮﺏ\nﻣﻨﻬﺎ!");
+const u8 gMachampPokedexText[] = _("ﺑﺄﺫﺭﻋﻪ ﺍﻷﺭﺑﻊ ﻤﻔﺘﻮﻟﺔ، ﻳﻄﻠﻖ ﻭﺑﻼ\nﻣﻦ ﺃﻟﻒ ﻟﻜﻤﺔ ﻓﻲ ﺛﺎﻧﻴﺘﻴﻦ ﻓﻘﻂ… ﻻ\nﻣﻬﺮﺏ ﻣﻨﻬﺎ!");
 
 const u8 gMachampPokedexTextUnused[] = _("");
 
-const u8 gBellsproutPokedexText[] = _("ﺑﺮﻋﻤﻪ ﻳﺸﺒﻪ ﻭﺟﻬﺎ ﺑﺸﺮﻳﺎ، ﻟﺬ ﺗﻘﻮﻝ\nﺸﺎﺋﻌﺎﺕ ﺇﻧﻪ ﻣﻦ ﻧﻮﻉ ﻧﺒﺘﺔ ﺃﺳﻄﻮﺭﻳﺔ ﻻ\nﻳﻌﺮﻑ ﺃﺣﺪ ﺳﺮﻫﺎ.");
+const u8 gBellsproutPokedexText[] = _("ﺑﺮﻋﻤﻪ ﻳﺸﺒﻪ ﻭﺟﻬﺎ ﺑﺸﺮﻳﺎ، ﻟﺬ ﺗﻘﻮﻝ\nﺸﺎﺋﻌﺎﺕ ﺇﻧﻪ ﻣﻦ ﻧﻮﻉ ﻧﺒﺘﺔ ﺃﺳﻄﻮﺭﻳﺔ\nﻻ ﻳﻌﺮﻑ ﺃﺣﺪ ﺳﺮﻫﺎ.");
 
 const u8 gBellsproutPokedexTextUnused[] = _("");
 
@@ -285,7 +285,7 @@ const u8 gWeepinbellPokedexText[] = _("ﺃﻭﺭﻗﻪ ﺣﺎﺩﺓ ﻛﺎﻟ
 
 const u8 gWeepinbellPokedexTextUnused[] = _("");
 
-const u8 gVictreebelPokedexText[] = _("ﻳﺴﺘﺪﺭﺝ ﻓﺮﻳﺴﺘﻪ ﺇﻟﻰ ﻓﻤﻪ ﺑﻌﺒﻴﺮ ﺣﻠﻮ\nﻛﺎﻟﻌﺴﻞ، ﺛﻢ ﻳﺬﻳﺒﻬﺎ ﺑﺴﺎﺋﻠﻪ ﺤﺎﺭﻕ… ﻓﻼ\nﻧﺠﺎﺓ ﻣﻨﻪ.");
+const u8 gVictreebelPokedexText[] = _("ﻳﺴﺘﺪﺭﺝ ﻓﺮﻳﺴﺘﻪ ﺇﻟﻰ ﻓﻤﻪ ﺑﻌﺒﻴﺮ ﺣﻠﻮ\nﻛﺎﻟﻌﺴﻞ، ﺛﻢ ﻳﺬﻳﺒﻬﺎ ﺑﺴﺎﺋﻠﻪ ﺤﺎﺭﻕ…\nﻓﻼ ﻧﺠﺎﺓ ﻣﻨﻪ.");
 
 const u8 gVictreebelPokedexTextUnused[] = _("");
 
@@ -305,11 +305,11 @@ const u8 gGravelerPokedexText[] = _("ﺍﺣﺬﺭ ﻭﻧﺖ ﺗﺘﺴﻠﻖ �
 
 const u8 gGravelerPokedexTextUnused[] = _("");
 
-const u8 gGolemPokedexText[] = _("ﺗﺤﻴﻂ ﺑﻪ ﺻﺪﻓﺔ ﺻﻠﺒﺔ ﻛﺄﻟﻮﺡ ﺼﺨﺮ،\nﻭﻳﺨﻠﻊ ﺟﻠﺪﻩ ﻣﺮﺓ ﻛﻞ ﻋﺎﻡ ﻟﻴﺰﺩﺩ ﺿﺨﺎﻣﺔ\nﻭﻗﻮﺓ.");
+const u8 gGolemPokedexText[] = _("ﺗﺤﻴﻂ ﺑﻪ ﺻﺪﻓﺔ ﺻﻠﺒﺔ ﻛﺄﻟﻮﺡ ﺼﺨﺮ،\nﻭﻳﺨﻠﻊ ﺟﻠﺪﻩ ﻣﺮﺓ ﻛﻞ ﻋﺎﻡ ﻟﻴﺰﺩﺩ\nﺿﺨﺎﻣﺔ ﻭﻗﻮﺓ.");
 
 const u8 gGolemPokedexTextUnused[] = _("");
 
-const u8 gPonytaPokedexText[] = _("ﺟﺴﺪﻩ ﺧﻔﻴﻒ، ﻭﺳﺎﻗﺎﻩ ﻗﻮﻳﺘﺎﻥ ﺑﺸﻜﻞ\nﻣﺬﻫﻞ، ﺣﺘﻰ ﺇﻧﻪ ﻳﻘﻔﺰ ﻓﻮﻕ ﺻﺨﺮﺓ ﺃﻭﻟﻮﺭﻭ\nﻌﻤﻼﻗﺔ ﺑﻘﻔﺰﺓ ﻭﺣﺪﺓ!");
+const u8 gPonytaPokedexText[] = _("ﺟﺴﺪﻩ ﺧﻔﻴﻒ، ﻭﺳﺎﻗﺎﻩ ﻗﻮﻳﺘﺎﻥ ﺑﺸﻜﻞ\nﻣﺬﻫﻞ، ﺣﺘﻰ ﺇﻧﻪ ﻳﻘﻔﺰ ﻓﻮﻕ ﺻﺨﺮﺓ\nﺃﻭﻟﻮﺭﻭ ﻌﻤﻼﻗﺔ ﺑﻘﻔﺰﺓ ﻭﺣﺪﺓ!");
 
 const u8 gPonytaPokedexTextUnused[] = _("");
 
@@ -321,7 +321,7 @@ const u8 gSlowpokePokedexText[] = _("ﺷﺎﺭﺩ ﺬﻫﻦ ﺩﺋﻤﺎ،
 
 const u8 gSlowpokePokedexTextUnused[] = _("");
 
-const u8 gSlowbroPokedexText[] = _("ﺫﻫﺐ ﺳﻠﻮﺑﻮﻙ ﻳﺼﻄﺎﺩ ﻓﻲ ﺒﺤﺮ، ﻓﻌﺾ\nﺷﻴﻠﺪﺭ ﺫﻳﻠﻪ، ﻓﻜﺎﻥ ﺫﻟﻚ ﺳﺒﺐ ﺗﻄﻮﺭﻩ ﺇﻟﻰ\nﺳﻠﻮﺑﺮﻭ!");
+const u8 gSlowbroPokedexText[] = _("ﺫﻫﺐ ﺳﻠﻮﺑﻮﻙ ﻳﺼﻄﺎﺩ ﻓﻲ ﺒﺤﺮ، ﻓﻌﺾ\nﺷﻴﻠﺪﺭ ﺫﻳﻠﻪ، ﻓﻜﺎﻥ ﺫﻟﻚ ﺳﺒﺐ ﺗﻄﻮﺭﻩ\nﺇﻟﻰ ﺳﻠﻮﺑﺮﻭ!");
 
 const u8 gSlowbroPokedexTextUnused[] = _("");
 
@@ -353,15 +353,15 @@ const u8 gDewgongPokedexText[] = _("ﺟﺴﺪﻩ ﻣﻐﻄﻰ ﺑﻔﺮﻭ ﺃ�
 
 const u8 gDewgongPokedexTextUnused[] = _("");
 
-const u8 gGrimerPokedexText[] = _("ﺣﻤﺄﺓ ﺗﻌﺮﺿﺖ ﻷﺷﻌﺔ ﺳﻴﻨﻴﺔ ﻣﻦ ﻘﻤﺮ\nﻓﺘﺤﻮﻟﺖ ﺇﻟﻰ ﻏﺮﻳﻤﺮ، ﻭﻳﻌﺸﻖ ﺘﻬﺎﻡ ﻛﻞ\nﻣﺎ ﻫﻮ ﻗﺬﺭ.");
+const u8 gGrimerPokedexText[] = _("ﺣﻤﺄﺓ ﺗﻌﺮﺿﺖ ﻷﺷﻌﺔ ﺳﻴﻨﻴﺔ ﻣﻦ ﻘﻤﺮ\nﻓﺘﺤﻮﻟﺖ ﺇﻟﻰ ﻏﺮﻳﻤﺮ، ﻭﻳﻌﺸﻖ ﺘﻬﺎﻡ\nﻛﻞ ﻣﺎ ﻫﻮ ﻗﺬﺭ.");
 
 const u8 gGrimerPokedexTextUnused[] = _("");
 
-const u8 gMukPokedexText[] = _("ﻳﺼﻌﺐ ﺭﺻﺪﻩ ﻷﻧﻪ ﻳﻤﺘﺰﺝ ﺑﺎﻷﺭﺽ، ﻭﻟﻤﺴﻪ\nﻭﺣﺪﻫﺎ ﻗﺪ ﺗﺴﺒﺐ ﺗﺴﻤﻤﺎ ﺭﻫﻴﺒﺎ.");
+const u8 gMukPokedexText[] = _("ﻳﺼﻌﺐ ﺭﺻﺪﻩ ﻷﻧﻪ ﻳﻤﺘﺰﺝ ﺑﺎﻷﺭﺽ،\nﻭﻟﻤﺴﻪ ﻭﺣﺪﻫﺎ ﻗﺪ ﺗﺴﺒﺐ ﺗﺴﻤﻤﺎ ﺭﻫﻴﺒﺎ.");
 
 const u8 gMukPokedexTextUnused[] = _("");
 
-const u8 gShellderPokedexText[] = _("ﺗﺤﻴﻂ ﺑﻪ ﺻﺪﻓﺔ ﺃﺻﻠﺐ ﻣﻦ ﺍﻷﻟﻤﺎﺱ، ﻟﻜﻨﻪ\nﻣﻦ ﺪﺧﻞ ﻃﺮﻱ ﻋﻠﻰ ﻧﺤﻮ ﻣﺪﻫﺶ.");
+const u8 gShellderPokedexText[] = _("ﺗﺤﻴﻂ ﺑﻪ ﺻﺪﻓﺔ ﺃﺻﻠﺐ ﻣﻦ ﺍﻷﻟﻤﺎﺱ،\nﻟﻜﻨﻪ ﻣﻦ ﺪﺧﻞ ﻃﺮﻱ ﻋﻠﻰ ﻧﺤﻮ ﻣﺪﻫﺶ.");
 
 const u8 gShellderPokedexTextUnused[] = _("");
 
@@ -369,7 +369,7 @@ const u8 gCloysterPokedexText[] = _("ﺻﺪﻓﺘﻪ ﺻﻠﺒﺔ ﻟﻠﻐﺎ�
 
 const u8 gCloysterPokedexTextUnused[] = _("");
 
-const u8 gGastlyPokedexText[] = _("ﻛﺎﺋﻦ ﻣﻦ ﻏﺎﺯ ﺭﻗﻴﻖ، ﻳﻠﺘﻒ ﺣﻮﻝ ﻓﺮﻳﺴﺘﻪ\nﻓﻴﺴﻘﻂ ﻓﻴﻼ ﺿﺨﻤﺎ ﻓﻲ ﺛﺎﻧﻴﺘﻴﻦ ﻓﻘﻂ!");
+const u8 gGastlyPokedexText[] = _("ﻛﺎﺋﻦ ﻣﻦ ﻏﺎﺯ ﺭﻗﻴﻖ، ﻳﻠﺘﻒ ﺣﻮﻝ\nﻓﺮﻳﺴﺘﻪ ﻓﻴﺴﻘﻂ ﻓﻴﻼ ﺿﺨﻤﺎ ﻓﻲ\nﺛﺎﻧﻴﺘﻴﻦ ﻓﻘﻂ!");
 
 const u8 gGastlyPokedexTextUnused[] = _("");
 
@@ -393,11 +393,11 @@ const u8 gHypnoPokedexText[] = _("ﻳﺤﻤﻞ ﺃﺩﺓ ﺗﺸﺒﻪ ﺒ�
 
 const u8 gHypnoPokedexTextUnused[] = _("");
 
-const u8 gKrabbyPokedexText[] = _("ﻳﻌﻴﺶ ﻗﺮﺏ ﺒﺤﺮ، ﻭﻥ ﺍﻧﺘﺰﻋﺖ ﻛﻤﺎﺷﺘﺎﻩ\nﻜﺒﻴﺮﺗﺎﻥ ﻧﺒﺘﺘﺎ ﻣﻦ ﺟﺪﻳﺪ.");
+const u8 gKrabbyPokedexText[] = _("ﻳﻌﻴﺶ ﻗﺮﺏ ﺒﺤﺮ، ﻭﻥ ﺍﻧﺘﺰﻋﺖ\nﻛﻤﺎﺷﺘﺎﻩ ﻜﺒﻴﺮﺗﺎﻥ ﻧﺒﺘﺘﺎ ﻣﻦ ﺟﺪﻳﺪ.");
 
 const u8 gKrabbyPokedexTextUnused[] = _("");
 
-const u8 gKinglerPokedexText[] = _("ﻛﻤﺎﺷﺘﻪ ﻀﺨﻤﺔ ﺼﻠﺒﺔ ﺗﻤﻠﻚ ﻗﻮﺓ 10000\nﺣﺼﺎﻥ، ﻟﻜﻦ ﺣﺠﻤﻬﺎ ﻜﺒﻴﺮ ﻳﺠﻌﻞ\nﺗﺤﺮﻳﻜﻬﺎ ﺻﻌﺒﺎ.");
+const u8 gKinglerPokedexText[] = _("ﻛﻤﺎﺷﺘﻪ ﻀﺨﻤﺔ ﺼﻠﺒﺔ ﺗﻤﻠﻚ ﻗﻮﺓ\n10000 ﺣﺼﺎﻥ، ﻟﻜﻦ ﺣﺠﻤﻬﺎ ﻜﺒﻴﺮ ﻳﺠﻌﻞ\nﺗﺤﺮﻳﻜﻬﺎ ﺻﻌﺒﺎ.");
 
 const u8 gKinglerPokedexTextUnused[] = _("");
 
@@ -413,15 +413,15 @@ const u8 gExeggcutePokedexText[] = _("ﺭﻏﻢ ﺃﻧﻪ ﻳﺒﺪﻭ ﻛﻤﺠ
 
 const u8 gExeggcutePokedexTextUnused[] = _("");
 
-const u8 gExeggutorPokedexText[] = _("ﻳﻠﻘﺒﻮﻧﻪ “ﻐﺎﺑﺔ ﺍﻻﺳﺘﻮﺋﻴﺔ ﻤﺘﻨﻘﻠﺔ”،\nﻭﻟﻜﻞ ﺛﻤﺮﺓ ﻣﻦ ﺛﻤﺎﺭﻩ ﻭﺟﻪ ﻭﺭﺩﺓ ﺧﺎﺻﺔ\nﺑﻬﺎ.");
+const u8 gExeggutorPokedexText[] = _("ﻳﻠﻘﺒﻮﻧﻪ “ﻐﺎﺑﺔ ﺍﻻﺳﺘﻮﺋﻴﺔ\nﻤﺘﻨﻘﻠﺔ”، ﻭﻟﻜﻞ ﺛﻤﺮﺓ ﻣﻦ ﺛﻤﺎﺭﻩ ﻭﺟﻪ\nﻭﺭﺩﺓ ﺧﺎﺻﺔ ﺑﻬﺎ.");
 
 const u8 gExeggutorPokedexTextUnused[] = _("");
 
-const u8 gCubonePokedexText[] = _("ﻳﻀﻊ ﻋﻠﻰ ﺭﺳﻪ ﺟﻤﺠﻤﺔ ﺃﻣﻪ ﺮﺣﻠﺔ،\nﻭﻳﻘﺎﻝ ﺇﻧﻪ ﺇﺫ ﺷﻌﺮ ﺑﺎﻟﻮﺣﺪﺓ ﺑﻜﻰ ﺑﺼﻮﺕ\nﻋﺎﻝ.");
+const u8 gCubonePokedexText[] = _("ﻳﻀﻊ ﻋﻠﻰ ﺭﺳﻪ ﺟﻤﺠﻤﺔ ﺃﻣﻪ ﺮﺣﻠﺔ،\nﻭﻳﻘﺎﻝ ﺇﻧﻪ ﺇﺫ ﺷﻌﺮ ﺑﺎﻟﻮﺣﺪﺓ ﺑﻜﻰ\nﺑﺼﻮﺕ ﻋﺎﻝ.");
 
 const u8 gCubonePokedexTextUnused[] = _("");
 
-const u8 gMarowakPokedexText[] = _("ﻛﺎﻥ ﺻﻐﻴﺮ ﺿﻌﻴﻔﺎ ﻓﻲ ﺍﻷﺻﻞ، ﻟﻜﻦ ﻃﺒﺎﻋﻪ\nﺻﺎﺭﺕ ﺷﺮﺳﺔ ﻣﻨﺬ ﺃﻥ ﺑﺪ ﻳﻘﺎﺗﻞ ﺑﺎﻟﻌﻈﺎﻡ.");
+const u8 gMarowakPokedexText[] = _("ﻛﺎﻥ ﺻﻐﻴﺮ ﺿﻌﻴﻔﺎ ﻓﻲ ﺍﻷﺻﻞ، ﻟﻜﻦ\nﻃﺒﺎﻋﻪ ﺻﺎﺭﺕ ﺷﺮﺳﺔ ﻣﻨﺬ ﺃﻥ ﺑﺪ ﻳﻘﺎﺗﻞ\nﺑﺎﻟﻌﻈﺎﻡ.");
 
 const u8 gMarowakPokedexTextUnused[] = _("");
 
@@ -429,11 +429,11 @@ const u8 gHitmonleePokedexText[] = _("ﺳﺎﻗﺎﻩ ﺗﻨﻘﺒﻀﺎﻥ ﻭ�
 
 const u8 gHitmonleePokedexTextUnused[] = _("");
 
-const u8 gHitmonchanPokedexText[] = _("ﺗﺴﻜﻨﻪ ﺭﻭﺡ ﻣﻼﻛﻢ ﻣﺤﺘﺮﻑ، ﻭﻳﺴﺪﺩ ﻟﻜﻤﺎﺕ\nﺃﺳﺮﻉ ﻣﻦ ﻘﻄﺎﺭ ﺴﺮﻳﻊ!");
+const u8 gHitmonchanPokedexText[] = _("ﺗﺴﻜﻨﻪ ﺭﻭﺡ ﻣﻼﻛﻢ ﻣﺤﺘﺮﻑ، ﻭﻳﺴﺪﺩ\nﻟﻜﻤﺎﺕ ﺃﺳﺮﻉ ﻣﻦ ﻘﻄﺎﺭ ﺴﺮﻳﻊ!");
 
 const u8 gHitmonchanPokedexTextUnused[] = _("");
 
-const u8 gLickitungPokedexText[] = _("ﻟﺴﺎﻧﻪ ﺿﻌﻒ ﻃﻮﻝ ﺟﺴﺪﻩ، ﻳﺤﺮﻛﻪ ﻛﺎﻟﺬﺭﻉ\nﻟﻴﻠﺘﻘﻂ ﻄﻌﺎﻡ ﻭﻳﻬﺎﺟﻢ ﺧﺼﻮﻣﻪ.");
+const u8 gLickitungPokedexText[] = _("ﻟﺴﺎﻧﻪ ﺿﻌﻒ ﻃﻮﻝ ﺟﺴﺪﻩ، ﻳﺤﺮﻛﻪ\nﻛﺎﻟﺬﺭﻉ ﻟﻴﻠﺘﻘﻂ ﻄﻌﺎﻡ ﻭﻳﻬﺎﺟﻢ\nﺧﺼﻮﻣﻪ.");
 
 const u8 gLickitungPokedexTextUnused[] = _("");
 
@@ -441,7 +441,7 @@ const u8 gKoffingPokedexText[] = _("ﺟﺴﺪﻩ ﺮﻗﻴﻖ ﻳﺸﺒﻪ �
 
 const u8 gKoffingPokedexTextUnused[] = _("");
 
-const u8 gWeezingPokedexText[] = _("ﻓﻲ ﺣﺎﻻﺕ ﻧﺎﺩﺭﺓ ﺟﺪ، ﺗﺆﺩﻱ ﻃﻔﺮﺓ ﻣﻔﺎﺟﺌﺔ\nﺇﻟﻰ ﺘﺤﺎﻡ ﺗﻮﻣﻴﻦ ﻣﻦ ﻛﻮﻓﻴﻨﻎ ﻟﻴﺼﻴﺮ\nﻭﻳﺰﻳﻨﻎ.");
+const u8 gWeezingPokedexText[] = _("ﻓﻲ ﺣﺎﻻﺕ ﻧﺎﺩﺭﺓ ﺟﺪ، ﺗﺆﺩﻱ ﻃﻔﺮﺓ\nﻣﻔﺎﺟﺌﺔ ﺇﻟﻰ ﺘﺤﺎﻡ ﺗﻮﻣﻴﻦ ﻣﻦ\nﻛﻮﻓﻴﻨﻎ ﻟﻴﺼﻴﺮ ﻭﻳﺰﻳﻨﻎ.");
 
 const u8 gWeezingPokedexTextUnused[] = _("");
 
@@ -457,7 +457,7 @@ const u8 gChanseyPokedexText[] = _("ﺗﻀﻊ ﻋﺪﺓ ﺑﻴﻀﺎﺕ ﻓﻲ �
 
 const u8 gChanseyPokedexTextUnused[] = _("");
 
-const u8 gTangelaPokedexText[] = _("ﺗﺨﻔﻲ ﻫﻮﻳﺘﻪ ﻛﺘﻠﺔ ﻣﺘﺸﺎﺑﻜﺔ ﻣﻦ ﻜﺮﻭﻡ\nﺰﺭﻗﺎﺀ، ﻭﻳﻠﺘﻒ ﺑﻬﺎ ﺣﻮﻝ ﻛﻞ ﻣﻦ ﻳﻘﺘﺮﺏ\nﻣﻨﻪ.");
+const u8 gTangelaPokedexText[] = _("ﺗﺨﻔﻲ ﻫﻮﻳﺘﻪ ﻛﺘﻠﺔ ﻣﺘﺸﺎﺑﻜﺔ ﻣﻦ\nﻜﺮﻭﻡ ﺰﺭﻗﺎﺀ، ﻭﻳﻠﺘﻒ ﺑﻬﺎ ﺣﻮﻝ ﻛﻞ\nﻣﻦ ﻳﻘﺘﺮﺏ ﻣﻨﻪ.");
 
 const u8 gTangelaPokedexTextUnused[] = _("");
 
@@ -465,7 +465,7 @@ const u8 gKangaskhanPokedexText[] = _("ﺗﺮﻋﻰ ﺍﻷﻧﺜﻰ ﺻﻐﻴﺮ
 
 const u8 gKangaskhanPokedexTextUnused[] = _("");
 
-const u8 gHorseaPokedexText[] = _("ﻳﺤﻔﻆ ﺗﻮﺯﻧﻪ ﺑﺬﻳﻠﻪ ﻤﻠﺘﻒ ﻛﺎﻟﻠﻮﻟﺐ،\nﻭﻗﺪ ﻳﺮﺵ ﺤﺒﺮ ﻣﻦ ﻓﻤﻪ ﺇﺫ ﺷﻌﺮ\nﺑﺎﻟﺨﻄﺮ.");
+const u8 gHorseaPokedexText[] = _("ﻳﺤﻔﻆ ﺗﻮﺯﻧﻪ ﺑﺬﻳﻠﻪ ﻤﻠﺘﻒ\nﻛﺎﻟﻠﻮﻟﺐ، ﻭﻗﺪ ﻳﺮﺵ ﺤﺒﺮ ﻣﻦ ﻓﻤﻪ ﺇﺫ\nﺷﻌﺮ ﺑﺎﻟﺨﻄﺮ.");
 
 const u8 gHorseaPokedexTextUnused[] = _("");
 
@@ -481,7 +481,7 @@ const u8 gSeakingPokedexText[] = _("ﻗﺮﻥ ﺭﺳﻪ ﺣﺎﺩ ﻛﺎﻟ�
 
 const u8 gSeakingPokedexTextUnused[] = _("");
 
-const u8 gStaryuPokedexText[] = _("ﻳﻈﻬﺮ ﺑﺄﻋﺪﺩ ﻛﺒﻴﺮﺓ ﻋﻠﻰ ﺸﻮﻃﺊ، ﻭﻓﻲ\nﻠﻴﻞ ﻳﻮﻣﺾ ﻗﻠﺒﻪ ﺑﻀﻮﺀ ﺃﺣﻤﺮ ﺳﺎﺣﺮ.");
+const u8 gStaryuPokedexText[] = _("ﻳﻈﻬﺮ ﺑﺄﻋﺪﺩ ﻛﺒﻴﺮﺓ ﻋﻠﻰ ﺸﻮﻃﺊ،\nﻭﻓﻲ ﻠﻴﻞ ﻳﻮﻣﺾ ﻗﻠﺒﻪ ﺑﻀﻮﺀ ﺃﺣﻤﺮ\nﺳﺎﺣﺮ.");
 
 const u8 gStaryuPokedexTextUnused[] = _("");
 
@@ -489,11 +489,11 @@ const u8 gStarmiePokedexText[] = _("ﻟﻬﺬ ﺒﻮﻛﻴﻤﻮﻥ ﺟﺴ
 
 const u8 gStarmiePokedexTextUnused[] = _("");
 
-const u8 gMrmimePokedexText[] = _("ﺑﺎﺭﻉ ﻓﻲ ﺧﺪﻉ ﻨﺎﺱ، ﻭﻳﻘﺎﻝ ﺇﻧﻪ ﻳﺼﻨﻊ\nﺟﺪﺭﻧﺎ ﻣﻦ ﻬﻮﺀ ﺑﺤﺮﻛﺎﺕ ﺇﻳﻤﺎﺋﻴﺔ.");
+const u8 gMrmimePokedexText[] = _("ﺑﺎﺭﻉ ﻓﻲ ﺧﺪﻉ ﻨﺎﺱ، ﻭﻳﻘﺎﻝ ﺇﻧﻪ\nﻳﺼﻨﻊ ﺟﺪﺭﻧﺎ ﻣﻦ ﻬﻮﺀ ﺑﺤﺮﻛﺎﺕ\nﺇﻳﻤﺎﺋﻴﺔ.");
 
 const u8 gMrmimePokedexTextUnused[] = _("");
 
-const u8 gScytherPokedexText[] = _("ﻳﻤﺰﻕ ﻓﺮﻳﺴﺘﻪ ﺑﻤﻨﺠﻠﻴﻪ ﺤﺎﺩﻳﻦ، ﻭﻧﺎﺩﺭ\nﻣﺎ ﻳﻔﺮﺩ ﺟﻨﺎﺣﻴﻪ ﻟﻴﻄﻴﺮ.");
+const u8 gScytherPokedexText[] = _("ﻳﻤﺰﻕ ﻓﺮﻳﺴﺘﻪ ﺑﻤﻨﺠﻠﻴﻪ ﺤﺎﺩﻳﻦ،\nﻭﻧﺎﺩﺭ ﻣﺎ ﻳﻔﺮﺩ ﺟﻨﺎﺣﻴﻪ ﻟﻴﻄﻴﺮ.");
 
 const u8 gScytherPokedexTextUnused[] = _("");
 
@@ -509,7 +509,7 @@ const u8 gMagmarPokedexText[] = _("ﻳﻌﻴﺶ ﻗﺮﺏ ﻓﻮﻫﺎﺕ ﺒ
 
 const u8 gMagmarPokedexTextUnused[] = _("");
 
-const u8 gPinsirPokedexText[] = _("ﻗﺮﻧﺎﻩ ﻄﻮﻳﻼﻥ ﻛﻤﺎﺷﺔ ﺟﺒﺎﺭﺓ، ﻭﺫ ﺃﻃﺒﻖ\nﺑﻬﻤﺎ ﻋﻠﻰ ﻋﺪﻭ ﻟﻢ ﻳﻔﻠﺘﻪ ﺣﺘﻰ ﻳﻤﺰﻗﻪ.");
+const u8 gPinsirPokedexText[] = _("ﻗﺮﻧﺎﻩ ﻄﻮﻳﻼﻥ ﻛﻤﺎﺷﺔ ﺟﺒﺎﺭﺓ، ﻭﺫ\nﺃﻃﺒﻖ ﺑﻬﻤﺎ ﻋﻠﻰ ﻋﺪﻭ ﻟﻢ ﻳﻔﻠﺘﻪ ﺣﺘﻰ\nﻳﻤﺰﻗﻪ.");
 
 const u8 gPinsirPokedexTextUnused[] = _("");
 
@@ -517,7 +517,7 @@ const u8 gTaurosPokedexText[] = _("ﺇﺫ ﻫﻢ ﺑﺎﻻﻧﺪﻓﺎﻉ، �
 
 const u8 gTaurosPokedexTextUnused[] = _("");
 
-const u8 gMagikarpPokedexText[] = _("ﻻ ﻗﻮﺓ ﻭﻻ ﺳﺮﻋﺔ… ﻳﻘﺎﻝ ﺇﻧﻪ ﺃﺿﻌﻒ\nﺑﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻌﺎﻟﻢ ﻭﻛﺜﺮﻫﺎ ﺑﺆﺳﺎ،\nﻟﻜﻦ ﻣﻦ ﻳﺪﺭﻱ ﻣﺎ ﻳﺨﺒﺌﻪ ﻟﻪ ﻤﺴﺘﻘﺒﻞ؟");
+const u8 gMagikarpPokedexText[] = _("ﻻ ﻗﻮﺓ ﻭﻻ ﺳﺮﻋﺔ… ﻳﻘﺎﻝ ﺇﻧﻪ ﺃﺿﻌﻒ\nﺑﻮﻛﻴﻤﻮﻥ ﻭﻛﺜﺮﻫﺎ ﺑﺆﺳﺎ، ﻟﻜﻦ ﻣﻦ\nﻳﺪﺭﻱ ﻣﺎ ﻳﺨﺒﺌﻪ ﻟﻪ ﻤﺴﺘﻘﺒﻞ؟");
 
 const u8 gMagikarpPokedexTextUnused[] = _("");
 
@@ -529,7 +529,7 @@ const u8 gLaprasPokedexText[] = _("ﺫﻛﺎﺅﻩ ﺤﺎﺩ ﻳﺠﻌﻠﻪ 
 
 const u8 gLaprasPokedexTextUnused[] = _("");
 
-const u8 gDittoPokedexText[] = _("ﻳﻌﻴﺪ ﺗﺮﺗﻴﺐ ﺧﻼﻳﺎﻩ ﻛﻤﺎ ﻳﺸﺎﺀ، ﻓﻴﺘﺤﻮﻝ\nﺇﻟﻰ ﺃﻱ ﻛﺎﺋﻦ ﺣﻲ ﻳﺮﻩ… ﻧﺴﺨﺔ ﻃﺒﻖ\nﺍﻷﺻﻞ!");
+const u8 gDittoPokedexText[] = _("ﻳﻌﻴﺪ ﺗﺮﺗﻴﺐ ﺧﻼﻳﺎﻩ ﻛﻤﺎ ﻳﺸﺎﺀ،\nﻓﻴﺘﺤﻮﻝ ﺇﻟﻰ ﺃﻱ ﻛﺎﺋﻦ ﺣﻲ ﻳﺮﻩ…\nﻧﺴﺨﺔ ﻃﺒﻖ ﺍﻷﺻﻞ!");
 
 const u8 gDittoPokedexTextUnused[] = _("");
 
@@ -537,7 +537,7 @@ const u8 gEeveePokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻧﺎﺩﺭ ﺟﺪ،
 
 const u8 gEeveePokedexTextUnused[] = _("");
 
-const u8 gVaporeonPokedexText[] = _("ﺧﻼﻳﺎ ﺟﺴﺪﻩ ﺗﺸﺒﻪ ﻓﻲ ﺗﺮﻛﻴﺒﻬﺎ ﺟﺰﻳﺌﺎﺕ\nﻤﺎﺀ، ﻓﻴﺬﻭﺏ ﻓﻴﻪ ﻭﻳﺨﺘﻔﻲ ﻋﻦ ﺍﻷﻧﻈﺎﺭ\nﺗﻤﺎﻣﺎ.");
+const u8 gVaporeonPokedexText[] = _("ﺧﻼﻳﺎ ﺟﺴﺪﻩ ﺗﺸﺒﻪ ﻓﻲ ﺗﺮﻛﻴﺒﻬﺎ\nﺟﺰﻳﺌﺎﺕ ﻤﺎﺀ، ﻓﻴﺬﻭﺏ ﻓﻴﻪ ﻭﻳﺨﺘﻔﻲ\nﻋﻦ ﺍﻷﻧﻈﺎﺭ ﺗﻤﺎﻣﺎ.");
 
 const u8 gVaporeonPokedexTextUnused[] = _("");
 
@@ -545,7 +545,7 @@ const u8 gJolteonPokedexText[] = _("ﺇﺫ ﻏﻀﺐ ﺃﻭ ﻓﻮﺟﺊ، �
 
 const u8 gJolteonPokedexTextUnused[] = _("");
 
-const u8 gFlareonPokedexText[] = _("ﻓﻲ ﺟﺴﺪﻩ ﻛﻴﺲ ﻟﻬﺐ، ﻳﺄﺧﺬ ﻧﻔﺴﺎ ﻋﻤﻴﻘﺎ\nﺛﻢ ﻳﻨﻔﺚ ﻧﻴﺮﻧﺎ ﺗﺒﻠﻎ ﺣﺮﺭﺗﻬﺎ 1700\nﺩﺭﺟﺔ ﻣﺌﻮﻳﺔ!");
+const u8 gFlareonPokedexText[] = _("ﻓﻲ ﺟﺴﺪﻩ ﻛﻴﺲ ﻟﻬﺐ، ﻳﺄﺧﺬ ﻧﻔﺴﺎ\nﻋﻤﻴﻘﺎ ﺛﻢ ﻳﻨﻔﺚ ﻧﻴﺮﻧﺎ ﺗﺒﻠﻎ\nﺣﺮﺭﺗﻬﺎ 1700 ﺩﺭﺟﺔ ﻣﺌﻮﻳﺔ!");
 
 const u8 gFlareonPokedexTextUnused[] = _("");
 
@@ -553,11 +553,11 @@ const u8 gPorygonPokedexText[] = _("ﺑﺄﺣﺪﺙ ﻣﺎ ﺗﻮﺻﻠﺖ ﺇ�
 
 const u8 gPorygonPokedexTextUnused[] = _("");
 
-const u8 gOmanytePokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻣﻦ ﻋﺼﻮﺭ ﻣﺎ ﻗﺒﻞ ﺘﺎﺭﻳﺦ،\nﻋﺎﺵ ﻓﻲ ﺒﺤﺎﺭ ﺍﻷﻭﻟﻰ، ﻭﻛﺎﻥ ﻳﺴﺒﺢ ﺑﻠﻲ\nﻣﺠﺴﺎﺗﻪ ﻌﺸﺮﺓ.");
+const u8 gOmanytePokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻣﻦ ﻋﺼﻮﺭ ﻣﺎ ﻗﺒﻞ ﺘﺎﺭﻳﺦ،\nﻋﺎﺵ ﻓﻲ ﺒﺤﺎﺭ ﺍﻷﻭﻟﻰ، ﻭﻛﺎﻥ ﻳﺴﺒﺢ\nﺑﻠﻲ ﻣﺠﺴﺎﺗﻪ ﻌﺸﺮﺓ.");
 
 const u8 gOmanytePokedexTextUnused[] = _("");
 
-const u8 gOmastarPokedexText[] = _("ﻣﺠﺴﺎﺗﻪ ﻣﺘﻄﻮﺭﺓ ﻛﺄﻧﻬﺎ ﺃﻳﺪ ﻭﻗﺪﻡ، ﻭﻣﺎ\nﺇﻥ ﻳﻮﻗﻊ ﺑﻔﺮﻳﺴﺘﻪ ﺣﺘﻰ ﻳﻨﻘﺾ ﻋﻠﻴﻬﺎ\nﻋﺎﺿﺎ.");
+const u8 gOmastarPokedexText[] = _("ﻣﺠﺴﺎﺗﻪ ﻣﺘﻄﻮﺭﺓ ﻛﺄﻧﻬﺎ ﺃﻳﺪ ﻭﻗﺪﻡ،\nﻭﻣﺎ ﺇﻥ ﻳﻮﻗﻊ ﺑﻔﺮﻳﺴﺘﻪ ﺣﺘﻰ ﻳﻨﻘﺾ\nﻋﻠﻴﻬﺎ ﻋﺎﺿﺎ.");
 
 const u8 gOmastarPokedexTextUnused[] = _("");
 
@@ -565,15 +565,15 @@ const u8 gKabutoPokedexText[] = _("ﺃﻋﻴﺪ ﺇﺣﻴﺎﺅﻩ ﻣﻦ ﺃﺣ
 
 const u8 gKabutoPokedexTextUnused[] = _("");
 
-const u8 gKabutopsPokedexText[] = _("ﻳﺴﺒﺢ ﺑﺤﺮﻳﺔ ﻓﻲ ﻤﺎﺀ، ﻭﻳﺼﻄﺎﺩ ﻓﺮﻳﺴﺘﻪ\nﺑﺬﺭﻋﻴﻪ ﺤﺎﺩﺗﻴﻦ ﻛﺎﻟﻤﻨﺠﻞ، ﺛﻢ ﻳﻤﺘﺺ\nﺳﻮﺋﻠﻬﺎ.");
+const u8 gKabutopsPokedexText[] = _("ﻳﺴﺒﺢ ﺑﺤﺮﻳﺔ ﻓﻲ ﻤﺎﺀ، ﻭﻳﺼﻄﺎﺩ\nﻓﺮﻳﺴﺘﻪ ﺑﺬﺭﻋﻴﻪ ﺤﺎﺩﺗﻴﻦ ﻛﺎﻟﻤﻨﺠﻞ،\nﺛﻢ ﻳﻤﺘﺺ ﺳﻮﺋﻠﻬﺎ.");
 
 const u8 gKabutopsPokedexTextUnused[] = _("");
 
-const u8 gAerodactylPokedexText[] = _("ﺃﻋﻴﺪ ﺇﺣﻴﺎﺅﻩ ﻣﻦ ﻣﺎﺩﺓ ﻭﺭﺛﻴﺔ ﻟﺪﻳﻨﺎﺻﻮﺭ\nﻋﺜﺮ ﻋﻠﻴﻬﺎ ﻓﻲ ﻜﻬﺮﻣﺎﻥ، ﻭﻳﺤﻠﻖ\nﻣﻄﻠﻘﺎ ﺻﻴﺤﺎﺕ ﺣﺎﺩﺓ ﺗﻤﻸ ﺴﻤﺎﺀ.");
+const u8 gAerodactylPokedexText[] = _("ﺃﻋﻴﺪ ﺇﺣﻴﺎﺅﻩ ﻣﻦ ﺟﻴﻨﺎﺕ ﺩﻳﻨﺎﺻﻮﺭ\nﻭﺟﺪﺕ ﻓﻲ ﻜﻬﺮﻣﺎﻥ، ﻭﻳﺤﻠﻖ ﻣﻄﻠﻘﺎ\nﺻﻴﺤﺎﺕ ﺣﺎﺩﺓ ﺗﻤﻸ ﺴﻤﺎﺀ.");
 
 const u8 gAerodactylPokedexTextUnused[] = _("");
 
-const u8 gSnorlaxPokedexText[] = _("ﻻ ﻳﻬﺪ ﺣﺘﻰ ﻳﻠﺘﻬﻢ 400 ﻛﻴﻠﻮﻏﺮﻡ ﻣﻦ\nﻄﻌﺎﻡ ﻛﻞ ﻳﻮﻡ، ﻭﻣﺎ ﺇﻥ ﻳﻔﺮﻍ ﻣﻦ ﻭﺟﺒﺘﻪ\nﺣﺘﻰ ﻳﻐﻂ ﻓﻲ ﻧﻮﻡ ﻋﻤﻴﻖ!");
+const u8 gSnorlaxPokedexText[] = _("ﻻ ﻳﻬﺪ ﺣﺘﻰ ﻳﻠﺘﻬﻢ 400 ﻛﻴﻠﻮﻏﺮﻡ ﻣﻦ\nﻄﻌﺎﻡ ﻛﻞ ﻳﻮﻡ، ﻭﻣﺎ ﺇﻥ ﻳﻔﺮﻍ ﻣﻦ\nﻭﺟﺒﺘﻪ ﺣﺘﻰ ﻳﻐﻂ ﻓﻲ ﻧﻮﻡ ﻋﻤﻴﻖ!");
 
 const u8 gSnorlaxPokedexTextUnused[] = _("");
 
@@ -581,11 +581,11 @@ const u8 gArticunoPokedexText[] = _("ﺃﺣﺪ ﻄﻴﻮﺭ ﺍﻷﺳﻄﻮ�
 
 const u8 gArticunoPokedexTextUnused[] = _("");
 
-const u8 gZapdosPokedexText[] = _("ﺃﺣﺪ ﻄﻴﻮﺭ ﺍﻷﺳﻄﻮﺭﻳﺔ، ﻭﺣﻴﻦ ﻳﻄﻴﺮ\nﺗﺴﻤﻊ ﺣﻮﻟﻪ ﻃﻘﻄﻘﺔ ﺼﻮﻋﻖ ﻭﻓﺮﻗﻌﺘﻬﺎ.");
+const u8 gZapdosPokedexText[] = _("ﺃﺣﺪ ﻄﻴﻮﺭ ﺍﻷﺳﻄﻮﺭﻳﺔ، ﻭﺣﻴﻦ ﻳﻄﻴﺮ\nﺗﺴﻤﻊ ﺣﻮﻟﻪ ﻃﻘﻄﻘﺔ ﺼﻮﻋﻖ\nﻭﻓﺮﻗﻌﺘﻬﺎ.");
 
 const u8 gZapdosPokedexTextUnused[] = _("");
 
-const u8 gMoltresPokedexText[] = _("ﺃﺣﺪ ﻄﻴﻮﺭ ﺍﻷﺳﻄﻮﺭﻳﺔ، ﻭﻣﻦ ﻳﺮﻩ ﺗﺄﺳﺮﻩ\nﺟﻨﺎﺣﺎﻩ ﺒﺮﺗﻘﺎﻟﻴﺘﺎﻥ ﻛﺄﻧﻬﻤﺎ ﺗﺸﺘﻌﻼﻥ\nﻧﺎﺭ.");
+const u8 gMoltresPokedexText[] = _("ﺃﺣﺪ ﻄﻴﻮﺭ ﺍﻷﺳﻄﻮﺭﻳﺔ، ﻭﻣﻦ ﻳﺮﻩ\nﺗﺄﺳﺮﻩ ﺟﻨﺎﺣﺎﻩ ﺒﺮﺗﻘﺎﻟﻴﺘﺎﻥ ﻛﺄﻧﻬﻤﺎ\nﺗﺸﺘﻌﻼﻥ ﻧﺎﺭ.");
 
 const u8 gMoltresPokedexTextUnused[] = _("");
 
@@ -593,7 +593,7 @@ const u8 gDratiniPokedexText[] = _("ﺣﺘﻰ ﺻﻐﺎﺭﻩ ﻗﺪ ﻳﺘﺠ�
 
 const u8 gDratiniPokedexTextUnused[] = _("");
 
-const u8 gDragonairPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﻳﻌﻴﺶ ﻓﻲ ﺒﺤﺎﺭ ﻭﻟﺒﺤﻴﺮﺕ،\nﻭﺭﻏﻢ ﺃﻧﻪ ﺑﻼ ﺃﺟﻨﺤﺔ، ﻓﻘﺪ ﺷﻮﻫﺪ ﺃﺣﻴﺎﻧﺎ\nﻳﺤﻠﻖ ﻓﻲ ﺴﻤﺎﺀ.");
+const u8 gDragonairPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﻳﻌﻴﺶ ﻓﻲ ﺒﺤﺎﺭ\nﻭﻟﺒﺤﻴﺮﺕ، ﻭﺭﻏﻢ ﺃﻧﻪ ﺑﻼ ﺃﺟﻨﺤﺔ، ﻓﻘﺪ\nﺷﻮﻫﺪ ﺃﺣﻴﺎﻧﺎ ﻳﺤﻠﻖ ﻓﻲ ﺴﻤﺎﺀ.");
 
 const u8 gDragonairPokedexTextUnused[] = _("");
 
@@ -605,11 +605,11 @@ const u8 gMewtwoPokedexText[] = _("ﻭﻟﺪ ﻓﻲ ﻣﺨﺘﺒﺮ ﺑﻌﺪ �
 
 const u8 gMewtwoPokedexTextUnused[] = _("");
 
-const u8 gMewPokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻣﻦ ﺃﻣﺮﻳﻜﺎ ﺠﻨﻮﺑﻴﺔ ﻇﻦ ﺃﻧﻪ\nﺍﻧﻘﺮﺽ، ﺫﻛﻲ ﻟﻠﻐﺎﻳﺔ، ﻭﻗﺎﺩﺭ ﻋﻠﻰ ﺗﻌﻠﻢ\nﺃﻱ ﺣﺮﻛﺔ.");
+const u8 gMewPokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻣﻦ ﺃﻣﺮﻳﻜﺎ ﺠﻨﻮﺑﻴﺔ ﻇﻦ\nﺃﻧﻪ ﺍﻧﻘﺮﺽ، ﺫﻛﻲ ﻟﻠﻐﺎﻳﺔ، ﻭﻗﺎﺩﺭ ﻋﻠﻰ\nﺗﻌﻠﻢ ﺃﻱ ﺣﺮﻛﺔ.");
 
 const u8 gMewPokedexTextUnused[] = _("");
 
-const u8 gChikoritaPokedexText[] = _("ﺃﻭﺭﻗﻪ ﺗﻔﻮﺡ ﺑﻌﺒﻴﺮ ﻟﻄﻴﻒ، ﻭﻟﻬﺎ ﻘﺪﺭﺓ\nﻋﻠﻰ ﻗﻴﺎﺱ ﺮﻃﻮﺑﺔ ﻭﻟﺤﺮﺭﺓ ﻣﻦ ﺣﻮﻟﻪ.");
+const u8 gChikoritaPokedexText[] = _("ﺃﻭﺭﻗﻪ ﺗﻔﻮﺡ ﺑﻌﺒﻴﺮ ﻟﻄﻴﻒ، ﻭﻟﻬﺎ\nﻘﺪﺭﺓ ﻋﻠﻰ ﻗﻴﺎﺱ ﺮﻃﻮﺑﺔ ﻭﻟﺤﺮﺭﺓ ﻣﻦ\nﺣﻮﻟﻪ.");
 
 const u8 gChikoritaPokedexTextUnused[] = _("");
 
@@ -665,7 +665,7 @@ const u8 gLedybaPokedexText[] = _("ﺣﻴﻦ ﻳﺒﺮﺩ ﻄﻘﺲ، ﺗﺘ�
 
 const u8 gLedybaPokedexTextUnused[] = _("");
 
-const u8 gLedianPokedexText[] = _("ﻧﻘﻮﺵ ﻨﺠﻮﻡ ﻋﻠﻰ ﻇﻬﺮﻩ ﺗﻜﺒﺮ ﺃﻭ ﺗﺼﻐﺮ\nﺑﺤﺴﺐ ﻋﺪﺩ ﻨﺠﻮﻡ ﻓﻲ ﺳﻤﺎﺀ ﻠﻴﻞ.");
+const u8 gLedianPokedexText[] = _("ﻧﻘﻮﺵ ﻨﺠﻮﻡ ﻋﻠﻰ ﻇﻬﺮﻩ ﺗﻜﺒﺮ ﺃﻭ\nﺗﺼﻐﺮ ﺑﺤﺴﺐ ﻋﺪﺩ ﻨﺠﻮﻡ ﻓﻲ ﺳﻤﺎﺀ\nﻠﻴﻞ.");
 
 const u8 gLedianPokedexTextUnused[] = _("");
 
@@ -677,7 +677,7 @@ const u8 gAriadosPokedexText[] = _("ﻳﺨﺮﺝ ﻣﻦ ﻣﺆﺧﺮﺗﻪ ﺧ�
 
 const u8 gAriadosPokedexTextUnused[] = _("");
 
-const u8 gCrobatPokedexText[] = _("ﻧﻤﺖ ﻟﻪ ﺃﺟﻨﺤﺔ ﻋﻠﻰ ﺳﺎﻗﻴﻪ ﺃﻳﻀﺎ، ﻓﺼﺎﺭ\nﻳﻄﻴﺮ ﺑﺴﺮﻋﺔ ﻛﺒﻴﺮﺓ، ﻟﻜﻦ ﺘﻮﻗﻒ\nﻭﻟﺮﺣﺔ ﺻﺎﺭ ﻋﺴﻴﺮﻳﻦ ﻋﻠﻴﻪ.");
+const u8 gCrobatPokedexText[] = _("ﻧﻤﺖ ﻟﻪ ﺃﺟﻨﺤﺔ ﻋﻠﻰ ﺳﺎﻗﻴﻪ ﺃﻳﻀﺎ،\nﻓﺼﺎﺭ ﻳﻄﻴﺮ ﺑﺴﺮﻋﺔ ﻛﺒﻴﺮﺓ، ﻟﻜﻦ\nﺘﻮﻗﻒ ﻭﻟﺮﺣﺔ ﺻﺎﺭ ﻋﺴﻴﺮﻳﻦ ﻋﻠﻴﻪ.");
 
 const u8 gCrobatPokedexTextUnused[] = _("");
 
@@ -705,11 +705,11 @@ const u8 gTogepiPokedexText[] = _("ﻳﻘﻮﻝ ﻣﺜﻞ ﻗﺪﻳﻢ ﺇﻥ �
 
 const u8 gTogepiPokedexTextUnused[] = _("");
 
-const u8 gTogeticPokedexText[] = _("ﻳﺤﺰﻥ ﺇﻥ ﻟﻢ ﻳﻜﻦ ﻣﻊ ﺃﻧﺎﺱ ﻃﻴﺒﻴﻦ،\nﻭﻳﻄﻔﻮ ﻓﻲ ﻬﻮﺀ ﺩﻭﻥ ﺃﻥ ﻳﺤﺮﻙ ﺟﻨﺎﺣﻴﻪ.");
+const u8 gTogeticPokedexText[] = _("ﻳﺤﺰﻥ ﺇﻥ ﻟﻢ ﻳﻜﻦ ﻣﻊ ﺃﻧﺎﺱ ﻃﻴﺒﻴﻦ،\nﻭﻳﻄﻔﻮ ﻓﻲ ﻬﻮﺀ ﺩﻭﻥ ﺃﻥ ﻳﺤﺮﻙ\nﺟﻨﺎﺣﻴﻪ.");
 
 const u8 gTogeticPokedexTextUnused[] = _("");
 
-const u8 gNatuPokedexText[] = _("ﻳﺒﺤﺚ ﻋﺎﺩﺓ ﻋﻦ ﻃﻌﺎﻣﻪ ﻋﻠﻰ ﺍﻷﺭﺽ، ﻟﻜﻨﻪ\nﻗﺪ ﻳﻘﻔﺰ ﺃﺣﻴﺎﻧﺎ ﺇﻟﻰ ﺍﻷﻏﺼﺎﻥ ﻟﻴﻨﻘﺮ\nﺒﺮﻋﻢ.");
+const u8 gNatuPokedexText[] = _("ﻳﺒﺤﺚ ﻋﺎﺩﺓ ﻋﻦ ﻃﻌﺎﻣﻪ ﻋﻠﻰ ﺍﻷﺭﺽ،\nﻟﻜﻨﻪ ﻗﺪ ﻳﻘﻔﺰ ﺃﺣﻴﺎﻧﺎ ﺇﻟﻰ ﺍﻷﻏﺼﺎﻥ\nﻟﻴﻨﻘﺮ ﺒﺮﻋﻢ.");
 
 const u8 gNatuPokedexTextUnused[] = _("");
 
@@ -729,7 +729,7 @@ const u8 gAmpharosPokedexText[] = _("ﻀﻮﺀ ﺴﺎﻃﻊ ﻓﻲ ﺫﻳ�
 
 const u8 gAmpharosPokedexTextUnused[] = _("");
 
-const u8 gBellossomPokedexText[] = _("ﻳﻜﺜﺮ ﻓﻲ ﻤﻨﺎﻃﻖ ﺍﻻﺳﺘﻮﺋﻴﺔ، ﻭﺣﻴﻦ\nﻳﺮﻗﺺ ﺗﺤﺘﻚ ﺑﺘﻼﺗﻪ ﻓﺘﺼﺪﺭ ﺭﻧﻴﻨﺎ ﻋﺬﺑﺎ.");
+const u8 gBellossomPokedexText[] = _("ﻳﻜﺜﺮ ﻓﻲ ﻤﻨﺎﻃﻖ ﺍﻻﺳﺘﻮﺋﻴﺔ، ﻭﺣﻴﻦ\nﻳﺮﻗﺺ ﺗﺤﺘﻚ ﺑﺘﻼﺗﻪ ﻓﺘﺼﺪﺭ ﺭﻧﻴﻨﺎ\nﻋﺬﺑﺎ.");
 
 const u8 gBellossomPokedexTextUnused[] = _("");
 
@@ -741,7 +741,7 @@ const u8 gAzumarillPokedexText[] = _("ﺣﻴﻦ ﻳﻠﻌﺐ ﻓﻲ ﻤﺎﺀ
 
 const u8 gAzumarillPokedexTextUnused[] = _("");
 
-const u8 gSudowoodoPokedexText[] = _("ﻳﺘﻨﻜﺮ ﻓﻲ ﻫﻴﺌﺔ ﺷﺠﺮﺓ ﻟﻴﺘﺠﻨﺐ\nﻬﺠﻤﺎﺕ، ﻟﻜﻨﻪ ﻳﻜﺮﻩ ﻤﺎﺀ، ﻓﻴﺨﺘﻔﻲ ﻣﺎ\nﺇﻥ ﻳﺒﺪ ﻤﻄﺮ!");
+const u8 gSudowoodoPokedexText[] = _("ﻳﺘﻨﻜﺮ ﻓﻲ ﻫﻴﺌﺔ ﺷﺠﺮﺓ ﻟﻴﺘﺠﻨﺐ\nﻬﺠﻤﺎﺕ، ﻟﻜﻨﻪ ﻳﻜﺮﻩ ﻤﺎﺀ، ﻓﻴﺨﺘﻔﻲ\nﻣﺎ ﺇﻥ ﻳﺒﺪ ﻤﻄﺮ!");
 
 const u8 gSudowoodoPokedexTextUnused[] = _("");
 
@@ -757,23 +757,23 @@ const u8 gSkiploomPokedexText[] = _("ﻳﻔﺘﺢ ﺑﺘﻼﺗﻪ ﻟﻴﻤﺘ�
 
 const u8 gSkiploomPokedexTextUnused[] = _("");
 
-const u8 gJumpluffPokedexText[] = _("ﺗﺤﻤﻠﻪ ﺮﻳﺎﺡ ﻤﻮﺳﻤﻴﺔ، ﻓﻴﻨﺜﺮ ﺃﺑﻮﻏﻪ\nﻘﻄﻨﻴﺔ ﻓﻲ ﺃﺭﺟﺎﺀ ﻌﺎﻟﻢ ﻛﻠﻪ.");
+const u8 gJumpluffPokedexText[] = _("ﺗﺤﻤﻠﻪ ﺮﻳﺎﺡ ﻤﻮﺳﻤﻴﺔ، ﻓﻴﻨﺜﺮ\nﺃﺑﻮﻏﻪ ﻘﻄﻨﻴﺔ ﻓﻲ ﺃﺭﺟﺎﺀ ﻌﺎﻟﻢ ﻛﻠﻪ.");
 
 const u8 gJumpluffPokedexTextUnused[] = _("");
 
-const u8 gAipomPokedexText[] = _("ﻳﻌﻴﺶ ﻓﻮﻕ ﺍﻷﺷﺠﺎﺭ ﻌﺎﻟﻴﺔ، ﻭﻳﺴﺘﺨﺪﻡ\nﺫﻳﻠﻪ ﺑﺒﺮﻋﺔ ﻟﻴﺤﻔﻆ ﺗﻮﺯﻧﻪ ﻭﻫﻮ ﻳﻘﻔﺰ\nﻣﻦ ﻏﺼﻦ ﺇﻟﻰ ﻏﺼﻦ.");
+const u8 gAipomPokedexText[] = _("ﻳﻌﻴﺶ ﻓﻮﻕ ﺍﻷﺷﺠﺎﺭ ﻌﺎﻟﻴﺔ، ﻭﻳﺴﺘﺨﺪﻡ\nﺫﻳﻠﻪ ﺑﺒﺮﻋﺔ ﻟﻴﺤﻔﻆ ﺗﻮﺯﻧﻪ ﻭﻫﻮ\nﻳﻘﻔﺰ ﻣﻦ ﻏﺼﻦ ﺇﻟﻰ ﻏﺼﻦ.");
 
 const u8 gAipomPokedexTextUnused[] = _("");
 
-const u8 gSunkernPokedexText[] = _("ﻻ ﻳﻌﻴﺶ ﺇﻻ ﻋﻠﻰ ﻗﻄﺮﺕ ﻨﺪﻯ ﺗﺤﺖ ﺃﻭﺭﻕ\nﻨﺒﺎﺕ، ﻭﻳﻘﺎﻝ ﺇﻧﻪ ﻻ ﻳﺄﻛﻞ ﺷﻴﺌﺎ ﺳﻮﻫﺎ.");
+const u8 gSunkernPokedexText[] = _("ﻻ ﻳﻌﻴﺶ ﺇﻻ ﻋﻠﻰ ﻗﻄﺮﺕ ﻨﺪﻯ ﺗﺤﺖ\nﺃﻭﺭﻕ ﻨﺒﺎﺕ، ﻭﻳﻘﺎﻝ ﺇﻧﻪ ﻻ ﻳﺄﻛﻞ\nﺷﻴﺌﺎ ﺳﻮﻫﺎ.");
 
 const u8 gSunkernPokedexTextUnused[] = _("");
 
-const u8 gSunfloraPokedexText[] = _("ﻓﻲ ﻨﻬﺎﺭ ﻳﻨﺪﻓﻊ ﻫﻨﺎ ﻭﻫﻨﺎﻙ ﺑﻨﺸﺎﻁ\nﻣﺤﻤﻮﻡ، ﻭﻣﺎ ﺇﻥ ﺗﻐﺮﺏ ﺸﻤﺲ ﺣﺘﻰ ﻳﺴﻜﻦ\nﺗﻤﺎﻣﺎ.");
+const u8 gSunfloraPokedexText[] = _("ﻓﻲ ﻨﻬﺎﺭ ﻳﻨﺪﻓﻊ ﻫﻨﺎ ﻭﻫﻨﺎﻙ ﺑﻨﺸﺎﻁ\nﻣﺤﻤﻮﻡ، ﻭﻣﺎ ﺇﻥ ﺗﻐﺮﺏ ﺸﻤﺲ ﺣﺘﻰ\nﻳﺴﻜﻦ ﺗﻤﺎﻣﺎ.");
 
 const u8 gSunfloraPokedexTextUnused[] = _("");
 
-const u8 gYanmaPokedexText[] = _("ﻋﻴﻨﺎﻩ ﻜﺒﻴﺮﺗﺎﻥ ﺗﺮﺻﺪﻥ ﻛﻞ ﺠﻬﺎﺕ\nﺑﺰﻭﻳﺔ 360 ﺩﺭﺟﺔ، ﺑﺤﺜﺎ ﻋﻦ ﺤﺸﺮﺕ ﺘﻲ\nﻳﺼﻄﺎﺩﻫﺎ.");
+const u8 gYanmaPokedexText[] = _("ﻋﻴﻨﺎﻩ ﻜﺒﻴﺮﺗﺎﻥ ﺗﺮﺻﺪﻥ ﻛﻞ ﺠﻬﺎﺕ\nﺑﺰﻭﻳﺔ 360 ﺩﺭﺟﺔ، ﺑﺤﺜﺎ ﻋﻦ ﺤﺸﺮﺕ\nﺘﻲ ﻳﺼﻄﺎﺩﻫﺎ.");
 
 const u8 gYanmaPokedexTextUnused[] = _("");
 
@@ -781,7 +781,7 @@ const u8 gWooperPokedexText[] = _("ﺣﻴﻦ ﻳﻤﺸﻲ ﻋﻠﻰ ﻴﺎﺑ
 
 const u8 gWooperPokedexTextUnused[] = _("");
 
-const u8 gQuagsirePokedexText[] = _("ﺑﺴﺒﺐ ﻃﺒﻌﻪ ﻬﺎﺩﺉ ﻼﻣﺒﺎﻟﻲ، ﻛﺜﻴﺮ ﻣﺎ\nﻳﺼﻄﺪﻡ ﺭﺳﻪ ﺑﺎﻟﺼﺨﻮﺭ ﻭﻫﻴﺎﻛﻞ ﺴﻔﻦ\nﻭﻫﻮ ﻳﺴﺒﺢ.");
+const u8 gQuagsirePokedexText[] = _("ﺑﺴﺒﺐ ﻃﺒﻌﻪ ﻬﺎﺩﺉ ﻼﻣﺒﺎﻟﻲ، ﻛﺜﻴﺮ\nﻣﺎ ﻳﺼﻄﺪﻡ ﺭﺳﻪ ﺑﺎﻟﺼﺨﻮﺭ ﻭﻫﻴﺎﻛﻞ\nﺴﻔﻦ ﻭﻫﻮ ﻳﺴﺒﺢ.");
 
 const u8 gQuagsirePokedexTextUnused[] = _("");
 
@@ -793,7 +793,7 @@ const u8 gUmbreonPokedexText[] = _("ﺣﻴﻦ ﻳﺤﻞ ﻈﻼﻡ، ﺗﺒﺪ
 
 const u8 gUmbreonPokedexTextUnused[] = _("");
 
-const u8 gMurkrowPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﺇﺫ ﻃﻮﺭﺩ ﺍﺳﺘﺪﺭﺝ ﻣﻄﺎﺭﺩﻩ ﺇﻟﻰ\nﺩﺭﻭﺏ ﺠﺒﺎﻝ ﻤﻈﻠﻤﺔ… ﺣﻴﺚ ﻳﻀﻞ ﻃﺮﻳﻘﻪ\nﺇﻟﻰ ﺍﻷﺑﺪ.");
+const u8 gMurkrowPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﺇﺫ ﻃﻮﺭﺩ ﺍﺳﺘﺪﺭﺝ ﻣﻄﺎﺭﺩﻩ\nﺇﻟﻰ ﺩﺭﻭﺏ ﺠﺒﺎﻝ ﻤﻈﻠﻤﺔ… ﺣﻴﺚ ﻳﻀﻞ\nﻃﺮﻳﻘﻪ ﺇﻟﻰ ﺍﻷﺑﺪ.");
 
 const u8 gMurkrowPokedexTextUnused[] = _("");
 
@@ -805,7 +805,7 @@ const u8 gMisdreavusPokedexText[] = _("ﻳﺤﺐ ﺃﻥ ﻳﺸﺪ ﺷﻌﻮﺭ �
 
 const u8 gMisdreavusPokedexTextUnused[] = _("");
 
-const u8 gUnownPokedexText[] = _("ﺟﺴﺪﻩ ﺮﻗﻴﻖ ﻤﺴﻄﺢ ﻣﻠﺘﺼﻖ ﺩﺋﻤﺎ\nﺑﺎﻟﺠﺪﺭﻥ، ﻭﻳﺒﺪﻭ ﺃﻥ ﻟﺸﻜﻠﻪ ﻣﻌﻨﻰ ﺧﻔﻴﺎ\nﻟﻢ ﻳﻜﺸﻒ ﺑﻌﺪ.");
+const u8 gUnownPokedexText[] = _("ﺟﺴﺪﻩ ﺮﻗﻴﻖ ﻤﺴﻄﺢ ﻣﻠﺘﺼﻖ ﺩﺋﻤﺎ\nﺑﺎﻟﺠﺪﺭﻥ، ﻭﻳﺒﺪﻭ ﺃﻥ ﻟﺸﻜﻠﻪ ﻣﻌﻨﻰ\nﺧﻔﻴﺎ ﻟﻢ ﻳﻜﺸﻒ ﺑﻌﺪ.");
 
 const u8 gUnownPokedexTextUnused[] = _("");
 
@@ -813,7 +813,7 @@ const u8 gWobbuffetPokedexText[] = _("ﻳﻌﻴﺶ ﺑﻬﺪﻭﺀ ﻓﻲ ﻈ
 
 const u8 gWobbuffetPokedexTextUnused[] = _("");
 
-const u8 gGirafarigPokedexText[] = _("ﻓﻲ ﺫﻳﻠﻪ ﺩﻣﺎﻍ ﺻﻐﻴﺮ ﺃﻳﻀﺎ، ﻓﺈﻥ ﺷﻢ\nﺭﺋﺤﺔ ﻣﻐﺮﻳﺔ ﻗﺪ ﻳﻌﺾ ﻣﻦ ﺗﻠﻘﺎﺀ ﻧﻔﺴﻪ!");
+const u8 gGirafarigPokedexText[] = _("ﻓﻲ ﺫﻳﻠﻪ ﺩﻣﺎﻍ ﺻﻐﻴﺮ ﺃﻳﻀﺎ، ﻓﺈﻥ ﺷﻢ\nﺭﺋﺤﺔ ﻣﻐﺮﻳﺔ ﻗﺪ ﻳﻌﺾ ﻣﻦ ﺗﻠﻘﺎﺀ\nﻧﻔﺴﻪ!");
 
 const u8 gGirafarigPokedexTextUnused[] = _("");
 
@@ -833,7 +833,7 @@ const u8 gGligarPokedexText[] = _("ﻳﺘﺸﺒﺚ ﻋﺎﺩﺓ ﺑﺎﻟﻤﻨ�
 
 const u8 gGligarPokedexTextUnused[] = _("");
 
-const u8 gSteelixPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻥ ﺃﻭﻧﻴﻜﺲ ﺇﺫ ﻋﺎﺵ ﺃﻛﺜﺮ ﻣﻦ ﻣﺌﺔ\nﻋﺎﻡ، ﺗﺤﻮﻝ ﺟﺴﺪﻩ ﻭﺻﺎﺭ ﺻﻠﺒﺎ ﻛﺎﻷﻟﻤﺎﺱ.");
+const u8 gSteelixPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻥ ﺃﻭﻧﻴﻜﺲ ﺇﺫ ﻋﺎﺵ ﺃﻛﺜﺮ ﻣﻦ\nﻣﺌﺔ ﻋﺎﻡ، ﺗﺤﻮﻝ ﺟﺴﺪﻩ ﻭﺻﺎﺭ ﺻﻠﺒﺎ\nﻛﺎﻷﻟﻤﺎﺱ.");
 
 const u8 gSteelixPokedexTextUnused[] = _("");
 
@@ -845,23 +845,23 @@ const u8 gGranbullPokedexText[] = _("ﺃﻧﻴﺎﺑﻪ ﺛﻘﻴﻠﺔ ﺟﺪ�
 
 const u8 gGranbullPokedexTextUnused[] = _("");
 
-const u8 gQwilfishPokedexText[] = _("ﺍﻷﺷﻮﻙ ﺼﻐﻴﺮﺓ ﺘﻲ ﺗﻐﻄﻲ ﺟﺴﺪﻩ ﺗﻄﻮﺭﺕ\nﻣﻦ ﺣﺮﺷﻔﻪ، ﻭﺗﺤﻘﻦ ﺳﻤﺎ ﻳﻔﻘﺪ ﻮﻋﻲ.");
+const u8 gQwilfishPokedexText[] = _("ﺍﻷﺷﻮﻙ ﺼﻐﻴﺮﺓ ﺘﻲ ﺗﻐﻄﻲ ﺟﺴﺪﻩ\nﺗﻄﻮﺭﺕ ﻣﻦ ﺣﺮﺷﻔﻪ، ﻭﺗﺤﻘﻦ ﺳﻤﺎ ﻳﻔﻘﺪ\nﻮﻋﻲ.");
 
 const u8 gQwilfishPokedexTextUnused[] = _("");
 
-const u8 gScizorPokedexText[] = _("ﻻ ﻳﺴﺘﺨﺪﻡ ﺟﻨﺎﺣﻴﻪ ﻟﻠﻄﻴﺮﻥ، ﺑﻞ ﻳﺮﻓﺮﻑ\nﺑﻬﻤﺎ ﺑﺴﺮﻋﺔ ﻓﺎﺋﻘﺔ ﻟﻴﻀﺒﻂ ﺣﺮﺭﺓ ﺟﺴﺪﻩ.");
+const u8 gScizorPokedexText[] = _("ﻻ ﻳﺴﺘﺨﺪﻡ ﺟﻨﺎﺣﻴﻪ ﻟﻠﻄﻴﺮﻥ، ﺑﻞ\nﻳﺮﻓﺮﻑ ﺑﻬﻤﺎ ﺑﺴﺮﻋﺔ ﻓﺎﺋﻘﺔ ﻟﻴﻀﺒﻂ\nﺣﺮﺭﺓ ﺟﺴﺪﻩ.");
 
 const u8 gScizorPokedexTextUnused[] = _("");
 
-const u8 gShucklePokedexText[] = _("ﻳﺨﺰﻥ ﺘﻮﺕ ﺩﺧﻞ ﺻﺪﻓﺘﻪ، ﻭﻳﺨﺘﺒﺊ ﺗﺤﺖ\nﺼﺨﻮﺭ ﺳﺎﻛﻨﺎ ﺗﻤﺎﻣﺎ ﻟﻴﺘﺠﻨﺐ ﻬﺠﻤﺎﺕ.");
+const u8 gShucklePokedexText[] = _("ﻳﺨﺰﻥ ﺘﻮﺕ ﺩﺧﻞ ﺻﺪﻓﺘﻪ، ﻭﻳﺨﺘﺒﺊ\nﺗﺤﺖ ﺼﺨﻮﺭ ﺳﺎﻛﻨﺎ ﺗﻤﺎﻣﺎ ﻟﻴﺘﺠﻨﺐ\nﻬﺠﻤﺎﺕ.");
 
 const u8 gShucklePokedexTextUnused[] = _("");
 
-const u8 gHeracrossPokedexText[] = _("ﻫﺎﺩﺉ ﻓﻲ ﻌﺎﺩﺓ، ﻟﻜﻦ ﺇﻥ ﺃﺯﻋﺠﻪ ﺃﺣﺪ ﻭﻫﻮ\nﻳﺮﺗﺸﻒ ﺮﺣﻴﻖ، ﻃﺎﺭﺩﻩ ﺑﻘﺮﻧﻪ ﺑﻼ ﻫﻮﺩﺓ!");
+const u8 gHeracrossPokedexText[] = _("ﻫﺎﺩﺉ ﻓﻲ ﻌﺎﺩﺓ، ﻟﻜﻦ ﺇﻥ ﺃﺯﻋﺠﻪ ﺃﺣﺪ\nﻭﻫﻮ ﻳﺮﺗﺸﻒ ﺮﺣﻴﻖ، ﻃﺎﺭﺩﻩ ﺑﻘﺮﻧﻪ ﺑﻼ\nﻫﻮﺩﺓ!");
 
 const u8 gHeracrossPokedexTextUnused[] = _("");
 
-const u8 gSneaselPokedexText[] = _("ﺷﺮﺱ ﺑﻄﺒﻌﻪ، ﻳﻄﺮﺩ ﺒﻴﺪﺟﻲ ﻣﻦ ﺃﻋﺸﺎﺷﻬﺎ\nﻭﻳﻠﺘﻬﻢ ﺒﻴﺾ ﺬﻱ ﺗﺘﺮﻛﻪ ﻭﺭﺀﻫﺎ.");
+const u8 gSneaselPokedexText[] = _("ﺷﺮﺱ ﺑﻄﺒﻌﻪ، ﻳﻄﺮﺩ ﺒﻴﺪﺟﻲ ﻣﻦ\nﺃﻋﺸﺎﺷﻬﺎ ﻭﻳﻠﺘﻬﻢ ﺒﻴﺾ ﺬﻱ ﺗﺘﺮﻛﻪ\nﻭﺭﺀﻫﺎ.");
 
 const u8 gSneaselPokedexTextUnused[] = _("");
 
@@ -881,7 +881,7 @@ const u8 gMagcargoPokedexText[] = _("ﺻﺪﻓﺘﻪ ﻬﺸﺔ ﺗﻨﻔﺚ �
 
 const u8 gMagcargoPokedexTextUnused[] = _("");
 
-const u8 gSwinubPokedexText[] = _("ﺇﺫ ﺷﻢ ﺭﺋﺤﺔ ﻣﻐﺮﻳﺔ، ﺍﻧﺪﻓﻊ ﺑﺄﻗﺼﻰ ﺳﺮﻋﺔ\nﻟﻴﻌﺜﺮ ﻋﻠﻰ ﻣﺼﺪﺭﻫﺎ!");
+const u8 gSwinubPokedexText[] = _("ﺇﺫ ﺷﻢ ﺭﺋﺤﺔ ﻣﻐﺮﻳﺔ، ﺍﻧﺪﻓﻊ ﺑﺄﻗﺼﻰ\nﺳﺮﻋﺔ ﻟﻴﻌﺜﺮ ﻋﻠﻰ ﻣﺼﺪﺭﻫﺎ!");
 
 const u8 gSwinubPokedexTextUnused[] = _("");
 
@@ -893,15 +893,15 @@ const u8 gCorsolaPokedexText[] = _("ﻓﻲ ﺇﺣﺪﻯ ﺟﺰﺭ ﺒﺤﺎ�
 
 const u8 gCorsolaPokedexTextUnused[] = _("");
 
-const u8 gRemoraidPokedexText[] = _("ﻳﺴﺘﺨﺪﻡ ﺯﻋﻨﻔﺘﻪ ﻈﻬﺮﻳﺔ ﻛﻤﻤﺺ،\nﻓﻴﻠﺘﺼﻖ ﺑﺄﺳﻔﻞ ﻣﺎﻧﺘﺎﻳﻦ ﻟﻴﻘﺘﺎﺕ ﻋﻠﻰ\nﺑﻘﺎﻳﺎ ﻃﻌﺎﻣﻪ.");
+const u8 gRemoraidPokedexText[] = _("ﻳﺴﺘﺨﺪﻡ ﺯﻋﻨﻔﺘﻪ ﻈﻬﺮﻳﺔ ﻛﻤﻤﺺ،\nﻓﻴﻠﺘﺼﻖ ﺑﺄﺳﻔﻞ ﻣﺎﻧﺘﺎﻳﻦ ﻟﻴﻘﺘﺎﺕ\nﻋﻠﻰ ﺑﻘﺎﻳﺎ ﻃﻌﺎﻣﻪ.");
 
 const u8 gRemoraidPokedexTextUnused[] = _("");
 
-const u8 gOctilleryPokedexText[] = _("ﻳﺘﺴﻠﻞ ﺑﻐﺮﻳﺰﺗﻪ ﺇﻟﻰ ﺛﻘﻮﺏ ﺼﺨﻮﺭ، ﻭﺫ\nﻧﻌﺲ ﺳﺮﻕ ﻋﺶ ﺃﻭﻛﺘﻴﻠﺮﻱ ﺁﺧﺮ!");
+const u8 gOctilleryPokedexText[] = _("ﻳﺘﺴﻠﻞ ﺑﻐﺮﻳﺰﺗﻪ ﺇﻟﻰ ﺛﻘﻮﺏ ﺼﺨﻮﺭ،\nﻭﺫ ﻧﻌﺲ ﺳﺮﻕ ﻋﺶ ﺃﻭﻛﺘﻴﻠﺮﻱ ﺁﺧﺮ!");
 
 const u8 gOctilleryPokedexTextUnused[] = _("");
 
-const u8 gDelibirdPokedexText[] = _("ﻳﺒﻨﻲ ﻋﺸﻪ ﻋﻠﻰ ﺣﺎﻓﺔ ﻤﻨﺤﺪﺭﺕ ﺤﺎﺩﺓ،\nﻭﻳﻘﻀﻲ ﻳﻮﻣﻪ ﻛﻠﻪ ﻳﻨﻘﻞ ﻄﻌﺎﻡ ﺇﻟﻰ\nﺻﻐﺎﺭﻩ.");
+const u8 gDelibirdPokedexText[] = _("ﻳﺒﻨﻲ ﻋﺸﻪ ﻋﻠﻰ ﺣﺎﻓﺔ ﻤﻨﺤﺪﺭﺕ\nﺤﺎﺩﺓ، ﻭﻳﻘﻀﻲ ﻳﻮﻣﻪ ﻛﻠﻪ ﻳﻨﻘﻞ ﻄﻌﺎﻡ\nﺇﻟﻰ ﺻﻐﺎﺭﻩ.");
 
 const u8 gDelibirdPokedexTextUnused[] = _("");
 
@@ -909,11 +909,11 @@ const u8 gMantinePokedexText[] = _("ﻳﺴﺒﺢ ﺣﺮ ﻓﻲ ﺒﺤﺎ�
 
 const u8 gMantinePokedexTextUnused[] = _("");
 
-const u8 gSkarmoryPokedexText[] = _("ﻳﻌﺸﺶ ﺑﻴﻦ ﺍﻷﺷﻮﻙ، ﻓﺘﻘﺴﻮ ﺃﺟﻨﺤﺔ\nﺻﻐﺎﺭﻩ ﻣﻦ ﺧﺪﻭﺷﻬﺎ ﺣﺘﻰ ﺗﺼﻴﺮ ﻛﺎﻟﻔﻮﻻﺫ.");
+const u8 gSkarmoryPokedexText[] = _("ﻳﻌﺸﺶ ﺑﻴﻦ ﺍﻷﺷﻮﻙ، ﻓﺘﻘﺴﻮ ﺃﺟﻨﺤﺔ\nﺻﻐﺎﺭﻩ ﻣﻦ ﺧﺪﻭﺷﻬﺎ ﺣﺘﻰ ﺗﺼﻴﺮ\nﻛﺎﻟﻔﻮﻻﺫ.");
 
 const u8 gSkarmoryPokedexTextUnused[] = _("");
 
-const u8 gHoundourPokedexText[] = _("ﻟﻴﺤﺎﺻﺮﻭ ﻓﺮﻳﺴﺘﻬﻢ، ﻳﺘﻮﺻﻠﻮﻥ ﺑﻨﺒﺎﺡ ﻻ\nﻳﻔﻬﻤﻪ ﺃﺣﺪ ﺳﻮﻫﻢ.");
+const u8 gHoundourPokedexText[] = _("ﻟﻴﺤﺎﺻﺮﻭ ﻓﺮﻳﺴﺘﻬﻢ، ﻳﺘﻮﺻﻠﻮﻥ ﺑﻨﺒﺎﺡ\nﻻ ﻳﻔﻬﻤﻪ ﺃﺣﺪ ﺳﻮﻫﻢ.");
 
 const u8 gHoundourPokedexTextUnused[] = _("");
 
@@ -921,7 +921,7 @@ const u8 gHoundoomPokedexText[] = _("ﺇﺫ ﺳﻤﻌﺖ ﺒﻮﻛﻴﻤ�
 
 const u8 gHoundoomPokedexTextUnused[] = _("");
 
-const u8 gKingdraPokedexText[] = _("ﻳﻨﺎﻡ ﻓﻲ ﺃﻋﻤﺎﻕ ﻤﺤﻴﻂ ﻟﻴﺠﻤﻊ ﻃﺎﻗﺘﻪ،\nﻭﻳﻘﺎﻝ ﺇﻥ ﺍﻷﻋﺎﺻﻴﺮ ﺗﻬﺐ ﺣﻴﻦ ﻳﺴﺘﻴﻘﻆ!");
+const u8 gKingdraPokedexText[] = _("ﻳﻨﺎﻡ ﻓﻲ ﺃﻋﻤﺎﻕ ﻤﺤﻴﻂ ﻟﻴﺠﻤﻊ\nﻃﺎﻗﺘﻪ، ﻭﻳﻘﺎﻝ ﺇﻥ ﺍﻷﻋﺎﺻﻴﺮ ﺗﻬﺐ ﺣﻴﻦ\nﻳﺴﺘﻴﻘﻆ!");
 
 const u8 gKingdraPokedexTextUnused[] = _("");
 
@@ -929,7 +929,7 @@ const u8 gPhanpyPokedexText[] = _("ﻳﻌﺒﺮ ﻋﻦ ﻣﺤﺒﺘﻪ ﺑﻨﻄ
 
 const u8 gPhanpyPokedexTextUnused[] = _("");
 
-const u8 gDonphanPokedexText[] = _("ﻛﻠﻤﺎ ﻃﺎﻝ ﻧﺎﺑﻪ ﻭﻛﺒﺮ، ﺍﺭﺗﻔﻌﺖ ﻣﻜﺎﻧﺘﻪ\nﻓﻲ ﻗﻄﻴﻌﻪ، ﻟﻜﻦ ﺍﻷﻧﻴﺎﺏ ﺗﺤﺘﺎﺝ ﻭﻗﺘﺎ\nﻃﻮﻳﻼ ﻟﺘﻨﻤﻮ.");
+const u8 gDonphanPokedexText[] = _("ﻛﻠﻤﺎ ﻃﺎﻝ ﻧﺎﺑﻪ ﻭﻛﺒﺮ، ﺍﺭﺗﻔﻌﺖ\nﻣﻜﺎﻧﺘﻪ ﻓﻲ ﻗﻄﻴﻌﻪ، ﻟﻜﻦ ﺍﻷﻧﻴﺎﺏ\nﺗﺤﺘﺎﺝ ﻭﻗﺘﺎ ﻃﻮﻳﻼ ﻟﺘﻨﻤﻮ.");
 
 const u8 gDonphanPokedexTextUnused[] = _("");
 
@@ -937,11 +937,11 @@ const u8 gPorygon2PokedexText[] = _("ﻃﻮﺭﺕ ﺍﻷﺑﺤﺎﺙ ﻗﺪﺭ�
 
 const u8 gPorygon2PokedexTextUnused[] = _("");
 
-const u8 gStantlerPokedexText[] = _("ﻣﻦ ﻳﺤﺪﻕ ﻓﻲ ﻗﺮﻧﻴﻪ ﻳﻔﻘﺪ ﺴﻴﻄﺮﺓ ﻋﻠﻰ\nﺣﻮﺳﻪ ﺷﻴﺌﺎ ﻓﺸﻴﺌﺎ، ﺣﺘﻰ ﻳﻌﺠﺰ ﻋﻦ\nﻮﻗﻮﻑ.");
+const u8 gStantlerPokedexText[] = _("ﻣﻦ ﻳﺤﺪﻕ ﻓﻲ ﻗﺮﻧﻴﻪ ﻳﻔﻘﺪ ﺴﻴﻄﺮﺓ\nﻋﻠﻰ ﺣﻮﺳﻪ ﺷﻴﺌﺎ ﻓﺸﻴﺌﺎ، ﺣﺘﻰ ﻳﻌﺠﺰ\nﻋﻦ ﻮﻗﻮﻑ.");
 
 const u8 gStantlerPokedexTextUnused[] = _("");
 
-const u8 gSmearglePokedexText[] = _("ﺣﻴﻦ ﻳﺒﻠﻎ، ﻳﺘﺮﻙ ﺭﻓﺎﻗﻪ ﻳﻄﺒﻌﻮﻥ ﺁﺛﺎﺭ\nﺃﻗﺪﻣﻬﻢ ﻋﻠﻰ ﻇﻬﺮﻩ.");
+const u8 gSmearglePokedexText[] = _("ﺣﻴﻦ ﻳﺒﻠﻎ، ﻳﺘﺮﻙ ﺭﻓﺎﻗﻪ ﻳﻄﺒﻌﻮﻥ\nﺁﺛﺎﺭ ﺃﻗﺪﻣﻬﻢ ﻋﻠﻰ ﻇﻬﺮﻩ.");
 
 const u8 gSmearglePokedexTextUnused[] = _("");
 
@@ -949,7 +949,7 @@ const u8 gTyroguePokedexText[] = _("ﺭﻏﻢ ﺻﻐﺮ ﺣﺠﻤﻪ، ﻻ ﻳ�
 
 const u8 gTyroguePokedexTextUnused[] = _("");
 
-const u8 gHitmontopPokedexText[] = _("ﻳﻄﻠﻖ ﺭﻛﻼﺗﻪ ﻭﻫﻮ ﻳﺪﻭﺭ، ﻭﺫ ﺩﺭ ﺑﺴﺮﻋﺔ\nﻓﺎﺋﻘﺔ ﻗﺪ ﻳﺤﻔﺮ ﻃﺮﻳﻘﻪ ﻓﻲ ﺍﻷﺭﺽ.");
+const u8 gHitmontopPokedexText[] = _("ﻳﻄﻠﻖ ﺭﻛﻼﺗﻪ ﻭﻫﻮ ﻳﺪﻭﺭ، ﻭﺫ ﺩﺭ\nﺑﺴﺮﻋﺔ ﻓﺎﺋﻘﺔ ﻗﺪ ﻳﺤﻔﺮ ﻃﺮﻳﻘﻪ ﻓﻲ\nﺍﻷﺭﺽ.");
 
 const u8 gHitmontopPokedexTextUnused[] = _("");
 
@@ -957,11 +957,11 @@ const u8 gSmoochumPokedexText[] = _("ﻳﻬﺰ ﺭﺳﻪ ﺩﺋﻤﺎ ﺇ�
 
 const u8 gSmoochumPokedexTextUnused[] = _("");
 
-const u8 gElekidPokedexText[] = _("ﺣﺘﻰ ﻓﻲ ﺃﻋﺘﻰ ﻌﻮﺻﻒ، ﻳﻠﻌﺐ ﺳﻌﻴﺪ ﺇﺫ\nﺩﻭﻯ ﺮﻋﺪ ﻓﻲ ﺴﻤﺎﺀ.");
+const u8 gElekidPokedexText[] = _("ﺣﺘﻰ ﻓﻲ ﺃﻋﺘﻰ ﻌﻮﺻﻒ، ﻳﻠﻌﺐ ﺳﻌﻴﺪ\nﺇﺫ ﺩﻭﻯ ﺮﻋﺪ ﻓﻲ ﺴﻤﺎﺀ.");
 
 const u8 gElekidPokedexTextUnused[] = _("");
 
-const u8 gMagbyPokedexText[] = _("ﻳﻌﻴﺶ ﻓﻲ ﻓﻮﻫﺎﺕ ﺒﺮﻛﻴﻦ، ﻭﺣﺮﺭﺓ ﺟﺴﺪﻩ\nﺗﺘﺠﺎﻭﺯ 600 ﺩﺭﺟﺔ ﻣﺌﻮﻳﺔ، ﻓﻼ ﺗﺴﺘﻬﻦ\nﺑﻪ!");
+const u8 gMagbyPokedexText[] = _("ﻳﻌﻴﺶ ﻓﻲ ﻓﻮﻫﺎﺕ ﺒﺮﻛﻴﻦ، ﻭﺣﺮﺭﺓ\nﺟﺴﺪﻩ ﺗﺘﺠﺎﻭﺯ 600 ﺩﺭﺟﺔ ﻣﺌﻮﻳﺔ، ﻓﻼ\nﺗﺴﺘﻬﻦ ﺑﻪ!");
 
 const u8 gMagbyPokedexTextUnused[] = _("");
 
@@ -973,15 +973,15 @@ const u8 gBlisseyPokedexText[] = _("ﻗﻠﺒﻬﺎ ﻣﻠﻲﺀ ﺑﺎﻟﺮﺣ
 
 const u8 gBlisseyPokedexTextUnused[] = _("");
 
-const u8 gRaikouPokedexText[] = _("ﻳﺠﻮﺏ ﺍﻷﺭﺽ ﺑﺴﺮﻋﺔ ﺒﺮﻕ، ﻣﻄﻠﻘﺎ ﺯﺋﻴﺮ\nﻳﺪﻭﻱ ﻛﻘﺼﻒ ﺮﻋﺪ.");
+const u8 gRaikouPokedexText[] = _("ﻳﺠﻮﺏ ﺍﻷﺭﺽ ﺑﺴﺮﻋﺔ ﺒﺮﻕ، ﻣﻄﻠﻘﺎ\nﺯﺋﻴﺮ ﻳﺪﻭﻱ ﻛﻘﺼﻒ ﺮﻋﺪ.");
 
 const u8 gRaikouPokedexTextUnused[] = _("");
 
-const u8 gEnteiPokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻳﺠﻮﺏ ﺍﻷﺭﺽ، ﻭﻳﻘﺎﻝ ﺇﻥ ﻭﺣﺪ\nﻣﻨﻪ ﻳﻮﻟﺪ ﻛﻠﻤﺎ ﻇﻬﺮ ﺑﺮﻛﺎﻥ ﺟﺪﻳﺪ.");
+const u8 gEnteiPokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻳﺠﻮﺏ ﺍﻷﺭﺽ، ﻭﻳﻘﺎﻝ ﺇﻥ\nﻭﺣﺪ ﻣﻨﻪ ﻳﻮﻟﺪ ﻛﻠﻤﺎ ﻇﻬﺮ ﺑﺮﻛﺎﻥ\nﺟﺪﻳﺪ.");
 
 const u8 gEnteiPokedexTextUnused[] = _("");
 
-const u8 gSuicunePokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻳﺠﻮﺏ ﺍﻷﺭﺽ، ﻭﻳﻘﺎﻝ ﺇﻥ ﺭﻳﺎﺡ\nﺸﻤﺎﻝ ﺗﻬﺐ ﻛﻠﻤﺎ ﻇﻬﺮ، ﻟﺴﺒﺐ ﻻ ﻳﻌﺮﻓﻪ\nﺃﺣﺪ.");
+const u8 gSuicunePokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻳﺠﻮﺏ ﺍﻷﺭﺽ، ﻭﻳﻘﺎﻝ ﺇﻥ\nﺭﻳﺎﺡ ﺸﻤﺎﻝ ﺗﻬﺐ ﻛﻠﻤﺎ ﻇﻬﺮ، ﻟﺴﺒﺐ ﻻ\nﻳﻌﺮﻓﻪ ﺃﺣﺪ.");
 
 const u8 gSuicunePokedexTextUnused[] = _("");
 
@@ -997,19 +997,19 @@ const u8 gTyranitarPokedexText[] = _("ﻻ ﻳﻀﺮﻩ ﺃﻱ ﻫﺠﻮﻡ، ﻟ
 
 const u8 gTyranitarPokedexTextUnused[] = _("");
 
-const u8 gLugiaPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﺣﺎﺭﺱ ﺒﺤﺎﺭ، ﻭﺗﺮﻭﻱ ﺸﺎﺋﻌﺎﺕ\nﺃﻧﻪ ﺷﻮﻫﺪ ﻓﻲ ﻟﻴﻠﺔ ﻋﺎﺻﻔﺔ.");
+const u8 gLugiaPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﺣﺎﺭﺱ ﺒﺤﺎﺭ، ﻭﺗﺮﻭﻱ\nﺸﺎﺋﻌﺎﺕ ﺃﻧﻪ ﺷﻮﻫﺪ ﻓﻲ ﻟﻴﻠﺔ ﻋﺎﺻﻔﺔ.");
 
 const u8 gLugiaPokedexTextUnused[] = _("");
 
-const u8 gHoOhPokedexText[] = _("ﺗﻘﻮﻝ ﺍﻷﺳﻄﻮﺭﺓ ﺇﻥ ﺟﺴﺪﻩ ﻳﺘﻮﻫﺞ ﺑﺴﺒﻌﺔ\nﺃﻟﻮﻥ، ﻭﻥ ﻗﻮﺱ ﻗﺰﺡ ﻳﺘﺸﻜﻞ ﺧﻠﻔﻪ ﺣﻴﻦ\nﻳﻄﻴﺮ.");
+const u8 gHoOhPokedexText[] = _("ﺗﻘﻮﻝ ﺍﻷﺳﻄﻮﺭﺓ ﺇﻥ ﺟﺴﺪﻩ ﻳﺘﻮﻫﺞ\nﺑﺴﺒﻌﺔ ﺃﻟﻮﻥ، ﻭﻥ ﻗﻮﺱ ﻗﺰﺡ ﻳﺘﺸﻜﻞ\nﺧﻠﻔﻪ ﺣﻴﻦ ﻳﻄﻴﺮ.");
 
 const u8 gHoOhPokedexTextUnused[] = _("");
 
-const u8 gCelebiPokedexText[] = _("ﺣﻴﻦ ﻳﺨﺘﻔﻲ ﺳﻴﻠﻴﺒﻲ ﻓﻲ ﺃﻋﻤﺎﻕ ﻐﺎﺑﺔ،\nﻳﻘﺎﻝ ﺇﻧﻪ ﻳﺘﺮﻙ ﻭﺭﺀﻩ ﺑﻴﻀﺔ ﺟﺎﺀ ﺑﻬﺎ ﻣﻦ\nﻤﺴﺘﻘﺒﻞ.");
+const u8 gCelebiPokedexText[] = _("ﺣﻴﻦ ﻳﺨﺘﻔﻲ ﺳﻴﻠﻴﺒﻲ ﻓﻲ ﺃﻋﻤﺎﻕ\nﻐﺎﺑﺔ، ﻳﻘﺎﻝ ﺇﻧﻪ ﻳﺘﺮﻙ ﻭﺭﺀﻩ ﺑﻴﻀﺔ\nﺟﺎﺀ ﺑﻬﺎ ﻣﻦ ﻤﺴﺘﻘﺒﻞ.");
 
 const u8 gCelebiPokedexTextUnused[] = _("");
 
-const u8 gTreeckoPokedexText[] = _("ﻳﺘﺴﻠﻖ ﺣﺘﻰ ﺠﺪﺭﻥ ﻌﻤﻮﺩﻳﺔ ﺑﺴﺮﻋﺔ،\nﻭﻳﺴﺘﺸﻌﺮ ﺮﻃﻮﺑﺔ ﺑﺬﻳﻠﻪ ﻟﻴﺘﻮﻗﻊ ﻃﻘﺲ\nﻐﺪ.");
+const u8 gTreeckoPokedexText[] = _("ﻳﺘﺴﻠﻖ ﺣﺘﻰ ﺠﺪﺭﻥ ﻌﻤﻮﺩﻳﺔ ﺑﺴﺮﻋﺔ،\nﻭﻳﺴﺘﺸﻌﺮ ﺮﻃﻮﺑﺔ ﺑﺬﻳﻠﻪ ﻟﻴﺘﻮﻗﻊ\nﻃﻘﺲ ﻐﺪ.");
 
 const u8 gTreeckoPokedexTextUnused[] = _("");
 
@@ -1021,7 +1021,7 @@ const u8 gSceptilePokedexText[] = _("ﺃﻭﺭﻕ ﺫﺭﻋﻴﻪ ﺣﺎ�
 
 const u8 gSceptilePokedexTextUnused[] = _("");
 
-const u8 gTorchicPokedexText[] = _("ﻓﻲ ﺑﻄﻨﻪ ﻛﻴﺲ ﻟﻬﺐ ﻻ ﻳﻨﻄﻔﺊ ﺃﺑﺪ، ﻓﺈﺫ\nﺍﺣﺘﻀﻨﺘﻪ ﺷﻌﺮﺕ ﺑﺪﻓﺌﻪ.");
+const u8 gTorchicPokedexText[] = _("ﻓﻲ ﺑﻄﻨﻪ ﻛﻴﺲ ﻟﻬﺐ ﻻ ﻳﻨﻄﻔﺊ ﺃﺑﺪ،\nﻓﺈﺫ ﺍﺣﺘﻀﻨﺘﻪ ﺷﻌﺮﺕ ﺑﺪﻓﺌﻪ.");
 
 const u8 gTorchicPokedexTextUnused[] = _("");
 
@@ -1029,27 +1029,27 @@ const u8 gCombuskenPokedexText[] = _("ﻳﺸﺤﺬ ﺗﺮﻛﻴﺰﻩ ﺑﺼﻴ�
 
 const u8 gCombuskenPokedexTextUnused[] = _("");
 
-const u8 gBlazikenPokedexText[] = _("ﺇﺫ ﻭﺟﻪ ﺧﺼﻤﺎ ﻋﻨﻴﺪ، ﺍﻧﻄﻠﻘﺖ ﻨﻴﺮﻥ\nﻣﻦ ﻣﻌﺼﻤﻴﻪ، ﻭﺑﺴﺎﻗﻴﻪ ﺠﺒﺎﺭﺗﻴﻦ ﻳﻘﻔﺰ\nﻓﻮﻕ ﻤﺒﺎﻧﻲ!");
+const u8 gBlazikenPokedexText[] = _("ﺇﺫ ﻭﺟﻪ ﺧﺼﻤﺎ ﻋﻨﻴﺪ، ﺍﻧﻄﻠﻘﺖ ﻨﻴﺮﻥ\nﻣﻦ ﻣﻌﺼﻤﻴﻪ، ﻭﺑﺴﺎﻗﻴﻪ ﺠﺒﺎﺭﺗﻴﻦ\nﻳﻘﻔﺰ ﻓﻮﻕ ﻤﺒﺎﻧﻲ!");
 
 const u8 gBlazikenPokedexTextUnused[] = _("");
 
-const u8 gMudkipPokedexText[] = _("ﺯﻋﻨﻔﺔ ﺫﻳﻠﻪ ﻜﺒﻴﺮﺓ ﺗﺪﻓﻌﻪ ﻓﻲ ﻤﺎﺀ\nﺑﺘﺴﺎﺭﻉ ﻗﻮﻱ، ﻭﻫﻮ ﻗﻮﻱ ﺭﻏﻢ ﺻﻐﺮ ﺣﺠﻤﻪ.");
+const u8 gMudkipPokedexText[] = _("ﺯﻋﻨﻔﺔ ﺫﻳﻠﻪ ﻜﺒﻴﺮﺓ ﺗﺪﻓﻌﻪ ﻓﻲ ﻤﺎﺀ\nﺑﺘﺴﺎﺭﻉ ﻗﻮﻱ، ﻭﻫﻮ ﻗﻮﻱ ﺭﻏﻢ ﺻﻐﺮ\nﺣﺠﻤﻪ.");
 
 const u8 gMudkipPokedexTextUnused[] = _("");
 
-const u8 gMarshtompPokedexText[] = _("ﻳﻜﻮﻥ ﻓﻲ ﺃﻓﻀﻞ ﺣﺎﻻﺗﻪ ﻋﻠﻰ ﺍﻷﺭﺽ\nﻤﻮﺣﻠﺔ، ﻓﻴﻄﻴﺢ ﺑﺨﺼﻮﻣﻪ ﻭﻫﻢ ﻳﺘﺨﺒﻄﻮﻥ\nﻓﻲ ﻄﻴﻦ.");
+const u8 gMarshtompPokedexText[] = _("ﻳﻜﻮﻥ ﻓﻲ ﺃﻓﻀﻞ ﺣﺎﻻﺗﻪ ﻋﻠﻰ ﺍﻷﺭﺽ\nﻤﻮﺣﻠﺔ، ﻓﻴﻄﻴﺢ ﺑﺨﺼﻮﻣﻪ ﻭﻫﻢ\nﻳﺘﺨﺒﻄﻮﻥ ﻓﻲ ﻄﻴﻦ.");
 
 const u8 gMarshtompPokedexTextUnused[] = _("");
 
-const u8 gSwampertPokedexText[] = _("ﺫﺭﻋﺎﻩ ﺻﻠﺒﺘﺎﻥ ﻛﺎﻟﺼﺨﺮ، ﻳﻄﻴﺢ ﺑﺨﺼﻤﻪ\nﺑﻀﺮﺑﺔ ﻭﺣﺪﺓ، ﻭﻳﺒﻨﻲ ﻋﺸﻪ ﻋﻠﻰ ﺸﻮﻃﺊ\nﺠﻤﻴﻠﺔ.");
+const u8 gSwampertPokedexText[] = _("ﺫﺭﻋﺎﻩ ﺻﻠﺒﺘﺎﻥ ﻛﺎﻟﺼﺨﺮ، ﻳﻄﻴﺢ ﺑﺨﺼﻤﻪ\nﺑﻀﺮﺑﺔ ﻭﺣﺪﺓ، ﻭﻳﺒﻨﻲ ﻋﺸﻪ ﻋﻠﻰ\nﺸﻮﻃﺊ ﺠﻤﻴﻠﺔ.");
 
 const u8 gSwampertPokedexTextUnused[] = _("");
 
-const u8 gPoochyenaPokedexText[] = _("ﻋﻨﻴﺪ ﻟﻠﻐﺎﻳﺔ، ﻭﺣﺎﺳﺔ ﺷﻤﻪ ﺤﺎﺩﺓ ﺗﻤﻜﻨﻪ\nﻣﻦ ﻣﻄﺎﺭﺩﺓ ﻓﺮﻳﺴﺘﻪ ﺩﻭﻥ ﺃﻥ ﻳﻔﻘﺪ ﺃﺛﺮﻫﺎ\nﺃﺑﺪ.");
+const u8 gPoochyenaPokedexText[] = _("ﻋﻨﻴﺪ ﻟﻠﻐﺎﻳﺔ، ﻭﺣﺎﺳﺔ ﺷﻤﻪ ﺤﺎﺩﺓ\nﺗﻤﻜﻨﻪ ﻣﻦ ﻣﻄﺎﺭﺩﺓ ﻓﺮﻳﺴﺘﻪ ﺩﻭﻥ ﺃﻥ\nﻳﻔﻘﺪ ﺃﺛﺮﻫﺎ ﺃﺑﺪ.");
 
 const u8 gPoochyenaPokedexTextUnused[] = _("");
 
-const u8 gMightyenaPokedexText[] = _("ﻳﻄﻴﻊ ﺩﺋﻤﺎ ﺃﻭﻣﺮ ﻤﺪﺭﺏ ﻤﺎﻫﺮ، ﻓﻘﺪ\nﻭﺭﺙ ﻫﺬ ﻄﺒﻊ ﻣﻦ ﺃﺳﻼﻓﻪ ﺬﻳﻦ ﻋﺎﺷﻮ ﻓﻲ\nﻗﻄﻌﺎﻥ ﻣﻨﺬ ﻘﺪﻡ.");
+const u8 gMightyenaPokedexText[] = _("ﻳﻄﻴﻊ ﺩﺋﻤﺎ ﺃﻭﻣﺮ ﻤﺪﺭﺏ ﻤﺎﻫﺮ، ﻓﻘﺪ\nﻭﺭﺙ ﻫﺬ ﻄﺒﻊ ﻣﻦ ﺃﺳﻼﻓﻪ ﺬﻳﻦ ﻋﺎﺷﻮ\nﻓﻲ ﻗﻄﻌﺎﻥ ﻣﻨﺬ ﻘﺪﻡ.");
 
 const u8 gMightyenaPokedexTextUnused[] = _("");
 
@@ -1057,15 +1057,15 @@ const u8 gZigzagoonPokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻓﻀﻮﻟﻲ ﻟ�
 
 const u8 gZigzagoonPokedexTextUnused[] = _("");
 
-const u8 gLinoonePokedexText[] = _("ﺇﺫ ﻋﺪ ﻓﻲ ﺧﻂ ﻣﺴﺘﻘﻴﻢ ﺗﺠﺎﻭﺯﺕ ﺳﺮﻋﺘﻪ\n100 ﻛﻴﻠﻮﻣﺘﺮ ﻓﻲ ﺴﺎﻋﺔ، ﻟﻜﻦ\nﻤﻨﻌﻄﻔﺎﺕ ﺗﺮﺑﻜﻪ ﻛﺜﻴﺮ!");
+const u8 gLinoonePokedexText[] = _("ﺇﺫ ﻋﺪ ﻓﻲ ﺧﻂ ﻣﺴﺘﻘﻴﻢ ﺗﺠﺎﻭﺯﺕ\nﺳﺮﻋﺘﻪ 100 ﻛﻴﻠﻮﻣﺘﺮ ﻓﻲ ﺴﺎﻋﺔ، ﻟﻜﻦ\nﻤﻨﻌﻄﻔﺎﺕ ﺗﺮﺑﻜﻪ ﻛﺜﻴﺮ!");
 
 const u8 gLinoonePokedexTextUnused[] = _("");
 
-const u8 gWurmplePokedexText[] = _("ﻳﻌﻴﺶ ﺑﻴﻦ ﺍﻷﻋﺸﺎﺏ ﻄﻮﻳﻠﺔ ﻭﻓﻲ\nﻐﺎﺑﺎﺕ، ﻭﺫ ﻫﻮﺟﻢ ﻗﺎﻭﻡ ﻣﻮﺟﻬﺎ ﺃﺷﻮﻛﻪ\nﺴﺎﻣﺔ ﻧﺤﻮ ﺧﺼﻤﻪ.");
+const u8 gWurmplePokedexText[] = _("ﻳﻌﻴﺶ ﺑﻴﻦ ﺍﻷﻋﺸﺎﺏ ﻄﻮﻳﻠﺔ ﻭﻓﻲ\nﻐﺎﺑﺎﺕ، ﻭﺫ ﻫﻮﺟﻢ ﻗﺎﻭﻡ ﻣﻮﺟﻬﺎ\nﺃﺷﻮﻛﻪ ﺴﺎﻣﺔ ﻧﺤﻮ ﺧﺼﻤﻪ.");
 
 const u8 gWurmplePokedexTextUnused[] = _("");
 
-const u8 gSilcoonPokedexText[] = _("ﻳﻘﺘﺼﺪ ﻓﻲ ﻃﺎﻗﺘﻪ ﻓﻼ ﻳﺘﺤﺮﻙ ﺇﻻ ﻗﻠﻴﻼ،\nﻭﻳﻨﺘﻈﺮ ﺗﻄﻮﺭﻩ ﻣﻜﺘﻔﻴﺎ ﺑﻘﻄﺮﺕ ﻗﻠﻴﻠﺔ\nﻣﻦ ﻣﺎﺀ ﻤﻄﺮ.");
+const u8 gSilcoonPokedexText[] = _("ﻳﻘﺘﺼﺪ ﻓﻲ ﻃﺎﻗﺘﻪ ﻓﻼ ﻳﺘﺤﺮﻙ ﺇﻻ ﻗﻠﻴﻼ،\nﻭﻳﻨﺘﻈﺮ ﺗﻄﻮﺭﻩ ﻣﻜﺘﻔﻴﺎ ﺑﻘﻄﺮﺕ\nﻗﻠﻴﻠﺔ ﻣﻦ ﻣﺎﺀ ﻤﻄﺮ.");
 
 const u8 gSilcoonPokedexTextUnused[] = _("");
 
@@ -1073,11 +1073,11 @@ const u8 gBeautiflyPokedexText[] = _("ﺭﻏﻢ ﻣﻈﻬﺮﻩ ﺠﻤﻴﻞ�
 
 const u8 gBeautiflyPokedexTextUnused[] = _("");
 
-const u8 gCascoonPokedexText[] = _("ﺟﺴﺪﻩ ﻤﺼﻨﻮﻉ ﻣﻦ ﺣﺮﻳﺮ ﻧﺎﻋﻢ ﻳﺘﺼﻠﺐ ﻣﻊ\nﻮﻗﺖ، ﻓﺈﺫ ﻇﻬﺮﺕ ﻓﻴﻪ ﺸﻘﻮﻕ ﺍﻗﺘﺮﺏ\nﻣﻮﻋﺪ ﺘﻄﻮﺭ.");
+const u8 gCascoonPokedexText[] = _("ﺟﺴﺪﻩ ﻤﺼﻨﻮﻉ ﻣﻦ ﺣﺮﻳﺮ ﻧﺎﻋﻢ ﻳﺘﺼﻠﺐ\nﻣﻊ ﻮﻗﺖ، ﻓﺈﺫ ﻇﻬﺮﺕ ﻓﻴﻪ ﺸﻘﻮﻕ\nﺍﻗﺘﺮﺏ ﻣﻮﻋﺪ ﺘﻄﻮﺭ.");
 
 const u8 gCascoonPokedexTextUnused[] = _("");
 
-const u8 gDustoxPokedexText[] = _("ﺇﺫ ﺍﺳﺘﺸﻌﺮ ﺨﻄﺮ ﻧﺜﺮ ﻏﺒﺎﺭ ﺷﺪﻳﺪ\nﺴﻤﻴﺔ، ﻭﺗﺘﺠﻤﻊ ﺃﺳﺮﺑﻪ ﻟﻴﻼ ﺣﻮﻝ ﺃﺿﻮﺀ\nﻤﺼﺎﺑﻴﺢ.");
+const u8 gDustoxPokedexText[] = _("ﺇﺫ ﺍﺳﺘﺸﻌﺮ ﺨﻄﺮ ﻧﺜﺮ ﻏﺒﺎﺭ ﺷﺪﻳﺪ\nﺴﻤﻴﺔ، ﻭﺗﺘﺠﻤﻊ ﺃﺳﺮﺑﻪ ﻟﻴﻼ ﺣﻮﻝ\nﺃﺿﻮﺀ ﻤﺼﺎﺑﻴﺢ.");
 
 const u8 gDustoxPokedexTextUnused[] = _("");
 
@@ -1085,7 +1085,7 @@ const u8 gLotadPokedexText[] = _("ﻳﺠﻮﺏ ﻤﻜﺎﻥ ﺑﺤﺜﺎ ﻋ�
 
 const u8 gLotadPokedexTextUnused[] = _("");
 
-const u8 gLombrePokedexText[] = _("ﻳﻌﻴﺶ ﻋﻠﻰ ﺿﻔﺎﻑ ﻤﻴﺎﻩ ﻤﺸﻤﺴﺔ، ﻳﻨﺎﻡ\nﻧﻬﺎﺭ ﻋﻠﻰ ﻓﺮﺵ ﻣﻦ ﻋﺸﺐ ﻤﺎﺀ، ﻭﻳﻨﺸﻂ\nﻟﻴﻼ.");
+const u8 gLombrePokedexText[] = _("ﻳﻌﻴﺶ ﻋﻠﻰ ﺿﻔﺎﻑ ﻤﻴﺎﻩ ﻤﺸﻤﺴﺔ،\nﻳﻨﺎﻡ ﻧﻬﺎﺭ ﻋﻠﻰ ﻓﺮﺵ ﻣﻦ ﻋﺸﺐ ﻤﺎﺀ،\nﻭﻳﻨﺸﻂ ﻟﻴﻼ.");
 
 const u8 gLombrePokedexTextUnused[] = _("");
 
@@ -1097,7 +1097,7 @@ const u8 gSeedotPokedexText[] = _("ﺇﺫ ﺑﻘﻲ ﺳﺎﻛﻨﺎ، ﺍﺳ�
 
 const u8 gSeedotPokedexTextUnused[] = _("");
 
-const u8 gNuzleafPokedexText[] = _("ﻳﻌﻴﺶ ﻓﻲ ﺛﻘﻮﺏ ﺍﻷﺷﺠﺎﺭ ﻜﺒﻴﺮﺓ، ﻭﺻﻮﺕ\nﻧﺎﻳﻪ ﻌﺸﺒﻲ ﻳﻤﻸ ﻗﻠﻮﺏ ﺳﺎﻣﻌﻴﻪ ﺭﻫﺒﺔ.");
+const u8 gNuzleafPokedexText[] = _("ﻳﻌﻴﺶ ﻓﻲ ﺛﻘﻮﺏ ﺍﻷﺷﺠﺎﺭ ﻜﺒﻴﺮﺓ،\nﻭﺻﻮﺕ ﻧﺎﻳﻪ ﻌﺸﺒﻲ ﻳﻤﻸ ﻗﻠﻮﺏ\nﺳﺎﻣﻌﻴﻪ ﺭﻫﺒﺔ.");
 
 const u8 gNuzleafPokedexTextUnused[] = _("");
 
@@ -1105,7 +1105,7 @@ const u8 gShiftryPokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻛﺎﻥ ﻳﻬﺎﺏ
 
 const u8 gShiftryPokedexTextUnused[] = _("");
 
-const u8 gTaillowPokedexText[] = _("ﻳﻜﺮﻩ ﻤﻮﺳﻢ ﺒﺎﺭﺩﺓ، ﻓﻴﻬﺎﺟﺮ ﺇﻟﻰ ﺃﺭﺽ\nﺃﺧﺮﻯ ﺑﺤﺜﺎ ﻋﻦ ﺪﻑﺀ، ﻃﺎﺋﺮ ﺃﻛﺜﺮ ﻣﻦ\n300 ﻛﻴﻠﻮﻣﺘﺮ ﻓﻲ ﻴﻮﻡ.");
+const u8 gTaillowPokedexText[] = _("ﻳﻜﺮﻩ ﻤﻮﺳﻢ ﺒﺎﺭﺩﺓ، ﻓﻴﻬﺎﺟﺮ ﺇﻟﻰ\nﺃﺭﺽ ﺃﺧﺮﻯ ﺑﺤﺜﺎ ﻋﻦ ﺪﻑﺀ، ﻃﺎﺋﺮ\nﺃﻛﺜﺮ ﻣﻦ 300 ﻛﻴﻠﻮﻣﺘﺮ ﻓﻲ ﻴﻮﻡ.");
 
 const u8 gTaillowPokedexTextUnused[] = _("");
 
@@ -1117,7 +1117,7 @@ const u8 gWingullPokedexText[] = _("ﻳﻤﺘﻄﻲ ﺭﻳﺎﺡ ﻤﺤﻴﻂ
 
 const u8 gWingullPokedexTextUnused[] = _("");
 
-const u8 gPelipperPokedexText[] = _("ﻧﺎﻗﻞ ﻃﺎﺋﺮ ﻳﺤﻤﻞ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺼﻐﻴﺮﺓ\nﻓﻲ ﻣﻨﻘﺎﺭﻩ، ﻭﻳﻄﻔﻮ ﻋﻠﻰ ﺍﻷﻣﻮﺝ ﻟﻴﺮﻳﺢ\nﺟﻨﺎﺣﻴﻪ.");
+const u8 gPelipperPokedexText[] = _("ﻧﺎﻗﻞ ﻃﺎﺋﺮ ﻳﺤﻤﻞ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\nﺼﻐﻴﺮﺓ ﻓﻲ ﻣﻨﻘﺎﺭﻩ، ﻭﻳﻄﻔﻮ ﻋﻠﻰ\nﺍﻷﻣﻮﺝ ﻟﻴﺮﻳﺢ ﺟﻨﺎﺣﻴﻪ.");
 
 const u8 gPelipperPokedexTextUnused[] = _("");
 
@@ -1129,7 +1129,7 @@ const u8 gKirliaPokedexText[] = _("ﺭﻭﺡ ﻣﺪﺭﺑﻪ ﻤﺮﺣﺔ ﺗ
 
 const u8 gKirliaPokedexTextUnused[] = _("");
 
-const u8 gGardevoirPokedexText[] = _("ﻳﺴﺘﺸﻌﺮ ﻣﺎ ﻫﻮ ﺁﺕ ﻗﺒﻞ ﺃﻥ ﻳﺤﺪﺙ،\nﻭﺗﺒﻠﻎ ﻗﻮﺗﻪ ﺫﺭﻭﺗﻬﺎ ﺣﻴﻦ ﻳﺤﻤﻲ ﻣﺪﺭﺑﻪ.");
+const u8 gGardevoirPokedexText[] = _("ﻳﺴﺘﺸﻌﺮ ﻣﺎ ﻫﻮ ﺁﺕ ﻗﺒﻞ ﺃﻥ ﻳﺤﺪﺙ،\nﻭﺗﺒﻠﻎ ﻗﻮﺗﻪ ﺫﺭﻭﺗﻬﺎ ﺣﻴﻦ ﻳﺤﻤﻲ\nﻣﺪﺭﺑﻪ.");
 
 const u8 gGardevoirPokedexTextUnused[] = _("");
 
@@ -1137,11 +1137,11 @@ const u8 gSurskitPokedexText[] = _("ﻳﻌﻴﺶ ﻋﺎﺩﺓ ﻓﻲ ﺒﺮ�
 
 const u8 gSurskitPokedexTextUnused[] = _("");
 
-const u8 gMasquerainPokedexText[] = _("ﻋﻠﻰ ﻗﺮﻧﻲ ﺍﺳﺘﺸﻌﺎﺭﻩ ﻧﻘﻮﺵ ﻣﻤﻴﺰﺓ\nﺗﺸﺒﻪ ﻌﻴﻮﻥ، ﻭﺫ ﺃﻣﻄﺮﺕ ﺛﻘﻼ ﻓﻌﺠﺰ ﻋﻦ\nﻄﻴﺮﻥ.");
+const u8 gMasquerainPokedexText[] = _("ﻋﻠﻰ ﻗﺮﻧﻲ ﺍﺳﺘﺸﻌﺎﺭﻩ ﻧﻘﻮﺵ ﻣﻤﻴﺰﺓ\nﺗﺸﺒﻪ ﻌﻴﻮﻥ، ﻭﺫ ﺃﻣﻄﺮﺕ ﺛﻘﻼ ﻓﻌﺠﺰ\nﻋﻦ ﻄﻴﺮﻥ.");
 
 const u8 gMasquerainPokedexTextUnused[] = _("");
 
-const u8 gShroomishPokedexText[] = _("ﻳﻔﻀﻞ ﺍﻷﻣﺎﻛﻦ ﺮﻃﺒﺔ، ﻭﻳﺒﻘﻰ ﻧﻬﺎﺭ\nﺳﺎﻛﻨﺎ ﻓﻲ ﻇﻼﻝ ﻐﺎﺑﺔ، ﻭﻳﻨﻔﺚ ﻣﻦ ﺭﺳﻪ\nﻣﺴﺤﻮﻗﺎ ﺳﺎﻣﺎ.");
+const u8 gShroomishPokedexText[] = _("ﻳﻔﻀﻞ ﺍﻷﻣﺎﻛﻦ ﺮﻃﺒﺔ، ﻭﻳﺒﻘﻰ ﻧﻬﺎﺭ\nﺳﺎﻛﻨﺎ ﻓﻲ ﻇﻼﻝ ﻐﺎﺑﺔ، ﻭﻳﻨﻔﺚ ﻣﻦ\nﺭﺳﻪ ﻣﺴﺤﻮﻗﺎ ﺳﺎﻣﺎ.");
 
 const u8 gShroomishPokedexTextUnused[] = _("");
 
@@ -1153,7 +1153,7 @@ const u8 gSlakothPokedexText[] = _("ﻳﻨﺎﻡ 20 ﺳﺎﻋﺔ ﻛﻞ ﻳﻮ�
 
 const u8 gSlakothPokedexTextUnused[] = _("");
 
-const u8 gVigorothPokedexText[] = _("ﺟﺎﺋﻊ ﺩﺋﻤﺎ ﻷﻧﻪ ﻻ ﻳﺘﻮﻗﻒ ﻋﻦ ﻬﻴﺠﺎﻥ،\nﻭﺣﺘﻰ ﻭﻫﻮ ﻳﺄﻛﻞ ﻻ ﻳﺴﺘﻄﻴﻊ ﺃﻥ ﻳﻬﺪ.");
+const u8 gVigorothPokedexText[] = _("ﺟﺎﺋﻊ ﺩﺋﻤﺎ ﻷﻧﻪ ﻻ ﻳﺘﻮﻗﻒ ﻋﻦ\nﻬﻴﺠﺎﻥ، ﻭﺣﺘﻰ ﻭﻫﻮ ﻳﺄﻛﻞ ﻻ ﻳﺴﺘﻄﻴﻊ\nﺃﻥ ﻳﻬﺪ.");
 
 const u8 gVigorothPokedexTextUnused[] = _("");
 
@@ -1161,15 +1161,15 @@ const u8 gSlakingPokedexText[] = _("ﺃﻛﺴﻞ ﺑﻮﻛﻴﻤﻮﻥ ﻓﻲ �
 
 const u8 gSlakingPokedexTextUnused[] = _("");
 
-const u8 gNincadaPokedexText[] = _("ﻋﺎﺵ ﻛﻞ ﺣﻴﺎﺗﻪ ﺗﻘﺮﻳﺒﺎ ﺗﺤﺖ ﺍﻷﺭﺽ، ﻓﺼﺎﺭ\nﺷﺒﻪ ﺃﻋﻤﻰ، ﻭﻳﻌﺘﻤﺪ ﻋﻠﻰ ﻗﺮﻧﻲ\nﺍﺳﺘﺸﻌﺎﺭﻩ ﺑﺪﻻ ﻣﻦ ﻋﻴﻨﻴﻪ.");
+const u8 gNincadaPokedexText[] = _("ﻋﺎﺵ ﻛﻞ ﺣﻴﺎﺗﻪ ﺗﻘﺮﻳﺒﺎ ﺗﺤﺖ ﺍﻷﺭﺽ،\nﻓﺼﺎﺭ ﺷﺒﻪ ﺃﻋﻤﻰ، ﻭﻳﻌﺘﻤﺪ ﻋﻠﻰ ﻗﺮﻧﻲ\nﺍﺳﺘﺸﻌﺎﺭﻩ ﺑﺪﻻ ﻣﻦ ﻋﻴﻨﻴﻪ.");
 
 const u8 gNincadaPokedexTextUnused[] = _("");
 
-const u8 gNinjaskPokedexText[] = _("ﺳﺮﻳﻊ ﺇﻟﻰ ﺣﺪ ﻳﻘﺎﻝ ﻣﻌﻪ ﺇﻧﻪ ﻳﺘﻔﺎﺩﻯ ﺃﻱ\nﻫﺠﻮﻡ، ﻭﻳﻌﺸﻖ ﺍﻣﺘﺼﺎﺹ ﻧﺴﻎ ﺍﻷﺷﺠﺎﺭ.");
+const u8 gNinjaskPokedexText[] = _("ﺳﺮﻳﻊ ﺇﻟﻰ ﺣﺪ ﻳﻘﺎﻝ ﻣﻌﻪ ﺇﻧﻪ ﻳﺘﻔﺎﺩﻯ\nﺃﻱ ﻫﺠﻮﻡ، ﻭﻳﻌﺸﻖ ﺍﻣﺘﺼﺎﺹ ﻧﺴﻎ\nﺍﻷﺷﺠﺎﺭ.");
 
 const u8 gNinjaskPokedexTextUnused[] = _("");
 
-const u8 gShedinjaPokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻏﺮﻳﺐ ﻟﻠﻐﺎﻳﺔ، ﻳﻈﻬﺮ ﺑﻄﺮﻳﻘﺔ\nﻣﺎ ﻓﻲ ﻛﺮﺓ ﺑﻮﻛﻴﻤﻮﻥ ﺣﻴﻦ ﻳﺘﻄﻮﺭ\nﻧﻴﻨﻜﺎﺩ.");
+const u8 gShedinjaPokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﻏﺮﻳﺐ ﻟﻠﻐﺎﻳﺔ، ﻳﻈﻬﺮ\nﺑﻄﺮﻳﻘﺔ ﻣﺎ ﻓﻲ ﻛﺮﺓ ﺑﻮﻛﻴﻤﻮﻥ ﺣﻴﻦ\nﻳﺘﻄﻮﺭ ﻧﻴﻨﻜﺎﺩ.");
 
 const u8 gShedinjaPokedexTextUnused[] = _("");
 
@@ -1201,31 +1201,31 @@ const u8 gNosepassPokedexText[] = _("ﺃﻧﻔﻪ ﻤﻐﻨﺎﻃﻴﺴﻲ �
 
 const u8 gNosepassPokedexTextUnused[] = _("");
 
-const u8 gSkittyPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻥ ﻛﺴﺐ ﺛﻘﺘﻪ ﺻﻌﺐ، ﻟﻜﻨﻪ ﻣﺤﺒﻮﺏ\nﺟﺪ ﻟﻤﻈﻬﺮﻩ ﻠﻄﻴﻒ ﻭﺗﺼﺮﻓﺎﺗﻪ ﻈﺮﻳﻔﺔ.");
+const u8 gSkittyPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻥ ﻛﺴﺐ ﺛﻘﺘﻪ ﺻﻌﺐ، ﻟﻜﻨﻪ\nﻣﺤﺒﻮﺏ ﺟﺪ ﻟﻤﻈﻬﺮﻩ ﻠﻄﻴﻒ ﻭﺗﺼﺮﻓﺎﺗﻪ\nﻈﺮﻳﻔﺔ.");
 
 const u8 gSkittyPokedexTextUnused[] = _("");
 
-const u8 gDelcattyPokedexText[] = _("ﻤﻔﻀﻞ ﻟﺪﻯ ﻤﺪﺭﺑﺎﺕ ﻤﻬﺘﻤﺎﺕ\nﺑﺎﻷﻧﺎﻗﺔ، ﻭﻳﺸﺎﺭﻙ ﻓﻲ ﻤﺴﺎﺑﻘﺎﺕ ﺑﻔﻀﻞ\nﺟﻤﺎﻟﻪ ﻭﻓﺮﻭﻩ ﺒﺪﻳﻊ.");
+const u8 gDelcattyPokedexText[] = _("ﻤﻔﻀﻞ ﻟﺪﻯ ﻤﺪﺭﺑﺎﺕ ﻤﻬﺘﻤﺎﺕ\nﺑﺎﻷﻧﺎﻗﺔ، ﻭﻳﺸﺎﺭﻙ ﻓﻲ ﻤﺴﺎﺑﻘﺎﺕ\nﺑﻔﻀﻞ ﺟﻤﺎﻟﻪ ﻭﻓﺮﻭﻩ ﺒﺪﻳﻊ.");
 
 const u8 gDelcattyPokedexTextUnused[] = _("");
 
-const u8 gSableyePokedexText[] = _("ﻳﺘﻐﺬﻯ ﻋﻠﻰ ﺑﻠﻮﺭﺕ ﺍﻷﺣﺠﺎﺭ ﻜﺮﻳﻤﺔ،\nﻭﻓﻲ ﻈﻼﻡ ﺗﺘﻸﻷ ﻋﻴﻨﺎﻩ ﺑﺒﺮﻳﻖ ﺠﻮﻫﺮ.");
+const u8 gSableyePokedexText[] = _("ﻳﺘﻐﺬﻯ ﻋﻠﻰ ﺑﻠﻮﺭﺕ ﺍﻷﺣﺠﺎﺭ ﻜﺮﻳﻤﺔ،\nﻭﻓﻲ ﻈﻼﻡ ﺗﺘﻸﻷ ﻋﻴﻨﺎﻩ ﺑﺒﺮﻳﻖ\nﺠﻮﻫﺮ.");
 
 const u8 gSableyePokedexTextUnused[] = _("");
 
-const u8 gMawilePokedexText[] = _("ﻳﺨﺪﻉ ﺧﺼﻮﻣﻪ ﺑﻮﺟﻬﻪ ﻮﺩﻳﻊ ﺣﺘﻰ\nﻳﻄﻤﺌﻨﻮ، ﺛﻢ ﻳﻌﻀﻬﻢ ﺑﻔﻜﻴﻪ ﻀﺨﻤﻴﻦ ﺑﻼ\nﺭﺣﻤﺔ!");
+const u8 gMawilePokedexText[] = _("ﻳﺨﺪﻉ ﺧﺼﻮﻣﻪ ﺑﻮﺟﻬﻪ ﻮﺩﻳﻊ ﺣﺘﻰ\nﻳﻄﻤﺌﻨﻮ، ﺛﻢ ﻳﻌﻀﻬﻢ ﺑﻔﻜﻴﻪ ﻀﺨﻤﻴﻦ\nﺑﻼ ﺭﺣﻤﺔ!");
 
 const u8 gMawilePokedexTextUnused[] = _("");
 
-const u8 gAronPokedexText[] = _("ﻳﺄﻛﻞ ﺤﺪﻳﺪ ﻟﻴﺒﻨﻲ ﺟﺴﺪﻩ ﻔﻮﻻﺫﻱ، ﻭﻗﺪ\nﻳﻨﺰﻝ ﻣﻦ ﺠﺒﺎﻝ ﻟﻴﻠﺘﻬﻢ ﺠﺴﻮﺭ ﻭﺳﻜﻚ\nﻘﻄﺎﺭﺕ.");
+const u8 gAronPokedexText[] = _("ﻳﺄﻛﻞ ﺤﺪﻳﺪ ﻟﻴﺒﻨﻲ ﺟﺴﺪﻩ ﻔﻮﻻﺫﻱ،\nﻭﻗﺪ ﻳﻨﺰﻝ ﻣﻦ ﺠﺒﺎﻝ ﻟﻴﻠﺘﻬﻢ ﺠﺴﻮﺭ\nﻭﺳﻜﻚ ﻘﻄﺎﺭﺕ.");
 
 const u8 gAronPokedexTextUnused[] = _("");
 
-const u8 gLaironPokedexText[] = _("ﻳﺴﺘﻌﺮﺽ ﻗﻮﺗﻪ ﺑﺤﺠﻢ ﺸﺮﺭ ﺬﻱ ﻳﺘﻄﺎﻳﺮ\nﺣﻴﻦ ﻳﺼﻄﺪﻡ ﺑﺠﺴﺪﻩ ﻔﻮﻻﺫﻱ ﺑﺎﻟﺼﺨﻮﺭ\nﻀﺨﻤﺔ.");
+const u8 gLaironPokedexText[] = _("ﻳﺴﺘﻌﺮﺽ ﻗﻮﺗﻪ ﺑﺤﺠﻢ ﺸﺮﺭ ﺬﻱ\nﻳﺘﻄﺎﻳﺮ ﺣﻴﻦ ﻳﺼﻄﺪﻡ ﺑﺠﺴﺪﻩ ﻔﻮﻻﺫﻱ\nﺑﺎﻟﺼﺨﻮﺭ ﻀﺨﻤﺔ.");
 
 const u8 gLaironPokedexTextUnused[] = _("");
 
-const u8 gAggronPokedexText[] = _("ﻳﺘﺨﺬ ﺟﺒﻼ ﻛﺒﻴﺮ ﺃﺭﺿﺎ ﻟﻪ ﻭﺣﺪﻩ، ﻭﻳﻨﻘﺾ\nﺑﻼ ﺭﺣﻤﺔ ﻋﻠﻰ ﻛﻞ ﻣﻦ ﻳﺘﻌﺪﻯ ﻋﻠﻰ\nﺣﻤﺎﻩ.");
+const u8 gAggronPokedexText[] = _("ﻳﺘﺨﺬ ﺟﺒﻼ ﻛﺒﻴﺮ ﺃﺭﺿﺎ ﻟﻪ ﻭﺣﺪﻩ،\nﻭﻳﻨﻘﺾ ﺑﻼ ﺭﺣﻤﺔ ﻋﻠﻰ ﻛﻞ ﻣﻦ ﻳﺘﻌﺪﻯ\nﻋﻠﻰ ﺣﻤﺎﻩ.");
 
 const u8 gAggronPokedexTextUnused[] = _("");
 
@@ -1237,7 +1237,7 @@ const u8 gMedichamPokedexText[] = _("ﻳﺘﻔﺎﺩﻯ ﻬﺠﻤﺎﺕ ﺑ�
 
 const u8 gMedichamPokedexTextUnused[] = _("");
 
-const u8 gElectrikePokedexText[] = _("ﻳﺨﺘﺰﻥ ﻜﻬﺮﺑﺎﺀ ﺴﺎﻛﻨﺔ ﻓﻲ ﻓﺮﻭﻩ،\nﻭﻳﺘﻄﺎﻳﺮ ﻣﻨﻪ ﺸﺮﺭ ﺇﺫ ﺍﻗﺘﺮﺑﺖ ﻋﺎﺻﻔﺔ.");
+const u8 gElectrikePokedexText[] = _("ﻳﺨﺘﺰﻥ ﻜﻬﺮﺑﺎﺀ ﺴﺎﻛﻨﺔ ﻓﻲ ﻓﺮﻭﻩ،\nﻭﻳﺘﻄﺎﻳﺮ ﻣﻨﻪ ﺸﺮﺭ ﺇﺫ ﺍﻗﺘﺮﺑﺖ\nﻋﺎﺻﻔﺔ.");
 
 const u8 gElectrikePokedexTextUnused[] = _("");
 
@@ -1245,19 +1245,19 @@ const u8 gManectricPokedexText[] = _("ﻧﺎﺩﺭ ﻣﺎ ﻳﻈﻬﺮ ﻟﻠ
 
 const u8 gManectricPokedexTextUnused[] = _("");
 
-const u8 gPluslePokedexText[] = _("ﻳﺸﺠﻊ ﺭﻓﺎﻗﻪ ﻭﻫﻮ ﻳﻨﺜﺮ ﺸﺮﺭ ﻣﻦ ﺟﺴﺪﻩ،\nﻭﻳﺘﺴﻠﻖ ﺃﻋﻤﺪﺓ ﻬﺎﺗﻒ ﻟﻴﻤﺘﺺ\nﻜﻬﺮﺑﺎﺀ.");
+const u8 gPluslePokedexText[] = _("ﻳﺸﺠﻊ ﺭﻓﺎﻗﻪ ﻭﻫﻮ ﻳﻨﺜﺮ ﺸﺮﺭ ﻣﻦ\nﺟﺴﺪﻩ، ﻭﻳﺘﺴﻠﻖ ﺃﻋﻤﺪﺓ ﻬﺎﺗﻒ ﻟﻴﻤﺘﺺ\nﻜﻬﺮﺑﺎﺀ.");
 
 const u8 gPluslePokedexTextUnused[] = _("");
 
-const u8 gMinunPokedexText[] = _("ﻳﻜﺮﻩ ﻤﺎﺀ، ﻓﻴﺤﺘﻤﻲ ﺗﺤﺖ ﺃﺳﻘﻒ ﺒﻴﻮﺕ\nﺣﻴﻦ ﺗﻤﻄﺮ، ﻭﻳﺸﺠﻊ ﺭﻓﺎﻗﻪ ﺑﻜﺮﺕ ﻣﻦ\nﺸﺮﺭ.");
+const u8 gMinunPokedexText[] = _("ﻳﻜﺮﻩ ﻤﺎﺀ، ﻓﻴﺤﺘﻤﻲ ﺗﺤﺖ ﺃﺳﻘﻒ\nﺒﻴﻮﺕ ﺣﻴﻦ ﺗﻤﻄﺮ، ﻭﻳﺸﺠﻊ ﺭﻓﺎﻗﻪ\nﺑﻜﺮﺕ ﻣﻦ ﺸﺮﺭ.");
 
 const u8 gMinunPokedexTextUnused[] = _("");
 
-const u8 gVolbeatPokedexText[] = _("ﻳﻌﻴﺶ ﺣﻮﻝ ﺒﺮﻙ ﻨﻘﻴﺔ، ﻭﻓﻲ ﻠﻴﻞ\nﻳﻀﻲﺀ ﺫﻳﻠﻪ، ﻓﻴﺘﺤﺪﺙ ﻣﻊ ﺭﻓﺎﻗﻪ ﺑﻮﻣﻀﺎﺕ\nﺿﻮﺋﻪ.");
+const u8 gVolbeatPokedexText[] = _("ﻳﻌﻴﺶ ﺣﻮﻝ ﺒﺮﻙ ﻨﻘﻴﺔ، ﻭﻓﻲ ﻠﻴﻞ\nﻳﻀﻲﺀ ﺫﻳﻠﻪ، ﻓﻴﺘﺤﺪﺙ ﻣﻊ ﺭﻓﺎﻗﻪ\nﺑﻮﻣﻀﺎﺕ ﺿﻮﺋﻪ.");
 
 const u8 gVolbeatPokedexTextUnused[] = _("");
 
-const u8 gIllumisePokedexText[] = _("ﻳﻘﻮﺩ ﻔﻮﻟﺒﻴﺖ ﻟﺘﺮﺳﻢ ﺃﺷﻜﺎﻻ ﻓﻲ ﺳﻤﺎﺀ\nﻠﻴﻞ، ﻭﻫﻨﺎﻙ ﻋﻠﻤﺎﺀ ﻳﺪﺭﺳﻮﻥ ﻫﺬﻩ\nﻨﻘﻮﺵ.");
+const u8 gIllumisePokedexText[] = _("ﻳﻘﻮﺩ ﻔﻮﻟﺒﻴﺖ ﻟﺘﺮﺳﻢ ﺃﺷﻜﺎﻻ ﻓﻲ\nﺳﻤﺎﺀ ﻠﻴﻞ، ﻭﻫﻨﺎﻙ ﻋﻠﻤﺎﺀ ﻳﺪﺭﺳﻮﻥ\nﻫﺬﻩ ﻨﻘﻮﺵ.");
 
 const u8 gIllumisePokedexTextUnused[] = _("");
 
@@ -1265,7 +1265,7 @@ const u8 gRoseliaPokedexText[] = _("ﺃﺯﻫﺎﺭﻩ ﺗﻔﻮﺡ ﺑﻌﻄﺮ
 
 const u8 gRoseliaPokedexTextUnused[] = _("");
 
-const u8 gGulpinPokedexText[] = _("ﻻ ﺷﻲﺀ ﺗﻌﺠﺰ ﻣﻌﺪﺗﻪ ﻋﻦ ﻫﻀﻤﻪ، ﻭﺛﻨﺎﺀ\nﻬﻀﻢ ﺗﻨﺒﻌﺚ ﻣﻨﻪ ﻏﺎﺯﺕ ﻛﺮﻳﻬﺔ ﺧﺎﻧﻘﺔ.");
+const u8 gGulpinPokedexText[] = _("ﻻ ﺷﻲﺀ ﺗﻌﺠﺰ ﻣﻌﺪﺗﻪ ﻋﻦ ﻫﻀﻤﻪ، ﻭﺛﻨﺎﺀ\nﻬﻀﻢ ﺗﻨﺒﻌﺚ ﻣﻨﻪ ﻏﺎﺯﺕ ﻛﺮﻳﻬﺔ\nﺧﺎﻧﻘﺔ.");
 
 const u8 gGulpinPokedexTextUnused[] = _("");
 
@@ -1273,7 +1273,7 @@ const u8 gSwalotPokedexText[] = _("ﻳﺒﺘﻠﻊ ﺇﻃﺎﺭ ﻛﺎﻣﻼ 
 
 const u8 gSwalotPokedexTextUnused[] = _("");
 
-const u8 gCarvanhaPokedexText[] = _("ﻳﻌﻴﺶ ﻓﻲ ﺍﻷﻧﻬﺎﺭ ﻬﺎﺋﻠﺔ ﺘﻲ ﺗﺸﻖ\nﺍﻷﺩﻏﺎﻝ، ﻭﻳﻨﻘﺾ ﺑﺄﺳﺮﺑﻪ ﻋﻠﻰ ﻛﻞ ﻓﺮﻳﺴﺔ\nﺗﺪﺧﻞ ﺃﺭﺿﻪ.");
+const u8 gCarvanhaPokedexText[] = _("ﻳﻌﻴﺶ ﻓﻲ ﺍﻷﻧﻬﺎﺭ ﻬﺎﺋﻠﺔ ﺘﻲ ﺗﺸﻖ\nﺍﻷﺩﻏﺎﻝ، ﻭﻳﻨﻘﺾ ﺑﺄﺳﺮﺑﻪ ﻋﻠﻰ ﻛﻞ\nﻓﺮﻳﺴﺔ ﺗﺪﺧﻞ ﺃﺭﺿﻪ.");
 
 const u8 gCarvanhaPokedexTextUnused[] = _("");
 
@@ -1281,11 +1281,11 @@ const u8 gSharpedoPokedexText[] = _("ﺳﻔﺎﺡ ﺒﺤﺎﺭ، ﺃﻧﻴﺎ
 
 const u8 gSharpedoPokedexTextUnused[] = _("");
 
-const u8 gWailmerPokedexText[] = _("ﺇﺫ ﺍﻣﺘﺺ ﻛﻤﻴﺔ ﻛﺒﻴﺮﺓ ﻣﻦ ﻣﺎﺀ ﺒﺤﺮ ﺻﺎﺭ\nﻛﻜﺮﺓ ﻣﻄﺎﻃﻴﺔ ﺿﺨﻤﺔ، ﻭﻳﺄﻛﻞ ﻃﻨﺎ ﻣﻦ\nﻄﻌﺎﻡ ﻛﻞ ﻳﻮﻡ.");
+const u8 gWailmerPokedexText[] = _("ﺇﺫ ﺍﻣﺘﺺ ﻛﻤﻴﺔ ﻛﺒﻴﺮﺓ ﻣﻦ ﻣﺎﺀ ﺒﺤﺮ\nﺻﺎﺭ ﻛﻜﺮﺓ ﻣﻄﺎﻃﻴﺔ ﺿﺨﻤﺔ، ﻭﻳﺄﻛﻞ ﻃﻨﺎ\nﻣﻦ ﻄﻌﺎﻡ ﻛﻞ ﻳﻮﻡ.");
 
 const u8 gWailmerPokedexTextUnused[] = _("");
 
-const u8 gWailordPokedexText[] = _("ﻣﻦ ﺃﺿﺨﻢ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻋﻠﻰ ﺍﻹﻃﻼﻕ،\nﻳﺤﺎﺻﺮ ﻓﺮﺋﺴﻪ ﻣﻊ ﻗﻄﻴﻌﻪ، ﺛﻢ ﻳﺒﺘﻠﻌﻬﺎ\nﻛﻠﻬﺎ ﺩﻓﻌﺔ ﻭﺣﺪﺓ.");
+const u8 gWailordPokedexText[] = _("ﻣﻦ ﺃﺿﺨﻢ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻋﻠﻰ ﺍﻹﻃﻼﻕ،\nﻳﺤﺎﺻﺮ ﻓﺮﺋﺴﻪ ﻣﻊ ﻗﻄﻴﻌﻪ، ﺛﻢ\nﻳﺒﺘﻠﻌﻬﺎ ﻛﻠﻬﺎ ﺩﻓﻌﺔ ﻭﺣﺪﺓ.");
 
 const u8 gWailordPokedexTextUnused[] = _("");
 
@@ -1297,11 +1297,11 @@ const u8 gCameruptPokedexText[] = _("ﺇﺫ ﻏﻀﺐ، ﺍﻧﻔﺠﺮﺕ �
 
 const u8 gCameruptPokedexTextUnused[] = _("");
 
-const u8 gTorkoalPokedexText[] = _("ﻳﺤﺮﻕ ﻔﺤﻢ ﺩﺧﻞ ﺻﺪﻓﺘﻪ، ﻭﺫ ﻫﻮﺟﻢ ﻧﻔﺚ\nﺩﺧﺎﻧﺎ ﺃﺳﻮﺩ ﻛﺜﻴﻔﺎ ﻭﻓﺮ ﻫﺎﺭﺑﺎ.");
+const u8 gTorkoalPokedexText[] = _("ﻳﺤﺮﻕ ﻔﺤﻢ ﺩﺧﻞ ﺻﺪﻓﺘﻪ، ﻭﺫ ﻫﻮﺟﻢ\nﻧﻔﺚ ﺩﺧﺎﻧﺎ ﺃﺳﻮﺩ ﻛﺜﻴﻔﺎ ﻭﻓﺮ ﻫﺎﺭﺑﺎ.");
 
 const u8 gTorkoalPokedexTextUnused[] = _("");
 
-const u8 gSpoinkPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﻳﻤﻮﺕ ﺇﻥ ﺗﻮﻗﻒ ﻋﻦ ﻘﻔﺰ،\nﻭﻳﺤﻤﻞ ﻋﻠﻰ ﺭﺳﻪ ﻟﺆﻟﺆﺓ ﻣﻦ ﻛﻼﻣﺒﻴﺮﻝ.");
+const u8 gSpoinkPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﻳﻤﻮﺕ ﺇﻥ ﺗﻮﻗﻒ ﻋﻦ ﻘﻔﺰ،\nﻭﻳﺤﻤﻞ ﻋﻠﻰ ﺭﺳﻪ ﻟﺆﻟﺆﺓ ﻣﻦ\nﻛﻼﻣﺒﻴﺮﻝ.");
 
 const u8 gSpoinkPokedexTextUnused[] = _("");
 
@@ -1309,7 +1309,7 @@ const u8 gGrumpigPokedexText[] = _("ﻳﺴﻴﻄﺮ ﻋﻠﻰ ﺧﺼﻮﻣﻪ �
 
 const u8 gGrumpigPokedexTextUnused[] = _("");
 
-const u8 gSpindaPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﻻ ﻳﻮﺟﺪ ﺳﺒﻴﻨﺪ ﺑﻨﻘﻮﺵ\nﻣﺘﻄﺎﺑﻘﺔ ﺃﺑﺪ، ﻭﻳﺮﺑﻚ ﺧﺼﻮﻣﻪ ﺑﺤﺮﻛﺎﺗﻪ\nﻤﺘﺮﻧﺤﺔ.");
+const u8 gSpindaPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﻻ ﻳﻮﺟﺪ ﺳﺒﻴﻨﺪ ﺑﻨﻘﻮﺵ\nﻣﺘﻄﺎﺑﻘﺔ ﺃﺑﺪ، ﻭﻳﺮﺑﻚ ﺧﺼﻮﻣﻪ\nﺑﺤﺮﻛﺎﺗﻪ ﻤﺘﺮﻧﺤﺔ.");
 
 const u8 gSpindaPokedexTextUnused[] = _("");
 
@@ -1329,7 +1329,7 @@ const u8 gCacneaPokedexText[] = _("ﻳﻔﻀﻞ ﺒﻴﺌﺎﺕ ﻘﺎﺳ�
 
 const u8 gCacneaPokedexTextUnused[] = _("");
 
-const u8 gCacturnePokedexText[] = _("ﻳﻌﻴﺶ ﻓﻲ ﺼﺤﺎﺭﻯ، ﻭﻳﻨﺸﻂ ﻟﻴﻼ ﻟﻴﺼﻄﺎﺩ\nﻔﺮﺋﺲ ﺘﻲ ﺃﻧﻬﻜﻬﺎ ﻗﻴﻆ ﻨﻬﺎﺭ.");
+const u8 gCacturnePokedexText[] = _("ﻳﻌﻴﺶ ﻓﻲ ﺼﺤﺎﺭﻯ، ﻭﻳﻨﺸﻂ ﻟﻴﻼ\nﻟﻴﺼﻄﺎﺩ ﻔﺮﺋﺲ ﺘﻲ ﺃﻧﻬﻜﻬﺎ ﻗﻴﻆ\nﻨﻬﺎﺭ.");
 
 const u8 gCacturnePokedexTextUnused[] = _("");
 
@@ -1345,7 +1345,7 @@ const u8 gZangoosePokedexText[] = _("ﺇﺫ ﺻﺎﺩﻑ ﺳﻴﻔﺎﻳﺒ�
 
 const u8 gZangoosePokedexTextUnused[] = _("");
 
-const u8 gSeviperPokedexText[] = _("ﻳﺸﺤﺬ ﺫﻳﻠﻪ ﺤﺎﺩ ﻛﺎﻟﺴﻴﻒ ﻋﻠﻰ ﺼﺨﻮﺭ\nﺼﻠﺒﺔ، ﻭﻳﻜﻤﻦ ﻓﻲ ﻌﺸﺐ ﻄﻮﻳﻞ ﻟﻴﻠﺪﻍ\nﻓﺮﺋﺴﻪ ﺑﺄﻧﻴﺎﺑﻪ ﺴﺎﻣﺔ.");
+const u8 gSeviperPokedexText[] = _("ﻳﺸﺤﺬ ﺫﻳﻠﻪ ﺤﺎﺩ ﻛﺎﻟﺴﻴﻒ ﻋﻠﻰ ﺼﺨﻮﺭ\nﺼﻠﺒﺔ، ﻭﻳﻜﻤﻦ ﻓﻲ ﻌﺸﺐ ﻄﻮﻳﻞ\nﻟﻴﻠﺪﻍ ﻓﺮﺋﺴﻪ ﺑﺄﻧﻴﺎﺑﻪ ﺴﺎﻣﺔ.");
 
 const u8 gSeviperPokedexTextUnused[] = _("");
 
@@ -1353,15 +1353,15 @@ const u8 gLunatonePokedexText[] = _("ﺻﺤﺘﻪ ﺗﺘﺒﺪﻝ ﻣﻊ ﺃﻃ�
 
 const u8 gLunatonePokedexTextUnused[] = _("");
 
-const u8 gSolrockPokedexText[] = _("ﻳﻤﺘﺺ ﻃﺎﻗﺔ ﺸﻤﺲ ﻧﻬﺎﺭ، ﻭﻭﺟﻬﻪ ﺑﻼ\nﺗﻌﺎﺑﻴﺮ ﺩﺋﻤﺎ، ﻟﻜﻨﻪ ﻳﺴﺘﺸﻌﺮ ﻣﺎ ﻳﻔﻜﺮ\nﻓﻴﻪ ﺧﺼﻤﻪ.");
+const u8 gSolrockPokedexText[] = _("ﻳﻤﺘﺺ ﻃﺎﻗﺔ ﺸﻤﺲ ﻧﻬﺎﺭ، ﻭﻭﺟﻬﻪ ﺑﻼ\nﺗﻌﺎﺑﻴﺮ ﺩﺋﻤﺎ، ﻟﻜﻨﻪ ﻳﺴﺘﺸﻌﺮ ﻣﺎ\nﻳﻔﻜﺮ ﻓﻴﻪ ﺧﺼﻤﻪ.");
 
 const u8 gSolrockPokedexTextUnused[] = _("");
 
-const u8 gBarboachPokedexText[] = _("ﻳﺘﻠﻤﺲ ﻗﻴﻌﺎﻥ ﺍﻷﻧﻬﺎﺭ ﻤﻮﺣﻠﺔ ﺑﺸﺎﺭﺑﻴﻪ\nﻄﻮﻳﻠﻴﻦ، ﻭﺗﺤﻤﻲ ﺟﺴﺪﻩ ﻃﺒﻘﺔ ﻟﺰﺟﺔ.");
+const u8 gBarboachPokedexText[] = _("ﻳﺘﻠﻤﺲ ﻗﻴﻌﺎﻥ ﺍﻷﻧﻬﺎﺭ ﻤﻮﺣﻠﺔ\nﺑﺸﺎﺭﺑﻴﻪ ﻄﻮﻳﻠﻴﻦ، ﻭﺗﺤﻤﻲ ﺟﺴﺪﻩ\nﻃﺒﻘﺔ ﻟﺰﺟﺔ.");
 
 const u8 gBarboachPokedexTextUnused[] = _("");
 
-const u8 gWhiscashPokedexText[] = _("ﻳﺒﻨﻲ ﻋﺸﻪ ﻓﻲ ﻗﺎﻉ ﻤﺴﺘﻨﻘﻌﺎﺕ، ﻭﻳﺄﻛﻞ\nﻛﻞ ﺷﻲﺀ… ﻓﺈﻥ ﻛﺎﻥ ﺣﻴﺎ، ﻓﻮﻳﺴﻜﺎﺵ\nﺳﻴﺄﻛﻠﻪ!");
+const u8 gWhiscashPokedexText[] = _("ﻳﺒﻨﻲ ﻋﺸﻪ ﻓﻲ ﻗﺎﻉ ﻤﺴﺘﻨﻘﻌﺎﺕ،\nﻭﻳﺄﻛﻞ ﻛﻞ ﺷﻲﺀ… ﻓﺈﻥ ﻛﺎﻥ ﺣﻴﺎ،\nﻓﻮﻳﺴﻜﺎﺵ ﺳﻴﺄﻛﻠﻪ!");
 
 const u8 gWhiscashPokedexTextUnused[] = _("");
 
@@ -1393,11 +1393,11 @@ const u8 gAnorithPokedexText[] = _("ﻣﻦ ﺃﺳﻼﻑ ﺒﻮﻛﻴﻤﻮﻧ
 
 const u8 gAnorithPokedexTextUnused[] = _("");
 
-const u8 gArmaldoPokedexText[] = _("ﺟﺴﺪﻩ ﻣﺘﻴﻦ ﻟﻠﻐﺎﻳﺔ ﺗﺤﻤﻴﻪ ﺻﺪﻓﺔ ﺻﻠﺒﺔ،\nﻭﻳﻄﻌﻦ ﻓﺮﺋﺴﻪ ﺑﻤﺨﺎﻟﺒﻪ ﻟﻴﺘﻐﺬﻯ\nﻋﻠﻴﻬﺎ.");
+const u8 gArmaldoPokedexText[] = _("ﺟﺴﺪﻩ ﻣﺘﻴﻦ ﻟﻠﻐﺎﻳﺔ ﺗﺤﻤﻴﻪ ﺻﺪﻓﺔ\nﺻﻠﺒﺔ، ﻭﻳﻄﻌﻦ ﻓﺮﺋﺴﻪ ﺑﻤﺨﺎﻟﺒﻪ\nﻟﻴﺘﻐﺬﻯ ﻋﻠﻴﻬﺎ.");
 
 const u8 gArmaldoPokedexTextUnused[] = _("");
 
-const u8 gFeebasPokedexText[] = _("ﻳﺴﺨﺮ ﺠﻤﻴﻊ ﻣﻦ ﻣﻈﻬﺮﻩ ﺮﺙ ﻭﻳﺘﺠﺎﻫﻠﻪ\nﺒﺎﺣﺜﻮﻥ، ﻭﻳﻌﻴﺶ ﻓﻲ ﺑﺮﻙ ﺗﺨﻨﻘﻬﺎ\nﺍﻷﻋﺸﺎﺏ… ﻟﻜﻦ ﺟﻤﺎﻟﻪ ﻟﻢ ﻳﻮﻟﺪ ﺑﻌﺪ.");
+const u8 gFeebasPokedexText[] = _("ﻳﺴﺨﺮ ﺠﻤﻴﻊ ﻣﻦ ﻣﻈﻬﺮﻩ ﺮﺙ، ﻭﻳﻌﻴﺶ\nﻓﻲ ﺑﺮﻙ ﺗﺨﻨﻘﻬﺎ ﺍﻷﻋﺸﺎﺏ… ﻟﻜﻦ ﺟﻤﺎﻟﻪ\nﻟﻢ ﻳﻮﻟﺪ ﺑﻌﺪ.");
 
 const u8 gFeebasPokedexTextUnused[] = _("");
 
@@ -1425,7 +1425,7 @@ const u8 gDuskullPokedexText[] = _("ﻳﺠﻌﻞ ﻧﻔﺴﻪ ﺧﻔﻴﺎ، ﻭ
 
 const u8 gDuskullPokedexTextUnused[] = _("");
 
-const u8 gDusclopsPokedexText[] = _("ﺟﺴﺪﻩ ﺃﺟﻮﻑ ﺗﻤﺎﻣﺎ، ﻭﺫ ﻓﺘﺢ ﻓﻤﻪ ﺍﺑﺘﻠﻊ\nﻛﻞ ﺷﻲﺀ ﻛﺄﻧﻪ ﺛﻘﺐ ﺃﺳﻮﺩ!");
+const u8 gDusclopsPokedexText[] = _("ﺟﺴﺪﻩ ﺃﺟﻮﻑ ﺗﻤﺎﻣﺎ، ﻭﺫ ﻓﺘﺢ ﻓﻤﻪ\nﺍﺑﺘﻠﻊ ﻛﻞ ﺷﻲﺀ ﻛﺄﻧﻪ ﺛﻘﺐ ﺃﺳﻮﺩ!");
 
 const u8 gDusclopsPokedexTextUnused[] = _("");
 
@@ -1441,11 +1441,11 @@ const u8 gAbsolPokedexText[] = _("ﻳﻈﻬﺮ ﺣﻴﻦ ﻳﺴﺘﺸﻌﺮ ﻛ�
 
 const u8 gAbsolPokedexTextUnused[] = _("");
 
-const u8 gWynautPokedexText[] = _("ﻳﺘﻨﻘﻞ ﻋﺎﺩﺓ ﻓﻲ ﺟﻤﺎﻋﺎﺕ، ﻭﺗﺘﻼﺻﻖ ﺃﻓﺮﺩﻩ\nﺑﺸﺪﺓ ﻟﺘﻨﺎﻡ ﻣﻌﺎ ﻓﻲ ﻜﻬﻮﻑ.");
+const u8 gWynautPokedexText[] = _("ﻳﺘﻨﻘﻞ ﻋﺎﺩﺓ ﻓﻲ ﺟﻤﺎﻋﺎﺕ، ﻭﺗﺘﻼﺻﻖ\nﺃﻓﺮﺩﻩ ﺑﺸﺪﺓ ﻟﺘﻨﺎﻡ ﻣﻌﺎ ﻓﻲ ﻜﻬﻮﻑ.");
 
 const u8 gWynautPokedexTextUnused[] = _("");
 
-const u8 gSnoruntPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻥ ﺒﻴﺖ ﺬﻱ ﻳﺰﻭﺭﻩ ﺳﻨﻮﺭﻧﺖ\nﻳﻌﻤﻪ ﺮﺧﺎﺀ، ﻭﻳﺤﺘﻤﻞ ﺑﺮﺩ ﻗﺎﺭﺳﺎ ﻳﺒﻠﻎ\n100 ﺩﺭﺟﺔ ﺗﺤﺖ ﺼﻔﺮ.");
+const u8 gSnoruntPokedexText[] = _("ﻳﻘﺎﻝ ﺇﻥ ﺒﻴﺖ ﺬﻱ ﻳﺰﻭﺭﻩ ﺳﻨﻮﺭﻧﺖ\nﻳﻌﻤﻪ ﺮﺧﺎﺀ، ﻭﻳﺤﺘﻤﻞ ﺑﺮﺩ ﻗﺎﺭﺳﺎ\nﻳﺒﻠﻎ 100 ﺩﺭﺟﺔ ﺗﺤﺖ ﺼﻔﺮ.");
 
 const u8 gSnoruntPokedexTextUnused[] = _("");
 
@@ -1453,7 +1453,7 @@ const u8 gGlaliePokedexText[] = _("ﺟﺴﺪﻩ ﻣﻦ ﺟﻠﻴﺪ ﻻ ﻳﺬ�
 
 const u8 gGlaliePokedexTextUnused[] = _("");
 
-const u8 gSphealPokedexText[] = _("ﻳﻜﺴﻮ ﺟﺴﺪﻩ ﻓﺮﻭ ﻧﺎﻋﻢ ﻛﺜﻴﻒ، ﻳﺤﻤﻴﻪ ﻣﻦ\nﺒﺮﺩ ﻭﻫﻮ ﻳﺘﺪﺣﺮﺝ ﻋﻠﻰ ﺠﻠﻴﺪ.");
+const u8 gSphealPokedexText[] = _("ﻳﻜﺴﻮ ﺟﺴﺪﻩ ﻓﺮﻭ ﻧﺎﻋﻢ ﻛﺜﻴﻒ، ﻳﺤﻤﻴﻪ\nﻣﻦ ﺒﺮﺩ ﻭﻫﻮ ﻳﺘﺪﺣﺮﺝ ﻋﻠﻰ ﺠﻠﻴﺪ.");
 
 const u8 gSphealPokedexTextUnused[] = _("");
 
@@ -1477,11 +1477,11 @@ const u8 gGorebyssPokedexText[] = _("ﺳﺒﺎﺣﺘﻪ ﺁﻳﺔ ﻓﻲ ﺮ�
 
 const u8 gGorebyssPokedexTextUnused[] = _("");
 
-const u8 gRelicanthPokedexText[] = _("ﻟﻢ ﻳﺘﻐﻴﺮ ﻣﻨﺬ ﻣﺌﺔ ﻣﻠﻴﻮﻥ ﻋﺎﻡ،\nﻭﻛﺘﺸﻒ ﺧﻼﻝ ﺭﺣﻠﺔ ﺍﺳﺘﻜﺸﺎﻑ ﻓﻲ ﺃﻋﻤﺎﻕ\nﺒﺤﺮ.");
+const u8 gRelicanthPokedexText[] = _("ﻟﻢ ﻳﺘﻐﻴﺮ ﻣﻨﺬ ﻣﺌﺔ ﻣﻠﻴﻮﻥ ﻋﺎﻡ،\nﻭﻛﺘﺸﻒ ﺧﻼﻝ ﺭﺣﻠﺔ ﺍﺳﺘﻜﺸﺎﻑ ﻓﻲ\nﺃﻋﻤﺎﻕ ﺒﺤﺮ.");
 
 const u8 gRelicanthPokedexTextUnused[] = _("");
 
-const u8 gLuvdiscPokedexText[] = _("ﻓﻲ ﻣﻮﺳﻢ ﺘﻜﺎﺛﺮ، ﺗﺘﺠﻤﻊ ﺃﻋﺪﺩ ﻻ ﺗﺤﺼﻰ\nﻣﻨﻪ ﻋﻨﺪ ﺸﻌﺎﺏ ﻤﺮﺟﺎﻧﻴﺔ، ﻓﺘﺼﺒﻎ\nﻤﻴﺎﻩ ﺑﺎﻟﻠﻮﻥ ﻮﺭﺩﻱ.");
+const u8 gLuvdiscPokedexText[] = _("ﻓﻲ ﻣﻮﺳﻢ ﺘﻜﺎﺛﺮ، ﺗﺘﺠﻤﻊ ﺃﻋﺪﺩ ﻻ\nﺗﺤﺼﻰ ﻣﻨﻪ ﻋﻨﺪ ﺸﻌﺎﺏ ﻤﺮﺟﺎﻧﻴﺔ،\nﻓﺘﺼﺒﻎ ﻤﻴﺎﻩ ﺑﺎﻟﻠﻮﻥ ﻮﺭﺩﻱ.");
 
 const u8 gLuvdiscPokedexTextUnused[] = _("");
 
@@ -1489,11 +1489,11 @@ const u8 gBagonPokedexText[] = _("ﺭﺳﻪ ﺼﻠﺐ ﻛﺎﻟﻔﻮﻻ�
 
 const u8 gBagonPokedexTextUnused[] = _("");
 
-const u8 gShelgonPokedexText[] = _("ﺟﺴﺪﻩ ﻤﺪﺭﻉ ﺗﺮﺗﺪ ﻋﻨﻪ ﻛﻞ ﻬﺠﻤﺎﺕ، ﻟﻜﻦ\nﺩﺭﻋﻪ ﺻﻠﺐ ﺟﺪ، ﻓﻴﺠﻌﻠﻪ ﺛﻘﻴﻼ ﺑﻄﻴﺌﺎ\nﺑﻌﺾ ﺸﻲﺀ.");
+const u8 gShelgonPokedexText[] = _("ﺟﺴﺪﻩ ﻤﺪﺭﻉ ﺗﺮﺗﺪ ﻋﻨﻪ ﻛﻞ ﻬﺠﻤﺎﺕ،\nﻟﻜﻦ ﺩﺭﻋﻪ ﺻﻠﺐ ﺟﺪ، ﻓﻴﺠﻌﻠﻪ ﺛﻘﻴﻼ\nﺑﻄﻴﺌﺎ ﺑﻌﺾ ﺸﻲﺀ.");
 
 const u8 gShelgonPokedexTextUnused[] = _("");
 
-const u8 gSalamencePokedexText[] = _("ﺇﺫ ﻏﻀﺐ ﺧﺮﺝ ﻋﻦ ﺴﻴﻄﺮﺓ ﺗﻤﺎﻣﺎ، ﻓﻴﺪﻣﺮ\nﻛﻞ ﺷﻲﺀ ﺑﻤﺨﺎﻟﺒﻪ ﻤﻤﺰﻗﺔ ﻭﻧﻴﺮﻧﻪ\nﺤﺎﺭﻗﺔ.");
+const u8 gSalamencePokedexText[] = _("ﺇﺫ ﻏﻀﺐ ﺧﺮﺝ ﻋﻦ ﺴﻴﻄﺮﺓ ﺗﻤﺎﻣﺎ،\nﻓﻴﺪﻣﺮ ﻛﻞ ﺷﻲﺀ ﺑﻤﺨﺎﻟﺒﻪ ﻤﻤﺰﻗﺔ\nﻭﻧﻴﺮﻧﻪ ﺤﺎﺭﻗﺔ.");
 
 const u8 gSalamencePokedexTextUnused[] = _("");
 
@@ -1501,11 +1501,11 @@ const u8 gBeldumPokedexText[] = _("ﻳﺘﻮﺻﻞ ﻣﻊ ﺑﻨﻲ ﺟﻨﺴ
 
 const u8 gBeldumPokedexTextUnused[] = _("");
 
-const u8 gMetangPokedexText[] = _("ﻳﻄﻔﻮ ﻓﻲ ﻬﻮﺀ ﺑﻘﻮﺓ ﻤﻐﻨﺎﻃﻴﺲ،\nﻭﺟﺴﺪﻩ ﺻﻠﺐ ﺟﺪ، ﺣﺘﻰ ﺇﻥ ﺍﻻﺻﻄﺪﻡ ﺑﻄﺎﺋﺮﺓ\nﻧﻔﺎﺛﺔ ﻻ ﻳﺨﺪﺷﻪ.");
+const u8 gMetangPokedexText[] = _("ﻳﻄﻔﻮ ﻓﻲ ﻬﻮﺀ ﺑﻘﻮﺓ ﻤﻐﻨﺎﻃﻴﺲ،\nﻭﺟﺴﺪﻩ ﺻﻠﺐ ﺟﺪ، ﺣﺘﻰ ﺇﻥ ﺍﻻﺻﻄﺪﻡ\nﺑﻄﺎﺋﺮﺓ ﻧﻔﺎﺛﺔ ﻻ ﻳﺨﺪﺷﻪ.");
 
 const u8 gMetangPokedexTextUnused[] = _("");
 
-const u8 gMetagrossPokedexText[] = _("ﻳﺘﻜﻮﻥ ﻣﻦ ﺍﻧﺪﻣﺎﺝ ﺍﺛﻨﻴﻦ ﻣﻦ ﻣﻴﺘﺎﻧﻎ،\nﻭﻳﻘﺎﻝ ﺇﻥ ﺃﺩﻣﻐﺘﻪ ﺍﻷﺭﺑﻌﺔ ﺗﺘﻔﻮﻕ ﻋﻠﻰ\nﺃﻗﻮﻯ ﺤﻮﺳﻴﺐ.");
+const u8 gMetagrossPokedexText[] = _("ﻳﺘﻜﻮﻥ ﻣﻦ ﺍﻧﺪﻣﺎﺝ ﺍﺛﻨﻴﻦ ﻣﻦ ﻣﻴﺘﺎﻧﻎ،\nﻭﻳﻘﺎﻝ ﺇﻥ ﺃﺩﻣﻐﺘﻪ ﺍﻷﺭﺑﻌﺔ ﺗﺘﻔﻮﻕ\nﻋﻠﻰ ﺃﻗﻮﻯ ﺤﻮﺳﻴﺐ.");
 
 const u8 gMetagrossPokedexTextUnused[] = _("");
 
@@ -1521,7 +1521,7 @@ const u8 gRegisteelPokedexText[] = _("ﺃﺻﻠﺐ ﻣﻦ ﺃﻱ ﻣﻌﺪﻥ، 
 
 const u8 gRegisteelPokedexTextUnused[] = _("");
 
-const u8 gLatiasPokedexText[] = _("ﻳﺘﻮﺻﻞ ﻣﻊ ﺒﺸﺮ ﺑﻘﻮﻩ ﺬﻫﻨﻴﺔ، ﻭﻳﻐﻴﺮ\nﻣﻈﻬﺮﻩ ﺑﺰﻏﺒﻪ ﺬﻱ ﻳﻜﺴﺮ ﻀﻮﺀ.");
+const u8 gLatiasPokedexText[] = _("ﻳﺘﻮﺻﻞ ﻣﻊ ﺒﺸﺮ ﺑﻘﻮﻩ ﺬﻫﻨﻴﺔ،\nﻭﻳﻐﻴﺮ ﻣﻈﻬﺮﻩ ﺑﺰﻏﺒﻪ ﺬﻱ ﻳﻜﺴﺮ ﻀﻮﺀ.");
 
 const u8 gLatiasPokedexTextUnused[] = _("");
 
@@ -1529,19 +1529,19 @@ const u8 gLatiosPokedexText[] = _("ﻫﺎﺩﺉ ﻄﺒﺎﻉ ﻻ ﻳﺤﺐ �
 
 const u8 gLatiosPokedexTextUnused[] = _("");
 
-const u8 gKyogrePokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﻭﺳﻊ ﺒﺤﺎﺭ ﺑﺎﻷﻣﻄﺎﺭ ﻐﺰﻳﺮﺓ\nﺘﻲ ﺟﻠﺒﻬﺎ، ﻭﻳﻤﻠﻚ ﻘﺪﺭﺓ ﻋﻠﻰ ﺘﺤﻜﻢ\nﻓﻲ ﻤﻴﺎﻩ.");
+const u8 gKyogrePokedexText[] = _("ﻳﻘﺎﻝ ﺇﻧﻪ ﻭﺳﻊ ﺒﺤﺎﺭ ﺑﺎﻷﻣﻄﺎﺭ\nﻐﺰﻳﺮﺓ ﺘﻲ ﺟﻠﺒﻬﺎ، ﻭﻳﻤﻠﻚ ﻘﺪﺭﺓ\nﻋﻠﻰ ﺘﺤﻜﻢ ﻓﻲ ﻤﻴﺎﻩ.");
 
 const u8 gKyogrePokedexTextUnused[] = _("");
 
-const u8 gGroudonPokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﺃﺳﻄﻮﺭﻱ ﻳﻘﺎﻝ ﺇﻧﻪ ﻳﻤﺜﻞ\nﻴﺎﺑﺴﺔ، ﻭﻗﺪ ﺧﻠﺪ ﺇﻟﻰ ﻨﻮﻡ ﺑﻌﺪ ﻧﺰﻟﻪ\nﺍﻷﺳﻄﻮﺭﻱ ﻣﻊ ﻛﺎﻳﻮﻏﺮ.");
+const u8 gGroudonPokedexText[] = _("ﺑﻮﻛﻴﻤﻮﻥ ﺃﺳﻄﻮﺭﻱ ﻳﻘﺎﻝ ﺇﻧﻪ ﻳﻤﺜﻞ\nﻴﺎﺑﺴﺔ، ﻭﻗﺪ ﺧﻠﺪ ﺇﻟﻰ ﻨﻮﻡ ﺑﻌﺪ\nﻧﺰﻟﻪ ﺍﻷﺳﻄﻮﺭﻱ ﻣﻊ ﻛﺎﻳﻮﻏﺮ.");
 
 const u8 gGroudonPokedexTextUnused[] = _("");
 
-const u8 gRayquazaPokedexText[] = _("ﻋﺎﺵ ﻣﺌﺎﺕ ﻣﻼﻳﻴﻦ ﺴﻨﻴﻦ ﻓﻲ ﻃﺒﻘﺔ\nﺍﻷﻭﺯﻭﻥ، ﻭﺣﻴﻦ ﻳﻄﻴﺮ ﻳﺒﺪﻭ ﻛﻨﻴﺰﻙ ﻳﺸﻖ\nﺴﻤﺎﺀ.");
+const u8 gRayquazaPokedexText[] = _("ﻋﺎﺵ ﻣﺌﺎﺕ ﻣﻼﻳﻴﻦ ﺴﻨﻴﻦ ﻓﻲ ﻃﺒﻘﺔ\nﺍﻷﻭﺯﻭﻥ، ﻭﺣﻴﻦ ﻳﻄﻴﺮ ﻳﺒﺪﻭ ﻛﻨﻴﺰﻙ\nﻳﺸﻖ ﺴﻤﺎﺀ.");
 
 const u8 gRayquazaPokedexTextUnused[] = _("");
 
-const u8 gJirachiPokedexText[] = _("ﺗﺤﻜﻲ ﺍﻷﺳﺎﻃﻴﺮ ﻋﻦ ﺃﻣﻨﻴﺎﺕ ﺗﺤﻘﻘﺖ\nﺑﻠﻘﺎﺋﻪ، ﻟﻜﻨﻪ ﻻ ﻳﺴﺘﻴﻘﻆ ﺇﻻ ﺳﺒﻌﺔ ﺃﻳﺎﻡ\nﻛﻞ ﺃﻟﻒ ﻋﺎﻡ.");
+const u8 gJirachiPokedexText[] = _("ﺗﺤﻜﻲ ﺍﻷﺳﺎﻃﻴﺮ ﻋﻦ ﺃﻣﻨﻴﺎﺕ ﺗﺤﻘﻘﺖ\nﺑﻠﻘﺎﺋﻪ، ﻟﻜﻨﻪ ﻻ ﻳﺴﺘﻴﻘﻆ ﺇﻻ ﺳﺒﻌﺔ\nﺃﻳﺎﻡ ﻛﻞ ﺃﻟﻒ ﻋﺎﻡ.");
 
 const u8 gJirachiPokedexTextUnused[] = _("");
 

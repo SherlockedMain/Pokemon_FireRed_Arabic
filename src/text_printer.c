@@ -294,7 +294,10 @@ static s32 RtlSpanWidth(struct TextPrinter *p, const u8 *start, const u8 *end)
         n = sizeof(sRtlScanBuffer) - 1;
     memcpy(sRtlScanBuffer, start, n);
     sRtlScanBuffer[n] = EOS;
-    return GetStringWidth(p->printerTemplate.fontId, sRtlScanBuffer, p->printerTemplate.letterSpacing);
+    // Measure with the font that is active now: a {FONT} switch earlier in the
+    // string changes it (kept in the sub-struct), and measuring with the window's
+    // starting font misplaced the last letters (عادي، ناري in the move type box).
+    return GetStringWidth(p->subUnion.sub.glyphId, sRtlScanBuffer, p->printerTemplate.letterSpacing);
 }
 
 // Mirrored draw position of a glyph (or icon) at logical x inside the frame

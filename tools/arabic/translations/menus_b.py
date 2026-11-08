@@ -92,7 +92,7 @@ _E += [
  M('gText_ItemIsNowHeld', 'صار {X1} محمولا.', one(176), screen=S, codes=X),
  M('gText_ChangedToNewItem', 'تغيرت إلى {X1}.', one(176), screen=S, codes=X),
  M('gText_MailCantBeStored', 'لا يمكن تخزين البريد!', one(176), screen=S),
- M('gText_JustOnePkmn', 'لا يمكنك إيداع آخر بوكيمون!', one(176), screen=S),
+ M('gText_JustOnePkmn', 'لا تودع آخر بوكيمون معك!', one(176), screen=S),
  M('gText_PartyFull', 'لا يتسع الفريق للمزيد.', one(176), screen=S),
  M('gText_ReturnToPC', 'العودة إلى الحاسوب.', one(176), screen=S),
 ]
@@ -147,9 +147,9 @@ _E += [
  M('gText_TrainerCardMoney', 'المال', LABEL, screen=S), M('gText_TrainerCardPokedex', 'البوكيديكس', one(72), screen=S),
  M('gText_TrainerCardTime', 'الوقت', LABEL, screen=S),
  M('gText_Var1sTrainerCard', ': بطاقة المدرب', one(110), screen=S, note='Printed after the name: «AAAB: بطاقة المدرب».'),
- M('gText_HallOfFameDebut', 'أول دخول للقاعة  ', one(120), screen=S),
+ M('gText_HallOfFameDebut', 'أول دخول للقاعة', one(120), screen=S),
  M('gText_LinkBattles', 'نزالات الربط', one(120), screen=S), M('gText_LinkCableBattles', 'نزالات الكابل', one(120), screen=S),
- M('gText_PokemonTrades', 'مبادلات البوكيمونات', one(120), screen=S), M('gText_BerryCrushes', 'سحق التوت', one(120), screen=S),
+ M('gText_PokemonTrades', 'المبادلات', one(120), screen=S), M('gText_BerryCrushes', 'سحق التوت', one(120), screen=S),
  M('gText_UnionRoomTradesBattles', 'مبادلات ونزالات الاتحاد', one(140), screen=S),
  M('gText_WaitingTrainerFinishReading', 'في انتظار أن ينهي المدرب الآخر\nقراءة بطاقتك.', screen=S),
 ]

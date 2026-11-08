@@ -42,7 +42,8 @@ PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth::
 PewterCity_Museum_1F_Text_AskedDaddyToCatchPikachu::
     .string "ﺃﺭﻳﺪ ﺑﻴﻜﺎﺗﺸﻮ!\n"
     .string "ﺇﻧﻪ ﻟﻄﻴﻒ ﺟﺪ!\p"
-    .string "ﻃﻠﺒﺖ ﻣﻦ ﺃﺑﻲ ﺃﻥ ﻳﻤﺴﻚ ﻟﻲ ﻭﺣﺪ!$"
+    .string "ﻃﻠﺒﺖ ﻣﻦ ﺃﺑﻲ ﺃﻥ ﻳﻤﺴﻚ ﻟﻲ\n"
+    .string "ﻭﺣﺪ!$"
 
 PewterCity_Museum_1F_Text_PikachuSoonIPromise::
     .string "ﻧﻌﻢ، ﺑﻴﻜﺎﺗﺸﻮ ﻗﺮﻳﺒﺎ، ﺃﻋﺪﻙ!$"

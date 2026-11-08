@@ -13,7 +13,8 @@ ViridianCity_Gym_Text_GiovanniDefeat::
     .string "ﻫﺎ!\n"
     .string "ﻛﺎﻥ ﻧﺰﻻ ﺣﺎﻣﻴﺎ ﺣﻘﺎ!\p"
     .string "ﻟﻘﺪ ﻓﺰﺕ ﻋﻦ ﺟﺪﺭﺓ!\n"
-    .string "ﻭﺛﺒﺎﺗﺎ ﻟﺬﻟﻚ، ﺇﻟﻴﻚ ﻭﺳﺎﻡ ﺍﻷﺭﺽ!\n{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
+    .string "ﻭﺛﺒﺎﺗﺎ ﻟﺬﻟﻚ، ﺇﻟﻴﻚ ﻭﺳﺎﻡ\p"
+    .string "ﺍﻷﺭﺽ!\n{PAUSE_MUSIC}{PLAY_BGM}{MUS_OBTAIN_BADGE}{PAUSE 0xFE}{PAUSE 0x56}{RESUME_MUSIC}$"
 
 ViridianCity_Gym_Text_GiovanniPostBattle::
     .string "ﺑﻌﺪ ﻫﺰﻳﻤﺔ ﻛﻬﺬﻩ، ﻻ ﺃﺳﺘﻄﻴﻊ\n"
@@ -27,7 +28,8 @@ ViridianCity_Gym_Text_GiovanniPostBattle::
     .string "ﻭﺩﻋﺎ!$"
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
-    .string "ﻭﺳﺎﻡ ﺍﻷﺭﺽ ﻳﺠﻌﻞ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻣﻦ\n"
+    .string "ﻭﺳﺎﻡ ﺍﻷﺭﺽ ﻳﺠﻌﻞ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﻣﻦ\p"
     .string "ﺃﻱ ﻣﺴﺘﻮﻯ ﺗﻄﻴﻌﻚ ﺩﻭﻥ ﺗﺮﺩﺩ.\p"
     .string "ﺇﻧﻪ ﺩﻟﻴﻞ ﻋﻠﻰ ﺑﺮﻋﺘﻚ\n"
     .string "{GENDER_M}ﻛﻤﺪﺭﺏ{GENDER_F}ﻛﻤﺪﺭﺑﺔ{GENDER_E} ﺑﻮﻛﻴﻤﻮﻥ.\p"
@@ -47,7 +49,8 @@ ViridianCity_Gym_Text_ExplainTM26::
     .string "ﺰﻟﺰﻝ.\p"
     .string "ﺇﻧﻬﺎ ﻫﺠﻤﺔ ﻗﻮﻳﺔ ﺗﺴﺒﺐ\n"
     .string "ﻫﺰﺓ ﻫﺎﺋﻠﺔ.\p"
-    .string "ﺻﻨﻌﺘﻪ ﺣﻴﻦ ﻛﻨﺖ ﺃﺩﻳﺮ ﺼﺎﻟﺔ ﻫﻨﺎ،\n"
+    .string "ﺻﻨﻌﺘﻪ ﺣﻴﻦ ﻛﻨﺖ ﺃﺩﻳﺮ ﺼﺎﻟﺔ\n"
+    .string "ﻫﻨﺎ،\p"
     .string "ﻣﻨﺬ ﺯﻣﻦ ﺑﻌﻴﺪ ﺟﺪ…$"
 
 ViridianCity_Gym_Text_YouDoNotHaveSpace::

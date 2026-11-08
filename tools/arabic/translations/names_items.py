@@ -46,7 +46,7 @@ NEW = {
  'BIKE VOUCHER':'قسيمة الدراجة','GOLD TEETH':'أسنان ذهبية','OLD AMBER':'الكهرمان القديم','LIFT KEY':'مفتاح المصعد',
  'HELIX FOSSIL':'أحفورة الحلزون','DOME FOSSIL':'أحفورة القبة','SILPH SCOPE':'منظار سيلف','TOWN MAP':'خريطة البلدات',
  'VS SEEKER':'باحث النزالات','FAME CHECKER':'سجل المشاهير','TM CASE':'علبة الأقراص','BERRY POUCH':'جراب التوت',
- 'TEACHY TV':'تلفاز التعليم','TRI-PASS':'التصريح الثلاثي','RAINBOW PASS':'تصريح قوس قزح','TEA':'الشاي',
+ 'TEACHY TV':'تلفاز التعليم','TRI-PASS':'التصريح الثلاثي','RAINBOW PASS':'تصريح الألوان','TEA':'الشاي',
  'MYSTICTICKET':'التذكرة الغامضة','AURORATICKET':'تذكرة الشفق','POWDER JAR':'جرة المسحوق','RUBY':'الياقوت','SAPPHIRE':'الزفير',
 }
 

@@ -80,7 +80,8 @@ PewterCity_Text_TrainerTipsEarningEXP::
 
 PewterCity_Text_CallPoliceIfInfoOnThieves::
     .string "ﺗﻨﺒﻴﻪ!\p"
-    .string "ﻟﺼﻮﺹ ﻳﺴﺮﻗﻮﻥ ﺃﺣﺎﻓﻴﺮ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻟﺼﻮﺹ ﻳﺴﺮﻗﻮﻥ ﺃﺣﺎﻓﻴﺮ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ\p"
     .string "ﻣﻦ ﺟﺒﻞ ﻘﻤﺮ.\p"
     .string "ﺇﻥ ﻛﺎﻧﺖ ﻟﺪﻳﻚ ﺃﻱ ﻣﻌﻠﻮﻣﺎﺕ،\n"
     .string "ﻓﺎﺗﺼﻞ\p"
@@ -90,8 +91,9 @@ PewterCity_Text_MuseumOfScience::
     .string "ﻣﺘﺤﻒ ﺑﻴﻮﺗﺮ ﻟﻠﻌﻠﻮﻡ$"
 
 PewterCity_Text_GymSign::
-    .string "ﺻﺎﻟﺔ ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻣﺪﻳﻨﺔ ﺑﻴﻮﺗﺮ\n"
-    .string "ﻘﺎﺋﺪ: ﺑﺮﻭﻙ\p"
+    .string "ﺻﺎﻟﺔ ﺒﻮﻛﻴﻤﻮﻥ ﻓﻲ ﻣﺪﻳﻨﺔ\n"
+    .string "ﺑﻴﻮﺗﺮ\p"
+    .string "ﻘﺎﺋﺪ: ﺑﺮﻭﻙ\n"
     .string "ﻤﺪﺭﺏ ﺼﻠﺐ ﻛﺎﻟﺼﺨﺮ!$"
 
 PewterCity_Text_CitySign::

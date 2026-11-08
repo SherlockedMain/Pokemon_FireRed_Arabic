@@ -117,7 +117,15 @@ def main():
         lines.append("'%s' = %02X @ U+%04X %s" % (chr(cp), code, cp, name))
     open(cm_path, 'w', encoding='utf-8').write(cm + '\n'.join(lines) + '\n')
 
-    json.dump({'normal': {str(g): len(c[0]) for g, (_, c) in cells.items()},
+    def normal_width(cp, cell):
+        # A letter that starts a new segment (isolated / initial form) faces the letter before
+        # it with its right side, which has no gap in the kit: add one blank column there, so a
+        # non-joining letter + the next letter (عادي، ناري، مائي) get 2 px instead of 1.
+        name = unicodedata.name(chr(cp), '')
+        extra = 1 if ('ISOLATED FORM' in name or 'INITIAL FORM' in name) else 0
+        return len(cell[0]) + extra
+
+    json.dump({'normal': {str(g): normal_width(cp, c) for g, (cp, c) in cells.items()},
                'small': {str(g): len(c[0]) for g, (_, c) in small_cells.items()}},
               open(os.path.join(HERE, 'arabic_widths.json'), 'w'), indent=0)
     bitmap = [0] * 32

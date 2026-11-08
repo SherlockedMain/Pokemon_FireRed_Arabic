@@ -14,7 +14,8 @@ PalletTown_RivalsHouse_Text_ErrandForGrandpaThisWillHelp::
     .string "{GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻫﺬﻩ، ﺳﺘﻨﻔﻌﻚ ﻓﻲ ﻃﺮﻳﻘﻚ.$"
 
 PalletTown_RivalsHouse_Text_ReceivedTownMapFromDaisy::
-    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﺧﺮﻳﻄﺔ ﺒﻠﺪﺕ\n"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﺧﺮﻳﻄﺔ\n"
+    .string "ﺒﻠﺪﺕ\p"
     .string "ﻣﻦ ﺩﻳﺰﻱ.$"
 
 PalletTown_RivalsHouse_Text_DontHaveSpaceForThis::
@@ -25,7 +26,8 @@ PalletTown_RivalsHouse_Text_ExplainTownMap::
     .string "ﻭﺗﺘﻌﺮﻑ ﻋﻠﻰ ﺃﺳﻤﺎﺀ ﺍﻷﻣﺎﻛﻦ.$"
 
 PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
-    .string "ﺩﻳﺰﻱ: ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻛﺎﺋﻨﺎﺕ ﺣﻴﺔ،\n"
+    .string "ﺩﻳﺰﻱ: ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻛﺎﺋﻨﺎﺕ\n"
+    .string "ﺣﻴﺔ،\p"
     .string "ﺗﺘﻌﺐ ﻣﺜﻠﻨﺎ ﺗﻤﺎﻣﺎ.\p"
     .string "{GENDER_M}ﻓﺎﻣﻨﺤﻬﺎ{GENDER_F}ﻓﺎﻣﻨﺤﻴﻬﺎ{GENDER_E} ﻗﺴﻄﺎ ﻣﻦ ﺮﺣﺔ\n"
     .string "ﺣﻴﻦ ﺗﺤﺘﺎﺝ ﺇﻟﻴﻪ.$"
@@ -113,8 +115,8 @@ PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou::
     .string "ﻗﻠﻴﻼ؟$"
 
 PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch::
-    .string "…ﻣﻤﻢ، ﻟﻴﺲ ﻣﻦ ﺴﻬﻞ ﺃﻥ ﺃﻗﻮﻝ ﻫﺬ،\n"
-    .string "ﻟﻜﻦ…\p"
+    .string "…ﻣﻤﻢ، ﻟﻴﺲ ﻣﻦ ﺴﻬﻞ ﺃﻥ ﺃﻗﻮﻝ\n"
+    .string "ﻫﺬ، ﻟﻜﻦ…\p"
     .string "ﻫﻞ ﻫﻨﺎﻙ ﺳﺒﺐ ﻳﺠﻌﻞ ﺑﻮﻛﻴﻤﻮﻧﻚ\n"
     .string "ﻳﻜﺮﻫﻚ ﺇﻟﻰ ﻫﺬ ﺤﺪ؟$"
 

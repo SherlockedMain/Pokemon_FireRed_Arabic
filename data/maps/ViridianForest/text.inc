@@ -1,5 +1,6 @@
 ViridianForest_Text_FriendsItchingToBattle::
-    .string "ﺟﺌﺖ ﺇﻟﻰ ﻫﻨﺎ ﻣﻊ ﺃﺻﺪﻗﺎﺋﻲ ﻟﻨﻤﺴﻚ\n"
+    .string "ﺟﺌﺖ ﺇﻟﻰ ﻫﻨﺎ ﻣﻊ ﺃﺻﺪﻗﺎﺋﻲ\n"
+    .string "ﻟﻨﻤﺴﻚ\p"
     .string "ﺑﻌﺾ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﺤﺸﺮﺕ!\p"
     .string "ﻭﻛﻠﻬﻢ ﻣﺘﺸﻮﻗﻮﻥ ﻟﺨﻮﺽ\n"
     .string "ﻧﺰﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ!$"
@@ -43,7 +44,8 @@ ViridianForest_Text_SammyPostBattle::
     .string "ﻫﻞ {GENDER_M}ﺗﺴﺎﻋﺪﻧﻲ؟{GENDER_F}ﺗﺴﺎﻋﺪﻳﻨﻨﻲ؟{GENDER_E}$"
 
 ViridianForest_Text_AnthonyIntro::
-    .string "ﻗﺪ ﺃﻛﻮﻥ ﺻﻐﻴﺮ، ﻟﻜﻨﻨﻲ ﻟﻦ ﺃﺭﺿﻰ\n"
+    .string "ﻗﺪ ﺃﻛﻮﻥ ﺻﻐﻴﺮ، ﻟﻜﻨﻨﻲ ﻟﻦ\n"
+    .string "ﺃﺭﺿﻰ\p"
     .string "ﺃﻥ {GENDER_M}ﺗﺘﺴﺎﻫﻞ{GENDER_F}ﺗﺘﺴﺎﻫﻠﻲ{GENDER_E} ﻣﻌﻲ!$"
 
 ViridianForest_Text_AnthonyDefeat::

@@ -1,15 +1,19 @@
 PalletTown_PlayersHouse_1F_Text_AllBoysLeaveOakLookingForYou::
     .string "ﺍﻷﻡ: …ﺃﻋﺮﻑ ﻳﺎ ﺑﻨﻲ، ﺃﻋﺮﻑ.\p"
     .string "ﻻ ﺑﺪ ﻟﻠﻌﺼﻔﻮﺭ ﺃﻥ ﻳﻐﺎﺩﺭ ﻋﺸﻪ\n"
-    .string "ﻳﻮﻣﺎ ﻣﺎ… ﻫﻜﺬ ﻗﺎﻟﻮ ﻓﻲ ﺘﻠﻔﺎﺯ!\p"
-    .string "ﺁﻩ، ﺻﺤﻴﺢ! ﺟﺎﺭﻧﺎ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ\n"
+    .string "ﻳﻮﻣﺎ ﻣﺎ… ﻫﻜﺬ ﻗﺎﻟﻮ ﻓﻲ\p"
+    .string "ﺘﻠﻔﺎﺯ!\p"
+    .string "ﺁﻩ، ﺻﺤﻴﺢ! ﺟﺎﺭﻧﺎ ﺒﺮﻭﻓﻴﺴﻮﺭ\n"
+    .string "ﺃﻭﻙ\p"
     .string "ﻛﺎﻥ ﻳﺴﺄﻝ ﻋﻨﻚ.$"
 
 PalletTown_PlayersHouse_1F_Text_AllGirlsLeaveOakLookingForYou::
     .string "ﺍﻷﻡ: …ﺃﻋﺮﻑ ﻳﺎ ﺍﺑﻨﺘﻲ، ﺃﻋﺮﻑ.\p"
     .string "ﻻ ﺑﺪ ﻟﻠﻌﺼﻔﻮﺭ ﺃﻥ ﻳﻐﺎﺩﺭ ﻋﺸﻪ\n"
-    .string "ﻳﻮﻣﺎ ﻣﺎ… ﻫﻜﺬ ﻗﺎﻟﻮ ﻓﻲ ﺘﻠﻔﺎﺯ!\p"
-    .string "ﺁﻩ، ﺻﺤﻴﺢ! ﺟﺎﺭﻧﺎ ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ\n"
+    .string "ﻳﻮﻣﺎ ﻣﺎ… ﻫﻜﺬ ﻗﺎﻟﻮ ﻓﻲ\p"
+    .string "ﺘﻠﻔﺎﺯ!\p"
+    .string "ﺁﻩ، ﺻﺤﻴﺢ! ﺟﺎﺭﻧﺎ ﺒﺮﻭﻓﻴﺴﻮﺭ\n"
+    .string "ﺃﻭﻙ\p"
     .string "ﻛﺎﻥ ﻳﺴﺄﻝ ﻋﻨﻚ.$"
 
 PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest::
@@ -31,7 +35,8 @@ PalletTown_PlayersHouse_1F_Text_MovieOnTVFourBoysOnRailroad::
 
 PalletTown_PlayersHouse_1F_Text_MovieOnTVGirlOnBrickRoad::
     .string "ﻳﻌﺮﺽ ﺘﻠﻔﺎﺯ ﻓﻴﻠﻤﺎ…\n"
-    .string "ﻓﺘﺎﺓ ﺑﻀﻔﻴﺮﺗﻴﻦ ﺗﻤﺸﻲ ﻋﻠﻰ ﻃﺮﻳﻖ\p"
+    .string "ﻓﺘﺎﺓ ﺑﻀﻔﻴﺮﺗﻴﻦ ﺗﻤﺸﻲ ﻋﻠﻰ\p"
+    .string "ﻃﺮﻳﻖ\n"
     .string "ﻣﺮﺻﻮﻑ ﺑﺎﻟﻄﻮﺏ ﺍﻷﺻﻔﺮ.\p"
     .string "…ﻳﺒﺪﻭ ﺃﻥ ﻭﻗﺖ ﺭﺣﻠﺘﻲ ﻗﺪ ﺣﺎﻥ\n"
     .string "ﺃﻳﻀﺎ.$"

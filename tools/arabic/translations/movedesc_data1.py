@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Move descriptions, part 1 (Pound … Struggle). Keys = gMoveDescription_<Key>.
 BRN, PAR, FRZ, PSN, CNF, FLN = 'قد يحرق الخصم.', 'قد يشل الخصم.', 'قد يجمّد الخصم.', 'قد يسمم الخصم.', 'قد يحيّر الخصم.', 'قد يجعل الخصم يجفل.'
-CRIT = 'فرص الضربة الحاسمة\nفيه عالية.'
+CRIT = 'ضرباته الحاسمة كثيرة.'
 D1 = {
  'Pound':'ضربة بالذيل أو بالقائمة\nالأمامية.',
  'KarateChop':'ضربة كف حادة. ' + CRIT,

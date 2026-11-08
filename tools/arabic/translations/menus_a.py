@@ -76,7 +76,7 @@ C = dict(X1=N1, X2=N2, X3=N3)
 _MEMO_NOTE = '{X1} = nature, {X2} = place, {X3} = level: keep them.'
 def memo(label, ar): return M(label, ar, MEMO, codes=C, note=_MEMO_NOTE)
 _E += [
- M('gText_PokeSum_PageName_PokemonInfo', 'المعلومات', one(100)), M('gText_PokeSum_PageName_PokemonSkills', 'قدرات البوكيمون', one(100)),
+ M('gText_PokeSum_PageName_PokemonInfo', 'المعلومات', one(100)), M('gText_PokeSum_PageName_PokemonSkills', 'القدرات', one(100)),
  M('gText_PokeSum_PageName_KnownMoves', 'الحركات', one(100)),
  M('gText_PokeSum_Controls_Cancel', '{A_BUTTON} إلغاء', SMALL), M('gText_PokeSum_Controls_Page', '{DPAD_LEFTRIGHT} الصفحة', SMALL),
  M('gText_PokeSum_Controls_PageCancel', '{DPAD_RIGHT} صفحة {A_BUTTON} عودة', SMALL),
@@ -87,7 +87,7 @@ _E += [
  M('gText_PokeSum_ExpPoints', 'النقاط', LABEL, note='The «الخبرة» label pill sits right next to it, so this row says «النقاط».'), M('gText_PokeSum_NextLv', 'للترقية', one(72), note='"NEXT LV." -> «للترقية» (to the next level): the label has 72 px.'),
  M('gText_PokeSum_Item_None', 'لا شيء', LABEL), M('gText_PokeSum_NoData', 'لا بيانات', LABEL),
  M('gText_PokeSum_ATrade', 'مبادلة', LABEL), M('gText_Somewhere', 'مكان ما', LABEL), M('gFameCheckerText_Cancel', 'إلغاء', LABEL),
- M('gText_PokeSum_HmMovesCantBeForgotten', 'لا يمكن نسيان حركات\nالأقراص الخاصة الآن.', ('static', 112, 'normal', 3)),
+ M('gText_PokeSum_HmMovesCantBeForgotten', 'لا يمكن نسيان\nحركات الأقراص\nالخاصة الآن.', ('manual', 112, 'normal', 3)),
  memo('gText_PokeSum_Met', 'طبيعته: {X1}.\nقابلته في {X2}\nفي المستوى {X3}.'),
  memo('gText_PokeSum_Met_BoldGentleGrammar', 'طبيعته: {X1}.\nقابلته في {X2}\nفي المستوى {X3}.'),
  memo('gText_PokeSum_MetInATrade', 'طبيعته: {X1}.\nحصلت عليه بالمبادلة.'),
@@ -131,7 +131,7 @@ _E += [
 ]
 SCREEN = 'Bag'
 _E += [
- M('gText_Items2', 'الأدوات', LABEL), M('gText_KeyItems2', 'أدوات مهمة', LABEL), M('gText_PokeBalls2', 'الكرات', LABEL),
+ M('gText_Items2', 'الأدوات', LABEL), M('gText_KeyItems2', 'أدوات مهمة', one(72), note='Pocket name: centred in a 72 px tab.'), M('gText_PokeBalls2', 'الكرات', LABEL),
  M('gOtherText_Use', 'استخدام', LABEL), M('gOtherText_Give', 'إعطاء', LABEL), M('gOtherText_Toss', 'رمي', LABEL),
  M('gOtherText_Register', 'تسجيل', LABEL), M('gText_Register', 'تسجيل', LABEL), M('gOtherText_Deselect', 'فك التسجيل', one(80)),
  M('gOtherText_Check', 'تفقّد', LABEL), M('gOtherText_Open', 'فتح', LABEL), M('gOtherText_Walk', 'مشي', LABEL),

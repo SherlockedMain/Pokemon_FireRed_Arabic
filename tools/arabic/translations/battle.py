@@ -190,8 +190,8 @@ _E = [
     B('sText_Attack2', 'Stat name', 'هجومه', box=WORD, note='Possessive: «ازداد هجومه». Speed, accuracy and evasion are feminine.'),
     B('sText_Defense2', 'Stat name', 'دفاعه', box=WORD),
     B('sText_Speed', 'Stat name', 'سرعته', box=WORD),
-    B('sText_SpAtk2', 'Stat name', 'هجومه الخاص', box=WORD),
-    B('sText_SpDef2', 'Stat name', 'دفاعه الخاص', box=WORD),
+    B('sText_SpAtk2', 'Stat name', 'هجومه الخاص', box=('line', 90, 'normal', 1)),
+    B('sText_SpDef2', 'Stat name', 'دفاعه الخاص', box=('line', 90, 'normal', 1)),
     B('sText_Accuracy', 'Stat name', 'دقته', box=WORD),
     B('sText_Evasiveness', 'Stat name', 'مراوغته', box=WORD),
 

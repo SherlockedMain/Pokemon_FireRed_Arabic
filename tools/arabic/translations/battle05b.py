@@ -11,9 +11,11 @@ SHORT = ('line', 120, 'normal', 1)
 _box = {k: WORD for k in ('AllyPkmnPrefix', 'AllyPkmnPrefix2', 'AllyPkmnPrefix3', 'gText_Sleep', 'gText_Poison', 'gText_Burn',
                           'gText_Paralysis', 'gText_Ice', 'gText_Confusion', 'gText_Love', 'gText_Win', 'gText_Loss',
                           'gText_Draw', 'gText_BadEgg', 'gText_HighlightRed_Left', 'EnigmaBerry')}
+_box_bad_egg = ('line', 80, 'normal', 1)
 _box.update({k: SHORT for k in ('gText_SafariBalls', 'gText_TimeBoard', 'gText_ClearTime', 'gText_XMinYZSec', 'gText_LinkStandby')})
 _box['gText_WhatWillOldManDo'] = PROMPT
-_box['EnigmaBerry'] = ('line', 98, 'normal', 1)          # an item name: bag-list budget
+_box['EnigmaBerry'] = ('line', 98, 'normal', 1)
+_box['gText_BadEgg'] = ('line', 80, 'normal', 1)        # party name slot          # an item name: bag-list budget
 _box['gText_XMinYZSec'] = ('line', 240, 'normal', 1)       # {STR_VAR_n} are 2-digit numbers here
 
 _ALL = {}

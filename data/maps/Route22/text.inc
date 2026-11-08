@@ -49,7 +49,8 @@ Route22_Text_LateRivalPostBattle::
 	.string "ﺃﻧﺎ ﺟﺎﻫﺰ ﻟﺪﻭﺭﻱ ﺒﻮﻛﻴﻤﻮﻥ!\p"
 	.string "{PLAYER}، {GENDER_M}ﺗﺤﺘﺎﺝ{GENDER_F}ﺗﺤﺘﺎﺟﻴﻦ{GENDER_E} ﺇﻟﻰ ﻣﺰﻳﺪ ﻣﻦ\n"
 	.string "ﺘﺪﺭﻳﺐ.\p"
-	.string "ﻟﻜﻨﻚ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﺫﻟﻚ، ﺃﻟﻴﺲ ﻛﺬﻟﻚ؟\n"
+	.string "ﻟﻜﻨﻚ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﺫﻟﻚ، ﺃﻟﻴﺲ\n"
+	.string "ﻛﺬﻟﻚ؟\p"
 	.string "ﺃﻧﺎ ﺫﻫﺐ. ﺃﺭﻙ ﻻﺣﻘﺎ!$"
 
 @ Translated in RB as "{RIVAL}: Hahaha! {PLAYER}! That's your best? You're nowhere near as good as me, pal! Go train some more! You loser!"

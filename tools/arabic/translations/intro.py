@@ -157,7 +157,7 @@ ENTRIES = [
          ar='تتواصل هذه اللعبة لاسلكيا باستخدام المحوّل اللاسلكي.\n\nالعب لاسلكيا في أي مكان، وفي أي وقت، ومع أي أحد!\n\nجرّب أن تُبقي المحوّل اللاسلكي موصولا دائما أثناء اللعب!'),
     dict(id='Help_Text_EnteringName', file=INC_HELP, screen='Help (L/R)', where='Naming screen: "How do I do this?" entry', box=('line', 196, 'normal', 1), ar='إدخال الاسم'),
     dict(id='Help_Text_HowToEnterName', file=INC_HELP, screen='Help (L/R)', where='Naming screen: answer', box=('manual', 204, 'normal', 7),
-         ar='{CIRCLE_1} اختر الحرف بلوحة الاتجاهات {PLUS}،\n   ثم اضغط زر A لإدخاله.\n{CIRCLE_2} اضغط زر B لحذف آخر حرف.\n'
+         ar='{CIRCLE_1} اختر الحرف بلوحة {PLUS}،\n   ثم اضغط زر A لإدخاله.\n{CIRCLE_2} اضغط زر B لحذف آخر حرف.\n'
             '{CIRCLE_3} اضغط SELECT للتبديل بين\n   الحروف الكبيرة والصغيرة.\n{CIRCLE_4} اضغط زر A على “OK”.',
          note='Kept line by line like the original (numbered steps). The keyboard and its OK button stay in Latin for now.'),
     dict(id='gText_HelpSystemControls_A_Next', file=STRINGS, screen='Help (L/R)', where='Button hint, bottom bar', box=('line', 120, 'small', 1), ar='{A_BUTTON} التالي'),
@@ -296,7 +296,7 @@ for _e in ENTRIES:
             _e['note'] = 'Shown before the player picks boy/girl: worded without masculine/feminine forms.'
 
 # ---- Revision 4: the naming keyboard now has Arabic pages
-_R4 = {'Help_Text_HowToEnterName': '{CIRCLE_1} اختر الحرف بلوحة الاتجاهات {PLUS}،\n   ثم اضغط زر A لإدخاله.\n{CIRCLE_2} اضغط زر B لحذف آخر حرف.\n{CIRCLE_3} اضغط SELECT للتبديل بين\n   العربية واللاتينية والرموز.\n{CIRCLE_4} اضغط زر A على “OK”.'}
+_R4 = {'Help_Text_HowToEnterName': '{CIRCLE_1} اختر الحرف بلوحة {PLUS}،\n   ثم اضغط زر A لإدخاله.\n{CIRCLE_2} اضغط زر B لحذف آخر حرف.\n{CIRCLE_3} اضغط SELECT للتبديل بين\n   العربية واللاتينية والرموز.\n{CIRCLE_4} اضغط زر A على “OK”.'}
 for _e in ENTRIES:
     if _e['id'] in _R4:
         _e['ar'] = _R4[_e['id']]

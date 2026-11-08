@@ -22,7 +22,8 @@ Text_DishesPlatesNeatlyLinedUp::
 
 Text_Kitchen::
 	.string "ﺭﺋﺤﺔ ﺷﻬﻴﺔ ﺗﻤﻸ ﻤﻜﺎﻥ!\n"
-	.string "ﻻ ﺑﺪ ﺃﻥ ﺃﺣﺪﻫﻢ ﻳﻄﺒﺦ ﺷﻴﺌﺎ ﻟﺬﻳﺬ.$"
+	.string "ﻻ ﺑﺪ ﺃﻥ ﺃﺣﺪﻫﻢ ﻳﻄﺒﺦ ﺷﻴﺌﺎ\p"
+	.string "ﻟﺬﻳﺬ.$"
 
 Text_Dresser::
 	.string "ﺧﺰﻧﺔ ﺃﻧﻴﻘﺔ ﻣﺘﻴﻨﺔ ﺼﻨﻊ.\n"

@@ -142,16 +142,17 @@ gControlsGuide_Text_BButton::
     .string "ﻭﻟﻌﻮﺩﺓ ﺧﻄﻮﺓ ﺇﻟﻰ ﻮﺭﺀ.$"
 
 gControlsGuide_Text_StartButton::
-    .string "ﺍﻓﺘﺢ ﺑﻪ ﻘﺎﺋﻤﺔ… ﻓﻔﻴﻬﺎ ﻛﻞ ﻣﺎ\n"
-    .string "ﺗﺤﺘﺎﺟﻪ!$"
+    .string "ﺍﻓﺘﺢ ﺑﻪ ﻘﺎﺋﻤﺔ… ﻓﻔﻴﻬﺎ ﻛﻞ\n"
+    .string "ﻣﺎ ﺗﺤﺘﺎﺟﻪ!$"
 
 gControlsGuide_Text_SelectButton::
-    .string "ﺭﺗﺐ ﺑﻪ ﺃﺩﻭﺗﻚ، ﺃﻭ ﺍﺳﺘﺨﺪﻡ ﺍﻷﺩﺓ\n"
-    .string "ﻤﺴﺠﻠﺔ ﻓﻲ ﻟﻤﺢ ﺒﺼﺮ.$"
+    .string "ﺭﺗﺐ ﺑﻪ ﺃﺩﻭﺗﻚ، ﺃﻭ ﺍﺳﺘﺨﺪﻡ\n"
+    .string "ﺍﻷﺩﺓ ﻤﺴﺠﻠﺔ ﻓﻲ ﻟﻤﺢ ﺒﺼﺮ.$"
 
 gControlsGuide_Text_LRButtons::
-    .string "ﺗﻬﺖ؟ ﺍﺣﺘﺮﺕ؟ ﺍﺿﻐﻂ ﺯﺭ L ﺃﻭ R،\n"
-    .string "ﻭﺳﺘﺄﺗﻴﻚ ﻤﺴﺎﻋﺪﺓ ﻓﻲ ﺤﺎﻝ!$"
+    .string "ﺗﻬﺖ؟ ﺍﺣﺘﺮﺕ؟ ﺍﺿﻐﻂ ﺯﺭ L ﺃﻭ\n"
+    .string "R، ﻭﺳﺘﺄﺗﻴﻚ ﻤﺴﺎﻋﺪﺓ ﻓﻲ\n"
+    .string "ﺤﺎﻝ!$"
 
 gOakSpeech_Text_AskPlayerGender::
     .string "ﻭﻵﻥ…\n"
@@ -167,18 +168,18 @@ gPikachuIntro_Text_Page1::
 
 gPikachuIntro_Text_Page2::
     .string "ﻛﻠﻤﺎ ﻣﺪﺩﺕ ﻳﺪ ﻌﻮﻥ ﻟﻤﺤﺘﺎﺝ،\n"
-    .string "ﻭﺗﺠﺎﻭﺯﺕ ﺗﺤﺪﻳﺎ، ﻭﺣﻠﻠﺖ ﻟﻐﺰ، ﺍﻧﻔﺘﺢ\n"
-    .string "ﺃﻣﺎﻣﻚ ﺩﺭﺏ ﺟﺪﻳﺪ.\n"
+    .string "ﻭﺗﺠﺎﻭﺯﺕ ﺗﺤﺪﻳﺎ، ﻭﺣﻠﻠﺖ ﻟﻐﺰ،\n"
+    .string "ﺍﻧﻔﺘﺢ ﺃﻣﺎﻣﻚ ﺩﺭﺏ ﺟﺪﻳﺪ.\n"
     .string "\n"
     .string "ﺳﻴﺘﺤﺪﻙ ﻤﺪﺭﺑﻮﻥ، ﻭﺗﺒﺎﻏﺘﻚ\n"
     .string "ﻤﺨﻠﻮﻗﺎﺕ ﺒﺮﻳﺔ… ﻓﺘﺸﺠﻊ، ﻭﻻ\n"
     .string "ﺗﺘﻮﻗﻒ!$"
 
 gPikachuIntro_Text_Page3::
-    .string "ﻧﺘﻤﻨﻰ ﺃﻥ ﺗﻠﺘﻘﻲ ﻓﻲ ﺭﺣﻠﺘﻚ ﺃﻧﺎﺳﺎ\n"
-    .string "ﻣﻦ ﻛﻞ ﺣﺪﺏ ﻭﺻﻮﺏ، ﻭﻥ ﺗﻌﻮﺩ ﻣﻨﻬﺎ\n"
-    .string "ﺃﻗﻮﻯ ﻭﺣﻜﻢ. ﻓﺬﻟﻚ ﺃﺟﻤﻞ ﻣﺎ ﻓﻲ\n"
-    .string "ﻤﻐﺎﻣﺮﺓ.\n"
+    .string "ﻧﺘﻤﻨﻰ ﺃﻥ ﺗﻠﺘﻘﻲ ﻓﻲ ﺭﺣﻠﺘﻚ\n"
+    .string "ﺃﻧﺎﺳﺎ ﻣﻦ ﻛﻞ ﺣﺪﺏ ﻭﺻﻮﺏ، ﻭﻥ ﺗﻌﻮﺩ\n"
+    .string "ﻣﻨﻬﺎ ﺃﻗﻮﻯ ﻭﺣﻜﻢ. ﻓﺬﻟﻚ ﺃﺟﻤﻞ ﻣﺎ\n"
+    .string "ﻓﻲ ﻤﻐﺎﻣﺮﺓ.\n"
     .string "\n"
     .string "ﺍﺿﻐﻂ ﺯﺭ A… ﻭﻟﺘﺒﺪ ﺤﻜﺎﻳﺔ!$"
 
@@ -187,7 +188,8 @@ gOakSpeech_Text_WelcomeToTheWorld::
     .string "ﻛﻢ ﻳﺴﻌﺪﻧﻲ ﻟﻘﺎﺅﻙ!\p"
     .string "ﻣﺮﺣﺒﺎ ﺑﻚ ﻓﻲ ﻋﺎﻟﻢ ﺒﻮﻛﻴﻤﻮﻥ!\p"
     .string "ﺃﻧﺎ ﺃﻭﻙ.\p"
-    .string "ﻭﻟﻨﺎﺱ ﻫﻨﺎ ﻳﺤﺒﻮﻥ ﺃﻥ ﻳﻨﺎﺩﻭﻧﻲ:\n"
+    .string "ﻭﻟﻨﺎﺱ ﻫﻨﺎ ﻳﺤﺒﻮﻥ ﺃﻥ\n"
+    .string "ﻳﻨﺎﺩﻭﻧﻲ:\p"
     .string "ﺑﺮﻭﻓﻴﺴﻮﺭ ﺒﻮﻛﻴﻤﻮﻥ!\p$"
 
 gOakSpeech_Text_ThisWorld::
@@ -200,7 +202,8 @@ gOakSpeech_Text_IsInhabitedFarAndWide::
 gOakSpeech_Text_IStudyPokemon::
     .string "ﻟﻠﺒﻌﺾ، ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺭﻓﺎﻕ\n"
     .string "ﺃﻭﻓﻴﺎﺀ،\p"
-    .string "ﻭﻟﻠﺒﻌﺾ ﺍﻵﺧﺮ، ﺷﺮﻛﺎﺀ ﻓﻲ ﻨﺰﻻﺕ.\p"
+    .string "ﻭﻟﻠﺒﻌﺾ ﺍﻵﺧﺮ، ﺷﺮﻛﺎﺀ ﻓﻲ\n"
+    .string "ﻨﺰﻻﺕ.\p"
     .string "ﺃﻣﺎ ﺃﻧﺎ…\p"
     .string "ﻓﻘﺪ ﻭﻫﺒﺖ ﻋﻤﺮﻱ ﻛﻠﻪ ﻟﺪﺭﺳﺘﻬﺎ.\p$"
 
@@ -218,7 +221,8 @@ gOakSpeech_Text_SoYourNameIsPlayer::
 
 gOakSpeech_Text_WhatWasHisName::
     .string "ﻫﺬ ﺣﻔﻴﺪﻱ.\p"
-    .string "ﺗﺘﻨﺎﻓﺴﺎﻥ ﻣﻨﺬ ﻧﻌﻮﻣﺔ ﺃﻇﻔﺎﺭﻛﻤﺎ.\p"
+    .string "ﺗﺘﻨﺎﻓﺴﺎﻥ ﻣﻨﺬ ﻧﻌﻮﻣﺔ\n"
+    .string "ﺃﻇﻔﺎﺭﻛﻤﺎ.\p"
     .string "…ﻣﻤﻢ، ﻣﺎ ﻛﺎﻥ ﺍﺳﻤﻪ ﻳﺎ ﺗﺮﻯ؟$"
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::

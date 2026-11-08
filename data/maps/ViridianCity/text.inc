@@ -44,11 +44,13 @@ ViridianCity_Text_ThisIsPrivateProperty::
     .string "ﻫﺬﻩ ﺃﺭﺽ ﺧﺎﺻﺔ!$"
 
 ViridianCity_Text_ShowYouHowToCatchMons::
-    .string "ﺁﻩ… ﻓﻨﺠﺎﻥ ﻘﻬﻮﺓ ﻳﺼﻨﻊ ﻤﻌﺠﺰﺕ!\n"
+    .string "ﺁﻩ… ﻓﻨﺠﺎﻥ ﻘﻬﻮﺓ ﻳﺼﻨﻊ\n"
+    .string "ﻤﻌﺠﺰﺕ!\p"
     .string "ﺃﻧﺎ ﺍﻵﻥ ﻣﺴﺘﻌﺪ ﻷﻱ ﺷﻲﺀ!\p"
     .string "ﻫﻢ؟\n"
     .string "ﻣﺎ ﻫﺬ ﺼﻨﺪﻭﻕ ﺍﻷﺣﻤﺮ ﻣﻌﻚ؟\p"
-    .string "ﺁﻩ، ﺃﻧﺖ {GENDER_M}ﺗﻤﻸ{GENDER_F}ﺗﻤﻠﺌﻴﻦ{GENDER_E} ﺒﻮﻛﻴﺪﻳﻜﺲ ﺇﺫﻥ.\p"
+    .string "ﺁﻩ، ﺃﻧﺖ {GENDER_M}ﺗﻤﻸ{GENDER_F}ﺗﻤﻠﺌﻴﻦ{GENDER_E} ﺒﻮﻛﻴﺪﻳﻜﺲ\n"
+    .string "ﺇﺫﻥ.\p"
     .string "{GENDER_M}ﺍﺳﻤﻊ{GENDER_F}ﺍﺳﻤﻌﻲ{GENDER_E} ﻧﺼﻴﺤﺔ ﺭﺟﻞ ﻣﺠﺮﺏ…\p"
     .string "ﻛﻠﻤﺎ ﺃﻣﺴﻜﺖ ﺑﻮﻛﻴﻤﻮﻧﺎ، ﻳﺤﺪﺙ\n"
     .string "ﺒﻮﻛﻴﺪﻳﻜﺲ ﺑﻴﺎﻧﺎﺗﻪ ﺗﻠﻘﺎﺋﻴﺎ.\p"
@@ -68,7 +70,8 @@ ViridianCity_Text_WatchThatToLearnBasics::
     .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻣﻦ ﺒﺪﻳﺔ.$"
 
 ViridianCity_Text_WeakenMonsFirstToCatch::
-    .string "ﺁﻩ… ﻓﻨﺠﺎﻥ ﻘﻬﻮﺓ ﻳﺼﻨﻊ ﻤﻌﺠﺰﺕ!\n"
+    .string "ﺁﻩ… ﻓﻨﺠﺎﻥ ﻘﻬﻮﺓ ﻳﺼﻨﻊ\n"
+    .string "ﻤﻌﺠﺰﺕ!\p"
     .string "ﺃﻧﺎ ﺍﻵﻥ ﻣﺴﺘﻌﺪ ﻷﻱ ﺷﻲﺀ!\p"
     .string "ﻟﻜﻨﻨﻲ ﺑﺎﻟﻐﺖ ﻓﻲ ﺗﺮﻛﻴﺰﻫﺎ.\n"
     .string "ﺭﺳﻲ ﻳﺪﻭﺭ…\p"
@@ -78,7 +81,8 @@ ViridianCity_Text_WeakenMonsFirstToCatch::
     .string "ﺛﻢ {GENDER_M}ﺣﺎﻭﻝ{GENDER_F}ﺣﺎﻭﻟﻲ{GENDER_E} ﺇﻣﺴﺎﻛﻪ.$"
 
 ViridianCity_Text_HowsTeachyTVHelping::
-    .string "ﺁﻩ… ﻓﻨﺠﺎﻥ ﻘﻬﻮﺓ ﻳﺼﻨﻊ ﻤﻌﺠﺰﺕ!\n"
+    .string "ﺁﻩ… ﻓﻨﺠﺎﻥ ﻘﻬﻮﺓ ﻳﺼﻨﻊ\n"
+    .string "ﻤﻌﺠﺰﺕ!\p"
     .string "ﺃﻧﺎ ﺍﻵﻥ ﻣﺴﺘﻌﺪ ﻷﻱ ﺷﻲﺀ!\p"
     .string "ﻟﻜﻨﻨﻲ ﺑﺎﻟﻐﺖ ﻓﻲ ﺗﺮﻛﻴﺰﻫﺎ.\n"
     .string "ﺭﺳﻲ ﻳﺪﻭﺭ…\p"

@@ -21,7 +21,7 @@ H1 = {
  'WhatIsAMonsVitality':'ما هي حيوية البوكيمون؟',
  'MyMonsAreHurt':'بوكيموناتي مصابة!',
  'WhatIsStatusProblem':'ما هي الحالات السيئة؟',
- 'WhatHappensIfAllMyMonsFaint':'ماذا لو سقطت كل بوكيموناتي؟',
+ 'WhatHappensIfAllMyMonsFaint':'ماذا لو سقط فريقي كله؟',
  'CantCatchMons':'لا أستطيع إمساك البوكيمونات!',
  'RanOutOfPotions':'نفدت جرعاتي.',
  'CanIBuyPokeBalls':'هل أشتري كرات البوكيمون؟',

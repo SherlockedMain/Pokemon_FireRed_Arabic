@@ -19,15 +19,18 @@ PewterCity_Museum_1F_Text_PleaseEnjoyYourself::
 PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
     .string "ﻻ ﻳﻤﻜﻨﻚ ﺘﺴﻠﻞ ﻣﻦ ﺒﺎﺏ\n"
     .string "ﺨﻠﻔﻲ!\p"
-    .string "ﻣﺤﺎﻭﻟﺔ ﻟﻄﻴﻔﺔ ﻳﺎ {GENDER_M}ﺻﻐﻴﺮ،{GENDER_F}ﺻﻐﻴﺮﺓ،{GENDER_E} ﻟﻜﻦ ﻻ.\p"
+    .string "ﻣﺤﺎﻭﻟﺔ ﻟﻄﻴﻔﺔ ﻳﺎ {GENDER_M}ﺻﻐﻴﺮ،{GENDER_F}ﺻﻐﻴﺮﺓ،{GENDER_E} ﻟﻜﻦ\n"
+    .string "ﻻ.\p"
     .string "ﺁﻩ، ﻻ ﻳﻬﻢ!\n"
     .string "ﻫﻞ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﻣﺎ ﻫﻮ ﻜﻬﺮﻣﺎﻥ؟$"
 
 PewterCity_Museum_1F_Text_AmberContainsGeneticMatter::
     .string "ﻜﻬﺮﻣﺎﻥ ﻳﺤﻮﻱ ﻤﺎﺩﺓ ﻮﺭﺛﻴﺔ\n"
     .string "ﻟﺒﻮﻛﻴﻤﻮﻥ ﻗﺪﻳﻢ.\p"
-    .string "ﻭﻫﻨﺎﻙ ﻣﺨﺘﺒﺮ ﻓﻲ ﻣﻜﺎﻥ ﻣﺎ ﻳﺤﺎﻭﻝ\n"
-    .string "ﺇﺣﻴﺎﺀ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻣﻦ ﻜﻬﺮﻣﺎﻥ.$"
+    .string "ﻭﻫﻨﺎﻙ ﻣﺨﺘﺒﺮ ﻓﻲ ﻣﻜﺎﻥ ﻣﺎ\n"
+    .string "ﻳﺤﺎﻭﻝ\p"
+    .string "ﺇﺣﻴﺎﺀ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻣﻦ\n"
+    .string "ﻜﻬﺮﻣﺎﻥ.$"
 
 PewterCity_Museum_1F_Text_AmberIsFossilizedSap::
     .string "ﻜﻬﺮﻣﺎﻥ ﻓﻲ ﺤﻘﻴﻘﺔ ﺻﻤﻎ، ﺗﻠﻚ\n"
@@ -73,7 +76,8 @@ PewterCity_Museum_1F_Text_DontHaveSpaceForThis::
 
 PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit::
     .string "ﻧﻌﺮﺽ ﺃﺣﻔﻮﺭﺗﻴﻦ ﻟﺒﻮﻛﻴﻤﻮﻧﻴﻦ\n"
-    .string "ﻧﺎﺩﺭﻳﻦ ﻣﻦ ﻋﺼﻮﺭ ﻣﺎ ﻗﺒﻞ ﺘﺎﺭﻳﺦ.$"
+    .string "ﻧﺎﺩﺭﻳﻦ ﻣﻦ ﻋﺼﻮﺭ ﻣﺎ ﻗﺒﻞ\p"
+    .string "ﺘﺎﺭﻳﺦ.$"
 
 PewterCity_Museum_1F_Text_BeautifulPieceOfAmber::
     .string "ﻗﻄﻌﺔ ﻛﻬﺮﻣﺎﻥ ﺭﺋﻌﺔ\n"

@@ -1,7 +1,8 @@
 PewterCity_Mart_Text_BoughtWeirdFishFromShadyGuy::
     .string "ﻋﺠﻮﺯ ﻣﺮﻳﺐ ﺃﻗﻨﻌﻨﻲ ﺑﺸﺮﺀ\n"
     .string "ﺑﻮﻛﻴﻤﻮﻥ ﺳﻤﻜﺔ ﻏﺮﻳﺐ!\p"
-    .string "ﺇﻧﻪ ﺿﻌﻴﻒ ﺗﻤﺎﻣﺎ، ﻭﻛﻠﻔﻨﻲ ¥500!$"
+    .string "ﺇﻧﻪ ﺿﻌﻴﻒ ﺗﻤﺎﻣﺎ، ﻭﻛﻠﻔﻨﻲ\n"
+    .string "¥500!$"
 
 PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently::
     .string "ﺨﻴﺮ ﻳﺄﺗﻲ ﻟﻤﻦ ﻳﺮﺑﻲ\n"

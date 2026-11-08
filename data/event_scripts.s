@@ -944,8 +944,8 @@ Text_ItNeedsCardKey::
 	.string "It needs a CARD KEY!$"
 
 Text_AccessedProfOaksPC::
-	.string "ﺗﻢ ﺪﺧﻮﻝ ﺇﻟﻰ ﺣﺎﺳﻮﺏ ﺒﺮﻭﻓﻴﺴﻮﺭ\n"
-	.string "ﺃﻭﻙ…\p"
+	.string "ﺗﻢ ﺪﺧﻮﻝ ﺇﻟﻰ ﺣﺎﺳﻮﺏ\n"
+	.string "ﺒﺮﻭﻓﻴﺴﻮﺭ ﺃﻭﻙ…\p"
 	.string "ﺗﻢ ﺪﺧﻮﻝ ﺇﻟﻰ ﻧﻈﺎﻡ ﺗﻘﻴﻴﻢ\n"
 	.string "ﺒﻮﻛﻴﺪﻳﻜﺲ…$"
 
