@@ -26,7 +26,7 @@ def _find(label):
 DIALOG = ('dialog', 200, 'normal', 2)
 LABEL = ('line', 64, 'normal', 1)
 def one(px): return ('line', px, 'normal', 1)
-SMALL = ('line', 88, 'small', 1)
+SMALL = ('line', 84, 'small', 1)   # summary hints are right-aligned against x=84
 MEMO = ('static', 216, 'normal', 3)
 DESC = ('dialog', 216, 'normal', 2)
 
@@ -79,7 +79,7 @@ _E += [
  M('gText_PokeSum_PageName_PokemonInfo', 'المعلومات', one(100)), M('gText_PokeSum_PageName_PokemonSkills', 'قدرات البوكيمون', one(100)),
  M('gText_PokeSum_PageName_KnownMoves', 'الحركات', one(100)),
  M('gText_PokeSum_Controls_Cancel', '{A_BUTTON} إلغاء', SMALL), M('gText_PokeSum_Controls_Page', '{DPAD_LEFTRIGHT} الصفحة', SMALL),
- M('gText_PokeSum_Controls_PageCancel', '{DPAD_RIGHT} صفحة {A_BUTTON} إلغاء', SMALL),
+ M('gText_PokeSum_Controls_PageCancel', '{DPAD_RIGHT} صفحة {A_BUTTON} عودة', SMALL),
  M('gText_PokeSum_Controls_PageDetail', '{DPAD_LEFT} صفحة {A_BUTTON} عرض', SMALL),
  M('gText_PokeSum_Controls_Pick', '{DPAD_UPDOWN} اختيار', SMALL),
  M('gText_PokeSum_Controls_PickDelete', '{DPAD_UPDOWN} اختيار {A_BUTTON} حذف', SMALL),

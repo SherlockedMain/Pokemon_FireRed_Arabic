@@ -2407,7 +2407,12 @@ static void PokeSum_FinishSetup(void)
 static void PokeSum_PrintPageName(const u8 * str)
 {
     FillWindowPixelBuffer(sMonSummaryScreen->windowIds[POKESUM_WIN_PAGE_NAME], 0);
+#if TEXT_RTL
+    // Arabic strokes are mostly 1 px: white ink vanishes on the pale tab, use dark ink
+    AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_PAGE_NAME], FONT_NORMAL, 4, 1, sLevelNickTextColors[4], 0, str);
+#else
     AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_PAGE_NAME], FONT_NORMAL, 4, 1, sLevelNickTextColors[1], 0, str);
+#endif
     PutWindowTilemap(sMonSummaryScreen->windowIds[POKESUM_WIN_PAGE_NAME]);
 }
 
