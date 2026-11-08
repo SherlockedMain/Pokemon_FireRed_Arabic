@@ -1444,7 +1444,7 @@ void MoveSelectionCreateCursorAt(u8 cursorPosition, u8 arg1)
 #if TEXT_RTL
     src[0] |= 0x400; // RTL: cursor right of the item, arrow flipped to point left
     src[1] |= 0x400;
-    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 10, 55 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 9, 55 + (cursorPosition & 2), 1, 2, 0x11);
 #else
     CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
 #endif
@@ -1458,7 +1458,7 @@ void MoveSelectionDestroyCursorAt(u8 cursorPosition)
     src[0] = 32;
     src[1] = 32;
 #if TEXT_RTL
-    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 10, 55 + (cursorPosition & 2), 1, 2, 0x11);
+    CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 9, 55 + (cursorPosition & 2), 1, 2, 0x11);
 #else
     CopyToBgTilemapBufferRect_ChangePalette(0, src, 9 * (cursorPosition & 1) + 1, 55 + (cursorPosition & 2), 1, 2, 0x11);
 #endif
