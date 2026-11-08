@@ -226,7 +226,13 @@ void BagPrintTextOnWindow(u8 windowId, u8 fontId, const u8 * str, u8 x, u8 y, u8
 void BagPrintTextOnWin1CenteredColor0(const u8 * str, u8 unused)
 {
     u32 x = 0x48 - GetStringWidth(FONT_NORMAL_COPY_1, str, 0);
+#if TEXT_RTL
+    // Arabic strokes are mostly 1 px: white ink vanishes on the pale tab, so use
+    // dark ink with a light shadow, one pixel higher to clear the orange stripe.
+    AddTextPrinterParameterized3(2, FONT_NORMAL_COPY_1, x / 2, 0, sTextColors[1], 0, str);
+#else
     AddTextPrinterParameterized3(2, FONT_NORMAL_COPY_1, x / 2, 1, sTextColors[0], 0, str);
+#endif
 }
 
 void BagDrawDepositItemTextBox(void)
