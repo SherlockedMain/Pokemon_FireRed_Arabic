@@ -38,6 +38,29 @@ def layout(entry, ar):
             pieces.append((s, '\n')); preview.append(raw)
         if len(pieces) > max_lines:
             problems.append('%d lines, max %d' % (len(pieces), max_lines))
+    elif mode == 'steps':
+        # Numbered help steps: '{CIRCLE_n} …' starts a step, an indented line continues it,
+        # a plain line continues the plain paragraph before it. Each step is re-wrapped to
+        # the width and its continuation lines are indented.
+        IND = '   '
+        ind_w = measure(shape(IND), font)
+        logical = []                      # [(is_step, text)]
+        for raw in ar.split('\n'):
+            is_step = raw.lstrip().startswith('{CIRCLE')
+            if not is_step and logical and (raw.startswith(IND) or not logical[-1][0]):
+                logical[-1] = (logical[-1][0], logical[-1][1] + ' ' + raw.strip())
+            else:
+                logical.append((is_step, raw.strip()))
+        for is_step, text in logical:
+            rows = wrap_pairs(text, max_px - (ind_w if is_step else 0), font)
+            for k, (raw, _s) in enumerate(rows):
+                if k and is_step:
+                    raw = IND + raw
+                sh = shape(raw)
+                check(sh, raw)
+                pieces.append((sh, '\n')); preview.append(raw)
+        if len(pieces) > max_lines:
+            problems.append('%d lines, max %d' % (len(pieces), max_lines))
     elif mode == 'dialog':
         pages = []
         for para in paragraphs(ar):

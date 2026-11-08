@@ -177,7 +177,12 @@ static const u8 *const sButtonTypeOptions[] =
 };
 
 static const u8 sOptionMenuPickSwitchCancelTextColor[] = {TEXT_DYNAMIC_COLOR_6, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY};
+#if TEXT_RTL
+// Arabic strokes are mostly 1 px: two close reds merge, so dark red ink, light red shadow
+static const u8 sOptionMenuTextColor[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_RED, TEXT_COLOR_LIGHT_RED};
+#else
 static const u8 sOptionMenuTextColor[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_LIGHT_RED, TEXT_COLOR_RED};
+#endif
 
 // Functions
 static void CB2_InitOptionMenu(void)

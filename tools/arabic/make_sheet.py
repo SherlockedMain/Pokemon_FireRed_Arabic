@@ -59,7 +59,8 @@ def box_text(box):
             'static': 'Fixed screen: up to %d lines, %d px per line' % (lines, px),
             'help':   'HELP panel: up to %d lines, %d px per line' % (lines, px),
             'line':   'One line, %d px%s' % (px, small),
-            'manual': 'Lines exactly as written: up to %d, %d px each%s' % (lines, px, small)}[mode]
+            'manual': 'Lines exactly as written: up to %d, %d px each%s' % (lines, px, small),
+            'steps': 'Numbered steps ({CIRCLE_n}), re-wrapped to %d px; up to %d lines%s' % (px, lines, small)}[mode]
 
 def style_header(ws, headers, widths):
     for c, (h, w) in enumerate(zip(headers, widths), 1):
