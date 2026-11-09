@@ -1,3 +1,4 @@
+import re
 """Measuring, wrapping and encoding helpers for Arabic FireRed text.
 
 Widths come from the game's own tables (src/text.c) and charmap.txt, so a line
@@ -85,7 +86,8 @@ def wrap_pairs(text, max_width, font='normal'):
     lines = []
     for raw in text.split('\n'):
         indent = raw[:len(raw) - len(raw.lstrip(' '))]
-        words = raw.strip(' ').split(' ') if raw.strip() else ['']
+        # a gender marker [[a b|c d]] may hold spaces: keep it as one unbreakable word
+        words = re.findall(r'(?:\[\[[^\]]*\]\]|[^ ])+', raw.strip(' ')) if raw.strip() else ['']
         cur, cur_raw = indent, indent
         for wd in words:
             sw = shape(wd)

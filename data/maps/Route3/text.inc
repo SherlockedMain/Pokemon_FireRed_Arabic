@@ -1,104 +1,101 @@
 Route3_Text_TunnelFromCeruleanTiring::
-    .string "Whew… I better take a rest…\n"
-    .string "Groan…\p"
-    .string "That tunnel from CERULEAN takes a\n"
-    .string "lot out of you!$"
+    .string "ﻓﻴﻮ… ﻳﺠﺐ ﺃﻥ ﺃﺭﺗﺎﺡ ﻗﻠﻴﻼ… ﺁﻩ…\p"
+    .string "ﺫﻟﻚ ﻨﻔﻖ ﻘﺎﺩﻡ ﻣﻦ ﺳﻴﺮﻭﻟﻴﻦ\n"
+    .string "ﻳﻬﺪ ﺤﻴﻞ!$"
 
 Route3_Text_ColtonIntro::
-    .string "Hey!\n"
-    .string "I saw you in VIRIDIAN FOREST!$"
+    .string "ﻣﻬﻼ! ﻟﻘﺪ ﺭﻳﺘﻚ ﻓﻲ ﻏﺎﺑﺔ\n"
+    .string "ﻓﻴﺮﻳﺪﻳﺎﻥ!$"
 
 Route3_Text_ColtonDefeat::
-    .string "You beat me again!$"
+    .string "ﻫﺰﻣﺘﻨﻲ ﻣﺮﺓ ﺃﺧﺮﻯ!$"
 
 Route3_Text_ColtonPostBattle::
-    .string "There are other kinds of POKéMON\n"
-    .string "than the ones you find in forests.$"
+    .string "ﻟﻴﺴﺖ ﻛﻞ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺗﻌﻴﺶ\n"
+    .string "ﻓﻲ ﻐﺎﺑﺎﺕ، ﻓﻬﻨﺎﻙ ﺃﻧﻮﻉ ﺃﺧﺮﻯ\p"
+    .string "ﻛﺜﻴﺮﺓ!$"
 
 Route3_Text_BenIntro::
-    .string "Hi!\n"
-    .string "I like shorts!\p"
-    .string "They're delightfully comfy and\n"
-    .string "easy to wear!$"
+    .string "ﻣﺮﺣﺒﺎ! ﺃﻧﺎ ﺃﻋﺸﻖ ﺴﺮﻭﻳﻞ\n"
+    .string "ﻘﺼﻴﺮﺓ!\p"
+    .string "ﺇﻧﻬﺎ ﻣﺮﻳﺤﺔ ﺟﺪ، ﻭﺳﻬﻠﺔ ﻠﺒﺲ!$"
 
 Route3_Text_BenDefeat::
-    .string "I don't believe it!$"
+    .string "ﻻ ﺃﺻﺪﻕ ﻫﺬ!$"
 
 Route3_Text_BenPostBattle::
-    .string "Are you using a POKéMON CENTER's\n"
-    .string "PC for storing your POKéMON?\p"
-    .string "Each BOX can hold up to\n"
-    .string "30 POKéMON.$"
+    .string "ﻫﻞ {GENDER_M}ﺗﺴﺘﺨﺪﻡ{GENDER_F}ﺗﺴﺘﺨﺪﻣﻴﻦ{GENDER_E} ﺣﺎﺳﻮﺏ ﻣﺮﻛﺰ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻟﺘﺨﺰﻳﻦ\p"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ؟\p"
+    .string "ﻛﻞ ﺻﻨﺪﻭﻕ ﻳﺘﺴﻊ ﻟﺜﻼﺛﻴﻦ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎ.$"
 
 Route3_Text_JaniceIntro::
-    .string "Excuse me!\n"
-    .string "You looked at me, didn't you?$"
+    .string "ﻋﻔﻮ! ﻛﻨﺖ {GENDER_M}ﺗﺤﺪﻕ{GENDER_F}ﺗﺤﺪﻗﻴﻦ{GENDER_E} ﺑﻲ، ﺃﻟﻴﺲ\n"
+    .string "ﻛﺬﻟﻚ؟$"
 
 Route3_Text_JaniceDefeat::
-    .string "You're mean!$"
+    .string "ﻳﺎ ﻟﻚ ﻣﻦ {GENDER_M}ﻗﺎﺱ!{GENDER_F}ﻗﺎﺳﻴﺔ!{GENDER_E}$"
 
 Route3_Text_JanicePostBattle::
-    .string "You shouldn't be staring if you\n"
-    .string "don't want to battle!$"
+    .string "ﺇﻥ ﻟﻢ {GENDER_M}ﺗﻜﻦ ﺗﺮﻳﺪ{GENDER_F}ﺗﻜﻮﻧﻲ ﺗﺮﻳﺪﻳﻦ{GENDER_E} ﻨﺰﻝ، ﻓﻼ\n"
+    .string "{GENDER_M}ﺗﺤﺪﻕ{GENDER_F}ﺗﺤﺪﻗﻲ{GENDER_E} ﻓﻲ ﻨﺎﺱ!$"
 
 Route3_Text_GregIntro::
-    .string "Are you a TRAINER?\n"
-    .string "Let's get with it right away!$"
+    .string "ﻫﻞ ﺃﻧﺖ {GENDER_M}ﻣﺪﺭﺏ؟{GENDER_F}ﻣﺪﺭﺑﺔ؟{GENDER_E} ﻫﻴﺎ ﻧﺒﺪ ﻓﻮﺭ!$"
 
 Route3_Text_GregDefeat::
-    .string "If I had new POKéMON, I would've\n"
-    .string "won!$"
+    .string "ﻟﻮ ﻛﺎﻧﺖ ﻟﺪﻱ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﺟﺪﻳﺪﺓ\n"
+    .string "ﻟﻔﺰﺕ!$"
 
 Route3_Text_GregPostBattle::
-    .string "If a POKéMON BOX on the PC gets\n"
-    .string "full, just switch to another BOX.$"
+    .string "ﺇﻥ ﺍﻣﺘﻸ ﺻﻨﺪﻭﻕ ﻓﻲ ﺤﺎﺳﻮﺏ،\n"
+    .string "{GENDER_M}ﻓﺎﻧﺘﻘﻞ{GENDER_F}ﻓﺎﻧﺘﻘﻠﻲ{GENDER_E} ﺇﻟﻰ ﺻﻨﺪﻭﻕ ﺁﺧﺮ.$"
 
 Route3_Text_SallyIntro::
-    .string "That look you gave me…\n"
-    .string "It's so intriguing!$"
+    .string "ﺗﻠﻚ ﻨﻈﺮﺓ ﺘﻲ ﺭﻣﻘﺘﻨﻲ ﺑﻬﺎ…\n"
+    .string "ﻳﺎ ﻟﻬﺎ ﻣﻦ ﻧﻈﺮﺓ ﻣﺜﻴﺮﺓ\p"
+    .string "ﻟﻠﻔﻀﻮﻝ!$"
 
 Route3_Text_SallyDefeat::
-    .string "Be nice!$"
+    .string "{GENDER_M}ﻛﻦ ﻟﻄﻴﻔﺎ!{GENDER_F}ﻛﻮﻧﻲ ﻟﻄﻴﻔﺔ!{GENDER_E}$"
 
 Route3_Text_SallyPostBattle::
-    .string "You can avoid battles by not\n"
-    .string "letting TRAINERS see you.$"
+    .string "ﻳﻤﻜﻨﻚ ﺗﺠﻨﺐ ﻨﺰﻻﺕ ﺇﻥ ﻟﻢ\n"
+    .string "{GENDER_M}ﺗﺪﻉ{GENDER_F}ﺗﺪﻋﻲ{GENDER_E} ﻤﺪﺭﺑﻴﻦ ﻳﺮﻭﻧﻚ.$"
 
 Route3_Text_CalvinIntro::
-    .string "Hey! You're not wearing shorts!\n"
-    .string "What's wrong with you?$"
+    .string "ﻣﻬﻼ! ﺃﻧﺖ ﻻ {GENDER_M}ﺗﺮﺗﺪﻱ{GENDER_F}ﺗﺮﺗﺪﻳﻦ{GENDER_E} ﺳﺮﻭﻻ\n"
+    .string "ﻗﺼﻴﺮ! ﻣﺎ ﺧﻄﺒﻚ؟$"
 
 Route3_Text_CalvinDefeat::
-    .string "Lost!\n"
-    .string "Lost! Lost!$"
+    .string "ﺧﺴﺮﺕ! ﺧﺴﺮﺕ! ﺧﺴﺮﺕ!$"
 
 Route3_Text_CalvinPostBattle::
-    .string "I always wear shorts, even in\n"
-    .string "winter. That's my policy.$"
+    .string "ﺃﺭﺗﺪﻱ ﺴﺮﻭﻝ ﻘﺼﻴﺮ ﺩﺋﻤﺎ، ﺣﺘﻰ\n"
+    .string "ﻓﻲ ﺸﺘﺎﺀ! ﻫﺬﻩ ﺳﻴﺎﺳﺘﻲ!$"
 
 Route3_Text_JamesIntro::
-    .string "I'll battle you with the POKéMON\n"
-    .string "I just caught.$"
+    .string "ﺳﺄﻧﺎﺯﻟﻚ ﺑﺎﻟﺒﻮﻛﻴﻤﻮﻥ ﺬﻱ\n"
+    .string "ﺃﻣﺴﻜﺘﻪ ﻟﻠﺘﻮ!$"
 
 Route3_Text_JamesDefeat::
-    .string "Done like dinner!$"
+    .string "ﺍﻧﺘﻬﻰ ﺃﻣﺮﻱ ﺗﻤﺎﻣﺎ!$"
 
 Route3_Text_JamesPostBattle::
-    .string "Trained POKéMON are stronger than\n"
-    .string "the wild ones.$"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻤﺪﺭﺑﺔ ﺃﻗﻮﻯ ﻣﻦ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺒﺮﻳﺔ!$"
 
 Route3_Text_RobinIntro::
-    .string "Eek!\n"
-    .string "Did you touch me?$"
+    .string "ﺁﻩ! ﻫﻞ ﻟﻤﺴﺘﻨﻲ؟$"
 
 Route3_Text_RobinDefeat::
-    .string "That's it?$"
+    .string "ﻫﺬ ﻛﻞ ﺷﻲﺀ؟$"
 
 Route3_Text_RobinPostBattle::
-    .string "ROUTE 4 is at the foot of\n"
-    .string "MT. MOON.$"
+    .string "ﻄﺮﻳﻖ 4 ﻋﻨﺪ ﺳﻔﺢ ﺟﺒﻞ ﻘﻤﺮ.$"
 
 Route3_Text_RouteSign::
-    .string "ROUTE 3\n"
-    .string "MT. MOON AHEAD$"
+    .string "ﻄﺮﻳﻖ 3\n"
+    .string "ﺟﺒﻞ ﻘﻤﺮ ﺃﻣﺎﻣﻚ$"
 

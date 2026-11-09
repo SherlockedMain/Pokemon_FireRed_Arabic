@@ -342,8 +342,8 @@ PalletTown_ProfessorOaksLab_Text_OakTookBothPokedexUnits::
     .string "ﺒﻮﻛﻴﺪﻳﻜﺲ.$"
 
 PalletTown_ProfessorOaksLab_Text_OakNowTheseUnitsCanRecordMoreData::
-    .string "… … …  … … …\p"
-    .string "… … …  … … …\p"
+    .string "… … … … … …\p"
+    .string "… … … … … …\p"
     .string "…ﻭﻧﺘﻬﻴﻨﺎ!\p"
     .string "ﺍﻵﻥ ﻳﺴﺠﻞ ﻫﺬﻥ ﺠﻬﺎﺯﻥ ﺑﻴﺎﻧﺎﺕ\n"
     .string "ﻋﺪﺩ ﺃﻛﺒﺮ ﺑﻜﺜﻴﺮ ﻣﻦ\p"

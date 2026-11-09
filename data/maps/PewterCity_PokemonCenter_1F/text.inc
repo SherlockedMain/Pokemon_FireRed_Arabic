@@ -1,6 +1,6 @@
 PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
     .string "ﻣﺎﺫ؟!\p"
-    .string "ﻓﺮﻳﻖ ﺼﺎﺭﻭﺥ ﻓﻲ ﺟﺒﻞ ﻘﻤﺮ؟\n"
+    .string "ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ ﻓﻲ ﺟﺒﻞ ﻘﻤﺮ؟\n"
     .string "ﻫﺎﻩ؟\p"
     .string "ﺃﻧﺎ ﻋﻠﻰ ﻬﺎﺗﻒ!\n"
     .string "{GENDER_M}ﺍﻏﺮﺏ{GENDER_F}ﺍﻏﺮﺑﻲ{GENDER_E} ﻋﻦ ﻭﺟﻬﻲ!$"

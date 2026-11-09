@@ -1,79 +1,74 @@
 Route4_Text_TrippedOverGeodude::
-    .string "Ouch! I tripped over a rocky\n"
-    .string "POKéMON, GEODUDE!$"
+    .string "ﺁﺥ! ﺗﻌﺜﺮﺕ ﺑﺠﻴﻮﺩﻳﻮﺩ،\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﺼﺨﺮﻱ!$"
 
 Route4_Text_CrissyIntro::
-    .string "I came to MT. MOON in search of\n"
-    .string "mushroom POKéMON.$"
+    .string "ﺟﺌﺖ ﺇﻟﻰ ﺟﺒﻞ ﻘﻤﺮ ﺑﺤﺜﺎ ﻋﻦ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﻔﻄﺮ.$"
 
 Route4_Text_CrissyDefeat::
-    .string "After all I did to catch them!$"
+    .string "ﺑﻌﺪ ﻛﻞ ﻣﺎ ﺑﺬﻟﺘﻪ ﻹﻣﺴﺎﻛﻬﺎ!$"
 
 Route4_Text_CrissyPostBattle::
-    .string "There might not be any more\n"
-    .string "mushrooms here.\p"
-    .string "I think I got them all.$"
+    .string "ﺭﺑﻤﺎ ﻟﻢ ﻳﺒﻖ ﻫﻨﺎ ﺃﻱ ﻓﻄﺮ…\p"
+    .string "ﺃﻇﻨﻨﻲ ﺃﻣﺴﻜﺘﻬﺎ ﻛﻠﻬﺎ!$"
 
 Route4_Text_MtMoonEntrance::
-    .string "MT. MOON\n"
-    .string "Tunnel Entrance$"
+    .string "ﻣﺪﺧﻞ ﻧﻔﻖ ﺟﺒﻞ ﻘﻤﺮ$"
 
 Route4_Text_RouteSign::
-    .string "ROUTE 4\n"
-    .string "MT. MOON - CERULEAN CITY$"
+    .string "ﻄﺮﻳﻖ 4\n"
+    .string "ﺟﺒﻞ ﻘﻤﺮ - ﻣﺪﻳﻨﺔ ﺳﻴﺮﻭﻟﻴﻦ$"
 
 Text_MegaPunchTeach::
-    .string "A punch of roaring ferocity!\p"
-    .string "Packed with destructive power!\p"
-    .string "When the chips are down,\n"
-    .string "MEGA PUNCH is the ultimate attack!\l"
-    .string "You agree, yes?\p"
-    .string "Now!\n"
-    .string "Let me teach it to your POKéMON!$"
+    .string "ﻟﻜﻤﺔ ﻣﻦ ﻀﺮﻭﺓ ﻬﺎﺩﺭﺓ!\p"
+    .string "ﺗﺨﺘﺰﻥ ﻗﻮﺓ ﺗﺪﻣﻴﺮﻳﺔ ﻫﺎﺋﻠﺔ!\p"
+    .string "ﺣﻴﻦ ﺗﺸﺘﺪ ﺍﻷﻣﻮﺭ، ﺗﻜﻮﻥ ﻟﻜﻤﺔ\n"
+    .string "ﺳﺎﺣﻘﺔ ﻬﺠﻮﻡ ﺍﻷﻋﻈﻢ!\p"
+    .string "{GENDER_M}ﺃﺗﻮﻓﻘﻨﻲ{GENDER_F}ﺃﺗﻮﻓﻘﻴﻨﻨﻲ{GENDER_E}، ﺃﻟﻴﺲ ﻛﺬﻟﻚ؟\p"
+    .string "ﻫﻴﺎ! ﺩﻋﻨﻲ ﺃﻋﻠﻤﻬﺎ\n"
+    .string "ﻟﺒﻮﻛﻴﻤﻮﻧﻚ!$"
 
 Text_MegaPunchDeclined::
-    .string "You'll be back when you understand\n"
-    .string "the worth of MEGA PUNCH.$"
+    .string "{GENDER_M}ﺳﺘﻌﻮﺩ{GENDER_F}ﺳﺘﻌﻮﺩﻳﻦ{GENDER_E} ﺣﻴﻦ {GENDER_M}ﺗﺪﺭﻙ{GENDER_F}ﺗﺪﺭﻛﻴﻦ{GENDER_E} ﻗﻴﻤﺔ\n"
+    .string "ﻟﻜﻤﺔ ﺳﺎﺣﻘﺔ!$"
 
 Text_MegaPunchWhichMon::
-    .string "Fine!\n"
-    .string "Which POKéMON will learn it?$"
+    .string "ﺭﺋﻊ! ﺃﻱ ﺑﻮﻛﻴﻤﻮﻥ ﺳﻴﺘﻌﻠﻤﻬﺎ؟$"
 
 Text_MegaPunchTaught::
-    .string "Now, we are comrades in the way of\n"
-    .string "punching!\p"
-    .string "You should go before you're seen\n"
-    .string "by the misguided fool who trains\l"
-    .string "only his silly kicking over there.$"
+    .string "ﺍﻵﻥ ﺻﺮﻧﺎ ﺭﻓﻴﻘﻴﻦ ﻓﻲ ﻃﺮﻳﻖ\n"
+    .string "ﻠﻜﻢ!\p"
+    .string "{GENDER_M}ﺍﺫﻫﺐ{GENDER_F}ﺍﺫﻫﺒﻲ{GENDER_E} ﻗﺒﻞ ﺃﻥ ﻳﺮﻙ ﺫﻟﻚ ﺍﻷﺣﻤﻖ\n"
+    .string "ﻤﻀﻠﻞ ﻫﻨﺎﻙ… ﺬﻱ ﻻ ﻳﺘﺪﺭﺏ ﺇﻻ\p"
+    .string "ﻋﻠﻰ ﺭﻛﻼﺗﻪ ﺴﺨﻴﻔﺔ!$"
 
 Text_MegaKickTeach::
-    .string "A kick of brutal ferocity!\p"
-    .string "Packed with destructive power!\p"
-    .string "When you get right down to it,\n"
-    .string "MEGA KICK is the ultimate attack!\l"
-    .string "Don't you agree?\p"
-    .string "Okay!\n"
-    .string "I'll teach it to your POKéMON!$"
+    .string "ﺭﻛﻠﺔ ﻣﻦ ﻀﺮﻭﺓ ﻮﺣﺸﻴﺔ!\p"
+    .string "ﺗﺨﺘﺰﻥ ﻗﻮﺓ ﺗﺪﻣﻴﺮﻳﺔ ﻫﺎﺋﻠﺔ!\p"
+    .string "ﺣﻴﻦ ﺗﺼﻞ ﺇﻟﻰ ﺟﻮﻫﺮ ﺍﻷﻣﺮ، ﺗﻜﻮﻥ\n"
+    .string "ﺭﻛﻠﺔ ﺳﺎﺣﻘﺔ ﻬﺠﻮﻡ ﺍﻷﻋﻈﻢ! ﺃﻻ\p"
+    .string "{GENDER_M}ﺗﻮﻓﻘﻨﻲ{GENDER_F}ﺗﻮﻓﻘﻴﻨﻨﻲ{GENDER_E}؟\p"
+    .string "ﺣﺴﻨﺎ! ﺳﺄﻋﻠﻤﻬﺎ ﻟﺒﻮﻛﻴﻤﻮﻧﻚ!$"
 
 Text_MegaKickDeclined::
-    .string "You'll come crawling back when you\n"
-    .string "realize the value of MEGA KICK.$"
+    .string "{GENDER_M}ﺳﺘﻌﻮﺩ{GENDER_F}ﺳﺘﻌﻮﺩﻳﻦ{GENDER_E} ﺯﺣﻔﺎ ﺣﻴﻦ {GENDER_M}ﺗﺪﺭﻙ{GENDER_F}ﺗﺪﺭﻛﻴﻦ{GENDER_E}\n"
+    .string "ﻗﻴﻤﺔ ﺭﻛﻠﺔ ﺳﺎﺣﻘﺔ!$"
 
 Text_MegaKickWhichMon::
-    .string "All right!\n"
-    .string "Which POKéMON wants to learn it?$"
+    .string "ﺣﺴﻨﺎ! ﺃﻱ ﺑﻮﻛﻴﻤﻮﻥ ﻳﺮﻳﺪ ﺃﻥ\n"
+    .string "ﻳﺘﻌﻠﻤﻬﺎ؟$"
 
 Text_MegaKickTaught::
-    .string "Now, we are soul mates in the way\n"
-    .string "of kicking!\p"
-    .string "You should run before you're seen\n"
-    .string "by the deluded nitwit who trains\l"
-    .string "only simple punching over there.$"
+    .string "ﺍﻵﻥ ﺻﺮﻧﺎ ﺗﻮﻣﻲ ﺭﻭﺡ ﻓﻲ ﻃﺮﻳﻖ\n"
+    .string "ﺮﻛﻞ!\p"
+    .string "{GENDER_M}ﺍﺭﻛﺾ{GENDER_F}ﺍﺭﻛﻀﻲ{GENDER_E} ﻗﺒﻞ ﺃﻥ ﻳﺮﻙ ﺫﻟﻚ ﻤﻐﻔﻞ\n"
+    .string "ﻮﻫﻢ ﻫﻨﺎﻙ… ﺬﻱ ﻻ ﻳﺘﺪﺭﺏ ﺇﻻ\p"
+    .string "ﻋﻠﻰ ﻟﻜﻤﺎﺗﻪ ﺒﺴﻴﻄﺔ!$"
 
 Route4_Text_PeopleLikeAndRespectBrock::
-    .string "Oh, wow, that's the BOULDERBADGE!\n"
-    .string "You got it from BROCK, didn't you?\p"
-    .string "BROCK is cool. He's not just tough.\n"
-    .string "People like and respect him.\p"
-    .string "I want to become a GYM LEADER\n"
-    .string "like him.$"
+    .string "ﻭﻭ، ﻫﺬ ﻭﺳﺎﻡ ﺼﺨﺮﺓ! ﺣﺼﻠﺖ\n"
+    .string "ﻋﻠﻴﻪ ﻣﻦ ﺑﺮﻭﻙ، ﺃﻟﻴﺲ ﻛﺬﻟﻚ؟\p"
+    .string "ﺑﺮﻭﻙ ﺭﺋﻊ! ﻟﻴﺲ ﻗﻮﻳﺎ ﻓﺤﺴﺐ،\n"
+    .string "ﺑﻞ ﻳﺤﺒﻪ ﻨﺎﺱ ﻭﻳﺤﺘﺮﻣﻮﻧﻪ.\p"
+    .string "ﺃﺭﻳﺪ ﺃﻥ ﺃﺻﺒﺢ ﻗﺎﺋﺪ ﺻﺎﻟﺔ ﻣﺜﻠﻪ!$"

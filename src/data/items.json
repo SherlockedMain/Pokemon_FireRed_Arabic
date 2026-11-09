@@ -5760,7 +5760,7 @@
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "ﻣﻔﺘﺎﺡ ﻳﺸﻐﻞ ﻤﺼﻌﺪ ﻓﻲ ﻣﺨﺒﺄ\\nﻓﺮﻳﻖ\\nﺼﺎﺭﻭﺥ. ﻋﻠﻴﻪ ﺷﻌﺎﺭ ﻔﺮﻳﻖ.",
+      "description_english": "ﻣﻔﺘﺎﺡ ﻳﺸﻐﻞ ﻤﺼﻌﺪ ﻓﻲ ﻣﺨﺒﺄ\\nﻋﺼﺎﺑﺔ\\nﺭﻭﻛﻴﺖ. ﻋﻠﻴﻪ ﺷﻌﺎﺭ ﻌﺼﺎﺑﺔ.",
       "importance": 1,
       "registrability": 0,
       "pocket": "POCKET_KEY_ITEMS",

@@ -674,7 +674,7 @@
     },
     {
       "id": "MAPSEC_ROCKET_HIDEOUT",
-      "name": "ﻣﺨﺒﺄ ﺼﺎﺭﻭﺥ",
+      "name": "ﻣﺨﺒﺄ ﺭﻭﻛﻴﺖ",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1079,7 +1079,7 @@
     },
     {
       "id": "MAPSEC_ROCKET_WAREHOUSE",
-      "name": "ﻣﺴﺘﻮﺩﻉ ﺼﺎﺭﻭﺥ",
+      "name": "ﻣﺴﺘﻮﺩﻉ ﺭﻭﻛﻴﺖ",
       "x": 0,
       "y": 0,
       "width": 1,

@@ -1,92 +1,86 @@
 MtMoon_1F_Text_MarcosIntro::
-    .string "WHOA!\n"
-    .string "You shocked me!\l"
-    .string "…Oh, you're just a kid!$"
+    .string "ﻭﻭ! ﻟﻘﺪ ﺃﻓﺰﻋﺘﻨﻲ! …ﺁﻩ،\n"
+    .string "{GENDER_M}ﺃﻧﺖ ﻣﺠﺮﺩ ﻓﺘﻰ ﺻﻐﻴﺮ!{GENDER_F}ﺃﻧﺖ ﻣﺠﺮﺩ ﻓﺘﺎﺓ ﺻﻐﻴﺮﺓ!{GENDER_E}$"
 
 MtMoon_1F_Text_MarcosDefeat::
-    .string "Wow!\n"
-    .string "Shocked again!$"
+    .string "ﻭﻭ! ﺃﻓﺰﻋﺘﻨﻲ ﻣﺮﺓ ﺃﺧﺮﻯ!$"
 
 MtMoon_1F_Text_MarcosPostBattle::
-    .string "Kids like you shouldn't be\n"
-    .string "wandering around here in the dark.$"
+    .string "ﻻ ﻳﻨﺒﻐﻲ ﻟﺼﻐﺎﺭ ﻣﺜﻠﻚ ﺃﻥ\n"
+    .string "ﻳﺘﺠﻮﻟﻮ ﻫﻨﺎ ﻓﻲ ﻈﻼﻡ.$"
 
 MtMoon_1F_Text_JoshIntro::
-    .string "Did you come to explore the cave,\n"
-    .string "too?$"
+    .string "ﺃﺟﺌﺖ ﺃﻧﺖ ﺃﻳﻀﺎ {GENDER_M}ﻟﺘﺴﺘﻜﺸﻒ{GENDER_F}ﻟﺘﺴﺘﻜﺸﻔﻲ{GENDER_E}\n"
+    .string "ﻜﻬﻒ؟$"
 
 MtMoon_1F_Text_JoshDefeat::
-    .string "Losing stinks!\n"
-    .string "It's so uncool.$"
+    .string "ﺨﺴﺎﺭﺓ ﻣﺰﻋﺠﺔ! ﻟﻴﺴﺖ ﺭﺋﻌﺔ\n"
+    .string "ﺃﺑﺪ!$"
 
 MtMoon_1F_Text_JoshPostBattle::
-    .string "I came all the way down here to\n"
-    .string "show off to girls.$"
+    .string "ﻧﺰﻟﺖ ﺇﻟﻰ ﻫﻨﺎ ﻛﻲ ﺃﺳﺘﻌﺮﺽ ﺃﻣﺎﻡ\n"
+    .string "ﻔﺘﻴﺎﺕ!$"
 
 MtMoon_1F_Text_MiriamIntro::
-    .string "Wow! It's way bigger in here than\n"
-    .string "I thought!$"
+    .string "ﻭﻭ! ﻤﻜﺎﻥ ﻫﻨﺎ ﺃﻛﺒﺮ ﺑﻜﺜﻴﺮ\n"
+    .string "ﻣﻤﺎ ﺗﻮﻗﻌﺖ!$"
 
 MtMoon_1F_Text_MiriamDefeat::
-    .string "Oh!\n"
-    .string "I lost it!$"
+    .string "ﺃﻭﻩ! ﺧﺴﺮﺕ!$"
 
 MtMoon_1F_Text_MiriamPostBattle::
-    .string "How do you get out of here?\n"
-    .string "It's so big, I may get lost.$"
+    .string "ﻛﻴﻒ ﻳﺨﺮﺝ ﻤﺮﺀ ﻣﻦ ﻫﻨﺎ؟ ﺇﻧﻪ\n"
+    .string "ﻛﺒﻴﺮ ﺟﺪ… ﻗﺪ ﺃﺿﻴﻊ!$"
 
 MtMoon_1F_Text_JovanIntro::
-    .string "What!\n"
-    .string "Don't sneak up on me!$"
+    .string "ﻣﺎﺫ! ﻻ {GENDER_M}ﺗﺘﺴﻠﻞ{GENDER_F}ﺗﺘﺴﻠﻠﻲ{GENDER_E} ﺧﻠﻔﻲ ﻫﻜﺬ!$"
 
 MtMoon_1F_Text_JovanDefeat::
-    .string "My POKéMON won't do!$"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ ﻻ ﺗﻜﻔﻲ!$"
 
 MtMoon_1F_Text_JovanPostBattle::
-    .string "I have to find stronger POKéMON.\n"
-    .string "Where might they be?$"
+    .string "ﻋﻠﻲ ﺃﻥ ﺃﺟﺪ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﺃﻗﻮﻯ…\n"
+    .string "ﺗﺮﻯ ﺃﻳﻦ ﻫﻲ؟$"
 
 MtMoon_1F_Text_IrisIntro::
-    .string "What?\n"
-    .string "I'm waiting for my friends to find\l"
-    .string "me here.$"
+    .string "ﻣﺎﺫ؟ ﺃﻧﺎ ﺃﻧﺘﻈﺮ ﺃﺻﺪﻗﺎﺋﻲ\n"
+    .string "ﻟﻴﺠﺪﻭﻧﻲ ﻫﻨﺎ.$"
 
 MtMoon_1F_Text_IrisDefeat::
-    .string "I lost?$"
+    .string "ﺧﺴﺮﺕ؟$"
 
 MtMoon_1F_Text_IrisPostBattle::
-    .string "I came because I heard there are\n"
-    .string "some very rare fossils here.$"
+    .string "ﺟﺌﺖ ﻷﻧﻨﻲ ﺳﻤﻌﺖ ﺃﻥ ﻫﻨﺎ\n"
+    .string "ﺃﺣﺎﻓﻴﺮ ﻧﺎﺩﺭﺓ ﺟﺪ.$"
 
 MtMoon_1F_Text_KentIntro::
-    .string "Suspicious men are in the cave.\n"
-    .string "What about you?$"
+    .string "ﻫﻨﺎﻙ ﺭﺟﺎﻝ ﻣﺮﻳﺒﻮﻥ ﻓﻲ ﻜﻬﻒ…\n"
+    .string "ﻭﻧﺖ، {GENDER_M}ﻣﻦ ﺗﻜﻮﻥ؟{GENDER_F}ﻣﻦ ﺗﻜﻮﻧﻴﻦ؟{GENDER_E}$"
 
 MtMoon_1F_Text_KentDefeat::
-    .string "You got me!$"
+    .string "ﺃﻭﻗﻌﺖ ﺑﻲ!$"
 
 MtMoon_1F_Text_KentPostBattle::
-    .string "I saw them!\n"
-    .string "I'm sure they're from TEAM ROCKET!$"
+    .string "ﻟﻘﺪ ﺭﻳﺘﻬﻢ! ﺃﻧﺎ ﻣﺘﺄﻛﺪ ﺃﻧﻬﻢ\n"
+    .string "ﻣﻦ ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ!$"
 
 MtMoon_1F_Text_RobbyIntro::
-    .string "You need to go through this cave\n"
-    .string "to get to CERULEAN CITY.$"
+    .string "ﻋﻠﻴﻚ ﺃﻥ {GENDER_M}ﺗﻌﺒﺮ{GENDER_F}ﺗﻌﺒﺮﻱ{GENDER_E} ﻫﺬ ﻜﻬﻒ ﻟﺘﺼﻞ\n"
+    .string "ﺇﻟﻰ ﻣﺪﻳﻨﺔ ﺳﻴﺮﻭﻟﻴﻦ.$"
 
 MtMoon_1F_Text_RobbyDefeat::
-    .string "I lost.$"
+    .string "ﺧﺴﺮﺕ.$"
 
 MtMoon_1F_Text_RobbyPostBattle::
-    .string "ZUBAT is tough!\n"
-    .string "But if you can catch one, you'll\l"
-    .string "be able to count on it.$"
+    .string "ﺯﻭﺑﺎﺕ ﺻﻌﺐ ﻤﺮﺱ! ﻟﻜﻦ ﺇﻥ\n"
+    .string "ﺃﻣﺴﻜﺖ ﻭﺣﺪ، {GENDER_M}ﻓﺴﺘﻌﺘﻤﺪ{GENDER_F}ﻓﺴﺘﻌﺘﻤﺪﻳﻦ{GENDER_E} ﻋﻠﻴﻪ\p"
+    .string "ﻛﺜﻴﺮ.$"
 
 MtMoon_1F_Text_ZubatIsABloodsucker::
-    .string "Beware!\n"
-    .string "ZUBAT is a bloodsucker!$"
+    .string "{GENDER_M}ﺍﺣﺬﺭ!{GENDER_F}ﺍﺣﺬﺭﻱ!{GENDER_E} ﺯﻭﺑﺎﺕ ﻳﻤﺘﺺ ﺪﻣﺎﺀ!$"
 
 MtMoon_1F_Text_BrockHelpsExcavateFossils::
-    .string "Hi, I'm excavating for fossils here\n"
-    .string "under MT. MOON.\p"
-    .string "Sometimes, BROCK of PEWTER GYM\n"
-    .string "lends me a hand.$"
+    .string "ﻣﺮﺣﺒﺎ! ﺃﻧﺎ ﺃﻧﻘﺐ ﻋﻦ ﺍﻷﺣﺎﻓﻴﺮ\n"
+    .string "ﺗﺤﺖ ﺟﺒﻞ ﻘﻤﺮ.\p"
+    .string "ﻭﺣﻴﺎﻧﺎ ﻳﻤﺪ ﻟﻲ ﺑﺮﻭﻙ، ﻗﺎﺋﺪ\n"
+    .string "ﺻﺎﻟﺔ ﺑﻴﻮﺗﺮ، ﻳﺪ ﻌﻮﻥ.$"

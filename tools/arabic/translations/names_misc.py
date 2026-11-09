@@ -117,7 +117,7 @@ CLASSES = {
  'RS_SIS_AND_BRO':'الأخت والأخ','SIS_AND_BRO':'الأخت والأخ','AQUA_ADMIN':'مسؤول أكوا','MAGMA_ADMIN':'مسؤول ماغما',
  'SUPER_NERD':'مهووس علوم','BIKER':'دراج','BURGLAR':'لص','ENGINEER':'مهندس','CUE_BALL':'أقرع','GAMER':'لاعب',
  'ROCKER':'مغني روك','JUGGLER':'بهلوان','TAMER':'مروض','RIVAL_EARLY':'المنافس','RIVAL_LATE':'المنافس',
- 'SCIENTIST':'عالم','BOSS':'الزعيم','TEAM_ROCKET':'فريق الصاروخ','CHANNELER':'ناسكة','COOL_COUPLE':'زوجان رائعان',
+ 'SCIENTIST':'عالم','BOSS':'الزعيم','TEAM_ROCKET':'عصابة روكيت','CHANNELER':'ناسكة','COOL_COUPLE':'زوجان رائعان',
  'CRUSH_KIN':'إخوة القتال','PKMN_PROF':'بروفيسور','PLAYER':'اللاعب','CRUSH_GIRL':'فتاة القتال','PAINTER':'رسامة',
 }
 CLASS_NOTES = {'GAMER':'Gen 1 GAMERs are gamblers: «لاعب» keeps them neutral.',
