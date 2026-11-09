@@ -1,100 +1,96 @@
 Route24_Text_JustEarnedFabulousPrize::
-    .string "Congratulations! You beat our\n"
-    .string "five contest TRAINERS!\p"
-    .string "You just earned a fabulous prize!$"
+    .string "ﻣﺒﺮﻭﻙ! ﻟﻘﺪ ﻫﺰﻣﺖ ﻣﺪﺭﺑﻲ\n"
+    .string "ﻤﺴﺎﺑﻘﺔ ﺨﻤﺴﺔ!\p"
+    .string "ﻭﻓﺰﺕ ﻟﻠﺘﻮ ﺑﺠﺎﺋﺰﺓ ﺭﺋﻌﺔ!$"
 
 Route24_Text_ReceivedNuggetFromMysteryTrainer::
-    .string "{PLAYER} received a NUGGET\n"
-    .string "from the mystery TRAINER!$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﺳﺒﻴﻜﺔ ﺬﻫﺐ\n"
+    .string "ﻣﻦ ﻤﺪﺭﺏ ﻐﺎﻣﺾ!$"
 
 Route24_Text_YouDontHaveAnyRoom::
-    .string "You don't have any room!$"
+    .string "ﻟﻢ ﻳﻌﺪ ﻣﻌﻚ ﺃﻱ ﻣﻜﺎﻥ!$"
 
 Route24_Text_JoinTeamRocket::
-    .string "By the way, how would you like to\n"
-    .string "join TEAM ROCKET?\p"
-    .string "We're a group of professional\n"
-    .string "criminals specializing in POKéMON!\p"
-    .string "Want to join?\p"
-    .string "Are you sure?\p"
-    .string "Come on, join us!\p"
-    .string "I'm telling you to join!\p"
-    .string "…Okay, you need convincing!\p"
-    .string "I'll make you an offer you can't\n"
-    .string "refuse!$"
+    .string "ﺑﺎﻟﻤﻨﺎﺳﺒﺔ، ﻣﺎ ﺭﻳﻚ ﺃﻥ {GENDER_M}ﺗﻨﻀﻢ{GENDER_F}ﺗﻨﻀﻤﻲ{GENDER_E}\n"
+    .string "ﺇﻟﻰ ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ؟\p"
+    .string "ﻧﺤﻦ ﻣﺠﺮﻣﻮﻥ ﻣﺤﺘﺮﻓﻮﻥ،\n"
+    .string "ﻣﺘﺨﺼﺼﻮﻥ ﻓﻲ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ!\p"
+    .string "{GENDER_M}ﺃﺗﺮﻳﺪ{GENDER_F}ﺃﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺍﻻﻧﻀﻤﺎﻡ؟\p"
+    .string "{GENDER_M}ﺃﻧﺖ ﻣﺘﺄﻛﺪ؟{GENDER_F}ﺃﻧﺖ ﻣﺘﺄﻛﺪﺓ؟{GENDER_E}\p"
+    .string "ﻫﻴﺎ، {GENDER_M}ﺍﻧﻀﻢ{GENDER_F}ﺍﻧﻀﻤﻲ{GENDER_E} ﺇﻟﻴﻨﺎ!\p"
+    .string "ﺃﻧﺎ ﺁﻣﺮﻙ ﺑﺎﻻﻧﻀﻤﺎﻡ!\p"
+    .string "…ﺣﺴﻨﺎ، ﻳﺒﺪﻭ ﺃﻧﻚ {GENDER_M}ﺗﺤﺘﺎﺝ{GENDER_F}ﺗﺤﺘﺎﺟﻴﻦ{GENDER_E} ﺇﻟﻰ\n"
+    .string "ﺇﻗﻨﺎﻉ!\p"
+    .string "ﺳﺄﻗﺪﻡ ﻟﻚ ﻋﺮﺿﺎ ﻻ ﻳﻤﻜﻨﻚ ﺭﻓﻀﻪ!$"
 
 Route24_Text_RocketDefeat::
-    .string "Arrgh!\n"
-    .string "You are good!$"
+    .string "ﺁﻩ! ﺃﻧﺖ {GENDER_M}ﺑﺎﺭﻉ!{GENDER_F}ﺑﺎﺭﻋﺔ!{GENDER_E}$"
 
 Route24_Text_YoudBecomeTopRocketLeader::
-    .string "With your ability, you'd become\n"
-    .string "a top leader in TEAM ROCKET.\p"
-    .string "Come on, think of the opportunity!\n"
-    .string "Don't let this chance go to waste.$"
+    .string "ﺑﻘﺪﺭﺗﻚ ﻫﺬﻩ، {GENDER_M}ﺳﺘﺼﺒﺢ{GENDER_F}ﺳﺘﺼﺒﺤﻴﻦ{GENDER_E} ﻣﻦ ﻛﺒﺎﺭ\n"
+    .string "ﻗﺎﺩﺓ ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ.\p"
+    .string "ﻫﻴﺎ، {GENDER_M}ﻓﻜﺮ{GENDER_F}ﻓﻜﺮﻱ{GENDER_E} ﻓﻲ ﻫﺬﻩ ﻔﺮﺻﺔ! ﻻ\n"
+    .string "{GENDER_M}ﺗﻀﻴﻌﻬﺎ!{GENDER_F}ﺗﻀﻴﻌﻴﻬﺎ!{GENDER_E}$"
 
 Route24_Text_ShaneIntro::
-    .string "I saw your feat from the grass!$"
+    .string "ﺭﻳﺖ ﺇﻧﺠﺎﺯﻙ ﻣﻦ ﺑﻴﻦ ﻌﺸﺐ!$"
 
 Route24_Text_ShaneDefeat::
-    .string "I thought not!$"
+    .string "ﻛﻨﺖ ﺃﻋﺮﻑ ﺫﻟﻚ!$"
 
 Route24_Text_ShanePostBattle::
-    .string "I hid because the people on the\n"
-    .string "bridge frightened me.$"
+    .string "ﺍﺧﺘﺒﺄﺕ ﻷﻥ ﺬﻳﻦ ﻋﻠﻰ ﺠﺴﺮ\n"
+    .string "ﺃﺧﺎﻓﻮﻧﻲ.$"
 
 Route24_Text_EthanIntro::
-    .string "Okay! I'm No. 5!\n"
-    .string "I'll stomp you!$"
+    .string "ﺣﺴﻨﺎ! ﺃﻧﺎ ﺭﻗﻢ 5! ﺳﺄﺳﺤﻘﻚ!$"
 
 Route24_Text_EthanDefeat::
-    .string "Whoa!\n"
-    .string "Too much!$"
+    .string "ﻭﻭ! ﻫﺬ ﺃﻛﺜﺮ ﻣﻦ ﻼﺯﻡ!$"
 
 Route24_Text_EthanPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "ﺑﺬﻟﺖ ﻗﺼﺎﺭﻯ ﺟﻬﺪﻱ، ﻭﻻ ﺃﻧﺪﻡ\n"
+    .string "ﻋﻠﻰ ﺷﻲﺀ!$"
 
 Route24_Text_ReliIntro::
-    .string "I'm No. 4!\n"
-    .string "Getting tired?$"
+    .string "ﺃﻧﺎ ﺭﻗﻢ 4! ﻫﻞ ﺑﺪﺕ {GENDER_M}ﺗﺘﻌﺐ؟{GENDER_F}ﺗﺘﻌﺒﻴﻦ؟{GENDER_E}$"
 
 Route24_Text_ReliDefeat::
-    .string "I lost, too!$"
+    .string "ﺧﺴﺮﺕ ﺃﻧﺎ ﺃﻳﻀﺎ!$"
 
 Route24_Text_ReliPostBattle::
-    .string "I did my best, so I've no regrets!$"
+    .string "ﺑﺬﻟﺖ ﻗﺼﺎﺭﻯ ﺟﻬﺪﻱ، ﻭﻻ ﺃﻧﺪﻡ\n"
+    .string "ﻋﻠﻰ ﺷﻲﺀ!$"
 
 Route24_Text_TimmyIntro::
-    .string "Here's No. 3!\n"
-    .string "I won't be easy!$"
+    .string "ﻭﻫﺬ ﺭﻗﻢ 3! ﻟﻦ ﺃﻛﻮﻥ ﺳﻬﻼ!$"
 
 Route24_Text_TimmyDefeat::
-    .string "Ow!\n"
-    .string "Stomped flat!$"
+    .string "ﺁﺥ! ﺳﺤﻘﺖ ﺗﻤﺎﻣﺎ!$"
 
 Route24_Text_TimmyPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "ﺑﺬﻟﺖ ﻗﺼﺎﺭﻯ ﺟﻬﺪﻱ، ﻭﻻ ﺃﻧﺪﻡ\n"
+    .string "ﻋﻠﻰ ﺷﻲﺀ!$"
 
 Route24_Text_AliIntro::
-    .string "I'm second!\n"
-    .string "Now it's serious!$"
+    .string "ﺃﻧﺎ ﺜﺎﻧﻲ! ﺍﻵﻥ ﺟﺪ ﺠﺪ!$"
 
 Route24_Text_AliDefeat::
-    .string "How could I lose?$"
+    .string "ﻛﻴﻒ ﺧﺴﺮﺕ؟$"
 
 Route24_Text_AliPostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "ﺑﺬﻟﺖ ﻗﺼﺎﺭﻯ ﺟﻬﺪﻱ، ﻭﻻ ﺃﻧﺪﻡ\n"
+    .string "ﻋﻠﻰ ﺷﻲﺀ!$"
 
 Route24_Text_CaleIntro::
-    .string "People call this the NUGGET\n"
-    .string "BRIDGE!\p"
-    .string "Beat us five TRAINERS and win\n"
-    .string "a fabulous prize!\p"
-    .string "Think you got what it takes?$"
+    .string "ﻳﺴﻤﻲ ﻨﺎﺱ ﻫﺬ ﺠﺴﺮ ﺟﺴﺮ ﺬﻫﺐ!\p"
+    .string "{GENDER_M}ﺍﻫﺰﻡ{GENDER_F}ﺍﻫﺰﻣﻲ{GENDER_E} ﺧﻤﺴﺘﻨﺎ {GENDER_M}ﻭﺭﺑﺢ{GENDER_F}ﻭﺭﺑﺤﻲ{GENDER_E} ﺟﺎﺋﺰﺓ\n"
+    .string "ﺭﺋﻌﺔ!\p"
+    .string "{GENDER_M}ﺃﺗﻈﻦ{GENDER_F}ﺃﺗﻈﻨﻴﻦ{GENDER_E} ﺃﻧﻚ {GENDER_M}ﻗﺎﺩﺭ{GENDER_F}ﻗﺎﺩﺭﺓ{GENDER_E} ﻋﻠﻰ ﺫﻟﻚ؟$"
 
 Route24_Text_CaleDefeat::
-    .string "Whoo!\n"
-    .string "Good stuff!$"
+    .string "ﻭﻭﻩ! ﺃﺩﺀ ﺭﺋﻊ!$"
 
 Route24_Text_CalePostBattle::
-    .string "I did my best. I have no regrets!$"
+    .string "ﺑﺬﻟﺖ ﻗﺼﺎﺭﻯ ﺟﻬﺪﻱ، ﻭﻻ ﺃﻧﺪﻡ\n"
+    .string "ﻋﻠﻰ ﺷﻲﺀ!$"

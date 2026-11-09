@@ -1,92 +1,93 @@
 CeruleanCity_Gym_Text_MistyIntro::
-    .string "Hi, you're a new face!\p"
-    .string "Only those TRAINERS who have a\n"
-    .string "policy about POKéMON can turn pro.\p"
-    .string "What is your approach when you\n"
-    .string "catch and train POKéMON?\p"
-    .string "My policy is an all-out offensive\n"
-    .string "with WATER-type POKéMON!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "ﻣﺮﺣﺒﺎ، ﻭﺟﻪ ﺟﺪﻳﺪ!\p"
+    .string "ﻻ ﻳﺼﺒﺢ ﻣﺤﺘﺮﻓﺎ ﺇﻻ ﻤﺪﺭﺑﻮﻥ\n"
+    .string "ﺬﻳﻦ ﻟﻬﻢ ﻣﺒﺪ ﻓﻲ ﺘﻌﺎﻣﻞ ﻣﻊ\p"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.\p"
+    .string "ﻣﺎ ﺃﺳﻠﻮﺑﻚ ﻓﻲ ﺇﻣﺴﺎﻙ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻭﺗﺪﺭﻳﺒﻬﺎ؟\p"
+    .string "ﺃﻣﺎ ﺃﺳﻠﻮﺑﻲ، ﻓﻬﻮ ﻫﺠﻮﻡ ﻛﺎﺳﺢ\n"
+    .string "ﺑﺎﻟﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻤﺎﺋﻴﺔ!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 CeruleanCity_Gym_Text_ExplainTM03::
-    .string "TM03 teaches WATER PULSE.\p"
-    .string "Use it on an aquatic POKéMON!$"
+    .string "ﻘﺮﺹ ﺘﻘﻨﻲ 03 ﻳﻌﻠﻢ ﺣﺮﻛﺔ\n"
+    .string "ﻧﺒﻀﺔ ﻣﺎﺋﻴﺔ.\p"
+    .string "{GENDER_M}ﺍﺳﺘﺨﺪﻣﻪ{GENDER_F}ﺍﺳﺘﺨﺪﻣﻴﻪ{GENDER_E} ﻣﻊ ﺑﻮﻛﻴﻤﻮﻥ ﻣﺎﺋﻲ!$"
 
 CeruleanCity_Gym_Text_ExplainCascadeBadge::
-    .string "The CASCADEBADGE makes all\n"
-    .string "POKéMON up to Lv. 30 obey.\p"
-    .string "That includes even outsiders you\n"
-    .string "got in trades.\p"
-    .string "There's more. You can now use CUT\n"
-    .string "anytime, even out of battle.\p"
-    .string "You can CUT down small trees to\n"
-    .string "open new pathways.\p"
-    .string "You can also have my favorite TM.$"
+    .string "ﻭﺳﺎﻡ ﺸﻼﻝ ﻳﺠﻌﻞ ﻛﻞ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺣﺘﻰ ﻤﺴﺘﻮﻯ 30\p"
+    .string "ﺗﻄﻴﻌﻚ.\p"
+    .string "ﺣﺘﻰ ﺗﻠﻚ ﺘﻲ ﺣﺼﻠﺖ ﻋﻠﻴﻬﺎ ﻓﻲ\n"
+    .string "ﻤﺒﺎﺩﻻﺕ.\p"
+    .string "ﻭﻫﻨﺎﻙ ﻤﺰﻳﺪ! ﺻﺎﺭ ﺑﺈﻣﻜﺎﻧﻚ\n"
+    .string "ﺍﺳﺘﺨﺪﻡ ﻘﻄﻊ ﻓﻲ ﺃﻱ ﻭﻗﺖ، ﺣﺘﻰ\p"
+    .string "ﺧﺎﺭﺝ ﻨﺰﻝ.\p"
+    .string "{GENDER_M}ﻓﺘﻘﻄﻊ{GENDER_F}ﻓﺘﻘﻄﻌﻴﻦ{GENDER_E} ﺍﻷﺷﺠﺎﺭ ﺼﻐﻴﺮﺓ\n"
+    .string "{GENDER_M}ﻭﺗﻔﺘﺢ{GENDER_F}ﻭﺗﻔﺘﺤﻴﻦ{GENDER_E} ﺩﺭﻭﺑﺎ ﺟﺪﻳﺪﺓ.\p"
+    .string "{GENDER_M}ﻭﺧﺬ{GENDER_F}ﻭﺧﺬﻱ{GENDER_E} ﺃﻳﻀﺎ ﻗﺮﺻﻲ ﺘﻘﻨﻲ ﻤﻔﻀﻞ.$"
 
 CeruleanCity_Gym_Text_ReceivedTM03FromMisty::
-    .string "{PLAYER} received TM03\n"
-    .string "from MISTY.$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻘﺮﺹ ﺘﻘﻨﻲ\n"
+    .string "03 ﻣﻦ ﻣﻴﺴﺘﻲ.$"
 
 CeruleanCity_Gym_Text_BetterMakeRoomForThis::
-    .string "You better make room for this!$"
+    .string "{GENDER_M}ﺃﻓﺴﺢ{GENDER_F}ﺃﻓﺴﺤﻲ{GENDER_E} ﻣﻜﺎﻧﺎ ﻟﻬﺬ!$"
 
 CeruleanCity_Gym_Text_MistyDefeat::
-    .string "Wow!\n"
-    .string "You're too much!\p"
-    .string "All right!\p"
-    .string "You can have the CASCADEBADGE to\n"
-    .string "show you beat me.$"
+    .string "ﻭﻭ! ﺃﻧﺖ {GENDER_M}ﻣﺬﻫﻞ!{GENDER_F}ﻣﺬﻫﻠﺔ!{GENDER_E}\p"
+    .string "ﺣﺴﻨﺎ!\p"
+    .string "{GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻭﺳﺎﻡ ﺸﻼﻝ ﺩﻟﻴﻼ ﻋﻠﻰ ﻓﻮﺯﻙ\n"
+    .string "ﻋﻠﻲ.$"
 
 CeruleanCity_Gym_Text_DianaIntro::
-    .string "What? You?\n"
-    .string "I'm more than good enough for you!\p"
-    .string "MISTY won't have to be bothered.$"
+    .string "ﻣﺎﺫ؟ ﺃﻧﺖ؟ ﺃﻧﺎ ﺃﻛﺜﺮ ﻣﻦ ﻛﺎﻓﻴﺔ\n"
+    .string "ﻟﻬﺰﻳﻤﺘﻚ!\p"
+    .string "ﻟﻦ ﺗﻀﻄﺮ ﻣﻴﺴﺘﻲ ﺇﻟﻰ ﺇﺯﻋﺎﺝ\n"
+    .string "ﻧﻔﺴﻬﺎ.$"
 
 CeruleanCity_Gym_Text_DianaDefeat::
-    .string "You overwhelmed me!$"
+    .string "ﻟﻘﺪ ﺳﺤﻘﺘﻨﻲ!$"
 
 CeruleanCity_Gym_Text_DianaPostBattle::
-    .string "You have to face other TRAINERS\n"
-    .string "to see how good you really are.$"
+    .string "ﻋﻠﻴﻚ ﺃﻥ {GENDER_M}ﺗﻮﺟﻪ{GENDER_F}ﺗﻮﺟﻬﻲ{GENDER_E} ﻣﺪﺭﺑﻴﻦ ﺁﺧﺮﻳﻦ\n"
+    .string "{GENDER_M}ﻟﺘﻌﺮﻑ{GENDER_F}ﻟﺘﻌﺮﻓﻲ{GENDER_E} ﺣﻘﻴﻘﺔ ﻣﺴﺘﻮﻙ.$"
 
 CeruleanCity_Gym_Text_LuisIntro::
-    .string "Splash!\p"
-    .string "I'm first up!\n"
-    .string "Let's do it!$"
+    .string "ﺳﺒﻼﺵ!\p"
+    .string "ﺃﻧﺎ ﺃﻭﻝ ﻤﻨﺎﺯﻟﻴﻦ! ﻫﻴﺎ ﺑﻨﺎ!$"
 
 CeruleanCity_Gym_Text_LuisDefeat::
-    .string "That can't be!$"
+    .string "ﻣﺴﺘﺤﻴﻞ!$"
 
 CeruleanCity_Gym_Text_LuisPostBattle::
-    .string "MISTY is a TRAINER who's going to\n"
-    .string "keep improving.\p"
-    .string "She won't lose to someone like you!$"
+    .string "ﻣﻴﺴﺘﻲ ﻣﺪﺭﺑﺔ ﻻ ﺗﺘﻮﻗﻒ ﻋﻦ\n"
+    .string "ﺘﻄﻮﺭ.\p"
+    .string "ﻭﻟﻦ ﺗﺨﺴﺮ ﺃﻣﺎﻡ ﺷﺨﺺ ﻣﺜﻠﻚ!$"
 
 CeruleanCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "Let me give you some advice!\p"
-    .string "The LEADER, MISTY, is a pro who\n"
-    .string "uses WATER-type POKéMON.\p"
-    .string "You can drain all their water with\n"
-    .string "GRASS-type POKéMON.\p"
-    .string "Or, you might use ELECTRIC-type\n"
-    .string "POKéMON and zap them!$"
+    .string "ﺃﻫﻼ ﻳﺎ {GENDER_M}ﺑﻄﻞ{GENDER_F}ﺑﻄﻠﺔ{GENDER_E} ﻤﺴﺘﻘﺒﻞ!\p"
+    .string "ﺩﻋﻨﻲ ﺃﻧﺼﺤﻚ!\p"
+    .string "ﻘﺎﺋﺪﺓ ﻣﻴﺴﺘﻲ ﻣﺤﺘﺮﻓﺔ ﺗﺴﺘﺨﺪﻡ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻤﺎﺋﻴﺔ.\p"
+    .string "ﻳﻤﻜﻨﻚ ﺃﻥ {GENDER_M}ﺗﺠﻔﻒ{GENDER_F}ﺗﺠﻔﻔﻲ{GENDER_E} ﻣﺎﺀﻫﺎ ﻛﻠﻪ\n"
+    .string "ﺑﺎﻟﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻌﺸﺒﻴﺔ.\p"
+    .string "ﺃﻭ {GENDER_M}ﺍﺳﺘﺨﺪﻡ{GENDER_F}ﺍﺳﺘﺨﺪﻣﻲ{GENDER_E} ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﻜﻬﺮﺑﻴﺔ {GENDER_M}ﻭﺻﻌﻘﻬﺎ!{GENDER_F}ﻭﺻﻌﻘﻴﻬﺎ!{GENDER_E}$"
 
 CeruleanCity_Gym_Text_WeMakePrettyGoodTeam::
-    .string "You beat MISTY!\n"
-    .string "See, what'd I tell ya?\p"
-    .string "You and me, kid, we make a pretty\n"
-    .string "darn-good team!$"
+    .string "ﻟﻘﺪ ﻫﺰﻣﺖ ﻣﻴﺴﺘﻲ! ﺃﻟﻢ ﺃﻗﻞ ﻟﻚ؟\p"
+    .string "ﺃﻧﺎ ﻭﻧﺖ ﻳﺎ {GENDER_M}ﺻﻐﻴﺮﻱ{GENDER_F}ﺻﻐﻴﺮﺗﻲ{GENDER_E}، ﻧﺸﻜﻞ\n"
+    .string "ﻓﺮﻳﻘﺎ ﺭﺋﻌﺎ ﺣﻘﺎ!$"
 
 CeruleanCity_Gym_Text_GymStatue::
-    .string "CERULEAN POKéMON GYM\n"
-    .string "LEADER: MISTY\p"
-    .string "WINNING TRAINERS:\n"
+    .string "ﺻﺎﻟﺔ ﺑﻮﻛﻴﻤﻮﻥ ﺳﻴﺮﻭﻟﻴﻦ\n"
+    .string "ﻘﺎﺋﺪﺓ: ﻣﻴﺴﺘﻲ\p"
+    .string "ﻤﺪﺭﺑﻮﻥ ﻔﺎﺋﺰﻭﻥ:\n"
     .string "{RIVAL}$"
 
 CeruleanCity_Gym_Text_GymStatuePlayerWon::
-    .string "CERULEAN POKéMON GYM\n"
-    .string "LEADER: MISTY\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "ﺻﺎﻟﺔ ﺑﻮﻛﻴﻤﻮﻥ ﺳﻴﺮﻭﻟﻴﻦ\n"
+    .string "ﻘﺎﺋﺪﺓ: ﻣﻴﺴﺘﻲ\p"
+    .string "ﻤﺪﺭﺑﻮﻥ ﻔﺎﺋﺰﻭﻥ:\n"
+    .string "{RIVAL}، {PLAYER}$"
 

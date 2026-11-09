@@ -1,119 +1,116 @@
 Route25_Text_JoeyIntro::
-    .string "Local TRAINERS come here to\n"
-    .string "practice.$"
+    .string "ﻳﺄﺗﻲ ﻤﺪﺭﺑﻮﻥ ﻣﻦ ﻫﻨﺎ\n"
+    .string "ﻟﻴﺘﺪﺭﺑﻮ.$"
 
 Route25_Text_JoeyDefeat::
-    .string "You're decent.$"
+    .string "ﺃﻧﺖ {GENDER_M}ﺟﻴﺪ{GENDER_F}ﺟﻴﺪﺓ{GENDER_E}.$"
 
 Route25_Text_JoeyPostBattle::
-    .string "All POKéMON have weaknesses.\n"
-    .string "Even the strongest ones.\p"
-    .string "That's why it's best to raise\n"
-    .string "POKéMON of different types.$"
+    .string "ﻟﻜﻞ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻧﻘﺎﻁ ﺿﻌﻒ،\n"
+    .string "ﺣﺘﻰ ﺃﻗﻮﻫﺎ.\p"
+    .string "ﻟﺬ ﻣﻦ ﺍﻷﻓﻀﻞ ﺃﻥ ﺗﺮﺑﻲ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﻣﻦ ﺃﻧﻮﻉ ﻣﺨﺘﻠﻔﺔ.$"
 
 Route25_Text_DanIntro::
-    .string "Dad took me to a great party on\n"
-    .string "the S.S. ANNE at VERMILION CITY.$"
+    .string "ﺃﺧﺬﻧﻲ ﺃﺑﻲ ﺇﻟﻰ ﺣﻔﻠﺔ ﺭﺋﻌﺔ\n"
+    .string "ﻋﻠﻰ ﻣﺘﻦ ﺑﺎﺧﺮﺓ ﺇﺱ ﺇﺱ ﺁﻥ ﻓﻲ\p"
+    .string "ﻣﺪﻳﻨﺔ ﻓﻴﺮﻣﻴﻠﻴﻮﻥ.$"
 
 Route25_Text_DanDefeat::
-    .string "I'm not mad!$"
+    .string "ﻟﺴﺖ ﻏﺎﺿﺒﺎ!$"
 
 Route25_Text_DanPostBattle::
-    .string "On the S.S. ANNE, I saw TRAINERS\n"
-    .string "from around the world.$"
+    .string "ﻋﻠﻰ ﻣﺘﻦ ﺑﺎﺧﺮﺓ ﺇﺱ ﺇﺱ ﺁﻥ، ﺭﻳﺖ\n"
+    .string "ﻣﺪﺭﺑﻴﻦ ﻣﻦ ﻛﻞ ﺃﻧﺤﺎﺀ ﻌﺎﻟﻢ.$"
 
 Route25_Text_FlintIntro::
-    .string "I'm a cool guy.\n"
-    .string "I've got a girlfriend!$"
+    .string "ﺃﻧﺎ ﺷﺎﺏ ﺭﺋﻊ، ﻭﻟﺪﻱ ﺧﻄﻴﺒﺔ!$"
 
 Route25_Text_FlintDefeat::
-    .string "Aww, darn…$"
+    .string "ﺁﻩ، ﺗﺒﺎ…$"
 
 Route25_Text_FlintPostBattle::
-    .string "Oh, well.\n"
-    .string "My girlfriend will cheer me up.$"
+    .string "ﻻ ﺑﺄﺱ، ﺧﻄﻴﺒﺘﻲ ﺳﺘﻮﺳﻴﻨﻲ.$"
 
 Route25_Text_KelseyIntro::
-    .string "Hi!\n"
-    .string "My boyfriend is cool!$"
+    .string "ﻣﺮﺣﺒﺎ! ﺧﻄﻴﺒﻲ ﺭﺋﻊ!$"
 
 Route25_Text_KelseyDefeat::
-    .string "My conditioning isn't the best…$"
+    .string "ﻟﺴﺖ ﻓﻲ ﺃﻓﻀﻞ ﺣﺎﻻﺗﻲ…$"
 
 Route25_Text_KelseyPostBattle::
-    .string "I wish my boyfriend was as good\n"
-    .string "as you.$"
+    .string "ﻟﻴﺖ ﺧﻄﻴﺒﻲ ﻛﺎﻥ ﺑﺎﺭﻋﺎ ﻣﺜﻠﻚ.$"
 
 Route25_Text_ChadIntro::
-    .string "I had this feeling…\n"
-    .string "I knew I had to battle you!$"
+    .string "ﻛﺎﻥ ﻟﺪﻱ ﺷﻌﻮﺭ… ﻛﻨﺖ ﺃﻋﻠﻢ ﺃﻥ\n"
+    .string "ﻋﻠﻲ ﻣﻨﺎﺯﻟﺘﻚ!$"
 
 Route25_Text_ChadDefeat::
-    .string "I knew I'd lose, too!$"
+    .string "ﻭﻛﻨﺖ ﺃﻋﻠﻢ ﺃﻧﻨﻲ ﺳﺄﺧﺴﺮ ﺃﻳﻀﺎ!$"
 
 Route25_Text_ChadPostBattle::
-    .string "If your POKéMON gets confused,\n"
-    .string "switch it out.\p"
-    .string "That's a good tactic.$"
+    .string "ﺇﺫ ﺃﺻﺎﺑﺖ ﺤﻴﺮﺓ ﺑﻮﻛﻴﻤﻮﻧﻚ،\n"
+    .string "{GENDER_M}ﻓﺒﺪﻟﻪ{GENDER_F}ﻓﺒﺪﻟﻴﻪ{GENDER_E}.\p"
+    .string "ﻫﺬﻩ ﺧﻄﺔ ﺟﻴﺪﺓ.$"
 
 Route25_Text_HaleyIntro::
-    .string "My friend has many cute POKéMON.\n"
-    .string "I'm so jealous!$"
+    .string "ﻟﺪﻯ ﺻﺪﻳﻘﺘﻲ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﻟﻄﻴﻔﺔ\n"
+    .string "ﻛﺜﻴﺮﺓ. ﺃﻧﺎ ﺃﻏﺎﺭ ﻣﻨﻬﺎ ﺟﺪ!$"
 
 Route25_Text_HaleyDefeat::
-    .string "I'm not so jealous!$"
+    .string "ﻟﻢ ﺃﻋﺪ ﺃﻏﺎﺭ ﻛﺜﻴﺮ!$"
 
 Route25_Text_HaleyPostBattle::
-    .string "You came from MT. MOON?\n"
-    .string "May I have a CLEFAIRY?$"
+    .string "ﺟﺌﺖ ﻣﻦ ﺟﺒﻞ ﻘﻤﺮ؟ ﻫﻼ\n"
+    .string "ﺃﻋﻄﻴﺘﻨﻲ ﻛﻠﻴﻔﻴﺮﻱ؟$"
 
 Route25_Text_FranklinIntro::
-    .string "I just got down from MT. MOON,\n"
-    .string "but I've still got gas in the tank!$"
+    .string "ﻧﺰﻟﺖ ﻟﻠﺘﻮ ﻣﻦ ﺟﺒﻞ ﻘﻤﺮ، ﻟﻜﻦ\n"
+    .string "ﻣﺎ ﺯﻟﺖ ﻟﺪﻱ ﻃﺎﻗﺔ!$"
 
 Route25_Text_FranklinDefeat::
-    .string "You worked hard!$"
+    .string "ﻟﻘﺪ ﺍﺟﺘﻬﺪﺕ!$"
 
 Route25_Text_FranklinPostBattle::
-    .string "Drat!\n"
-    .string "A ZUBAT bit me back in that cave.$"
+    .string "ﺗﺒﺎ! ﻋﻀﻨﻲ ﺯﻭﺑﺎﺕ ﻓﻲ ﺫﻟﻚ\n"
+    .string "ﻜﻬﻒ.$"
 
 Route25_Text_NobIntro::
-    .string "I'm off to see a POKéMANIAC's\n"
-    .string "collection at the cape.$"
+    .string "ﺃﻧﺎ ﺫﻫﺐ ﻷﺭﻯ ﻣﺠﻤﻮﻋﺔ ﻋﺎﺷﻖ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻋﻨﺪ ﺮﺱ.$"
 
 Route25_Text_NobDefeat::
-    .string "You done got me, and real good,\n"
-    .string "too!$"
+    .string "ﻟﻘﺪ ﺃﻭﻗﻌﺖ ﺑﻲ، ﻭﺑﺠﺪﺭﺓ ﺃﻳﻀﺎ!$"
 
 Route25_Text_NobPostBattle::
-    .string "The POKéMANIAC sure lives up to\n"
-    .string "his name.\p"
-    .string "His collection includes many rare\n"
-    .string "species of POKéMON.$"
+    .string "ﻋﺎﺷﻖ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺟﺪﻳﺮ ﺑﻠﻘﺒﻪ\n"
+    .string "ﺣﻘﺎ.\p"
+    .string "ﻓﻔﻲ ﻣﺠﻤﻮﻋﺘﻪ ﺃﻧﻮﻉ ﻧﺎﺩﺭﺓ\n"
+    .string "ﻛﺜﻴﺮﺓ ﻣﻦ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.$"
 
 Route25_Text_WayneIntro::
-    .string "You're going to see BILL?\n"
-    .string "First, we battle!$"
+    .string "{GENDER_M}ﺃﻧﺖ ﺫﻫﺐ{GENDER_F}ﺃﻧﺖ ﺫﻫﺒﺔ{GENDER_E} ﻟﺮﺅﻳﺔ ﺑﻴﻞ؟ ﺃﻭﻻ،\n"
+    .string "ﺳﻨﺘﻨﺎﺯﻝ!$"
 
 Route25_Text_WayneDefeat::
-    .string "You're something.$"
+    .string "ﺃﻧﺖ {GENDER_M}ﻣﺪﻫﺶ!{GENDER_F}ﻣﺪﻫﺸﺔ!{GENDER_E}$"
 
 Route25_Text_WaynePostBattle::
-    .string "The trail below is a shortcut to\n"
-    .string "CERULEAN CITY.$"
+    .string "ﺪﺭﺏ ﺬﻱ ﻓﻲ ﺍﻷﺳﻔﻞ ﻃﺮﻳﻖ\n"
+    .string "ﻣﺨﺘﺼﺮ ﺇﻟﻰ ﻣﺪﻳﻨﺔ ﺳﻴﺮﻭﻟﻴﻦ.$"
 
 Route25_Text_SeaCottageSign::
-    .string "SEA COTTAGE\n"
-    .string "BILL lives here!$"
+    .string "ﻛﻮﺥ ﺒﺤﺮ\n"
+    .string "ﻫﻨﺎ ﻳﻌﻴﺶ ﺑﻴﻞ!$"
 
 Route25_Text_MistyHighHopesAboutThisPlace::
-    .string "This cape is a famous date spot.\p"
-    .string "MISTY, the GYM LEADER, has high\n"
-    .string "hopes about this place.$"
+    .string "ﻫﺬ ﺮﺱ ﻣﻜﺎﻥ ﻣﺸﻬﻮﺭ ﻳﺤﺐ ﻨﺎﺱ\n"
+    .string "ﺯﻳﺎﺭﺗﻪ.\p"
+    .string "ﻭﻣﻴﺴﺘﻲ، ﻗﺎﺋﺪﺓ ﺼﺎﻟﺔ، ﺗﺤﺐ ﻫﺬ\n"
+    .string "ﻤﻜﺎﻥ ﻛﺜﻴﺮ.$"
 
 Route25_Text_AreYouHereAlone::
-    .string "Hello, are you here alone?\p"
-    .string "If you're out at CERULEAN's cape…\n"
-    .string "Well, it should be as a couple.$"
+    .string "ﻣﺮﺣﺒﺎ، ﻫﻞ ﺃﻧﺖ ﻫﻨﺎ {GENDER_M}ﻭﺣﺪﻙ؟{GENDER_F}ﻭﺣﺪﻙ؟{GENDER_E}\p"
+    .string "ﺭﺱ ﺳﻴﺮﻭﻟﻴﻦ ﻣﻜﺎﻥ ﻳﺤﻠﻮ ﻗﻀﺎﺀ\n"
+    .string "ﻮﻗﺖ ﻓﻴﻪ ﻣﻊ ﺍﻷﺻﺪﻗﺎﺀ.$"
 

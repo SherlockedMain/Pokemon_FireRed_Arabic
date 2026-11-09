@@ -1,14 +1,15 @@
 CeruleanCity_Mart_Text_RepelWorksOnWeakMons::
-    .string "REPEL not only keeps bugs away,\n"
-    .string "it also works on weak POKéMON.\p"
-    .string "Put your strongest POKéMON at the\n"
-    .string "left of the POKéMON LIST.\p"
-    .string "If your first POKéMON is strong,\n"
-    .string "REPEL's effect is boosted.$"
+    .string "ﻻ ﻳﻄﺮﺩ ﻃﺎﺭﺩ ﻣﻤﺘﺎﺯ ﺤﺸﺮﺕ\n"
+    .string "ﻓﺤﺴﺐ، ﺑﻞ ﻳﺒﻌﺪ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\p"
+    .string "ﻀﻌﻴﻔﺔ ﺃﻳﻀﺎ.\p"
+    .string "{GENDER_M}ﺿﻊ{GENDER_F}ﺿﻌﻲ{GENDER_E} ﺃﻗﻮﻯ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ ﻓﻲ\n"
+    .string "ﺃﻭﻝ ﻗﺎﺋﻤﺔ ﻔﺮﻳﻖ.\p"
+    .string "ﻓﺈﻥ ﻛﺎﻥ ﺑﻮﻛﻴﻤﻮﻧﻚ ﺍﻷﻭﻝ ﻗﻮﻳﺎ،\n"
+    .string "ﺍﺯﺩﺩ ﻣﻔﻌﻮﻝ ﻄﺎﺭﺩ.$"
 
 CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy::
-    .string "Do you know about RARE CANDY?\n"
-    .string "They don't sell it in shops.\p"
-    .string "I think it makes POKéMON grow\n"
-    .string "very quickly all of a sudden.$"
+    .string "ﻫﻞ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﺣﻠﻮﻯ ﻧﺎﺩﺭﺓ؟ ﻻ\n"
+    .string "ﺗﺒﺎﻉ ﻓﻲ ﻤﺘﺎﺟﺮ.\p"
+    .string "ﺃﻇﻨﻬﺎ ﺗﺠﻌﻞ ﺒﻮﻛﻴﻤﻮﻥ ﻳﻜﺒﺮ\n"
+    .string "ﺑﺴﺮﻋﺔ ﻛﺒﻴﺮﺓ ﻓﺠﺄﺓ.$"
 

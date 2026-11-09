@@ -1,50 +1,45 @@
 CeruleanCity_BikeShop_Text_WelcomeToBikeShop::
-    .string "Hi!\n"
-    .string "Welcome to our BIKE SHOP.\p"
-    .string "Have we got just the BIKE for\n"
-    .string "you!$"
+    .string "ﻣﺮﺣﺒﺎ! ﺃﻫﻼ ﺑﻚ ﻓﻲ ﻣﺘﺠﺮ\n"
+    .string "ﺪﺭﺟﺎﺕ!\p"
+    .string "ﻟﺪﻳﻨﺎ ﺪﺭﺟﺔ ﻤﻨﺎﺳﺒﺔ ﻟﻚ\n"
+    .string "ﺗﻤﺎﻣﺎ!$"
 
 CeruleanCity_BikeShop_Text_SorryYouCantAffordIt::
-    .string "Sorry!\n"
-    .string "You can't afford it!$"
+    .string "ﺁﺳﻒ! ﻻ {GENDER_M}ﺗﻤﻠﻚ{GENDER_F}ﺗﻤﻠﻜﻴﻦ{GENDER_E} ﺛﻤﻨﻬﺎ!$"
 
 CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo::
-    .string "Oh, that's…\p"
-    .string "A BIKE VOUCHER!\p"
-    .string "Okay!\n"
-    .string "Here you go!$"
+    .string "ﺁﻩ، ﻫﺬﻩ…\p"
+    .string "ﻗﺴﻴﻤﺔ ﺪﺭﺟﺔ!\p"
+    .string "ﺣﺴﻨﺎ! {GENDER_M}ﺗﻔﻀﻞ!{GENDER_F}ﺗﻔﻀﻠﻲ!{GENDER_E}$"
 
 CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle::
-    .string "{PLAYER} exchanged the\n"
-    .string "BIKE VOUCHER for a BICYCLE.$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﺩﺭﺟﺔ ﻫﻮﺋﻴﺔ\n"
+    .string "ﻣﻘﺎﺑﻞ ﻗﺴﻴﻤﺔ ﺪﺭﺟﺔ.$"
 
 CeruleanCity_BikeShop_Text_ThankYouComeAgain::
-    .string "Thank you!\n"
-    .string "Come back again sometime!$"
+    .string "ﺷﻜﺮ ﻟﻚ! {GENDER_M}ﻋﺪ{GENDER_F}ﻋﻮﺩﻱ{GENDER_E} ﻟﺰﻳﺎﺭﺗﻨﺎ ﻣﺮﺓ\n"
+    .string "ﺃﺧﺮﻯ!$"
 
 CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle::
-    .string "How do you like your new BICYCLE?\n"
-    .string "Do you like how it rides?\p"
-    .string "You can take it out on CYCLING\n"
-    .string "ROAD and even into caves!$"
+    .string "ﻣﺎ ﺭﻳﻚ ﻓﻲ ﺩﺭﺟﺘﻚ ﺠﺪﻳﺪﺓ؟\n"
+    .string "ﺃﺗﻌﺠﺒﻚ ﻗﻴﺎﺩﺗﻬﺎ؟\p"
+    .string "ﻳﻤﻜﻨﻚ ﺭﻛﻮﺑﻬﺎ ﻋﻠﻰ ﻃﺮﻳﻖ\n"
+    .string "ﺪﺭﺟﺎﺕ، ﺑﻞ ﻭﺣﺘﻰ ﺩﺧﻞ ﻜﻬﻮﻑ!$"
 
 CeruleanCity_BikeShop_Text_MakeRoomForBicycle::
-    .string "You better make room for your\n"
-    .string "BICYCLE!$"
+    .string "{GENDER_M}ﺃﻓﺴﺢ{GENDER_F}ﺃﻓﺴﺤﻲ{GENDER_E} ﻣﻜﺎﻧﺎ ﻟﺪﺭﺟﺘﻚ!$"
 
 CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe::
-    .string "A plain city bike is good enough\n"
-    .string "for me.\p"
-    .string "After all, you can't put a shopping\n"
-    .string "basket on a mountain bike.$"
+    .string "ﺗﻜﻔﻴﻨﻲ ﺩﺭﺟﺔ ﻣﺪﻳﻨﺔ ﺑﺴﻴﻄﺔ.\p"
+    .string "ﻓﻔﻲ ﻨﻬﺎﻳﺔ، ﻻ ﻳﻤﻜﻨﻚ ﻭﺿﻊ ﺳﻠﺔ\n"
+    .string "ﺗﺴﻮﻕ ﻋﻠﻰ ﺩﺭﺟﺔ ﺟﺒﻠﻴﺔ!$"
 
 CeruleanCity_BikeShop_Text_BikesCoolButExpensive::
-    .string "These bikes are cool, but they're\n"
-    .string "way expensive!$"
+    .string "ﻫﺬﻩ ﺪﺭﺟﺎﺕ ﺭﺋﻌﺔ… ﻟﻜﻨﻬﺎ\n"
+    .string "ﻏﺎﻟﻴﺔ ﺟﺪ!$"
 
 CeruleanCity_BikeShop_Text_WowYourBikeIsCool::
-    .string "Wow.\n"
-    .string "Your BIKE is really cool!$"
+    .string "ﻭﻭ! ﺩﺭﺟﺘﻚ ﺭﺋﻌﺔ ﺣﻘﺎ!$"
 
 @ Unused
 CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
@@ -53,5 +48,5 @@ CeruleanCity_BikeShop_Text_GermanFoldableBicyleFinallyOnMarket::
     .string "おりたたみ　じてんしゃ！$"
 
 CeruleanCity_BikeShop_Text_ShinyNewBicycle::
-    .string "A shiny new BICYCLE!$"
+    .string "ﺩﺭﺟﺔ ﺟﺪﻳﺪﺓ ﺗﻠﻤﻊ!$"
 
