@@ -1,86 +1,80 @@
 Route10_Text_MarkIntro::
-    .string "Wow, you came all the way here?\n"
-    .string "Maybe you're a POKéMANIAC, too?\l"
-    .string "Want to see my collection?$"
+    .string "ﻭﻭ، {GENDER_M}ﺟﺌﺖ{GENDER_F}ﺟﺌﺖ{GENDER_E} ﻛﻞ ﻫﺬﻩ ﻤﺴﺎﻓﺔ؟ ﺭﺑﻤﺎ\n"
+    .string "ﺃﻧﺖ {GENDER_M}ﻋﺎﺷﻖ{GENDER_F}ﻋﺎﺷﻘﺔ{GENDER_E} ﻟﻠﺒﻮﻛﻴﻤﻮﻧﺎﺕ\p"
+    .string "ﺃﻳﻀﺎ؟ {GENDER_M}ﺃﺗﺮﻳﺪ{GENDER_F}ﺃﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺭﺅﻳﺔ\n"
+    .string "ﻣﺠﻤﻮﻋﺘﻲ؟$"
 
 Route10_Text_MarkDefeat::
-    .string "Humph.\n"
-    .string "I'm not angry!$"
+    .string "ﻫﻤﻒ. ﻟﺴﺖ ﻏﺎﺿﺒﺎ!$"
 
 Route10_Text_MarkPostBattle::
-    .string "I have more rare POKéMON at home!$"
+    .string "ﻟﺪﻱ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﻧﺎﺩﺭﺓ ﺃﻛﺜﺮ ﻓﻲ\n"
+    .string "ﺒﻴﺖ!$"
 
 Route10_Text_ClarkIntro::
-    .string "Ha-hahah-ah-ha!$"
+    .string "ﻫﺎ-ﻫﺎﻫﺎﻩ-ﺁﻩ-ﻫﺎ!$"
 
 Route10_Text_ClarkDefeat::
-    .string "Ha-haha!\n"
-    .string "Not laughing!\l"
-    .string "Ha-hay fever! Haha-ha-choo!$"
+    .string "ﻫﺎ-ﻫﺎﻫﺎ! ﻟﺴﺖ ﺃﺿﺤﻚ! ﺇﻧﻬﺎ\n"
+    .string "ﺣﺴﺎﺳﻴﺔ ﺮﺑﻴﻊ! ﻫﺎﻫﺎ-ﻫﺎﺗﺸﻮ!$"
 
 Route10_Text_ClarkPostBattle::
-    .string "Haha-ha-choo!\n"
-    .string "Ha-choo!\l"
-    .string "Snort! Snivel!$"
+    .string "ﻫﺎﻫﺎ-ﻫﺎﺗﺸﻮ! ﻫﺎﺗﺸﻮ! ﺷﻬﻴﻖ!\n"
+    .string "ﻧﺸﻴﺞ!$"
 
 Route10_Text_HermanIntro::
-    .string "Hi, kid!\n"
-    .string "Want to see my POKéMON?$"
+    .string "ﻣﺮﺣﺒﺎ {GENDER_M}ﻳﺎ ﺻﻐﻴﺮ{GENDER_F}ﻳﺎ ﺻﻐﻴﺮﺓ{GENDER_E}! {GENDER_M}ﺃﺗﺮﻳﺪ{GENDER_F}ﺃﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺭﺅﻳﺔ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ؟$"
 
 Route10_Text_HermanDefeat::
-    .string "Oh, no!\n"
-    .string "My POKéMON!$"
+    .string "ﺃﻭﻩ، ﻻ! ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ!$"
 
 Route10_Text_HermanPostBattle::
-    .string "I don't like you.\n"
-    .string "I don't like anyone better than me!$"
+    .string "ﻻ ﺃﺣﺒﻚ. ﻻ ﺃﺣﺐ ﺃﻱ ﺃﺣﺪ ﺃﻓﻀﻞ\n"
+    .string "ﻣﻨﻲ!$"
 
 Route10_Text_HeidiIntro::
-    .string "I've been out at a POKéMON GYM\n"
-    .string "a few times.\p"
-    .string "…But I always lose.$"
+    .string "ﺯﺭﺕ ﺻﺎﻻﺕ ﺒﻮﻛﻴﻤﻮﻥ ﺑﻀﻊ ﻣﺮﺕ.\p"
+    .string "…ﻟﻜﻨﻨﻲ ﺃﺧﺴﺮ ﺩﺋﻤﺎ.$"
 
 Route10_Text_HeidiDefeat::
-    .string "Ohh!\n"
-    .string "After all my training!$"
+    .string "ﺃﻭﻩ! ﺑﻌﺪ ﻛﻞ ﺗﺪﺭﻳﺒﻲ!$"
 
 Route10_Text_HeidiPostBattle::
-    .string "I noticed some POKéMANIACS\n"
-    .string "prowling around.\p"
-    .string "Can you imagine? Them?\n"
-    .string "Up here in the mountains?$"
+    .string "ﻻﺣﻈﺖ ﺑﻌﺾ ﻋﺸﺎﻕ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﻳﺘﺠﻮﻟﻮﻥ ﻫﻨﺎ.\p"
+    .string "{GENDER_M}ﺃﺗﺘﺨﻴﻞ{GENDER_F}ﺃﺗﺘﺨﻴﻠﻴﻦ{GENDER_E}؟ ﻫﻢ؟ ﻫﻨﺎ ﻓﻲ ﺃﻋﺎﻟﻲ\n"
+    .string "ﺠﺒﺎﻝ؟$"
 
 Route10_Text_TrentIntro::
-    .string "Ah!\n"
-    .string "This mountain air is delicious!$"
+    .string "ﺁﻩ! ﻣﺎ ﺃﻟﺬ ﻫﻮﺀ ﺠﺒﺎﻝ ﻫﺬ!$"
 
 Route10_Text_TrentDefeat::
-    .string "That cleared my head!$"
+    .string "ﻟﻘﺪ ﺻﻔﺎ ﺫﻫﻨﻲ!$"
 
 Route10_Text_TrentPostBattle::
-    .string "I feel bloated on mountain air!$"
+    .string "ﺍﻣﺘﻸﺕ ﺑﻄﻨﻲ ﺑﻬﻮﺀ ﺠﺒﺎﻝ!$"
 
 Route10_Text_CarolIntro::
-    .string "I'm feeling a bit faint.\n"
-    .string "I haven't hiked in some time.$"
+    .string "ﺃﺷﻌﺮ ﺑﺪﻭﺭ ﺧﻔﻴﻒ. ﻟﻢ ﺃﺗﺴﻠﻖ\n"
+    .string "ﺠﺒﺎﻝ ﻣﻨﺬ ﻣﺪﺓ.$"
 
 Route10_Text_CarolDefeat::
-    .string "I'm too tired.\n"
-    .string "I wasn't up for it.$"
+    .string "ﺃﻧﺎ ﻣﺘﻌﺒﺔ ﺟﺪ، ﻟﻢ ﺃﻛﻦ ﻣﺴﺘﻌﺪﺓ.$"
 
 Route10_Text_CarolPostBattle::
-    .string "The POKéMON here in the mountains\n"
-    .string "are so chunky…\p"
-    .string "I wish there were pink POKéMON\n"
-    .string "with a floral pattern!$"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻫﻨﺎ ﻓﻲ ﺠﺒﺎﻝ\n"
+    .string "ﺿﺨﻤﺔ ﺟﺪ…\p"
+    .string "ﻟﻴﺘﻬﺎ ﻛﺎﻧﺖ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﻭﺭﺩﻳﺔ\n"
+    .string "ﺑﻨﻘﻮﺵ ﺯﻫﻮﺭ!$"
 
 Route10_Text_RockTunnelDetourToLavender::
-    .string "ROCK TUNNEL\n"
-    .string "Detour to LAVENDER TOWN$"
+    .string "ﻧﻔﻖ ﺼﺨﻮﺭ\n"
+    .string "ﻃﺮﻳﻖ ﺑﺪﻳﻞ ﺇﻟﻰ ﺑﻠﺪﺓ ﻻﻓﻨﺪﺭ$"
 
 Route10_Text_RockTunnel::
-    .string "ROCK TUNNEL$"
+    .string "ﻧﻔﻖ ﺼﺨﻮﺭ$"
 
 Route10_Text_PowerPlant::
-    .string "POWER PLANT$"
+    .string "ﻣﺤﻄﺔ ﻜﻬﺮﺑﺎﺀ$"
 

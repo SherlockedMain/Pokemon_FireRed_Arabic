@@ -1,51 +1,47 @@
 PokemonTower_5F_Text_RestHereInPurifiedSpace::
-    .string "Come, child!\n"
-    .string "I have purified this space.\l"
-    .string "You can rest here.$"
+    .string "{GENDER_M}ﺗﻌﺎﻝ{GENDER_F}ﺗﻌﺎﻟﻲ{GENDER_E} ﻳﺎ {GENDER_M}ﺑﻨﻲ!{GENDER_F}ﺍﺑﻨﺘﻲ!{GENDER_E} ﻟﻘﺪ ﻃﻬﺮﺕ ﻫﺬ\n"
+    .string "ﻤﻜﺎﻥ، ﻓﻴﻤﻜﻨﻚ ﺃﻥ {GENDER_M}ﺗﺮﺗﺎﺡ{GENDER_F}ﺗﺮﺗﺎﺣﻲ{GENDER_E}\p"
+    .string "ﻫﻨﺎ.$"
 
 PokemonTower_5F_Text_TammyIntro::
-    .string "Give…me…\n"
-    .string "your…all…$"
+    .string "ﺃﻋﻄﻨﻲ… ﻛﻞ… ﻣﺎ… ﻋﻨﺪﻙ…$"
 
 PokemonTower_5F_Text_TammyDefeat::
-    .string "Gasp!$"
+    .string "ﺷﻬﻘﺔ!$"
 
 PokemonTower_5F_Text_TammyPostBattle::
-    .string "I was under possession.$"
+    .string "ﻟﻢ ﺃﻛﻦ ﻓﻲ ﻭﻋﻴﻲ.$"
 
 PokemonTower_5F_Text_RuthIntro::
-    .string "You…shall…\n"
-    .string "join…us…$"
+    .string "ﺳﺘﻨﻀﻢ… ﺇﻟﻴﻨﺎ…$"
 
 PokemonTower_5F_Text_RuthDefeat::
-    .string "What a nightmare!$"
+    .string "ﻳﺎ ﻟﻪ ﻣﻦ ﻛﺎﺑﻮﺱ!$"
 
 PokemonTower_5F_Text_RuthPostBattle::
-    .string "I was possessed.$"
+    .string "ﻟﻢ ﺃﻛﻦ ﻓﻲ ﻭﻋﻴﻲ.$"
 
 PokemonTower_5F_Text_KarinaIntro::
-    .string "Zombies!$"
+    .string "ﺯﻭﻣﺒﻲ!$"
 
 PokemonTower_5F_Text_KarinaDefeat::
-    .string "Ha?$"
+    .string "ﻫﺎ؟$"
 
 PokemonTower_5F_Text_KarinaPostBattle::
-    .string "I regained my senses.$"
+    .string "ﻋﺪﺕ ﺇﻟﻰ ﺭﺷﺪﻱ.$"
 
 PokemonTower_5F_Text_JanaeIntro::
-    .string "Urgah…\n"
-    .string "Urff…$"
+    .string "ﺃﻭﻏﺎﻩ… ﺃﻭﺭﻑ…$"
 
 PokemonTower_5F_Text_JanaeDefeat::
-    .string "Whoo!$"
+    .string "ﻭﻭﻩ!$"
 
 PokemonTower_5F_Text_JanaePostBattle::
-    .string "I fell to evil spirits despite my\n"
-    .string "training in the mountains…$"
+    .string "ﻏﻠﺒﺘﻨﻲ ﺍﻷﺭﻭﺡ ﺸﺮﻳﺮﺓ ﺭﻏﻢ\n"
+    .string "ﺗﺪﺭﻳﺒﻲ ﻓﻲ ﺠﺒﺎﻝ…$"
 
 PokemonTower_5F_Text_PurifiedZoneMonsFullyHealed::
-    .string "Entered the purified and protected\n"
-    .string "zone.\p"
-    .string "{PLAYER}'s POKéMON were fully\n"
-    .string "healed.$"
+    .string "ﺩﺧﻠﺖ ﻤﻨﻄﻘﺔ ﻄﺎﻫﺮﺓ ﻤﺤﻤﻴﺔ.\p"
+    .string "ﺍﺳﺘﻌﺎﺩﺕ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ {PLAYER}\n"
+    .string "ﻛﺎﻣﻞ ﺻﺤﺘﻬﺎ.$"
 

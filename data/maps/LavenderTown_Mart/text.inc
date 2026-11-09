@@ -1,22 +1,22 @@
 LavenderTown_Mart_Text_SearchingForStatRaiseItems::
-    .string "I'm searching for items that raise\n"
-    .string "the stats of POKéMON.\p"
-    .string "They're effective over the course\n"
-    .string "of a single battle.\p"
-    .string "X ATTACK, X DEFEND, X SPEED, \n"
-    .string "and X SPECIAL are what I'm after.\p"
-    .string "Do you know where I can get them?$"
+    .string "ﺃﺑﺤﺚ ﻋﻦ ﺃﺩﻭﺕ ﺗﺮﻓﻊ ﻗﺪﺭﺕ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.\p"
+    .string "ﻳﺪﻭﻡ ﻣﻔﻌﻮﻟﻬﺎ ﻃﻮﻝ ﻧﺰﻝ ﻭﺣﺪ.\p"
+    .string "ﺃﺑﺤﺚ ﻋﻦ ﻣﻌﺰﺯ ﻬﺠﻮﻡ ﻭﻣﻌﺰﺯ\n"
+    .string "ﺪﻓﺎﻉ ﻭﻣﻌﺰﺯ ﺴﺮﻋﺔ ﻭﻣﻌﺰﺯ\p"
+    .string "ﻕ.ﺧﺎﺻﺔ.\p"
+    .string "ﻫﻞ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﺃﻳﻦ ﺃﺟﺪﻫﺎ؟$"
 
 LavenderTown_Mart_Text_DidYouBuyRevives::
-    .string "Did you buy some REVIVES?\n"
-    .string "They revive any fainted POKéMON!$"
+    .string "ﻫﻞ {GENDER_M}ﺍﺷﺘﺮﻳﺖ{GENDER_F}ﺍﺷﺘﺮﻳﺖ{GENDER_E} ﺍﻹﺣﻴﺎﺀ؟ ﺇﻧﻬﺎ ﺗﻨﻌﺶ\n"
+    .string "ﺃﻱ ﺑﻮﻛﻴﻤﻮﻥ ﻣﻐﻤﻰ ﻋﻠﻴﻪ!$"
 
 LavenderTown_Mart_Text_TrainerDuosCanChallengeYou::
-    .string "Sometimes, a TRAINER duo will\n"
-    .string "challenge you with two POKéMON\l"
-    .string "at the same time.\p"
-    .string "If that happens, you have to send\n"
-    .string "out two POKéMON to battle, too.$"
+    .string "ﺃﺣﻴﺎﻧﺎ ﻳﺘﺤﺪﻙ ﺛﻨﺎﺋﻲ ﻣﻦ\n"
+    .string "ﻤﺪﺭﺑﻴﻦ ﺑﺒﻮﻛﻴﻤﻮﻧﻴﻦ ﻓﻲ ﻮﻗﺖ\p"
+    .string "ﻧﻔﺴﻪ.\p"
+    .string "ﺣﻴﻨﻬﺎ، ﻋﻠﻴﻚ ﺃﻥ {GENDER_M}ﺗﺮﺳﻞ{GENDER_F}ﺗﺮﺳﻠﻲ{GENDER_E}\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﻴﻦ ﻟﻠﻨﺰﻝ ﺃﻧﺖ ﺃﻳﻀﺎ.$"
 
 LavenderTown_Mart_Text_SoldNuggetFromMountainsFor5000::
     .string "この　あいだ　やまおくで\n"

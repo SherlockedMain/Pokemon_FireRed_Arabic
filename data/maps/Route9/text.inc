@@ -1,106 +1,102 @@
 Route9_Text_AliciaIntro::
-    .string "You have POKéMON with you!\n"
-    .string "You're mine!$"
+    .string "ﻣﻌﻚ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ! ﺃﻧﺖ ﻟﻲ!$"
 
 Route9_Text_AliciaDefeat::
-    .string "You deceived me…$"
+    .string "ﻟﻘﺪ ﺧﺪﻋﺘﻨﻲ…$"
 
 Route9_Text_AliciaPostBattle::
-    .string "The tunnel coming up is pitch-black\n"
-    .string "inside.\p"
-    .string "You'll need FLASH to get through\n"
-    .string "there.$"
+    .string "ﻨﻔﻖ ﻘﺎﺩﻡ ﺣﺎﻟﻚ ﻈﻠﻤﺔ ﻣﻦ\n"
+    .string "ﺪﺧﻞ.\p"
+    .string "{GENDER_M}ﺳﺘﺤﺘﺎﺝ{GENDER_F}ﺳﺘﺤﺘﺎﺟﻴﻦ{GENDER_E} ﺇﻟﻰ ﻮﻣﻴﺾ ﻟﺘﻌﺒﺮﻩ.$"
 
 Route9_Text_ChrisIntro::
-    .string "Who's that walking there with those\n"
-    .string "good-looking POKéMON?$"
+    .string "ﻣﻦ ﺫ ﺬﻱ ﻳﻤﺸﻲ ﻫﻨﺎﻙ ﻣﻊ ﺗﻠﻚ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺠﻤﻴﻠﺔ؟$"
 
 Route9_Text_ChrisDefeat::
-    .string "Out like a light!$"
+    .string "ﺍﻧﻄﻔﺄﺕ ﻛﺎﻟﻤﺼﺒﺎﺡ!$"
 
 Route9_Text_ChrisPostBattle::
-    .string "Keep walking!$"
+    .string "{GENDER_M}ﺗﺎﺑﻊ{GENDER_F}ﺗﺎﺑﻌﻲ{GENDER_E} ﻃﺮﻳﻘﻚ!$"
 
 Route9_Text_DrewIntro::
-    .string "I'm taking the ROCK TUNNEL to\n"
-    .string "go to LAVENDER…$"
+    .string "ﺳﺄﺳﻠﻚ ﻧﻔﻖ ﺼﺨﻮﺭ ﻟﻠﺬﻫﺎﺏ ﺇﻟﻰ\n"
+    .string "ﻻﻓﻨﺪﺭ…$"
 
 Route9_Text_DrewDefeat::
-    .string "Can't measure up…$"
+    .string "ﻟﺴﺖ ﻓﻲ ﻣﺴﺘﻮﻙ…$"
 
 Route9_Text_DrewPostBattle::
-    .string "Are you off to ROCK TUNNEL, too?$"
+    .string "ﻫﻞ ﺃﻧﺖ {GENDER_M}ﺫﻫﺐ{GENDER_F}ﺫﻫﺒﺔ{GENDER_E} ﺇﻟﻰ ﻧﻔﻖ ﺼﺨﻮﺭ\n"
+    .string "ﺃﻳﻀﺎ؟$"
 
 Route9_Text_CaitlinIntro::
-    .string "Don't you dare patronize me!$"
+    .string "ﺇﻳﺎﻙ ﺃﻥ {GENDER_M}ﺗﺴﺘﺨﻒ{GENDER_F}ﺗﺴﺘﺨﻔﻲ{GENDER_E} ﺑﻲ!$"
 
 Route9_Text_CaitlinDefeat::
-    .string "No!\n"
-    .string "You're too much.$"
+    .string "ﻻ! ﺃﻧﺖ ﺃﻗﻮﻯ ﻣﻨﻲ ﺑﻜﺜﻴﺮ.$"
 
 Route9_Text_CaitlinPostBattle::
-    .string "You're obviously talented.\n"
-    .string "Good luck to you!$"
+    .string "ﻭﺿﺢ ﺃﻧﻚ {GENDER_M}ﻣﻮﻫﻮﺏ{GENDER_F}ﻣﻮﻫﻮﺑﺔ{GENDER_E}. ﺣﻈﺎ ﻣﻮﻓﻘﺎ!$"
 
 Route9_Text_JeremyIntro::
-    .string "Bwahaha!\n"
-    .string "Great! I was bored, eh!$"
+    .string "ﺑﻮﻫﺎﻫﺎ! ﺭﺋﻊ! ﻛﻨﺖ ﺃﺷﻌﺮ\n"
+    .string "ﺑﺎﻟﻤﻠﻞ!$"
 
 Route9_Text_JeremyDefeat::
-    .string "Keep it coming, eh!\p"
-    .string "Oh wait.\n"
-    .string "I'm out of POKéMON!$"
+    .string "ﻫﺎﺕ ﻤﺰﻳﺪ!\p"
+    .string "ﺃﻭﻩ، ﻣﻬﻼ. ﻧﻔﺪﺕ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ!$"
 
 Route9_Text_JeremyPostBattle::
-    .string "You sure had guts standing up to\n"
-    .string "me there, eh?$"
+    .string "ﻟﻘﺪ ﺗﺤﻠﻴﺖ ﺑﺎﻟﺸﺠﺎﻋﺔ ﺣﻴﻦ\n"
+    .string "ﻭﻗﻔﺖ ﻓﻲ ﻭﺟﻬﻲ، ﺻﺤﻴﺢ؟$"
 
 Route9_Text_BriceIntro::
-    .string "Hahaha!\n"
-    .string "Aren't you a little toughie!$"
+    .string "ﻫﺎﻫﺎﻫﺎ! ﻳﺎ ﻟﻚ ﻣﻦ\n"
+    .string "{GENDER_M}ﺻﻐﻴﺮ ﻋﻨﻴﺪ!{GENDER_F}ﺻﻐﻴﺮﺓ ﻋﻨﻴﺪﺓ!{GENDER_E}$"
 
 Route9_Text_BriceDefeat::
-    .string "What's that?$"
+    .string "ﻣﺎ ﻫﺬ؟$"
 
 Route9_Text_BricePostBattle::
-    .string "Hahaha!\n"
-    .string "Kids should be tough!$"
+    .string "ﻫﺎﻫﺎﻫﺎ! ﻋﻠﻰ ﺼﻐﺎﺭ ﺃﻥ ﻳﻜﻮﻧﻮ\n"
+    .string "ﺃﻗﻮﻳﺎﺀ!$"
 
 Route9_Text_BrentIntro::
-    .string "I got up early every day to raise\n"
-    .string "my POKéMON from cocoons!$"
+    .string "ﻛﻨﺖ ﺃﺳﺘﻴﻘﻆ ﺑﺎﻛﺮ ﻛﻞ ﻳﻮﻡ\n"
+    .string "ﻷﺭﺑﻲ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ ﻣﻨﺬ ﻛﺎﻧﺖ\p"
+    .string "ﺷﺮﻧﻖ!$"
 
 Route9_Text_BrentDefeat::
-    .string "WHAT?\p"
-    .string "What a total waste of time!$"
+    .string "ﻣﺎﺫ؟\p"
+    .string "ﻳﺎ ﻟﻬﺎ ﻣﻦ ﻣﻀﻴﻌﺔ ﻟﻠﻮﻗﺖ!$"
 
 Route9_Text_BrentPostBattle::
-    .string "I have to collect more than bugs\n"
-    .string "to get stronger…$"
+    .string "ﻋﻠﻲ ﺃﻥ ﺃﺟﻤﻊ ﺃﻛﺜﺮ ﻣﻦ ﺤﺸﺮﺕ\n"
+    .string "ﻷﺻﺒﺢ ﺃﻗﻮﻯ…$"
 
 Route9_Text_AlanIntro::
-    .string "Hahahaha!\n"
-    .string "Bring it on!$"
+    .string "ﻫﺎﻫﺎﻫﺎﻫﺎ! ﻫﺎﺕ ﻣﺎ ﻋﻨﺪﻙ!$"
 
 Route9_Text_AlanDefeat::
-    .string "Hahahaha!\n"
-    .string "You beat me fair!$"
+    .string "ﻫﺎﻫﺎﻫﺎﻫﺎ! ﻫﺰﻣﺘﻨﻲ ﺑﺠﺪﺭﺓ!$"
 
 Route9_Text_AlanPostBattle::
-    .string "Hahahaha!\n"
-    .string "Us hearty guys always laugh!$"
+    .string "ﻫﺎﻫﺎﻫﺎﻫﺎ! ﻧﺤﻦ ﺮﺟﺎﻝ ﺍﻷﺷﺪﺀ\n"
+    .string "ﻧﻀﺤﻚ ﺩﺋﻤﺎ!$"
 
 Route9_Text_ConnerIntro::
-    .string "Go, my super BUG POKéMON!$"
+    .string "ﺍﻧﻄﻠﻖ ﻳﺎ ﺑﻮﻛﻴﻤﻮﻧﻲ ﺤﺸﺮﻱ\n"
+    .string "ﺨﺎﺭﻕ!$"
 
 Route9_Text_ConnerDefeat::
-    .string "My bugs…$"
+    .string "ﺣﺸﺮﺗﻲ…$"
 
 Route9_Text_ConnerPostBattle::
-    .string "If you don't like BUG POKéMON,\n"
-    .string "you bug me!$"
+    .string "ﺇﻥ ﻟﻢ {GENDER_M}ﺗﺤﺐ{GENDER_F}ﺗﺤﺒﻲ{GENDER_E} ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﺤﺸﺮﻳﺔ، ﻓﺄﻧﺖ {GENDER_M}ﺗﺰﻋﺠﻨﻲ!{GENDER_F}ﺗﺰﻋﺠﻴﻨﻨﻲ!{GENDER_E}$"
 
 Route9_Text_RouteSign::
-    .string "ROUTE 9\n"
-    .string "CERULEAN CITY - ROCK TUNNEL$"
+    .string "ﻄﺮﻳﻖ 9\n"
+    .string "ﻣﺪﻳﻨﺔ ﺳﻴﺮﻭﻟﻴﻦ - ﻧﻔﻖ ﺼﺨﻮﺭ$"
 

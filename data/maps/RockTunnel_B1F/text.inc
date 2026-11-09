@@ -1,95 +1,90 @@
 RockTunnel_B1F_Text_SofiaIntro::
-    .string "Do you know how you can avoid\n"
-    .string "getting lost in the mountains?\p"
-    .string "You can bend twigs as trail\n"
-    .string "markers.$"
+    .string "ﻫﻞ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﻛﻴﻒ ﺗﺘﺠﻨﺐ ﻀﻴﺎﻉ\n"
+    .string "ﻓﻲ ﺠﺒﺎﻝ؟\p"
+    .string "ﺍﻛﺴﺮ ﺍﻷﻏﺼﺎﻥ ﻟﺘﺘﺨﺬﻫﺎ ﻋﻼﻣﺎﺕ\n"
+    .string "ﻋﻠﻰ ﺪﺭﺏ.$"
 
 RockTunnel_B1F_Text_SofiaDefeat::
-    .string "Ohhh!\n"
-    .string "I did my best!$"
+    .string "ﺃﻭﻭﻭﻩ! ﺑﺬﻟﺖ ﻗﺼﺎﺭﻯ ﺟﻬﺪﻱ!$"
 
 RockTunnel_B1F_Text_SofiaPostBattle::
-    .string "I want to go home!$"
+    .string "ﺃﺭﻳﺪ ﻌﻮﺩﺓ ﺇﻟﻰ ﺒﻴﺖ!$"
 
 RockTunnel_B1F_Text_DudleyIntro::
-    .string "Hahaha!\n"
-    .string "Can you beat my power?$"
+    .string "ﻫﺎﻫﺎﻫﺎ! {GENDER_M}ﺃﺗﻘﺪﺭ{GENDER_F}ﺃﺗﻘﺪﺭﻳﻦ{GENDER_E} ﻋﻠﻰ ﻗﻮﺗﻲ؟$"
 
 RockTunnel_B1F_Text_DudleyDefeat::
-    .string "Oops!\n"
-    .string "Outmuscled!$"
+    .string "ﺃﻭﺑﺲ! ﻏﻠﺒﺘﻨﻲ ﻋﻀﻼﺗﻚ!$"
 
 RockTunnel_B1F_Text_DudleyPostBattle::
-    .string "I go for power because I hate\n"
-    .string "thinking.$"
+    .string "ﺃﻋﺘﻤﺪ ﻋﻠﻰ ﻘﻮﺓ ﻷﻧﻨﻲ ﺃﻛﺮﻩ\n"
+    .string "ﺘﻔﻜﻴﺮ.$"
 
 RockTunnel_B1F_Text_CooperIntro::
-    .string "You have a POKéDEX?\n"
-    .string "I want one, too.$"
+    .string "ﻣﻌﻚ ﺑﻮﻛﻴﺪﻳﻜﺲ؟ ﺃﺭﻳﺪ ﻭﺣﺪ ﺃﻧﺎ\n"
+    .string "ﺃﻳﻀﺎ.$"
 
 RockTunnel_B1F_Text_CooperDefeat::
-    .string "Shoot!\n"
-    .string "I am so jealous!$"
+    .string "ﺗﺒﺎ! ﻛﻢ ﺃﻏﺎﺭ ﻣﻨﻚ!$"
 
 RockTunnel_B1F_Text_CooperPostBattle::
-    .string "When you finish your POKéDEX,\n"
-    .string "can I have it?$"
+    .string "ﺣﻴﻦ {GENDER_M}ﺗﻜﻤﻞ{GENDER_F}ﺗﻜﻤﻠﻴﻦ{GENDER_E} ﺒﻮﻛﻴﺪﻳﻜﺲ، ﻫﻞ\n"
+    .string "ﺗﻌﻄﻴﻨﻲ ﺇﻳﺎﻩ؟$"
 
 RockTunnel_B1F_Text_SteveIntro::
-    .string "Um… Do you know about POKéMON\n"
-    .string "cosplay?$"
+    .string "ﺃﻣﻢ… ﻫﻞ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﺘﻨﻜﺮ ﺑﺄﺯﻳﺎﺀ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ؟$"
 
 RockTunnel_B1F_Text_SteveDefeat::
-    .string "Well, that's that.$"
+    .string "ﺣﺴﻨﺎ، ﺍﻧﺘﻬﻰ ﺍﻷﻣﺮ.$"
 
 RockTunnel_B1F_Text_StevePostBattle::
-    .string "POKéMON cosplay is dressing up as\n"
-    .string "POKéMON for fun.\p"
-    .string "CLEFAIRY is a favorite.$"
+    .string "ﺘﻨﻜﺮ ﺑﺄﺯﻳﺎﺀ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﻳﻌﻨﻲ ﺃﻥ ﺗﻠﺒﺲ ﻣﺜﻠﻬﺎ\p"
+    .string "ﻟﻠﺘﺴﻠﻴﺔ.\p"
+    .string "ﻭﻛﻠﻴﻔﻴﺮﻱ ﻫﻮ ﻤﻔﻀﻞ ﻟﺪﻯ\n"
+    .string "ﺠﻤﻴﻊ.$"
 
 RockTunnel_B1F_Text_AllenIntro::
-    .string "My POKéMON techniques will leave\n"
-    .string "you crying!$"
+    .string "ﺗﻘﻨﻴﺎﺗﻲ ﻓﻲ ﻨﺰﻝ ﺳﺘﺠﻌﻠﻚ\n"
+    .string "{GENDER_M}ﺗﺒﻜﻲ!{GENDER_F}ﺗﺒﻜﻴﻦ!{GENDER_E}$"
 
 RockTunnel_B1F_Text_AllenDefeat::
-    .string "I give!\n"
-    .string "You're a better technician!$"
+    .string "ﺃﺳﺘﺴﻠﻢ! ﺃﻧﺖ ﺃﻣﻬﺮ ﻣﻨﻲ ﺗﻘﻨﻴﺎ!$"
 
 RockTunnel_B1F_Text_AllenPostBattle::
-    .string "In mountains, you'll often find\n"
-    .string "ROCK-type POKéMON.$"
+    .string "ﻓﻲ ﺠﺒﺎﻝ، ﻛﺜﻴﺮ ﻣﺎ ﺗﺠﺪ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺼﺨﺮﻳﺔ.$"
 
 RockTunnel_B1F_Text_MarthaIntro::
-    .string "I don't often come here, but I will\n"
-    .string "battle you.$"
+    .string "ﻻ ﺁﺗﻲ ﺇﻟﻰ ﻫﻨﺎ ﻛﺜﻴﺮ، ﻟﻜﻨﻨﻲ\n"
+    .string "ﺳﺄﻧﺎﺯﻟﻚ.$"
 
 RockTunnel_B1F_Text_MarthaDefeat::
-    .string "Oh!\n"
-    .string "I lost!$"
+    .string "ﺃﻭﻩ! ﺧﺴﺮﺕ!$"
 
 RockTunnel_B1F_Text_MarthaPostBattle::
-    .string "I like tiny POKéMON.\n"
-    .string "Big ones are too scary!$"
+    .string "ﺃﺣﺐ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺼﻐﻴﺮﺓ،\n"
+    .string "ﻓﺎﻟﻜﺒﻴﺮﺓ ﻣﺨﻴﻔﺔ ﺟﺪ!$"
 
 RockTunnel_B1F_Text_EricIntro::
-    .string "Hit me with your best shot!$"
+    .string "{GENDER_M}ﺍﺿﺮﺑﻨﻲ{GENDER_F}ﺍﺿﺮﺑﻴﻨﻲ{GENDER_E} ﺑﺄﻗﻮﻯ ﻣﺎ ﻋﻨﺪﻙ!$"
 
 RockTunnel_B1F_Text_EricDefeat::
-    .string "Fired away!$"
+    .string "ﺃﺻﺒﺖ ﻬﺪﻑ!$"
 
 RockTunnel_B1F_Text_EricPostBattle::
-    .string "I'll raise my POKéMON to beat\n"
-    .string "yours, kid.$"
+    .string "ﺳﺄﺭﺑﻲ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ ﻷﻫﺰﻡ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ {GENDER_M}ﻳﺎ ﺻﻐﻴﺮ{GENDER_F}ﻳﺎ ﺻﻐﻴﺮﺓ{GENDER_E}.$"
 
 RockTunnel_B1F_Text_WinstonIntro::
-    .string "I draw illustrations of POKéMON\n"
-    .string "when I'm home.$"
+    .string "ﺃﺭﺳﻢ ﺻﻮﺭ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺣﻴﻦ\n"
+    .string "ﺃﻛﻮﻥ ﻓﻲ ﺒﻴﺖ.$"
 
 RockTunnel_B1F_Text_WinstonDefeat::
-    .string "Whew…\n"
-    .string "I'm exhausted…$"
+    .string "ﻓﻴﻮ… ﺃﻧﺎ ﻣﻨﻬﻚ…$"
 
 RockTunnel_B1F_Text_WinstonPostBattle::
-    .string "I'm an artist, not a fighter.\n"
-    .string "I'll go home to draw.$"
+    .string "ﺃﻧﺎ ﻓﻨﺎﻥ ﻻ ﻣﻘﺎﺗﻞ. ﺳﺄﻋﻮﺩ ﺇﻟﻰ\n"
+    .string "ﺒﻴﺖ ﻷﺭﺳﻢ.$"
 

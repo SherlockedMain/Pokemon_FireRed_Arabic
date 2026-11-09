@@ -1,29 +1,27 @@
 PokemonTower_1F_Text_ErectedInMemoryOfDeadMons::
-    .string "POKéMON TOWER was erected in the\n"
-    .string "memory of POKéMON that died.$"
+    .string "ﺷﻴﺪ ﺑﺮﺝ ﺒﻮﻛﻴﻤﻮﻥ ﺗﺨﻠﻴﺪ\n"
+    .string "ﻟﺬﻛﺮﻯ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺮﺣﻠﺔ.$"
 
 PokemonTower_1F_Text_ComeToPayRespectsSon::
-    .string "Did you come to pay respects?\p"
-    .string "Bless your POKéMON-loving heart,\n"
-    .string "son.$"
+    .string "ﻫﻞ ﺟﺌﺖ ﻟﺘﻜﺮﻳﻢ ﺫﻛﺮﻫﺎ؟\p"
+    .string "ﺑﻮﺭﻙ ﻗﻠﺒﻚ ﻤﺤﺐ\n"
+    .string "ﻟﻠﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻳﺎ ﺑﻨﻲ.$"
 
 PokemonTower_1F_Text_ComeToPayRespectsGirl::
-    .string "Did you come to pay respects?\p"
-    .string "Bless your POKéMON-loving heart,\n"
-    .string "girl.$"
+    .string "ﻫﻞ ﺟﺌﺖ ﻟﺘﻜﺮﻳﻢ ﺫﻛﺮﻫﺎ؟\p"
+    .string "ﺑﻮﺭﻙ ﻗﻠﺒﻚ ﻤﺤﺐ\n"
+    .string "ﻟﻠﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻳﺎ ﺍﺑﻨﺘﻲ.$"
 
 PokemonTower_1F_Text_CameToPrayForDepartedClefairy::
-    .string "I came to pray for my dearly\n"
-    .string "departed CLEFAIRY.\p"
-    .string "Sniff!\n"
-    .string "I'm awash in tears…$"
+    .string "ﺟﺌﺖ ﻣﻦ ﺃﺟﻞ ﻛﻠﻴﻔﻴﺮﻱ ﻌﺰﻳﺰ\n"
+    .string "ﺮﺣﻞ.\p"
+    .string "ﺷﻬﻴﻖ! ﺩﻣﻮﻋﻲ ﻻ ﺗﺘﻮﻗﻒ…$"
 
 PokemonTower_1F_Text_GrowlitheWhyDidYouDie::
-    .string "My GROWLITHE…\n"
-    .string "Why did you die?$"
+    .string "ﻏﺮﻭﻻﻳﺚ ﺤﺒﻴﺐ… ﻟﻤﺎﺫ ﺭﺣﻠﺖ؟$"
 
 PokemonTower_1F_Text_SenseSpiritsUpToMischief::
-    .string "I am a CHANNELER.\p"
-    .string "There are spirits up to mischief.\n"
-    .string "I sense them high in the TOWER.$"
+    .string "ﺃﻧﺎ ﻧﺎﺳﻜﺔ.\p"
+    .string "ﻫﻨﺎﻙ ﺃﺭﻭﺡ ﻋﺎﺑﺜﺔ… ﺃﺷﻌﺮ ﺑﻬﺎ\n"
+    .string "ﻓﻲ ﺃﻋﻠﻰ ﺒﺮﺝ.$"
 

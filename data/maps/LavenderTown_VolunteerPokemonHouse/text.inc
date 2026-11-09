@@ -1,67 +1,71 @@
 LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere::
-    .string "I recently moved to this town.\p"
-    .string "I hear that MR. FUJI's not from\n"
-    .string "these parts originally, either.$"
+    .string "ﺍﻧﺘﻘﻠﺖ ﺇﻟﻰ ﻫﺬﻩ ﺒﻠﺪﺓ ﻣﺆﺧﺮ.\p"
+    .string "ﻭﺳﻤﻌﺖ ﺃﻥ ﺴﻴﺪ ﻓﻮﺟﻲ ﻟﻴﺲ ﻣﻦ\n"
+    .string "ﺃﻫﻠﻬﺎ ﻓﻲ ﺍﻷﺻﻞ ﺃﻳﻀﺎ.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_WhereDidMrFujiGo::
-    .string "That's odd, MR. FUJI isn't here.\n"
-    .string "Where'd he go?$"
+    .string "ﻏﺮﻳﺐ، ﺴﻴﺪ ﻓﻮﺟﻲ ﻟﻴﺲ ﻫﻨﺎ.\n"
+    .string "ﺃﻳﻦ ﺫﻫﺐ؟$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MrFujiWasPrayingForCubonesMother::
-    .string "MR. FUJI had been praying alone\n"
-    .string "for CUBONE's mother.$"
+    .string "ﻛﺎﻥ ﺴﻴﺪ ﻓﻮﺟﻲ ﻳﻘﻒ ﻭﺣﻴﺪ\n"
+    .string "ﺣﺰﻳﻨﺎ ﻣﻦ ﺃﺟﻞ ﺃﻡ ﻛﻴﻮﺑﻮﻥ.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons::
-    .string "This is really MR. FUJI's house.\p"
-    .string "He's really kind.\p"
-    .string "He looks after abandoned and\n"
-    .string "orphaned POKéMON.$"
+    .string "ﻫﺬ ﻓﻲ ﺤﻘﻴﻘﺔ ﺑﻴﺖ ﺴﻴﺪ\n"
+    .string "ﻓﻮﺟﻲ.\p"
+    .string "ﺇﻧﻪ ﻃﻴﺐ ﺟﺪ.\p"
+    .string "ﻳﺮﻋﻰ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻤﻬﺠﻮﺭﺓ\n"
+    .string "ﻭﻟﻴﺘﻴﻤﺔ.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug::
-    .string "It's so warm!\n"
-    .string "POKéMON are so nice to hug.$"
+    .string "ﻳﺎ ﻟﻠﺪﻑﺀ! ﻣﺎ ﺃﻟﻄﻒ ﺍﺣﺘﻀﺎﻥ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_Nidorino::
-    .string "NIDORINO: Gaoo!$"
+    .string "ﻧﻴﺪﻭﺭﻳﻨﻮ: ﻏﺎﻭﻭ!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_Psyduck::
-    .string "PSYDUCK: Gwappa!$"
+    .string "ﺳﺎﻳﺪﻙ: ﻏﻮﺑﺎ!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_IdLikeYouToHaveThis::
-    .string "MR. FUJI: {PLAYER}…\p"
-    .string "Your POKéDEX quest is one that\n"
-    .string "requires strong dedication.\p"
-    .string "Without deep love for POKéMON,\n"
-    .string "your quest may fail.\p"
-    .string "I'm not sure if this will help you,\n"
-    .string "but I'd like you to have it.$"
+    .string "ﺴﻴﺪ ﻓﻮﺟﻲ: {PLAYER}…\p"
+    .string "ﻣﻬﻤﺘﻚ ﻓﻲ ﻣﻞﺀ ﺒﻮﻛﻴﺪﻳﻜﺲ\n"
+    .string "ﺗﺘﻄﻠﺐ ﺇﺧﻼﺻﺎ ﻛﺒﻴﺮ.\p"
+    .string "ﻭﻣﻦ ﺩﻭﻥ ﺣﺐ ﻋﻤﻴﻖ\n"
+    .string "ﻟﻠﺒﻮﻛﻴﻤﻮﻧﺎﺕ، ﻗﺪ {GENDER_M}ﺗﻔﺸﻞ{GENDER_F}ﺗﻔﺸﻠﻴﻦ{GENDER_E}\p"
+    .string "ﻓﻴﻬﺎ.\p"
+    .string "ﻻ ﺃﺩﺭﻱ ﺇﻥ ﻛﺎﻥ ﻫﺬ ﺳﻴﺴﺎﻋﺪﻙ،\n"
+    .string "ﻟﻜﻨﻨﻲ ﺃﺭﻳﺪﻙ ﺃﻥ {GENDER_M}ﺗﺄﺧﺬﻩ{GENDER_F}ﺗﺄﺧﺬﻳﻪ{GENDER_E}.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_ReceivedPokeFluteFromMrFuji::
-    .string "{PLAYER} received a POKé FLUTE\n"
-    .string "from MR. FUJI.$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻧﺎﻱ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻣﻦ ﺴﻴﺪ ﻓﻮﺟﻲ.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_ExplainPokeFlute::
-    .string "Upon hearing the POKé FLUTE,\n"
-    .string "sleeping POKéMON will spring awake.\p"
-    .string "Try using it on POKéMON that are\n"
-    .string "sleeping obstacles.$"
+    .string "ﺣﻴﻦ ﺗﺴﻤﻊ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻨﺎﺋﻤﺔ\n"
+    .string "ﻧﺎﻱ ﺒﻮﻛﻴﻤﻮﻥ، ﺗﺴﺘﻴﻘﻆ ﻓﻮﺭ.\p"
+    .string "{GENDER_M}ﺟﺮﺑﻪ{GENDER_F}ﺟﺮﺑﻴﻪ{GENDER_E} ﻋﻠﻰ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﻨﺎﺋﻤﺔ ﺘﻲ ﺗﺴﺪ ﻄﺮﻳﻖ.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_MustMakeRoomForThis::
-    .string "You must make room for this!$"
+    .string "ﻋﻠﻴﻚ ﺃﻥ {GENDER_M}ﺗﻔﺴﺢ{GENDER_F}ﺗﻔﺴﺤﻲ{GENDER_E} ﻣﻜﺎﻧﺎ ﻟﻬﺬ!$"
 
 LavenderTown_VolunteerPokemonHouse_Text_HasPokeFluteHelpedYou::
-    .string "MR. FUJI: Has my POKé FLUTE\n"
-    .string "helped you?$"
+    .string "ﺴﻴﺪ ﻓﻮﺟﻲ: ﻫﻞ ﺳﺎﻋﺪﻙ ﻧﺎﻱ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ؟$"
 
 LavenderTown_VolunteerPokemonHouse_Text_GrandPrizeDrawingClipped::
-    .string "POKéMON FAN MAGAZINE\n"
-    .string "Monthly Grand Prize Drawing!\p"
-    .string "The application form is…\p"
-    .string "Gone! It's been clipped out.\n"
-    .string "Someone must have applied already.$"
+    .string "ﻣﺠﻠﺔ ﻣﺤﺒﻲ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﺴﺤﺐ ﺸﻬﺮﻱ ﻋﻠﻰ ﺠﺎﺋﺰﺓ\p"
+    .string "ﻜﺒﺮﻯ!\p"
+    .string "ﺍﺳﺘﻤﺎﺭﺓ ﻤﺸﺎﺭﻛﺔ…\p"
+    .string "ﻏﻴﺮ ﻣﻮﺟﻮﺩﺓ! ﻟﻘﺪ ﻗﺼﺖ. ﻻ ﺑﺪ ﺃﻥ\n"
+    .string "ﺃﺣﺪ ﺷﺎﺭﻙ ﺑﺎﻟﻔﻌﻞ.$"
 
 LavenderTown_VolunteerPokemonHouse_Text_PokemonMagazinesLineShelf::
-    .string "POKéMON magazines line the shelf.\p"
-    .string "POKéMON INSIDER…\p"
-    .string "POKéMON FAN…$"
+    .string "ﻣﺠﻼﺕ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻣﺼﻔﻮﻓﺔ ﻋﻠﻰ\n"
+    .string "ﺮﻑ.\p"
+    .string "ﺃﺳﺮﺭ ﺒﻮﻛﻴﻤﻮﻥ…\p"
+    .string "ﻣﺤﺒﻮ ﺒﻮﻛﻴﻤﻮﻥ…$"
 

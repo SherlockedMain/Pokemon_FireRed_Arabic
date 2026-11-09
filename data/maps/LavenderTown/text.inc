@@ -1,40 +1,40 @@
 LavenderTown_Text_DoYouBelieveInGhosts::
-    .string "Do you believe in ghosts?$"
+    .string "ﻫﻞ {GENDER_M}ﺗﺆﻣﻦ{GENDER_F}ﺗﺆﻣﻨﻴﻦ{GENDER_E} ﺑﺎﻷﺷﺒﺎﺡ؟$"
 
 LavenderTown_Text_SoThereAreBelievers::
-    .string "Really?\n"
-    .string "So there are believers…$"
+    .string "ﺣﻘﺎ؟ ﺇﺫﻥ ﻫﻨﺎﻙ ﻣﻦ ﻳﺼﺪﻕ…$"
 
 LavenderTown_Text_JustImaginingWhiteHand::
-    .string "Hahaha, I guess not.\p"
-    .string "That white hand on your shoulder…\n"
-    .string "I'm just imagining it.$"
+    .string "ﻫﺎﻫﺎﻫﺎ، ﻻ ﺃﻇﻦ ﺫﻟﻚ.\p"
+    .string "ﺗﻠﻚ ﻴﺪ ﺒﻴﻀﺎﺀ ﻋﻠﻰ ﻛﺘﻔﻚ… ﻻ\n"
+    .string "ﺑﺪ ﺃﻧﻨﻲ ﺃﺗﺨﻴﻠﻬﺎ.$"
 
 LavenderTown_Text_TownKnownAsMonGraveSite::
-    .string "This town is known as the grave\n"
-    .string "site of POKéMON.\p"
-    .string "Memorial services are held in\n"
-    .string "POKéMON TOWER.$"
+    .string "ﺗﻌﺮﻑ ﻫﺬﻩ ﺒﻠﺪﺓ ﺑﺄﻧﻬﺎ ﻣﻘﺒﺮﺓ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.\p"
+    .string "ﻭﺗﻘﺎﻡ ﻣﺮﺳﻢ ﺘﺄﺑﻴﻦ ﻓﻲ ﺑﺮﺝ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ.$"
 
 LavenderTown_Text_GhostsAppearedInTower::
-    .string "Ghosts appeared in POKéMON TOWER.\p"
-    .string "I think they're the spirits of\n"
-    .string "POKéMON that the ROCKETS killed.$"
+    .string "ﻇﻬﺮﺕ ﺃﺷﺒﺎﺡ ﻓﻲ ﺑﺮﺝ ﺒﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﺃﻇﻨﻬﺎ ﺃﺭﻭﺡ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺘﻲ\n"
+    .string "ﻗﺘﻠﺘﻬﺎ ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ.$"
 
 LavenderTown_Text_TownSign::
-    .string "LAVENDER TOWN\n"
-    .string "The Noble Purple Town$"
+    .string "ﺑﻠﺪﺓ ﻻﻓﻨﺪﺭ\n"
+    .string "ﺒﻠﺪﺓ ﺒﻨﻔﺴﺠﻴﺔ ﻨﺒﻴﻠﺔ$"
 
 LavenderTown_Text_SilphScopeNotice::
-    .string "New SILPH SCOPE!\n"
-    .string "Make the Invisible Plain to See!\p"
-    .string "SILPH CO.$"
+    .string "ﻣﻨﻈﺎﺭ ﺳﻴﻠﻒ ﺠﺪﻳﺪ! ﻳﺠﻌﻞ ﺨﻔﻲ\n"
+    .string "ﻇﺎﻫﺮ ﻟﻠﻌﻴﺎﻥ!\p"
+    .string "ﺷﺮﻛﺔ ﺳﻴﻠﻒ$"
 
 LavenderTown_Text_VolunteerPokemonHouse::
-    .string "LAVENDER VOLUNTEER\n"
-    .string "POKéMON HOUSE$"
+    .string "ﺩﺭ ﻻﻓﻨﺪﺭ ﺘﻄﻮﻋﻴﺔ\n"
+    .string "ﻟﻠﺒﻮﻛﻴﻤﻮﻧﺎﺕ$"
 
 LavenderTown_Text_PokemonTowerSign::
-    .string "POKéMON TOWER\n"
-    .string "Becalm the Spirits of POKéMON$"
+    .string "ﺑﺮﺝ ﺒﻮﻛﻴﻤﻮﻥ\n"
+    .string "ﻟﺘﺴﻜﻦ ﺃﺭﻭﺡ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻓﻲ\p"
+    .string "ﺳﻼﻡ$"
 

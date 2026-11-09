@@ -1,113 +1,106 @@
 Route11_Text_HugoIntro::
-    .string "Win, lose, or draw!$"
+    .string "ﻓﻮﺯ، ﺧﺴﺎﺭﺓ، ﺃﻭ ﺗﻌﺎﺩﻝ!$"
 
 Route11_Text_HugoDefeat::
-    .string "Atcha!\n"
-    .string "Didn't go my way!$"
+    .string "ﺁﺗﺸﺎ! ﻟﻢ ﺗﺠﺮ ﺍﻷﻣﻮﺭ ﻛﻤﺎ ﺃﺭﺩﺕ!$"
 
 Route11_Text_HugoPostBattle::
-    .string "POKéMON is life!\n"
-    .string "And to live is to play games!$"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻫﻲ ﺤﻴﺎﺓ! ﻭﻟﺤﻴﺎﺓ\n"
+    .string "ﻟﻌﺐ!$"
 
 Route11_Text_JasperIntro::
-    .string "Competition!\n"
-    .string "I can't get enough!$"
+    .string "ﻤﻨﺎﻓﺴﺔ! ﻻ ﺃﺷﺒﻊ ﻣﻨﻬﺎ ﺃﺑﺪ!$"
 
 Route11_Text_JasperDefeat::
-    .string "I had a chance!$"
+    .string "ﻛﺎﻧﺖ ﻟﺪﻱ ﻓﺮﺻﺔ!$"
 
 Route11_Text_JasperPostBattle::
-    .string "You can't be a coward in the world\n"
-    .string "of POKéMON!$"
+    .string "ﻻ ﻣﻜﺎﻥ ﻟﻠﺠﺒﻨﺎﺀ ﻓﻲ ﻋﺎﻟﻢ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ!$"
 
 Route11_Text_EddieIntro::
-    .string "Let's go, but don't cheat!$"
+    .string "ﻫﻴﺎ ﺑﻨﺎ، ﻟﻜﻦ ﺑﻼ ﻏﺶ!$"
 
 Route11_Text_EddieDefeat::
-    .string "Huh?\n"
-    .string "That's not right!$"
+    .string "ﻫﺎﻩ؟ ﻫﺬ ﻟﻴﺲ ﺻﺤﻴﺤﺎ!$"
 
 Route11_Text_EddiePostBattle::
-    .string "I did my best.\n"
-    .string "I have no regrets.$"
+    .string "ﺑﺬﻟﺖ ﻗﺼﺎﺭﻯ ﺟﻬﺪﻱ، ﻭﻻ ﺃﻧﺪﻡ\n"
+    .string "ﻋﻠﻰ ﺷﻲﺀ.$"
 
 Route11_Text_BraxtonIntro::
-    .string "Careful!\n"
-    .string "I'm laying down some cables!$"
+    .string "{GENDER_M}ﺍﺣﺬﺭ!{GENDER_F}ﺍﺣﺬﺭﻱ!{GENDER_E} ﺃﻧﺎ ﺃﻣﺪ ﺑﻌﺾ ﻜﺎﺑﻼﺕ!$"
 
 Route11_Text_BraxtonDefeat::
-    .string "That was electric!$"
+    .string "ﻛﺎﻥ ﺫﻟﻚ ﻣﻜﻬﺮﺑﺎ!$"
 
 Route11_Text_BraxtonPostBattle::
-    .string "Spread the word to save energy!$"
+    .string "{GENDER_M}ﺍﻧﺸﺮ{GENDER_F}ﺍﻧﺸﺮﻱ{GENDER_E} ﺪﻋﻮﺓ ﻟﺘﻮﻓﻴﺮ ﻄﺎﻗﺔ!$"
 
 Route11_Text_DillonIntro::
-    .string "I just became a TRAINER.\n"
-    .string "But, I think I can win.$"
+    .string "ﺻﺮﺕ ﻣﺪﺭﺑﺎ ﻟﻠﺘﻮ، ﻟﻜﻨﻨﻲ\n"
+    .string "ﺃﻇﻨﻨﻲ ﺳﺄﻓﻮﺯ.$"
 
 Route11_Text_DillonDefeat::
-    .string "My POKéMON couldn't win…\n"
-    .string "Haven't they grown enough?$"
+    .string "ﻟﻢ ﺗﺴﺘﻄﻊ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ ﻔﻮﺯ…\n"
+    .string "ﺃﻟﻢ ﺗﻜﺒﺮ ﺑﻤﺎ ﻳﻜﻔﻲ؟$"
 
 Route11_Text_DillonPostBattle::
-    .string "What now?\n"
-    .string "Leave me alone!$"
+    .string "ﻣﺎﺫ ﺍﻵﻥ؟ {GENDER_M}ﺩﻋﻨﻲ{GENDER_F}ﺩﻋﻴﻨﻲ{GENDER_E} ﻭﺷﺄﻧﻲ!$"
 
 Route11_Text_DirkIntro::
-    .string "Fwahaha!\n"
-    .string "I have never lost!$"
+    .string "ﻓﻮﻫﺎﻫﺎ! ﻟﻢ ﺃﺧﺴﺮ ﻗﻂ!$"
 
 Route11_Text_DirkDefeat::
-    .string "My first loss!$"
+    .string "ﺃﻭﻝ ﺧﺴﺎﺭﺓ ﻟﻲ!$"
 
 Route11_Text_DirkPostBattle::
-    .string "You were just lucky, that's all.$"
+    .string "ﻛﻨﺖ {GENDER_M}ﻣﺤﻈﻮﻇﺎ{GENDER_F}ﻣﺤﻈﻮﻇﺔ{GENDER_E} ﻓﺤﺴﺐ، ﻫﺬ ﻛﻞ\n"
+    .string "ﺷﻲﺀ.$"
 
 Route11_Text_DarianIntro::
-    .string "I have never won before…$"
+    .string "ﻟﻢ ﺃﻓﺰ ﻗﻂ ﻣﻦ ﻗﺒﻞ…$"
 
 Route11_Text_DarianDefeat::
-    .string "I saw this coming…$"
+    .string "ﻛﻨﺖ ﺃﺗﻮﻗﻊ ﻫﺬ…$"
 
 Route11_Text_DarianPostBattle::
-    .string "I was unlucky, as always.$"
+    .string "ﻟﻢ ﻳﺤﺎﻟﻔﻨﻲ ﺤﻆ، ﻛﺎﻟﻌﺎﺩﺓ.$"
 
 Route11_Text_YasuIntro::
-    .string "I'm the best in my class.\n"
-    .string "I train every morning.$"
+    .string "ﺃﻧﺎ ﺍﻷﻓﻀﻞ ﻓﻲ ﺻﻔﻲ، ﻭﺗﺪﺭﺏ ﻛﻞ\n"
+    .string "ﺻﺒﺎﺡ.$"
 
 Route11_Text_YasuDefeat::
-    .string "Darn!\n"
-    .string "My POKéMON need to be stronger!$"
+    .string "ﺗﺒﺎ! ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ ﺗﺤﺘﺎﺝ ﺇﻟﻰ\n"
+    .string "ﺃﻥ ﺗﺼﺒﺢ ﺃﻗﻮﻯ!$"
 
 Route11_Text_YasuPostBattle::
-    .string "There's a fat POKéMON that comes\n"
-    .string "down from the mountains.\p"
-    .string "I bet it'd be strong if you can\n"
-    .string "catch it.$"
+    .string "ﻫﻨﺎﻙ ﺑﻮﻛﻴﻤﻮﻥ ﺳﻤﻴﻦ ﻳﻨﺰﻝ ﻣﻦ\n"
+    .string "ﺠﺒﺎﻝ.\p"
+    .string "ﺃﺭﻫﻦ ﺃﻧﻪ ﻗﻮﻱ ﺟﺪ ﺇﻥ {GENDER_M}ﺍﺳﺘﻄﻌﺖ{GENDER_F}ﺍﺳﺘﻄﻌﺖ{GENDER_E}\n"
+    .string "ﺇﻣﺴﺎﻛﻪ.$"
 
 Route11_Text_BernieIntro::
-    .string "Watch out for live wires!$"
+    .string "{GENDER_M}ﺍﺣﺬﺭ{GENDER_F}ﺍﺣﺬﺭﻱ{GENDER_E} ﺍﻷﺳﻼﻙ ﻤﻜﻬﺮﺑﺔ!$"
 
 Route11_Text_BernieDefeat::
-    .string "Whoa!\n"
-    .string "You spark plug!$"
+    .string "ﻭﻭ! ﻳﺎ ﻟﻚ ﻣﻦ ﺷﺮﺭﺓ!$"
 
 Route11_Text_BerniePostBattle::
-    .string "Well, better get back to work.$"
+    .string "ﺣﺴﻨﺎ، ﻋﻠﻲ ﺃﻥ ﺃﻋﻮﺩ ﺇﻟﻰ ﻌﻤﻞ.$"
 
 Route11_Text_DaveIntro::
-    .string "I raised my POKéMON carefully.\n"
-    .string "They should be ready by now!$"
+    .string "ﺭﺑﻴﺖ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ ﺑﻌﻨﺎﻳﺔ، ﻻ\n"
+    .string "ﺑﺪ ﺃﻧﻬﺎ ﺟﺎﻫﺰﺓ ﺍﻵﻥ!$"
 
 Route11_Text_DaveDefeat::
-    .string "Bye-bye!\n"
-    .string "Thank you, and good-bye!$"
+    .string "ﻭﺩﻋﺎ! ﺷﻜﺮ ﻟﻚ، ﻭﻭﺩﻋﺎ!$"
 
 Route11_Text_DavePostBattle::
-    .string "Tch…\n"
-    .string "I better go find stronger ones!$"
+    .string "ﺗﺶ… ﻋﻠﻲ ﺃﻥ ﺃﺟﺪ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﺃﻗﻮﻯ!$"
 
 Route11_Text_DiglettsCave::
-    .string "DIGLETT'S CAVE$"
+    .string "ﻛﻬﻒ ﺩﻳﻐﻠﻴﺖ$"
 

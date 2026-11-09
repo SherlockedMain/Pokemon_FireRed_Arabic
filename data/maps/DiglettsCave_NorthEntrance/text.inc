@@ -1,6 +1,6 @@
 DiglettsCave_NorthEntrance_RockTunnelPitchBlack::
-    .string "I went inside ROCK TUNNEL, but it's\n"
-    .string "pitch-black and scary in there.\p"
-    .string "If I could get a POKéMON to use\n"
-    .string "FLASH and light it up…$"
+    .string "ﺩﺧﻠﺖ ﻨﻔﻖ ﺼﺨﺮﻱ، ﻟﻜﻨﻪ ﺣﺎﻟﻚ\n"
+    .string "ﻈﻠﻤﺔ ﻭﻣﺨﻴﻒ.\p"
+    .string "ﻟﻮ ﻛﺎﻥ ﻣﻌﻲ ﺑﻮﻛﻴﻤﻮﻥ ﻳﺴﺘﺨﺪﻡ\n"
+    .string "ﻮﻣﻴﺾ ﻟﻴﻨﻴﺮﻩ…$"
 

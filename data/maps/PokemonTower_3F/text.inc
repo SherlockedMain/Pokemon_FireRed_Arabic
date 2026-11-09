@@ -1,36 +1,29 @@
 PokemonTower_3F_Text_HopeIntro::
-    .string "Urrg… Awaa…\n"
-    .string "Huhu… Graa…$"
+    .string "ﺁﺭﻍ… ﺃﻭ… ﻫﻮﻫﻮ… ﻏﺮ…$"
 
 PokemonTower_3F_Text_HopeDefeat::
-    .string "Hwa!\n"
-    .string "I'm saved!$"
+    .string "ﻫﻮ! ﻟﻘﺪ ﻧﺠﻮﺕ!$"
 
 PokemonTower_3F_Text_HopePostBattle::
-    .string "The ghosts can be identified by\n"
-    .string "the SILPH SCOPE.$"
+    .string "ﻳﻤﻜﻦ ﻛﺸﻒ ﻫﻮﻳﺔ ﺍﻷﺷﺒﺎﺡ\n"
+    .string "ﺑﻤﻨﻈﺎﺭ ﺳﻴﻠﻒ.$"
 
 PokemonTower_3F_Text_CarlyIntro::
-    .string "Kekeke…\n"
-    .string "Kwaaah!$"
+    .string "ﻛﻴﻜﻴﻜﻲ… ﻛﻮﻩ!$"
 
 PokemonTower_3F_Text_CarlyDefeat::
-    .string "Hmm?\n"
-    .string "What am I doing?$"
+    .string "ﻫﻤﻤﻢ؟ ﻣﺎﺫ ﺃﻓﻌﻞ؟$"
 
 PokemonTower_3F_Text_CarlyPostBattle::
-    .string "Sorry!\n"
-    .string "I was possessed!$"
+    .string "ﺁﺳﻔﺔ! ﻟﻢ ﺃﻛﻦ ﻓﻲ ﻭﻋﻴﻲ!$"
 
 PokemonTower_3F_Text_PatriciaIntro::
-    .string "Be gone!\n"
-    .string "Malevolent spirit!$"
+    .string "ﺍﺭﺣﻞ! ﺃﻳﻬﺎ ﺸﺒﺢ ﺸﺮﻳﺮ!$"
 
 PokemonTower_3F_Text_PatriciaDefeat::
-    .string "Whew!\n"
-    .string "The spirit left!$"
+    .string "ﻓﻴﻮ! ﺭﺣﻞ ﺸﺒﺢ!$"
 
 PokemonTower_3F_Text_PatriciaPostBattle::
-    .string "The others above…\n"
-    .string "They must have been possessed.$"
+    .string "ﺬﻳﻦ ﻓﻲ ﺍﻷﻋﻠﻰ… ﻻ ﺑﺪ ﺃﻧﻬﻢ ﻟﻢ\n"
+    .string "ﻳﻜﻮﻧﻮ ﻓﻲ ﻭﻋﻴﻬﻢ.$"
 

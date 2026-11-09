@@ -1,50 +1,46 @@
 PokemonTower_7F_Text_Grunt1Intro::
-    .string "What do you want?\n"
-    .string "Why are you here?$"
+    .string "ﻣﺎﺫ {GENDER_M}ﺗﺮﻳﺪ؟{GENDER_F}ﺗﺮﻳﺪﻳﻦ؟{GENDER_E} ﻟﻤﺎﺫ ﺃﻧﺖ ﻫﻨﺎ؟$"
 
 PokemonTower_7F_Text_Grunt1Defeat::
-    .string "I give up!$"
+    .string "ﺃﺳﺘﺴﻠﻢ!$"
 
 PokemonTower_7F_Text_Grunt1PostBattle::
-    .string "I'm not going to forget this!$"
+    .string "ﻟﻦ ﺃﻧﺴﻰ ﻫﺬ!$"
 
 PokemonTower_7F_Text_Grunt2Intro::
-    .string "This old guy marched right up to\n"
-    .string "our HIDEOUT.\p"
-    .string "Then, he starts ranting about how\n"
-    .string "TEAM ROCKET's abusing POKéMON.\p"
-    .string "So, we're just talking it over as\n"
-    .string "adults.$"
+    .string "ﻫﺬ ﻌﺠﻮﺯ ﺟﺎﺀ ﺇﻟﻰ ﻣﺨﺒﺌﻨﺎ\n"
+    .string "ﻣﺒﺎﺷﺮﺓ.\p"
+    .string "ﺛﻢ ﺃﺧﺬ ﻳﺼﺮﺥ ﺑﺄﻥ ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ\n"
+    .string "ﺗﺴﻲﺀ ﻣﻌﺎﻣﻠﺔ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.\p"
+    .string "ﻓﻨﺤﻦ ﻧﺘﻨﺎﻗﺶ ﻣﻌﻪ ﺍﻵﻥ\n"
+    .string "ﻛﺎﻟﻜﺒﺎﺭ.$"
 
 PokemonTower_7F_Text_Grunt2Defeat::
-    .string "Please!\n"
-    .string "No more!$"
+    .string "ﺃﺭﺟﻮﻙ! ﻛﻔﻰ!$"
 
 PokemonTower_7F_Text_Grunt2PostBattle::
-    .string "POKéMON are only good for making\n"
-    .string "money. Why not use them?\p"
-    .string "You stay out of our business!$"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻻ ﺗﺼﻠﺢ ﺇﻻ ﻟﺠﻨﻲ\n"
+    .string "ﻤﺎﻝ. ﻓﻠﻤﺎﺫ ﻻ ﻧﺴﺘﻐﻠﻬﺎ؟\p"
+    .string "{GENDER_M}ﺍﺑﻖ{GENDER_F}ﺍﺑﻘﻲ{GENDER_E} ﺑﻌﻴﺪ ﻋﻦ ﺷﺆﻭﻧﻨﺎ!$"
 
 PokemonTower_7F_Text_Grunt3Intro::
-    .string "You're not saving anyone, kid!$"
+    .string "ﻟﻦ {GENDER_M}ﺗﻨﻘﺬ{GENDER_F}ﺗﻨﻘﺬﻱ{GENDER_E} ﺃﺣﺪ {GENDER_M}ﻳﺎ ﺻﻐﻴﺮ!{GENDER_F}ﻳﺎ ﺻﻐﻴﺮﺓ!{GENDER_E}$"
 
 PokemonTower_7F_Text_Grunt3Defeat::
-    .string "Don't fight us ROCKETS!$"
+    .string "ﻻ {GENDER_M}ﺗﻘﺎﺗﻞ{GENDER_F}ﺗﻘﺎﺗﻠﻲ{GENDER_E} ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ!$"
 
 PokemonTower_7F_Text_Grunt3PostBattle::
-    .string "You're not getting away with this!$"
+    .string "ﻟﻦ {GENDER_M}ﺗﻔﻠﺖ{GENDER_F}ﺗﻔﻠﺘﻲ{GENDER_E} ﺑﻔﻌﻠﺘﻚ ﻫﺬﻩ!$"
 
 PokemonTower_7F_Text_MrFujiThankYouFollowMe::
-    .string "MR. FUJI: Heh?\n"
-    .string "You came to save me?\p"
-    .string "Thank you. But, I came here of my\n"
-    .string "own free will.\p"
-    .string "I came to calm the spirit of\n"
-    .string "CUBONE's mother.\p"
-    .string "I think MAROWAK's spirit has\n"
-    .string "finally left us.\p"
-    .string "I must thank you for your kind\n"
-    .string "concern.\p"
-    .string "Follow me to my home, POKéMON\n"
-    .string "HOUSE, at the foot of this tower.$"
+    .string "ﺴﻴﺪ ﻓﻮﺟﻲ: ﻫﻪ؟ {GENDER_M}ﺟﺌﺖ{GENDER_F}ﺟﺌﺖ{GENDER_E} ﻹﻧﻘﺎﺫﻱ؟\p"
+    .string "ﺷﻜﺮ ﻟﻚ. ﻟﻜﻨﻨﻲ ﺟﺌﺖ ﺇﻟﻰ ﻫﻨﺎ\n"
+    .string "ﺑﺈﺭﺩﺗﻲ.\p"
+    .string "ﺟﺌﺖ ﻷﻫﺪﺉ ﺭﻭﺡ ﺃﻡ ﻛﻴﻮﺑﻮﻥ.\p"
+    .string "ﺃﻇﻦ ﺃﻥ ﺭﻭﺡ ﻣﺎﺭﻭﻙ ﻗﺪ ﺭﺣﻠﺖ\n"
+    .string "ﺃﺧﻴﺮ.\p"
+    .string "ﺃﺷﻜﺮﻙ ﻋﻠﻰ ﺍﻫﺘﻤﺎﻣﻚ ﻄﻴﺐ.\p"
+    .string "{GENDER_M}ﺍﺗﺒﻌﻨﻲ{GENDER_F}ﺍﺗﺒﻌﻴﻨﻲ{GENDER_E} ﺇﻟﻰ ﺑﻴﺘﻲ، ﺩﺭ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ، ﻋﻨﺪ ﺳﻔﺢ ﻫﺬ\p"
+    .string "ﺒﺮﺝ.$"
 

@@ -4,18 +4,17 @@ Route11_EastEntrance_1F_Text_BagIsFull::
     .string "いっぱい　みたい　だね$"
 
 Route11_EastEntrance_1F_Text_ManInLavenderRatesNames::
-    .string "Don't you think it's hard to think\n"
-    .string "up good names for POKéMON?\p"
-    .string "Especially if you've caught a\n"
-    .string "whole bunch?\p"
-    .string "In LAVENDER TOWN, there's a man\n"
-    .string "who rates POKéMON nicknames.\p"
-    .string "He can even help you rename your\n"
-    .string "POKéMON, too.$"
+    .string "ﺃﻻ {GENDER_M}ﺗﺮﻯ{GENDER_F}ﺗﺮﻳﻦ{GENDER_E} ﺃﻥ ﺍﺧﺘﻴﺎﺭ ﺃﺳﻤﺎﺀ ﺟﻴﺪﺓ\n"
+    .string "ﻟﻠﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺻﻌﺐ؟\p"
+    .string "ﺧﺎﺻﺔ ﺇﻥ {GENDER_M}ﺃﻣﺴﻜﺖ{GENDER_F}ﺃﻣﺴﻜﺖ{GENDER_E} ﻜﺜﻴﺮ ﻣﻨﻬﺎ؟\p"
+    .string "ﻓﻲ ﺑﻠﺪﺓ ﻻﻓﻨﺪﺭ ﺭﺟﻞ ﻳﻘﻴﻢ\n"
+    .string "ﺃﻟﻘﺎﺏ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.\p"
+    .string "ﻭﻳﺴﺘﻄﻴﻊ ﺃﻳﻀﺎ ﺃﻥ ﻳﺴﺎﻋﺪﻙ ﻋﻠﻰ\n"
+    .string "ﺗﻐﻴﻴﺮ ﺃﺳﻤﺎﺋﻬﺎ.$"
 
 Route11_EastEntrance_1F_Text_RockTunnelToReachLavender::
-    .string "If you're aiming to reach LAVENDER\n"
-    .string "TOWN, take ROCK TUNNEL.\p"
-    .string "You can get to ROCK TUNNEL from\n"
-    .string "CERULEAN CITY.$"
+    .string "ﺇﻥ ﻛﺎﻧﺖ ﻭﺟﻬﺘﻚ ﺑﻠﺪﺓ ﻻﻓﻨﺪﺭ،\n"
+    .string "{GENDER_M}ﻓﺎﺳﻠﻚ{GENDER_F}ﻓﺎﺳﻠﻜﻲ{GENDER_E} ﻧﻔﻖ ﺼﺨﻮﺭ.\p"
+    .string "ﻭﻳﻤﻜﻨﻚ ﻮﺻﻮﻝ ﺇﻟﻰ ﻧﻔﻖ ﺼﺨﻮﺭ\n"
+    .string "ﻣﻦ ﻣﺪﻳﻨﺔ ﺳﻴﺮﻭﻟﻴﻦ.$"
 

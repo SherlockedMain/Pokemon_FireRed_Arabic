@@ -1,83 +1,80 @@
 RockTunnel_1F_Text_LennyIntro::
-    .string "This tunnel goes a long way, kid!$"
+    .string "ﻫﺬ ﻨﻔﻖ ﻃﻮﻳﻞ ﺟﺪ {GENDER_M}ﻳﺎ ﺻﻐﻴﺮ!{GENDER_F}ﻳﺎ ﺻﻐﻴﺮﺓ!{GENDER_E}$"
 
 RockTunnel_1F_Text_LennyDefeat::
-    .string "Doh!\n"
-    .string "You win!$"
+    .string "ﺃﻭﻩ! ﻟﻘﺪ ﻓﺰﺕ!$"
 
 RockTunnel_1F_Text_LennyPostBattle::
-    .string "Watch for ONIX.\n"
-    .string "They appear only occasionally.\p"
-    .string "High-level ones can put the\n"
-    .string "squeeze on you!$"
+    .string "{GENDER_M}ﺍﺣﺬﺭ{GENDER_F}ﺍﺣﺬﺭﻱ{GENDER_E} ﺃﻭﻧﻴﻜﺲ، ﻓﻬﻮ ﻻ ﻳﻈﻬﺮ ﺇﻻ\n"
+    .string "ﺃﺣﻴﺎﻧﺎ.\p"
+    .string "ﻭﻟﻘﻮﻱ ﻣﻨﻪ ﻗﺪ ﻳﻌﺘﺼﺮﻙ\n"
+    .string "ﺍﻋﺘﺼﺎﺭ!$"
 
 RockTunnel_1F_Text_OliverIntro::
-    .string "Hmm.\n"
-    .string "Maybe I'm lost in here…$"
+    .string "ﻫﻤﻢ. ﺭﺑﻤﺎ ﺃﻧﺎ ﺗﺎﺋﻪ ﻫﻨﺎ…$"
 
 RockTunnel_1F_Text_OliverDefeat::
-    .string "Ease up!\n"
-    .string "What am I doing?\l"
-    .string "Which way is out?$"
+    .string "ﻋﻠﻰ ﻣﻬﻠﻚ! ﻣﺎﺫ ﺃﻓﻌﻞ؟ ﺃﻳﻦ\n"
+    .string "ﻤﺨﺮﺝ؟$"
 
 RockTunnel_1F_Text_OliverPostBattle::
-    .string "That sleeping POKéMON on ROUTE 12\n"
-    .string "forced me to take this detour.$"
+    .string "ﺫﻟﻚ ﺒﻮﻛﻴﻤﻮﻥ ﻨﺎﺋﻢ ﻋﻠﻰ\n"
+    .string "ﻄﺮﻳﻖ 12 ﺃﺟﺒﺮﻧﻲ ﻋﻠﻰ ﻫﺬﻩ\p"
+    .string "ﻄﺮﻳﻖ ﻄﻮﻳﻠﺔ.$"
 
 RockTunnel_1F_Text_LucasIntro::
-    .string "Outsiders like you need to show me\n"
-    .string "some respect!$"
+    .string "ﻐﺮﺑﺎﺀ ﺃﻣﺜﺎﻟﻚ ﻋﻠﻴﻬﻢ ﺃﻥ\n"
+    .string "ﻳﺤﺘﺮﻣﻮﻧﻲ!$"
 
 RockTunnel_1F_Text_LucasDefeat::
-    .string "I give!$"
+    .string "ﺃﺳﺘﺴﻠﻢ!$"
 
 RockTunnel_1F_Text_LucasPostBattle::
-    .string "You're talented enough to hike!$"
+    .string "ﺃﻧﺖ {GENDER_M}ﻣﻮﻫﻮﺏ{GENDER_F}ﻣﻮﻫﻮﺑﺔ{GENDER_E} ﺑﻤﺎ ﻳﻜﻔﻲ ﻟﺘﺴﻠﻖ\n"
+    .string "ﺠﺒﺎﻝ!$"
 
 RockTunnel_1F_Text_AshtonIntro::
-    .string "POKéMON fight!\n"
-    .string "Ready, go!$"
+    .string "ﻧﺰﻝ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ! ﺍﺳﺘﻌﺪ،\n"
+    .string "ﺍﻧﻄﻠﻖ!$"
 
 RockTunnel_1F_Text_AshtonDefeat::
-    .string "Game over!$"
+    .string "ﺍﻧﺘﻬﺖ ﻠﻌﺒﺔ!$"
 
 RockTunnel_1F_Text_AshtonPostBattle::
-    .string "Oh well, I'll get a ZUBAT as I go!$"
+    .string "ﻻ ﺑﺄﺱ، ﺳﺄﻣﺴﻚ ﺯﻭﺑﺎﺕ ﻓﻲ\n"
+    .string "ﻃﺮﻳﻘﻲ!$"
 
 RockTunnel_1F_Text_LeahIntro::
-    .string "Eek!\p"
-    .string "Don't try anything funny in the\n"
-    .string "dark!$"
+    .string "ﺁﻩ!\p"
+    .string "ﻻ {GENDER_M}ﺗﺤﺎﻭﻝ{GENDER_F}ﺗﺤﺎﻭﻟﻲ{GENDER_E} ﺃﻱ ﺣﻴﻠﺔ ﻓﻲ ﻈﻼﻡ!$"
 
 RockTunnel_1F_Text_LeahDefeat::
-    .string "It was too dark…$"
+    .string "ﻛﺎﻥ ﻤﻜﺎﻥ ﻣﻈﻠﻤﺎ ﺟﺪ…$"
 
 RockTunnel_1F_Text_LeahPostBattle::
-    .string "I saw a MACHOP in this tunnel.$"
+    .string "ﺭﻳﺖ ﻣﺎﺗﺸﻮﺏ ﻓﻲ ﻫﺬ ﻨﻔﻖ.$"
 
 RockTunnel_1F_Text_DanaIntro::
-    .string "I came this far looking for wild\n"
-    .string "POKéMON.$"
+    .string "ﺟﺌﺖ ﻛﻞ ﻫﺬﻩ ﻤﺴﺎﻓﺔ ﺑﺤﺜﺎ ﻋﻦ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺒﺮﻳﺔ.$"
 
 RockTunnel_1F_Text_DanaDefeat::
-    .string "I'm out of POKéMON!$"
+    .string "ﻧﻔﺪﺕ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ!$"
 
 RockTunnel_1F_Text_DanaPostBattle::
-    .string "You looked cute and harmless.\n"
-    .string "Was I ever wrong!$"
+    .string "ﺑﺪﻭﺕ {GENDER_M}ﻟﻄﻴﻔﺎ ﻭﻣﺴﺎﻟﻤﺎ{GENDER_F}ﻟﻄﻴﻔﺔ ﻭﻣﺴﺎﻟﻤﺔ{GENDER_E}. ﻛﻢ ﻛﻨﺖ\n"
+    .string "ﻣﺨﻄﺌﺔ!$"
 
 RockTunnel_1F_Text_ArianaIntro::
-    .string "You have POKéMON!\n"
-    .string "Let's start!$"
+    .string "ﻣﻌﻚ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ! ﻟﻨﺒﺪ!$"
 
 RockTunnel_1F_Text_ArianaDefeat::
-    .string "You play hard!$"
+    .string "ﺃﻧﺖ {GENDER_M}ﻻﻋﺐ ﺷﺮﺱ!{GENDER_F}ﻻﻋﺒﺔ ﺷﺮﺳﺔ!{GENDER_E}$"
 
 RockTunnel_1F_Text_ArianaPostBattle::
-    .string "Whew!\n"
-    .string "I'm all sweaty now.$"
+    .string "ﻓﻴﻮ! ﺃﻧﺎ ﻏﺎﺭﻗﺔ ﻓﻲ ﻌﺮﻕ ﺍﻵﻥ.$"
 
 RockTunnel_1F_Text_RouteSign::
-    .string "ROCK TUNNEL\n"
-    .string "CERULEAN CITY - LAVENDER TOWN$"
+    .string "ﻧﻔﻖ ﺼﺨﻮﺭ\n"
+    .string "ﻣﺪﻳﻨﺔ ﺳﻴﺮﻭﻟﻴﻦ - ﺑﻠﺪﺓ ﻻﻓﻨﺪﺭ$"
 
