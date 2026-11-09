@@ -1,34 +1,35 @@
 VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish::
-    .string "I'm the FISHING GURU!\p"
-    .string "I simply looove fishing!\n"
-    .string "I can't bear to go without.\p"
-    .string "Tell me, do you like to fish?$"
+    .string "ﺃﻧﺎ ﺧﺒﻴﺮ ﺼﻴﺪ!\p"
+    .string "ﺃﻧﺎ ﺃﻋﺸﺸﺸﻖ ﺼﻴﺪ! ﻻ ﺃﻃﻴﻖ\n"
+    .string "ﻌﻴﺶ ﺩﻭﻧﻪ.\p"
+    .string "{GENDER_M}ﺃﺧﺒﺮﻧﻲ{GENDER_F}ﺃﺧﺒﺮﻳﻨﻲ{GENDER_E}، ﻫﻞ {GENDER_M}ﺗﺤﺐ{GENDER_F}ﺗﺤﺒﻴﻦ{GENDER_E} ﺼﻴﺪ؟$"
 
 VermilionCity_House1_Text_TakeThisAndFish::
-    .string "Grand! I like your style.\n"
-    .string "I think we can be friends.\p"
-    .string "Take this and fish, young friend!$"
+    .string "ﺭﺋﻊ! ﻳﻌﺠﺒﻨﻲ ﺃﺳﻠﻮﺑﻚ، ﺃﻇﻨﻨﺎ\n"
+    .string "ﺳﻨﺼﺒﺢ ﺃﺻﺪﻗﺎﺀ.\p"
+    .string "{GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻫﺬﻩ {GENDER_M}ﻭﺻﻄﺪ{GENDER_F}ﻭﺻﻄﺎﺩﻱ{GENDER_E} ﻳﺎ {GENDER_M}ﺻﺪﻳﻘﻲ{GENDER_F}ﺻﺪﻳﻘﺘﻲ{GENDER_E}\n"
+    .string "ﺼﻐﻴﺮ{GENDER_M}{GENDER_F}ﺓ{GENDER_E}!$"
 
 VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru::
-    .string "{PLAYER} received an OLD ROD from\n"
-    .string "the FISHING GURU.$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﺻﻨﺎﺭﺓ ﻗﺪﻳﻤﺔ\n"
+    .string "ﻣﻦ ﺧﺒﻴﺮ ﺼﻴﺪ.$"
 
 VermilionCity_House1_Text_FishingIsAWayOfLife::
-    .string "Fishing is a way of life!\n"
-    .string "It is like the finest poetry.\p"
-    .string "From the seas to rivers, go out\n"
-    .string "and land the big one, my friend.$"
+    .string "ﺼﻴﺪ ﺃﺳﻠﻮﺏ ﺣﻴﺎﺓ! ﺇﻧﻪ ﻛﺄﺟﻤﻞ\n"
+    .string "ﺸﻌﺮ.\p"
+    .string "ﻣﻦ ﺒﺤﺎﺭ ﺇﻟﻰ ﺍﻷﻧﻬﺎﺭ، {GENDER_M}ﺍﻧﻄﻠﻖ{GENDER_F}ﺍﻧﻄﻠﻘﻲ{GENDER_E}\n"
+    .string "{GENDER_M}ﻭﺻﻄﺪ{GENDER_F}ﻭﺻﻄﺎﺩﻱ{GENDER_E} ﺴﻤﻜﺔ ﻜﺒﺮﻯ ﻳﺎ\p"
+    .string "{GENDER_M}ﺻﺪﻳﻘﻲ!{GENDER_F}ﺻﺪﻳﻘﺘﻲ!{GENDER_E}$"
 
 VermilionCity_House1_Text_OhThatsSoDisappointing::
-    .string "Oh…\n"
-    .string "That's so disappointing…$"
+    .string "ﺃﻭﻩ… ﻫﺬ ﻣﺨﻴﺐ ﻟﻶﻣﺎﻝ ﺟﺪ…$"
 
 VermilionCity_House1_Text_HowAreTheFishBiting::
-    .string "Hello there, {PLAYER}!\p"
-    .string "How are the fish biting?$"
+    .string "ﻣﺮﺣﺒﺎ ﻳﺎ {PLAYER}!\p"
+    .string "ﻛﻴﻒ ﺣﺎﻝ ﺼﻴﺪ؟$"
 
 VermilionCity_House1_Text_NoRoomForNiceGift::
-    .string "Oh, no!\p"
-    .string "I had a nice gift for you, but you\n"
-    .string "have no room for it!$"
+    .string "ﺃﻭﻩ، ﻻ!\p"
+    .string "ﻛﺎﻧﺖ ﻟﺪﻱ ﻫﺪﻳﺔ ﺟﻤﻴﻠﺔ ﻟﻚ، ﻟﻜﻦ\n"
+    .string "ﻟﻴﺲ ﻣﻌﻚ ﻣﻜﺎﻥ ﻟﻬﺎ!$"
 

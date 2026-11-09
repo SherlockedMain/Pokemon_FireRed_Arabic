@@ -1,131 +1,137 @@
 VermilionCity_Text_GrimerMultipliesInSludge::
-    .string "We're careful about pollution here.\p"
-    .string "We've heard GRIMER multiplies in\n"
-    .string "toxic sludge.$"
+    .string "ﻧﺤﻦ ﺣﺮﻳﺼﻮﻥ ﻫﻨﺎ ﻋﻠﻰ ﻣﻜﺎﻓﺤﺔ\n"
+    .string "ﺘﻠﻮﺙ.\p"
+    .string "ﻓﻘﺪ ﺳﻤﻌﻨﺎ ﺃﻥ ﻏﺮﻳﻤﺮ ﻳﺘﻜﺎﺛﺮ\n"
+    .string "ﻓﻲ ﺤﻤﺄﺓ ﺴﺎﻣﺔ.$"
 
 VermilionCity_Text_DidYouSeeSSAnneInHarbor::
-    .string "Did you see the S.S. ANNE moored\n"
-    .string "in the harbor?$"
+    .string "ﻫﻞ ﺭﻳﺖ ﺑﺎﺧﺮﺓ ﺇﺱ ﺇﺱ ﺁﻥ ﺭﺳﻴﺔ\n"
+    .string "ﻓﻲ ﻤﻴﻨﺎﺀ؟$"
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
-    .string "So, the S.S. ANNE has departed?\p"
-    .string "She'll be back in VERMILION about\n"
-    .string "this time next year.$"
+    .string "ﺇﺫﻥ، ﺭﺣﻠﺖ ﺑﺎﺧﺮﺓ ﺇﺱ ﺇﺱ ﺁﻥ؟\p"
+    .string "ﺳﺘﻌﻮﺩ ﺇﻟﻰ ﻓﻴﺮﻣﻴﻠﻴﻮﻥ ﻓﻲ ﻣﺜﻞ\n"
+    .string "ﻫﺬ ﻮﻗﺖ ﻣﻦ ﻌﺎﻡ ﻘﺎﺩﻡ.$"
 
 VermilionCity_Text_BuildingOnThisLand::
-    .string "I'm putting up a building on this\n"
-    .string "plot of land. I own it all.\p"
-    .string "My POKéMON is tamping the land\n"
-    .string "to lay the foundation.$"
+    .string "ﺃﻧﺎ ﺃﺑﻨﻲ ﻣﺒﻨﻰ ﻋﻠﻰ ﻫﺬﻩ ﺍﻷﺭﺽ،\n"
+    .string "ﻓﻬﻲ ﻣﻠﻜﻲ ﻛﻠﻬﺎ.\p"
+    .string "ﻭﺑﻮﻛﻴﻤﻮﻧﻲ ﻳﺪﻙ ﺍﻷﺭﺽ ﻟﻴﻀﻊ\n"
+    .string "ﺍﻷﺳﺎﺱ.$"
 
 VermilionCity_Text_Machop::
-    .string "MACHOP: Guoh! Gogogoh!$"
+    .string "ﻣﺎﺗﺸﻮﺏ: ﻏﻮﻭﻩ! ﻏﻮﻏﻮﻏﻮﻩ!$"
 
 VermilionCity_Text_MachopStompingLandFlat::
-    .string "A MACHOP is stomping the land flat.$"
+    .string "ﻳﺪﻙ ﻣﺎﺗﺸﻮﺏ ﺍﻷﺭﺽ ﻟﻴﺴﻮﻳﻬﺎ.$"
 
 VermilionCity_Text_SSAnneVisitsOnceAYear::
-    .string "The S.S. ANNE is a famous luxury\n"
-    .string "cruise ship.\p"
-    .string "It visits VERMILION once a year.$"
+    .string "ﺑﺎﺧﺮﺓ ﺇﺱ ﺇﺱ ﺁﻥ ﺑﺎﺧﺮﺓ ﺳﻴﺎﺣﻴﺔ\n"
+    .string "ﻓﺎﺧﺮﺓ ﻣﺸﻬﻮﺭﺓ.\p"
+    .string "ﺗﺮﺳﻮ ﻓﻲ ﻓﻴﺮﻣﻴﻠﻴﻮﻥ ﻣﺮﺓ ﻛﻞ\n"
+    .string "ﻋﺎﻡ.$"
 
 VermilionCity_Text_CitySign::
-    .string "VERMILION CITY\n"
-    .string "The Port of Exquisite Sunsets$"
+    .string "ﻣﺪﻳﻨﺔ ﻓﻴﺮﻣﻠﻴﻮﻥ\n"
+    .string "ﻣﻴﻨﺎﺀ ﻐﺮﻭﺏ ﺴﺎﺣﺮ$"
 
 VermilionCity_Text_SnorlaxBlockingRoute12::
-    .string "NOTICE!\p"
-    .string "ROUTE 12 may be blocked off by a\n"
-    .string "sleeping POKéMON.\p"
-    .string "Detour through ROCK TUNNEL to\n"
-    .string "LAVENDER TOWN.\p"
-    .string "VERMILION POLICE$"
+    .string "ﺗﻨﺒﻴﻪ!\p"
+    .string "ﻗﺪ ﻳﺴﺪ ﺑﻮﻛﻴﻤﻮﻥ ﻧﺎﺋﻢ ﻄﺮﻳﻖ\n"
+    .string "12.\p"
+    .string "ﺍﺳﻠﻜﻮ ﻧﻔﻖ ﺼﺨﻮﺭ ﺇﻟﻰ ﺑﻠﺪﺓ\n"
+    .string "ﻻﻓﻨﺪﺭ.\p"
+    .string "ﺷﺮﻃﺔ ﻓﻴﺮﻣﻴﻠﻴﻮﻥ$"
 
 VermilionCity_Text_PokemonFanClubSign::
-    .string "POKéMON FAN CLUB\n"
-    .string "All POKéMON fans welcome!$"
+    .string "ﻧﺎﺩﻱ ﻣﺤﺒﻲ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﺃﻫﻼ ﺑﻜﻞ ﻣﺤﺒﻲ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ!$"
 
 VermilionCity_Text_GymSign::
-    .string "VERMILION CITY POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\l"
-    .string "The Lightning American!$"
+    .string "ﺻﺎﻟﺔ ﺑﻮﻛﻴﻤﻮﻥ ﻣﺪﻳﻨﺔ\n"
+    .string "ﻓﻴﺮﻣﻠﻴﻮﻥ\p"
+    .string "ﻘﺎﺋﺪ: ﻤﻼﺯﻡ ﺳﻴﺮﺝ\p"
+    .string "ﺒﺮﻕ ﺍﻷﻣﺮﻳﻜﻲ!$"
 
 VermilionCity_Text_VermilionHarbor::
-    .string "VERMILION HARBOR$"
+    .string "ﻣﻴﻨﺎﺀ ﻓﻴﺮﻣﻴﻠﻴﻮﻥ$"
 
 VermilionCity_Text_WelcomeToTheSSAnne::
-    .string "Welcome to the S.S. ANNE!$"
+    .string "ﺃﻫﻼ ﺑﻚ ﻋﻠﻰ ﻣﺘﻦ ﺑﺎﺧﺮﺓ ﺇﺱ ﺇﺱ\n"
+    .string "ﺁﻥ!$"
 
 VermilionCity_Text_DoYouHaveATicket::
-    .string "Welcome to the S.S. ANNE!\p"
-    .string "Excuse me, do you have a ticket?$"
+    .string "ﺃﻫﻼ ﺑﻚ ﻋﻠﻰ ﻣﺘﻦ ﺑﺎﺧﺮﺓ ﺇﺱ ﺇﺱ\n"
+    .string "ﺁﻥ!\p"
+    .string "ﻋﻔﻮ، ﻫﻞ ﻣﻌﻚ ﺗﺬﻛﺮﺓ؟$"
 
 VermilionCity_Text_FlashedSSTicket::
-    .string "{FONT_NORMAL}{PLAYER} flashed the S.S. TICKET!\p"
-    .string "{FONT_MALE}Great!\n"
-    .string "Welcome to the S.S. ANNE!$"
+    .string "{FONT_NORMAL}{GENDER_M}ﺃﻇﻬﺮ{GENDER_F}ﺃﻇﻬﺮﺕ{GENDER_E} {PLAYER} ﺗﺬﻛﺮﺓ ﺑﺎﺧﺮﺓ!\p"
+    .string "{FONT_MALE}ﺭﺋﻊ! ﺃﻫﻼ ﺑﻚ ﻋﻠﻰ ﻣﺘﻦ ﺑﺎﺧﺮﺓ\n"
+    .string "ﺇﺱ ﺇﺱ ﺁﻥ!$"
 
 VermilionCity_Text_DontHaveNeededSSTicket::
-    .string "{FONT_NORMAL}{PLAYER} doesn't have the needed\n"
-    .string "S.S. TICKET.\p"
-    .string "{FONT_MALE}Sorry!\p"
-    .string "You need a ticket to get aboard.$"
+    .string "{FONT_NORMAL}ﻟﻴﺲ ﻣﻊ {PLAYER} ﺗﺬﻛﺮﺓ ﺑﺎﺧﺮﺓ.\p"
+    .string "{FONT_MALE}ﺁﺳﻒ!\p"
+    .string "ﺗﺤﺘﺎﺝ ﺇﻟﻰ ﺗﺬﻛﺮﺓ ﻟﺘﺼﻌﺪ ﺇﻟﻰ\n"
+    .string "ﺒﺎﺧﺮﺓ.$"
 
 VermilionCity_Text_TheShipSetSail::
-    .string "The ship set sail.$"
+    .string "ﺃﺑﺤﺮﺕ ﺒﺎﺧﺮﺓ.$"
 
 VermilionCity_Text_BoardSeagallopTriPass::
-    .string "Ah, you have a TRI-PASS.\p"
-    .string "Would you like to board\n"
-    .string "a SEAGALLOP ferry?$"
+    .string "ﺁﻩ، ﻣﻌﻚ ﺘﺼﺮﻳﺢ ﺜﻼﺛﻲ.\p"
+    .string "{GENDER_M}ﺃﺗﺮﻳﺪ{GENDER_F}ﺃﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺭﻛﻮﺏ ﻌﺒﺎﺭﺓ\n"
+    .string "ﺳﻴﻐﺎﻟﻮﺏ؟$"
 
 VermilionCity_Text_Seagallop7Departing::
-    .string "Okay, everything's in order.\p"
-    .string "SEAGALLOP HI-SPEED 7 will be\n"
-    .string "departing immediately.$"
+    .string "ﺣﺴﻨﺎ، ﻛﻞ ﺷﻲﺀ ﻋﻠﻰ ﻣﺎ ﻳﺮﻡ.\p"
+    .string "ﺳﺘﻨﻄﻠﻖ ﺳﻴﻐﺎﻟﻮﺏ ﺴﺮﻳﻌﺔ 7\n"
+    .string "ﻓﻮﺭ.$"
 
 VermilionCity_Text_BoardSeagallopRainbowPass::
-    .string "Ah, you have a RAINBOW PASS.\p"
-    .string "Would you like to board\n"
-    .string "a SEAGALLOP ferry?$"
+    .string "ﺁﻩ، ﻣﻌﻚ ﺗﺼﺮﻳﺢ ﺍﻷﻟﻮﻥ.\p"
+    .string "{GENDER_M}ﺃﺗﺮﻳﺪ{GENDER_F}ﺃﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺭﻛﻮﺏ ﻌﺒﺎﺭﺓ\n"
+    .string "ﺳﻴﻐﺎﻟﻮﺏ؟$"
 
 VermilionCity_Text_OhMysticTicketTakeYouToNavelRock::
-    .string "Oh! That's a MYSTICTICKET!\n"
-    .string "Now that is rare.\p"
-    .string "We'll be happy to take you to\n"
-    .string "NAVEL ROCK anytime.$"
+    .string "ﺃﻭﻩ! ﻫﺬﻩ ﺘﺬﻛﺮﺓ ﻐﺎﻣﻀﺔ! ﺇﻧﻬﺎ\n"
+    .string "ﻧﺎﺩﺭﺓ ﺣﻘﺎ.\p"
+    .string "ﻳﺴﻌﺪﻧﺎ ﺃﻥ ﻧﺄﺧﺬﻙ ﺇﻟﻰ ﺻﺨﺮﺓ\n"
+    .string "ﻧﺎﻓﻞ ﻣﺘﻰ ﺷﺌﺖ.$"
 
 VermilionCity_Text_OhAuroraTicketTakeYouToBirthIsland::
-    .string "Oh! That's an AURORATICKET!\n"
-    .string "Now that is rare.\p"
-    .string "We'll be happy to take you to\n"
-    .string "BIRTH ISLAND anytime.$"
+    .string "ﺃﻭﻩ! ﻫﺬﻩ ﺗﺬﻛﺮﺓ ﺸﻔﻖ! ﺇﻧﻬﺎ\n"
+    .string "ﻧﺎﺩﺭﺓ ﺣﻘﺎ.\p"
+    .string "ﻳﺴﻌﺪﻧﺎ ﺃﻥ ﻧﺄﺧﺬﻙ ﺇﻟﻰ ﺟﺰﻳﺮﺓ\n"
+    .string "ﻤﻴﻼﺩ ﻣﺘﻰ ﺷﺌﺖ.$"
 
 VermilionCity_Text_BoardSeagallopFerry::
-    .string "Would you like to board\n"
-    .string "a SEAGALLOP ferry?$"
+    .string "{GENDER_M}ﺃﺗﺮﻳﺪ{GENDER_F}ﺃﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺭﻛﻮﺏ ﻌﺒﺎﺭﺓ\n"
+    .string "ﺳﻴﻐﺎﻟﻮﺏ؟$"
 
 VermilionCity_Text_Seagallop10Departing::
-    .string "Okay, everything's in order for you\n"
-    .string "to board a special ferry.\p"
-    .string "SEAGALLOP HI-SPEED 10 will be\n"
-    .string "departing immediately.$"
+    .string "ﺣﺴﻨﺎ، ﻛﻞ ﺷﻲﺀ ﺟﺎﻫﺰ ﻟﺘﺮﻛﺐ\n"
+    .string "ﻋﺒﺎﺭﺓ ﺧﺎﺻﺔ.\p"
+    .string "ﺳﺘﻨﻄﻠﻖ ﺳﻴﻐﺎﻟﻮﺏ ﺴﺮﻳﻌﺔ 10\n"
+    .string "ﻓﻮﺭ.$"
 
 VermilionCity_Text_Seagallop12Departing::
-    .string "Okay, everything's in order for you\n"
-    .string "to board a special ferry.\p"
-    .string "SEAGALLOP HI-SPEED 12 will be\n"
-    .string "departing immediately.$"
+    .string "ﺣﺴﻨﺎ، ﻛﻞ ﺷﻲﺀ ﺟﺎﻫﺰ ﻟﺘﺮﻛﺐ\n"
+    .string "ﻋﺒﺎﺭﺓ ﺧﺎﺻﺔ.\p"
+    .string "ﺳﺘﻨﻄﻠﻖ ﺳﻴﻐﺎﻟﻮﺏ ﺴﺮﻳﻌﺔ 12\n"
+    .string "ﻓﻮﺭ.$"
 
 VermilionCity_Text_Route2AideHasPackageForYou::
-    .string "Oh, hello, {PLAYER}!\n"
-    .string "How are you doing?\p"
-    .string "It's me, one of PROF. OAK's AIDES.\p"
-    .string "Did you meet the other AIDE?\p"
-    .string "He had a package from PROF. OAK\n"
-    .string "for you, {PLAYER}.\p"
-    .string "He said he'd look for you around\n"
-    .string "ROUTE 2, {PLAYER}.\p"
-    .string "If you're in the ROUTE 2 area,\n"
-    .string "please look for him.$"
+    .string "ﺃﻭﻩ، ﻣﺮﺣﺒﺎ ﻳﺎ {PLAYER}! ﻛﻴﻒ\n"
+    .string "ﺣﺎﻟﻚ؟\p"
+    .string "ﺃﻧﺎ ﺃﺣﺪ ﻣﺴﺎﻋﺪﻱ ﺒﺮﻭﻓﻴﺴﻮﺭ\n"
+    .string "ﺃﻭﻙ.\p"
+    .string "ﻫﻞ ﺘﻘﻴﺖ ﺑﺎﻟﻤﺴﺎﻋﺪ ﺍﻵﺧﺮ؟\p"
+    .string "ﻛﺎﻥ ﻣﻌﻪ ﻃﺮﺩ ﻟﻚ ﻣﻦ ﺒﺮﻭﻓﻴﺴﻮﺭ\n"
+    .string "ﺃﻭﻙ ﻳﺎ {PLAYER}.\p"
+    .string "ﻗﺎﻝ ﺇﻧﻪ ﺳﻴﺒﺤﺚ ﻋﻨﻚ ﻓﻲ ﺃﻧﺤﺎﺀ\n"
+    .string "ﻄﺮﻳﻖ 2.\p"
+    .string "ﺇﻥ ﻛﻨﺖ ﻗﺮﺏ ﻄﺮﻳﻖ 2، {GENDER_M}ﻓﺎﺑﺤﺚ{GENDER_F}ﻓﺎﺑﺤﺜﻲ{GENDER_E}\n"
+    .string "ﻋﻨﻪ ﻣﻦ ﻓﻀﻠﻚ.$"
 

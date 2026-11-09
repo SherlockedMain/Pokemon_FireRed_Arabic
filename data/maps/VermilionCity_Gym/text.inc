@@ -1,126 +1,123 @@
 VermilionCity_Gym_Text_LtSurgeIntro::
-    .string "Hey, kid! What do you think you're\n"
-    .string "doing here?\p"
-    .string "You won't live long in combat!\n"
-    .string "Not with your puny power!\p"
-    .string "I tell you, kid, electric POKéMON\n"
-    .string "saved me during the war!\p"
-    .string "They zapped my enemies into\n"
-    .string "paralysis!\p"
-    .string "The same as I'll do to you!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "ﺃﻧﺖ ﻳﺎ {GENDER_M}ﺻﻐﻴﺮ!{GENDER_F}ﺻﻐﻴﺮﺓ!{GENDER_E} ﻣﺎﺫ {GENDER_M}ﺗﻈﻦ{GENDER_F}ﺗﻈﻨﻴﻦ{GENDER_E} ﺃﻧﻚ\n"
+    .string "{GENDER_M}ﻓﺎﻋﻞ{GENDER_F}ﻓﺎﻋﻠﺔ{GENDER_E} ﻫﻨﺎ؟\p"
+    .string "ﻟﻦ {GENDER_M}ﺗﺼﻤﺪ{GENDER_F}ﺗﺼﻤﺪﻱ{GENDER_E} ﻃﻮﻳﻼ ﻓﻲ ﻘﺘﺎﻝ!\n"
+    .string "ﻟﻴﺲ ﺑﻘﻮﺗﻚ ﻀﺌﻴﻠﺔ ﻫﺬﻩ!\p"
+    .string "ﺍﺳﻤﻊ ﻳﺎ {GENDER_M}ﺻﻐﻴﺮ{GENDER_F}ﺻﻐﻴﺮﺓ{GENDER_E}، ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﻜﻬﺮﺑﻴﺔ ﺃﻧﻘﺬﺕ ﺣﻴﺎﺗﻲ ﻓﻲ\p"
+    .string "ﺤﺮﺏ!\p"
+    .string "ﺻﻌﻘﺖ ﺃﻋﺪﺋﻲ ﺣﺘﻰ ﺷﻠﺘﻬﻢ!\p"
+    .string "ﻭﻫﺬ ﻣﺎ ﺳﺄﻓﻌﻠﻪ ﺑﻚ!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 VermilionCity_Gym_Text_LtSurgePostBattle::
-    .string "A little word of advice, kid!\p"
-    .string "Electricity is sure powerful!\p"
-    .string "But, it's useless against GROUND-\n"
-    .string "type POKéMON!$"
+    .string "ﻧﺼﻴﺤﺔ ﺻﻐﻴﺮﺓ ﻳﺎ {GENDER_M}ﺻﻐﻴﺮ!{GENDER_F}ﺻﻐﻴﺮﺓ!{GENDER_E}\p"
+    .string "ﻜﻬﺮﺑﺎﺀ ﻗﻮﻳﺔ ﺟﺪ!\p"
+    .string "ﻟﻜﻨﻬﺎ ﻻ ﺗﻨﻔﻊ ﺃﺑﺪ ﺿﺪ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺍﻷﺭﺿﻴﺔ!$"
 
 VermilionCity_Gym_Text_ExplainThunderBadgeTakeThis::
-    .string "The THUNDERBADGE cranks up your\n"
-    .string "POKéMON's SPEED!\p"
-    .string "It also lets your POKéMON FLY\n"
-    .string "lightning-quick anytime, kid!\p"
-    .string "You're special, kid!\n"
-    .string "Take this!$"
+    .string "ﻭﺳﺎﻡ ﺮﻋﺪ ﻳﺮﻓﻊ ﺳﺮﻋﺔ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ!\p"
+    .string "ﻛﻤﺎ ﻳﺘﻴﺢ ﻟﺒﻮﻛﻴﻤﻮﻧﺎﺗﻚ\n"
+    .string "ﺘﺤﻠﻴﻖ ﺑﺴﺮﻋﺔ ﺒﺮﻕ ﻓﻲ ﺃﻱ\p"
+    .string "ﻭﻗﺖ ﻳﺎ {GENDER_M}ﺻﻐﻴﺮ!{GENDER_F}ﺻﻐﻴﺮﺓ!{GENDER_E}\p"
+    .string "ﺃﻧﺖ {GENDER_M}ﻣﻤﻴﺰ{GENDER_F}ﻣﻤﻴﺰﺓ{GENDER_E} ﻳﺎ {GENDER_M}ﺻﻐﻴﺮ!{GENDER_F}ﺻﻐﻴﺮﺓ!{GENDER_E} {GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻫﺬ!$"
 
 VermilionCity_Gym_Text_ReceivedTM34FromLtSurge::
-    .string "{PLAYER} received TM34\n"
-    .string "from LT. SURGE.$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻘﺮﺹ ﺘﻘﻨﻲ\n"
+    .string "34 ﻣﻦ ﻤﻼﺯﻡ ﺳﻴﺮﺝ.$"
 
 VermilionCity_Gym_Text_ExplainTM34::
-    .string "TM34 contains SHOCK WAVE!\p"
-    .string "Teach it to an ELECTRIC POKéMON!$"
+    .string "ﻓﻲ ﻘﺮﺹ ﺘﻘﻨﻲ 34 ﺣﺮﻛﺔ ﻣﻮﺟﺔ\n"
+    .string "ﺻﺪﻣﺔ!\p"
+    .string "{GENDER_M}ﻋﻠﻤﻬﺎ{GENDER_F}ﻋﻠﻤﻴﻬﺎ{GENDER_E} ﻟﺒﻮﻛﻴﻤﻮﻥ ﻛﻬﺮﺑﻲ!$"
 
 VermilionCity_Gym_Text_MakeRoomInYourBag::
-    .string "Yo, kid, make room in your BAG!$"
+    .string "ﺃﻧﺖ {GENDER_M}ﻳﺎ ﺻﻐﻴﺮ{GENDER_F}ﻳﺎ ﺻﻐﻴﺮﺓ{GENDER_E}، {GENDER_M}ﺃﻓﺴﺢ{GENDER_F}ﺃﻓﺴﺤﻲ{GENDER_E} ﻣﻜﺎﻧﺎ\n"
+    .string "ﻓﻲ ﺣﻘﻴﺒﺘﻚ!$"
 
 VermilionCity_Gym_Text_LtSurgeDefeat::
-    .string "Now that's a shocker!\p"
-    .string "You're the real deal, kid!\p"
-    .string "Fine, then, take the THUNDERBADGE!$"
+    .string "ﻳﺎ ﻟﻬﺎ ﻣﻦ ﺻﺪﻣﺔ!\p"
+    .string "ﺃﻧﺖ {GENDER_M}ﺑﻄﻞ ﺣﻘﻴﻘﻲ{GENDER_F}ﺑﻄﻠﺔ ﺣﻘﻴﻘﻴﺔ{GENDER_E} {GENDER_M}ﻳﺎ ﺻﻐﻴﺮ{GENDER_F}ﻳﺎ ﺻﻐﻴﺮﺓ{GENDER_E}!\p"
+    .string "ﺣﺴﻨﺎ ﺇﺫﻥ، {GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻭﺳﺎﻡ ﺮﻋﺪ!$"
 
 VermilionCity_Gym_Text_TuckerIntro::
-    .string "When I was in the Army, LT. SURGE\n"
-    .string "was my strict CO.\p"
-    .string "He was a hard taskmaster.$"
+    .string "ﺣﻴﻦ ﻛﻨﺖ ﻓﻲ ﺠﻴﺶ، ﻛﺎﻥ ﻤﻼﺯﻡ\n"
+    .string "ﺳﻴﺮﺝ ﻗﺎﺋﺪﻱ ﺼﺎﺭﻡ.\p"
+    .string "ﻛﺎﻥ ﺭﺋﻴﺴﺎ ﻻ ﻳﺮﺣﻢ.$"
 
 VermilionCity_Gym_Text_TuckerDefeat::
-    .string "Stop!\n"
-    .string "You're very good!$"
+    .string "{GENDER_M}ﺗﻮﻗﻒ!{GENDER_F}ﺗﻮﻗﻔﻲ!{GENDER_E} ﺃﻧﺖ {GENDER_M}ﺑﺎﺭﻉ{GENDER_F}ﺑﺎﺭﻋﺔ{GENDER_E} ﺟﺪ!$"
 
 VermilionCity_Gym_Text_TuckerPostBattle::
-    .string "It's not easy opening that door.\p"
-    .string "LT. SURGE was always famous for\n"
-    .string "his cautious nature in the Army.$"
+    .string "ﻟﻴﺲ ﻓﺘﺢ ﺫﻟﻚ ﺒﺎﺏ ﺑﺎﻷﻣﺮ\n"
+    .string "ﺴﻬﻞ.\p"
+    .string "ﻓﻘﺪ ﺍﺷﺘﻬﺮ ﻤﻼﺯﻡ ﺳﻴﺮﺝ ﻓﻲ\n"
+    .string "ﺠﻴﺶ ﺑﺤﺬﺭﻩ ﺸﺪﻳﺪ.$"
 
 VermilionCity_Gym_Text_BailyIntro::
-    .string "I'm a lightweight, but I'm good\n"
-    .string "with electricity!\p"
-    .string "That's why I joined this GYM.$"
+    .string "ﺃﻧﺎ ﺧﻔﻴﻒ ﻮﺯﻥ، ﻟﻜﻨﻨﻲ ﺑﺎﺭﻉ\n"
+    .string "ﻓﻲ ﻜﻬﺮﺑﺎﺀ!\p"
+    .string "ﻟﻬﺬ ﺍﻧﻀﻤﻤﺖ ﺇﻟﻰ ﻫﺬﻩ ﺼﺎﻟﺔ.$"
 
 VermilionCity_Gym_Text_BailyDefeat::
-    .string "Fried!$"
+    .string "ﺍﺣﺘﺮﻗﺖ!$"
 
 VermilionCity_Gym_Text_BailyPostBattle::
-    .string "Okay, I'll talk!\p"
-    .string "LT. SURGE said he hid door\n"
-    .string "switches inside something.$"
+    .string "ﺣﺴﻨﺎ، ﺳﺄﺗﻜﻠﻢ!\p"
+    .string "ﻗﺎﻝ ﻤﻼﺯﻡ ﺳﻴﺮﺝ ﺇﻧﻪ ﺃﺧﻔﻰ\n"
+    .string "ﻣﻔﺎﺗﻴﺢ ﺒﺎﺏ ﺩﺧﻞ ﺷﻲﺀ ﻣﺎ.$"
 
 VermilionCity_Gym_Text_DwayneIntro::
-    .string "This is no place for kids!\n"
-    .string "Not even if you're good!$"
+    .string "ﻫﺬ ﻟﻴﺲ ﻣﻜﺎﻧﺎ ﻟﻠﺼﻐﺎﺭ! ﺣﺘﻰ\n"
+    .string "ﻟﻮ {GENDER_M}ﻛﻨﺖ ﺑﺎﺭﻋﺎ!{GENDER_F}ﻛﻨﺖ ﺑﺎﺭﻋﺔ!{GENDER_E}$"
 
 VermilionCity_Gym_Text_DwayneDefeat::
-    .string "Wow!\n"
-    .string "Surprised me!$"
+    .string "ﻭﻭ! ﻓﺎﺟﺄﺗﻨﻲ!$"
 
 VermilionCity_Gym_Text_DwaynePostBattle::
-    .string "LT. SURGE installed the traps in\n"
-    .string "the GYM himself.\p"
-    .string "He set up double locks everywhere.\n"
-    .string "Let me give you a hint.\p"
-    .string "When you open the first lock, the\n"
-    .string "second lock is right next to it.$"
+    .string "ﻧﺼﺐ ﻤﻼﺯﻡ ﺳﻴﺮﺝ ﻔﺨﺎﺥ ﻓﻲ\n"
+    .string "ﺼﺎﻟﺔ ﺑﻨﻔﺴﻪ.\p"
+    .string "ﻭﻭﺿﻊ ﺃﻗﻔﺎﻻ ﻣﺰﺩﻭﺟﺔ ﻓﻲ ﻛﻞ\n"
+    .string "ﻣﻜﺎﻥ. ﺳﺄﻋﻄﻴﻚ ﺗﻠﻤﻴﺤﺎ.\p"
+    .string "ﺣﻴﻦ {GENDER_M}ﺗﻔﺘﺢ{GENDER_F}ﺗﻔﺘﺤﻴﻦ{GENDER_E} ﻘﻔﻞ ﺍﻷﻭﻝ، ﻳﻜﻮﻥ\n"
+    .string "ﺜﺎﻧﻲ ﺑﺠﺎﻧﺒﻪ ﺗﻤﺎﻣﺎ.$"
 
 VermilionCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "LT. SURGE has a nickname.\p"
-    .string "People refer to him as the\n"
-    .string "Lightning American!\p"
-    .string "He's an expert on electric\n"
-    .string "POKéMON.\p"
-    .string "BIRD/WATER-type POKéMON match\n"
-    .string "poorly against the ELECTRIC type.\p"
-    .string "Beware of paralysis, too.\p"
-    .string "LT. SURGE is very cautious.\p"
-    .string "He's locked himself in, so it won't\n"
-    .string "be easy getting to him.$"
+    .string "ﺃﻫﻼ ﻳﺎ {GENDER_M}ﺑﻄﻞ{GENDER_F}ﺑﻄﻠﺔ{GENDER_E} ﻤﺴﺘﻘﺒﻞ!\p"
+    .string "ﻟﻠﻤﻼﺯﻡ ﺳﻴﺮﺝ ﻟﻘﺐ.\p"
+    .string "ﻳﺴﻤﻴﻪ ﻨﺎﺱ ﺒﺮﻕ ﺍﻷﻣﺮﻳﻜﻲ!\p"
+    .string "ﺇﻧﻪ ﺧﺒﻴﺮ ﻓﻲ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﻜﻬﺮﺑﻴﺔ.\p"
+    .string "ﻭﻟﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻄﺎﺋﺮﺓ ﻭﻟﻤﺎﺋﻴﺔ\n"
+    .string "ﺿﻌﻴﻔﺔ ﺃﻣﺎﻡ ﻨﻮﻉ ﻜﻬﺮﺑﻲ.\p"
+    .string "{GENDER_M}ﻭﺣﺬﺭ{GENDER_F}ﻭﺣﺬﺭﻱ{GENDER_E} ﺸﻠﻞ ﺃﻳﻀﺎ.\p"
+    .string "ﻤﻼﺯﻡ ﺳﻴﺮﺝ ﺣﺬﺭ ﺟﺪ.\p"
+    .string "ﻟﻘﺪ ﺃﻗﻔﻞ ﻋﻠﻰ ﻧﻔﺴﻪ، ﻓﻠﻦ ﻳﻜﻮﻥ\n"
+    .string "ﻮﺻﻮﻝ ﺇﻟﻴﻪ ﺳﻬﻼ.$"
 
 VermilionCity_Gym_Text_GymGuyPostVictory::
-    .string "Whew!\n"
-    .string "That match was electric!$"
+    .string "ﻓﻴﻮ! ﻛﺎﻥ ﻧﺰﻻ ﻣﻜﻬﺮﺑﺎ!$"
 
 VermilionCity_Gym_Text_GymStatue::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
-    .string "WINNING TRAINERS:\n"
+    .string "ﺻﺎﻟﺔ ﺑﻮﻛﻴﻤﻮﻥ ﻓﻴﺮﻣﻴﻠﻴﻮﻥ\n"
+    .string "ﻘﺎﺋﺪ: ﻤﻼﺯﻡ ﺳﻴﺮﺝ\p"
+    .string "ﻤﺪﺭﺑﻮﻥ ﻔﺎﺋﺰﻭﻥ:\n"
     .string "{RIVAL}$"
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "VERMILION POKéMON GYM\n"
-    .string "LEADER: LT. SURGE\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "ﺻﺎﻟﺔ ﺑﻮﻛﻴﻤﻮﻥ ﻓﻴﺮﻣﻴﻠﻴﻮﻥ\n"
+    .string "ﻘﺎﺋﺪ: ﻤﻼﺯﻡ ﺳﻴﺮﺝ\p"
+    .string "ﻤﺪﺭﺑﻮﻥ ﻔﺎﺋﺰﻭﻥ:\n"
+    .string "{RIVAL}، {PLAYER}$"
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
-    .string "Nope!\n"
-    .string "There's only trash here.$"
+    .string "ﻻ! ﻻ ﺷﻲﺀ ﻫﻨﺎ ﺳﻮﻯ ﻘﻤﺎﻣﺔ.$"
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
-    .string "Hey! There's a switch under the\n"
-    .string "trash! Turn it on!\p"
-    .string "The first electric lock opened!$"
+    .string "ﻣﻬﻼ! ﻫﻨﺎﻙ ﻣﻔﺘﺎﺡ ﺗﺤﺖ ﻘﻤﺎﻣﺔ!\n"
+    .string "{GENDER_M}ﺷﻐﻠﻪ!{GENDER_F}ﺷﻐﻠﻴﻪ!{GENDER_E}\p"
+    .string "ﺍﻧﻔﺘﺢ ﻘﻔﻞ ﻜﻬﺮﺑﻲ ﺍﻷﻭﻝ!$"
 
 VermilionCity_Gym_Text_AnotherSwitchInTrash::
     .string "ガサゴソ‥！\n"
@@ -129,12 +126,11 @@ VermilionCity_Gym_Text_AnotherSwitchInTrash::
     .string "おして　みよう！　‥　ポチッとな$"
 
 VermilionCity_Gym_Text_SecondLockOpened::
-    .string "The second electric lock opened!\n"
-    .string "The motorized door opened!$"
+    .string "ﺍﻧﻔﺘﺢ ﻘﻔﻞ ﻜﻬﺮﺑﻲ ﺜﺎﻧﻲ!\n"
+    .string "ﻭﻧﻔﺘﺢ ﺒﺎﺏ ﺍﻵﻟﻲ!$"
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-    .string "Nope!\n"
-    .string "There's only trash here.\p"
-    .string "Hey!\n"
-    .string "The electric locks were reset!$"
+    .string "ﻻ! ﻻ ﺷﻲﺀ ﻫﻨﺎ ﺳﻮﻯ ﻘﻤﺎﻣﺔ.\p"
+    .string "ﻣﻬﻼ! ﻋﺎﺩﺕ ﺍﻷﻗﻔﺎﻝ ﻜﻬﺮﺑﻴﺔ\n"
+    .string "ﺇﻟﻰ ﻭﺿﻌﻬﺎ ﺍﻷﻭﻝ!$"
 

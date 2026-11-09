@@ -1,26 +1,21 @@
 Route6_NorthEntrance_Text_ThirstyOnGuardDuty::
-    .string "I'm on guard duty.\n"
-    .string "Gee, I'm thirsty, though!\p"
-    .string "Oh, wait there, the road's closed.$"
+    .string "ﺃﻧﺎ ﻓﻲ ﻧﻮﺑﺔ ﺣﺮﺳﺔ. ﻳﺎ ﺇﻟﻬﻲ،\n"
+    .string "ﻛﻢ ﺃﻧﺎ ﻋﻄﺸﺎﻥ!\p"
+    .string "ﺁﻩ، {GENDER_M}ﺍﻧﺘﻈﺮ{GENDER_F}ﺍﻧﺘﻈﺮﻱ{GENDER_E} ﻫﻨﺎﻙ، ﻄﺮﻳﻖ ﻣﻐﻠﻖ.$"
 
 Route6_NorthEntrance_Text_ThatTeaLooksTasty::
-    .string "Oh, that TEA…\n"
-    .string "It looks awfully tasty…$"
+    .string "ﺁﻩ، ﺫﻟﻚ ﺸﺎﻱ… ﻳﺒﺪﻭ ﻟﺬﻳﺬ ﺟﺪ…$"
 
 Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards::
-    .string "Huh? I can have this drink?\n"
-    .string "Gee, thanks!\l"
-    .string "… …\l"
-    .string "Glug, glug…\l"
-    .string "… …\l"
-    .string "Gulp…\l"
-    .string "If you want to go to SAFFRON\l"
-    .string "CITY…\l"
-    .string "… …\l"
-    .string "You can go on through.\p"
-    .string "I'll share this TEA with the other\n"
-    .string "guards!$"
+    .string "ﻣﺎﺫ؟ ﺃﻫﺬ ﺸﺮﺏ ﻟﻲ؟ ﻳﺎ\n"
+    .string "ﻟﻠﺮﻭﻋﺔ، ﺷﻜﺮ!\p"
+    .string "… … ﻏﻠﻎ، ﻏﻠﻎ… … … ﺁﻩ…\p"
+    .string "ﺇﻥ {GENDER_M}ﻛﻨﺖ ﺗﺮﻳﺪ{GENDER_F}ﻛﻨﺖ ﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺬﻫﺎﺏ ﺇﻟﻰ\n"
+    .string "ﻣﺪﻳﻨﺔ ﺳﺎﻓﺮﻭﻥ… … …\p"
+    .string "{GENDER_M}ﻓﺘﻔﻀﻞ{GENDER_F}ﻓﺘﻔﻀﻠﻲ{GENDER_E} ﺑﺎﻟﻤﺮﻭﺭ.\p"
+    .string "ﺳﺄﻗﺘﺴﻢ ﻫﺬ ﺸﺎﻱ ﻣﻊ ﺑﻘﻴﺔ\n"
+    .string "ﺤﺮﺱ!$"
 
 Route6_NorthEntrance_Text_HiHowsItGoing::
-    .string "Hi, how's it going?$"
+    .string "ﻣﺮﺣﺒﺎ، ﻛﻴﻒ ﺣﺎﻟﻚ؟$"
 

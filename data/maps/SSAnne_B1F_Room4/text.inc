@@ -1,23 +1,23 @@
 SSAnne_B1F_Room4_Text_LeonardIntro::
-    .string "You know what they say about\n"
-    .string "sailors and battling!$"
+    .string "ﺃﻧﺖ {GENDER_M}ﺗﻌﺮﻑ{GENDER_F}ﺗﻌﺮﻓﻴﻦ{GENDER_E} ﻣﺎ ﻳﻘﺎﻝ ﻋﻦ\n"
+    .string "ﺒﺤﺎﺭﺓ ﻭﻟﻨﺰﻻﺕ!$"
 
 SSAnne_B1F_Room4_Text_LeonardDefeat::
-    .string "Right!\n"
-    .string "Good battle, mate!$"
+    .string "ﺣﺴﻨﺎ! ﻧﺰﻝ ﺭﺋﻊ ﻳﺎ {GENDER_M}ﺭﻓﻴﻘﻲ!{GENDER_F}ﺭﻓﻴﻘﺘﻲ!{GENDER_E}$"
 
 SSAnne_B1F_Room4_Text_LeonardPostBattle::
-    .string "Hahaha!\n"
-    .string "Want to be a sailor, mate?$"
+    .string "ﻫﺎﻫﺎﻫﺎ!\n"
+    .string "{GENDER_M}ﺃﺗﺮﻳﺪ ﺃﻥ ﺗﺼﺒﺢ ﺑﺤﺎﺭ{GENDER_F}ﺃﺗﺮﻳﺪﻳﻦ ﺃﻥ ﺗﺼﺒﺤﻲ ﺑﺤﺎﺭﺓ{GENDER_E} ﻳﺎ\p"
+    .string "{GENDER_M}ﺭﻓﻴﻘﻲ؟{GENDER_F}ﺭﻓﻴﻘﺘﻲ؟{GENDER_E}$"
 
 SSAnne_B1F_Room4_Text_DuncanIntro::
-    .string "Come on, then!\n"
-    .string "My sailor's pride is at stake!$"
+    .string "ﻫﻴﺎ ﺇﺫﻥ! ﻛﺮﻣﺘﻲ ﻛﺒﺤﺎﺭ ﻋﻠﻰ\n"
+    .string "ﻤﺤﻚ!$"
 
 SSAnne_B1F_Room4_Text_DuncanDefeat::
-    .string "Your spirit sank me!$"
+    .string "ﻋﺰﻳﻤﺘﻚ ﺃﻏﺮﻗﺘﻨﻲ!$"
 
 SSAnne_B1F_Room4_Text_DuncanPostBattle::
-    .string "Did you see the FISHING GURU in\n"
-    .string "VERMILION CITY?$"
+    .string "ﻫﻞ ﺭﻳﺖ ﺧﺒﻴﺮ ﺼﻴﺪ ﻓﻲ ﻣﺪﻳﻨﺔ\n"
+    .string "ﻓﻴﺮﻣﻠﻴﻮﻥ؟$"
 

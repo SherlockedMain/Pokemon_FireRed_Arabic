@@ -1,11 +1,13 @@
 SSAnne_1F_Room7_Text_ThomasIntro::
-    .string "I am but a solitary traveler…\p"
-    .string "My sole companions and friends are\n"
-    .string "POKéMON I caught on my journeys…$"
+    .string "ﻣﺎ ﺃﻧﺎ ﺇﻻ ﻣﺴﺎﻓﺮ ﻭﺣﻴﺪ…\p"
+    .string "ﻻ ﺭﻓﺎﻕ ﻟﻲ ﻭﻻ ﺃﺻﺪﻗﺎﺀ… ﺳﻮﻯ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺘﻲ ﺃﻣﺴﻜﺘﻬﺎ ﻓﻲ\p"
+    .string "ﺭﺣﻼﺗﻲ…$"
 
 SSAnne_1F_Room7_Text_ThomasDefeat::
-    .string "My, my friends…$"
+    .string "ﻳﺎ… ﻳﺎ ﺃﺻﺪﻗﺎﺋﻲ…$"
 
 SSAnne_1F_Room7_Text_ThomasPostBattle::
-    .string "You should be nice to friends!$"
+    .string "ﻋﻠﻴﻚ ﺃﻥ {GENDER_M}ﺗﻜﻮﻥ ﻟﻄﻴﻔﺎ{GENDER_F}ﺗﻜﻮﻧﻲ ﻟﻄﻴﻔﺔ{GENDER_E} ﻣﻊ\n"
+    .string "ﺃﺻﺪﻗﺎﺋﻚ!$"
 

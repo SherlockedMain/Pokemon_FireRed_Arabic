@@ -1,35 +1,34 @@
 SSAnne_Deck_Text_ShipDepartingSoon::
-    .string "The party's over.\n"
-    .string "The ship will be departing soon.$"
+    .string "ﺍﻧﺘﻬﺖ ﺤﻔﻠﺔ، ﻭﺳﺘﺒﺤﺮ ﺒﺎﺧﺮﺓ\n"
+    .string "ﻗﺮﻳﺒﺎ.$"
 
 SSAnne_Deck_Text_ScrubbingDecksHardWork::
-    .string "Whew!\n"
-    .string "Scrubbing decks is hard work!$"
+    .string "ﻓﻴﻮ! ﺗﻨﻈﻴﻒ ﺴﻄﺢ ﻋﻤﻞ ﺷﺎﻕ!$"
 
 SSAnne_Deck_Text_FeelSeasick::
-    .string "Urf… I feel ill…\p"
-    .string "I got seasick, so I stepped out to\n"
-    .string "get some air…$"
+    .string "ﺃﻭﻑ… ﺃﺷﻌﺮ ﺑﺎﻟﺘﻌﺐ…\p"
+    .string "ﺃﺻﺎﺑﻨﻲ ﺩﻭﺭ ﺒﺤﺮ، ﻓﺨﺮﺟﺖ\n"
+    .string "ﺃﺳﺘﻨﺸﻖ ﺑﻌﺾ ﻬﻮﺀ…$"
 
 SSAnne_Deck_Text_EdmondIntro::
-    .string "Hey, matey!\p"
-    .string "Let's do a little jig!$"
+    .string "ﻣﺮﺣﻰ ﻳﺎ {GENDER_M}ﺭﻓﻴﻘﻲ!{GENDER_F}ﺭﻓﻴﻘﺘﻲ!{GENDER_E}\p"
+    .string "ﻟﻨﺮﻗﺺ ﺭﻗﺼﺔ ﺻﻐﻴﺮﺓ!$"
 
 SSAnne_Deck_Text_EdmondDefeat::
-    .string "You're impressive!$"
+    .string "ﺃﻧﺖ {GENDER_M}ﻣﺪﻫﺶ!{GENDER_F}ﻣﺪﻫﺸﺔ!{GENDER_E}$"
 
 SSAnne_Deck_Text_EdmondPostBattle::
-    .string "How many kinds of POKéMON do you\n"
-    .string "think there are in this big world?$"
+    .string "ﻛﻢ ﻧﻮﻋﺎ ﻣﻦ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "{GENDER_M}ﺗﻈﻦ{GENDER_F}ﺗﻈﻨﻴﻦ{GENDER_E} ﻓﻲ ﻫﺬ ﻌﺎﻟﻢ ﻮﺳﻊ؟$"
 
 SSAnne_Deck_Text_TrevorIntro::
-    .string "Ahoy, there!\n"
-    .string "Are you seasick?$"
+    .string "ﺃﻫﻮﻱ! ﻫﻞ {GENDER_M}ﺃﺻﺎﺑﻚ{GENDER_F}ﺃﺻﺎﺑﻚ{GENDER_E} ﺩﻭﺭ ﺒﺤﺮ؟$"
 
 SSAnne_Deck_Text_TrevorDefeat::
-    .string "I was just careless!$"
+    .string "ﻟﻘﺪ ﻛﻨﺖ ﻏﺎﻓﻼ ﻓﺤﺴﺐ!$"
 
 SSAnne_Deck_Text_TrevorPostBattle::
-    .string "My pa said there are 100 kinds of\n"
-    .string "POKéMON. I think there are more.$"
+    .string "ﻗﺎﻝ ﺃﺑﻲ ﺇﻥ ﻫﻨﺎﻙ 100 ﻧﻮﻉ ﻣﻦ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ، ﻟﻜﻨﻨﻲ ﺃﻇﻨﻬﺎ\p"
+    .string "ﺃﻛﺜﺮ.$"
 

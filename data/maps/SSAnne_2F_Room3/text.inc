@@ -1,12 +1,12 @@
 SSAnne_2F_Room3_Text_SeenMonsFerryPeople::
-    .string "Ah, yes, I have seen some POKéMON\n"
-    .string "ferry people across the water!$"
+    .string "ﺁﻩ، ﺃﺟﻞ، ﺭﻳﺖ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﺗﺤﻤﻞ\n"
+    .string "ﻨﺎﺱ ﻋﺒﺮ ﻤﺎﺀ!$"
 
 SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown::
-    .string "Small trees can be chopped down\n"
-    .string "using the move CUT.\p"
-    .string "But remember this!\n"
-    .string "CUT is an HM technique.\p"
-    .string "Once learned, it is not so easily\n"
-    .string "discarded.$"
+    .string "ﻳﻤﻜﻦ ﻗﻄﻊ ﺍﻷﺷﺠﺎﺭ ﺼﻐﻴﺮﺓ\n"
+    .string "ﺑﺤﺮﻛﺔ ﻘﻄﻊ.\p"
+    .string "ﻟﻜﻦ {GENDER_M}ﺗﺬﻛﺮ{GENDER_F}ﺗﺬﻛﺮﻱ{GENDER_E} ﻫﺬ! ﻘﻄﻊ ﻣﻦ ﺣﺮﻛﺎﺕ\n"
+    .string "ﺍﻷﻗﺮﺹ ﺨﺎﺻﺔ.\p"
+    .string "ﻭﻣﺘﻰ ﺗﻌﻠﻤﻬﺎ ﺒﻮﻛﻴﻤﻮﻥ، ﻻ\n"
+    .string "ﻳﺴﻬﻞ ﺘﺨﻠﺺ ﻣﻨﻬﺎ.$"
 

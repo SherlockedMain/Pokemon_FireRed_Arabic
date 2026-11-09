@@ -1,10 +1,11 @@
 SSAnne_B1F_Room2_Text_HueyIntro::
-    .string "Even us sailors have POKéMON, too!$"
+    .string "ﺣﺘﻰ ﻧﺤﻦ ﺒﺤﺎﺭﺓ ﻟﺪﻳﻨﺎ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺕ!$"
 
 SSAnne_B1F_Room2_Text_HueyDefeat::
-    .string "Okay, you're not bad.$"
+    .string "ﺣﺴﻨﺎ، ﻟﺴﺖ {GENDER_M}ﺳﻴﺌﺎ.{GENDER_F}ﺳﻴﺌﺔ.{GENDER_E}$"
 
 SSAnne_B1F_Room2_Text_HueyPostBattle::
-    .string "We caught all our POKéMON while\n"
-    .string "we were out at sea.$"
+    .string "ﺃﻣﺴﻜﻨﺎ ﻛﻞ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻨﺎ ﻭﻧﺤﻦ\n"
+    .string "ﻓﻲ ﻋﺮﺽ ﺒﺤﺮ.$"
 

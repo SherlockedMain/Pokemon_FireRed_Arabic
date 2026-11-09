@@ -1,24 +1,24 @@
 SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner::
-    .string "This ship, she is a luxury liner for\n"
-    .string "TRAINERS of the world!\p"
-    .string "At every port, we hold parties with\n"
-    .string "invited TRAINERS.$"
+    .string "ﻫﺬﻩ ﺒﺎﺧﺮﺓ ﺳﻔﻴﻨﺔ ﻓﺎﺧﺮﺓ\n"
+    .string "ﻟﻤﺪﺭﺑﻲ ﻌﺎﻟﻢ!\p"
+    .string "ﻭﻓﻲ ﻛﻞ ﻣﻴﻨﺎﺀ، ﻧﻘﻴﻢ ﺣﻔﻼﺕ\n"
+    .string "ﻟﻠﻤﺪﺭﺑﻴﻦ ﻤﺪﻋﻮﻳﻦ.$"
 
 SSAnne_2F_Corridor_Text_RivalIntro::
-    .string "{RIVAL}: Bonjour!\n"
-    .string "{PLAYER}!\p"
-    .string "Imagine seeing you here!\n"
-    .string "{PLAYER}, were you really invited?\p"
-    .string "So how's your POKéDEX coming?\p"
-    .string "I already caught 40 kinds, pal.\n"
-    .string "Different kinds are everywhere.\p"
-    .string "Crawl around in grassy areas, and\n"
-    .string "look hard for them.$"
+    .string "{RIVAL}: ﺑﻮﻧﺠﻮﺭ ﻳﺎ {PLAYER}!\p"
+    .string "ﻣﻦ ﻛﺎﻥ ﻳﻈﻦ ﺃﻧﻨﻲ ﺳﺄﺭﻙ ﻫﻨﺎ!\n"
+    .string "ﻫﻞ ﺩﻋﻴﺖ ﺣﻘﺎ ﻳﺎ {PLAYER}؟\p"
+    .string "ﻓﻜﻴﻒ ﺣﺎﻝ ﺒﻮﻛﻴﺪﻳﻜﺲ ﻣﻌﻚ؟\p"
+    .string "ﺃﻣﺴﻜﺖ ﺣﺘﻰ ﺍﻵﻥ 40 ﻧﻮﻋﺎ\n"
+    .string "{GENDER_M}ﻳﺎ ﻋﺰﻳﺰﻱ{GENDER_F}ﻳﺎ ﻋﺰﻳﺰﺗﻲ{GENDER_E}، ﻓﺎﻷﻧﻮﻉ ﻓﻲ ﻛﻞ\p"
+    .string "ﻣﻜﺎﻥ.\p"
+    .string "{GENDER_M}ﺍﺯﺣﻒ{GENDER_F}ﺍﺯﺣﻔﻲ{GENDER_E} ﺑﻴﻦ ﺍﻷﻋﺸﺎﺏ {GENDER_M}ﻭﺑﺤﺚ{GENDER_F}ﻭﺑﺤﺜﻲ{GENDER_E}\n"
+    .string "ﻋﻨﻬﺎ ﺟﻴﺪ.$"
 
 SSAnne_2F_Corridor_Text_RivalDefeat::
-    .string "Humph!\p"
-    .string "At least you're raising your\n"
-    .string "POKéMON!$"
+    .string "ﻫﻤﻒ!\p"
+    .string "ﻋﻠﻰ ﺍﻷﻗﻞ ﺃﻧﺖ {GENDER_M}ﺗﺮﺑﻲ{GENDER_F}ﺗﺮﺑﻴﻦ{GENDER_E}\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ!$"
 
 SSAnne_2F_Corridor_Text_RivalVictory::
     .string "{PLAYER}‥！\n"
@@ -27,11 +27,12 @@ SSAnne_2F_Corridor_Text_RivalVictory::
     .string "きたえた　ほうが　いいぜ！$"
 
 SSAnne_2F_Corridor_Text_RivalPostBattle::
-    .string "{RIVAL}: I heard there was a CUT\n"
-    .string "master on board.\p"
-    .string "But he was just a seasick old man!\p"
-    .string "CUT itself is really useful.\n"
-    .string "Yup, it'll be handy.\p"
-    .string "You should go see him, too.\n"
-    .string "Smell ya!$"
+    .string "{RIVAL}: ﺳﻤﻌﺖ ﺃﻥ ﻋﻠﻰ ﻣﺘﻦ\n"
+    .string "ﺒﺎﺧﺮﺓ ﺃﺳﺘﺎﺫ ﻓﻲ ﺣﺮﻛﺔ ﻘﻄﻊ.\p"
+    .string "ﻟﻜﻨﻪ ﻣﺠﺮﺩ ﻋﺠﻮﺯ ﻣﺼﺎﺏ ﺑﺪﻭﺭ\n"
+    .string "ﺒﺤﺮ!\p"
+    .string "ﻭﻣﻊ ﺫﻟﻚ، ﻘﻄﻊ ﻣﻔﻴﺪﺓ ﺟﺪ. ﺃﺟﻞ،\n"
+    .string "ﺳﺘﻨﻔﻌﻚ ﻛﺜﻴﺮ.\p"
+    .string "{GENDER_M}ﺍﺫﻫﺐ{GENDER_F}ﺍﺫﻫﺒﻲ{GENDER_E} ﻟﺮﺅﻳﺘﻪ ﺃﻧﺖ ﺃﻳﻀﺎ. ﺃﺭﻙ\n"
+    .string "ﻻﺣﻘﺎ… ﺇﻥ ﻟﺤﻘﺖ ﺑﻲ!$"
 

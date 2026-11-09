@@ -1,14 +1,15 @@
 VermilionCity_Mart_Text_TeamRocketAreWickedPeople::
-    .string "There are wicked people who will\n"
-    .string "use POKéMON for criminal acts.\p"
-    .string "TEAM ROCKET traffics in rare\n"
-    .string "POKéMON, for example.\p"
-    .string "They also abandon POKéMON that\n"
-    .string "they consider unpopular or useless.\p"
-    .string "That's the sort of horrid people\n"
-    .string "they are, TEAM ROCKET.$"
+    .string "ﻫﻨﺎﻙ ﺃﻧﺎﺱ ﺃﺷﺮﺭ ﻳﺴﺘﺨﺪﻣﻮﻥ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻓﻲ ﺠﺮﺋﻢ.\p"
+    .string "ﻓﻌﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ ﻣﺜﻼ ﺗﺘﺎﺟﺮ\n"
+    .string "ﺑﺎﻟﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻨﺎﺩﺭﺓ.\p"
+    .string "ﻭﺗﺘﺨﻠﻰ ﻋﻦ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺘﻲ\n"
+    .string "ﺗﺮﻫﺎ ﻏﻴﺮ ﻣﺮﻏﻮﺑﺔ ﺃﻭ ﺑﻼ ﻓﺎﺋﺪﺓ.\p"
+    .string "ﻫﺬ ﻫﻮ ﺣﺎﻝ ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ… ﺃﻧﺎﺱ\n"
+    .string "ﺑﺸﻌﻮﻥ.$"
 
 VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer::
-    .string "I think POKéMON can be good or\n"
-    .string "bad. It depends on the TRAINER.$"
+    .string "ﺃﻇﻦ ﺃﻥ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻗﺪ ﺗﻜﻮﻥ\n"
+    .string "ﻃﻴﺒﺔ ﺃﻭ ﺷﺮﻳﺮﺓ، ﻭﻷﻣﺮ ﻳﺘﻮﻗﻒ\p"
+    .string "ﻋﻠﻰ ﻤﺪﺭﺏ.$"
 

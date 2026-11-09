@@ -1,73 +1,65 @@
 Route6_Text_RickyIntro::
-    .string "Who's there?\n"
-    .string "Quit listening in on us!$"
+    .string "ﻣﻦ ﻫﻨﺎﻙ؟ {GENDER_M}ﻛﻒ{GENDER_F}ﻛﻔﻲ{GENDER_E} ﻋﻦ ﺘﻨﺼﺖ\n"
+    .string "ﻋﻠﻴﻨﺎ!$"
 
 Route6_Text_RickyDefeat::
-    .string "I just can't win!$"
+    .string "ﻻ ﺃﺳﺘﻄﻴﻊ ﻔﻮﺯ ﺃﺑﺪ!$"
 
 Route6_Text_RickyPostBattle::
-    .string "Whisper…\n"
-    .string "Whisper…$"
+    .string "ﻫﻤﺲ… ﻫﻤﺲ…$"
 
 Route6_Text_NancyIntro::
-    .string "Excuse me!\n"
-    .string "This is a private conversation!$"
+    .string "ﻋﻔﻮ! ﻫﺬ ﺣﺪﻳﺚ ﺧﺎﺹ!$"
 
 Route6_Text_NancyDefeat::
-    .string "Ugh!\n"
-    .string "I hate losing.$"
+    .string "ﺃﻭﻑ! ﺃﻛﺮﻩ ﺨﺴﺎﺭﺓ.$"
 
 Route6_Text_NancyPostBattle::
-    .string "Whisper…\n"
-    .string "Whisper…$"
+    .string "ﻫﻤﺲ… ﻫﻤﺲ…$"
 
 Route6_Text_KeigoIntro::
-    .string "There aren't many bugs out here.$"
+    .string "ﻻ ﺗﻮﺟﺪ ﺣﺸﺮﺕ ﻛﺜﻴﺮﺓ ﻫﻨﺎ.$"
 
 Route6_Text_KeigoDefeat::
-    .string "No!\n"
-    .string "You're kidding!$"
+    .string "ﻻ! ﺃﻧﺖ ﺗﻤﺰﺡ!$"
 
 Route6_Text_KeigoPostBattle::
-    .string "I like bugs, so I'm going back to\n"
-    .string "VIRIDIAN FOREST.$"
+    .string "ﺃﻧﺎ ﺃﺣﺐ ﺤﺸﺮﺕ، ﻟﺬ ﺳﺄﻋﻮﺩ ﺇﻟﻰ\n"
+    .string "ﻏﺎﺑﺔ ﻓﻴﺮﻳﺪﻳﺎﻥ.$"
 
 Route6_Text_JeffIntro::
-    .string "Huh?\n"
-    .string "You want to talk to me?$"
+    .string "ﻫﺎﻩ؟ {GENDER_M}ﺗﺮﻳﺪ{GENDER_F}ﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺘﺤﺪﺙ ﺇﻟﻲ؟$"
 
 Route6_Text_JeffDefeat::
-    .string "This stinks…\n"
-    .string "I couldn't beat your challenge…$"
+    .string "ﻫﺬ ﻣﺰﻋﺞ… ﻟﻢ ﺃﺳﺘﻄﻊ ﺼﻤﻮﺩ ﺃﻣﺎﻡ\n"
+    .string "ﺗﺤﺪﻳﻚ…$"
 
 Route6_Text_JeffPostBattle::
-    .string "I should bring more POKéMON with\n"
-    .string "me. I'll feel safer that way.$"
+    .string "ﻋﻠﻲ ﺃﻥ ﺃﺣﻤﻞ ﻣﻌﻲ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﺃﻛﺜﺮ، ﻓﺄﺷﻌﺮ ﺑﺄﻣﺎﻥ ﺃﻛﺒﺮ.$"
 
 Route6_Text_IsabelleIntro::
-    .string "Me?\n"
-    .string "Well, okay. I'll play!$"
+    .string "ﺃﻧﺎ؟ ﺣﺴﻨﺎ، ﺳﺄﻟﻌﺐ!$"
 
 Route6_Text_IsabelleDefeat::
-    .string "Things just didn't work…$"
+    .string "ﻟﻢ ﺗﺴﺮ ﺍﻷﻣﻮﺭ ﻛﻤﺎ ﺃﺭﺩﺕ…$"
 
 Route6_Text_IsabellePostBattle::
-    .string "I want to get stronger.\n"
-    .string "What's your secret?$"
+    .string "ﺃﺭﻳﺪ ﺃﻥ ﺃﺻﺒﺢ ﺃﻗﻮﻯ. ﻣﺎ ﺳﺮﻙ؟$"
 
 Route6_Text_ElijahIntro::
-    .string "I've never seen you around.\n"
-    .string "Are you good?$"
+    .string "ﻟﻢ ﺃﺭﻙ ﻫﻨﺎ ﻣﻦ ﻗﺒﻞ. ﻫﻞ ﺃﻧﺖ\n"
+    .string "{GENDER_M}ﺑﺎﺭﻉ؟{GENDER_F}ﺑﺎﺭﻋﺔ؟{GENDER_E}$"
 
 Route6_Text_ElijahDefeat::
-    .string "You're too good!$"
+    .string "ﺃﻧﺖ {GENDER_M}ﺑﺎﺭﻉ{GENDER_F}ﺑﺎﺭﻋﺔ{GENDER_E} ﺟﺪ!$"
 
 Route6_Text_ElijahPostBattle::
-    .string "Are my POKéMON weak?\n"
-    .string "Or, am I just bad?\l"
-    .string "Which do you think?$"
+    .string "ﻫﻞ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ ﺿﻌﻴﻔﺔ؟ ﺃﻡ\n"
+    .string "ﺃﻧﻨﻲ ﺃﻧﺎ ﺴﻴﺊ؟ ﻣﺎ ﺭﻳﻚ؟$"
 
 Route6_Text_UndergroundPathSign::
-    .string "UNDERGROUND PATH\n"
-    .string "CERULEAN CITY - VERMILION CITY$"
+    .string "ﻤﻤﺮ ﺍﻷﺭﺿﻲ\n"
+    .string "ﻣﺪﻳﻨﺔ ﺳﻴﺮﻭﻟﻴﻦ - ﻣﺪﻳﻨﺔ\p"
+    .string "ﻓﻴﺮﻣﻠﻴﻮﻥ$"
 

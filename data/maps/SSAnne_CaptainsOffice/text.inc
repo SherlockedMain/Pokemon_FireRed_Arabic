@@ -1,53 +1,48 @@
 SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick::
-    .string "CAPTAIN: Ooargh…\n"
-    .string "I feel hideous…\l"
-    .string "Urrp! Seasick…$"
+    .string "ﻘﺒﻄﺎﻥ: ﺃﻭﻭﻭﻭﻩ… ﺃﺷﻌﺮ\n"
+    .string "ﺑﺎﻟﻐﺜﻴﺎﻥ… ﺃﻭﺥ! ﺩﻭﺭ ﺒﺤﺮ…$"
 
 SSAnne_CaptainsOffice_Text_RubbedCaptainsBack::
-    .string "{PLAYER} rubbed the CAPTAIN's\n"
-    .string "back!\p"
-    .string "Rub-rub…\n"
-    .string "Rub-rub…$"
+    .string "{GENDER_M}ﻓﺮﻙ{GENDER_F}ﻓﺮﻛﺖ{GENDER_E} {PLAYER} ﻇﻬﺮ ﻘﺒﻄﺎﻥ!\p"
+    .string "ﻓﺮﻙ… ﻓﺮﻙ… ﻓﺮﻙ… ﻓﺮﻙ…$"
 
 SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
-    .string "CAPTAIN: Whew! Thank you!\n"
-    .string "I'm feeling much better now.\p"
-    .string "You want to see my hidden CUT\n"
-    .string "technique?\p"
-    .string "I could show you my prized CUT\n"
-    .string "technique if I weren't so ill…\p"
-    .string "I know! You can have this!\n"
-    .string "This HIDDEN MACHINE!\p"
-    .string "Teach CUT to your POKéMON, and\n"
-    .string "you can see it CUT anytime!$"
+    .string "ﻘﺒﻄﺎﻥ: ﻓﻴﻮ! ﺷﻜﺮ ﻟﻚ! ﺃﺷﻌﺮ\n"
+    .string "ﺑﺘﺤﺴﻦ ﻛﺒﻴﺮ ﺍﻵﻥ.\p"
+    .string "{GENDER_M}ﺃﺗﺮﻳﺪ{GENDER_F}ﺃﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺃﻥ {GENDER_M}ﺗﺮﻯ{GENDER_F}ﺗﺮﻱ{GENDER_E} ﺗﻘﻨﻴﺘﻲ\n"
+    .string "ﺨﻔﻴﺔ ﻓﻲ ﻘﻄﻊ؟\p"
+    .string "ﻛﻨﺖ ﺳﺄﺭﻳﻚ ﺗﻘﻨﻴﺘﻲ ﺜﻤﻴﻨﺔ\n"
+    .string "ﻟﻮﻻ ﻫﺬ ﻤﺮﺽ…\p"
+    .string "ﻭﺟﺪﺗﻬﺎ! {GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻫﺬ! ﺇﻧﻪ ﻗﺮﺹ\n"
+    .string "ﺧﺎﺹ!\p"
+    .string "{GENDER_M}ﻋﻠﻢ{GENDER_F}ﻋﻠﻤﻲ{GENDER_E} ﺑﻮﻛﻴﻤﻮﻧﻚ ﻘﻄﻊ، {GENDER_M}ﻭﺳﺘﺮﻯ{GENDER_F}ﻭﺳﺘﺮﻳﻦ{GENDER_E}\n"
+    .string "ﻗﻮﺗﻬﺎ ﻣﺘﻰ ﺷﺌﺖ!$"
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
-    .string "{PLAYER} obtained HM01\n"
-    .string "from the CAPTAIN!$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻘﺮﺹ ﺨﺎﺹ\n"
+    .string "01 ﻣﻦ ﻘﺒﻄﺎﻥ!$"
 
 SSAnne_CaptainsOffice_Text_ExplainCut::
-    .string "Using CUT, you can chop down\n"
-    .string "small trees.\p"
-    .string "Why not try it with the trees\n"
-    .string "around VERMILION CITY?$"
+    .string "ﺑﺤﺮﻛﺔ ﻘﻄﻊ ﺗﺴﺘﻄﻴﻊ ﻗﻄﻊ\n"
+    .string "ﺍﻷﺷﺠﺎﺭ ﺼﻐﻴﺮﺓ.\p"
+    .string "ﻟﻢ ﻻ {GENDER_M}ﺗﺠﺮﺑﻬﺎ{GENDER_F}ﺗﺠﺮﺑﻴﻬﺎ{GENDER_E} ﻋﻠﻰ ﺍﻷﺷﺠﺎﺭ\n"
+    .string "ﻤﺤﻴﻄﺔ ﺑﻤﺪﻳﻨﺔ ﻓﻴﺮﻣﻠﻴﻮﻥ؟$"
 
 SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon::
-    .string "CAPTAIN: …Whew!\p"
-    .string "Now that I'm not sick anymore,\n"
-    .string "I guess it's time.\p"
-    .string "The S.S. ANNE will set sail soon!\p"
-    .string "Farewell, until our return to\n"
-    .string "VERMILION CITY!$"
+    .string "ﻘﺒﻄﺎﻥ: …ﻓﻴﻮ!\p"
+    .string "ﺑﻤﺎ ﺃﻧﻨﻲ ﺗﻌﺎﻓﻴﺖ، ﻓﻘﺪ ﺣﺎﻥ\n"
+    .string "ﻮﻗﺖ.\p"
+    .string "ﺳﺘﺒﺤﺮ ﺑﺎﺧﺮﺓ ﺇﺱ ﺇﺱ ﺁﻥ ﻗﺮﻳﺒﺎ!\p"
+    .string "ﻭﺩﻋﺎ، ﺣﺘﻰ ﻧﻌﻮﺩ ﺇﻟﻰ ﻣﺪﻳﻨﺔ\n"
+    .string "ﻓﻴﺮﻣﻠﻴﻮﻥ!$"
 
 SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis::
-    .string "Oh, no!\n"
-    .string "You have no room for this!$"
+    .string "ﺃﻭﻩ، ﻻ! ﻟﻴﺲ ﻣﻌﻚ ﻣﻜﺎﻥ ﻟﻬﺬ!$"
 
 SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked::
-    .string "Yuck!\n"
-    .string "Shouldn't have looked!$"
+    .string "ﻳﻊ! ﻟﻴﺘﻨﻲ ﻟﻢ ﺃﻧﻈﺮ!$"
 
 SSAnne_CaptainsOffice_Text_HowToConquerSeasickness::
-    .string "How to Conquer Seasickness…\n"
-    .string "The CAPTAIN's reading this!$"
+    .string "“ﻛﻴﻒ ﺗﺘﻐﻠﺐ ﻋﻠﻰ ﺩﻭﺭ ﺒﺤﺮ”…\n"
+    .string "ﻘﺒﻄﺎﻥ ﻳﻘﺮ ﻫﺬ ﻜﺘﺎﺏ!$"
 

@@ -1,31 +1,30 @@
 SSAnne_1F_Room2_Text_TylerIntro::
-    .string "I love POKéMON!\n"
-    .string "Do you?$"
+    .string "ﺃﻧﺎ ﺃﺣﺐ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ! ﻭﻧﺖ؟$"
 
 SSAnne_1F_Room2_Text_TylerDefeat::
-    .string "Wow! \n"
-    .string "You're great!$"
+    .string "ﻭﻭ! ﺃﻧﺖ {GENDER_M}ﺭﺋﻊ!{GENDER_F}ﺭﺋﻌﺔ!{GENDER_E}$"
 
 SSAnne_1F_Room2_Text_TylerPostBattle::
-    .string "Listen, listen!\n"
-    .string "Let me be your friend, okay?\p"
-    .string "Then we can trade POKéMON and\n"
-    .string "do stuff.$"
+    .string "ﺍﺳﻤﻊ، ﺍﺳﻤﻊ! ﻟﻨﺼﺒﺢ ﺻﺪﻳﻘﻴﻦ،\n"
+    .string "ﺍﺗﻔﻘﻨﺎ؟\p"
+    .string "ﻋﻨﺪﻫﺎ ﻧﺘﺒﺎﺩﻝ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﻭﻧﻔﻌﻞ ﺃﺷﻴﺎﺀ ﻛﺜﻴﺮﺓ ﻣﻌﺎ.$"
 
 SSAnne_1F_Room2_Text_AnnIntro::
-    .string "I collected these POKéMON\n"
-    .string "from all around the world!$"
+    .string "ﺟﻤﻌﺖ ﻫﺬﻩ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻣﻦ ﻛﻞ\n"
+    .string "ﺃﻧﺤﺎﺀ ﻌﺎﻟﻢ!$"
 
 SSAnne_1F_Room2_Text_AnnDefeat::
-    .string "Oh, no!\n"
-    .string "I went around the world for these!$"
+    .string "ﺃﻭﻩ، ﻻ! ﺟﺒﺖ ﻌﺎﻟﻢ ﻛﻠﻪ ﻣﻦ\n"
+    .string "ﺃﺟﻠﻬﺎ!$"
 
 SSAnne_1F_Room2_Text_AnnPostBattle::
-    .string "You hurt my poor POKéMON!\p"
-    .string "I demand that you heal them at a\n"
-    .string "POKéMON CENTER!$"
+    .string "ﻟﻘﺪ ﺁﺫﻳﺖ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ\n"
+    .string "ﻤﺴﻜﻴﻨﺔ!\p"
+    .string "ﺃﻃﺎﻟﺒﻚ ﺑﺄﻥ {GENDER_M}ﺗﻌﺎﻟﺠﻬﺎ{GENDER_F}ﺗﻌﺎﻟﺠﻴﻬﺎ{GENDER_E} ﻓﻲ ﻣﺮﻛﺰ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ!$"
 
 SSAnne_1F_Room2_Text_CruisingAroundWorld::
-    .string "We are cruising around the world,\n"
-    .string "my children and I.$"
+    .string "ﻧﺤﻦ ﻧﺠﻮﺏ ﻌﺎﻟﻢ ﻓﻲ ﺭﺣﻠﺔ\n"
+    .string "ﺑﺤﺮﻳﺔ، ﺃﻧﺎ ﻭﻃﻔﺎﻟﻲ.$"
 

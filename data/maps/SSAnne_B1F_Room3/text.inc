@@ -1,11 +1,11 @@
 SSAnne_B1F_Room3_Text_DylanIntro::
-    .string "I like feisty kids like you!$"
+    .string "ﺃﺣﺐ ﺼﻐﺎﺭ ﺸﺠﻌﺎﻥ ﺃﻣﺜﺎﻟﻚ!$"
 
 SSAnne_B1F_Room3_Text_DylanDefeat::
-    .string "Argh!\n"
-    .string "Lost it!$"
+    .string "ﺁﺭﻍ! ﺧﺴﺮﺕ!$"
 
 SSAnne_B1F_Room3_Text_DylanPostBattle::
-    .string "Sea POKéMON live in deep water.\n"
-    .string "You'll need a ROD to fish them up!$"
+    .string "ﺗﻌﻴﺶ ﺑﻮﻛﻴﻤﻮﻧﺎﺕ ﺒﺤﺮ ﻓﻲ\n"
+    .string "ﻤﻴﺎﻩ ﻌﻤﻴﻘﺔ، ﻭ{GENDER_M}ﺳﺘﺤﺘﺎﺝ{GENDER_F}ﺳﺘﺤﺘﺎﺟﻴﻦ{GENDER_E} ﺇﻟﻰ\p"
+    .string "ﺻﻨﺎﺭﺓ ﻟﺘﺼﻄﺎﺩﻫﺎ!$"
 

@@ -1,96 +1,93 @@
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
-    .string "Won't you admire my PIKACHU's\n"
-    .string "adorable tail?$"
+    .string "ﺃﻟﻦ {GENDER_M}ﺗﻌﺠﺐ{GENDER_F}ﺗﻌﺠﺒﻲ{GENDER_E} ﺑﺬﻳﻞ ﺑﻴﻜﺎﺗﺸﻮ\n"
+    .string "ﻠﻄﻴﻒ؟$"
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
-    .string "Humph!\p"
-    .string "My PIKACHU is twice as cute as\n"
-    .string "that one!$"
+    .string "ﻫﻤﻒ!\p"
+    .string "ﺑﻴﻜﺎﺗﺸﻮ ﺨﺎﺹ ﺑﻲ ﺃﺟﻤﻞ ﻣﻦ ﺫﻙ\n"
+    .string "ﻣﺮﺗﻴﻦ!$"
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel::
-    .string "I just adore my SEEL!\n"
-    .string "It's so lovable!\p"
-    .string "It squeals, “Kyuuuh,” when I\n"
-    .string "hug it!$"
+    .string "ﺃﻧﺎ ﺃﻋﺸﻖ ﺳﻴﻞ ﺨﺎﺹ ﺑﻲ! ﺇﻧﻪ\n"
+    .string "ﻣﺤﺒﻮﺏ ﺟﺪ!\p"
+    .string "ﻭﻳﺼﻴﺢ “ﻛﻴﻮﻭﻭﻭﻩ” ﺣﻴﻦ ﺃﺣﻀﻨﻪ!$"
 
 VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive::
-    .string "Oh, dear!\p"
-    .string "My SEEL is far more attractive.\n"
-    .string "By double, I would say.$"
+    .string "ﻳﺎ ﻋﺰﻳﺰﻱ!\p"
+    .string "ﺳﻴﻞ ﺨﺎﺹ ﺑﻲ ﺃﺟﺬﺏ ﺑﻜﺜﻴﺮ… ﺑﻞ\n"
+    .string "ﺑﺎﻟﻀﻌﻒ ﺇﻥ ﺷﺌﺖ!$"
 
 VermilionCity_PokemonFanClub_Text_Pikachu::
-    .string "PIKACHU: Chu! Pikachu!$"
+    .string "ﺑﻴﻜﺎﺗﺸﻮ: ﺗﺸﻮ! ﺑﻴﻜﺎﺗﺸﻮ!$"
 
 VermilionCity_PokemonFanClub_Text_Seel::
-    .string "SEEL: Kyuoo!$"
+    .string "ﺳﻴﻞ: ﻛﻴﻮﻭﻭ!$"
 
 VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
-    .string "I chair the POKéMON Fan Club!\p"
-    .string "I raise more than a hundred\n"
-    .string "POKéMON!\p"
-    .string "I'm very fussy when it comes to\n"
-    .string "POKéMON! I surely am!\p"
-    .string "So…\p"
-    .string "Did you come visit to hear about\n"
-    .string "my POKéMON?$"
+    .string "ﺃﻧﺎ ﺭﺋﻴﺲ ﻧﺎﺩﻱ ﻣﺤﺒﻲ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ!\p"
+    .string "ﺃﺭﺑﻲ ﺃﻛﺜﺮ ﻣﻦ ﻣﺌﺔ ﺑﻮﻛﻴﻤﻮﻥ!\p"
+    .string "ﻭﻧﺎ ﺩﻗﻴﻖ ﺟﺪ ﻓﻲ ﻛﻞ ﻣﺎ ﻳﺨﺺ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ! ﺃﺟﻞ، ﺩﻗﻴﻖ ﺟﺪ!\p"
+    .string "ﺇﺫﻥ…\p"
+    .string "ﻫﻞ ﺟﺌﺖ {GENDER_M}ﻟﺘﺴﻤﻊ{GENDER_F}ﻟﺘﺴﻤﻌﻲ{GENDER_E} ﻋﻦ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ؟$"
 
 VermilionCity_PokemonFanClub_Text_ChairmansStory::
-    .string "Good!\n"
-    .string "Then listen up!\p"
-    .string "My favorite RAPIDASH…\p"
-    .string "It's…cute…lovely…smart… \n"
-    .string "plus…amazing…you think so?…\l"
-    .string "oh yes…it's…stunning…\l"
-    .string "kindly…love it!\p"
-    .string "Hug it…when…sleeping…warm\n"
-    .string "and cuddly…spectacular…\l"
-    .string "ravishing…\l"
-    .string "…Oops! Look at the time!\l"
-    .string "I kept you too long!\p"
-    .string "Thanks for hearing me out!\n"
-    .string "I want you to have this!$"
+    .string "ﺭﺋﻊ! ﺇﺫﻥ {GENDER_M}ﺍﺳﻤﻊ{GENDER_F}ﺍﺳﻤﻌﻲ{GENDER_E} ﺟﻴﺪ!\p"
+    .string "ﺭﺑﻴﺪﺵ ﻤﻔﻀﻞ ﻟﺪﻱ…\p"
+    .string "ﺇﻧﻪ… ﻟﻄﻴﻒ… ﺟﻤﻴﻞ… ﺫﻛﻲ… ﻭﻓﻮﻕ\n"
+    .string "ﺫﻟﻚ… ﻣﺬﻫﻞ… ﺃﻻ {GENDER_M}ﺗﻈﻦ{GENDER_F}ﺗﻈﻨﻴﻦ{GENDER_E} ﺫﻟﻚ؟…\p"
+    .string "ﺃﻭﻩ ﺃﺟﻞ… ﺇﻧﻪ… ﺧﻼﺏ… ﺣﻨﻮﻥ…\n"
+    .string "ﺃﺣﺒﻪ!\p"
+    .string "ﺃﺣﻀﻨﻪ… ﺣﻴﻦ… ﻳﻨﺎﻡ… ﺩﻓﺊ\n"
+    .string "ﻭﻭﺩﻳﻊ… ﺭﺋﻊ… ﻓﺎﺗﻦ…\p"
+    .string "…ﺁﻩ! {GENDER_M}ﺍﻧﻈﺮ{GENDER_F}ﺍﻧﻈﺮﻱ{GENDER_E} ﺇﻟﻰ ﻮﻗﺖ! ﺃﻃﻠﺖ\n"
+    .string "ﻋﻠﻴﻚ ﻛﺜﻴﺮ!\p"
+    .string "ﺷﻜﺮ ﻷﻧﻚ ﺍﺳﺘﻤﻌﺖ ﺇﻟﻲ! ﺃﺭﻳﺪﻙ\n"
+    .string "ﺃﻥ {GENDER_M}ﺗﺤﺼﻞ{GENDER_F}ﺗﺤﺼﻠﻲ{GENDER_E} ﻋﻠﻰ ﻫﺬﻩ!$"
 
 VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
-    .string "{PLAYER} received a BIKE VOUCHER\n"
-    .string "from the CHAIRMAN.$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻗﺴﻴﻤﺔ\n"
+    .string "ﺪﺭﺟﺔ ﻣﻦ ﺭﺋﻴﺲ ﻨﺎﺩﻱ.$"
 
 VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
-    .string "Take that BIKE VOUCHER to the\n"
-    .string "BIKE SHOP in CERULEAN CITY.\p"
-    .string "Exchange that for a BICYCLE\n"
-    .string "free of charge!\p"
-    .string "Don't worry, my favorite FEAROW\n"
-    .string "will FLY me anywhere I need to go.\p"
-    .string "So, I have no need for a BICYCLE.\p"
-    .string "I hope you like cycling!$"
+    .string "{GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻗﺴﻴﻤﺔ ﺪﺭﺟﺔ ﺇﻟﻰ ﻣﺘﺠﺮ\n"
+    .string "ﺪﺭﺟﺎﺕ ﻓﻲ ﻣﺪﻳﻨﺔ ﺳﻴﺮﻭﻟﻴﻦ.\p"
+    .string "{GENDER_M}ﻭﺳﺘﺒﺪﻟﻬﺎ{GENDER_F}ﻭﺳﺘﺒﺪﻟﻴﻬﺎ{GENDER_E} ﺑﺪﺭﺟﺔ ﻣﺠﺎﻧﺎ!\p"
+    .string "{GENDER_M}ﻻ ﺗﻘﻠﻖ{GENDER_F}ﻻ ﺗﻘﻠﻘﻲ{GENDER_E}، ﻓﻴﺮﻭ ﻤﻔﻀﻞ ﻟﺪﻱ\n"
+    .string "ﻳﻄﻴﺮ ﺑﻲ ﺣﻴﺜﻤﺎ ﺃﺭﺩﺕ.\p"
+    .string "ﻟﺬ ﻻ ﺣﺎﺟﺔ ﻟﻲ ﺑﺪﺭﺟﺔ.\p"
+    .string "ﺃﺗﻤﻨﻰ ﺃﻥ ﻳﻌﺠﺒﻚ ﺭﻛﻮﺏ\n"
+    .string "ﺪﺭﺟﺎﺕ!$"
 
 VermilionCity_PokemonFanClub_Text_ComeBackToHearStory::
-    .string "Oh. Come back when you want to\n"
-    .string "hear my story!$"
+    .string "ﺃﻭﻩ. {GENDER_M}ﻋﺪ{GENDER_F}ﻋﻮﺩﻱ{GENDER_E} ﺣﻴﻦ {GENDER_M}ﺗﺮﻳﺪ{GENDER_F}ﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺳﻤﺎﻉ\n"
+    .string "ﻗﺼﺘﻲ!$"
 
 VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain::
-    .string "Hello, {PLAYER}!\p"
-    .string "Did you come see me about my\n"
-    .string "POKéMON again?\p"
-    .string "No?\n"
-    .string "Too bad!$"
+    .string "ﻣﺮﺣﺒﺎ ﻳﺎ {PLAYER}!\p"
+    .string "ﻫﻞ ﺟﺌﺖ {GENDER_M}ﻟﺘﺴﻤﻊ{GENDER_F}ﻟﺘﺴﻤﻌﻲ{GENDER_E} ﻋﻦ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ ﻣﺮﺓ ﺃﺧﺮﻯ؟\p"
+    .string "ﻻ؟ ﻳﺎ ﻟﻸﺳﻒ!$"
 
 VermilionCity_PokemonFanClub_Text_MakeRoomForThis::
-    .string "Make room for this!$"
+    .string "{GENDER_M}ﺃﻓﺴﺢ{GENDER_F}ﺃﻓﺴﺤﻲ{GENDER_E} ﻣﻜﺎﻧﺎ ﻟﻬﺬ!$"
 
 VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon::
-    .string "Our CHAIRMAN is very vocal about\n"
-    .string "POKéMON.$"
+    .string "ﺭﺋﻴﺴﻨﺎ ﻻ ﻳﻜﻒ ﻋﻦ ﺤﺪﻳﺚ ﻋﻦ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.$"
 
 VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers::
-    .string "Let's all listen politely to other\n"
-    .string "TRAINERS!$"
+    .string "ﻟﻨﺴﺘﻤﻊ ﺟﻤﻴﻌﺎ ﺑﺄﺩﺏ ﺇﻟﻰ\n"
+    .string "ﻤﺪﺭﺑﻴﻦ ﺍﻵﺧﺮﻳﻦ!$"
 
 VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack::
-    .string "If someone brags, brag right back!$"
+    .string "ﺇﻥ ﺗﺒﺎﻫﻰ ﺃﺣﺪﻫﻢ ﺃﻣﺎﻣﻚ،\n"
+    .string "{GENDER_M}ﻓﺘﺒﺎﻩ{GENDER_F}ﻓﺘﺒﺎﻫﻲ{GENDER_E} ﺃﻧﺖ ﺃﻳﻀﺎ!$"
 
 VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons::
-    .string "Our CHAIRMAN really does adore his\n"
-    .string "POKéMON.\p"
-    .string "But the person who is most liked by\n"
-    .string "POKéMON is DAISY, I think.$"
+    .string "ﺭﺋﻴﺴﻨﺎ ﻳﻌﺸﻖ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻪ ﺣﻘﺎ.\p"
+    .string "ﻟﻜﻦ ﺃﻛﺜﺮ ﻣﻦ ﺗﺤﺒﻪ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻫﻲ ﺩﻳﺰﻱ، ﻋﻠﻰ ﻣﺎ\p"
+    .string "ﺃﻇﻦ.$"
