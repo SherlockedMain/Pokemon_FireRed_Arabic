@@ -1,18 +1,16 @@
 CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent::
-    .string "I'm getting a present for my\n"
-    .string "girlfriend.\p"
-    .string "I guess a POKé DOLL will be it.\n"
-    .string "It's the popular thing.$"
+    .string "ﺃﺷﺘﺮﻱ ﻫﺪﻳﺔ ﻟﺨﻄﻴﺒﺘﻲ.\p"
+    .string "ﺃﻇﻦ ﺃﻥ ﺩﻣﻴﺔ ﺒﻮﻛﻲ ﺳﺘﻜﻮﻥ\n"
+    .string "ﻣﻨﺎﺳﺒﺔ، ﻓﻬﻲ ﺍﻷﻛﺜﺮ ﺭﻭﺟﺎ.$"
 
 CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll::
-    .string "I heard something useful.\p"
-    .string "If a wild POKéMON appears, you can\n"
-    .string "distract it with a POKé DOLL.\p"
-    .string "You can run away while the wild\n"
-    .string "POKéMON is distracted.$"
+    .string "ﺳﻤﻌﺖ ﺷﻴﺌﺎ ﻣﻔﻴﺪ.\p"
+    .string "ﺇﻥ ﻇﻬﺮ ﺑﻮﻛﻴﻤﻮﻥ ﺑﺮﻱ، ﻳﻤﻜﻨﻚ\n"
+    .string "ﺇﻟﻬﺎﺅﻩ ﺑﺪﻣﻴﺔ ﺒﻮﻛﻲ.\p"
+    .string "ﻓﺘﻬﺮﺏ ﺑﻴﻨﻤﺎ ﻫﻮ ﻣﺸﻐﻮﻝ ﻋﻨﻚ.$"
 
 CeladonCity_DepartmentStore_4F_Text_FloorSign::
-    .string "Express yourself with gifts!\n"
-    .string "4F: WISE MAN GIFTS\p"
-    .string "Evolution Special!\n"
-    .string "Element STONES on sale now!$"
+    .string "ﻋﺒﺮ ﻋﻦ ﻧﻔﺴﻚ ﺑﺎﻟﻬﺪﻳﺎ!\n"
+    .string "ﻄﺎﺑﻖ 4: ﻫﺪﻳﺎ ﺤﻜﻴﻢ\p"
+    .string "ﻋﺮﺽ ﺘﻄﻮﺭ ﺨﺎﺹ! ﺣﺠﺎﺭﺓ ﺘﻄﻮﺭ\n"
+    .string "ﻣﻌﺮﻭﺿﺔ ﻟﻠﺒﻴﻊ ﺍﻵﻥ!$"

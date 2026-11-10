@@ -1,19 +1,19 @@
 CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel::
-    .string "SUPER REPEL keeps weak POKéMON at\n"
-    .string "bay…\p"
-    .string "Hmm, it's a more powerful REPEL.$"
+    .string "ﻃﺎﺭﺩ ﻣﻤﺘﺎﺯ ﻳﺒﻌﺪ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﻀﻌﻴﻔﺔ…\p"
+    .string "ﻫﻤﻢ، ﺇﻧﻪ ﻃﺎﺭﺩ ﻣﻤﺘﺎﺯ ﺃﻗﻮﻯ.$"
 
 CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings::
-    .string "For long outings, you should buy\n"
-    .string "REVIVE.$"
+    .string "ﻓﻲ ﺮﺣﻼﺕ ﻄﻮﻳﻠﺔ، ﻋﻠﻴﻚ ﺃﻥ\n"
+    .string "{GENDER_M}ﺗﺸﺘﺮﻱ{GENDER_F}ﺗﺸﺘﺮﻱ{GENDER_E} ﺍﻹﺣﻴﺎﺀ.$"
 
 CeladonCity_DepartmentStore_2F_Text_FloorSign::
-    .string "Top-Grade Items for TRAINERS!\p"
-    .string "2F: TRAINER'S MARKET$"
+    .string "ﺃﺩﻭﺕ ﻣﻦ ﻄﺮﺯ ﺍﻷﻭﻝ ﻟﻠﻤﺪﺭﺑﻴﻦ!\p"
+    .string "ﻄﺎﺑﻖ 2: ﺳﻮﻕ ﻤﺪﺭﺑﻴﻦ$"
 
 CeladonCity_DepartmentStore_2F_Text_LanceComesToBuyCapes::
-    .string "We have a customer, LANCE, who\n"
-    .string "occasionally comes.\p"
-    .string "He always buys capes.\p"
-    .string "I wonder… Does he have many\n"
-    .string "identical capes at home?$"
+    .string "ﻟﺪﻳﻨﺎ ﺯﺑﻮﻥ ﺍﺳﻤﻪ ﻻﻧﺲ، ﻳﺄﺗﻲ\n"
+    .string "ﺃﺣﻴﺎﻧﺎ.\p"
+    .string "ﻭﻳﺸﺘﺮﻱ ﻌﺒﺎﺀﺕ ﺩﺋﻤﺎ.\p"
+    .string "ﺗﺮﻯ… ﻫﻞ ﻋﻨﺪﻩ ﻓﻲ ﺒﻴﺖ ﻋﺒﺎﺀﺕ\n"
+    .string "ﻛﺜﻴﺮﺓ ﻣﺘﺸﺎﺑﻬﺔ؟$"

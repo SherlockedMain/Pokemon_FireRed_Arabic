@@ -1,53 +1,52 @@
 RocketHideout_B1F_Text_Grunt1Intro::
-    .string "Who are you?\n"
-    .string "How did you get here?$"
+    .string "ﻣﻦ ﺃﻧﺖ؟ ﻛﻴﻒ {GENDER_M}ﻭﺻﻠﺖ{GENDER_F}ﻭﺻﻠﺖ{GENDER_E} ﺇﻟﻰ ﻫﻨﺎ؟$"
 
 RocketHideout_B1F_Text_Grunt1Defeat::
-    .string "Oww!\n"
-    .string "Beaten!$"
+    .string "ﺁﺥ! ﻫﺰﻣﺖ!$"
 
 RocketHideout_B1F_Text_Grunt1PostBattle::
-    .string "Blast it… You're dissing TEAM\n"
-    .string "ROCKET, aren't you?$"
+    .string "ﺗﺒﺎ… ﺃﻧﺖ {GENDER_M}ﺗﺴﺘﺨﻒ{GENDER_F}ﺗﺴﺘﺨﻔﻴﻦ{GENDER_E} ﺑﻌﺼﺎﺑﺔ\n"
+    .string "ﺭﻭﻛﻴﺖ، ﺃﻟﻴﺲ ﻛﺬﻟﻚ؟$"
 
 RocketHideout_B1F_Text_Grunt2Intro::
-    .string "You broke into TEAM ROCKET's\n"
-    .string "operation? What nerve!$"
+    .string "{GENDER_M}ﺍﻗﺘﺤﻤﺖ{GENDER_F}ﺍﻗﺘﺤﻤﺖ{GENDER_E} ﻋﻤﻠﻴﺔ ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ؟\n"
+    .string "ﻳﺎ ﻟﻚ ﻣﻦ {GENDER_M}ﻭﻗﺢ!{GENDER_F}ﻭﻗﺤﺔ!{GENDER_E}$"
 
 RocketHideout_B1F_Text_Grunt2Defeat::
-    .string "Boom!$"
+    .string "ﺑﻮﻭﻡ!$"
 
 RocketHideout_B1F_Text_Grunt2PostBattle::
-    .string "You're not going to get away with\n"
-    .string "this, brat!$"
+    .string "ﻟﻦ {GENDER_M}ﺗﻔﻠﺖ{GENDER_F}ﺗﻔﻠﺘﻲ{GENDER_E} ﺑﻔﻌﻠﺘﻚ ﻫﺬﻩ\n"
+    .string "{GENDER_M}ﻳﺎ ﺻﻐﻴﺮ{GENDER_F}ﻳﺎ ﺻﻐﻴﺮﺓ{GENDER_E}!$"
 
 RocketHideout_B1F_Text_Grunt3Intro::
-    .string "Intruder alert!$"
+    .string "ﺇﻧﺬﺭ! ﺩﺧﻴﻞ!$"
 
 RocketHideout_B1F_Text_Grunt3Defeat::
-    .string "I can't do it!$"
+    .string "ﻻ ﺃﺳﺘﻄﻴﻊ!$"
 
 RocketHideout_B1F_Text_Grunt3PostBattle::
-    .string "SILPH SCOPE? Humph!\n"
-    .string "I don't know where it is.$"
+    .string "ﻣﻨﻈﺎﺭ ﺳﻴﻠﻒ؟ ﻫﻤﻒ! ﻻ ﺃﻋﺮﻑ\n"
+    .string "ﺃﻳﻦ ﻫﻮ.$"
 
 RocketHideout_B1F_Text_Grunt4Intro::
-    .string "Why did you come here?$"
+    .string "ﻟﻤﺎﺫ {GENDER_M}ﺟﺌﺖ{GENDER_F}ﺟﺌﺖ{GENDER_E} ﺇﻟﻰ ﻫﻨﺎ؟$"
 
 RocketHideout_B1F_Text_Grunt4Defeat::
-    .string "This won't do!$"
+    .string "ﻫﺬ ﻻ ﻳﺼﺢ!$"
 
 RocketHideout_B1F_Text_Grunt4PostBattle::
-    .string "Okay, I'll talk…\n"
-    .string "Take the elevator to see my BOSS.$"
+    .string "ﺣﺴﻨﺎ، ﺳﺄﺗﻜﻠﻢ… {GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻤﺼﻌﺪ\n"
+    .string "ﻟﺘﺮﻯ ﺰﻋﻴﻢ.$"
 
 RocketHideout_B1F_Text_Grunt5Intro::
-    .string "Are you lost, you little mouse?$"
+    .string "ﻫﻞ {GENDER_M}ﺿﻠﻠﺖ{GENDER_F}ﺿﻠﻠﺖ{GENDER_E} ﻃﺮﻳﻘﻚ ﺃﻳﻬﺎ ﻔﺄﺭ\n"
+    .string "ﺼﻐﻴﺮ؟$"
 
 RocketHideout_B1F_Text_Grunt5Defeat::
-    .string "Why…?$"
+    .string "ﻟﻤﺎﺫ…؟$"
 
 RocketHideout_B1F_Text_Grunt5PostBattle::
-    .string "Uh-oh, that ruckus somehow opened\n"
-    .string "the door!$"
+    .string "ﺃﻭﻩ، ﺃﻭﻩ، ﺗﻠﻚ ﻀﺠﺔ ﻓﺘﺤﺖ ﺒﺎﺏ\n"
+    .string "ﺑﻄﺮﻳﻘﺔ ﻣﺎ!$"
 

@@ -1,70 +1,67 @@
 CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer::
-    .string "Captured POKéMON are registered\n"
-    .string "with an ID No. and the OT.\p"
-    .string "OT stands for “Original TRAINER” -\n"
-    .string "the TRAINER that caught it first.$"
+    .string "ﺗﺴﺠﻞ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻤﻤﺴﻮﻛﺔ\n"
+    .string "ﺑﺮﻗﻢ ﻫﻮﻳﺔ ﻭﺳﻢ ﻤﺪﺭﺏ ﺍﻷﺻﻠﻲ.\p"
+    .string "ﻭﻟﻤﺪﺭﺏ ﺍﻷﺻﻠﻲ ﻫﻮ ﻤﺪﺭﺏ ﺬﻱ\n"
+    .string "ﺃﻣﺴﻚ ﺒﻮﻛﻴﻤﻮﻥ ﺃﻭﻝ ﻣﺮﺓ.$"
 
 CeladonCity_DepartmentStore_3F_Text_BuddyTradingKangaskhanForHaunter::
-    .string "All right!\p"
-    .string "My buddy's going to trade me his\n"
-    .string "KANGASKHAN for my HAUNTER!$"
+    .string "ﺭﺋﻊ!\p"
+    .string "ﺻﺪﻳﻘﻲ ﺳﻴﺒﺎﺩﻟﻨﻲ ﻛﻨﻐﺴﺨﺎﻥ\n"
+    .string "ﺨﺎﺹ ﺑﻪ ﺑﻬﻮﻧﺘﺮ ﺨﺎﺹ ﺑﻲ!$"
 
 CeladonCity_DepartmentStore_3F_Text_HaunterEvolvedOnTrade::
-    .string "Come on, HAUNTER!\p"
-    .string "I love HAUNTER!\n"
-    .string "I collect them!\p"
-    .string "Huh?\p"
-    .string "HAUNTER turned into a different\n"
-    .string "POKéMON while being traded!$"
+    .string "ﻫﻴﺎ ﻳﺎ ﻫﻮﻧﺘﺮ!\p"
+    .string "ﺃﻧﺎ ﺃﺣﺐ ﻫﻮﻧﺘﺮ! ﺃﺟﻤﻌﻪ!\p"
+    .string "ﻫﺎﻩ؟\p"
+    .string "ﺗﺤﻮﻝ ﻫﻮﻧﺘﺮ ﺇﻟﻰ ﺑﻮﻛﻴﻤﻮﻥ ﺁﺧﺮ\n"
+    .string "ﺃﺛﻨﺎﺀ ﻤﺒﺎﺩﻟﺔ!$"
 
 CeladonCity_DepartmentStore_3F_Text_CanIdentifyTradeMonsByID::
-    .string "You can identify POKéMON you get\n"
-    .string "in trades by their ID Numbers.$"
+    .string "ﻳﻤﻜﻨﻚ ﺗﻤﻴﻴﺰ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺘﻲ\n"
+    .string "ﺗﺤﺼﻞ ﻋﻠﻴﻬﺎ ﻓﻲ ﻤﺒﺎﺩﻻﺕ\p"
+    .string "ﺑﺄﺭﻗﺎﻡ ﻫﻮﻳﺘﻬﺎ.$"
 
 CeladonCity_DepartmentStore_3F_Text_ItsSuperNES::
-    .string "It's a Super NES.$"
+    .string "ﺇﻧﻪ ﺟﻬﺎﺯ ﺳﻮﺑﺮ ﻧﻴﻨﺘﻨﺪﻭ.$"
 
 CeladonCity_DepartmentStore_3F_Text_AnRPG::
-    .string "An RPG!\n"
-    .string "There's no time for that!$"
+    .string "ﻟﻌﺒﺔ ﺃﺩﻭﺭ! ﻻ ﻭﻗﺖ ﻟﺪﻱ ﻟﺬﻟﻚ!$"
 
 CeladonCity_DepartmentStore_3F_Text_SportsGame::
-    .string "A sports game!\n"
-    .string "Dad'll like that!$"
+    .string "ﻟﻌﺒﺔ ﺭﻳﺎﺿﻴﺔ! ﺳﺘﻌﺠﺐ ﺃﺑﻲ!$"
 
 CeladonCity_DepartmentStore_3F_Text_PuzzleGame::
-    .string "A puzzle game!\n"
-    .string "Looks addictive!$"
+    .string "ﻟﻌﺒﺔ ﺃﻟﻐﺎﺯ! ﻳﺒﺪﻭ ﺃﻧﻬﺎ ﺗﺴﺒﺐ\n"
+    .string "ﺍﻹﺩﻣﺎﻥ!$"
 
 CeladonCity_DepartmentStore_3F_Text_FightingGame::
-    .string "A fighting game!\n"
-    .string "Looks tough!$"
+    .string "ﻟﻌﺒﺔ ﻗﺘﺎﻝ! ﺗﺒﺪﻭ ﺻﻌﺒﺔ!$"
 
 CeladonCity_DepartmentStore_3F_Text_TVGameShop::
-    .string "3F: TV GAME SHOP$"
+    .string "ﻄﺎﺑﻖ 3: ﻣﺘﺠﺮ ﺃﻟﻌﺎﺏ ﻔﻴﺪﻳﻮ$"
 
 CeladonCity_DepartmentStore_3F_Text_RedGreenBothArePokemon::
-    .string "Red and Green!\n"
-    .string "Both are POKéMON!$"
+    .string "ﺍﻷﺣﻤﺮ ﻭﻷﺧﻀﺮ! ﻛﻼﻫﻤﺎ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ!$"
 
 Text_CounterTeach::
-    .string "Oh, hi!\n"
-    .string "I finally finished POKéMON.\p"
-    .string "Not done yet? How about I teach\n"
-    .string "you a good move?\p"
-    .string "The move I have in mind is\n"
-    .string "COUNTER.\p"
-    .string "Not like the one I'm leaning on,\n"
-    .string "mind you!$"
+    .string "ﺃﻭﻩ، ﻣﺮﺣﺒﺎ! ﺃﻧﻬﻴﺖ ﻟﻌﺒﺔ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻥ ﺃﺧﻴﺮ.\p"
+    .string "ﻟﻢ {GENDER_M}ﺗﻨﻬﻬﺎ{GENDER_F}ﺗﻨﻬﻴﻬﺎ{GENDER_E} ﺑﻌﺪ؟ ﻣﺎ ﺭﻳﻚ ﺃﻥ\n"
+    .string "ﺃﻋﻠﻤﻚ ﺣﺮﻛﺔ ﺟﻴﺪﺓ؟\p"
+    .string "ﺤﺮﻛﺔ ﺘﻲ ﻓﻲ ﺫﻫﻨﻲ ﻫﻲ ﺭﺩ\n"
+    .string "ﺼﺎﻉ.\p"
+    .string "ﻭﻟﻴﺴﺖ ﻣﺜﻞ ﻤﻨﻀﺪﺓ ﺘﻲ ﺃﺗﻜﺊ\n"
+    .string "ﻋﻠﻴﻬﺎ!$"
 
 Text_CounterDeclined::
-    .string "You're not interested? Come see\n"
-    .string "me if you change your mind.$"
+    .string "ﻻ ﻳﻬﻤﻚ ﺍﻷﻣﺮ؟ {GENDER_M}ﺗﻌﺎﻝ{GENDER_F}ﺗﻌﺎﻟﻲ{GENDER_E} ﺇﻟﻲ ﺇﻥ\n"
+    .string "{GENDER_M}ﻏﻴﺮﺕ{GENDER_F}ﻏﻴﺮﺕ{GENDER_E} ﺭﻳﻚ.$"
 
 Text_CounterWhichMon::
-    .string "Which POKéMON should I teach\n"
-    .string "COUNTER to?$"
+    .string "ﺃﻱ ﺑﻮﻛﻴﻤﻮﻥ ﺗﺮﻳﺪﻧﻲ ﺃﻥ ﺃﻋﻠﻤﻪ\n"
+    .string "ﺭﺩ ﺼﺎﻉ؟$"
 
 Text_CounterTaught::
-    .string "Are you using that COUNTER move\n"
-    .string "I taught your POKéMON?$"
+    .string "ﻫﻞ {GENDER_M}ﺗﺴﺘﺨﺪﻡ{GENDER_F}ﺗﺴﺘﺨﺪﻣﻴﻦ{GENDER_E} ﺣﺮﻛﺔ ﺭﺩ ﺼﺎﻉ\n"
+    .string "ﺘﻲ ﻋﻠﻤﺘﻬﺎ ﻟﺒﻮﻛﻴﻤﻮﻧﻚ؟$"

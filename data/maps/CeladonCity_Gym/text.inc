@@ -1,152 +1,149 @@
 CeladonCity_Gym_Text_ErikaIntro::
-    .string "Hello…\n"
-    .string "Lovely weather, isn't it?\l"
-    .string "It's so pleasant…\p"
-    .string "…Oh, dear…\n"
-    .string "I must have dozed off. Welcome.\p"
-    .string "My name is ERIKA.\n"
-    .string "I am the LEADER of CELADON GYM.\p"
-    .string "I am a student of the art of\n"
-    .string "flower arranging.\p"
-    .string "My POKéMON are solely of the\n"
-    .string "GRASS type.\p"
-    .string "…Oh, I'm sorry, I had no idea that\n"
-    .string "you wished to challenge me.\p"
-    .string "Very well, but I shall not lose.{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "ﻣﺮﺣﺒﺎ… ﺠﻮ ﺟﻤﻴﻞ، ﺃﻟﻴﺲ ﻛﺬﻟﻚ؟\n"
+    .string "ﺇﻧﻪ ﻟﻄﻴﻒ ﺟﺪ…\p"
+    .string "…ﺃﻭﻩ، ﻳﺎ ﺇﻟﻬﻲ… ﻻ ﺑﺪ ﺃﻧﻨﻲ\n"
+    .string "ﻏﻔﻮﺕ. ﺃﻫﻼ ﺑﻚ.\p"
+    .string "ﺍﺳﻤﻲ ﺇﻳﺮﻳﻜﺎ، ﻭﻧﺎ ﻗﺎﺋﺪﺓ ﺻﺎﻟﺔ\n"
+    .string "ﺳﻴﻼﺩﻭﻥ.\p"
+    .string "ﺃﻧﺎ ﺗﻠﻤﻴﺬﺓ ﻓﻲ ﻓﻦ ﺗﻨﺴﻴﻖ\n"
+    .string "ﺰﻫﻮﺭ.\p"
+    .string "ﻭﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ ﻛﻠﻬﺎ ﻣﻦ ﻨﻮﻉ\n"
+    .string "ﻌﺸﺒﻲ.\p"
+    .string "…ﺃﻭﻩ، ﺁﺳﻔﺔ، ﻟﻢ ﺃﻛﻦ ﺃﻋﻠﻢ ﺃﻧﻚ\n"
+    .string "{GENDER_M}ﺟﺌﺖ{GENDER_F}ﺟﺌﺖ{GENDER_E} ﻟﺘﺘﺤﺪﻧﻲ.\p"
+    .string "ﺣﺴﻨﺎ ﺇﺫﻥ، ﻟﻜﻨﻨﻲ ﻟﻦ ﺃﺧﺴﺮ.{PLAY_BGM MUS_ENCOUNTER_GYM_LEADER}$"
 
 CeladonCity_Gym_Text_ErikaDefeat::
-    .string "Oh!\n"
-    .string "I concede defeat.\l"
-    .string "You are remarkably strong.\p"
-    .string "I must confer on you the\n"
-    .string "RAINBOWBADGE.$"
+    .string "ﺃﻭﻩ! ﺃﻗﺮ ﺑﺎﻟﻬﺰﻳﻤﺔ. ﺃﻧﺖ {GENDER_M}ﻗﻮﻱ{GENDER_F}ﻗﻮﻳﺔ{GENDER_E}\n"
+    .string "ﻋﻠﻰ ﻧﺤﻮ ﻻﻓﺖ.\p"
+    .string "ﻻ ﺑﺪ ﺃﻥ ﺃﻣﻨﺤﻚ ﻭﺳﺎﻡ ﻗﻮﺱ ﻗﺰﺡ.$"
 
 CeladonCity_Gym_Text_ErikaPostBattle::
-    .string "You are cataloging POKéMON?\n"
-    .string "I must say I'm impressed.\p"
-    .string "I would never collect POKéMON if\n"
-    .string "they were unattractive.$"
+    .string "{GENDER_M}ﺗﻔﻬﺮﺱ{GENDER_F}ﺗﻔﻬﺮﺳﻴﻦ{GENDER_E} ﺒﻮﻛﻴﻤﻮﻧﺎﺕ؟ ﺃﻋﺘﺮﻑ\n"
+    .string "ﺃﻧﻨﻲ ﻣﻌﺠﺒﺔ.\p"
+    .string "ﺃﻣﺎ ﺃﻧﺎ، ﻓﻤﺎ ﻛﻨﺖ ﻷﺟﻤﻊ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻟﻮ ﻟﻢ ﺗﻜﻦ ﺟﻤﻴﻠﺔ.$"
 
 CeladonCity_Gym_Text_ExplainRainbowBadgeTakeThis::
-    .string "The RAINBOWBADGE will make\n"
-    .string "POKéMON up to Lv. 50 obey.\p"
-    .string "It also allows POKéMON to use\n"
-    .string "STRENGTH in and out of battle.\p"
-    .string "Please also take this with you.$"
+    .string "ﻭﺳﺎﻡ ﻗﻮﺱ ﻗﺰﺡ ﻳﺠﻌﻞ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺣﺘﻰ ﻤﺴﺘﻮﻯ 50\p"
+    .string "ﺗﻄﻴﻌﻚ.\p"
+    .string "ﻛﻤﺎ ﻳﺘﻴﺢ ﻟﻠﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﺍﺳﺘﺨﺪﻡ ﻗﻮﺓ ﺟﺒﺎﺭﺓ ﺩﺧﻞ ﻨﺰﻝ\p"
+    .string "ﻭﺧﺎﺭﺟﻪ.\p"
+    .string "{GENDER_M}ﻭﺧﺬ{GENDER_F}ﻭﺧﺬﻱ{GENDER_E} ﻫﺬ ﻣﻌﻚ ﺃﻳﻀﺎ، ﻣﻦ ﻓﻀﻠﻚ.$"
 
 CeladonCity_Gym_Text_ReceivedTM19FromErika::
-    .string "{PLAYER} received TM19\n"
-    .string "from ERIKA.$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻘﺮﺹ ﺘﻘﻨﻲ\n"
+    .string "19 ﻣﻦ ﺇﻳﺮﻳﻜﺎ.$"
 
 CeladonCity_Gym_Text_ExplainTM19::
-    .string "TM19 contains GIGA DRAIN.\p"
-    .string "Half the damage it inflicts is\n"
-    .string "drained to heal your POKéMON.\p"
-    .string "Wouldn't you agree that it's a\n"
-    .string "wonderful move?$"
+    .string "ﻓﻲ ﻘﺮﺹ ﺘﻘﻨﻲ 19 ﺣﺮﻛﺔ\n"
+    .string "ﺍﻣﺘﺼﺎﺹ ﺟﺎﺭﻑ.\p"
+    .string "ﻧﺼﻒ ﻀﺮﺭ ﺬﻱ ﺗﻠﺤﻘﻪ ﻳﻌﻮﺩ\n"
+    .string "ﻟﻴﺸﻔﻲ ﺑﻮﻛﻴﻤﻮﻧﻚ.\p"
+    .string "ﺃﻻ {GENDER_M}ﺗﻮﻓﻘﻨﻲ{GENDER_F}ﺗﻮﻓﻘﻴﻨﻨﻲ{GENDER_E} ﺃﻧﻬﺎ ﺣﺮﻛﺔ\n"
+    .string "ﺭﺋﻌﺔ؟$"
 
 CeladonCity_Gym_Text_ShouldMakeRoomForThis::
-    .string "You should make room for this.$"
+    .string "ﻋﻠﻴﻚ ﺃﻥ {GENDER_M}ﺗﻔﺴﺢ{GENDER_F}ﺗﻔﺴﺤﻲ{GENDER_E} ﻣﻜﺎﻧﺎ ﻟﻬﺬ.$"
 
 CeladonCity_Gym_Text_KayIntro::
-    .string "I should tell you about this GYM.\p"
-    .string "Only real ladies are allowed in\n"
-    .string "here!$"
+    .string "ﻋﻠﻲ ﺃﻥ ﺃﺧﺒﺮﻙ ﻋﻦ ﻫﺬﻩ ﺼﺎﻟﺔ.\p"
+    .string "ﻻ ﻳﺴﻤﺢ ﻫﻨﺎ ﺇﻻ ﻟﻠﺴﻴﺪﺕ\n"
+    .string "ﺮﻗﻴﺎﺕ!$"
 
 CeladonCity_Gym_Text_KayDefeat::
-    .string "You're too rough!$"
+    .string "ﺃﻧﺖ {GENDER_M}ﺧﺸﻦ{GENDER_F}ﺧﺸﻨﺔ{GENDER_E} ﺟﺪ!$"
 
 CeladonCity_Gym_Text_KayPostBattle::
-    .string "Bleaah!\n"
-    .string "I hope ERIKA wipes you out!$"
+    .string "ﺑﻠﻴﻪ! ﺃﺗﻤﻨﻰ ﺃﻥ ﺗﺴﺤﻘﻚ\n"
+    .string "ﺇﻳﺮﻳﻜﺎ!$"
 
 CeladonCity_Gym_Text_BridgetIntro::
-    .string "Oh, welcome.\n"
-    .string "I was getting bored.$"
+    .string "ﺃﻭﻩ، ﺃﻫﻼ ﺑﻚ. ﻛﻨﺖ ﻗﺪ ﺑﺪﺕ ﺃﺷﻌﺮ\n"
+    .string "ﺑﺎﻟﻤﻠﻞ.$"
 
 CeladonCity_Gym_Text_BridgetDefeat::
-    .string "My makeup!$"
+    .string "ﺯﻳﻨﺘﻲ!$"
 
 CeladonCity_Gym_Text_BridgetPostBattle::
-    .string "GRASS-type POKéMON are tough\n"
-    .string "against the WATER type.\p"
-    .string "They also have an edge on ROCK-\n"
-    .string "and GROUND-type POKéMON.$"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻌﺸﺒﻴﺔ ﻗﻮﻳﺔ ﺃﻣﺎﻡ\n"
+    .string "ﻤﺎﺋﻴﺔ.\p"
+    .string "ﻭﻟﻬﺎ ﺃﻓﻀﻠﻴﺔ ﺃﻳﻀﺎ ﻋﻠﻰ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺼﺨﺮﻳﺔ ﻭﻷﺭﺿﻴﺔ.$"
 
 CeladonCity_Gym_Text_TinaIntro::
-    .string "…Weren't you peeking in here\n"
-    .string "earlier?$"
+    .string "…ﺃﻟﻢ ﺗﻜﻦ {GENDER_M}ﺗﺘﻠﺼﺺ{GENDER_F}ﺗﺘﻠﺼﺼﻴﻦ{GENDER_E} ﻋﻠﻴﻨﺎ ﻗﺒﻞ\n"
+    .string "ﻗﻠﻴﻞ؟$"
 
 CeladonCity_Gym_Text_TinaDefeat::
-    .string "You're an eye-opener!$"
+    .string "ﻟﻘﺪ ﻓﺘﺤﺖ ﻋﻴﻨﻲ!$"
 
 CeladonCity_Gym_Text_TinaPostBattle::
-    .string "Oh, you were looking at ERIKA…\n"
-    .string "You weren't looking at me…$"
+    .string "ﺁﻩ، ﻛﻨﺖ {GENDER_M}ﺗﻨﻈﺮ{GENDER_F}ﺗﻨﻈﺮﻳﻦ{GENDER_E} ﺇﻟﻰ ﺇﻳﺮﻳﻜﺎ…\n"
+    .string "ﻟﻢ ﺗﻜﻦ {GENDER_M}ﺗﻨﻈﺮ{GENDER_F}ﺗﻨﻈﺮﻳﻦ{GENDER_E} ﺇﻟﻲ…$"
 
 CeladonCity_Gym_Text_TamiaIntro::
-    .string "Look, look!\n"
-    .string "See my POKéMON!\p"
-    .string "I like the GRASS type.\n"
-    .string "I like how they're easy to raise.$"
+    .string "{GENDER_M}ﺍﻧﻈﺮ{GENDER_F}ﺍﻧﻈﺮﻱ{GENDER_E}، {GENDER_M}ﺍﻧﻈﺮ!{GENDER_F}ﺍﻧﻈﺮﻱ!{GENDER_E} ﻫﺬﻩ\n"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ!\p"
+    .string "ﺃﺣﺐ ﻨﻮﻉ ﻌﺸﺒﻲ، ﻭﺣﺐ ﺃﻥ\n"
+    .string "ﺗﺮﺑﻴﺘﻪ ﺳﻬﻠﺔ.$"
 
 CeladonCity_Gym_Text_TamiaDefeat::
-    .string "No!$"
+    .string "ﻻ!$"
 
 CeladonCity_Gym_Text_TamiaPostBattle::
-    .string "We only use GRASS-type POKéMON at\n"
-    .string "our GYM.\p"
-    .string "Why? We also use them for making\n"
-    .string "flower arrangements!$"
+    .string "ﻻ ﻧﺴﺘﺨﺪﻡ ﻓﻲ ﺻﺎﻟﺘﻨﺎ ﺇﻻ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻌﺸﺒﻴﺔ.\p"
+    .string "ﻟﻤﺎﺫ؟ ﻷﻧﻨﺎ ﻧﺴﺘﻌﻴﻦ ﺑﻬﺎ ﺃﻳﻀﺎ\n"
+    .string "ﻓﻲ ﺗﻨﺴﻴﻖ ﺰﻫﻮﺭ!$"
 
 CeladonCity_Gym_Text_LisaIntro::
-    .string "Oh, hey!\p"
-    .string "We don't like BUG- or FIRE-type\n"
-    .string "POKéMON in here!$"
+    .string "ﺃﻭﻩ، ﻣﻬﻼ!\p"
+    .string "ﻻ ﻧﺤﺐ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺤﺸﺮﻳﺔ ﻭﻻ\n"
+    .string "ﻨﺎﺭﻳﺔ ﻫﻨﺎ!$"
 
 CeladonCity_Gym_Text_LisaDefeat::
-    .string "Oh!\n"
-    .string "You!$"
+    .string "ﺃﻭﻩ! ﺃﻧﺖ!$"
 
 CeladonCity_Gym_Text_LisaPostBattle::
-    .string "Our LEADER ERIKA might be quiet,\n"
-    .string "but she's famous around here.$"
+    .string "ﻗﺎﺋﺪﺗﻨﺎ ﺇﻳﺮﻳﻜﺎ ﻫﺎﺩﺋﺔ، ﻟﻜﻨﻬﺎ\n"
+    .string "ﻣﺸﻬﻮﺭﺓ ﻓﻲ ﻤﻨﻄﻘﺔ ﻛﻠﻬﺎ.$"
 
 CeladonCity_Gym_Text_LoriIntro::
-    .string "Pleased to meet you.\n"
-    .string "My hobby is POKéMON training.$"
+    .string "ﺗﺸﺮﻓﺖ ﺑﻠﻘﺎﺋﻚ. ﻫﻮﻳﺘﻲ ﺗﺪﺭﻳﺐ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.$"
 
 CeladonCity_Gym_Text_LoriDefeat::
-    .string "Oh!\n"
-    .string "Splendid!$"
+    .string "ﺃﻭﻩ! ﺭﺋﻊ!$"
 
 CeladonCity_Gym_Text_LoriPostBattle::
-    .string "I have a blind date coming up.\n"
-    .string "I have to learn to be polite,\l"
-    .string "especially if I have to battle.$"
+    .string "ﺳﺄﻟﺘﻘﻲ ﻗﺮﻳﺒﺎ ﺑﺄﻫﻞ ﺧﻄﻴﺒﻲ،\n"
+    .string "ﻓﻌﻠﻲ ﺃﻥ ﺃﺗﻌﻠﻢ ﺍﻷﺩﺏ، ﺧﺎﺻﺔ ﺇﻥ\p"
+    .string "ﺍﺿﻄﺮﺭﺕ ﺇﻟﻰ ﻨﺰﻝ.$"
 
 CeladonCity_Gym_Text_MaryIntro::
-    .string "Welcome to CELADON GYM!\p"
-    .string "You'd better not underestimate\n"
-    .string "the nice ladies here.$"
+    .string "ﺃﻫﻼ ﺑﻚ ﻓﻲ ﺻﺎﻟﺔ ﺳﻴﻼﺩﻭﻥ!\p"
+    .string "ﻣﻦ ﺍﻷﻓﻀﻞ ﺃﻻ {GENDER_M}ﺗﺴﺘﻬﻴﻦ{GENDER_F}ﺗﺴﺘﻬﻴﻨﻲ{GENDER_E}\n"
+    .string "ﺑﺎﻟﺴﻴﺪﺕ ﻠﻄﻴﻔﺎﺕ ﻫﻨﺎ.$"
 
 CeladonCity_Gym_Text_MaryDefeat::
-    .string "Oh!\n"
-    .string "Beaten!$"
+    .string "ﺃﻭﻩ! ﻫﺰﻣﺖ!$"
 
 CeladonCity_Gym_Text_MaryPostBattle::
-    .string "I didn't bring my best POKéMON.\n"
-    .string "Wait until next time!$"
+    .string "ﻟﻢ ﺃﺣﻀﺮ ﺃﻓﻀﻞ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ.\n"
+    .string "{GENDER_M}ﺍﻧﺘﻈﺮ{GENDER_F}ﺍﻧﺘﻈﺮﻱ{GENDER_E} ﻤﺮﺓ ﻘﺎﺩﻣﺔ!$"
 
 CeladonCity_Gym_Text_GymStatue::
-    .string "CELADON POKéMON GYM\n"
-    .string "LEADER: ERIKA\p"
-    .string "WINNING TRAINERS:\n"
+    .string "ﺻﺎﻟﺔ ﺑﻮﻛﻴﻤﻮﻥ ﺳﻴﻼﺩﻭﻥ\n"
+    .string "ﻘﺎﺋﺪﺓ: ﺇﻳﺮﻳﻜﺎ\p"
+    .string "ﻤﺪﺭﺑﻮﻥ ﻔﺎﺋﺰﻭﻥ:\n"
     .string "{RIVAL}$"
 
 CeladonCity_Gym_Text_GymStatuePlayerWon::
-    .string "CELADON POKéMON GYM\n"
-    .string "LEADER: ERIKA\p"
-    .string "WINNING TRAINERS:\n"
-    .string "{RIVAL}, {PLAYER}$"
+    .string "ﺻﺎﻟﺔ ﺑﻮﻛﻴﻤﻮﻥ ﺳﻴﻼﺩﻭﻥ\n"
+    .string "ﻘﺎﺋﺪﺓ: ﺇﻳﺮﻳﻜﺎ\p"
+    .string "ﻤﺪﺭﺑﻮﻥ ﻔﺎﺋﺰﻭﻥ:\n"
+    .string "{RIVAL}، {PLAYER}$"
 

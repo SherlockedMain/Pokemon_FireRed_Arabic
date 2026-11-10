@@ -1,52 +1,56 @@
 CeladonCity_Condominiums_RoofRoom_Text_TheresNothingIDontKnow::
-    .string "There is nothing that I don't know,\n"
-    .string "like I wrote on the blackboard.\p"
-    .string "I know about the world of POKéMON\n"
-    .string "in your GAME BOY ADVANCE!\p"
-    .string "Get together with your friends and\n"
-    .string "enjoy trading POKéMON!$"
+    .string "ﻻ ﻳﻮﺟﺪ ﺷﻲﺀ ﻻ ﺃﻋﺮﻓﻪ، ﻛﻤﺎ ﻛﺘﺒﺖ\n"
+    .string "ﻋﻠﻰ ﺴﺒﻮﺭﺓ.\p"
+    .string "ﺃﻋﺮﻑ ﻛﻞ ﺷﻲﺀ ﻋﻦ ﻋﺎﻟﻢ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻓﻲ ﺟﻬﺎﺯ ﻏﻴﻢ ﺑﻮﻱ\p"
+    .string "ﺃﺩﻓﺎﻧﺲ ﺨﺎﺹ ﺑﻚ!\p"
+    .string "{GENDER_M}ﺍﺟﺘﻤﻊ{GENDER_F}ﺍﺟﺘﻤﻌﻲ{GENDER_E} ﺑﺄﺻﺪﻗﺎﺋﻚ {GENDER_M}ﻭﺳﺘﻤﺘﻊ{GENDER_F}ﻭﺳﺘﻤﺘﻌﻲ{GENDER_E}\n"
+    .string "ﺑﻤﺒﺎﺩﻟﺔ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ!$"
 
 CeladonCity_Condominiums_RoofRoom_Text_ObtainedAnEevee::
-    .string "{PLAYER} obtained an EEVEE!$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﺇﻳﻔﻲ!$"
 
 CeladonCity_Condominiums_RoofRoom_Text_BoxIsFull::
     .string "ポケモンが　いっぱいだ\n"
     .string "ボックスを　かえて　きなさい$"
 
 CeladonCity_Condominiums_RoofRoom_Text_WirelessAdapterLecture::
-    .string "POKéMON Lecture\p"
-    .string "Playing with the Wireless Adapter$"
+    .string "ﺩﺭﺱ ﻋﻦ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﻠﻌﺐ ﺑﺎﻟﻤﺤﻮﻝ ﻼﺳﻠﻜﻲ$"
 
 CeladonCity_Condominiums_RoofRoom_Text_ReadWhichHeading::
-    .string "Which heading do you want to read?$"
+    .string "ﺃﻱ ﻋﻨﻮﻥ {GENDER_M}ﺗﺮﻳﺪ{GENDER_F}ﺗﺮﻳﺪﻳﻦ{GENDER_E} ﺃﻥ {GENDER_M}ﺗﻘﺮ؟{GENDER_F}ﺗﻘﺮﺋﻲ؟{GENDER_E}$"
 
 CeladonCity_Condominiums_RoofRoom_Text_ExplainWirelessClub::
-    .string "The POKéMON WIRELESS CLUB is\n"
-    .string "upstairs at any POKéMON CENTER.\p"
-    .string "Visit one to link up with friend(s)\n"
-    .string "using your Wireless Adapter.$"
+    .string "ﻧﺎﺩﻱ ﺒﻮﻛﻴﻤﻮﻥ ﻼﺳﻠﻜﻲ ﻓﻲ\n"
+    .string "ﻄﺎﺑﻖ ﻌﻠﻮﻱ ﻣﻦ ﺃﻱ ﻣﺮﻛﺰ\p"
+    .string "ﻟﻠﺒﻮﻛﻴﻤﻮﻥ.\p"
+    .string "{GENDER_M}ﺯﺭﻩ{GENDER_F}ﺯﻭﺭﻳﻪ{GENDER_E} ﻟﺘﺘﺼﻞ ﺑﺄﺻﺪﻗﺎﺋﻚ ﻋﺒﺮ\n"
+    .string "ﻤﺤﻮﻝ ﻼﺳﻠﻜﻲ.$"
 
 CeladonCity_Condominiums_RoofRoom_Text_ExplainDirectCorner::
-    .string "To link only with a friend, go to\n"
-    .string "the DIRECT CORNER.\p"
-    .string "It is the right counter at the\n"
-    .string "POKéMON WIRELESS CLUB.\p"
-    .string "Go into the TRADE CORNER or the\n"
-    .string "COLOSSEUM with your friend.$"
+    .string "ﻟﻼﺗﺼﺎﻝ ﺑﺼﺪﻳﻖ ﻭﺣﺪ ﻓﻘﻂ، {GENDER_M}ﺍﺫﻫﺐ{GENDER_F}ﺍﺫﻫﺒﻲ{GENDER_E}\n"
+    .string "ﺇﻟﻰ ﺭﻛﻦ ﺍﻻﺗﺼﺎﻝ.\p"
+    .string "ﺇﻧﻪ ﻤﻜﺘﺐ ﺍﻷﻳﻤﻦ ﻓﻲ ﻧﺎﺩﻱ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻼﺳﻠﻜﻲ.\p"
+    .string "{GENDER_M}ﺍﺩﺧﻞ{GENDER_F}ﺍﺩﺧﻠﻲ{GENDER_E} ﻣﻊ ﺻﺪﻳﻘﻚ ﺭﻛﻦ ﻤﺒﺎﺩﻟﺔ\n"
+    .string "ﺃﻭ ﺤﻠﺒﺔ.$"
 
 CeladonCity_Condominiums_RoofRoom_Text_ExplainUnionRoom::
-    .string "To link and communicate with\n"
-    .string "anyone, go to the UNION ROOM.\p"
-    .string "It is the left counter at the\n"
-    .string "POKéMON WIRELESS CLUB.\p"
-    .string "Go to the UNION ROOM and enjoy\n"
-    .string "meeting other TRAINERS.$"
+    .string "ﻟﻼﺗﺼﺎﻝ ﻭﻟﺘﻮﺻﻞ ﻣﻊ ﺃﻱ ﺃﺣﺪ،\n"
+    .string "{GENDER_M}ﺍﺫﻫﺐ{GENDER_F}ﺍﺫﻫﺒﻲ{GENDER_E} ﺇﻟﻰ ﻏﺮﻓﺔ ﺍﻻﺗﺤﺎﺩ.\p"
+    .string "ﺇﻧﻬﺎ ﻤﻜﺘﺐ ﺍﻷﻳﺴﺮ ﻓﻲ ﻧﺎﺩﻱ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻥ ﻼﺳﻠﻜﻲ.\p"
+    .string "{GENDER_M}ﺍﺫﻫﺐ{GENDER_F}ﺍﺫﻫﺒﻲ{GENDER_E} ﺇﻟﻰ ﻏﺮﻓﺔ ﺍﻻﺗﺤﺎﺩ\n"
+    .string "{GENDER_M}ﻭﺳﺘﻤﺘﻊ{GENDER_F}ﻭﺳﺘﻤﺘﻌﻲ{GENDER_E} ﺑﻠﻘﺎﺀ ﻣﺪﺭﺑﻴﻦ\p"
+    .string "ﺁﺧﺮﻳﻦ.$"
 
 CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs::
-    .string "It's a pamphlet on TMs.\p"
+    .string "ﺇﻧﻪ ﻛﺘﻴﺐ ﻋﻦ ﺍﻷﻗﺮﺹ ﺘﻘﻨﻴﺔ.\p"
     .string "… …\p"
-    .string "There are fifty TMs in all.\p"
-    .string "There are also seven HMs that\n"
-    .string "can be used repeatedly.\p"
-    .string "SILPH CO.$"
+    .string "ﻫﻨﺎﻙ ﺧﻤﺴﻮﻥ ﻗﺮﺻﺎ ﺗﻘﻨﻴﺎ ﻓﻲ\n"
+    .string "ﻤﺠﻤﻮﻉ.\p"
+    .string "ﻭﻫﻨﺎﻙ ﺃﻳﻀﺎ ﺳﺒﻌﺔ ﺃﻗﺮﺹ ﺧﺎﺻﺔ\n"
+    .string "ﻳﻤﻜﻦ ﺍﺳﺘﺨﺪﻣﻬﺎ ﻣﺮﺭ.\p"
+    .string "ﺷﺮﻛﺔ ﺳﻴﻠﻒ$"
 

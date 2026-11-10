@@ -1,33 +1,33 @@
 CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon::
-    .string "I sure do fancy that PORYGON!\n"
-    .string "But, it's hard to win at slots!$"
+    .string "ﻳﻌﺠﺒﻨﻲ ﺑﻮﺭﻳﻐﻮﻥ ﻛﺜﻴﺮ! ﻟﻜﻦ\n"
+    .string "ﻔﻮﺯ ﻓﻲ ﻫﺬﻩ ﺍﻵﻻﺕ ﺻﻌﺐ!$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday::
-    .string "Gahaha! I raked it in today!\n"
-    .string "If only every day were like this…$"
+    .string "ﻏﺎﻫﺎﻫﺎ! ﺟﻤﻌﺖ ﻜﺜﻴﺮ ﻴﻮﻡ!\n"
+    .string "ﻟﻴﺖ ﻛﻞ ﺍﻷﻳﺎﻡ ﻫﻜﺬ…$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_CoinCaseRequired::
-    .string "A COIN CASE is required…$"
+    .string "ﻳﻠﺰﻣﻚ ﻣﺤﻔﻈﺔ ﻧﻘﻮﺩ…$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_WeExchangeCoinsForPrizes::
-    .string "We exchange your COINS for prizes.$"
+    .string "ﻧﺴﺘﺒﺪﻝ ﻗﻄﻌﻚ ﺑﺠﻮﺋﺰ.$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_WhichPrize::
-    .string "Which prize would you like?$"
+    .string "ﺃﻱ ﺟﺎﺋﺰﺓ {GENDER_M}ﺗﺮﻳﺪ؟{GENDER_F}ﺗﺮﻳﺪﻳﻦ؟{GENDER_E}$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_HereYouGo::
     .string "はい どうぞ$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_YouWantPrize::
-    .string "So, you want the {STR_VAR_1}?$"
+    .string "ﺇﺫﻥ، {GENDER_M}ﺗﺮﻳﺪ{GENDER_F}ﺗﺮﻳﺪﻳﻦ{GENDER_E} {STR_VAR_1}؟$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_YouWantTM::
-    .string "Okay, a TM of {STR_VAR_2}\n"
-    .string "is what you want?$"
+    .string "ﺣﺴﻨﺎ، {GENDER_M}ﺗﺮﻳﺪ{GENDER_F}ﺗﺮﻳﺪﻳﻦ{GENDER_E} ﻗﺮﺻﺎ ﺗﻘﻨﻴﺎ ﻓﻴﻪ\n"
+    .string "{STR_VAR_2}؟$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_NeedMoreCoins::
-    .string "Sorry, you'll need more COINS\n"
-    .string "than that.$"
+    .string "ﺁﺳﻒ، ﺗﺤﺘﺎﺝ ﺇﻟﻰ ﻗﻄﻊ ﺃﻛﺜﺮ ﻣﻦ\n"
+    .string "ﻫﺬ.$"
 
 CeladonCity_GameCorner_PrizeRoom_Text_OopsNotEnoughRoom::
     .string "おきゃくさん もう もてないよ$"

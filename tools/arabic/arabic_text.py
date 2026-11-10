@@ -87,7 +87,7 @@ def wrap_pairs(text, max_width, font='normal'):
     for raw in text.split('\n'):
         indent = raw[:len(raw) - len(raw.lstrip(' '))]
         # a gender marker [[a b|c d]] may hold spaces: keep it as one unbreakable word
-        words = re.findall(r'(?:\[\[[^\]]*\]\]|[^ ])+', raw.strip(' ')) if raw.strip() else ['']
+        words = re.findall(r'(?:\[\[[^\]]*\]\]|\{[^}]*\}|[^ ])+', raw.strip(' ')) if raw.strip() else ['']   # {codes with spaces} stay whole
         cur, cur_raw = indent, indent
         for wd in words:
             sw = shape(wd)

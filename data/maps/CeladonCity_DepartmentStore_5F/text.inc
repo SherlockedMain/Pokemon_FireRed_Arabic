@@ -1,23 +1,21 @@
 CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers::
-    .string "POKéMON stat enhancers can be\n"
-    .string "bought only here.\p"
-    .string "HP UP increases the base HP of a\n"
-    .string "POKéMON.\p"
-    .string "CALCIUM raises the base SP. ATK\n"
-    .string "stat of one POKéMON.\p"
-    .string "ZINC boosts the base SP. DEF stat\n"
-    .string "of one POKéMON.\p"
-    .string "CARBOS enhances the base SPEED\n"
-    .string "stat.$"
+    .string "ﻣﻌﺰﺯﺕ ﻗﺪﺭﺕ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻻ\n"
+    .string "ﺗﺒﺎﻉ ﺇﻻ ﻫﻨﺎ.\p"
+    .string "ﺯﻳﺎﺩﺓ ﺼﺤﺔ ﻳﺮﻓﻊ HP ﺍﻷﺳﺎﺳﻴﺔ\n"
+    .string "ﻟﻠﺒﻮﻛﻴﻤﻮﻥ.\p"
+    .string "ﻛﺎﻟﺴﻴﻮﻡ ﻳﺮﻓﻊ ﻬﺠﻮﻡ ﺨﺎﺹ\n"
+    .string "ﺍﻷﺳﺎﺳﻲ ﻟﺒﻮﻛﻴﻤﻮﻥ ﻭﺣﺪ.\p"
+    .string "ﺰﻧﻚ ﻳﻌﺰﺯ ﺪﻓﺎﻉ ﺨﺎﺹ ﺍﻷﺳﺎﺳﻲ\n"
+    .string "ﻟﺒﻮﻛﻴﻤﻮﻥ ﻭﺣﺪ.\p"
+    .string "ﻛﺎﺭﺑﻮﺱ ﻳﻘﻮﻱ ﺴﺮﻋﺔ ﺍﻷﺳﺎﺳﻴﺔ.$"
 
 CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers::
-    .string "I'm here for POKéMON stat\n"
-    .string "enhancers.\p"
-    .string "PROTEIN increases the base ATTACK\n"
-    .string "power.\p"
-    .string "IRON increases the base DEFENSE\n"
-    .string "stat.$"
+    .string "ﺟﺌﺖ ﻣﻦ ﺃﺟﻞ ﻣﻌﺰﺯﺕ ﻗﺪﺭﺕ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ.\p"
+    .string "ﺑﺮﻭﺗﻴﻦ ﻳﺮﻓﻊ ﻗﻮﺓ ﻬﺠﻮﻡ\n"
+    .string "ﺍﻷﺳﺎﺳﻴﺔ.\p"
+    .string "ﺣﺪﻳﺪ ﻳﺮﻓﻊ ﺪﻓﺎﻉ ﺍﻷﺳﺎﺳﻲ.$"
 
 CeladonCity_DepartmentStore_5F_Text_Drugstore::
-    .string "5F: DRUGSTORE$"
+    .string "ﻄﺎﺑﻖ 5: ﺼﻴﺪﻟﻴﺔ$"
 

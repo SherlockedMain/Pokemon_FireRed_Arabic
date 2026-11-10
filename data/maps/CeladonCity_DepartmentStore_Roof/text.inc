@@ -1,82 +1,77 @@
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyGiveHerDrink::
-    .string "I'm thirsty!\n"
-    .string "I want something to drink!\p"
-    .string "{FONT_NORMAL}Give her a drink?$"
+    .string "ﺃﻧﺎ ﻋﻄﺸﺎﻧﺔ! ﺃﺭﻳﺪ ﺷﻴﺌﺎ ﺃﺷﺮﺑﻪ!\p"
+    .string "{FONT_NORMAL}{GENDER_M}ﺃﺗﻌﻄﻴﻬﺎ{GENDER_F}ﺃﺗﻌﻄﻴﻨﻬﺎ{GENDER_E} ﺷﺮﺑﺎ؟$"
 
 CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink::
-    .string "Give her which drink?$"
+    .string "ﺃﻱ ﺷﺮﺏ {GENDER_M}ﺳﺘﻌﻄﻴﻬﺎ؟{GENDER_F}ﺳﺘﻌﻄﻴﻨﻬﺎ؟{GENDER_E}$"
 
 CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis::
-    .string "Yay!\p"
-    .string "FRESH WATER!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
+    .string "ﻳﺎﻱ!\p"
+    .string "ﻣﻴﺎﻩ ﻣﻌﺪﻧﻴﺔ!\p"
+    .string "ﺷﻜﺮ ﻟﻚ! {GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻫﺬﻩ ﻣﻨﻲ!$"
 
 Text_ReceivedItemFromLittleGirl::
-    .string "{PLAYER} received a {STR_VAR_2}\n"
-    .string "from the little girl.$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ {STR_VAR_2}\n"
+    .string "ﻣﻦ ﻔﺘﺎﺓ ﺼﻐﻴﺮﺓ.$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM16::
-    .string "TM16 contains LIGHT SCREEN.\p"
-    .string "It's a move that weakens the power\n"
-    .string "of special attacks by your foe.$"
+    .string "ﻓﻲ ﻘﺮﺹ ﺘﻘﻨﻲ 16 ﺣﺮﻛﺔ ﺟﺪﺭ\n"
+    .string "ﻀﻮﺀ.\p"
+    .string "ﺣﺮﻛﺔ ﺗﻀﻌﻒ ﻗﻮﺓ ﻬﺠﻤﺎﺕ ﺨﺎﺻﺔ\n"
+    .string "ﺘﻲ ﻳﺸﻨﻬﺎ ﺧﺼﻤﻚ.$"
 
 CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis::
-    .string "Yay!\p"
-    .string "SODA POP!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
+    .string "ﻳﺎﻱ!\p"
+    .string "ﻣﺸﺮﻭﺏ ﻏﺎﺯﻱ!\p"
+    .string "ﺷﻜﺮ ﻟﻚ! {GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻫﺬﻩ ﻣﻨﻲ!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM20::
-    .string "TM20 contains SAFEGUARD.\p"
-    .string "It's a move that prevents status\n"
-    .string "problems among your POKéMON.$"
+    .string "ﻓﻲ ﻘﺮﺹ ﺘﻘﻨﻲ 20 ﺣﺮﻛﺔ ﺣﺮﺯ\n"
+    .string "ﺣﺎﻡ.\p"
+    .string "ﺣﺮﻛﺔ ﺗﺤﻤﻲ ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ ﻣﻦ\n"
+    .string "ﺤﺎﻻﺕ ﺴﻴﺌﺔ.$"
 
 CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis::
-    .string "Yay!\p"
-    .string "LEMONADE!\p"
-    .string "Thank you!\n"
-    .string "You can have this from me!$"
+    .string "ﻳﺎﻱ!\p"
+    .string "ﻋﺼﻴﺮ ﻠﻴﻤﻮﻥ!\p"
+    .string "ﺷﻜﺮ ﻟﻚ! {GENDER_M}ﺧﺬ{GENDER_F}ﺧﺬﻱ{GENDER_E} ﻫﺬﻩ ﻣﻨﻲ!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM33::
-    .string "TM33 contains REFLECT.\p"
-    .string "It's a move that weakens the power\n"
-    .string "of physical attacks by your foe.$"
+    .string "ﻓﻲ ﻘﺮﺹ ﺘﻘﻨﻲ 33 ﺣﺮﻛﺔ ﺟﺪﺭ\n"
+    .string "ﻋﺎﻛﺲ.\p"
+    .string "ﺣﺮﻛﺔ ﺗﻀﻌﻒ ﻗﻮﺓ ﻬﺠﻤﺎﺕ ﺠﺴﺪﻳﺔ\n"
+    .string "ﺘﻲ ﻳﺸﻨﻬﺎ ﺧﺼﻤﻚ.$"
 
 CeladonCity_DepartmentStore_Roof_Text_DontHaveSpaceForThis::
-    .string "You don't have space for this!$"
+    .string "ﻟﻴﺲ ﻣﻌﻚ ﻣﻜﺎﻥ ﻟﻬﺬ!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll::
-    .string "No, thank you!\n"
-    .string "I'm not thirsty after all!$"
+    .string "ﻻ، ﺷﻜﺮ! ﻟﺴﺖ ﻋﻄﺸﺎﻧﺔ ﻓﻲ\n"
+    .string "ﻨﻬﺎﻳﺔ!$"
 
 CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature::
-    .string "My sister is a TRAINER, believe it\n"
-    .string "or not.\p"
-    .string "But, she's so immature, she drives\n"
-    .string "me nuts!$"
+    .string "ﺃﺧﺘﻲ ﻣﺪﺭﺑﺔ، ﺻﺪﻕ ﺃﻭ ﻻ ﺗﺼﺪﻕ.\p"
+    .string "ﻟﻜﻨﻬﺎ ﻃﻔﻮﻟﻴﺔ ﺟﺪ، ﺗﻜﺎﺩ\n"
+    .string "ﺗﻔﻘﺪﻧﻲ ﺻﻮﺑﻲ!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink::
-    .string "I'm thirsty!\n"
-    .string "I want something to drink!$"
+    .string "ﺃﻧﺎ ﻋﻄﺸﺎﻧﺔ! ﺃﺭﻳﺪ ﺷﻴﺌﺎ ﺃﺷﺮﺑﻪ!$"
 
 CeladonCity_DepartmentStore_Roof_Text_FloorSign::
-    .string "ROOFTOP SQUARE:\n"
-    .string "VENDING MACHINES$"
+    .string "ﺳﺎﺣﺔ ﺴﻄﺢ: ﺁﻻﺕ ﺒﻴﻊ$"
 
 CeladonCity_DepartmentStore_Roof_Text_VendingMachineWhatDoesItHave::
-    .string "A vending machine!\n"
-    .string "What does it have?$"
+    .string "ﺁﻟﺔ ﺑﻴﻊ! ﻣﺎﺫ ﻓﻴﻬﺎ؟$"
 
 CeladonCity_DepartmentStore_Roof_Text_NotEnoughMoney::
-    .string "Oops, not enough money!$"
+    .string "ﺃﻭﺑﺲ، ﻤﺎﻝ ﻻ ﻳﻜﻔﻲ!$"
 
 CeladonCity_DepartmentStore_Roof_Text_DrinkCanPoppedOut::
-    .string "A can of {STR_VAR_1} popped out!$"
+    .string "ﺧﺮﺟﺖ ﻋﻠﺒﺔ {STR_VAR_1}!$"
 
 CeladonCity_DepartmentStore_Roof_Text_NoMoreRoomForStuff::
-    .string "There's no more room for stuff!$"
+    .string "ﻟﻢ ﻳﻌﺪ ﻫﻨﺎﻙ ﻣﻜﺎﻥ ﻟﻸﻏﺮﺽ!$"
 
 CeladonCity_DepartmentStore_Roof_Text_NotThirsty::
-    .string "Not thirsty!$"
+    .string "ﻟﺴﺖ {GENDER_M}ﻋﻄﺸﺎﻧﺎ!{GENDER_F}ﻋﻄﺸﺎﻧﺔ!{GENDER_E}$"
 

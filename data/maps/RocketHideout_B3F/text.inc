@@ -1,26 +1,24 @@
 RocketHideout_B3F_Text_Grunt1Intro::
-    .string "Stop meddling in TEAM ROCKET's\n"
-    .string "affairs or else!$"
+    .string "{GENDER_M}ﻛﻒ{GENDER_F}ﻛﻔﻲ{GENDER_E} ﻋﻦ ﺘﺪﺧﻞ ﻓﻲ ﺷﺆﻭﻥ ﻋﺼﺎﺑﺔ\n"
+    .string "ﺭﻭﻛﻴﺖ، ﻭﻻ!$"
 
 RocketHideout_B3F_Text_Grunt1Defeat::
-    .string "Oof!\n"
-    .string "Taken down!$"
+    .string "ﺃﻭﻑ! ﺳﻘﻄﺖ!$"
 
 RocketHideout_B3F_Text_Grunt1PostBattle::
-    .string "SILPH SCOPE?\n"
-    .string "Oh, that machine the BOSS stole.\p"
-    .string "It's here somewhere.$"
+    .string "ﻣﻨﻈﺎﺭ ﺳﻴﻠﻒ؟ ﺁﻩ، ﺗﻠﻚ ﺍﻵﻟﺔ\n"
+    .string "ﺘﻲ ﺳﺮﻗﻬﺎ ﺰﻋﻴﻢ.\p"
+    .string "ﺇﻧﻬﺎ ﻫﻨﺎ ﻓﻲ ﻣﻜﺎﻥ ﻣﺎ.$"
 
 RocketHideout_B3F_Text_Grunt2Intro::
-    .string "We got word from upstairs that you\n"
-    .string "were coming!$"
+    .string "ﻭﺻﻠﻨﺎ ﺧﺒﺮ ﻣﻦ ﺍﻷﻋﻠﻰ ﺑﺄﻧﻚ\n"
+    .string "ﻗﺎﺩﻡ{GENDER_M}{GENDER_F}ﺓ{GENDER_E}!$"
 
 RocketHideout_B3F_Text_Grunt2Defeat::
-    .string "What?\n"
-    .string "I lost? No!$"
+    .string "ﻣﺎﺫ؟ ﺧﺴﺮﺕ؟ ﻻ!$"
 
 RocketHideout_B3F_Text_Grunt2PostBattle::
-    .string "Go ahead and go!\p"
-    .string "But you can't run the elevator\n"
-    .string "without the LIFT KEY.$"
+    .string "{GENDER_M}ﺍﺫﻫﺐ{GENDER_F}ﺍﺫﻫﺒﻲ{GENDER_E} ﺇﻥ ﺷﺌﺖ!\p"
+    .string "ﻟﻜﻨﻚ ﻟﻦ {GENDER_M}ﺗﺸﻐﻞ{GENDER_F}ﺗﺸﻐﻠﻲ{GENDER_E} ﻤﺼﻌﺪ ﺩﻭﻥ\n"
+    .string "ﻣﻔﺘﺎﺡ ﻤﺼﻌﺪ.$"
 

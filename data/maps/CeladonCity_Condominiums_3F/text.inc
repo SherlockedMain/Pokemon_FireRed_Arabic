@@ -1,42 +1,39 @@
 CeladonCity_Condominiums_3F_Text_ImTheProgrammer::
-    .string "Me?\n"
-    .string "I'm the programmer!$"
+    .string "ﺃﻧﺎ؟ ﺃﻧﺎ ﻤﺒﺮﻣﺞ!$"
 
 CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist::
-    .string "I'm the graphic artist!\n"
-    .string "I drew you!$"
+    .string "ﺃﻧﺎ ﺮﺳﺎﻡ! ﺃﻧﺎ ﻣﻦ ﺭﺳﻤﻚ!$"
 
 CeladonCity_Condominiums_3F_Text_IWroteTheStory::
-    .string "I wrote the story!\n"
-    .string "Isn't ERIKA cute?\p"
-    .string "I like MISTY a lot, too!\n"
-    .string "Oh, and SABRINA, I like her!$"
+    .string "ﺃﻧﺎ ﻣﻦ ﻛﺘﺐ ﻘﺼﺔ! ﺃﻟﻴﺴﺖ\n"
+    .string "ﺇﻳﺮﻳﻜﺎ ﻟﻄﻴﻔﺔ؟\p"
+    .string "ﻭﺣﺐ ﻣﻴﺴﺘﻲ ﻛﺜﻴﺮ ﺃﻳﻀﺎ! ﺁﻩ،\n"
+    .string "ﻭﺳﺎﺑﺮﻳﻨﺎ، ﺃﺣﺒﻬﺎ ﻫﻲ ﺍﻷﺧﺮﻯ!$"
 
 CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex::
-    .string "Is that right?\p"
-    .string "I'm the game designer!\p"
-    .string "Filling up your POKéDEX is tough,\n"
-    .string "but don't quit!\p"
-    .string "When you finish, come tell me!$"
+    .string "ﺣﻘﺎ؟\p"
+    .string "ﺃﻧﺎ ﻣﺼﻤﻢ ﻠﻌﺒﺔ!\p"
+    .string "ﻣﻞﺀ ﺒﻮﻛﻴﺪﻳﻜﺲ ﺻﻌﺐ، ﻟﻜﻦ ﻻ\n"
+    .string "{GENDER_M}ﺗﺴﺘﺴﻠﻢ!{GENDER_F}ﺗﺴﺘﺴﻠﻤﻲ!{GENDER_E}\p"
+    .string "ﺣﻴﻦ {GENDER_M}ﺗﻨﺘﻬﻲ{GENDER_F}ﺗﻨﺘﻬﻴﻦ{GENDER_E}، {GENDER_M}ﺗﻌﺎﻝ{GENDER_F}ﺗﻌﺎﻟﻲ{GENDER_E} ﻭﺧﺒﺮﻧﻲ!$"
 
 CeladonCity_Condominiums_3F_Text_CompletedPokedexCongratulations::
-    .string "Wow! Excellent!\n"
-    .string "You completed your POKéDEX!\l"
-    .string "Congratulations!\l"
+    .string "ﻭﻭ! ﻣﻤﺘﺎﺯ! ﻟﻘﺪ {GENDER_M}ﺃﻛﻤﻠﺖ{GENDER_F}ﺃﻛﻤﻠﺖ{GENDER_E}\n"
+    .string "ﺒﻮﻛﻴﺪﻳﻜﺲ! ﻣﺒﺮﻭﻙ!\p"
     .string "…$"
 
 CeladonCity_Condominiums_3F_Text_ItsTheGameProgram::
-    .string "It's the game program! Messing with\n"
-    .string "it could bug out the game!$"
+    .string "ﺇﻧﻪ ﺑﺮﻧﺎﻣﺞ ﻠﻌﺒﺔ! ﻌﺒﺚ ﺑﻪ ﻗﺪ\n"
+    .string "ﻳﻔﺴﺪ ﻠﻌﺒﺔ!$"
 
 CeladonCity_Condominiums_3F_Text_SomeonesPlayingGame::
-    .string "Someone's playing a game instead of\n"
-    .string "working!$"
+    .string "ﻫﻨﺎﻙ ﻣﻦ ﻳﻠﻌﺐ ﺑﺪﻝ ﺃﻥ ﻳﻌﻤﻞ!$"
 
 CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding::
-    .string "It's the script!\n"
-    .string "Better not look at the ending!$"
+    .string "ﺇﻧﻪ ﻧﺺ ﻠﻌﺒﺔ! ﻣﻦ ﺍﻷﻓﻀﻞ ﺃﻻ\n"
+    .string "{GENDER_M}ﺗﻨﻈﺮ{GENDER_F}ﺗﻨﻈﺮﻱ{GENDER_E} ﺇﻟﻰ ﻨﻬﺎﻳﺔ!$"
 
 CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom::
-    .string "GAME FREAK Development Room$"
+    .string "ﻏﻴﻢ ﻓﺮﻳﻚ\n"
+    .string "ﻏﺮﻓﺔ ﺘﻄﻮﻳﺮ$"
 

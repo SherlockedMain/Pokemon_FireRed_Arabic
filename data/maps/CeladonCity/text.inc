@@ -1,114 +1,111 @@
 CeladonCity_Text_GotMyKoffingInCinnabar::
-    .string "I got my KOFFING in CINNABAR.\p"
-    .string "It's usually nice, but it breathes\n"
-    .string "poison when it's angry.$"
+    .string "ﺃﻣﺴﻜﺖ ﻛﻮﻓﻴﻨﻎ ﻓﻲ ﺳﻴﻨﺎﺑﺎﺭ.\p"
+    .string "ﻫﻮ ﻟﻄﻴﻒ ﻋﺎﺩﺓ، ﻟﻜﻨﻪ ﻳﻨﻔﺚ ﺴﻢ\n"
+    .string "ﺣﻴﻦ ﻳﻐﻀﺐ.$"
 
 CeladonCity_Text_GymIsGreatFullOfWomen::
-    .string "Heheh! This GYM is great!\n"
-    .string "It's full of women!$"
+    .string "ﻫﻴﻬﻲ! ﻫﺬﻩ ﺼﺎﻟﺔ ﺭﺋﻌﺔ! ﻛﻞ ﻣﻦ\n"
+    .string "ﻓﻴﻬﺎ ﻣﺪﺭﺑﺎﺕ!$"
 
 CeladonCity_Text_GameCornerIsBadForCitysImage::
-    .string "CELADON takes pride in its efforts\n"
-    .string "to keep the city beautiful.\p"
-    .string "That's why the new GAME CORNER is\n"
-    .string "bad for our city's image.$"
+    .string "ﺗﻔﺨﺮ ﺳﻴﻼﺩﻭﻥ ﺑﺠﻬﻮﺩﻫﺎ ﻟﺘﺒﻘﻰ\n"
+    .string "ﻣﺪﻳﻨﺔ ﺟﻤﻴﻠﺔ.\p"
+    .string "ﻟﻬﺬ ﺗﺴﻲﺀ ﺻﺎﻟﺔ ﺍﻷﻟﻌﺎﺏ ﺠﺪﻳﺪﺓ\n"
+    .string "ﺇﻟﻰ ﺻﻮﺭﺓ ﻣﺪﻳﻨﺘﻨﺎ.$"
 
 CeladonCity_Text_BlewItAllAtSlots::
-    .string "Moan…\n"
-    .string "I blew it all at the slots!\p"
-    .string "I knew I should have cashed in my\n"
-    .string "COINS for prizes!$"
+    .string "ﺁﻩ… ﺃﺿﻌﺖ ﻛﻞ ﺷﻲﺀ ﻓﻲ ﺁﻻﺕ\n"
+    .string "ﺍﻷﻟﻌﺎﺏ!\p"
+    .string "ﻛﺎﻥ ﻋﻠﻲ ﺃﻥ ﺃﺳﺘﺒﺪﻝ ﻗﻄﻌﻲ\n"
+    .string "ﺑﺎﻟﺠﻮﺋﺰ!$"
 
 CeladonCity_Text_MyTrustedPalPoliwrath::
-    .string "This is my trusted pal, POLIWRATH.\p"
-    .string "It evolved from a POLIWHIRL when\n"
-    .string "I used a WATER STONE.$"
+    .string "ﻫﺬ ﺭﻓﻴﻘﻲ ﻮﻓﻲ ﺑﻮﻟﻴﺮﺙ.\p"
+    .string "ﺗﻄﻮﺭ ﻣﻦ ﺑﻮﻟﻴﻮﻳﺮﻝ ﺣﻴﻦ\n"
+    .string "ﺍﺳﺘﺨﺪﻣﺖ ﺣﺠﺮ ﻤﺎﺀ.$"
 
 CeladonCity_Text_Poliwrath::
-    .string "POLIWRATH: Ribi ribit!$"
+    .string "ﺑﻮﻟﻴﺮﺙ: ﺭﻳﺒﻲ ﺭﻳﺒﻴﺖ!$"
 
 CeladonCity_Text_GetLostOrIllPunchYou::
-    .string "What are you staring at?\n"
-    .string "Get lost, or I'll punch you.$"
+    .string "ﺇﻻﻡ {GENDER_M}ﺗﺤﺪﻕ؟{GENDER_F}ﺗﺤﺪﻗﻴﻦ؟{GENDER_E} {GENDER_M}ﺍﻏﺮﺏ{GENDER_F}ﺍﻏﺮﺑﻲ{GENDER_E} ﻋﻦ ﻭﺟﻬﻲ،\n"
+    .string "ﻭﻻ ﻟﻜﻤﺘﻚ.$"
 
 CeladonCity_Text_KeepOutOfTeamRocketsWay::
-    .string "Keep out of TEAM ROCKET's way!$"
+    .string "{GENDER_M}ﺍﺑﺘﻌﺪ{GENDER_F}ﺍﺑﺘﻌﺪﻱ{GENDER_E} ﻋﻦ ﻃﺮﻳﻖ ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ!$"
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
-    .string "TRAINER TIPS\p"
-    .string "X ACCURACY boosts the accuracy of\n"
-    .string "techniques.\p"
-    .string "DIRE HIT jacks up the likelihood\n"
-    .string "of critical hits.\p"
-    .string "Get your items at the CELADON\n"
-    .string "DEPT. STORE!$"
+    .string "ﻧﺼﺎﺋﺢ ﻟﻠﻤﺪﺭﺑﻴﻦ\p"
+    .string "ﻣﻌﺰﺯ ﺪﻗﺔ ﻳﺮﻓﻊ ﺩﻗﺔ ﺤﺮﻛﺎﺕ.\p"
+    .string "ﻣﻌﺰﺯ ﺤﺴﻢ ﻳﺰﻳﺪ ﻓﺮﺹ ﻀﺮﺑﺎﺕ\n"
+    .string "ﺤﺎﺳﻤﺔ.\p"
+    .string "{GENDER_M}ﺍﺷﺘﺮ{GENDER_F}ﺍﺷﺘﺮﻱ{GENDER_E} ﺃﺩﻭﺗﻚ ﻣﻦ ﻣﺘﺠﺮ ﺳﻴﻼﺩﻭﻥ\n"
+    .string "ﻜﺒﻴﺮ!$"
 
 CeladonCity_Text_CitySign::
-    .string "CELADON CITY\n"
-    .string "The City of Rainbow Dreams$"
+    .string "ﻣﺪﻳﻨﺔ ﺳﻴﻼﺩﻭﻥ\n"
+    .string "ﻣﺪﻳﻨﺔ ﺃﺣﻼﻡ ﻗﻮﺱ ﻗﺰﺡ$"
 
 CeladonCity_Text_GymSign::
-    .string "CELADON CITY POKéMON GYM\n"
-    .string "LEADER: ERIKA\l"
-    .string "The Nature-Loving Princess!$"
+    .string "ﺻﺎﻟﺔ ﺑﻮﻛﻴﻤﻮﻥ ﻣﺪﻳﻨﺔ ﺳﻴﻼﺩﻭﻥ\n"
+    .string "ﻘﺎﺋﺪﺓ: ﺇﻳﺮﻳﻜﺎ\p"
+    .string "ﺃﻣﻴﺮﺓ ﻄﺒﻴﻌﺔ!$"
 
 CeladonCity_Text_MansionSign::
-    .string "CELADON MANSION$"
+    .string "ﻗﺼﺮ ﺳﻴﻼﺩﻭﻥ$"
 
 CeladonCity_Text_DeptStoreSign::
-    .string "Find what you need at the\n"
-    .string "CELADON DEPT. STORE!$"
+    .string "ﺗﺠﺪ ﻛﻞ ﻣﺎ ﺗﺤﺘﺎﺟﻪ ﻓﻲ ﻣﺘﺠﺮ\n"
+    .string "ﺳﻴﻼﺩﻭﻥ ﻜﺒﻴﺮ!$"
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
-    .string "TRAINER TIPS\p"
-    .string "GUARD SPEC. protects POKéMON\n"
-    .string "from status-reduction moves during\l"
-    .string "battle.\p"
-    .string "Get your items at the\n"
-    .string "CELADON DEPT. STORE!$"
+    .string "ﻧﺼﺎﺋﺢ ﻟﻠﻤﺪﺭﺑﻴﻦ\p"
+    .string "ﺩﺭﻉ ﺤﻤﺎﻳﺔ ﻳﺤﻤﻲ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
+    .string "ﻣﻦ ﺤﺮﻛﺎﺕ ﺘﻲ ﺗﺨﻔﺾ ﻘﺪﺭﺕ\p"
+    .string "ﻓﻲ ﻨﺰﻝ.\p"
+    .string "{GENDER_M}ﺍﺷﺘﺮ{GENDER_F}ﺍﺷﺘﺮﻱ{GENDER_E} ﺃﺩﻭﺗﻚ ﻣﻦ ﻣﺘﺠﺮ ﺳﻴﻼﺩﻭﻥ\n"
+    .string "ﻜﺒﻴﺮ!$"
 
 CeladonCity_Text_PrizeExchangeSign::
-    .string "COINS exchanged for prizes!\n"
-    .string "PRIZE EXCHANGE$"
+    .string "ﺍﺳﺘﺒﺪﻝ ﻘﻄﻊ ﺑﺎﻟﺠﻮﺋﺰ!\n"
+    .string "ﻣﺮﻛﺰ ﺗﺒﺪﻳﻞ ﺠﻮﺋﺰ$"
 
 CeladonCity_Text_GameCornerSign::
-    .string "ROCKET GAME CORNER\n"
-    .string "The playground for grown-ups!$"
+    .string "ﺻﺎﻟﺔ ﺃﻟﻌﺎﺏ ﺭﻭﻛﻴﺖ\n"
+    .string "ﻣﻠﻌﺐ ﻜﺒﺎﺭ!$"
 
 CeladonCity_Text_ScaldedTongueOnTea::
-    .string "Aaaagh, ow…\n"
-    .string "I scalded my tongue!\p"
-    .string "This nice old lady in the MANSION\n"
-    .string "gave me some TEA.\p"
-    .string "But it was boiling hot!\n"
-    .string "Gotta cool it to drink it.$"
+    .string "ﺁﻩ، ﺁﺥ… ﻟﺴﻌﺖ ﻟﺴﺎﻧﻲ!\p"
+    .string "ﺳﻴﺪﺓ ﻋﺠﻮﺯ ﻟﻄﻴﻔﺔ ﻓﻲ ﻘﺼﺮ\n"
+    .string "ﺃﻋﻄﺘﻨﻲ ﺑﻌﺾ ﺸﺎﻱ.\p"
+    .string "ﻟﻜﻨﻪ ﻛﺎﻥ ﻳﻐﻠﻲ! ﻋﻠﻲ ﺃﻥ ﺃﺑﺮﺩﻩ\n"
+    .string "ﻷﺷﺮﺑﻪ.$"
 
 Text_SoftboiledTeach::
-    .string "Hello, there!\p"
-    .string "I've seen you about, but I never\n"
-    .string "had a chance to chat.\p"
-    .string "It must be good luck that brought\n"
-    .string "us together finally.\p"
-    .string "I'd like to celebrate by teaching\n"
-    .string "you the move SOFTBOILED.$"
+    .string "ﻣﺮﺣﺒﺎ!\p"
+    .string "ﻛﻨﺖ ﺃﺭﻙ ﻫﻨﺎ ﻭﻫﻨﺎﻙ، ﻟﻜﻦ ﻟﻢ\n"
+    .string "ﺗﺴﻨﺢ ﻟﻲ ﻓﺮﺻﺔ ﺤﺪﻳﺚ ﻣﻌﻚ.\p"
+    .string "ﻻ ﺑﺪ ﺃﻧﻪ ﺤﻆ ﺠﻤﻴﻞ ﺬﻱ ﺟﻤﻌﻨﺎ\n"
+    .string "ﺃﺧﻴﺮ.\p"
+    .string "ﻭﻭﺩ ﺃﻥ ﺃﺣﺘﻔﻞ ﺑﺬﻟﻚ ﺑﺄﻥ\n"
+    .string "ﺃﻋﻠﻤﻚ ﺣﺮﻛﺔ ﺑﻴﻀﺔ ﺷﺎﻓﻴﺔ.$"
 
 Text_SoftboiledDeclined::
-    .string "I'll always be keeping an eye out\n"
-    .string "for you.\p"
-    .string "I hope we can chat again.$"
+    .string "ﺳﺄﺑﻘﻰ ﺃﺗﺮﻗﺐ ﻟﻘﺎﺀﻙ ﺩﺋﻤﺎ.\p"
+    .string "ﺃﺗﻤﻨﻰ ﺃﻥ ﻧﺘﺤﺪﺙ ﻣﺠﺪﺩ.$"
 
 Text_SoftboiledWhichMon::
-    .string "So, who's the POKéMON that gets\n"
-    .string "the chance to learn SOFTBOILED?$"
+    .string "ﺇﺫﻥ، ﺃﻱ ﺑﻮﻛﻴﻤﻮﻥ ﺳﻴﺤﻈﻰ ﺑﻔﺮﺻﺔ\n"
+    .string "ﺗﻌﻠﻢ ﺑﻴﻀﺔ ﺷﺎﻓﻴﺔ؟$"
 
 Text_SoftboiledTaught::
-    .string "I wish you the best of luck!$"
+    .string "ﺃﺗﻤﻨﻰ ﻟﻚ ﻛﻞ ﺘﻮﻓﻴﻖ!$"
 
 CeladonCity_Text_SomeoneStoleSilphScope::
-    .string "Oh, what am I to do…\p"
-    .string "Someone stole our SILPH SCOPE.\p"
-    .string "The thief came running this way,\n"
-    .string "I'm sure of it.\p"
-    .string "But I lost sight of him!\n"
-    .string "Where'd he go?$"
+    .string "ﺁﻩ، ﻣﺎﺫ ﺃﻓﻌﻞ…\p"
+    .string "ﺳﺮﻕ ﺃﺣﺪﻫﻢ ﻣﻨﻈﺎﺭ ﺳﻴﻠﻒ ﺨﺎﺹ\n"
+    .string "ﺑﻨﺎ.\p"
+    .string "ﺭﻛﺾ ﻠﺺ ﻣﻦ ﻫﺬ ﺍﻻﺗﺠﺎﻩ، ﺃﻧﺎ\n"
+    .string "ﻣﺘﺄﻛﺪ.\p"
+    .string "ﻟﻜﻨﻨﻲ ﻓﻘﺪﺕ ﺃﺛﺮﻩ! ﺃﻳﻦ ﺫﻫﺐ؟$"
 

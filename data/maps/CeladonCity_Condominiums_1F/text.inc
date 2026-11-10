@@ -1,37 +1,38 @@
 CeladonCity_Condominiums_1F_Text_Meowth::
-    .string "MEOWTH: Meow!$"
+    .string "ﻣﻴﻮﺙ: ﻣﻴﺎﻭ!$"
 
 CeladonCity_Condominiums_1F_Text_TryThisDrinkInstead::
-    .string "You shouldn't spend all your money\n"
-    .string "on drinks.\p"
-    .string "Try this instead.$"
+    .string "ﻻ ﻳﻨﺒﻐﻲ ﺃﻥ {GENDER_M}ﺗﻨﻔﻖ{GENDER_F}ﺗﻨﻔﻘﻲ{GENDER_E} ﻛﻞ ﻣﺎﻟﻚ\n"
+    .string "ﻋﻠﻰ ﻤﺸﺮﻭﺑﺎﺕ.\p"
+    .string "{GENDER_M}ﺟﺮﺏ{GENDER_F}ﺟﺮﺑﻲ{GENDER_E} ﻫﺬ ﺑﺪﻻ ﻣﻨﻬﺎ.$"
 
 CeladonCity_Condominiums_1F_Text_NothingBeatsThirstLikeTea::
-    .string "Nothing beats thirst like some hot\n"
-    .string "TEA.\p"
-    .string "It really is the best.$"
+    .string "ﻻ ﺷﻲﺀ ﻳﺮﻭﻱ ﻌﻄﺶ ﻣﺜﻞ ﺸﺎﻱ\n"
+    .string "ﺴﺎﺧﻦ.\p"
+    .string "ﺇﻧﻪ ﺍﻷﻓﻀﻞ ﺣﻘﺎ.$"
 
 CeladonCity_Condominiums_1F_Text_MyDearMonsKeepMeCompany::
-    .string "My dear POKéMON keep me company.\n"
-    .string "MEOWTH even brings money home!$"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ ﻌﺰﻳﺰﺓ ﺗﺆﻧﺲ\n"
+    .string "ﻭﺣﺪﺗﻲ. ﺑﻞ ﺇﻥ ﻣﻴﻮﺙ ﻳﺠﻠﺐ ﻤﺎﻝ\p"
+    .string "ﺇﻟﻰ ﺒﻴﺖ!$"
 
 CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea::
-    .string "Oh, hello, dearie.\n"
-    .string "Did you enjoy my TEA?\p"
-    .string "By the way, dear. Are you, by any\n"
-    .string "chance, from PALLET TOWN?\p"
-    .string "A girl from PALLET TOWN, DAISY,\n"
-    .string "she enjoys TEA every day.\p"
-    .string "She visits the CELADON DEPT. STORE\n"
-    .string "to buy some TEA.$"
+    .string "ﺃﻭﻩ، ﻣﺮﺣﺒﺎ ﻳﺎ {GENDER_M}ﻋﺰﻳﺰﻱ{GENDER_F}ﻋﺰﻳﺰﺗﻲ{GENDER_E}. ﻫﻞ\n"
+    .string "ﺃﻋﺠﺒﻚ ﺸﺎﻱ؟\p"
+    .string "ﺑﺎﻟﻤﻨﺎﺳﺒﺔ ﻳﺎ {GENDER_M}ﻋﺰﻳﺰﻱ{GENDER_F}ﻋﺰﻳﺰﺗﻲ{GENDER_E}، ﻫﻞ ﺃﻧﺖ\n"
+    .string "ﻣﻦ ﺑﻠﺪﺓ ﺑﺎﻟﻴﺖ؟\p"
+    .string "ﻓﺘﺎﺓ ﻣﻦ ﺑﻠﺪﺓ ﺑﺎﻟﻴﺖ ﺍﺳﻤﻬﺎ\n"
+    .string "ﺩﻳﺰﻱ، ﺗﺴﺘﻤﺘﻊ ﺑﺎﻟﺸﺎﻱ ﻛﻞ ﻳﻮﻡ.\p"
+    .string "ﻭﺗﺄﺗﻲ ﺇﻟﻰ ﻣﺘﺠﺮ ﺳﻴﻼﺩﻭﻥ\n"
+    .string "ﻜﺒﻴﺮ ﻟﺘﺸﺘﺮﻱ ﺸﺎﻱ.$"
 
 CeladonCity_Condominiums_1F_Text_Clefairy::
-    .string "CLEFAIRY: Pi pippippi!$"
+    .string "ﻛﻠﻴﻔﻴﺮﻱ: ﺑﻲ ﺑﻴﺒﻴﺒﻲ!$"
 
 CeladonCity_Condominiums_1F_Text_Nidoran::
-    .string "NIDORAN♀: Kya kyaoo!$"
+    .string "ﻧﻴﺪﻭﺭﻥ♀: ﻛﻴﺎ ﻛﻴﺎﻭﻭ!$"
 
 CeladonCity_Condominiums_1F_Text_ManagersSuite::
-    .string "CELADON MANSION\n"
-    .string "Manager's Suite$"
+    .string "ﻗﺼﺮ ﺳﻴﻼﺩﻭﻥ\n"
+    .string "ﺟﻨﺎﺡ ﻤﺪﻳﺮ$"
 

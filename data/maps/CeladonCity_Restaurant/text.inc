@@ -1,37 +1,35 @@
 CeladonCity_Restaurant_Text_TakingBreakRightNow::
-    .string "Hi!\p"
-    .string "Sorry, but we're taking a break\n"
-    .string "right now.$"
+    .string "ﻣﺮﺣﺒﺎ!\p"
+    .string "ﺁﺳﻔﻮﻥ، ﻧﺤﻦ ﻓﻲ ﺍﺳﺘﺮﺣﺔ ﺍﻵﻥ.$"
 
 CeladonCity_Restaurant_Text_OftenGoToDrugstore::
-    .string "My POKéMON are weak, so I often\n"
-    .string "have to go to the DRUGSTORE.$"
+    .string "ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻲ ﺿﻌﻴﻔﺔ، ﻟﺬ ﺃﺫﻫﺐ\n"
+    .string "ﺇﻟﻰ ﺼﻴﺪﻟﻴﺔ ﻛﺜﻴﺮ.$"
 
 CeladonCity_Restaurant_Text_PsstBasementUnderGameCorner::
-    .string "Psst! There's a basement under the\n"
-    .string "GAME CORNER, I hear.$"
+    .string "ﺑﺴﺴﺖ! ﺳﻤﻌﺖ ﺃﻥ ﺗﺤﺖ ﺻﺎﻟﺔ\n"
+    .string "ﺍﻷﻟﻌﺎﺏ ﻗﺒﻮ.$"
 
 CeladonCity_Restaurant_Text_ManLostItAllAtSlots::
-    .string "Munch…\p"
-    .string "The man at that table lost it all\n"
-    .string "at the slots.$"
+    .string "ﻣﻀﻎ…\p"
+    .string "ﺮﺟﻞ ﺠﺎﻟﺲ ﺇﻟﻰ ﺗﻠﻚ ﻄﺎﻭﻟﺔ\n"
+    .string "ﺃﺿﺎﻉ ﻛﻞ ﺷﻲﺀ ﻓﻲ ﺍﻵﻻﺕ.$"
 
 CeladonCity_Restaurant_Text_TakeThisImBusted::
-    .string "Go ahead! Laugh!\n"
-    .string "I'm flat-out busted!\p"
-    .string "No more slots for me!\n"
-    .string "I'm going straight!\p"
-    .string "Here!\n"
-    .string "I won't be needing this anymore!$"
+    .string "{GENDER_M}ﻫﻴﺎ!{GENDER_F}ﻫﻴﺎ!{GENDER_E} {GENDER_M}ﺍﺿﺤﻚ!{GENDER_F}ﺍﺿﺤﻜﻲ!{GENDER_E} ﻟﻘﺪ ﺃﻓﻠﺴﺖ ﺗﻤﺎﻣﺎ!\p"
+    .string "ﻻ ﻣﺰﻳﺪ ﻣﻦ ﺍﻵﻻﺕ ﺑﻌﺪ ﻴﻮﻡ!\n"
+    .string "ﺳﺄﻋﻮﺩ ﺇﻟﻰ ﺭﺷﺪﻱ!\p"
+    .string "{GENDER_M}ﺧﺬ!{GENDER_F}ﺧﺬﻱ!{GENDER_E} ﻟﻦ ﺃﺣﺘﺎﺝ ﺇﻟﻰ ﻫﺬ ﺑﻌﺪ\n"
+    .string "ﺍﻵﻥ!$"
 
 CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan::
-    .string "{PLAYER} received a COIN CASE\n"
-    .string "from the man.$"
+    .string "{GENDER_M}ﺣﺼﻞ{GENDER_F}ﺣﺼﻠﺖ{GENDER_E} {PLAYER} ﻋﻠﻰ ﻣﺤﻔﻈﺔ ﻧﻘﻮﺩ\n"
+    .string "ﻣﻦ ﺮﺟﻞ.$"
 
 CeladonCity_Restaurant_Text_MakeRoomForThis::
-    .string "Make room for this!$"
+    .string "{GENDER_M}ﺃﻓﺴﺢ{GENDER_F}ﺃﻓﺴﺤﻲ{GENDER_E} ﻣﻜﺎﻧﺎ ﻟﻬﺬ!$"
 
 CeladonCity_Restaurant_Text_ThoughtIdWinItBack::
-    .string "I always thought I was going to\n"
-    .string "win it back…$"
+    .string "ﻛﻨﺖ ﺃﻇﻦ ﺩﺋﻤﺎ ﺃﻧﻨﻲ ﺳﺄﺳﺘﺮﺩ ﻣﺎ\n"
+    .string "ﺧﺴﺮﺗﻪ…$"
 

@@ -1,56 +1,52 @@
 RocketHideout_B4F_Text_GiovanniIntro::
-    .string "So! I must say, I am impressed you\n"
-    .string "got here.\p"
-    .string "TEAM ROCKET captures POKéMON from\n"
-    .string "around the world.\p"
-    .string "They're important tools for keeping\n"
-    .string "our criminal enterprise going.\p"
-    .string "I am the leader, GIOVANNI!\p"
-    .string "For your insolence, you will feel a\n"
-    .string "world of pain!$"
+    .string "ﺇﺫﻥ! ﻻ ﺑﺪ ﺃﻥ ﺃﻋﺘﺮﻑ ﺃﻧﻨﻲ\n"
+    .string "ﻣﻌﺠﺐ ﺑﻮﺻﻮﻟﻚ ﺇﻟﻰ ﻫﻨﺎ.\p"
+    .string "ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ ﺗﺄﺳﺮ\n"
+    .string "ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﻣﻦ ﻛﻞ ﺃﻧﺤﺎﺀ\p"
+    .string "ﻌﺎﻟﻢ.\p"
+    .string "ﻓﻬﻲ ﺃﺩﻭﺕ ﻣﻬﻤﺔ ﻟﺘﺴﺘﻤﺮ\n"
+    .string "ﺗﺠﺎﺭﺗﻨﺎ ﺍﻹﺟﺮﻣﻴﺔ.\p"
+    .string "ﺃﻧﺎ ﺰﻋﻴﻢ، ﺟﻴﻮﻓﺎﻧﻲ!\p"
+    .string "ﻭﺳﺘﺪﻓﻊ ﺛﻤﻦ ﻭﻗﺎﺣﺘﻚ ﻏﺎﻟﻴﺎ!$"
 
 RocketHideout_B4F_Text_GiovanniDefeat::
-    .string "WHAT!\n"
-    .string "This can't be!$"
+    .string "ﻣﺎﺫ! ﻫﺬ ﻣﺴﺘﺤﻴﻞ!$"
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
-    .string "I see that you raise POKéMON with\n"
-    .string "utmost care.\p"
-    .string "A child like you would never\n"
-    .string "understand what I hope to achieve.\p"
-    .string "I shall step aside this time!\p"
-    .string "I hope we meet again…$"
+    .string "ﺃﺭﻯ ﺃﻧﻚ {GENDER_M}ﺗﺮﺑﻲ{GENDER_F}ﺗﺮﺑﻴﻦ{GENDER_E} ﺑﻮﻛﻴﻤﻮﻧﺎﺗﻚ\n"
+    .string "ﺑﻌﻨﺎﻳﺔ ﻓﺎﺋﻘﺔ.\p"
+    .string "{GENDER_M}ﻃﻔﻞ{GENDER_F}ﻃﻔﻠﺔ{GENDER_E} ﻣﺜﻠﻚ ﻟﻦ {GENDER_M}ﻳﻔﻬﻢ{GENDER_F}ﺗﻔﻬﻢ{GENDER_E} ﺃﺑﺪ ﻣﺎ\n"
+    .string "ﺃﺳﻌﻰ ﺇﻟﻴﻪ.\p"
+    .string "ﺳﺄﺗﻨﺤﻰ ﻫﺬﻩ ﻤﺮﺓ!\p"
+    .string "ﻭﺭﺟﻮ ﺃﻥ ﻧﻠﺘﻘﻲ ﻣﺠﺪﺩ…$"
 
 RocketHideout_B4F_Text_Grunt2Intro::
-    .string "I know you!\n"
-    .string "You ruined our plans at MT. MOON!$"
+    .string "ﺃﻧﺎ ﺃﻋﺮﻓﻚ! ﺃﻧﺖ ﻣﻦ ﺃﻓﺴﺪ ﺧﻄﻄﻨﺎ\n"
+    .string "ﻓﻲ ﺟﺒﻞ ﻘﻤﺮ!$"
 
 RocketHideout_B4F_Text_Grunt2Defeat::
-    .string "Burned again!$"
+    .string "ﺍﺣﺘﺮﻗﺖ ﻣﺮﺓ ﺃﺧﺮﻯ!$"
 
 RocketHideout_B4F_Text_Grunt2PostBattle::
-    .string "Do you have something against TEAM\n"
-    .string "ROCKET?$"
+    .string "ﻫﻞ ﺑﻴﻨﻚ ﻭﺑﻴﻦ ﻋﺼﺎﺑﺔ ﺭﻭﻛﻴﺖ\n"
+    .string "ﻋﺪﻭﺓ؟$"
 
 RocketHideout_B4F_Text_Grunt3Intro::
-    .string "How can you not see the beauty of\n"
-    .string "our evil?$"
+    .string "ﻛﻴﻒ ﻻ {GENDER_M}ﺗﺮﻯ{GENDER_F}ﺗﺮﻳﻦ{GENDER_E} ﺟﻤﺎﻝ ﺷﺮﻧﺎ؟$"
 
 RocketHideout_B4F_Text_Grunt3Defeat::
-    .string "Ayaya!$"
+    .string "ﺁﻳﺎﻳﺎ!$"
 
 RocketHideout_B4F_Text_Grunt3PostBattle::
-    .string "BOSS!\n"
-    .string "I'm sorry I failed you!$"
+    .string "ﺃﻳﻬﺎ ﺰﻋﻴﻢ! ﺁﺳﻒ ﻷﻧﻨﻲ ﺧﺬﻟﺘﻚ!$"
 
 RocketHideout_B4F_Text_Grunt1Intro::
-    .string "The elevator doesn't work?\n"
-    .string "Who has the LIFT KEY?$"
+    .string "ﻤﺼﻌﺪ ﻻ ﻳﻌﻤﻞ؟ ﻣﻦ ﻣﻌﻪ ﻣﻔﺘﺎﺡ\n"
+    .string "ﻤﺼﻌﺪ؟$"
 
 RocketHideout_B4F_Text_Grunt1Defeat::
-    .string "No!$"
+    .string "ﻻ!$"
 
 RocketHideout_B4F_Text_Grunt1PostBattle::
-    .string "Oh, no!\n"
-    .string "I dropped the LIFT KEY!$"
+    .string "ﺃﻭﻩ، ﻻ! ﺃﺳﻘﻄﺖ ﻣﻔﺘﺎﺡ ﻤﺼﻌﺪ!$"
 

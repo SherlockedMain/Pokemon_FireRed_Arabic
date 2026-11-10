@@ -1,4 +1,4 @@
 Route7_Text_UndergroundPathSign::
-    .string "UNDERGROUND PATH\n"
-    .string "CELADON CITY - LAVENDER TOWN$"
+    .string "ﻤﻤﺮ ﺍﻷﺭﺿﻲ\n"
+    .string "ﻣﺪﻳﻨﺔ ﺳﻴﻼﺩﻭﻥ - ﺑﻠﺪﺓ ﻻﻓﻨﺪﺭ$"
 
