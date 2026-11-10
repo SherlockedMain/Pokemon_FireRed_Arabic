@@ -194,8 +194,8 @@ gOakSpeech_Text_ThisWorld::
     .string "ﻋﺎﻟﻤﻨﺎ ﻫﺬ…$"
 
 gOakSpeech_Text_IsInhabitedFarAndWide::
-    .string "…ﺗﺴﻜﻨﻪ ﻓﻲ ﻛﻞ ﻣﻜﺎﻥ ﻛﺎﺋﻨﺎﺕ\n"
-    .string "ﻋﺠﻴﺒﺔ ﺗﺪﻋﻰ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ!\p$"
+    .string "…ﻣﻮﺷﻰ ﺑﻜﺎﺋﻨﺎﺕ ﻋﺠﻴﺒﺔ ﺷﺘﻰ\n"
+    .string "ﺗﺪﻋﻰ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ!\p$"
 
 gOakSpeech_Text_IStudyPokemon::
     .string "ﻣﻨﺎ ﻣﻦ ﻳﺮﺑﻴﻬﺎ ﺭﻓﺎﻗﺎ ﺃﻭﻓﻴﺎﺀ،\n"

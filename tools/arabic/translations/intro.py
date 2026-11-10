@@ -318,3 +318,10 @@ _R8 = {'gOakSpeech_Text_IsInhabitedFarAndWide': '…تسكنه في كل مكا�
 for _e in ENTRIES:
     if _e['id'] in _R8:
         _e['ar'] = _R8[_e['id']]
+
+# ---- Revision 9: the user's wording for "inhabited far and wide"
+_R9 = {'gOakSpeech_Text_IsInhabitedFarAndWide': '…موشّى بكائنات عجيبة شتى\nتُدعى البوكيمونات!'}
+for _e in ENTRIES:
+    if _e['id'] in _R9:
+        _e['ar'] = _R9[_e['id']]
+        _e['note'] = 'Wording by the translator: «موشّى بكائنات عجيبة شتى».'
