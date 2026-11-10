@@ -300,3 +300,21 @@ _R4 = {'Help_Text_HowToEnterName': '{CIRCLE_1} اختر الحرف بلوحة {P
 for _e in ENTRIES:
     if _e['id'] in _R4:
         _e['ar'] = _R4[_e['id']]
+
+# ---- Revision 6: Oak's speech rewritten to read as native Arabic (the name question in particular)
+_R6 = {'gOakSpeech_Text_WelcomeToTheWorld': 'أهلا بك! تشرفت بلقائك!\n\nأهلا بك في عالم البوكيمون!\n\nأنا أوك…\n\nويناديني الجميع بمحبة: بروفيسور البوكيمون!', 'gOakSpeech_Text_ThisWorld': 'عالمنا هذا…', 'gOakSpeech_Text_IsInhabitedFarAndWide': '…تسكنه، في كل ركن من أركانه، كائنات عجيبة تُدعى البوكيمونات!', 'gOakSpeech_Text_IStudyPokemon': 'بعض الناس يربونها رفاقا أوفياء، وبعضهم يخوض بها النزالات.\n\nأما أنا…\n\nفقد كرست حياتي كلها لدراستها.', 'gOakSpeech_Text_TellMeALittleAboutYourself': 'لكن قبل كل شيء… أود أن أعرفك أكثر.', 'gOakSpeech_Text_AskPlayerGender': 'فلنبدأ إذن… هل أنت فتى، أم فتاة؟', 'gOakSpeech_Text_YourNameWhatIsIt': 'جميل! وما اسمك يا [[بني|ابنتي]]؟', 'gOakSpeech_Text_SoYourNameIsPlayer': 'إذن… اسمك {PLAYER}، أليس كذلك؟', 'gOakSpeech_Text_WhatWasHisName': 'وهذا حفيدي.\n\nأنتما متنافسان منذ أن كنتما صغيرين.\n\n…آه، ما اسمه يا ترى؟', 'gOakSpeech_Text_YourRivalsNameWhatWasIt': 'ما اسمه… ما اسمه… إنه على طرف لساني!', 'gOakSpeech_Text_ConfirmRivalName': '…أهو {RIVAL}؟', 'gOakSpeech_Text_RememberRivalsName': 'نعم، نعم! تذكرت! اسمه {RIVAL}!', 'gOakSpeech_Text_LetsGo': '{PLAYER}!\n\nحكايتك مع البوكيمونات توشك أن تبدأ!\n\nعالم من الأحلام والمغامرات ينتظرك!\n\nهيا، [[انطلق|انطلقي]]!'}
+for _e in ENTRIES:
+    if _e['id'] in _R6:
+        _e['ar'] = _R6[_e['id']]
+
+# ---- Revision 7: hand-set line breaks for Oak's speech (no stranded words)
+_R7 = {'gOakSpeech_Text_WelcomeToTheWorld': 'مرحبا! تشرفت بلقائك!\n\nأهلا بك في عالم البوكيمون!\n\nأنا أوك…\n\nويناديني الجميع بمحبة:\nبروفيسور البوكيمون!', 'gOakSpeech_Text_IsInhabitedFarAndWide': '…تسكنه، في كل ركن من أركانه،\nكائنات عجيبة تُدعى البوكيمونات!', 'gOakSpeech_Text_IStudyPokemon': 'بعض الناس يربونها رفاقا أوفياء،\nوبعضهم يخوض بها النزالات.\n\nأما أنا…\n\nفقد كرست حياتي كلها لدراستها.', 'gOakSpeech_Text_TellMeALittleAboutYourself': 'لكن قبل كل شيء…\nأود أن أعرفك أكثر.', 'gOakSpeech_Text_AskPlayerGender': 'فلنبدأ إذن…\nهل أنت فتى، أم فتاة؟'}
+for _e in ENTRIES:
+    if _e['id'] in _R7:
+        _e['ar'] = _R7[_e['id']]
+
+# ---- Revision 8: Oak lines that fit their pages whole
+_R8 = {'gOakSpeech_Text_IsInhabitedFarAndWide': '…تسكنه في كل مكان كائنات عجيبة تُدعى البوكيمونات!', 'gOakSpeech_Text_IStudyPokemon': 'منا من يربيها رفاقا أوفياء،\nومنا من يخوض بها النزالات.\n\nأما أنا…\n\nفقد كرست حياتي كلها لدراستها.'}
+for _e in ENTRIES:
+    if _e['id'] in _R8:
+        _e['ar'] = _R8[_e['id']]

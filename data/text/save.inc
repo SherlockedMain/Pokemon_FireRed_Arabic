@@ -2,8 +2,8 @@ gText_WouldYouLikeToSaveTheGame::
 	.string "ﻫﻞ ﺗﺮﻳﺪ ﺣﻔﻆ ﻠﻌﺒﺔ؟$"
 
 gText_AlreadySaveFile_WouldLikeToOverwrite::
-	.string "ﻫﻨﺎﻙ ﻣﻠﻒ ﻣﺤﻔﻮﻅ ﺑﺎﻟﻔﻌﻞ.\n"
-	.string "ﻫﻞ ﺗﺮﻳﺪ ﺤﻔﻆ ﻓﻮﻗﻪ؟$"
+	.string "ﻳﻮﺟﺪ ﻣﻠﻒ ﻣﺤﻔﻮﻅ ﻣﺴﺒﻘﺎ.\n"
+	.string "ﻫﻞ ﺗﻮﺩ ﺍﺳﺘﺒﺪﻟﻪ؟$"
 
 gText_SavingDontTurnOffThePower::
 	.string "ﺟﺎﺭ ﺤﻔﻆ…\n"

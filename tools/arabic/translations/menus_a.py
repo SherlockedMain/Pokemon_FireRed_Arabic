@@ -289,3 +289,9 @@ _R5 = {'gText_PlayerSavedTheGame': '[[حفظ|حفظت]] {PLAYER} اللعبة.',
 for _e in ENTRIES:
     if _e['id'] in _R5:
         _e['ar'] = _R5[_e['id']]
+
+# ---- Revision: the overwrite question
+_RS = {'gText_AlreadySaveFile_WouldLikeToOverwrite': 'يوجد ملف محفوظ مسبقا.\nهل تود استبداله؟'}
+for _e in ENTRIES:
+    if _e['id'] in _RS:
+        _e['ar'] = _RS[_e['id']]

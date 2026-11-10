@@ -155,8 +155,8 @@ gControlsGuide_Text_LRButtons::
     .string "ﺤﺎﻝ!$"
 
 gOakSpeech_Text_AskPlayerGender::
-    .string "ﻭﻵﻥ…\n"
-    .string "ﻫﻞ ﺃﻧﺖ ﻓﺘﻰ؟ ﺃﻡ ﺃﻧﺖ ﻓﺘﺎﺓ؟$"
+    .string "ﻓﻠﻨﺒﺪ ﺇﺫﻥ…\n"
+    .string "ﻫﻞ ﺃﻧﺖ ﻓﺘﻰ، ﺃﻡ ﻓﺘﺎﺓ؟$"
 
 gPikachuIntro_Text_Page1::
     .string "ﻌﺎﻟﻢ ﺬﻱ ﺗﻮﺷﻚ ﺃﻥ ﺗﺪﺧﻠﻪ ﻳﻨﺘﻈﺮ\n"
@@ -184,61 +184,56 @@ gPikachuIntro_Text_Page3::
     .string "ﺍﺿﻐﻂ ﺯﺭ A… ﻭﻟﺘﺒﺪ ﺤﻜﺎﻳﺔ!$"
 
 gOakSpeech_Text_WelcomeToTheWorld::
-    .string "ﺃﻫﻼ ﻭﺳﻬﻼ!\n"
-    .string "ﻛﻢ ﻳﺴﻌﺪﻧﻲ ﻟﻘﺎﺅﻙ!\p"
-    .string "ﻣﺮﺣﺒﺎ ﺑﻚ ﻓﻲ ﻋﺎﻟﻢ ﺒﻮﻛﻴﻤﻮﻥ!\p"
-    .string "ﺃﻧﺎ ﺃﻭﻙ.\p"
-    .string "ﻭﻟﻨﺎﺱ ﻫﻨﺎ ﻳﺤﺒﻮﻥ ﺃﻥ\n"
-    .string "ﻳﻨﺎﺩﻭﻧﻲ:\p"
+    .string "ﻣﺮﺣﺒﺎ! ﺗﺸﺮﻓﺖ ﺑﻠﻘﺎﺋﻚ!\p"
+    .string "ﺃﻫﻼ ﺑﻚ ﻓﻲ ﻋﺎﻟﻢ ﺒﻮﻛﻴﻤﻮﻥ!\p"
+    .string "ﺃﻧﺎ ﺃﻭﻙ…\p"
+    .string "ﻭﻳﻨﺎﺩﻳﻨﻲ ﺠﻤﻴﻊ ﺑﻤﺤﺒﺔ:\n"
     .string "ﺑﺮﻭﻓﻴﺴﻮﺭ ﺒﻮﻛﻴﻤﻮﻥ!\p$"
 
 gOakSpeech_Text_ThisWorld::
-    .string "ﻫﺬ ﻌﺎﻟﻢ…$"
+    .string "ﻋﺎﻟﻤﻨﺎ ﻫﺬ…$"
 
 gOakSpeech_Text_IsInhabitedFarAndWide::
-    .string "…ﺗﻌﻴﺶ ﻓﻲ ﻛﻞ ﺷﺒﺮ ﻣﻨﻪ\n"
-    .string "ﻣﺨﻠﻮﻗﺎﺕ ﺗﺪﻋﻰ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ!\p$"
+    .string "…ﺗﺴﻜﻨﻪ ﻓﻲ ﻛﻞ ﻣﻜﺎﻥ ﻛﺎﺋﻨﺎﺕ\n"
+    .string "ﻋﺠﻴﺒﺔ ﺗﺪﻋﻰ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ!\p$"
 
 gOakSpeech_Text_IStudyPokemon::
-    .string "ﻟﻠﺒﻌﺾ، ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺭﻓﺎﻕ\n"
-    .string "ﺃﻭﻓﻴﺎﺀ،\p"
-    .string "ﻭﻟﻠﺒﻌﺾ ﺍﻵﺧﺮ، ﺷﺮﻛﺎﺀ ﻓﻲ\n"
-    .string "ﻨﺰﻻﺕ.\p"
+    .string "ﻣﻨﺎ ﻣﻦ ﻳﺮﺑﻴﻬﺎ ﺭﻓﺎﻗﺎ ﺃﻭﻓﻴﺎﺀ،\n"
+    .string "ﻭﻣﻨﺎ ﻣﻦ ﻳﺨﻮﺽ ﺑﻬﺎ ﻨﺰﻻﺕ.\p"
     .string "ﺃﻣﺎ ﺃﻧﺎ…\p"
-    .string "ﻓﻘﺪ ﻭﻫﺒﺖ ﻋﻤﺮﻱ ﻛﻠﻪ ﻟﺪﺭﺳﺘﻬﺎ.\p$"
+    .string "ﻓﻘﺪ ﻛﺮﺳﺖ ﺣﻴﺎﺗﻲ ﻛﻠﻬﺎ\n"
+    .string "ﻟﺪﺭﺳﺘﻬﺎ.\p$"
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
-    .string "ﻟﻜﻦ ﺩﻋﻨﺎ ﻣﻨﻲ ﺍﻵﻥ…\n"
-    .string "ﻟﻨﺘﺤﺪﺙ ﻋﻨﻚ ﻗﻠﻴﻼ.\p$"
+    .string "ﻟﻜﻦ ﻗﺒﻞ ﻛﻞ ﺷﻲﺀ…\n"
+    .string "ﺃﻭﺩ ﺃﻥ ﺃﻋﺮﻓﻚ ﺃﻛﺜﺮ.\p$"
 
 gOakSpeech_Text_YourNameWhatIsIt::
-    .string "ﻟﻨﺒﺪ ﺑﺎﻷﻫﻢ:\n"
-    .string "ﻣﺎ ﺍﺳﻤﻚ؟\p$"
+    .string "ﺟﻤﻴﻞ! ﻭﻣﺎ ﺍﺳﻤﻚ ﻳﺎ {GENDER_M}ﺑﻨﻲ{GENDER_F}ﺍﺑﻨﺘﻲ{GENDER_E}؟\p$"
 
 gOakSpeech_Text_SoYourNameIsPlayer::
-    .string "ﺣﺴﻨﺎ…\n"
-    .string "ﺇﺫﻥ، ﺍﺳﻤﻚ {PLAYER}!$"
+    .string "ﺇﺫﻥ… ﺍﺳﻤﻚ {PLAYER}، ﺃﻟﻴﺲ ﻛﺬﻟﻚ؟$"
 
 gOakSpeech_Text_WhatWasHisName::
-    .string "ﻫﺬ ﺣﻔﻴﺪﻱ.\p"
-    .string "ﺗﺘﻨﺎﻓﺴﺎﻥ ﻣﻨﺬ ﻧﻌﻮﻣﺔ\n"
-    .string "ﺃﻇﻔﺎﺭﻛﻤﺎ.\p"
-    .string "…ﻣﻤﻢ، ﻣﺎ ﻛﺎﻥ ﺍﺳﻤﻪ ﻳﺎ ﺗﺮﻯ؟$"
+    .string "ﻭﻫﺬ ﺣﻔﻴﺪﻱ.\p"
+    .string "ﺃﻧﺘﻤﺎ ﻣﺘﻨﺎﻓﺴﺎﻥ ﻣﻨﺬ ﺃﻥ ﻛﻨﺘﻤﺎ\n"
+    .string "ﺻﻐﻴﺮﻳﻦ.\p"
+    .string "…ﺁﻩ، ﻣﺎ ﺍﺳﻤﻪ ﻳﺎ ﺗﺮﻯ؟$"
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::
-    .string "ﺍﺳﻤﻪ… ﺍﺳﻤﻪ…\n"
-    .string "ﺇﻧﻪ ﻋﻠﻰ ﻃﺮﻑ ﻟﺴﺎﻧﻲ!$"
+    .string "ﻣﺎ ﺍﺳﻤﻪ… ﻣﺎ ﺍﺳﻤﻪ… ﺇﻧﻪ ﻋﻠﻰ\n"
+    .string "ﻃﺮﻑ ﻟﺴﺎﻧﻲ!$"
 
 gOakSpeech_Text_ConfirmRivalName::
-    .string "…ﺃﻛﺎﻥ ﺍﺳﻤﻪ {RIVAL}؟$"
+    .string "…ﺃﻫﻮ {RIVAL}؟$"
 
 gOakSpeech_Text_RememberRivalsName::
-    .string "ﺻﺤﻴﺢ! ﺗﺬﻛﺮﺗﻪ ﺍﻵﻥ!\n"
-    .string "ﺍﺳﻤﻪ {RIVAL}!\p$"
+    .string "ﻧﻌﻢ، ﻧﻌﻢ! ﺗﺬﻛﺮﺕ! ﺍﺳﻤﻪ {RIVAL}!\p$"
 
 gOakSpeech_Text_LetsGo::
     .string "{PLAYER}!\p"
-    .string "ﺃﺳﻄﻮﺭﺗﻚ ﻣﻊ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ\n"
-    .string "ﻋﻠﻰ ﻭﺷﻚ ﺃﻥ ﺗﻜﺘﺐ!\p"
+    .string "ﺣﻜﺎﻳﺘﻚ ﻣﻊ ﺒﻮﻛﻴﻤﻮﻧﺎﺕ ﺗﻮﺷﻚ\n"
+    .string "ﺃﻥ ﺗﺒﺪ!\p"
     .string "ﻋﺎﻟﻢ ﻣﻦ ﺍﻷﺣﻼﻡ ﻭﻟﻤﻐﺎﻣﺮﺕ\n"
-    .string "ﻳﻨﺘﻈﺮﻙ! ﻫﻴﺎ، {GENDER_M}ﺍﻧﻄﻠﻖ{GENDER_F}ﺍﻧﻄﻠﻘﻲ{GENDER_E}!$"
+    .string "ﻳﻨﺘﻈﺮﻙ!\p"
+    .string "ﻫﻴﺎ، {GENDER_M}ﺍﻧﻄﻠﻖ{GENDER_F}ﺍﻧﻄﻠﻘﻲ{GENDER_E}!$"
