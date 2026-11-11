@@ -290,3 +290,10 @@ _R5 = {'sText_PlayerUsedItem': '[[استخدم|استخدمت]] {B_PLAYER_NAME}\
 for _e in ENTRIES:
     if _e['id'] in _R5:
         _e['ar'] = _R5[_e['id']]
+
+# ---- Revision: the nickname prompt follows the species name
+for _e in ENTRIES:
+    if _e['id'] == 'gText_PkmnsNickname':
+        _e['ar'] = '، ما لقبه؟'
+        _e['box'] = ('line', 80, 'normal', 1)   # + the species name (60 px max): ~130 px in all
+        _e['note'] = 'Printed after the species name: «تشارماندر، ما لقبه؟».'

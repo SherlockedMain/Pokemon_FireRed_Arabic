@@ -1270,8 +1270,23 @@ static void PrintNameOnCardBack(void)
 
     if (sTrainerCardDataPtr->cardType == CARD_TYPE_FRLG)
     {
+#if TEXT_RTL
+        // The graphic "TRAINER:" label is erased: print «الاسم: NAME» as one line,
+        // ending where the English name ended, so it reads right to left.
+        u8 line[32];
+        s32 w;
+
+        StringCopy(line, gText_TrainerCardName);
+        StringAppend(line, sTrainerCardDataPtr->strings[TRAINER_CARD_STRING_NAME]);
+        // right-aligned, ending just inside the right end of the name strip
+        w = GetStringWidth(sTrainerCardFontIds[1], line, 0);
+        x = (w < 206) ? 206 - w : 0;   // the window starts a tile in from the screen edge
+        AddTextPrinterParameterized3(1, sTrainerCardFontIds[1], x,
+            sTrainerCardBackNameYPositions[sTrainerCardDataPtr->cardType], sTrainerCardTextColors, TEXT_SKIP_DRAW, line);
+#else
         AddTextPrinterParameterized3(1, sTrainerCardFontIds[1], sTrainerCardBackNameXPositions[sTrainerCardDataPtr->cardType],
             sTrainerCardBackNameYPositions[sTrainerCardDataPtr->cardType], sTrainerCardTextColors, TEXT_SKIP_DRAW, sTrainerCardDataPtr->strings[TRAINER_CARD_STRING_NAME]);
+#endif
     }
     else
     {    

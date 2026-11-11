@@ -165,12 +165,18 @@ def do_trainer_card(report):
         bg, others = colours(box)
         ink = max(others[:2], key=lum); shadow = min(others[:2], key=lum)
         relabel(im, box, kufam_rows(word, 10), ink=ink, shadow=shadow, erase=tuple(others[:2]), bg=bg)
-    for box, word in (((0, 70, 60, 78), 'المدرب:'),):          # "BADGES" (6 px tall) stays English
+    for box, word in ():          # «المدرب:» is printed as text on the card back now; "BADGES" stays English
         bg, others = colours(box)
         ink = max(others[:1] or [bg], key=lum)
         relabel(im, box, small_rows(word), ink=ink, erase=tuple(others[:2]), bg=bg)
+    # card back: erase the graphic "TRAINER:" label - the name line prints «الاسم: …» as text
+    x0, y0, x1, y1 = (0, 70, 60, 78)
+    bg = collections.Counter(px[x, y] for x in range(x0, x1 + 1) for y in range(y0, y1 + 1)).most_common(1)[0][0]
+    for x in range(x0, x1 + 1):
+        for y in range(y0, y1 + 1):
+            px[x, y] = bg
     im.save(path)
-    report.append('trainer card: «بطاقة المدرب», «المدرب:»')
+    report.append('trainer card: «بطاقة المدرب»; back label erased (printed as text)')
 
 def main():
     report = []

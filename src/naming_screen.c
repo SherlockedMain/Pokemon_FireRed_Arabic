@@ -1854,7 +1854,13 @@ static void DrawGenderIcon(void)
             StringCopy(genderSymbol, gText_FemaleSymbol);
             gender = FEMALE;
         }
+#if TEXT_RTL
+        // Arabic names are right-aligned up to the last cell: the symbol goes after the
+        // name in reading order, just left of the first cell
+        AddTextPrinterParameterized3(sNamingScreen->windows[2], FONT_NORMAL, sNamingScreen->inputCharBaseXPos - 0x40 - 10, 1, sGenderColors[gender], TEXT_SKIP_DRAW, genderSymbol);
+#else
         AddTextPrinterParameterized3(sNamingScreen->windows[2], FONT_NORMAL, 0x68, 1, sGenderColors[gender], TEXT_SKIP_DRAW, genderSymbol);
+#endif
     }
 }
 

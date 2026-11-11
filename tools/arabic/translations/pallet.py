@@ -391,3 +391,9 @@ _R5 = {'PalletTown_PlayersHouse_2F_Text_PlayedWithNES': '{PLAYER} [[يلعب|ت�
 for _e in ENTRIES:
     if _e['id'] in _R5:
         _e['ar'] = _R5[_e['id']]
+
+# ---- Revision 6: Oak's lab lines that read like a translation
+_R6 = {'PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe': 'أوك: آه، {PLAYER}!\n\nكيف حال البوكيمون الذي أعطيتك إياه؟\n\nيبدو أنه صار يحبك ويتعلق بك أكثر فأكثر.\n\nلا شك أنك [[مدرب موهوب!|مدربة موهوبة!]]\n\nما هذا؟ [[أحضرت|أحضرتِ]] لي شيئا؟', 'PalletTown_ProfessorOaksLab_Text_OakChoosingCharmander': 'آه! اخترت تشارماندر.\nعليك أن تربيه بصبر.\n\n[[أتختار|أتختارين]] إذن تشارماندر، بوكيمون النار، يا {PLAYER}؟', 'PalletTown_ProfessorOaksLab_Text_OakChoosingSquirtle': 'همم! اخترت سكويرتل.\nإنه جدير بالعناية.\n\n[[أتختار|أتختارين]] إذن سكويرتل، بوكيمون الماء، يا {PLAYER}؟', 'PalletTown_ProfessorOaksLab_Text_OakChoosingBulbasaur': 'فهمت! اخترت بولباسور.\nتربيته سهلة جدا.\n\n[[أتختار|أتختارين]] إذن بولباسور، بوكيمون العشب، يا {PLAYER}؟', 'PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese': 'أوك: رؤية البوكيمون وحدها لا تكفي لمعرفة كل شيء عنه.\n\nعليك أن [[تمسكه|تمسكيه]] لتكتمل بياناته.\n\nلذا، إليك بعض الأدوات لإمساك البوكيمونات البرية.', 'PalletTown_ProfessorOaksLab_Text_OakNeedYourHelpTooNeedToSeePokedexes': 'أوك: أعرف، أعرف. بالطبع أحتاج إلى عونك أنت أيضا.\n\nوالآن، أرياني جهازي البوكيديكس.', 'PalletTown_ProfessorOaksLab_Text_PlayersPokedexWasUpgraded': 'لقد طُوِّر بوكيديكس {PLAYER}!', 'PalletTown_ProfessorOaksLab_Text_OakFavorToAskYouPlayer': 'آه، هذا رائع حقا!\n\n{PLAYER}، عندي لك طلب مهم آخر.\n\n[[أصغ|أصغي]] إلي جيدا.'}
+for _e in ENTRIES:
+    if _e['id'] in _R6:
+        _e['ar'] = _R6[_e['id']]
